@@ -1,1 +1,342 @@
-My Daniel Page
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Parsons Data Visualization Thesis Projects and Research</title>
+
+  <link href="web/css/style.css" rel="stylesheet">
+  <link href="web/css/color.css" rel="stylesheet">
+  <link href="web/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+  <script>
+    // use preview images if available otherwise iframes directly
+    var usePreview = true;
+
+    $(document).ready(function() {
+      // activate tooltip
+      $('[data-toggle="tooltip"]').tooltip();
+
+      // images
+      $("div .project").each(function() {
+        if ($(this).attr('href') != undefined) {
+
+          // embed button
+          var embed = "<span class='glyphicon glyphicon-share' data-toggle='tooltip' title='Embed'></span>";
+          $(this).append(embed).click(function() {
+            $(this).find("input").animate({
+              width: 'toggle'
+            }).select();
+          });
+
+          // scale
+          var str = "<button type='button' class='btn btn-default btn-default' onClick='location.href=\"";
+          str += $(this).attr('href');
+          str += "\"'><span class= 'glyphicon glyphicon-resize-full' aria-hidden='true' ></span></button>";
+          $(this).append(str);
+
+          // create text field to copy from
+          var iframe = "<input id='embed' type='text' class='collapse pull-right btn btn-default col-md-12' value='" +
+            $(this).find("p").html() +
+            "<iframe width=\"100%\" height=\"100%\" src=\"" + window.location.href + "/." + $(this).attr('href') + "\"></iframe>" +
+            "<a href=\"https://visualizedata.github.io/undp/\"><img style=\"width:200px !important\" src=\"" + window.location.href + "/../" + "web/img/ParsonsDataVisualization.png" + "\"></a>" +
+            "'>";
+          if ($(this).find("input").length == 0) {
+            $(this).append(iframe);
+          }
+
+          // add preview image when available
+          if (usePreview) {
+            $(this).append("<img title='launch project' width=\"100%\" src='" + $(this).attr('href') + "/../" + $(this).attr('img-src') + "' onClick='location.href=\"" + $(this).attr('href') + "\"'>");
+            $(this).find("img").error(function() {
+              $(this).parent().append("<iframe width='100%' height='100%' src='" + $(this).parent().attr('href') +
+                "' frameborder='0' allowfullscreen></iframe>");
+              $(this).parent().find("img").remove();
+            });
+
+          }
+          else {
+            $(this).append("<iframe width='100%' height='566' src='" + $(this).attr('href') + "'></iframe>");
+          }
+        }
+      });
+
+      // $("div .project").hover(function() {
+      //   if ($(this).attr('href') != undefined) {
+
+      //     // iFrames
+      //     // add iframe with content
+      //     console.log("path: " + $(this).attr('href'));
+      //     $(this).has("img").append("<iframe width='100%' src='" + $(this).attr('href') + "'></iframe>");
+      //     // hide image
+      //     $(this).find("img").hide();
+      //   }
+      // }, function() {
+      //   $(this).has("img").find("iframe").remove();
+      //   $(this).find("img").show();
+      // });
+
+      // index
+      $("h3").each(function(i) {
+        $("#index").append("<li><a href='#" + i + "'>" +
+          "<span class='glyphicon glyphicon-chevron-down'></span>  &nbsp;" +
+          $(this).text() + "</a><li>");
+        $(this).prepend("<a id='" + i + "'>");
+      });
+
+    });
+  </script>
+</head>
+
+<body>
+  <div class="container">
+
+    <!--MENU-->
+    <div id="banner">
+      <div id="menu_button_wrapper">
+        <a href="#" id="menu_button" class="right-off-canvas-toggle menu-icon"><i class="fa fa-bars"></i></a>
+        <a href="#" id="search_button" class="right-off-canvas-toggle menu-icon"><i class="fa fa-search"></i></a>
+      </div>
+
+      <div id="site_lockup">
+        <h1 class="u_name col-md-12">
+          <a href="http://newschool.edu/">
+              <span class="font-width-1">T</span><span class="font-width-2">h</span><span class="font-width-1">e</span><span class="font-width-1">&nbsp;</span><span class="font-width-2">N</span><span class="font-width-1">e</span><span class="font-width-3">w</span><span class="font-width-1">&nbsp;</span><span class="font-width-1">S</span><span class="font-width-1">c</span><span class="font-width-2">h</span><span class="font-width-2">o</span><span class="font-width-2">o</span><span class="font-width-3">l</span>
+          </a>
+        </h1>
+        <div class="bottom-stripe col-md-12">
+          <div class="bottom-stripe-inner"></div>
+        </div>
+
+        <div id="stripe_menu" class="col-md-12">
+          <div id="inner-menu-stripe" class="bottom-stripe">
+            <div class="bottom-stripe-inner"></div>
+          </div>
+          <h1 class="sitename"><span class="font-width-3 kern-decrease-10"><a href="http://www.newschool.edu/parsons/ms-data-visualization/">Data Visualization</a></span></h1>
+        </div>
+        <div class="subtitle font-width-3 kern-decrease-10 col-md-10">
+          Thesis Projects and Research
+        </div>
+        
+        <!--YEAR-->
+        <div class="bottom-stripe col-md-12">
+          <div class="bottom-stripe-inner"></div>
+        </div>
+        <div class="font-width-3 col-md-12">
+          2016
+        </div>
+
+      </div>
+    </div>
+
+
+    <h2 class="col-md-10 col-md-offset-1">
+      The interdisciplinary Data Visualization graduate program brings together design, statistics, and computer science, developing critical abilities and facility for innovation in work settings in which data increasingly shapes opinion, policy, and decision making in all sectors. The following projects and research focus on wearable technology, the leadership gender gap, computation at the planetary scale, genetic diversity of plant species, the topology of Dante, food security in Canada's north, and the prevention of child maltreatment.
+    </h2>
+
+    <!--INDEX-->
+    <div class="col-md-12 col-md-10 col-md-offset-1">
+      <ul id="index">
+        <!--dynamically generated-->
+      </ul>
+      <br />
+    </div>
+
+    <!--PROJECT-->
+
+    <div class="bottom-stripe col-md-12">
+      <div class="bottom-stripe-inner"></div>
+    </div>
+    <h3 class="col-md-12">Barbara Compagnoni</h3>
+    <div class="bottom-stripe col-md-12">
+      <div class="bottom-stripe-inner"></div>
+    </div>
+
+    <a id="barbara"></a>
+    <div href="./" img-src="preview.png" class="project col-md-12">
+      <p class=" col-md-3 col-md-offset-1">
+        <span class="title">Feeling.it</span>
+      </p>
+      <p class="col-md-7">
+        Synopsis
+      </p>
+    </div>
+
+    <!--PROJECT-->
+
+    <div class="bottom-stripe col-md-12">
+      <div class="bottom-stripe-inner"></div>
+    </div>
+    <h3 class="col-md-12">Linnea Lapp</h3>
+    <div class="bottom-stripe col-md-12">
+      <div class="bottom-stripe-inner"></div>
+    </div>
+
+    <a id="linnea"></a>
+    <div href="./" img-src="preview.png" class="project col-md-12">
+      <p class=" col-md-3 col-md-offset-1">
+        <span class="title">Visualizing Food Insecurity In Canada’s North</span>
+      </p>
+      <p class="col-md-7">
+        Synopsis
+      </p>
+    </div>
+
+    <!--PROJECT-->
+
+    <div class="bottom-stripe col-md-12">
+      <div class="bottom-stripe-inner"></div>
+    </div>
+    <h3 class="col-md-12">Justine Keller</h3>
+    <div class="bottom-stripe col-md-12">
+      <div class="bottom-stripe-inner"></div>
+    </div>
+
+    <a id="justine"></a>
+    <div href="./" img-src="preview.png" class="project col-md-12">
+      <p class=" col-md-3 col-md-offset-1">
+        <span class="title">Leadership Gender Gap</span>
+      </p>
+      <p class="col-md-7">
+        Synopsis
+      </p>
+    </div>
+
+    <!--PROJECT-->
+
+    <div class="bottom-stripe col-md-12">
+      <div class="bottom-stripe-inner"></div>
+    </div>
+    <h3 class="col-md-12">Jacob Romer</h3>
+    <div class="bottom-stripe col-md-12">
+      <div class="bottom-stripe-inner"></div>
+    </div>
+
+    <a id="jacob"></a>
+    <div href="./" img-src="preview.png" class="project col-md-12">
+      <p class=" col-md-3 col-md-offset-1">
+        <span class="title">Planetary Blocker</span>
+      </p>
+      <p class="col-md-7">
+        Synopsis
+      </p>
+    </div>
+
+    <!--PROJECT-->
+
+    <div class="bottom-stripe col-md-12">
+      <div class="bottom-stripe-inner"></div>
+    </div>
+    <h3 class="col-md-12">Gabi Steele</h3>
+    <div class="bottom-stripe col-md-12">
+      <div class="bottom-stripe-inner"></div>
+    </div>
+
+    <a id="gabi"></a>
+    <div href="./" img-src="preview.png" class="project col-md-12">
+      <p class=" col-md-3 col-md-offset-1">
+        <span class="title">GABI</span>
+      </p>
+      <p class="col-md-7">
+        Synopsis
+      </p>
+    </div>
+
+    <!--PROJECT-->
+
+    <div class="bottom-stripe col-md-12">
+      <div class="bottom-stripe-inner"></div>
+    </div>
+    <h3 class="col-md-12">Jaime Tanner</h3>
+    <div class="bottom-stripe col-md-12">
+      <div class="bottom-stripe-inner"></div>
+    </div>
+
+    <a id="jaime"></a>
+    <div href="./" img-src="preview.png" class="project col-md-12">
+      <p class=" col-md-3 col-md-offset-1">
+        <span class="title">Taxonomic Bias: In Scientific Research & Funding</span>
+      </p>
+      <p class="col-md-7">
+        Synopsis
+      </p>
+    </div>
+
+    <!--PROJECT-->
+
+    <div class="bottom-stripe col-md-12">
+      <div class="bottom-stripe-inner"></div>
+    </div>
+    <h3 class="col-md-12">Jon Thirkield</h3>
+    <div class="bottom-stripe col-md-12">
+      <div class="bottom-stripe-inner"></div>
+    </div>
+
+    <a id="jon"></a>
+    <div href="./" img-src="preview.png" class="project col-md-12">
+      <p class=" col-md-3 col-md-offset-1">
+        <span class="title">Dante`s Topology</span>
+      </p>
+      <p class="col-md-7">
+        Synopsis
+      </p>
+    </div>
+
+    <!--FOOTER-->
+
+    <div class="bottom-stripe col-md-12">
+      <div class="bottom-stripe-inner"></div>
+    </div>
+
+    <div id="about">
+      <div class="row">
+        <div class="col-md-3 col-md-offset-1">
+
+          <p><a href="http://www.newschool.edu/parsons/ms-data-visualization/">MS Data Visualization 2016</a></p>
+
+          <a href="https://github.com/compagnb">Barbara Compagnoni</a>
+          <br /> <a href="https://github.com/llapp">Linnea Lapp</a>
+          <br /> <a href="https://github.com/Justinerk2">Justine Keller</a>
+          <br /> <a href="https://github.com/jacobmbr">Jacob Romer</a>
+          <br /> <a href="https://github.com/gabisteele">Gabi Steele</a>
+          <br /> <a href="https://github.com/jat3002">Jaime Tanner</a>
+          <br /> <a href="https://github.com/jthirkield">Jon Thirkield</a>
+          <p></p>
+
+        </div>
+        <div class="col-md-3">
+
+          <p><a href="http://www.newschool.edu/parsons/">Parsons School of Design</a></p>
+          <a href="http://www.newschool.edu/parsons/faculty.aspx?id=4e54-5978-4d7a-4932">Daniel Sauter, Assoc. Prof.</a>
+          <br /> <a href="https://courses.newschool.edu/courses/PGDV5200">PGDV Major Studio 2</a>
+          <p></p>
+
+        </div>
+        <div class="col-md-3">
+
+          <p><a href="http://www.newschool.edu/parsons/ms-data-visualization/">Contact</a></p>
+          <a href="http://www.newschool.edu/parsons/faculty.aspx?id=4d6a-5577-4d6a-4d7a">Aaron Hill, Director and Assist. Prof.</a>
+          <br /> <a href="http://www.newschool.edu/parsons/art-media-technology-school-amt/">Art, Media, and Technology</a>
+
+        </div>
+        <div class="col-md-1 text-right">
+            <p>&nbsp;</p>
+            <a href="https://github.com/visualizedata"><img data-toggle='tooltip' title='Source' src="web/img/GitHub.png" style="width:30px"></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="bottom-stripe col-md-12 marginbot-50">
+      <div class="bottom-stripe-inner"></div>
+    </div>
+
+  </div>
+  <script src="web/js/bootstrap.min.js"></script>
+  <script src="web/js/jquery.easing.min.js"></script>
+  <script src="web/js/custom.js"></script>
+</body>
+
+</html>
