@@ -25,17 +25,17 @@
         if ($(this).attr('href') != undefined) {
 
           // embed button
-          var embed = "<span class='glyphicon glyphicon-share' data-toggle='tooltip' title='Embed'></span>";
-          $(this).append(embed).click(function() {
-            $(this).find("input").animate({
-              width: 'toggle'
-            }).select();
-          });
+          // var embed = "<span class='glyphicon glyphicon-share' data-toggle='tooltip' title='Embed'></span>";
+          // $(this).append(embed).click(function() {
+          //   $(this).find("input").animate({
+          //     width: 'toggle'
+          //   }).select();
+          // });
 
           // scale
-          var str = "<button type='button' class='btn btn-default btn-default' onClick='location.href=\"";
+          var str = "<button type='button' class='btn-large' title='launch project' onClick='window.open(\"";
           str += $(this).attr('href');
-          str += "\"'><span class= 'glyphicon glyphicon-resize-full' aria-hidden='true' ></span></button>";
+          str += "\")'><span class= 'glyphicon glyphicon-resize-full' aria-hidden='true' ></span></button>";
           $(this).append(str);
 
           // create text field to copy from
@@ -50,11 +50,12 @@
 
           // add preview image when available
           if (usePreview) {
-            $(this).append("<img title='launch project' width=\"100%\" src='" + $(this).attr('img-src') + "' onClick='location.href=\"" + $(this).attr('href') + "\"'>");
+            $(this).append("<img title='launch project' width=\"100%\" src='" + $(this).attr('img-src') + "' target='_blank' onClick='window.open(\"" + $(this).attr('href') + "\")'>");
             $(this).find("img").error(function() {
               $(this).parent().append("<iframe width='100%' height='100%' src='" + $(this).parent().attr('href') +
                 "' frameborder='0' allowfullscreen></iframe>");
               $(this).parent().find("img").remove();
+              $(this).parent().find(".title").remove();
             });
 
           }
@@ -156,12 +157,14 @@
     </div>
 
     <a id="barbara"></a>
-    <div href="http://compagnb.github.io/thesis/" img-src="preview.png" class="project col-md-12">
+    <div href="http://compagnb.github.io/thesis/" img-src="content/barbaraCompagnoni.png" class="project col-md-12">
       <p class=" col-md-2">
         <span class="title">Feeling.it</span>
       </p>
       <p class="col-md-9">
-        Synopsis
+        We are constrained by our perception of reality. How our bodies interpret data is the result of our brain processing the environment around us. Data from the environment is observed through our senses, or in computational terms “sensors”. However, these “sensors” can act as filters, collecting the information deemed relevant, disregarding the information deemed not relevant. Inherently they are biased based on the past experiences and bandwidth of the subject.
+        <br /><br />
+        The data collected from the environment triggers a response from the brain to different parts of the body. Through the interaction with these “sensors,” experiences become a unique series of signals and chain reactions controlled by the nervous system. These experiences become memories when data of the event is stored in the internal hard drive that is the human brain. These memories can be accessed in a variety of ways, including as the result of similar interactions. By collecting the environmental stimuli in its entirety, as well as the biometric data created by the electrical and chemical reactions communicating these responses throughout the body from the brain, we are able to evaluate the data without the influence of these filters. Hence by looking further into ourselves for data we can begin to break down signals and reactions, thus freeing our data from the interpretations to which the mind constrains us.
       </p>
     </div>
 
@@ -176,7 +179,7 @@
     </div>
 
     <a id="linnea"></a>
-    <div href="http://llapp.github.io/majorstudio2" img-src="preview.png" class="project col-md-12">
+    <div href="http://llapp.github.io/majorstudio2" img-src="content/linneaLapp.png" class="project col-md-12">
       <p class=" col-md-2">
         <span class="title">Visualizing Food Insecurity In Canada’s North</span>
       </p>
@@ -198,12 +201,18 @@
     </div>
 
     <a id="justine"></a>
-    <div href="./" img-src="preview.png" class="project col-md-12">
+    <div href="http://justinerk2.github.io/MajorStudio2/" img-src="content/justineKeller.png" class="project col-md-12">
       <p class=" col-md-2">
         <span class="title">Leadership Gender Gap</span>
       </p>
       <p class="col-md-9">
-        Synopsis
+        While 92% of girls believe anyone can acquire the skills of leadership, only 21% believe they currently have most of the key qualities required to be a good leader (Schoenberg, Salmond, Fleshman 2008, 14).
+        <br /><br />
+        Political leadership determines the public policy of a country. Diverse political leadership ensures accurate representation of the population. In the United States, a gender gap exists in political leadership. Although, women gained the right to vote 97 years ago, in federal and state politics, women hold less than 20% of seats in congress (Pew Research Center 2015).
+        <br /><br />
+        Girls and women are often not viewed in society as strong leaders, not only by boys and men, but equally by women themselves. Society needs to become aware of these false perceptions of women leaders, and their negative impact on political representation.
+        <br /><br />
+        This visualization contrasts the perspectives of women, men, boys and girls, to the number of men and women in various political entities. Comparing these four viewpoints allows for a more comprehensive look at how gender and age affect the relation between the perceptions of women leaders and the reality of the number of women political leaders.
       </p>
     </div>
 
@@ -218,7 +227,7 @@
     </div>
 
     <a id="jacob"></a>
-    <div href="http://jacobmbr.github.io/thesis" img-src="content/jacobRomer.png" class="project col-md-12">
+    <div href="http://jacobromer.de/glimpse/" img-src="content/jacobRomer.png" class="project col-md-12">
       <p class=" col-md-2">
         <span class="title">Glimpse: You can only know what you see, you can only act on what you know.</span>
       </p>

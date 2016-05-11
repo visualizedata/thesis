@@ -302,8 +302,3 @@ button:hover,
     color: #e82e21 !important;
     transition: all .3s ease-in-out;
 }
-
-.project .glyphicon {
-    position: relative;
-    left: 50px;
-}
