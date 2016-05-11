@@ -17,9 +17,6 @@
     var usePreview = true;
 
     $(document).ready(function() {
-      // activate tooltip
-      $('[data-toggle="tooltip"]').tooltip();
-
       // images
       $("div .project").each(function() {
         if ($(this).attr('href') != undefined) {
@@ -33,9 +30,11 @@
           // });
 
           // scale
-          var str = "<button type='button' class='btn-large' title='launch project' onClick='window.open(\"";
-          str += $(this).attr('href');
-          str += "\")'><span class= 'glyphicon glyphicon-resize-full' aria-hidden='true' ></span></button>";
+          var str = "";
+          // str += "<button type='button' class='btn-large' title='launch project' onClick='window.open(\"";
+          // str += $(this).attr('href');
+          // str += "\")'><span class= 'glyphicon glyphicon-resize-full' aria-hidden='true' ></span></button>";
+          str += "<a href='#top'><span class='pull-right glyphicon glyphicon-chevron-up' data-toggle='tooltip' data-placement='left' title='top'></span></a>";
           $(this).append(str);
 
           // create text field to copy from
@@ -50,7 +49,7 @@
 
           // add preview image when available
           if (usePreview) {
-            $(this).append("<img title='launch project' width=\"100%\" src='" + $(this).attr('img-src') + "' target='_blank' onClick='window.open(\"" + $(this).attr('href') + "\")'>");
+            $(this).append("<img data-toggle='tooltip' data-placement='left' title='launch project' width=\"100%\" src='" + $(this).attr('img-src') + "' target='_blank' onClick='window.open(\"" + $(this).attr('href') + "\")'>");
             $(this).find("img").error(function() {
               $(this).parent().append("<iframe width='100%' height='100%' src='" + $(this).parent().attr('href') +
                 "' frameborder='0' allowfullscreen></iframe>");
@@ -87,6 +86,10 @@
           $(this).text() + "</a><li>");
         $(this).prepend("<a id='" + i + "'>");
       });
+      
+      // activate tooltip
+      $('[data-toggle="tooltip"]').tooltip();
+
 
     });
   </script>
@@ -162,9 +165,7 @@
         <span class="title">Feeling.it</span>
       </p>
       <p class="col-md-9">
-        We are constrained by our perception of reality. How our bodies interpret data is the result of our brain processing the environment around us. Data from the environment is observed through our senses, or in computational terms “sensors”. However, these “sensors” can act as filters, collecting the information deemed relevant, disregarding the information deemed not relevant. Inherently they are biased based on the past experiences and bandwidth of the subject.
-        <br /><br />
-        The data collected from the environment triggers a response from the brain to different parts of the body. Through the interaction with these “sensors,” experiences become a unique series of signals and chain reactions controlled by the nervous system. These experiences become memories when data of the event is stored in the internal hard drive that is the human brain. These memories can be accessed in a variety of ways, including as the result of similar interactions. By collecting the environmental stimuli in its entirety, as well as the biometric data created by the electrical and chemical reactions communicating these responses throughout the body from the brain, we are able to evaluate the data without the influence of these filters. Hence by looking further into ourselves for data we can begin to break down signals and reactions, thus freeing our data from the interpretations to which the mind constrains us.
+        How our bodies interpret data is the result of our brain processing the environment around us through our senses. The data collected from the environment triggers a response from the brain to different parts of the body. These physiological and psychological reactions become a unique series of signals and chain reactions controlled by the nervous system. These experiences become memories when data of the event is stored in the human brain. By collecting the environmental stimuli in its entirety, as well as the biometric data created by the electrical and chemical reactions communicating these responses throughout the body from the brain, we are able to evaluate the data without the influence of these filters. Each snapshot of intimate communication within our bodies is documented through the sensor readings of wearable technologies.These processors present biological data to the subject through the perceptions and realities created by the goals of the companies that produce these technologies. Feelin.it is an opportunity free, share and compare this intimate data with others whom we choose.
       </p>
     </div>
 
