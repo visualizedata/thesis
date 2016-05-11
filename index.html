@@ -50,7 +50,7 @@
 
           // add preview image when available
           if (usePreview) {
-            $(this).append("<img title='launch project' width=\"100%\" src='" + $(this).attr('href') + "/../" + $(this).attr('img-src') + "' onClick='location.href=\"" + $(this).attr('href') + "\"'>");
+            $(this).append("<img title='launch project' width=\"100%\" src='" + $(this).attr('img-src') + "' onClick='location.href=\"" + $(this).attr('href') + "\"'>");
             $(this).find("img").error(function() {
               $(this).parent().append("<iframe width='100%' height='100%' src='" + $(this).parent().attr('href') +
                 "' frameborder='0' allowfullscreen></iframe>");
@@ -218,12 +218,16 @@
     </div>
 
     <a id="jacob"></a>
-    <div href="./" img-src="preview.png" class="project col-md-12">
+    <div href="http://jacobmbr.github.io/thesis" img-src="content/jacobRomer.png" class="project col-md-12">
       <p class=" col-md-2">
-        <span class="title">Planetary Blocker</span>
+        <span class="title">Glimpse: You can only know what you see, you can only act on what you know.</span>
       </p>
       <p class="col-md-9">
-        Synopsis
+        Glimpse is a Chrome extension that reveals the network of entities who watch you on the web, across time, and across space. It shows you who can track where you are on the internet, and where you are in real life.
+        <br /><br />
+        Every time you visit a website, the other party can decide who else to put in the loop. These third parties may send you images and videos you want to see, serve you advertising you don't want to see, or track your behaviour without you knowing about it. They all have one thing in common: At the moment your browser interacts with them, they know what site you're on, what time you visited that site, and where you were at that moment. This information can be used to build a profile, but you have no way of knowing who knows what.
+        <br /><br />
+        Glimpse is an attempt to create legibility around your online footprint: It hooks into your browser and keeps a record of what entities receive information about you. You can go and see what part of your life is exposed to whom.
       </p>
     </div>
 
@@ -238,7 +242,7 @@
     </div>
 
     <a id="gabi"></a>
-    <div href="http://gabisteele.github.io/thesis" img-src="preview.png" class="project col-md-12">
+    <div href="http://gabisteele.github.io/thesis" img-src="content/gabiSteele.png" class="project col-md-12">
       <p class=" col-md-2">
         <span class="title">Visualizing the Group Attachment Based Intervention Study: Working to Reduce Child Maltreatment in Vulnerable Families</span>
       </p>
@@ -260,7 +264,7 @@
     </div>
 
     <a id="jaime"></a>
-    <div href="http://tannerjaime.github.io/thesis/" img-src="preview.png" class="project col-md-12">
+    <div href="http://tannerjaime.github.io/thesis/" img-src="content/jaimeTanner.png" class="project col-md-12">
       <p class=" col-md-2">
         <span class="title">Taxonomic Bias: In Scientific Research & Funding</span>
       </p>
@@ -280,7 +284,7 @@
     </div>
 
     <a id="jon"></a>
-    <div href="http://jthirkield.github.io/thesis/" img-src="preview.png" class="project col-md-12">
+    <div href="http://jthirkield.github.io/thesis/" img-src="content/jonThirkield.png" class="project col-md-12">
       <p class=" col-md-2">
         <span class="title">Visualizing Poetic Space: Mapping Dante’s Comedy</span>
       </p>
