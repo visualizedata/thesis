@@ -139,6 +139,10 @@ input[type=text] {
     font-size: 11pt;
 }
 
+p {
+    padding: 0 !important;
+}
+
 h3 {
     font-family: "neue-display-ultra" !important;
     letter-spacing: 0.05em;
