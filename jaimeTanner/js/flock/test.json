@@ -1,0 +1,41 @@
+var obj = [{
+        species: 'one',
+        sciName: 'Cycas one',
+        classification: {
+            kingdom: 'Plantae',
+            phylum: 'Cycadophyta',
+            class: 'Cycadopsida',
+            order: 'Cycadales',
+            family: 'Cycadaceae',
+            genus: 'Cycas'
+        },
+        natureCounts: 1,
+        natureDOI: ['http://dx.doi.org/10.1038/scientificamerican0858-117', 'http://dx.doi.org/10.1038/scientificamerican0858-117']
+    },{
+        species: 'two',
+        sciName: 'Cycas two',
+        classification: {
+            kingdom: 'Plantae',
+            phylum: 'Cycadophyta',
+            class: 'Cycadopsida',
+            order: 'Cycadales',
+            family: 'Cycadaceae',
+            genus: 'Cycas'
+        },
+        natureCounts: 2,
+        natureDOI: ['http://dx.doi.org/10.1038/scientificamerican0858-117', 'http://dx.doi.org/10.1038/scientificamerican0858-117']
+    },
+    {
+        species: 'three',
+        sciName: 'Cycas three',
+        classification: {
+            kingdom: 'Plantae',
+            phylum: 'Cycadophyta',
+            class: 'Cycadopsida',
+            order: 'Cycadales',
+            family: 'Cycadaceae',
+            genus: 'Cycas'
+        },
+        natureCounts: 2,
+        natureDOI: ['http://dx.doi.org/10.1038/scientificamerican0858-117', 'http://dx.doi.org/10.1038/scientificamerican0858-117']
+    }]
