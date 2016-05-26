@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>three.js webgl - draggable particles</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+	<style>
+		body {
+			font-family: Monospace;
+			background-color: #f0f0f0;
+			margin: 0px;
+			overflow: hidden;
+		}
+	</style>
+</head>
+
+<body>
+	<link href="style.css" rel="stylesheet">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+	<script src="build/three.min.js"></script>
+	<script src="js/controls/TrackballControls.js"></script>
+	<script src="js/libs/stats.min.js"></script>
+	<script src="Cnidaria.json"></script>
+
+
+	<!--<h4 class="title" onClick="test()"> Select Here To Search Species </h4>-->
+	<ul class="title">
+		<li>SELECT BELOW TO SEARCH SPECIES
+			<ul id="list">
+				<li class="active">Animalia</li>
+
+				<li class="active" onClick="phylumSelected()">Cnidaria</li>
+			</ul>
+		</li>
+	</ul>
+	<!--info-->
+	<div id="info">
+		<span class="tax">Animalia</span>
+		<span class="kingdom"> Kingdom</span> 
+	</div>
+	
+	<div id="nature">Nature</div>
+	
+
+	<!--<span class="phylum"> Phylum </span> <span>Cnidaria</span>-->
+	<script>
+		// The Nature of Code
+		// Daniel Shiffman
+		// http://natureofcode.com
+		// Simple Particle System
+
+		var ps;
+		var selected = [];
+		// levels available
+		var hierarchy = ["kingdom", "phylum", "class", "order", "family", "genus", "species", "sciName"];
+		// current level
+		var currentLevel = 3;
+
+		var ParticleSystem = function(position) {
+			this.origin = new THREE.Vector3(0, 0, 0);
+			this.particles = [];
+
+			this.addParticle = function(k, p, c, o, f, g, s, sn, count, link, title) {
+				this.particles.push(new Particle(new THREE.Vector3((Math.random() * 100 - 50), 0, 0), k, p, c, o, f, g, s, sn, count, link, title));
+			};
+
+			this.run = function() {
+				for (var i = 0; i < this.particles.length; i++) {
+					var p = this.particles[i];
+					if (p.lifespan > 0) {
+					p.applyBehaviors(this.particles);
+					p.update();
+					}
+					// apply lifespan, or not
+					// 	if (p.isDead()) {
+					// 	 this.particles.splice(i, 1);
+					// 	}
+				}
+			};
+
+			this.clear = function() {
+				for (var i = 0; i < this.particles.length; i++) {
+					scene.remove(this.particles.object);
+					this.particles.remove();
+					this.particles.splice(i, 1);
+					this.objects.splice(i, 1);
+				}
+			}
+
+			// A function to apply a force to all Particles
+			this.applyForce = function(f) {
+				for (var i = 0; i < this.particles.length; i++) {
+					this.particles[i].applyForce(f);
+				}
+			};
+
+		};
+
+		var Particle = function(position, k, p, c, o, f, g, s, sn, count, link, title) {
+			this.acceleration = new THREE.Vector3(0, 0, 0);
+			this.velocity = new THREE.Vector3(0, 0, 0);
+			this.lifespan = 500.0;
+
+			this.r = 10;
+			this.maxspeed = 3; // Maximum speed
+			this.maxforce = 0.2; // Maximum steering force
+
+			// throw the dice to simulate a specific species from the db
+			this.species = count; // adjust scale based on shuffle
+
+			geometry = new THREE.CircleBufferGeometry(this.r); // parameter represents scale
+			// create object with basic material and color based on random species shuffled earlier
+			// color is made up on arbitrary number based on species code
+			this.object = new THREE.Mesh(geometry, new THREE.MeshBasicMaterial({
+				color: this.species / 3 * 0x00ff9d,
+				wireframe: false
+			}));
+			this.object.position = position.clone();
+			this.object.kingdom = k;
+			this.object.phylum = p;
+			this.object.class = c;
+			this.object.order = o;
+			this.object.family = f;
+			this.object.genus = g;
+			this.object.species = s;
+			this.object.sciName = sn;
+			this.object.natureCount = count;
+			this.object.natureArticles = (JSON.stringify(link));
+			// make object selectable by name
+			this.object.name = this.object.sciName;
+			// this.object.natureLink = [];
+			// this.object.natureTitle = [];
+			// for (var i = 0; i < link.length; i++){
+			// this.object.natureLink.push(link);
+			// this.object.natureTitle.push(title);
+			// }
+			// Optional shadows
+			// this.object.castShadow = true;
+			// this.object.receiveShadow = true;
+
+			// Add to THREE scene
+			scene.add(this.object);
+			// Required for ray tracing and selecting
+			objects.push(this.object);
+
+			this.applyBehaviors = function(particles) {
+				var separateForce = this.separate(particles);
+				// console.log(this.object.natureCount);
+				if (this.object.natureCount == 0) {
+					//sets where particles will move 
+					var seekForce = this.seek(new THREE.Vector3(window.innerWidth / 3 * -1, 100, 0));
+				}
+				// else if (this.object.natureCount > 0 && this.object.natureCount < 6) {
+				// 	// var seekForce = this.seek(new THREE.Vector3((((window.innerWidth / 1.15) - (window.innerWidth / 1.15 * -1)) / this.object.natureCount) + (window.innerWidth / 1.15 * -1) , 100, 0));
+				// 	var seekForce = this.seek(new THREE.Vector3(0, 100, 0));
+				// }
+				else {
+					var seekForce = this.seek(new THREE.Vector3(window.innerWidth / 3, 100, 0));
+				}
+
+				// relationship between separation and seeking
+				separateForce.multiplyScalar(10); // double separation
+				seekForce.multiplyScalar(5); // than seek force
+
+				// apply to the force vectors adding up to a direction
+				this.applyForce(separateForce);
+				this.applyForce(seekForce);
+			};
+
+			// add each force to one total acceleration
+			this.applyForce = function(force) {
+				this.acceleration.add(force); // this could be eased as well
+			};
+
+			// separate each particle from all neighbors
+			// this is computationally more expensize, because each particle nees to check all the others to determine behaviour
+			this.separate = function(particles) {
+				var desiredseparation = this.r * 5; // separate by 2.5 diameters
+				var sum = new THREE.Vector3(0, 0, 0);
+				var diff = new THREE.Vector3(0, 0, 0);
+				var count = 0;
+				// For every boid in the system, check if it's too close
+				for (var i = 0; i < particles.length; i++) {
+					var d = this.object.position.distanceTo(particles[i].object.position);
+					// If the distance is greater than 0 and less than an arbitrary amount (0 when you are yourself)
+					if ((d > 0) && (d < desiredseparation)) {
+						// Calculate vector pointing away from neighbor
+						// diff = this.object.position.sub(particles[i].object.position);
+						diff.subVectors(this.object.position, particles[i].object.position);
+						diff.normalize();
+						diff.divideScalar(d); // Weight by distance
+						sum.add(diff);
+						count++; // Keep track of how many
+					}
+				}
+				// Average -- divide by how many
+				if (count > 0) {
+					sum.divideScalar(count);
+					// Our desired vector is the average scaled to maximum speed
+					sum.normalize();
+					sum.multiplyScalar(this.maxspeed);
+					// Implement Reynolds: Steering = Desired - Velocity
+					sum.sub(this.velocity);
+					sum.clampLength(-this.maxforce, this.maxforce);
+				}
+				return sum;
+			};
+
+			// seek the mouse
+			// this could be any attractor, or a series for them based on species
+			this.seek = function(target) {
+				var desired = target.sub(this.object.position); // A vector pointing from the location to the target
+				// console.log(this.position);
+				// Normalize desired and scale to maximum speed
+				desired.normalize();
+				desired.multiplyScalar(this.maxspeed);
+				// Steering = Desired minus velocity
+				var steer = desired.sub(this.velocity);
+				steer.clampLength(-this.maxforce, this.maxforce);
+				return steer;
+			};
+
+			// Method to update position
+			this.update = function() {
+				this.velocity.add(this.acceleration);
+				this.velocity.clampLength(0, this.maxspeed);
+				this.object.position.add(this.velocity);
+				this.acceleration.multiplyScalar(0);
+				// this is forcing each 
+				this.object.position.z = 0;
+				// Differentiate species through z offset
+				// this.object.position.setZ(this.species * 100);
+				// lifespan is for making particles expire
+				this.lifespan -= 1;
+			};
+
+			// Method to display
+			this.status = function() {
+				console.log("my position x:" + this.object.position.x + "| y: " + this.object.position.y + "| z: " + this.object.position.z);
+				console.log("my species: " + this.species);
+			};
+
+			// Is the particle still useful?
+			this.isDead = function() {
+				if (this.lifespan < 0.0) {
+					return true;
+				}
+				else {
+					return false;
+				}
+			};
+
+			this.remove = function() {
+				var selectedObject = scene.getObjectByName(this.object.name);
+    			scene.remove( selectedObject );
+				// scene.remove(this.object);
+			}
+		};
+
+		// Threejs example draggable box
+
+		var container, stats;
+		var camera, controls, scene, renderer, geometry;
+		var objects = [],
+			plane;
+
+		var raycaster = new THREE.Raycaster();
+		var mouse = new THREE.Vector2(),
+			offset = new THREE.Vector3(),
+			INTERSECTED, SELECTED;
+
+		init();
+		animate();
+
+		function init() {
+
+			container = document.createElement('div');
+			document.body.appendChild(container);
+
+			camera = new THREE.PerspectiveCamera(70, window.innerWidth / window.innerHeight, 1, 10000);
+			camera.position.z = 1000;
+
+			controls = new THREE.TrackballControls(camera);
+			controls.rotateSpeed = 1.0;
+			controls.zoomSpeed = 1.2;
+			controls.panSpeed = 0.8;
+			controls.noZoom = false;
+			controls.noPan = false;
+			controls.staticMoving = true;
+			controls.dynamicDampingFactor = 0.3;
+
+			scene = new THREE.Scene();
+
+			scene.add(new THREE.AmbientLight(0x505050));
+
+			var light = new THREE.SpotLight(0xffffff, 1.5);
+			light.position.set(0, 500, 2000);
+			light.castShadow = true;
+
+			light.shadow.camera.near = 200;
+			light.shadow.camera.far = camera.far;
+			light.shadow.camera.fov = 50;
+
+			light.shadow.bias = -0.00022;
+
+			light.shadow.mapSize.width = 2048;
+			light.shadow.mapSize.height = 2048;
+
+			scene.add(light);
+
+			// var geometry = new THREE.BoxGeometry( 40, 40, 40 );
+
+			ps = new ParticleSystem(new THREE.Vector3(0, 0, 0));
+
+			plane = new THREE.Mesh(
+				new THREE.PlaneBufferGeometry(2000, 2000, 8, 8),
+				new THREE.MeshBasicMaterial({
+					visible: false
+				})
+			);
+			scene.add(plane);
+
+			renderer = new THREE.WebGLRenderer({
+				antialias: true
+			});
+			renderer.setClearColor(0xf0f0f0);
+			renderer.setPixelRatio(window.devicePixelRatio);
+			renderer.setSize(window.innerWidth, window.innerHeight);
+			renderer.sortObjects = false;
+
+			renderer.shadowMap.enabled = true;
+			renderer.shadowMap.type = THREE.PCFShadowMap;
+
+			container.appendChild(renderer.domElement);
+
+			stats = new Stats();
+			stats.domElement.style.position = 'absolute';
+			stats.domElement.style.top = '0px';
+			// container.appendChild(stats.domElement);
+
+			renderer.domElement.addEventListener('mousemove', onDocumentMouseMove, false);
+			renderer.domElement.addEventListener('mousedown', onDocumentMouseDown, false);
+			renderer.domElement.addEventListener('mouseup', onDocumentMouseUp, false);
+
+			//
+
+			window.addEventListener('resize', onWindowResize, false);
+
+			// initial selection
+			selection();
+		}
+
+
+		function onWindowResize() {
+
+			camera.aspect = window.innerWidth / window.innerHeight;
+			camera.updateProjectionMatrix();
+
+			renderer.setSize(window.innerWidth, window.innerHeight);
+
+		}
+
+		function onDocumentMouseMove(event) {
+
+			event.preventDefault();
+
+			mouse.x = (event.clientX / window.innerWidth) * 2 - 1;
+			mouse.y = -(event.clientY / window.innerHeight) * 2 + 1;
+
+			//
+
+			raycaster.setFromCamera(mouse, camera);
+
+			if (SELECTED) {
+
+				var intersects = raycaster.intersectObject(plane);
+
+				if (intersects.length > 0) {
+					//when clicked, do this
+					
+					// set some output text
+					// document.getElementById("nature").innerHTML="";
+					
+					SELECTED.material.color.setHex(0xff0000);
+					SELECTED.position.copy(intersects[0].point.sub(offset));
+
+				}
+
+				return;
+
+			}
+
+			var intersects = raycaster.intersectObjects(objects);
+
+			if (intersects.length > 0) {
+
+				if (INTERSECTED != intersects[0].object) {
+
+					INTERSECTED = intersects[0].object;
+					INTERSECTED.currentHex = INTERSECTED.material.color.getHex();
+					INTERSECTED.material.color.setHex(0X444444);
+					
+					// document.getElementById("kingdom").innerHTML= INTERSECTED.object.kingdom;
+
+
+					if (INTERSECTED.natureCount > 0)
+						document.getElementById("nature").innerHTML="<a href='"+INTERSECTED.natureArticles+"'>"+INTERSECTED.natureCount+"  refereence article " +"</a>";
+					else
+						document.getElementById("nature").innerHTML="";
+					
+					// console.log("intersects");
+
+					plane.position.copy(INTERSECTED.position);
+					plane.lookAt(camera.position);
+
+				}
+
+				container.style.cursor = 'pointer';
+
+			}
+			else {
+
+				if (INTERSECTED) INTERSECTED.material.color.setHex(INTERSECTED.currentHex);
+
+				INTERSECTED = null;
+
+				container.style.cursor = 'auto';
+
+			}
+
+
+
+		}
+
+		function onDocumentMouseDown(event) {
+
+
+			console.log("number of objects: " + objects.length);
+			// console.log(objects);
+			event.preventDefault();
+
+
+			// send out a virtual ray to catch intersection objects so we can drag and select them
+			raycaster.setFromCamera(mouse, camera);
+
+			var intersects = raycaster.intersectObjects(objects);
+
+			// if we found intersection objects
+			if (intersects.length > 0) {
+
+				controls.enabled = false;
+
+				SELECTED = intersects[0].object;
+
+				selection(SELECTED, currentLevel);
+
+
+				var intersects = raycaster.intersectObject(plane);
+
+				if (intersects.length > 0) {
+
+					offset.copy(intersects[0].point).sub(plane.position);
+
+				}
+
+				container.style.cursor = 'move';
+
+			}
+
+		}
+
+		// reset after dragging object is compete
+		function onDocumentMouseUp(event) {
+
+			event.preventDefault();
+
+			controls.enabled = true;
+
+			if (INTERSECTED) {
+
+				plane.position.copy(INTERSECTED.position);
+
+				SELECTED = null;
+
+			}
+
+			container.style.cursor = 'auto';
+
+		}
+
+		//
+
+		function animate() {
+
+			// add a new object each frame, 500 total for now, this should be done in function that loads the data
+
+			// if (ps.particles.length < 500)
+			// 	ps.addParticle();
+
+
+
+
+			// Apply gravity force to all Particles
+			// var gravity = new THREE.Vector3( 0, 0.01, 0);
+			// ps.applyForce(gravity);
+			ps.run();
+
+
+
+			requestAnimationFrame(animate);
+
+			render();
+			stats.update();
+
+		}
+
+		// 		function makeParticles() {
+		// // 			for (var i = 0; i < selected.length; i ++){
+		// // 			if (cnidaria[i].classification.order == 'Alcyonacea') {
+		// 				// if (ps.particles.length < 500)
+		// 				// console.log("this is current particle"  + Particle);
+		// // 			}
+		// // 			else {
+		// // 				console.log("no! ");
+		// // 			}
+		// // 			}
+
+
+		// 		}
+
+		//when click, look through all of the ORDERS for the order Antipatharia in the object Cnidaria and push them into an array, t
+		function selection(obj) {
+			
+			var thisLevel = hierarchy[currentLevel];
+			if (obj != undefined) {
+				currentLevel++;
+				console.log(obj);
+				console.log("level no: " + currentLevel + " | thisLevel: " + thisLevel + " | thisLevel Obj: " + obj[thisLevel]);
+				sel = obj[thisLevel];
+			}
+			else {
+				sel = 'Antipatharia';
+			}
+
+			// make selection
+			for (var i = 0; i < cnidaria.length; i++) {
+				if (cnidaria[i].classification[thisLevel] == sel) {
+					// if (ps.particles.length < 500)
+
+					selected.push(cnidaria[i]);
+
+					// console.log("this is current particle"  + Particle);
+				}
+				// else {
+				// 	console.log("not found");
+				// }
+			}
+
+
+			if (selected.length > 0) {
+				console.log("found " + selected.length + " matches...");
+				// clear particles
+				// ps.clear();
+
+				// make particles from selection
+				for (var i = 0; i < selected.length; i++) {
+					ps.addParticle(selected[i].classification.kingdom, selected[i].classification.phylum, selected[i].classification.class, selected[i].classification.order, selected[i].classification.family, selected[i].classification.genus, selected[i].species, selected[i].sciName, selected[i].natureCount, selected[i].natureArticles, selected[i].natureTitles);
+				}
+				
+			}
+
+
+			console.log("Found order length is" + selected.length);
+		}
+
+
+		function render() {
+
+			controls.update();
+
+			renderer.render(scene, camera);
+
+		}
+
+		function phylumSelected() {
+
+			var ul = document.getElementById("list");
+			var li = document.createElement("li");
+			li.appendChild(document.createTextNode("Anthozoa"));
+			ul.appendChild(li);
+			li.setAttribute("class", "class");
+
+
+
+			var li2 = document.createElement("li");
+			li2.appendChild(document.createTextNode("Cubozoa"));
+			ul.appendChild(li2);
+			li2.setAttribute("class", "class");
+
+
+
+			var li3 = document.createElement("li");
+			li3.appendChild(document.createTextNode("Hydrozoa"));
+			ul.appendChild(li3);
+			li3.setAttribute("class", "class");
+
+
+
+			var li4 = document.createElement("li");
+			li4.appendChild(document.createTextNode("Scyphozoa"));
+			ul.appendChild(li4);
+			li4.setAttribute("class", "class");
+
+			var li5 = document.createElement("li");
+			li5.appendChild(document.createTextNode("Saurozoa"));
+			ul.appendChild(li5);
+			li5.setAttribute("class", "class");
+
+			$('li.class').click(function() {
+				$(this).addClass('active');
+				$(this).siblings("li:not(.active)").remove();
+				$(function() {
+					var x = $("li").last().html();
+					console.log(x);
+				});
+			});
+		}
+		
+		//how do i take x, search through object, 
+	</script>
+
+</body>
+
+</html>
