@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="200px"
+	 height="200px" viewBox="0 0 200 200" enable-background="new 0 0 200 200" xml:space="preserve">
+<g id="sLegMenPercentM">
+	<g>
+		<rect x="9.886" y="7.199" fill="#E3EFE5" width="182.683" height="182.688"/>
+		<rect x="9.88" y="7.199" opacity="0.5" fill="#767C6D" width="182.689" height="138.475"/>
+	</g>
+</g>
+<g id="sLegMenML">
+	
+		<rect x="9.883" y="7.294" fill="none" stroke="#EF885A" stroke-width="4" stroke-miterlimit="10" width="182.683" height="31.057"/>
+	
+		<rect x="9.883" y="41.478" fill="none" stroke="#EDC9B1" stroke-width="4" stroke-miterlimit="10" width="182.683" height="135.186"/>
+</g>
+<g id="sLegMenMStat">
+	<rect x="15.152" y="105.066" fill="none" width="164.959" height="45.243"/>
+	<text transform="matrix(1 0 0 1 15.1519 118.1895)"><tspan x="0" y="0" fill="#F1F1F2" font-family="'Muli'" font-size="18">Men in the State</tspan><tspan x="0" y="21.6" fill="#F1F1F2" font-family="'Muli'" font-size="18">Legislator 76%</tspan></text>
+</g>
+<g id="sLegMenMLStat">
+	<rect x="15.152" y="26.481" fill="none" width="174.683" height="20.938"/>
+	<text transform="matrix(1 0 0 1 15.1504 36.6865)" fill="#EF885A" font-family="'Muli'" font-size="14">17% Prefer Men</text>
+	<rect x="15.152" y="165.403" fill="none" width="174.683" height="20.938"/>
+	<text transform="matrix(1 0 0 1 15.1504 175.6084)" fill="#EDC9B1" font-family="'Muli'" font-size="14">74% No Preference</text>
+</g>
+</svg>

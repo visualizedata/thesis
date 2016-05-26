@@ -1,0 +1,2492 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<!-- loading d3  in JavaScript-->
+	<script src="http://d3js.org/d3.v3.min.js">
+	</script>
+	<!-- loading font Muli-->
+	<link href='https://fonts.googleapis.com/css?family=Muli' rel='stylesheet' type='text/css'>
+	<style>
+		backgorund body {
+			background-color: #C1CEBD;
+		}
+		
+		body {
+			margin: 0;
+			margin-left: 0;
+			margin-top: 0;
+		}
+		
+		#everything {
+			font-family: 'Muli', sans-serif;
+			color: #767C6D;
+			font-size: 24px;
+			width: 100%;
+			position: absolute;
+			z-index: -1;
+		}
+		#topStat {
+			position: fixed;
+			width: 80%;
+			z-index: 2;
+			padding-left: 15%;
+			padding-top: 10px;
+			height: 80px;
+			font-size: 30px;
+			color: #6DB7A1;
+			background-color: #FFFFFF;
+		}
+		
+		#stat {
+			position: relative;
+			z-index: 1;
+			margin-top: 80px;
+			margin-left:20px;
+			margin-right: 20px;
+		}
+		
+		#key {
+			position: relative;
+			top: 10px;
+			margin-left:40px;
+		}
+		#static {
+			margin-top: 500px;
+			position:relative;
+			top:10px;
+			margin-right: 420px;
+			/*margin-left:220px*/
+		}
+		#full {
+			position:relative;
+		float: left;
+		}
+			#pol {
+			position:relative;
+		/*margin-right:500px;*/
+			margin-top:1200px;
+			width:90%;
+		}
+			#pref {
+			position:relative;
+		/*margin-right:500px;*/
+		margin-top:200px;
+			width:90%;
+		}
+		
+		#senate {
+			float: left;
+			left: 25%;
+			top: 95px;
+			position: relative;
+			height: 900px;
+		}
+		
+		#senateWo {
+			position: relative;
+			width: 100%;
+		}
+		
+		#titleW {
+			position: absolute;
+			width: 30px;
+			overflow: hidden;
+		}
+		
+		#senateWW {
+			width: 250px;
+			margin-left: 75px;
+			overflow: hidden;
+			position: absolute;
+		}
+		
+		#senateWM {
+			width: 250px;
+			margin-left: 300px;
+			overflow: hidden;
+			position: absolute;
+		}
+		
+		#senateMe {
+			position: relative;
+			width: 700px;
+			margin-top: 300px;
+		}
+		
+		#titleM {
+			position: absolute;
+			width: 30px;
+			overflow: hidden;
+		}
+		
+		#senateMW {
+			width: 250px;
+			margin-left: 75px;
+			overflow: hidden;
+			position: absolute;
+		}
+		
+		#senateMM {
+			width: 250px;
+			margin-left: 300px;
+			overflow: hidden;
+			position: absolute;
+		}
+		
+		#senateGi {
+			position: relative;
+			width: 700px;
+			margin-top: 600px;
+		}
+		
+		#titleG {
+			position: absolute;
+			width: 30px;
+			overflow: hidden;
+		}
+		
+		#senateGW {
+			width: 250px;
+			margin-left: 75px;
+			overflow: hidden;
+			position: absolute;
+		}
+		
+		#senateGM {
+			width: 250px;
+			margin-left: 300px;
+			overflow: hidden;
+			position: absolute;
+		}
+		
+		#senateBo {
+			position: relative;
+			margin-top: 900px;
+			width: 700px;
+		}
+		
+		#titleB {
+			position: absolute;
+			width: 30px;
+			overflow: hidden;
+		}
+		
+		#senateBW {
+			width: 250px;
+			margin-left: 75px;
+			overflow: hidden;
+			position: absolute;
+		}
+		
+		#senateBM {
+			width: 250px;
+			margin-left: 300px;
+			overflow: hidden;
+			position: absolute;
+		}
+		#house {
+			float: left;
+			left: 25%;
+			top: 375px;
+			position: relative;
+		}
+
+		#houseWo {
+			position: relative;
+			width: 100%;
+		}
+		
+		#houseTitleW {
+			position: absolute;
+			width: 30px;
+			overflow: hidden;
+		}
+		
+		#houseWW {
+			width: 250px;
+			margin-left: 75px;
+			overflow: hidden;
+			position: absolute;
+		}
+		
+		#houseWM {
+			width: 250px;
+			margin-left: 300px;
+			overflow: hidden;
+			position: absolute;
+		}
+		
+		#houseMe {
+			position: relative;
+			width: 700px;
+			margin-top: 300px;
+		}
+		
+		#houseTitleM {
+			position: absolute;
+			width: 30px;
+			overflow: hidden;
+		}
+		
+		#houseMW {
+			width: 250px;
+			margin-left: 75px;
+			overflow: hidden;
+			position: absolute;
+		}
+		
+		#houseMM {
+			width: 250px;
+			margin-left: 300px;
+			overflow: hidden;
+			position: absolute;
+		}
+		
+		#houseGi {
+			position: relative;
+			width: 700px;
+			margin-top: 600px;
+		}
+		
+		#houseTitleG {
+			position: absolute;
+			width: 30px;
+			overflow: hidden;
+		}
+		
+		#houseGW {
+			width: 250px;
+			margin-left: 75px;
+			overflow: hidden;
+			position: absolute;
+		}
+		
+		#houseGM {
+			width: 250px;
+			margin-left: 300px;
+			overflow: hidden;
+			position: absolute;
+		}
+		
+		#houseBo {
+			position: relative;
+			margin-top: 900px;
+			width: 700px;
+		}
+		
+		#houseTitleB {
+			position: absolute;
+			width: 30px;
+			overflow: hidden;
+		}
+		
+		#houseBW {
+			width: 250px;
+			margin-left: 75px;
+			overflow: hidden;
+			position: absolute;
+		}
+		
+		#houseBM {
+			width: 250px;
+			margin-left: 300px;
+			overflow: hidden;
+			position: absolute;
+		}
+		#sLeg {
+			float: left;
+			/*left: 25%;*/
+			top: 375px;
+			position: relative;
+		}
+
+		#sLegWo {
+			position: relative;
+			width: 100%;
+		}
+		
+		#sLegTitleW {
+			position: absolute;
+			width: 30px;
+			overflow: hidden;
+		}
+		
+		#sLegWW {
+			width: 250px;
+			margin-left: 75px;
+			overflow: hidden;
+			position: absolute;
+		}
+		
+		#sLegWM {
+			width: 250px;
+			margin-left: 300px;
+			overflow: hidden;
+			position: absolute;
+		}
+		
+		#sLegMe {
+			position: relative;
+			width: 700px;
+			margin-top: 300px;
+		}
+		
+		#sLegTitleM {
+			position: absolute;
+			width: 30px;
+			overflow: hidden;
+		}
+		
+		#sLegMW {
+			width: 250px;
+			margin-left: 75px;
+			overflow: hidden;
+			position: absolute;
+		}
+		
+		#sLegMM {
+			width: 250px;
+			margin-left: 300px;
+			overflow: hidden;
+			position: absolute;
+		}
+		
+		#sLegGi {
+			position: relative;
+			width: 700px;
+			margin-top: 600px;
+		}
+		
+		#sLegTitleG {
+			position: absolute;
+			width: 30px;
+			overflow: hidden;
+		}
+		
+		#sLegGW {
+			width: 250px;
+			margin-left: 75px;
+			overflow: hidden;
+			position: absolute;
+		}
+		
+		#sLegGM {
+			width: 250px;
+			margin-left: 300px;
+			overflow: hidden;
+			position: absolute;
+		}
+		
+		#sLegBo {
+			position: relative;
+			margin-top: 900px;
+			width: 700px;
+		}
+		
+		#sLegTitleB {
+			position: absolute;
+			width: 30px;
+			overflow: hidden;
+		}
+		
+		#sLegBW {
+			width: 250px;
+			margin-left: 75px;
+			overflow: hidden;
+			position: absolute;
+		}
+		
+		#sLegBM {
+			width: 250px;
+			margin-left: 300px;
+			overflow: hidden;
+			position: absolute;
+		}
+		#gov {
+			float: left;
+			/*left: 25%;*/
+			top: 375px;
+			position: relative;
+		}
+
+		#govWo {
+			position: relative;
+			width: 100%;
+		}
+		
+		#govTitleW {
+			position: absolute;
+			width: 30px;
+			overflow: hidden;
+		}
+		
+		#govWW {
+			width: 250px;
+			margin-left: 75px;
+			overflow: hidden;
+			position: absolute;
+		}
+		
+		#govWM {
+			width: 250px;
+			margin-left: 300px;
+			overflow: hidden;
+			position: absolute;
+		}
+		
+		#govMe {
+			position: relative;
+			width: 700px;
+			margin-top: 300px;
+		}
+		
+		#govTitleM {
+			position: absolute;
+			width: 30px;
+			overflow: hidden;
+		}
+		
+		#govMW {
+			width: 250px;
+			margin-left: 75px;
+			overflow: hidden;
+			position: absolute;
+		}
+		
+		#govMM {
+			width: 250px;
+			margin-left: 300px;
+			overflow: hidden;
+			position: absolute;
+		}
+		
+		#govGi {
+			position: relative;
+			width: 700px;
+			margin-top: 600px;
+		}
+		
+		#govTitleG {
+			position: absolute;
+			width: 30px;
+			overflow: hidden;
+		}
+		
+		#govGW {
+			width: 250px;
+			margin-left: 75px;
+			overflow: hidden;
+			position: absolute;
+		}
+		
+		#govGM {
+			width: 250px;
+			margin-left: 300px;
+			overflow: hidden;
+			position: absolute;
+		}
+		
+		#govBo {
+			position: relative;
+			margin-top: 900px;
+			width: 700px;
+		}
+		
+		#govTitleB {
+			position: absolute;
+			width: 30px;
+			overflow: hidden;
+		}
+		
+		#govBW {
+			width: 250px;
+			margin-left: 75px;
+			overflow: hidden;
+			position: absolute;
+		}
+		
+		#govBM {
+			width: 250px;
+			margin-left: 300px;
+			overflow: hidden;
+			position: absolute;
+		}
+		#fedJ {
+			float: left;
+			/*left: 25%;*/
+			top: 375px;
+			position: relative;
+		}
+
+		#fedJWo {
+			position: relative;
+			width: 100%;
+		}
+		
+		#fedJTitleW {
+			position: absolute;
+			width: 30px;
+			overflow: hidden;
+		}
+		
+		#fedJWW {
+			width: 250px;
+			margin-left: 75px;
+			overflow: hidden;
+			position: absolute;
+		}
+		
+		#fedJWM {
+			width: 250px;
+			margin-left: 300px;
+			overflow: hidden;
+			position: absolute;
+		}
+		
+		#fedJMe {
+			position: relative;
+			width: 700px;
+			margin-top: 300px;
+		}
+		
+		#fedJTitleM {
+			position: absolute;
+			width: 30px;
+			overflow: hidden;
+		}
+		
+		#fedJMW {
+			width: 250px;
+			margin-left: 75px;
+			overflow: hidden;
+			position: absolute;
+		}
+		
+		#fedJMM {
+			width: 250px;
+			margin-left: 300px;
+			overflow: hidden;
+			position: absolute;
+		}
+		
+		#fedJGi {
+			position: relative;
+			width: 700px;
+			margin-top: 600px;
+		}
+		
+		#fedJTitleG {
+			position: absolute;
+			width: 30px;
+			overflow: hidden;
+		}
+		
+		#fedJGW {
+			width: 250px;
+			margin-left: 75px;
+			overflow: hidden;
+			position: absolute;
+		}
+		
+		#fedJGM {
+			width: 250px;
+			margin-left: 300px;
+			overflow: hidden;
+			position: absolute;
+		}
+		
+		#fedJBo {
+			position: relative;
+			margin-top: 900px;
+			width: 700px;
+		}
+		
+		#fedJTitleB {
+			position: absolute;
+			width: 30px;
+			overflow: hidden;
+		}
+		
+		#fedJBW {
+			width: 250px;
+			margin-left: 75px;
+			overflow: hidden;
+			position: absolute;
+		}
+		
+		#fedJBM {
+			width: 250px;
+			margin-left: 300px;
+			overflow: hidden;
+			position: absolute;
+		}
+		#stJ {
+			float: left;
+			/*left: 25%;*/
+			top: 375px;
+			position: relative;
+		}
+
+		#stJWo {
+			position: relative;
+			width: 100%;
+		}
+		
+		#stJTitleW {
+			position: absolute;
+			width: 30px;
+			overflow: hidden;
+		}
+		
+		#stJWW {
+			width: 250px;
+			margin-left: 75px;
+			overflow: hidden;
+			position: absolute;
+		}
+		
+		#stJWM {
+			width: 250px;
+			margin-left: 300px;
+			overflow: hidden;
+			position: absolute;
+		}
+		
+		#stJMe {
+			position: relative;
+			width: 700px;
+			margin-top: 300px;
+		}
+		
+		#stJTitleM {
+			position: absolute;
+			width: 30px;
+			overflow: hidden;
+		}
+		
+		#stJMW {
+			width: 250px;
+			margin-left: 75px;
+			overflow: hidden;
+			position: absolute;
+		}
+		
+		#stJMM {
+			width: 250px;
+			margin-left: 300px;
+			overflow: hidden;
+			position: absolute;
+		}
+		
+		#stJGi {
+			position: relative;
+			width: 700px;
+			margin-top: 600px;
+		}
+		
+		#stJTitleG {
+			position: absolute;
+			width: 30px;
+			overflow: hidden;
+		}
+		
+		#stJGW {
+			width: 250px;
+			margin-left: 75px;
+			overflow: hidden;
+			position: absolute;
+		}
+		
+		#stJGM {
+			width: 250px;
+			margin-left: 300px;
+			overflow: hidden;
+			position: absolute;
+		}
+		
+		#stJBo {
+			position: relative;
+			margin-top: 900px;
+			width: 700px;
+		}
+		
+		#stJTitleB {
+			position: absolute;
+			width: 30px;
+			overflow: hidden;
+		}
+		
+		#stJBW {
+			width: 250px;
+			margin-left: 75px;
+			overflow: hidden;
+			position: absolute;
+		}
+		
+		#stJBM {
+			width: 250px;
+			margin-left: 300px;
+			overflow: hidden;
+			position: absolute;
+		}
+		/*CSS rollover applied to SVG*/
+		/*	svg,*/
+		/*img {*/
+		/*	width: 100%;*/
+		/*} */
+		/*hide stats until hover*/
+		/*Senate Hover Stats*/
+		
+		#senateWomenWLStat {
+			opacity: 0;
+		}
+		
+		#senateWomenWStat {
+			opacity: 0;
+		}
+		
+		#senateWomenMLStat {
+			opacity: 0;
+		}
+		
+		#senateWomenMStat {
+			opacity: 0;
+		}
+		
+		#senateWomenWLStat:hover {
+			opacity: 1;
+		}
+		
+		#senateWomenWStat:hover {
+			opacity: 1;
+		}
+		
+		#senateWomenMLStat:hover {
+			opacity: 1;
+		}
+		
+		#senateWomenMStat:hover {
+			opacity: 1;
+		}
+		
+		#senateMenWLStat {
+			opacity: 0;
+		}
+		
+		#senateMenWStat {
+				opacity: 0;
+		}
+		
+		#senateMenMLStat {
+			opacity: 0;
+		}
+		
+		#senateMenMStat {
+			opacity: 0;
+		}
+		
+		#senateMenWLStat:hover {
+			opacity: 1;
+		}
+		
+		#senateMenWStat:hover {
+			opacity: 1;
+		}
+		
+		#senateMenMLStat:hover {
+			opacity: 1;
+		}
+		
+		#senateMenMStat:hover {
+			opacity: 1;
+		}
+		
+		#senateGirlsWLStat {
+			opacity: 0;
+		}
+		
+		#senateGirlsWStat {
+			opacity: 0;
+		}
+		
+		#senateGirlsMLStat {
+			opacity: 0;
+		}
+		
+		#senateGirlsMStat {
+			opacity: 0;
+		}
+		
+		#senateGirlsWLStat:hover {
+			opacity: 1;
+		}
+		
+		#senateGirlsWStat:hover {
+			opacity: 1;
+		}
+		
+		#senateGirlsMLStat:hover {
+			opacity: 1;
+		}
+		
+		#senateGirlsMStat:hover {
+			opacity: 1;
+		}
+		
+		#senateBoysWLStat {
+			opacity: 0;
+		}
+		
+		#senateBoysWStat {
+			opacity: 0;
+		}
+		
+		#senateBoysMLStat {
+			opacity: 0;
+		}
+		
+		#senateBoysMStat {
+			opacity: 0;
+		}
+		
+		#senateBoysWLStat:hover {
+			opacity: 1;
+		}
+		
+		#senateBoysWStat:hover {
+			opacity: 1;
+		}
+		
+		#senateBoysMLStat:hover {
+			opacity: 1;
+		}
+		
+		#senateBoysMStat:hover {
+			opacity: 1;
+		}
+		/*House Hover Stats*/
+		
+		#houseWomenWLStat {
+			opacity: 0;
+		}
+		
+		#houseWomenWStat {
+			opacity: 0;
+		}
+		
+		#houseeWomenMLStat {
+			opacity: 0;
+		}
+		
+		#houseWomenMStat {
+			opacity: 0;
+		}
+		
+		#houseWomenWLStat:hover {
+			opacity: 1;
+		}
+		
+		#houseWomenWStat:hover {
+			opacity: 1;
+		}
+		
+		#houseWomenMLStat:hover {
+			opacity: 1;
+		}
+		
+		#houseWomenMStat:hover {
+			opacity: 1;
+		}
+		
+		#houseMenWLStat {
+			opacity: 0;
+		}
+		
+		#houseMenWStat {
+			opacity: 0;
+		}
+		
+		#houseMenMLStat {
+			opacity: 0;
+		}
+		
+		#houseMenMStat {
+			opacity: 0;
+		}
+		
+		#houseMenWLStat:hover {
+			opacity: 1;
+		}
+		
+		#houseMenWStat:hover {
+			opacity: 1;
+		}
+		
+		#houseMenMLStat:hover {
+			opacity: 1;
+		}
+		
+		#houseMenMStat:hover {
+			opacity: 1;
+		}
+		
+		#houseGirlsWLStat {
+			opacity: 0;
+		}
+		
+		#houseGirlsWStat {
+			opacity: 0;
+		}
+		
+		#houseGirlsMLStat {
+			opacity: 0;
+		}
+		
+		#houseGirlsMStat {
+			opacity: 0;
+		}
+		
+		#houseGirlsWLStat:hover {
+			opacity: 1;
+		}
+		
+		#houseGirlsWStat:hover {
+			opacity: 1;
+		}
+		
+		#houseGirlsMLStat:hover {
+			opacity: 1;
+		}
+		
+		#houseGirlsMStat:hover {
+			opacity: 1;
+		}
+		
+		#houseBoysWLStat {
+			opacity: 0;
+		}
+		
+		#houseBoysWStat {
+			opacity: 0;
+		}
+		
+		#houseBoysMLStat {
+			opacity: 0;
+		}
+		
+		#houseBoysMStat {
+			opacity: 0;
+		}
+		
+		#houseBoysWLStat:hover {
+			opacity: 1;
+		}
+		
+		#houseBoysWStat:hover {
+			opacity: 1;
+		}
+		
+		#houseBoysMLStat:hover {
+			opacity: 1;
+		}
+		
+		#houseBoysMStat:hover {
+			opacity: 1;
+		}
+		#sLegWomenWLStat {
+			opacity: 0;
+		}
+		
+		#sLegWomenWStat {
+			opacity: 0;
+		}
+		
+		#sLegWomenMLStat {
+			opacity: 0;
+		}
+		
+		#sLegWomenMStat {
+			opacity: 0;
+		}
+		
+		#sLegWomenWLStat:hover {
+			opacity: 1;
+		}
+		
+		#sLegWomenWStat:hover {
+			opacity: 1;
+		}
+		
+		#sLegWomenMLStat:hover {
+			opacity: 1;
+		}
+		
+		#sLegWomenMStat:hover {
+			opacity: 1;
+		}
+		
+		#sLegMenWLStat {
+			opacity: 0;
+		}
+		
+		#sLegMenWStat {
+			opacity: 0;
+		}
+		
+		#sLegMenMLStat {
+			opacity: 0;
+		}
+		
+		#sLegMenMStat {
+			opacity: 0;
+		}
+		
+		#sLegMenWLStat:hover {
+			opacity: 1;
+		}
+		
+		#sLegMenWStat:hover {
+			opacity: 1;
+		}
+		
+		#sLegMenMLStat:hover {
+			opacity: 1;
+		}
+		
+		#sLegMenMStat:hover {
+			opacity: 1;
+		}
+		
+		#sLegGirlsWLStat {
+			opacity: 0;
+		}
+		
+		#sLegGirlsWStat {
+			opacity: 0;
+		}
+		
+		#sLegGirlsMLStat {
+			opacity: 0;
+		}
+		
+		#sLegGirlsMStat {
+			opacity: 0;
+		}
+		
+		#sLegGirlsWLStat:hover {
+			opacity: 1;
+		}
+		
+		#sLegGirlsWStat:hover {
+			opacity: 1;
+		}
+		
+		#sLegGirlsMLStat:hover {
+			opacity: 1;
+		}
+		
+		#sLegGirlsMStat:hover {
+			opacity: 1;
+		}
+		
+		#sLegBoysWLStat {
+			opacity: 0;
+		}
+		
+		#sLegBoysWStat {
+			opacity: 0;
+		}
+		
+		#sLegBoysMLStat {
+			opacity: 0;
+		}
+		
+		#sLegBoysMStat {
+			opacity: 0;
+		}
+		
+		#sLegBoysWLStat:hover {
+			opacity: 1;
+		}
+		
+		#sLegBoysWStat:hover {
+			opacity: 1;
+		}
+		
+		#sLegBoysMLStat:hover {
+			opacity: 1;
+		}
+		
+		#sLegBoysMStat:hover {
+			opacity: 1;
+		}
+		#govWomenWLStat {
+			opacity: 0;
+		}
+		
+		#govWomenWStat {
+			opacity: 0;
+		}
+		
+		#govWomenMLStat {
+			opacity: 0;
+		}
+		
+		#govWomenMStat {
+			opacity: 0;
+		}
+		
+		#govWomenWLStat:hover {
+			opacity: 1;
+		}
+		
+		#govWomenWStat:hover {
+			opacity: 1;
+		}
+		
+		#govWomenMLStat:hover {
+			opacity: 1;
+		}
+		
+		#govWomenMStat:hover {
+			opacity: 1;
+		}
+		
+		#govMenWLStat {
+			opacity: 0;
+		}
+		
+		#govMenWStat {
+			opacity: 0;
+		}
+		
+		#govMenMLStat {
+			opacity: 0;
+		}
+		
+		#govMenMStat {
+			opacity: 0;
+		}
+		
+		#govMenWLStat:hover {
+			opacity: 1;
+		}
+		
+		#govMenWStat:hover {
+			opacity: 1;
+		}
+		
+		#govMenMLStat:hover {
+			opacity: 1;
+		}
+		
+		#govMenMStat:hover {
+			opacity: 1;
+		}
+		
+		#govGirlsWLStat {
+			opacity: 0;
+		}
+		
+		#govGirlsWStat {
+			opacity: 0;
+		}
+		
+		#govGirlsMLStat {
+			opacity: 0;
+		}
+		
+		#govGirlsMStat {
+			opacity: 0;
+		}
+		
+		#govGirlsWLStat:hover {
+			opacity: 1;
+		}
+		
+		#govGirlsWStat:hover {
+			opacity: 1;
+		}
+		
+		#govGirlsMLStat:hover {
+			opacity: 1;
+		}
+		
+		#govGirlsMStat:hover {
+			opacity: 1;
+		}
+		
+		#govBoysWLStat {
+			opacity: 0;
+		}
+		
+		#govBoysWStat {
+			opacity: 0;
+		}
+		
+		#govBoysMLStat {
+			opacity: 0;
+		}
+		
+		#govBoysMStat {
+			opacity: 0;
+		}
+		
+		#govBoysWLStat:hover {
+			opacity: 1;
+		}
+		
+		#govBoysWStat:hover {
+			opacity: 1;
+		}
+		
+		#govBoysMLStat:hover {
+			opacity: 1;
+		}
+		
+		#govBoysMStat:hover {
+			opacity: 1;
+		}
+		#fedJWomenWLStat {
+			opacity: 0;
+		}
+		
+		#fedJWomenWStat {
+			opacity: 0;
+		}
+		
+		#fedJWomenMLStat {
+			opacity: 0;
+		}
+		
+		#fedJWomenMStat {
+			opacity: 0;
+		}
+		
+		#fedJWomenWLStat:hover {
+			opacity: 1;
+		}
+		
+		#fedJWomenWStat:hover {
+			opacity: 1;
+		}
+		
+		#fedJWomenMLStat:hover {
+			opacity: 1;
+		}
+		
+		#fedJWomenMStat:hover {
+			opacity: 1;
+		}
+		
+		#fedJMenWLStat {
+			opacity: 0;
+		}
+		
+		#fedJMenWStat {
+			opacity: 0;
+		}
+		
+		#fedJMenMLStat {
+			opacity: 0;
+		}
+		
+		#fedJMenMStat {
+			opacity: 0;
+		}
+		
+		#fedJMenWLStat:hover {
+			opacity: 1;
+		}
+		
+		#fedJMenWStat:hover {
+			opacity: 1;
+		}
+		
+		#fedJMenMLStat:hover {
+			opacity: 1;
+		}
+		
+		#fedJMenMStat:hover {
+			opacity: 1;
+		}
+		
+		#fedJGirlsWLStat {
+			opacity: 0;
+		}
+		
+		#fedJGirlsWStat {
+			opacity: 0;
+		}
+		
+		#fedJGirlsMLStat {
+			opacity: 0;
+		}
+		
+		#fedJGirlsMStat {
+			opacity: 0;
+		}
+		
+		#fedJGirlsWLStat:hover {
+			opacity: 1;
+		}
+		
+		#fedJGirlsWStat:hover {
+			opacity: 1;
+		}
+		
+		#fedJGirlsMLStat:hover {
+			opacity: 1;
+		}
+		
+		#fedJGirlsMStat:hover {
+			opacity: 1;
+		}
+		
+		#fedJBoysWLStat {
+			opacity: 0;
+		}
+		
+		#fedJBoysWStat {
+			opacity: 0;
+		}
+		
+		#fedJBoysMLStat {
+			opacity: 0;
+		}
+		
+		#fedJBoysMStat {
+			opacity: 0;
+		}
+		
+		#fedJBoysWLStat:hover {
+			opacity: 1;
+		}
+		
+		#fedJBoysWStat:hover {
+			opacity: 1;
+		}
+		
+		#fedJBoysMLStat:hover {
+			opacity: 1;
+		}
+		
+		#fedJBoysMStat:hover {
+			opacity: 1;
+		}
+		
+		
+		#stJWomenWLStat {
+			opacity: 0;
+		}
+		
+		#stJWomenWStat {
+			opacity: 0;
+		}
+		
+		#stJWomenMLStat {
+			opacity: 0;
+		}
+		
+		#stJWomenMStat {
+			opacity: 0;
+		}
+		
+		#stJWomenWLStat:hover {
+			opacity: 1;
+		}
+		
+		#stJWomenWStat:hover {
+			opacity: 1;
+		}
+		
+		#stJWomenMLStat:hover {
+			opacity: 1;
+		}
+		
+		#stJWomenMStat:hover {
+			opacity: 1;
+		}
+		
+		#stJMenWLStat {
+			opacity: 0;
+		}
+		
+		#stJMenWStat {
+			opacity: 0;
+		}
+		
+		#stJMenMLStat {
+			opacity: 0;
+		}
+		
+		#stJMenMStat {
+			opacity: 0;
+		}
+		
+		#stJMenWLStat:hover {
+			opacity: 1;
+		}
+		
+		#stJMenWStat:hover {
+			opacity: 1;
+		}
+		
+		#stJMenMLStat:hover {
+			opacity: 1;
+		}
+		
+		#stJMenMStat:hover {
+			opacity: 1;
+		}
+		
+		#stJGirlsWLStat {
+			opacity: 0;
+		}
+		
+		#stJGirlsWStat {
+			opacity: 0;
+		}
+		
+		#stJGirlsMLStat {
+			opacity: 0;
+		}
+		
+		#stJGirlsMStat {
+			opacity: 0;
+		}
+		
+		#stJGirlsWLStat:hover {
+			opacity: 1;
+		}
+		
+		#stJGirlsWStat:hover {
+			opacity: 1;
+		}
+		
+		#stJGirlsMLStat:hover {
+			opacity: 1;
+		}
+		
+		#stJGirlsMStat:hover {
+			opacity: 1;
+		}
+		
+		#stJBoysWLStat {
+			opacity: 0;
+		}
+		
+		#stJBoysWStat {
+			opacity: 0;
+		}
+		
+		#stJBoysMLStat {
+			opacity: 0;
+		}
+		
+		#stJBoysMStat {
+			opacity: 0;
+		}
+		
+		#stJBoysWLStat:hover {
+			opacity: 1;
+		}
+		
+		#stJBoysWStat:hover {
+			opacity: 1;
+		}
+		
+		#stJBoysMLStat:hover {
+			opacity: 1;
+		}
+		
+		#stJBoysMStat:hover {
+			opacity: 1;
+		}
+	</style>
+</head>
+
+<body>
+
+	<script>
+		// header
+		d3.xml("svg/oneStatHeader.svg", function(xml) {
+			var destination = document.getElementById("stat");
+			destination.appendChild(xml.documentElement);
+			var element = d3.select("#stat");
+
+		});
+
+		//key
+		d3.xml("svg/key.svg", function(xml) {
+			var destination = document.getElementById("key");
+			destination.appendChild(xml.documentElement);
+			var element = d3.select("#key");
+
+		});
+		
+//full print
+			d3.xml("svg/thesis.svg", function(xml) {
+			var destination = document.getElementById("full");
+			destination.appendChild(xml.documentElement);
+			var element = d3.select("#full");
+
+		});
+		// women title senate
+		d3.xml("svg/womenTitle.svg", function(xml) {
+			var destination = document.getElementById("titleW");
+			destination.appendChild(xml.documentElement);
+			var element = d3.select("#titleW");
+		});
+		// men title senate
+		d3.xml("svg/menTitle.svg", function(xml) {
+			var destination = document.getElementById("titleM");
+			destination.appendChild(xml.documentElement);
+			var element = d3.select("#titleM");
+		});
+		// girls title senate
+		d3.xml("svg/girlsTitle.svg", function(xml) {
+			var destination = document.getElementById("titleG");
+			destination.appendChild(xml.documentElement);
+			var element = d3.select("#titleG");
+		});
+		// boys title senate
+		d3.xml("svg/boysTitle.svg", function(xml) {
+			var destination = document.getElementById("titleB");
+			destination.appendChild(xml.documentElement);
+			var element = d3.select("#titleB");
+		});
+
+		//senate women		
+		d3.xml("svg/senateWomenW.svg", function(xml) {
+			var destination = document.getElementById("senateWW");
+			destination.appendChild(xml.documentElement);
+			var element = d3.select("#senateWW");
+
+
+			// adding mouse interaction, so we manipulate dom elements other than the one that triggers the mouse event
+			element.on("mouseover", function() {
+				// setting the text of the page headline
+				d3.select("#topStat").text(element.attr("title"));
+			})
+		});
+		d3.xml("svg/senateWomenM.svg", function(xml) {
+			var destination = document.getElementById("senateWM");
+			destination.appendChild(xml.documentElement);
+			var element = d3.select("#senateWM");
+			element.on("mouseover", function() {
+				// setting the text of the page headline
+				d3.select("#topStat").text(element.attr("title"));
+			})
+
+		});
+		//senate men		
+		d3.xml("svg/senateMenW.svg", function(xml) {
+			var destination = document.getElementById("senateMW");
+			destination.appendChild(xml.documentElement);
+			var element = d3.select("#senateMW");
+
+
+			// adding mouse interaction, so we manipulate dom elements other than the one that triggers the mouse event
+			element.on("mouseover", function() {
+				// setting the text of the page headline
+				d3.select("#topStat").text(element.attr("title"));
+			})
+		});
+		d3.xml("svg/senateMenM.svg", function(xml) {
+			var destination = document.getElementById("senateMM");
+			destination.appendChild(xml.documentElement);
+			var element = d3.select("#senateMM");
+			element.on("mouseover", function() {
+				// setting the text of the page headline
+				d3.select("#topStat").text(element.attr("title"));
+			})
+
+		});
+		//senate girls		
+		d3.xml("svg/senateGirlsW.svg", function(xml) {
+			var destination = document.getElementById("senateGW");
+			destination.appendChild(xml.documentElement);
+			var element = d3.select("#senateGW");
+
+
+			// adding mouse interaction, so we manipulate dom elements other than the one that triggers the mouse event
+			element.on("mouseover", function() {
+				// setting the text of the page headline
+				d3.select("#topStat").text(element.attr("title"));
+			})
+		});
+		d3.xml("svg/senateGirlsM.svg", function(xml) {
+			var destination = document.getElementById("senateGM");
+			destination.appendChild(xml.documentElement);
+			var element = d3.select("#senateGM");
+			element.on("mouseover", function() {
+				// setting the text of the page headline
+				d3.select("#topStat").text(element.attr("title"));
+			})
+
+		});
+		//senate boys		
+		d3.xml("svg/senateBoysW.svg", function(xml) {
+			var destination = document.getElementById("senateBW");
+			destination.appendChild(xml.documentElement);
+			var element = d3.select("#senateBW");
+
+
+			// adding mouse interaction, so we manipulate dom elements other than the one that triggers the mouse event
+			element.on("mouseover", function() {
+				// setting the text of the page headline
+				d3.select("#topStat").text(element.attr("title"));
+			})
+		});
+		d3.xml("svg/senateBoysM.svg", function(xml) {
+			var destination = document.getElementById("senateBM");
+			destination.appendChild(xml.documentElement);
+			var element = d3.select("#senateBM");
+			element.on("mouseover", function() {
+				// setting the text of the page headline
+				d3.select("#topStat").text(element.attr("title"));
+			})
+
+		});
+		
+		// women title house
+		d3.xml("svg/womenTitle.svg", function(xml) {
+			var destination = document.getElementById("houseTitleW");
+			destination.appendChild(xml.documentElement);
+			var element = d3.select("#houseTitleW");
+		});
+		// men title house
+		d3.xml("svg/menTitle.svg", function(xml) {
+			var destination = document.getElementById("houseTitleM");
+			destination.appendChild(xml.documentElement);
+			var element = d3.select("#houseTitleM");
+		});
+		// girls title house
+		d3.xml("svg/girlsTitle.svg", function(xml) {
+			var destination = document.getElementById("houseTitleG");
+			destination.appendChild(xml.documentElement);
+			var element = d3.select("#houseTitleG");
+		});
+		// boys title house
+		d3.xml("svg/boysTitle.svg", function(xml) {
+			var destination = document.getElementById("houseTitleB");
+			destination.appendChild(xml.documentElement);
+			var element = d3.select("#houseTitleB");
+		});
+		//house women		
+		d3.xml("svg/houseWomenW.svg", function(xml) {
+			var destination = document.getElementById("houseWW");
+			destination.appendChild(xml.documentElement);
+			var element = d3.select("#houseWW");
+
+
+			// adding mouse interaction, so we manipulate dom elements other than the one that triggers the mouse event
+			element.on("mouseover", function() {
+				// setting the text of the page headline
+				d3.select("#topStat").text(element.attr("title"));
+			})
+		});
+		d3.xml("svg/houseWomenM.svg", function(xml) {
+			var destination = document.getElementById("houseWM");
+			destination.appendChild(xml.documentElement);
+			var element = d3.select("#houseWM");
+			element.on("mouseover", function() {
+				// setting the text of the page headline
+				d3.select("#topStat").text(element.attr("title"));
+			})
+
+		});
+		//house men		
+		d3.xml("svg/houseMenW.svg", function(xml) {
+			var destination = document.getElementById("houseMW");
+			destination.appendChild(xml.documentElement);
+			var element = d3.select("#houseMW");
+
+
+			// adding mouse interaction, so we manipulate dom elements other than the one that triggers the mouse event
+			element.on("mouseover", function() {
+				// setting the text of the page headline
+				d3.select("#topStat").text(element.attr("title"));
+			})
+		});
+		d3.xml("svg/houseMenM.svg", function(xml) {
+			var destination = document.getElementById("houseMM");
+			destination.appendChild(xml.documentElement);
+			var element = d3.select("#houseMM");
+			element.on("mouseover", function() {
+				// setting the text of the page headline
+				d3.select("#topStat").text(element.attr("title"));
+			})
+
+		});
+		//house girls		
+		d3.xml("svg/houseGirlsW.svg", function(xml) {
+			var destination = document.getElementById("houseGW");
+			destination.appendChild(xml.documentElement);
+			var element = d3.select("#houseGW");
+
+
+			// adding mouse interaction, so we manipulate dom elements other than the one that triggers the mouse event
+			element.on("mouseover", function() {
+				// setting the text of the page headline
+				d3.select("#topStat").text(element.attr("title"));
+			})
+		});
+		d3.xml("svg/houseGirlsM.svg", function(xml) {
+			var destination = document.getElementById("houseGM");
+			destination.appendChild(xml.documentElement);
+			var element = d3.select("#houseGM");
+			element.on("mouseover", function() {
+				// setting the text of the page headline
+				d3.select("#topStat").text(element.attr("title"));
+			})
+
+		});
+		
+		//house boys		
+		d3.xml("svg/houseBoysW.svg", function(xml) {
+			var destination = document.getElementById("houseBW");
+			destination.appendChild(xml.documentElement);
+			var element = d3.select("#houseBW");
+
+
+			// adding mouse interaction, so we manipulate dom elements other than the one that triggers the mouse event
+			element.on("mouseover", function() {
+				// setting the text of the page headline
+				d3.select("#topStat").text(element.attr("title"));
+			})
+		});
+		d3.xml("svg/houseBoysM.svg", function(xml) {
+			var destination = document.getElementById("houseBM");
+			destination.appendChild(xml.documentElement);
+			var element = d3.select("#houseBM");
+			element.on("mouseover", function() {
+				// setting the text of the page headline
+				d3.select("#topStat").text(element.attr("title"));
+			})
+
+		});
+		
+			//sLeg women		
+		d3.xml("svg/sLegWomenW.svg", function(xml) {
+			var destination = document.getElementById("sLegWW");
+			destination.appendChild(xml.documentElement);
+			var element = d3.select("#sLegWW");
+
+
+			// adding mouse interaction, so we manipulate dom elements other than the one that triggers the mouse event
+			element.on("mouseover", function() {
+				// setting the text of the page headline
+				d3.select("#topStat").text(element.attr("title"));
+			})
+		});
+		d3.xml("svg/sLegWomenM.svg", function(xml) {
+			var destination = document.getElementById("sLegWM");
+			destination.appendChild(xml.documentElement);
+			var element = d3.select("#sLegWM");
+			element.on("mouseover", function() {
+				// setting the text of the page headline
+				d3.select("#topStat").text(element.attr("title"));
+			})
+
+		});
+		//sLeg men		
+		d3.xml("svg/sLegMenW.svg", function(xml) {
+			var destination = document.getElementById("sLegMW");
+			destination.appendChild(xml.documentElement);
+			var element = d3.select("#sLegMW");
+
+
+			// adding mouse interaction, so we manipulate dom elements other than the one that triggers the mouse event
+			element.on("mouseover", function() {
+				// setting the text of the page headline
+				d3.select("#topStat").text(element.attr("title"));
+			})
+		});
+		d3.xml("svg/sLegMenM.svg", function(xml) {
+			var destination = document.getElementById("sLegMM");
+			destination.appendChild(xml.documentElement);
+			var element = d3.select("#sLegMM");
+			element.on("mouseover", function() {
+				// setting the text of the page headline
+				d3.select("#topStat").text(element.attr("title"));
+			})
+
+		});
+		//sLeg girls		
+		d3.xml("svg/sLegGirlsW.svg", function(xml) {
+			var destination = document.getElementById("sLegGW");
+			destination.appendChild(xml.documentElement);
+			var element = d3.select("#sLegGW");
+
+
+			// adding mouse interaction, so we manipulate dom elements other than the one that triggers the mouse event
+			element.on("mouseover", function() {
+				// setting the text of the page headline
+				d3.select("#topStat").text(element.attr("title"));
+			})
+		});
+		d3.xml("svg/sLegGirlsM.svg", function(xml) {
+			var destination = document.getElementById("sLegGM");
+			destination.appendChild(xml.documentElement);
+			var element = d3.select("#sLegGM");
+			element.on("mouseover", function() {
+				// setting the text of the page headline
+				d3.select("#topStat").text(element.attr("title"));
+			})
+
+		});
+		
+		//sleg boys		
+		d3.xml("svg/sLegBoysW.svg", function(xml) {
+			var destination = document.getElementById("sLegBW");
+			destination.appendChild(xml.documentElement);
+			var element = d3.select("#sLegBW");
+
+
+			// adding mouse interaction, so we manipulate dom elements other than the one that triggers the mouse event
+			element.on("mouseover", function() {
+				// setting the text of the page headline
+				d3.select("#topStat").text(element.attr("title"));
+			})
+		});
+		d3.xml("svg/sLegBoysM.svg", function(xml) {
+			var destination = document.getElementById("sLegBM");
+			destination.appendChild(xml.documentElement);
+			var element = d3.select("#sLegBM");
+			element.on("mouseover", function() {
+				// setting the text of the page headline
+				d3.select("#topStat").text(element.attr("title"));
+			})
+
+		});
+	// women title sleg
+		d3.xml("svg/womenTitle.svg", function(xml) {
+			var destination = document.getElementById("sLegTitleW");
+			destination.appendChild(xml.documentElement);
+			var element = d3.select("#sLegTitleW");
+		});
+		// men title sleg
+		d3.xml("svg/menTitle.svg", function(xml) {
+			var destination = document.getElementById("sLegTitleM");
+			destination.appendChild(xml.documentElement);
+			var element = d3.select("#sLegTitleM");
+		});
+		// girls title sleg
+		d3.xml("svg/girlsTitle.svg", function(xml) {
+			var destination = document.getElementById("sLegTitleG");
+			destination.appendChild(xml.documentElement);
+			var element = d3.select("#sLegTitleG");
+		});
+		// boys title sleg
+		d3.xml("svg/boysTitle.svg", function(xml) {
+			var destination = document.getElementById("sLegTitleB");
+			destination.appendChild(xml.documentElement);
+			var element = d3.select("#sLegTitleB");
+		});
+		
+		
+		
+			// women title gov
+		d3.xml("svg/womenTitle.svg", function(xml) {
+			var destination = document.getElementById("govTitleW");
+			destination.appendChild(xml.documentElement);
+			var element = d3.select("#govTitleW");
+		});
+		// men title gov
+		d3.xml("svg/menTitle.svg", function(xml) {
+			var destination = document.getElementById("govTitleM");
+			destination.appendChild(xml.documentElement);
+			var element = d3.select("#govTitleM");
+		});
+		// girls title gov
+		d3.xml("svg/girlsTitle.svg", function(xml) {
+			var destination = document.getElementById("govTitleG");
+			destination.appendChild(xml.documentElement);
+			var element = d3.select("#govTitleG");
+		});
+		// boys title gov
+		d3.xml("svg/boysTitle.svg", function(xml) {
+			var destination = document.getElementById("govTitleB");
+			destination.appendChild(xml.documentElement);
+			var element = d3.select("#govTitleB");
+		});
+
+		//gov women		
+		d3.xml("svg/govWomenW.svg", function(xml) {
+			var destination = document.getElementById("govWW");
+			destination.appendChild(xml.documentElement);
+			var element = d3.select("#govWW");
+
+
+			// adding mouse interaction, so we manipulate dom elements other than the one that triggers the mouse event
+			element.on("mouseover", function() {
+				// setting the text of the page headline
+				d3.select("#topStat").text(element.attr("title"));
+			})
+		});
+		d3.xml("svg/govWomenM.svg", function(xml) {
+			var destination = document.getElementById("govWM");
+			destination.appendChild(xml.documentElement);
+			var element = d3.select("#govWM");
+			element.on("mouseover", function() {
+				// setting the text of the page headline
+				d3.select("#topStat").text(element.attr("title"));
+			})
+
+		});
+		//gov men		
+		d3.xml("svg/govMenW.svg", function(xml) {
+			var destination = document.getElementById("govMW");
+			destination.appendChild(xml.documentElement);
+			var element = d3.select("#govMW");
+
+
+			// adding mouse interaction, so we manipulate dom elements other than the one that triggers the mouse event
+			element.on("mouseover", function() {
+				// setting the text of the page headline
+				d3.select("#topStat").text(element.attr("title"));
+			})
+		});
+		d3.xml("svg/govMenM.svg", function(xml) {
+			var destination = document.getElementById("govMM");
+			destination.appendChild(xml.documentElement);
+			var element = d3.select("#govMM");
+			element.on("mouseover", function() {
+				// setting the text of the page headline
+				d3.select("#topStat").text(element.attr("title"));
+			})
+
+		});
+		//gov girls		
+		d3.xml("svg/govGirlsW.svg", function(xml) {
+			var destination = document.getElementById("govGW");
+			destination.appendChild(xml.documentElement);
+			var element = d3.select("#govGW");
+
+
+			// adding mouse interaction, so we manipulate dom elements other than the one that triggers the mouse event
+			element.on("mouseover", function() {
+				// setting the text of the page headline
+				d3.select("#topStat").text(element.attr("title"));
+			})
+		});
+		d3.xml("svg/govGirlsM.svg", function(xml) {
+			var destination = document.getElementById("govGM");
+			destination.appendChild(xml.documentElement);
+			var element = d3.select("#govGM");
+			element.on("mouseover", function() {
+				// setting the text of the page headline
+				d3.select("#topStat").text(element.attr("title"));
+			})
+
+		});
+		//gov boys		
+		d3.xml("svg/govBoysW.svg", function(xml) {
+			var destination = document.getElementById("govBW");
+			destination.appendChild(xml.documentElement);
+			var element = d3.select("#govBW");
+
+
+			// adding mouse interaction, so we manipulate dom elements other than the one that triggers the mouse event
+			element.on("mouseover", function() {
+				// setting the text of the page headline
+				d3.select("#topStat").text(element.attr("title"));
+			})
+		});
+		d3.xml("svg/govBoysM.svg", function(xml) {
+			var destination = document.getElementById("govBM");
+			destination.appendChild(xml.documentElement);
+			var element = d3.select("#govBM");
+			element.on("mouseover", function() {
+				// setting the text of the page headline
+				d3.select("#topStat").text(element.attr("title"));
+			})
+
+		});
+		
+				// women title fedJ
+		d3.xml("svg/womenTitle.svg", function(xml) {
+			var destination = document.getElementById("fedJTitleW");
+			destination.appendChild(xml.documentElement);
+			var element = d3.select("#fedJTitleW");
+		});
+		// men title fedJ
+		d3.xml("svg/menTitle.svg", function(xml) {
+			var destination = document.getElementById("fedJTitleM");
+			destination.appendChild(xml.documentElement);
+			var element = d3.select("#fedJTitleM");
+		});
+		// girls title fedJ
+		d3.xml("svg/girlsTitle.svg", function(xml) {
+			var destination = document.getElementById("fedJTitleG");
+			destination.appendChild(xml.documentElement);
+			var element = d3.select("#fedJTitleG");
+		});
+		// boys title fedJ
+		d3.xml("svg/boysTitle.svg", function(xml) {
+			var destination = document.getElementById("fedJTitleB");
+			destination.appendChild(xml.documentElement);
+			var element = d3.select("#fedJTitleB");
+		});
+
+		//fedJ women		
+		d3.xml("svg/fedJWomenW.svg", function(xml) {
+			var destination = document.getElementById("fedJWW");
+			destination.appendChild(xml.documentElement);
+			var element = d3.select("#fedJWW");
+
+
+			// adding mouse interaction, so we manipulate dom elements other than the one that triggers the mouse event
+			element.on("mouseover", function() {
+				// setting the text of the page headline
+				d3.select("#topStat").text(element.attr("title"));
+			})
+		});
+		d3.xml("svg/fedJWomenM.svg", function(xml) {
+			var destination = document.getElementById("fedJWM");
+			destination.appendChild(xml.documentElement);
+			var element = d3.select("#fedJWM");
+			element.on("mouseover", function() {
+				// setting the text of the page headline
+				d3.select("#topStat").text(element.attr("title"));
+			})
+
+		});
+		//fedJ men		
+		d3.xml("svg/fedJMenW.svg", function(xml) {
+			var destination = document.getElementById("fedJMW");
+			destination.appendChild(xml.documentElement);
+			var element = d3.select("#fedJMW");
+
+
+			// adding mouse interaction, so we manipulate dom elements other than the one that triggers the mouse event
+			element.on("mouseover", function() {
+				// setting the text of the page headline
+				d3.select("#topStat").text(element.attr("title"));
+			})
+		});
+		d3.xml("svg/fedJMenM.svg", function(xml) {
+			var destination = document.getElementById("fedJMM");
+			destination.appendChild(xml.documentElement);
+			var element = d3.select("#fedJMM");
+			element.on("mouseover", function() {
+				// setting the text of the page headline
+				d3.select("#topStat").text(element.attr("title"));
+			})
+
+		});
+		//fedJ girls		
+		d3.xml("svg/fedJGirlsW.svg", function(xml) {
+			var destination = document.getElementById("fedJGW");
+			destination.appendChild(xml.documentElement);
+			var element = d3.select("#fedJGW");
+
+
+			// adding mouse interaction, so we manipulate dom elements other than the one that triggers the mouse event
+			element.on("mouseover", function() {
+				// setting the text of the page headline
+				d3.select("#topStat").text(element.attr("title"));
+			})
+		});
+		d3.xml("svg/fedJGirlsM.svg", function(xml) {
+			var destination = document.getElementById("fedJGM");
+			destination.appendChild(xml.documentElement);
+			var element = d3.select("#fedJGM");
+			element.on("mouseover", function() {
+				// setting the text of the page headline
+				d3.select("#topStat").text(element.attr("title"));
+			})
+
+		});
+		//fedJ boys		
+		d3.xml("svg/fedJBoysW.svg", function(xml) {
+			var destination = document.getElementById("fedJBW");
+			destination.appendChild(xml.documentElement);
+			var element = d3.select("#fedJBW");
+
+
+			// adding mouse interaction, so we manipulate dom elements other than the one that triggers the mouse event
+			element.on("mouseover", function() {
+				// setting the text of the page headline
+				d3.select("#topStat").text(element.attr("title"));
+			})
+		});
+		d3.xml("svg/fedJBoysM.svg", function(xml) {
+			var destination = document.getElementById("fedJBM");
+			destination.appendChild(xml.documentElement);
+			var element = d3.select("#fedJBM");
+			element.on("mouseover", function() {
+				// setting the text of the page headline
+				d3.select("#topStat").text(element.attr("title"));
+			})
+
+		});
+		
+					// women title stJ
+		d3.xml("svg/womenTitle.svg", function(xml) {
+			var destination = document.getElementById("stJTitleW");
+			destination.appendChild(xml.documentElement);
+			var element = d3.select("#stJTitleW");
+		});
+		// men title stJ
+		d3.xml("svg/menTitle.svg", function(xml) {
+			var destination = document.getElementById("stJTitleM");
+			destination.appendChild(xml.documentElement);
+			var element = d3.select("#stJTitleM");
+		});
+		// girls title stJ
+		d3.xml("svg/girlsTitle.svg", function(xml) {
+			var destination = document.getElementById("stJTitleG");
+			destination.appendChild(xml.documentElement);
+			var element = d3.select("#stJTitleG");
+		});
+		// boys title stJ
+		d3.xml("svg/boysTitle.svg", function(xml) {
+			var destination = document.getElementById("stJTitleB");
+			destination.appendChild(xml.documentElement);
+			var element = d3.select("#stJTitleB");
+		});
+
+		//stJ women		
+		d3.xml("svg/stJWomenW.svg", function(xml) {
+			var destination = document.getElementById("stJWW");
+			destination.appendChild(xml.documentElement);
+			var element = d3.select("#stJWW");
+
+
+			// adding mouse interaction, so we manipulate dom elements other than the one that triggers the mouse event
+			element.on("mouseover", function() {
+				// setting the text of the page headline
+				d3.select("#topStat").text(element.attr("title"));
+			})
+		});
+		d3.xml("svg/stJWomenM.svg", function(xml) {
+			var destination = document.getElementById("stJWM");
+			destination.appendChild(xml.documentElement);
+			var element = d3.select("#stJWM");
+			element.on("mouseover", function() {
+				// setting the text of the page headline
+				d3.select("#topStat").text(element.attr("title"));
+			})
+
+		});
+		//stJ men		
+		d3.xml("svg/stJMenW.svg", function(xml) {
+			var destination = document.getElementById("stJMW");
+			destination.appendChild(xml.documentElement);
+			var element = d3.select("#stJMW");
+
+
+			// adding mouse interaction, so we manipulate dom elements other than the one that triggers the mouse event
+			element.on("mouseover", function() {
+				// setting the text of the page headline
+				d3.select("#topStat").text(element.attr("title"));
+			})
+		});
+		d3.xml("svg/stJMenM.svg", function(xml) {
+			var destination = document.getElementById("stJMM");
+			destination.appendChild(xml.documentElement);
+			var element = d3.select("#stJMM");
+			element.on("mouseover", function() {
+				// setting the text of the page headline
+				d3.select("#topStat").text(element.attr("title"));
+			})
+
+		});
+		//stJ girls		
+		d3.xml("svg/stJGirlsW.svg", function(xml) {
+			var destination = document.getElementById("stJGW");
+			destination.appendChild(xml.documentElement);
+			var element = d3.select("#stJGW");
+
+
+			// adding mouse interaction, so we manipulate dom elements other than the one that triggers the mouse event
+			element.on("mouseover", function() {
+				// setting the text of the page headline
+				d3.select("#topStat").text(element.attr("title"));
+			})
+		});
+		d3.xml("svg/stJGirlsM.svg", function(xml) {
+			var destination = document.getElementById("stJGM");
+			destination.appendChild(xml.documentElement);
+			var element = d3.select("#stJGM");
+			element.on("mouseover", function() {
+				// setting the text of the page headline
+				d3.select("#topStat").text(element.attr("title"));
+			})
+
+		});
+		//stdJ boys		
+		d3.xml("svg/stJBoysW.svg", function(xml) {
+			var destination = document.getElementById("stJBW");
+			destination.appendChild(xml.documentElement);
+			var element = d3.select("#stJBW");
+
+
+			// adding mouse interaction, so we manipulate dom elements other than the one that triggers the mouse event
+			element.on("mouseover", function() {
+				// setting the text of the page headline
+				d3.select("#topStat").text(element.attr("title"));
+			})
+		});
+		d3.xml("svg/stJBoysM.svg", function(xml) {
+			var destination = document.getElementById("stJBM");
+			destination.appendChild(xml.documentElement);
+			var element = d3.select("#stJBM");
+			element.on("mouseover", function() {
+				// setting the text of the page headline
+				d3.select("#topStat").text(element.attr("title"));
+			})
+
+		});
+				d3.xml("svg/tslidenine.svg", function(xml) {
+			var destination = document.getElementById("pol");
+			destination.appendChild(xml.documentElement);
+			var element = d3.select("#pol");
+
+		});
+				d3.xml("svg/tslideeight.svg", function(xml) {
+			var destination = document.getElementById("pref");
+			destination.appendChild(xml.documentElement);
+			var element = d3.select("#pref");
+		});
+		
+		
+	</script>
+
+	<div id="everything">
+		<div id="topStat">
+
+		</div>
+		<div id="stat">
+		</div>
+
+		<div id="key">
+		</div>
+	
+		<div id="senate">
+			<h2> SENATE </h2>
+			<div id="senateWo">
+				<div id="titleW">
+				</div>
+				<div id="senateWW" title="11% of women prefer a female political leader and 76% have no difference in preference. Women comprise 20% of the Senate.">
+				</div>
+				<div id="senateWM" title="12% of women prefer a male political leader and 76% have no difference in preference.  Men comprise 80% of the Senate.">
+				</div>
+			</div>
+			<div id="senateMe">
+				<div id="titleM">
+				</div>
+				<div id="senateMW" title="7% of men prefer a female political leader and 74% have no difference in preference. Women comprise 20% of the Senate.">
+				</div>
+				<div id="senateMM" title="17% of men prefer a male political leader and 74% have no difference in preference.  Men comprise 80% of the Senate.">
+				</div>
+			</div>
+			<div id="senateGi">
+				<div id="titleG">
+				</div>
+				<div id="senateGW" title="8% of girls prefer a female political leader and 69% have no difference in preference.  Women comprise 20% of the Senate.">
+				</div>
+				<div id="senateGM" title="23% of girls prefer a male political leader and 69% have no difference in preference.  Men comprise 80% of the Senate.">
+				</div>
+			</div>
+			<div id="senateBo">
+				<div id="titleB">
+				</div>
+				<div id="senateBW" title="4% of boys prefer a female political leader and 56% have no difference in preference.  Women comprise 20% of the Senate.">
+				</div>
+				<div id="senateBM" title="40% of boys prefer a male political leader and 56% have no difference in preference.  Men comprise 80% of the Senate.">
+				</div>
+			</div>
+		</div>
+<!--House of reps-->
+		<div id="house">
+			<h2> HOUSE OF REPRESENTATIVES </h2>
+			<div id="houseWo">
+				<div id="houseTitleW">
+				</div>
+				<div id="houseWW" title="11% of women prefer a female political leader and 76% have no difference in preference. Women comprise 19% of the House of Representatives.">
+				</div>
+				<div id="houseWM" title="12% of women prefer a male political leader and 76% have no difference in preference.  Men comprise 81% of the House of Representatives.">
+				</div>
+			</div>
+			<div id="houseMe">
+				<div id="houseTitleM">
+				</div>
+				<div id="houseMW" title="7% of men prefer a female political leader and 74% have no difference in preference.  Women comprise 19% of the House of Representatives.">
+				</div>
+				<div id="houseMM" title="17% of men prefer a male political leader and 74% have no difference in preference.  Men comprise 81% of the House of Representatives.">
+				</div>
+			</div>
+			<div id="houseGi">
+				<div id="houseTitleG">
+				</div>
+				<div id="houseGW" title="8% of girls prefer a female political leader and 69% have no difference in preference.   Women comprise 19% of the House of Representatives.">
+				</div>
+				<div id="houseGM" title="23% of girls prefer a male political leader and 69% have no difference in preference.  Men comprise 81% of the House of Representatives.">
+				</div>
+			</div>
+			<div id="houseBo">
+				<div id="houseTitleB">
+				</div>
+				<div id="houseBW" title="4% of boys prefer a female political leader and 56% have no difference in preference.  Women comprise 19% of the House of Representatives.">
+				</div>
+				<div id="houseBM" title="40% of boys prefer a male political leader and 56% have no difference in preference.  Men comprise 81% of the House of Representatives.">
+				</div>
+			</div>
+			<!--state leg-->
+		<div id="sLeg">
+			<h2>STATE LEGISLATOR</h2>
+			<div id="sLegWo">
+				<div id="sLegTitleW">
+				</div>
+				<div id="sLegWW" title="11% of women prefer a female political leader and 76% have no difference in preference. Women comprise 24% of State Legislators.">
+				</div>
+				<div id="sLegWM" title="12% of women prefer a male political leader and 76% have no difference in preference.  Men comprise 76% of State Legislators.">
+				</div>
+			</div>
+			<div id="sLegMe">
+				<div id="sLegTitleM">
+				</div>
+				<div id="sLegMW" title="7% of men prefer a female political leader and 74% have no difference in preference. Women comprise 24% of State Legislators.">
+				</div>
+				<div id="sLegMM" title="17% of men prefer a male political leader and 74% have no difference in preference.  Men comprise 76% of State Legislators.">
+				</div>
+			</div>
+			<div id="sLegGi">
+				<div id="sLegTitleG">
+				</div>
+				<div id="sLegGW" title="8% of girls prefer a female political leader and 69% have no difference in preference.  Women comprise 24% of State Legislators.">
+				</div>
+				<div id="sLegGM" title="23% of girls prefer a male political leader and 69% have no difference in preference.  Men comprise 76% of State Legislators.">
+				</div>
+			</div>
+			<div id="sLegBo">
+				<div id="sLegTitleB">
+				</div>
+				<div id="sLegBW" title="4% of boys prefer a female political leader and 56% have no difference in preference.  Women comprise 24% of State Legislators.">
+				</div>
+				<div id="sLegBM" title="40% of boys prefer a male political leader and 56% have no difference in preference.  Men comprise 76% of State Legislators.">
+				</div>
+			</div>
+					<!--govenors-->
+		<div id="gov">
+			<h2>GOVERNORS</h2>
+			<div id="govWo">
+				<div id="govTitleW">
+				</div>
+				<div id="govWW" title="11% of women prefer a female political leader and 76% have no difference in preference. Women comprise 10% of Governors.">
+				</div>
+				<div id="govWM" title="12% of women prefer a male political leader and 76% have no difference in preference.  Men comprise 90% of the Governors.">
+				</div>
+			</div>
+			<div id="govMe">
+				<div id="govTitleM">
+				</div>
+				<div id="govMW" title="7% of men prefer a female political leader and 74% have no difference in preference. Women comprise 10% of Governors.">
+				</div>
+				<div id="govMM" title="17% of men prefer a male political leader and 74% have no difference in preference.  Men comprise 90% of the Governors.">
+				</div>
+			</div>
+			<div id="govGi">
+				<div id="govTitleG">
+				</div>
+				<div id="govGW" title="8% of girls prefer a female political leader and 69% have no difference in preference.  Women comprise 10% of Governors.">
+				</div>
+				<div id="govGM" title="23% of girls prefer a male political leader and 69% have no difference in preference.  Men comprise 90% of the Governors.">
+				</div>
+			</div>
+			<div id="govBo">
+				<div id="govTitleB">
+				</div>
+				<div id="govBW" title="4% of boys prefer a female political leader and 56% have no difference in preference.  Women comprise 10% of Governors.">
+				</div>
+				<div id="govBM" title="40% of boys prefer a male political leader and 56% have no difference in preference.  Men comprise 90% of the Governors.">
+				</div>
+			</div>
+<!--US Fed Judges-->
+		<div id="fedJ">
+			<h2>US FEDERAL COURT JUDGES</h2>
+			<div id="fedJWo">
+				<div id="fedJTitleW">
+				</div>
+				<div id="fedJWW" title="11% of women prefer a female political leader and 76% have no difference in preference. Women comprise 24% of US Federal Court Judges.">
+				</div>
+				<div id="fedJWM" title="12% of women prefer a male political leader and 76% have no difference in preference.  Men comprise 76% of US Federal Court Judges.">
+				</div>
+			</div>
+			<div id="fedJMe">
+				<div id="fedJTitleM">
+				</div>
+				<div id="fedJMW" title="7% of men prefer a female political leader and 74% have no difference in preference. Women comprise 24% of US Federal Court Judges.">
+				</div>
+				<div id="fedJMM" title="17% of men prefer a male political leader and 74% have no difference in preference.  Men comprise 76% of US Federal Court Judges.">
+				</div>
+			</div>
+			<div id="fedJGi">
+				<div id="fedJTitleG">
+				</div>
+				<div id="fedJGW" title="8% of girls prefer a female political leader and 69% have no difference in preference.  Women comprise 24% of US Federal Court Judges.">
+				</div>
+				<div id="fedJGM" title="23% of girls prefer a male political leader and 69% have no difference in preference.  Men comprise 76% of US Federal Court Judges.">
+				</div>
+			</div>
+			<div id="fedJBo">
+				<div id="fedJTitleB">
+				</div>
+				<div id="fedJBW" title="4% of boys prefer a female political leader and 56% have no difference in preference.  Women comprise 24% of US Federal Court Judges.">
+				</div>
+				<div id="fedJBM" title="40% of boys prefer a male political leader and 56% have no difference in preference.  Men comprise 76% of US Federal Court Judges.">
+				</div>
+			</div>
+			<!--US state judges-->
+		<div id="stJ">
+			<h2>US FEDERAL COURT JUDGES</h2>
+			<div id="stJWo">
+				<div id="stJTitleW">
+				</div>
+				<div id="stJWW" title="11% of women prefer a female political leader and 76% have no difference in preference. Women comprise 27% of US State Court Judges.">
+				</div>
+				<div id="stJWM" title="12% of women prefer a male political leader and 76% have no difference in preference.  Men comprise 73% of US State Court Judges.">
+				</div>
+			</div>
+			<div id="stJMe">
+				<div id="stJTitleM">
+				</div>
+				<div id="stJMW" title="7% of men prefer a female political leader and 74% have no difference in preference. Women comprise 27% of US State Court Judges.">
+				</div>
+				<div id="stJMM" title="17% of men prefer a male political leader and 74% have no difference in preference.  Men comprise 73% of US State Court Judges.">
+				</div>
+			</div>
+			<div id="stJGi">
+				<div id="stJTitleG">
+				</div>
+				<div id="stJGW" title="8% of girls prefer a female political leader and 69% have no difference in preference.  Women comprise 27% of US State Court Judges.">
+				</div>
+				<div id="stJGM" title="23% of girls prefer a male political leader and 69% have no difference in preference.  Men comprise 73% of US State Court Judges.">
+				</div>
+			</div>
+			<div id="stJBo">
+				<div id="stJTitleB">
+				</div>
+				<div id="stJBW" title="4% of boys prefer a female political leader and 56% have no difference in preference.  Women comprise 27% of US State Court Judges.">
+				</div>
+				<div id="stJBM" title="40% of boys prefer a male political leader and 56% have no difference in preference.  Men comprise 73% of US State Court Judges.">
+				</div>
+			</div>
+				
+			<div id = "pol">
+			</div>
+			<div id = "pref">
+			</div>
+			<div id = static>
+		<div id= "full">
+			</div>
+			</div>
+		</div>
+</body>
+
+</html>
