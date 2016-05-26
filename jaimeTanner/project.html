@@ -1,0 +1,824 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>three.js webgl - draggable particles</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+	<style>
+		body {
+			font-family: Monospace;
+			background-color: #010C13;
+			margin: 0px;
+			overflow: hidden;
+		}
+	</style>
+</head>
+
+<body>
+	<link href="style.css" rel="stylesheet">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+	<script src="three.min.js"></script>
+	<script src="TrackballControls.js"></script>
+	<script src="stats.min.js"></script>
+	<script src="Cnidaria.json"></script>
+
+
+	<!--<h4 class="title" onClick="test()"> Select Here To Search Species </h4>-->
+	<!--<ul class="title">-->
+	<!--	<li>TO SEARCH SPECIES-->
+	<!--		<ul id="list">-->
+	<!--			<li class="active">Animalia</li>-->
+	<!--			<li class="active">Cnidaria</li>-->
+	<!--		</ul>-->
+	<!--	</li>-->
+	<!--</ul>-->
+	<!--info-->
+	<!--<button type="button" id="searchButton" onclick="orderMenu()">search</button>-->
+	<!-- The overlay -->
+	<div id="mycanvas"></div>
+	
+	
+	<div id="title">
+		<!--<a>-->
+			 <!--Mentions of <b>Stauromedusae</b><br> in the Publication <i>Nature</i> -->
+			 <!--</a>-->
+		</div>
+
+	<div id="myNav" class="overlay">
+
+		<!-- Button to close the overlay navigation -->
+		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+		<!-- Overlay content -->
+		<div class="overlay-content">
+			<p>A taxonomic order is a scientific grouping of related organisms.
+				<br> Some examples of taxonomic orders are primates, rodents, and pine.</p>
+			<h1>SELECT AN <b>ORDER</b> TO EXPLORE</h1>
+			<div id="leftLeft">
+				<a id="foo">Actiniaria</a>
+				<a href="#">Alcyonacea</a>
+				<a href="#">Antipatharia</a>
+				<a href="#">Ceriantharia</a>
+				<a href="#">Corallimorpharia</a>
+				<a href="#">Heliolitina</a>
+			</div>
+			<div id="leftMid">
+				<a href="#">Helioporacea</a>
+				<a href="#">Pennatulacea</a>
+				<a href="#">Scleractinia</a>
+				<a href="#">Zoantharia</a>
+				<a href="#">Chirodropida</a>
+				<a href="#">Cubomedusae</a>
+			</div>
+			<div id="rightMid">
+				<a href="#">Actinulida</a>
+				<a href="#">Anthoathecata</a>
+				<a href="#">Leptothecata</a>
+				<a href="#">Limnomedusae</a>
+				<a href="#">Narcomedusae</a>
+				<a href="#">Siphonophorae</a>
+			</div>
+			<div id="rightRight">
+				<a href="#">Trachymedusae</a>
+				<a href="#">Coronatae</a>
+				<a href="#">Rhizostomeae</a>
+				<a href="#">Semaeostomeae</a>
+				<a href="#">Stauromedusae</a>
+			</div>
+		</div>
+
+	</div>
+
+	<!-- Use any element to open/show the overlay navigation menu -->
+	<div id="rightBar">
+		<div id="openNav" onclick="openNav()">
+			<p id="exploreOrders">EXPLORE OTHER
+				<br> <b> ORGANISMS </b></span>
+		</div>
+	</div>
+
+	<div id="below">
+		<div id="otherInfo">
+			<div id="heirarchy" onclick="parent.location='slide3.html'">Taxonomy</div>
+			<div id="info">
+				<!--<p id="kingdom"> </p>-->
+				<!--<p id="phylum"> </p>-->
+				<!--<p id="class"> </p>-->
+				<p id="order"> </p>
+				<p id="family"> </p>
+				<p id="genus"> </p>
+				<p id="species"> </p>
+			</div>
+		</div>
+		<!--<div id="search"></div>-->
+		<div id="pubBox">
+			<div id="nature">Publications</div>
+			<div id="currentPublications"></div>
+		</div>
+	</div>
+
+
+	<div id="pageRunner"></div>
+	<!--<span class="phylum"> Phylum </span> <span>Cnidaria</span>-->
+	<script>
+		// The Nature of Code
+		// Daniel Shiffman
+		// http://natureofcode.com
+		// Simple Particle System
+
+		var ps;
+		var maxNatureCount = 0;
+		var allCounts = [];
+		var groupSum = [];
+		var group = [];
+
+		// levels available
+		var hierarchy = ["kingdom", "phylum", "class", "order", "family", "genus", "species", "sciName"];
+		var orders = ["Actiniaria", "Alcyonacea", "Antipatharia", "Ceriantharia", "Corallimorpharia", "Heliolitina", "Helioporacea", "Pennatulacea", "Scleractinia", "Zoantharia", "Chirodropida", "Cubomedusae", "Actinulida", "Anthoathecata", "Leptothecata", "Limnomedusae", "Narcomedusae", "Siphonophorae", "Trachymedusae", "Coronatae", "Rhizostomeae", "Semaeostomeae", "Stauromedusae"];
+
+		var ParticleSystem = function(position) {
+			this.origin = new THREE.Vector3(0, 0, 0);
+			this.particles = [];
+
+			this.addParticle = function(k, p, c, o, f, g, s, sn, count, link, title) {
+				this.particles.push(new Particle(new THREE.Vector3((Math.random() * 100 - 50), 0, 0), k, p, c, o, f, g, s, sn, count, link, title));
+			};
+
+			this.run = function() {
+				for (var i = 0; i < this.particles.length; i++) {
+					var p = this.particles[i];
+					if (p.lifespan > 0) {
+						p.applyBehaviors(this.particles);
+						p.update();
+					}
+					// apply lifespan, or not
+					// 	if (p.isDead()) {
+					// 	 this.particles.splice(i, 1);
+					// 	}
+				}
+			};
+
+			// clear all particles for a new selection
+			this.clear = function() {
+				console.log("clear particle system");
+				for (var i = 0; i < this.particles.length; i++) {
+					var p = this.particles[i];
+					p.remove();
+				}
+
+				// clear particles array
+				this.particles.splice(0, this.particles.length);
+				// clear objects array
+				objects.splice(0, objects.length);
+				// check how we are doing
+				console.log("# particles:" + this.particles.length + " | # objects: " + objects.length);
+			}
+
+
+			// A function to apply a force to all Particles
+			this.applyForce = function(f) {
+				for (var i = 0; i < this.particles.length; i++) {
+					this.particles[i].applyForce(f);
+				}
+			};
+
+		};
+
+		var Particle = function(position, k, p, c, o, f, g, s, sn, count, link, title) {
+			this.acceleration = new THREE.Vector3(Math.random() * 10 - 5, Math.random() * 10 - 5, 0);
+			this.velocity = new THREE.Vector3(Math.random() - .5, Math.random() - .5, 0);
+			this.lifespan = 1500.0; //how many frames they will move for 
+
+			this.r = 12;
+			this.maxspeed = 3; // Maximum speed
+			this.maxforce = 0.3; // Maximum steering force
+
+			// throw the dice to simulate a specific species from the db
+			// this.species = count; // adjust scale based on shuffle
+			if (count == 0) {
+				this.species = 0x4B4E6A;
+			}
+			else if (count == 1) {
+				this.species = 0x395DAE;
+			}
+			else if (count == 2) {
+				this.species = 0x219ED9;
+			}
+			else if (count == 3) {
+				this.species = 0x0FD0EF;
+			}
+			else if (count == 4) {
+				this.species = 0x04F1FB;
+			}
+			else if (count == 5) {
+				this.species = 0x04F1FB;
+			}
+			else if (count == 6) {
+				this.species = 0xA0E1E0;
+			}
+			else {
+				this.species = 0xDDF3F3;
+			}
+
+
+			geometry = new THREE.CircleBufferGeometry(this.r); // parameter represents scale
+			// create object with basic material and color based on random species shuffled earlier
+			// color is made up on arbitrary number based on species code
+			this.object = new THREE.Mesh(geometry, new THREE.MeshBasicMaterial({
+				color: this.species,
+				wireframe: false
+			}));
+			this.object.position = position.clone();
+			this.object.kingdom = k;
+			this.object.phylum = p;
+			this.object.class = c;
+			this.object.order = o;
+			this.object.family = f;
+			this.object.genus = g;
+			this.object.species = s;
+			this.object.sciName = sn;
+			this.object.natureCount = count;
+
+			this.object.natureArticles = link;
+			this.object.natureTitles = title;
+			// make object selectable by name
+			this.object.name = this.object.sciName;
+
+			// this.object.natureLink = [];
+			// this.object.natureTitles.push(natureTitle);
+			// for (var i = 0; i < link.length; i++){
+			// this.object.natureLink.push(link);
+			// this.object.natureTitle.push(title);
+			// }
+			// Optional shadows
+			// this.object.castShadow = true;
+			// this.object.receiveShadow = true;
+
+			// Add to THREE scene
+			scene.add(this.object);
+			// Required for ray tracing and selecting
+			objects.push(this.object);
+
+			this.applyBehaviors = function(particles) {
+				var separateForce = this.separate(particles);
+
+				// if (this.object.natureCount == 0) {
+				// 	//sets where particles will move 
+				var seekForce = this.seek(new THREE.Vector3(scale((window.innerWidth / 2 + window.innerWidth / 8) * -1, window.innerWidth / 2 + window.innerWidth / 8, this.object.natureCount, maxNatureCount), (window.innerHeight / 2) - (window.innerHeight / 2.5) , 0));
+
+
+
+
+				// relationship between separation and seeking
+				separateForce.multiplyScalar(10); // double separation
+				seekForce.multiplyScalar(5); // than seek force
+
+				// apply to the force vectors adding up to a direction
+				this.applyForce(separateForce);
+				this.applyForce(seekForce);
+			};
+
+			// add each force to one total acceleration
+			this.applyForce = function(force) {
+				this.acceleration.add(force); // this could be eased as well
+			};
+
+			// separate each particle from all neighbors
+			// this is computationally more expensize, because each particle nees to check all the others to determine behaviour
+			this.separate = function(particles) {
+				var desiredseparation = this.r * 4; // separate by 2.5 diameters
+				var sum = new THREE.Vector3(0, 0, 0);
+				var diff = new THREE.Vector3(0, 0, 0);
+				var count = 0;
+				// For every boid in the system, check if it's too close
+				for (var i = 0; i < particles.length; i++) {
+					var d = this.object.position.distanceTo(particles[i].object.position);
+					// If the distance is greater than 0 and less than an arbitrary amount (0 when you are yourself)
+					if ((d > 0) && (d < desiredseparation)) {
+						// Calculate vector pointing away from neighbor
+						// diff = this.object.position.sub(particles[i].object.position);
+						diff.subVectors(this.object.position, particles[i].object.position);
+						diff.normalize();
+						diff.divideScalar(d); // Weight by distance
+						sum.add(diff);
+						count++; // Keep track of how many
+					}
+				}
+				// Average -- divide by how many
+				if (count > 0) {
+					sum.divideScalar(count);
+					// Our desired vector is the average scaled to maximum speed
+					sum.normalize();
+					sum.multiplyScalar(this.maxspeed);
+					// Implement Reynolds: Steering = Desired - Velocity
+					sum.sub(this.velocity);
+					sum.clampLength(-this.maxforce, this.maxforce);
+				}
+				return sum;
+			};
+
+			// seek the mouse
+			// this could be any attractor, or a series for them based on species
+			this.seek = function(target) {
+				var desired = target.sub(this.object.position); // A vector pointing from the location to the target
+				// console.log(this.position);
+				// Normalize desired and scale to maximum speed
+				desired.normalize();
+				desired.multiplyScalar(this.maxspeed);
+				// Steering = Desired minus velocity
+				var steer = desired.sub(this.velocity);
+				steer.clampLength(-this.maxforce, this.maxforce);
+				return steer;
+			};
+
+			// Method to update position
+			this.update = function() {
+				this.velocity.add(this.acceleration);
+				this.velocity.clampLength(0, this.maxspeed);
+				this.object.position.add(this.velocity);
+				this.acceleration.multiplyScalar(0);
+				// this is forcing each 
+				this.object.position.z = 0;
+				// Differentiate species through z offset
+				// this.object.position.setZ(this.species * 100);
+				// lifespan is for making particles expire
+				//IF COMMENTED OUT, THEY WILL NEVER EXPIRE
+				// this.lifespan -= 1;
+			};
+
+			// Method to display
+			this.status = function() {
+				console.log("my position x:" + this.object.position.x + "| y: " + this.object.position.y + "| z: " + this.object.position.z);
+				console.log("my species: " + this.species);
+			};
+
+			// Is the particle still useful?
+			this.isDead = function() {
+				if (this.lifespan < 0.0) {
+					return true;
+				}
+				else {
+					return false;
+				}
+			};
+
+			this.remove = function() {
+				var selectedObject = scene.getObjectByName(this.object.name);
+				scene.remove(selectedObject);
+				// scene.remove(this.object);
+			}
+		};
+
+		// Threejs example draggable box
+
+		var container, stats;
+		var camera, controls, scene, renderer, geometry;
+		var objects = [],
+			plane;
+
+		var raycaster = new THREE.Raycaster();
+		var mouse = new THREE.Vector2(),
+			offset = new THREE.Vector3(),
+			INTERSECTED, SELECTED;
+
+		init();
+		animate();
+
+		function init() {
+
+			container = document.getElementById("mycanvas");
+
+			camera = new THREE.PerspectiveCamera(70, window.innerWidth / window.innerHeight, 1, 10000);
+			camera.position.z = 1000;
+
+			controls = new THREE.TrackballControls(camera);
+			controls.rotateSpeed = 1.0;
+			controls.zoomSpeed = 1.2;
+			controls.panSpeed = 0.8;
+			controls.noZoom = false;
+			controls.noPan = false;
+			controls.staticMoving = true;
+			controls.dynamicDampingFactor = 0.3;
+
+			scene = new THREE.Scene();
+
+			scene.add(new THREE.AmbientLight(0x505050));
+
+			var light = new THREE.SpotLight(0xffffff, 1.5);
+			light.position.set(0, 500, 2000);
+			light.castShadow = true;
+
+			light.shadow.camera.near = 200;
+			light.shadow.camera.far = camera.far;
+			light.shadow.camera.fov = 50;
+
+			light.shadow.bias = -0.00022;
+
+			light.shadow.mapSize.width = 2048;
+			light.shadow.mapSize.height = 2048;
+
+			scene.add(light);
+
+			// var geometry = new THREE.BoxGeometry( 40, 40, 40 );
+
+			ps = new ParticleSystem(new THREE.Vector3(0, 0, 0));
+
+			plane = new THREE.Mesh(
+				new THREE.PlaneBufferGeometry(2000, 2000, 8, 8),
+				new THREE.MeshBasicMaterial({
+					visible: false
+				})
+			);
+			scene.add(plane);
+
+			renderer = new THREE.WebGLRenderer({
+				antialias: true
+			});
+			renderer.setClearColor(0xf0f0f0);
+			renderer.setPixelRatio(window.devicePixelRatio);
+			renderer.setSize(window.innerWidth, window.innerHeight);
+			renderer.sortObjects = false;
+
+			renderer.shadowMap.enabled = true;
+			renderer.shadowMap.type = THREE.PCFShadowMap;
+
+			container.appendChild(renderer.domElement);
+
+			stats = new Stats();
+			stats.domElement.style.position = 'absolute';
+			stats.domElement.style.top = '0px';
+			// container.appendChild(stats.domElement);
+
+			renderer.domElement.addEventListener('mousemove', onDocumentMouseMove, false);
+			renderer.domElement.addEventListener('mousedown', onDocumentMouseDown, false);
+			renderer.domElement.addEventListener('mouseup', onDocumentMouseUp, false);
+
+			//
+
+			window.addEventListener('resize', onWindowResize, false);
+
+			// WHERE I ATTEMPTED TO MAKE A LINE
+			// var Linematerial = new THREE.LineBasicMaterial({
+			// 	color: 0xffffff
+			// });
+			// var lines = new THREE.Geometry();
+			// lines.vertices.push(new THREE.Vector3((window.innerWidth / 2 + window.innerWidth / 5) * -1, window.innerHeight/2 * -1, 0));
+			// lines.vertices.push(new THREE.Vector3(window.innerWidth / 4, window.innerHeight/2 * -1, 0));
+			// var line = new THREE.Line(lines, Linematerial);
+			// scene.add(line);
+			// initial selection
+			selection();
+		}
+
+
+		function onWindowResize() {
+
+			camera.aspect = window.innerWidth / window.innerHeight;
+			camera.updateProjectionMatrix();
+
+			renderer.setSize(window.innerWidth, window.innerHeight);
+
+		}
+
+		function onDocumentMouseMove(event) {
+
+			// checkSearch();
+			event.preventDefault();
+
+			mouse.x = (event.clientX / window.innerWidth) * 2 - 1;
+			mouse.y = -(event.clientY / window.innerHeight) * 2 + 1;
+
+			//
+
+			raycaster.setFromCamera(mouse, camera);
+
+			if (SELECTED) {
+
+				var intersects = raycaster.intersectObject(plane);
+
+				if (intersects.length > 0) {
+					//when clicked, do this
+
+					// set some output text
+					// document.getElementById("nature").innerHTML="";
+
+					SELECTED.material.color.setHex(0xff0000);
+					SELECTED.position.copy(intersects[0].point.sub(offset));
+
+
+				}
+
+				return;
+
+			}
+
+			var intersects = raycaster.intersectObjects(objects);
+
+
+
+
+			if (intersects.length > 0) {
+
+				if (INTERSECTED != intersects[0].object) {
+
+
+
+
+					INTERSECTED = intersects[0].object;
+					INTERSECTED.currentHex = INTERSECTED.material.color.getHex();
+					INTERSECTED.material.color.setHex(0X444444);
+
+					// if (INTERSECTED.kingdom != undefined){
+					// document.getElementById("kingdom").innerHTML = "<b>KINGDOM</b><br>" + "Animalia";
+					// document.getElementById("phylum").innerHTML = "<b>PHYLUM</b><br>" + "Cnidaria";
+					// document.getElementById("class").innerHTML = "<b>CLASS</b><br>" + INTERSECTED.class;
+					document.getElementById("order").innerHTML = "<b>ORDER</b><br>" + INTERSECTED.order;
+					document.getElementById("family").innerHTML = "<b>FAMILY</b><br>" + INTERSECTED.family;
+					document.getElementById("genus").innerHTML = "<b>GENUS</b><br>" + INTERSECTED.genus;
+					document.getElementById("species").innerHTML = "<b>SPECIES</b><br>" + INTERSECTED.species;
+					// }
+
+					//DO I NEED THIS?? removes the groups labeled "current"
+
+					// if ($('#current').length) {
+					// 	$('#current').remove();
+					// }
+					// else {
+					// 	console.log('no myID to remove');
+					// }
+					if (INTERSECTED.natureCount > 0) {
+
+						// container for assembling publications, unsorted list
+						var publicationString = "<ul>\n";
+						for (var a = 0; a < INTERSECTED.natureArticles.length; a++) {
+							document.getElementById("nature").innerHTML = "<b>" +INTERSECTED.sciName + " </b> is Mentioned in <b>" + INTERSECTED.natureCount + "</b> articles";
+							// assemble html formatted string, list items li 
+							publicationString += "<li href='" + INTERSECTED.natureArticles[a] + "'>" + INTERSECTED.natureTitles[a] + "</li>\n";
+							// document.getElementById("nature").insertAdjacentHTML('afterend', '<div id=' + "current" + ' href=' + INTERSECTED.natureArticles[a] + '>' + INTERSECTED.natureTitles[a] + '</div>');
+						}
+						// finish off unsorted list
+						publicationString += "</ul>\n";
+						// document.getElementById("nature").appendChild(publicationString);
+						// write string to html element, currently line 48
+						console.log(publicationString);
+						document.getElementById("currentPublications").innerHTML = publicationString;
+					}
+					else {
+						document.getElementById("nature").innerHTML = "";
+					}
+
+					plane.position.copy(INTERSECTED.position);
+					plane.lookAt(camera.position);
+
+				}
+
+				container.style.cursor = 'pointer';
+
+			}
+			else {
+
+				if (INTERSECTED) INTERSECTED.material.color.setHex(INTERSECTED.currentHex);
+
+				INTERSECTED = null;
+
+				container.style.cursor = 'auto';
+
+			}
+
+
+
+		}
+
+		function onDocumentMouseDown(event) {
+
+
+			// console.log("number of objects: " + objects.length);
+			// console.log(objects);
+
+			event.preventDefault();
+
+			// send out a virtual ray to catch intersection objects so we can drag and select them
+			raycaster.setFromCamera(mouse, camera);
+
+			var intersects = raycaster.intersectObjects(objects);
+
+			// if we found intersection objects
+			if (intersects.length > 0) {
+
+				controls.enabled = false;
+
+				SELECTED = intersects[0].object;
+
+				// selection(SELECTED);
+
+
+				var intersects = raycaster.intersectObject(plane);
+
+				if (intersects.length > 0) {
+					offset.copy(intersects[0].point).sub(plane.position);
+
+				}
+
+				container.style.cursor = 'move';
+
+			}
+
+
+		}
+
+		// reset after dragging object is compete
+		function onDocumentMouseUp(event) {
+
+			event.preventDefault();
+
+			controls.enabled = true;
+
+			if (INTERSECTED) {
+
+				plane.position.copy(INTERSECTED.position);
+
+				SELECTED = null;
+
+			}
+
+			container.style.cursor = 'auto';
+
+
+		}
+
+		//
+
+		function animate() {
+
+			// add a new object each frame, 500 total for now, this should be done in function that loads the data
+
+			// if (ps.particles.length < 500)
+			// 	ps.addParticle();
+
+
+
+
+			// Apply gravity force to all Particles
+			// var gravity = new THREE.Vector3( 0, 0.01, 0);
+			// ps.applyForce(gravity);
+			ps.run();
+
+
+
+			requestAnimationFrame(animate);
+
+			render();
+			stats.update();
+
+		}
+
+
+		//when click, look through all of the ORDERS for the order Antipatharia in the object Cnidaria and push them into an array, t
+		function selection(order) {
+			var chosen = [];
+			group = [];
+			groupSum = [];
+			maxNatureCount = 0;
+
+			// var thisLevel = hierarchy[currentLevel];
+			if (order != undefined) {
+				// currentLevel++;
+				// console.log("level no: " + currentLevel + " | thisLevel: " + thisLevel + " | thisLevel Obj: " + obj[thisLevel]);
+				// sel = obj[thisLevel];
+				sel = order;
+				document.getElementById("title").innerHTML = "<a>Mentions of <b>" + sel + "</b><br> in the Publication <i>Nature</i></a>";
+			}
+			else {
+				sel = 'Stauromedusae';
+				document.getElementById("title").innerHTML = "<a>Mentions of <b>" + sel + "</b><br> in the Publication <i>Nature</i></a>";
+			}
+
+			// console.log(selected.length);
+			// make selection
+			for (var i = 0; i < cnidaria.length; i++) {
+				if (cnidaria[i].classification.order == sel) {
+					// find the groupings of pub counts
+					if (cnidaria[i].natureCount > 0) {
+						if (groupSum[cnidaria[i].natureCount] != undefined) {
+							// groupSum[cnidaria[i].natureCount] = 0;
+						
+							groupSum[cnidaria[i].natureCount] += cnidaria[i].natureCount;
+							group[cnidaria[i].natureCount] = cnidaria[i].natureCount;
+						}
+					}
+
+					//find the biggest number of pubs for this group
+					if (cnidaria[i].natureCount > maxNatureCount) {
+						maxNatureCount = cnidaria[i].natureCount;
+					};
+					// console.log("max nature count--" + maxNatureCount);
+					chosen.push(cnidaria[i]);
+
+				}
+				// if (i === cnidaria.length - 1) {
+				// 	console.log("summaries---" + groupSum);
+				// 	console.log("numbers used ----" + group);
+				// }
+			}
+			// if ($(p).ge
+			// $("p").css("background-color");
+
+
+
+			// container for assembling publications, unsorted list SCALE BAR!!!!!
+			
+			// var bottomBar = "<div>\n";
+			// for (var a = 0; a < group.length; a++) {
+			// 	// assemble html formatted string, list items 
+
+			// 	// if (group[a] != undefined) {
+			// 	bottomBar += "<p>" + group[a] + "</p>";
+			// 	// }
+			// }
+
+			// bottomBar += "</div>\n";
+
+			// console.log(bottomBar);
+			// document.getElementById("pageRunner").innerHTML = bottomBar;
+
+
+
+			if (chosen.length > 0) {
+				// console.log("found " + chosen.length + " matches...");
+				// clear particles
+				ps.clear();
+
+				// make particles from selection
+
+				for (var i = 0; i < chosen.length; i++) {
+					var link, title;
+
+					console.log(chosen.length);
+					if (chosen[i].natureCount > 0) {
+						link = chosen[i].natureArticles;
+						title = chosen[i].natureTitles;
+					}
+					else {
+						link = "NaN";
+						title = "NaN";
+					}
+					// console.log(title);
+					ps.addParticle(chosen[i].classification.kingdom, chosen[i].classification.phylum, chosen[i].classification.class, chosen[i].classification.order, chosen[i].classification.family, chosen[i].classification.genus, chosen[i].species, chosen[i].sciName, chosen[i].natureCount, link, title);
+
+				}
+			}
+
+
+
+			// console.log("Found order length is" + chosen.length);
+		}
+
+
+		function render() {
+
+			controls.update();
+
+			renderer.setClearColor(new THREE.Color(0x010C13), 1);
+			renderer.render(scene, camera);
+
+		}
+
+		/* Open when someone clicks on the span element */
+		function openNav() {
+			document.getElementById("myNav").style.width = "100%";
+		}
+
+		/* Close when someone clicks on the "x" symbol inside the overlay */
+		function closeNav() {
+			document.getElementById("myNav").style.width = "0%";
+		}
+
+		$('body').on('click', 'a', function() {
+			// get the content of what's been clicked on
+			var choice = $(this).text();
+			console.log(choice);
+			// use that content to make the selection
+			selection(choice);
+			closeNav();
+		});
+
+		function scale(windowMin, windowMax, x, m) {
+			var a = windowMin;
+			var b = windowMax;
+			var min = 0;
+			var max = m;
+			var partA = b - a;
+			var partB = x - min;
+			var partC = max - min;
+			var partD = partA * partB;
+			var xCoordinate = partD / partC + a;
+			return xCoordinate;
+
+		}
+	</script>
+
+</body>
+
+</html>
