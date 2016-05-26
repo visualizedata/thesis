@@ -1,0 +1,911 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>INFERNO MAP</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+<link href='https://fonts.googleapis.com/css?family=Roboto+Condensed|Open+Sans|Lato|PT+Sans|Source+Sans+Pro' rel='stylesheet' type='text/css'>		<style>
+		html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 0px;  /* remove scrollbar space */
+    background: transparent;  /* optional: just make scrollbar invisible */
+}
+/* optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+    background: #FF0000;
+}
+				body {
+				color: #d1cab1;
+				background-color: #000000;
+				margin: 0px;
+				overflow: hidden;
+			}
+			#container {
+				background-color: #000000;
+			}
+			#info {
+				position: absolute;
+				bottom: 10%;
+				width: 400px;
+				padding: 5px;
+				margin-left: 33px;
+				opacity: 0.6;
+font-family: 'Source Sans Pro', sans-serif;
+				font-size: 15px;
+				text-align: left;
+				font-weight: normal;
+			}
+		h1 {
+				
+				font-size: 16px;
+				
+				font-family: "Helvetica";
+
+				font-weight: normal;
+
+			}
+			#stanzas {
+				position: absolute;
+				top: 40%;
+				width: 400px;
+				padding: 0px;
+				margin-left: 33px;
+				height: 88px;
+font-family: 'Source Sans Pro', sans-serif;
+				font-size: 15px;
+				line-height: 22px;
+				overflow: hidden;
+				text-align: left;
+				font-weight: normal;
+				overflow: auto;
+			}
+		#firstlines {
+				position: absolute;
+				top: 30%;
+				padding: 0px;
+				margin-left: 25%;
+/* 
+				height: 88px;
+ */
+font-family: 'Source Sans Pro', sans-serif;
+				font-size: 33px;
+				line-height: 60px;
+				overflow: hidden;
+				text-align: left;
+				font-weight: normal;
+				overflow: auto;
+			}
+			#info3 {
+				position: absolute;
+				top: 75px;
+				width: 333px;
+				padding: 5px;
+				margin-left: 33px;
+				font-family: "Gill Sans";
+				font-size: 14px;
+				text-align: left;
+				font-weight: normal;
+			}
+			a {
+				color: #fff;
+			}
+		</style>
+		<script>
+		var theCantos;
+		</script>
+	</head>
+
+	<body>
+		<div id="container"></div>
+		<div id="stanzas"><p id='now'></p></div>
+		<div id="info"></div>
+		<div id="firstlines">
+		<p>Midway in the journey of our life<BR>
+		I came to myself in a dark wood,<BR>
+		for the straight way was lost.<BR></p>
+		</div>
+
+		<script src="build/three.min.js"></script>
+		<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+		<script src="js/Detector.js"></script>
+		<script src="js/libs/stats.min.js"></script>
+		<script src="js/controls/TrackballControls.js"></script>
+				<script src="js/libs/tween.min.js"></script>
+				<script src="cantos.js"></script>
+
+
+		<script type="x-shader/x-vertex" id="vertexshader">
+
+			attribute float size;
+			attribute vec3 customColor;
+
+			varying vec3 vColor;
+
+			void main() {
+
+				vColor = customColor;
+
+				vec4 mvPosition = modelViewMatrix * vec4( position, 1.0 );
+
+				gl_PointSize = size * ( 300.0 / -mvPosition.z );
+
+				gl_Position = projectionMatrix * mvPosition;
+
+			}
+
+		</script>
+
+		<script type="x-shader/x-fragment" id="fragmentshader">
+
+			uniform vec3 color;
+			uniform sampler2D texture;
+
+			varying vec3 vColor;
+
+			void main() {
+
+				gl_FragColor = vec4( color * vColor, 1.0 );
+
+				gl_FragColor = gl_FragColor * texture2D( texture, gl_PointCoord );
+
+				if ( gl_FragColor.a < ALPHATEST ) discard;
+
+			}
+
+		</script>
+
+
+		<script>
+
+			if ( ! Detector.webgl ) Detector.addGetWebGLMessage();
+
+
+
+  function cleanDataType(column) {
+      	if (!isNaN(column)) {
+return Number(column);
+} else if (column == "TRUE") {
+return true;
+} else if (column == "FALSE") {
+return false;
+} else {
+return column;
+}
+
+  }
+
+var eventData = [];
+var cantoData = [];
+jQuery.get('js/DanteFlowtab.txt', function(data) {
+    var rows = data.split('\n');
+    var objectName = rows[0].split('\t');
+    for  (var i=1; i < 200; i++) {
+    var cols = rows[i].split('\t');
+//make eventsData
+    	if (cols[7] == true || cols[12] > 0) {
+    	var featureSet = new Object;
+    	for (var j=0; j < 27; j++) {
+    	var rowname = objectName[j];
+    	var colname = cleanDataType(cols[j]);
+    	featureSet[rowname] = colname;
+    	}
+    	
+ eventData.push(featureSet);
+    	}
+//make cantoData
+	  	var cantoSet = new Object;
+    	for (var k=0; k < 10; k++) {
+    	//console.log(objectName[k]);
+    var rowname = objectName[k];
+    //	console.log(cols[k]);
+    	var colname = cleanDataType(cols[k]);
+    	cantoSet[rowname] = colname;
+    	}
+    	    //	console.log(cantoSet);
+
+ cantoData.push(cantoSet);
+
+    }
+  //   			init();
+// 			animate();
+console.log(status);
+    
+}).done(function() {
+    console.log(cantoData);
+        			init();
+		animate();
+
+
+  });
+  
+  var colorType = [];
+colorType["Soul"] = "#FFEEB2";
+colorType["Souls"] = "#FFEEB2";
+colorType["Demon"] = "#cc1800";
+colorType["Demons"] = "#cc1800";
+colorType["Neutrals"] = "#969ba0";
+colorType["Virgil"] = "#E5D499";
+colorType["Dante"] = "#E5D499";
+colorType["Architecture"] = "#429d0a";
+
+
+   ///TOGGLE BETWEEN READING AND EXPLORE MODE
+			var readingmode = false;
+			var transitionwait = true;
+	//Global from tracking story breaks in stanzas || for the dynamic scroll
+		var storyBreaks, currentEpisode;
+	var theOpening = false;
+	var openingObjects = 0;
+	var openingParticle = 0;
+			
+	//OPENING ANIMATION VARIABLES
+	var openingRotationTime = 200;
+	var openingDrawSpeed = 1;
+	var openingStanzaFade = 1;
+	//threeJS globals		
+			var renderer, scene, controls, camera, stats;			
+			var particles, uniforms, cylinder, ring;
+			var particleGroup = -1;
+			var myCanto;
+			var lastParticle = -1;
+			//var lastStanza = -1;
+			var lastInter;
+			var lightnessArray = [];
+			
+			//rotation var -- what does it mean? I don't know....
+			var qa;
+			
+			var twelveLines, myLocation;
+			var mouseTrap, stanzaShow;
+
+			var PARTICLE_SIZE = 20;
+			var CantoTrack = [];
+
+			var raycaster, intersects;
+			var mouse, INTERSECTED;
+			var rotation = 0.001;
+// 
+// 			init();
+// 			animate();
+
+			function init() {
+
+				container = document.getElementById( 'container' );
+
+				scene = new THREE.Scene();
+//scene.fog = new THREE.Fog(0xffffff, 10, 60);
+   // scene.fog.color.setHSL( 0.51, 0.6, 0.6 );
+				camera = new THREE.PerspectiveCamera( 45, window.innerWidth / window.innerHeight, 1, 10000 );
+// 				camera.position.z = 300;
+// 				camera.position.y = 60;
+ 				camera.position.y = 445;
+ 				camera.position.z = 2.65;
+// //     camera = new THREE.PerspectiveCamera(45, window.innerWidth / window.innerHeight, 1, 10000)
+  //camera.position = new THREE.Vector3(0, 60, 300)
+    cameraPos0 = camera.position.clone()
+    cameraUp0 = camera.up.clone()
+    cameraZoom = camera.position.z
+		    camera.setViewOffset(window.innerWidth,window.innerHeight,-150,0,window.innerWidth,window.innerHeight);
+//scene.add(camera);
+
+				//
+controls = new THREE.TrackballControls( camera );
+
+				controls.rotateSpeed = 1.0;
+				controls.zoomSpeed = 1.2;
+				controls.panSpeed = 0.8;
+
+				controls.noZoom = false;
+				controls.noPan = false;
+
+				controls.staticMoving = true;
+				controls.dynamicDampingFactor = 0.3;
+
+				controls.keys = [ 65, 83, 68 ];
+
+				controls.addEventListener( 'change', render );
+
+///BUILDING THE FRAME OF THE INFERNO
+ var edgeMaterial = new THREE.MeshBasicMaterial( { color: 0x999999, transparent: true, opacity: 0.1, side: THREE.FrontSide } )
+ var wallMaterial = new THREE.MeshBasicMaterial( { color: 0x444444, transparent: true, opacity: 0.4, side: THREE.DoubleSide } )
+ var sphereMat = new THREE.MeshBasicMaterial( { color: 0x333333, wireframe: true, transparent: true, opacity: 0.5, side: THREE.DoubleSide } )
+  var floorMaterial = new THREE.MeshBasicMaterial( { color: 0x666666, transparent: true, opacity: 0.1, side: THREE.DoubleSide } )
+  var smallSphereMat = new THREE.MeshBasicMaterial( { color: 0x990000, transparent: true, opacity: 1, side: THREE.DoubleSide } )
+
+//var sDem = [143, 130, 117, 104, 91, 78, 65, 55, 43, 36, 33, 30, 27, 24, 21, 18, 15, 12, 9, 9];
+var sDem = [143, 130, 118, 106, 94, 82, 70, 60, 43, 36, 33, 30, 27, 24, 21, 18, 15, 12, 9, 9];
+var yDem = [70, 64, 58, 52, 44, 36, 30, 10, -29, -32, -35, -38, -41, -44, -47, -50, -53, -70,]
+
+for (u = 0; u < 19; u++) {
+if (u !== 6) {
+ var geometry = new THREE.CylinderGeometry( sDem[u], sDem[u], 6, 22, 1, true );
+
+ //var cpostion = new THREE.Vector3(100, 100, 100)
+ cylinder = new THREE.Mesh( geometry, edgeMaterial);
+cylinder.position.y = yDem[u];
+scene.add( cylinder );
+}
+
+ ring = new THREE.Mesh( new THREE.CylinderGeometry( sDem[u], sDem[u+1], 0.5, 100, 1, true ), floorMaterial );
+				ring.position.set( 0, yDem[u]-3, 0 );
+				scene.add( ring );
+}
+//wall of dis
+ var wallOfDis = new THREE.CylinderGeometry( sDem[6], sDem[6], 9, 100, 1, true );
+  wallPlace = new THREE.Mesh( wallOfDis, wallMaterial);
+wallPlace.position.y = yDem[6] + 1;
+scene.add( wallPlace );
+
+// var geometry = new THREE.SphereGeometry( 200, 33, 33 );
+// //var material = new THREE.MeshBasicMaterial( {color: 0xffff00} );
+// var sphere = new THREE.Mesh( geometry, sphereMat );
+// sphere.position.y = -70;
+// scene.add( sphere );
+// var geometry = new THREE.SphereGeometry( 1, 32, 32 );
+// //var material = new THREE.MeshBasicMaterial( {color: 0xffff00} );
+// var sphere = new THREE.Mesh( geometry, smallSphereMat );
+// sphere.position.y = -70;
+// scene.add( sphere );
+
+
+ //var cpostion = new THREE.Vector3(100, 100, 100)
+//  cylinder = new THREE.Mesh( geometry, edgeMaterial);
+// cylinder.position.y = yDem[u];
+// scene.add( cylinder );
+
+
+
+//BULDING THE PARTICLE SYSTEM
+//get the total number of elements
+var dotNum = 0;
+for ( var j = 0; j < eventData.length; j++) {
+dotNum += eventData[j].dots;
+CantoTrack.push(dotNum);
+}
+				var positions = new Float32Array( dotNum * 3 );
+				var colors = new Float32Array( dotNum * 3 );
+				var sizes = new Float32Array( dotNum );
+
+				var vertex;
+				var color = new THREE.Color();
+//iterate through the whole object array
+				var thet = 4.3;
+				var circleNum = 0;
+				var starti = 0;
+				var endi = eventData[0].dots;
+	for ( j = 0; j < eventData.length; j++) {
+					thet = eventData[j].thetaStart;
+					circleNum = eventData[j].circle;
+					if (j > 0) {
+					starti +=  eventData[j - 1].dots;
+					endi += eventData[j].dots;
+					}
+					var radi = sDem[circleNum] - eventData[j].radiusStart;
+			for ( var i = starti; i < endi; i ++ ) {
+				
+				if (eventData[j].distribution == "rows") {
+					if (eventData[j].rows > 1) {
+					var rowdiv = eventData[j].dots / eventData[j].rows;
+					var checki = i - starti;
+					if (checki % rowdiv == 0 & checki > 0) {
+						radi = radi - eventData[j].radiusEnd;
+						thet = eventData[j].thetaStart;
+						}
+						}
+										thet -= eventData[j].thetaSpread;
+
+						var pZ = radi * Math.cos(thet),
+						pY = yDem[circleNum]-3 + eventData[j].ychange,
+						pX = radi* Math.sin(thet),
+						vertex = new THREE.Vector3(pX, pY, pZ);
+						vertex.toArray( positions, i * 3 );
+					}
+				if (eventData[j].distribution == "scatter") {
+					var mythet = thet - eventData[j].thetaSpread * Math.random();
+					if (eventData[j].thetaGapStart > 0) {
+					if (mythet < eventData[j].thetaGapStart && mythet > eventData[j].thetaGapEnd) {
+						mythet -= eventData[j].thetaGapStart - eventData[j].thetaGapEnd;
+					}
+					}
+					var myradi = radi - eventData[j].radiusEnd * Math.random();
+						var pZ = myradi * Math.cos(mythet),
+						pY = yDem[circleNum]-3 + eventData[j].ychange,
+						pX = myradi* Math.sin(mythet),
+						vertex = new THREE.Vector3(pX, pY, pZ);
+						vertex.toArray( positions, i * 3 );
+					}
+				var Lightness = eventData[j].HSLlightHigh;
+				if (eventData[j].HSLlightLow > 0) {
+				var Lightvar = eventData[j].HSLlightLow * Math.random() 
+				Lightness -= Lightvar.toFixed(2);
+				}
+					
+					color.setHSL( eventData[j].HSLhue, eventData[j].HSLsat, 0);
+					lightnessArray.push(Lightness);
+					///MAKE AN ARRAY FOR LIGHTNESS!!!!
+
+		//			color.setHSL( 0.01 + 0.1 * ( i / l ), 1.0, 0.5 )
+		//Color for Souls
+					//color.setHSL( 0.11, 1.0, 0.2 + 0.7 * Math.random())
+		//Color for Dante (brown)
+		//Color for Virgil Lighter Soul (Like the souls of Limbo
+		//Color for Neutrals (bigger size)
+					//color.setHSL( 0.215, 0.14, 0.34 )
+		//Color for Demons
+					//color.setHSL( 0.02, 1.0, 0.2 + 0.3 * Math.random())
+		
+			
+					color.toArray( colors, i * 3 );
+
+					sizes[ i ] = PARTICLE_SIZE * eventData[j].dotSize;
+					
+
+				}
+				}
+
+				var geometry = new THREE.BufferGeometry();
+				geometry.addAttribute( 'position', new THREE.BufferAttribute( positions, 3) );
+				geometry.addAttribute( 'customColor', new THREE.BufferAttribute( colors, 3 ) );
+				geometry.addAttribute( 'size', new THREE.BufferAttribute( sizes, 1 ) );
+
+				//
+
+				var material = new THREE.ShaderMaterial( {
+
+					uniforms: {
+						color:   { type: "c", value: new THREE.Color( 0xffffff ) },
+						texture: { type: "t", value: new THREE.TextureLoader().load( "textures/sprites/disc.png" ) }
+					},
+					vertexShader: document.getElementById( 'vertexshader' ).textContent,
+					fragmentShader: document.getElementById( 'fragmentshader' ).textContent,
+
+					alphaTest: 0.9,
+
+				} );
+
+				//
+
+				particles = new THREE.Points( geometry, material );
+				//particles.position.set( 0, 57, 0 );
+				scene.add( particles );
+				
+				// var directionalLight = new THREE.DirectionalLight( 0xffffff, 0.5 );
+// 				directionalLight.position.set( 0, -1, 0 );
+// 				scene.add( directionalLight );
+// 				
+
+				//
+
+				renderer = new THREE.WebGLRenderer();
+				renderer.setPixelRatio( window.devicePixelRatio );
+				renderer.setSize( window.innerWidth, window.innerHeight );
+				renderer.setClearColor( 0x000000 );
+				//renderer.setClearColor( 0xFFFFFF );
+				container.appendChild( renderer.domElement );
+
+				//
+
+				raycaster = new THREE.Raycaster();
+				mouse = new THREE.Vector2();
+
+				//
+
+				// stats = new Stats();
+// 				stats.domElement.style.position = 'absolute';
+// 				stats.domElement.style.top = '0px';
+// 				container.appendChild( stats.domElement );
+
+				//
+
+				window.addEventListener( 'resize', onWindowResize, false );
+				document.addEventListener( 'mousemove', onDocumentMouseMove, false );
+				
+				
+						
+
+			}
+
+			function onDocumentMouseMove( event ) {
+
+				event.preventDefault();
+				if (!transitionwait) {
+				mouse.x = ( event.clientX / window.innerWidth ) * 2 - 1;
+				mouse.y = - ( event.clientY / window.innerHeight ) * 2 + 1;
+				clearTimeout(mouseTrap);
+				//clearTimeout(stanzaShow);
+				if (!readingmode) {
+    			mouseTrap=setTimeout(seeStanzas,500);
+    			}
+				}
+
+
+			}
+
+			function onWindowResize() {
+		    camera.setViewOffset(window.innerWidth,window.innerHeight,-150,0,window.innerWidth,window.innerHeight);
+
+				camera.aspect = window.innerWidth / window.innerHeight;
+				camera.updateProjectionMatrix();
+				
+
+				renderer.setSize( window.innerWidth, window.innerHeight );
+				controls.handleResize();
+
+			}
+function generateTexture() {
+				var canvas = document.createElement( 'canvas' );
+				canvas.width = 256;
+				canvas.height = 256;
+				var context = canvas.getContext( '2d' );
+				var image = context.getImageData( 0, 0, 256, 256 );
+				var x = 0, y = 0;
+				for ( var i = 0, j = 0, l = image.data.length; i < l; i += 4, j ++ ) {
+					x = j % 256;
+					y = x == 0 ? y + 1 : y;
+					image.data[ i ] = 255;
+					image.data[ i + 1 ] = 255;
+					image.data[ i + 2 ] = 255;
+					image.data[ i + 3 ] = Math.floor( x ^ y );
+				}
+				context.putImageData( image, 0, 0 );
+				return canvas;
+			}
+
+			function animate() {
+
+				requestAnimationFrame( animate );
+				controls.update();
+			TWEEN.update();
+
+				render();
+				//stats.update();
+
+			}
+
+			function render() {
+
+
+				var geometry = particles.geometry;
+				var attributes = geometry.attributes;
+
+				raycaster.setFromCamera( mouse, camera );
+				
+				if (theOpening) {
+				var nowOpening = openingObjects / openingDrawSpeed;
+					if (nowOpening % 1 == 0) {
+			for (hh = 0; hh < eventData[nowOpening].dots; hh++) {
+						var color = new THREE.Color();
+
+						color.setHSL( eventData[nowOpening].HSLhue, eventData[nowOpening].HSLsat, lightnessArray[openingParticle] );
+						color.toArray( attributes.customColor.array, openingParticle * 3);
+						openingParticle++;
+						}
+												attributes.customColor.needsUpdate = true;
+				}
+						openingObjects++;
+			if (openingObjects > (eventData.length - 1) * openingDrawSpeed) {
+				theOpening = false;
+				  moveAndLookAt(camera, new THREE.Vector3(0, 60, 350), new THREE.Vector3(0, 0, 0), {duration: openingRotationTime});
+
+				}
+				}
+
+				intersects = raycaster.intersectObject( particles );
+				if (!transitionwait) {
+				if ( intersects.length > 0) {
+					//checking for the current intersection
+					
+					if ( INTERSECTED != intersects[ 0 ].index) {
+
+						attributes.size.array[ INTERSECTED ] = PARTICLE_SIZE;
+						//attributes.customColor.array[ INTERSECTED ] = [0.27,1,0.32];
+
+						INTERSECTED = intersects[ 0 ].index;
+						
+			//check the number of the element
+						var objectSet = 0;
+						for (q = 0; q < CantoTrack.length; q++) {
+						if (q == 0 && INTERSECTED < CantoTrack[q]) {
+							objectSet = 0;
+							break;
+						} else if (INTERSECTED >= CantoTrack[q-1] && INTERSECTED < CantoTrack[q]) {
+							objectSet = q;
+							break;						
+						}
+						}
+						attributes.size.array[ INTERSECTED ] = PARTICLE_SIZE * 2;
+						var color = new THREE.Color();
+						
+						if (lastParticle >= 0) {
+						color.setHSL( eventData[lastParticle].HSLhue, eventData[lastParticle].HSLsat, lightnessArray[lastInter] );
+						color.toArray( attributes.customColor.array, lastInter * 3);
+						}
+						lastParticle = objectSet;
+						lastInter = INTERSECTED;
+
+						color.setHSL( eventData[objectSet].HSLhue, eventData[objectSet].HSLsat, lightnessArray[lastInter] + 0.2 );
+						color.toArray( attributes.customColor.array, INTERSECTED * 3);;			
+						
+						attributes.size.needsUpdate = true;
+						attributes.customColor.needsUpdate = true;
+						
+						//check the number of the element
+	
+							
+
+	
+					} 
+
+
+				} else if ( INTERSECTED !== null ) {
+
+					attributes.size.array[ INTERSECTED ] = PARTICLE_SIZE;
+					//attributes.size.needsUpdate = true;
+					INTERSECTED = null;
+				
+				} else {
+
+
+				}
+				}
+
+				renderer.render( scene, camera );
+
+
+			}
+function seeStanzas() {
+					if (lastParticle != particleGroup) {
+						particleGroup = lastParticle;
+						twelveLines = ""
+						myCanto = eventData[particleGroup].canto;
+						var myLines = eventData[particleGroup].lineStart-1;
+						for (q = 0; q < 3; q++) {
+						twelveLines += theCantos[myCanto][myLines+q];
+						if ((q + 1) % 3 == 0) {
+						//twelveLines += "<BR>";
+						}
+						twelveLines += "<BR>\n";
+						
+						}
+						myLocation = "Circle " + eventData[particleGroup].circle + ": " + eventData[particleGroup].shortDescript;
+						var cantoLine = "<i>Inferno</i> Canto " + eventData[particleGroup].canto + ", lines " + eventData[particleGroup].lineStart + " - " + eventData[particleGroup].lineEnd;
+						stanzaShow = setTimeout(seeStanzas,800);
+					
+$( "#info" ).fadeOut(500, function() {$( "#info" ).html( "<p>" + myLocation.toUpperCase() + "</p>" ).fadeIn(2000) });
+ var p = $( "#stanzas > p");
+p.fadeOut(500, function() {p.html( twelveLines ).fadeIn(1000) });
+   
+var position = p.position();
+ $( '#stanzas' ).scrollTop( position.top);
+}
+	}
+	
+
+function pullStanzas(group, num) {
+
+}
+$( document ).ready(function() {
+$( "#firstlines" ).fadeOut(100, function() {
+theOpening = true;
+});
+	$('html').dblclick(function() {
+	if(!transitionwait) {
+	transitionwait = true;
+	
+	if(readingmode) {
+	
+	} else {
+	controls.enabled = false;
+	readingmode = true;
+$('#stanzas').animate({top: '10%', height: '70%'}, 1500, 'swing', function() {
+    // Animation complete.
+    
+    
+						var stanzasBefore = "";
+						var stanzasAfter = "";
+						var stanzaBefore = [];
+						
+						myCanto = eventData[particleGroup].canto;
+						var myLines = eventData[particleGroup].lineStart-1;
+						var cantoLength = theCantos[myCanto].length;
+						//building the colors 
+						storyBreaks = [];
+						cantoDesc = [];
+						colorInfo = [];
+						for (var i=0; i < cantoData.length; i++) {
+						if(cantoData[i].canto == myCanto) {
+						var endline = Math.floor(cantoData[i].lineEnd / 3 - 1);
+						var descr = cantoData[i].shortDescript;
+						var colors = cantoData[i].objectType;
+						storyBreaks.push(endline);
+						cantoDesc.push(descr);
+						colorInfo.push(colors)
+						
+						}
+						}
+
+						//stanzas after
+						for (var q = myLines + 3; q < cantoLength; q++) {
+						
+							stanzasAfter += theCantos[myCanto][q];
+							if ((q + 1) % 3 == 0 && q + 2 != cantoLength) {
+							
+							 $('#stanzas').append( "<p>" + stanzasAfter + "</p>").html();
+							  stanzasAfter = "";
+							} else if (q == cantoLength - 1){
+								 $('#stanzas').append( "<p>" + stanzasAfter + "</p>").html();
+							} else {
+							stanzasAfter += "<BR>\n";
+							}
+							
+						} 
+						 $('#stanzas').append( "<h3>" + "Next Canto" + "</h3>").html();
+						//stanzas after
+						for (var q = 0; q < myLines; q++) {
+						
+							stanzasBefore += theCantos[myCanto][q];
+							if ((q + 1) % 3 == 0) {
+							stanzaBefore.push(stanzasBefore);
+							//  $('#stanzas').prepend("<p>" + stanzasBefore + "</p>").html();
+							  stanzasBefore = "";
+							} else {
+							stanzasBefore += "<BR>";
+							}
+							
+						} 
+						for (q = stanzaBefore.length - 1; q > -1; q--) {
+						 $('#stanzas').prepend("<p>" + stanzaBefore[q] + "</p>").html();
+
+						}
+					 $('#stanzas').prepend("<h1>" + "CANTO III" + "</h1>").html();
+
+	
+	
+			var selectedP = myLines / 3;
+				    var p = $( "#stanzas > p").eq(selectedP);
+var position = p.position();
+ $( '#stanzas' ).scrollTop( position.top);
+	
+		    
+						   // $('#stanzas').scrollTo('#now');
+   $("#stanzas > p:not(#now)").hide().fadeIn(1500, function() {
+    transitionwait = false;
+  });
+  ///this is a function for loading all 
+  markCanto(selectedP);
+});
+
+}
+}		
+	})
+});
+
+$( "#stanzas" ).scroll(function() {
+var onfirst = false;
+var onlast = false;
+if (currentEpisode == 0) {
+onfirst = true;
+} else if (currentEpisode == storyBreaks.length - 1) {
+onlast = true;
+}
+var lastevent = storyBreaks[currentEpisode-1];
+var nextevent = storyBreaks[currentEpisode] + 1;
+//150px for nextevent
+//200px for prev...
+
+var pabove = $( "#stanzas > p").eq(lastevent);
+var pbelow = $( "#stanzas > p").eq(nextevent);
+var prevEpisode = pabove.position();
+var nextEpisode = pbelow.position()
+var h = $( "#stanzas" ).height();
+//console.log(prevEpisode.top, nextEpisode.top, h);
+
+if (!onlast) {
+if (nextEpisode.top < 150) {
+console.log(nextevent);
+markCanto(nextevent);
+console.log(nextevent);
+}
+}
+if (!onfirst) {
+if (prevEpisode.top > 200) {
+console.log("Change it!!!");
+console.log(currentEpisode);
+markCanto(lastevent);
+console.log(currentEpisode);
+}
+}
+});
+
+
+function markCanto(currentp) {
+
+var lastevent = 0;
+var nextevent = 0;
+for (var i=0; i < storyBreaks.length; i++) {
+if (currentp <= storyBreaks[i]) {
+if (i > 0) {
+lastevent = storyBreaks[i-1] + 1;
+}
+nextevent = storyBreaks[i];
+currentEpisode = i;
+break;
+}
+}
+console.log(storyBreaks);
+console.log(currentp);
+console.log(currentEpisode);
+console.log(myCanto);
+console.log(cantoDesc);
+
+
+//var colorInfo = "#FF0000";
+var colorname = colorInfo[currentEpisode];
+console.log(colorInfo);
+//colorType["Architecture"]
+$("#info").css("opacity", "1");
+$("#info").html("<p>" + "CIRCLE 0: " + cantoDesc[currentEpisode].toUpperCase() + "</P>").css('color', colorType[colorname]);
+
+ $( "#stanzas > p" ).filter(function( index ) {
+    return index < lastevent || index > nextevent;
+    }).css("color", "#666666");  
+ $( "#stanzas > p" ).filter(function( index ) {
+    return index >= lastevent && index <= nextevent;
+        }).css("color", "#d1cab1");  
+        
+}
+
+
+function aniEnd() {
+transitionwait=false;
+}
+function moveAndLookAt(camera, dstpos, dstlookat, options) {
+ setTimeout(aniEnd,openingRotationTime);
+  options || (options = {duration: 300});
+
+  var origpos = new THREE.Vector3().copy(camera.position); // original position
+  var origrot = new THREE.Euler().copy(camera.rotation); // original rotation
+
+  camera.position.set(dstpos.x, dstpos.y, dstpos.z);
+  camera.lookAt(dstlookat);
+  var dstrot = new THREE.Euler().copy(camera.rotation)
+
+  // reset original position and rotation
+  camera.position.set(origpos.x, origpos.y, origpos.z);
+  camera.rotation.set(origrot.x, origrot.y, origrot.z);
+
+  //
+  // Tweening
+  //
+  
+  // position
+  new TWEEN.Tween(camera.position).to({
+    x: dstpos.x,
+    y: dstpos.y,
+    z: dstpos.z
+  }, options.duration).start();;
+
+  // rotation (using slerp)
+  (function () {
+	qa = new THREE.Quaternion().copy(camera.quaternion); // src quaternion
+    var qb = new THREE.Quaternion().setFromEuler(dstrot); // dst quaternion
+    var qm = new THREE.Quaternion();
+    camera.quaternion = qm;
+    
+    var o = {t: 0};
+    new TWEEN.Tween(o).to({t: 1}, options.duration).onUpdate(function () {
+      THREE.Quaternion.slerp(qa, qb, qm, o.t);
+      camera.quaternion.set(qm.x, qm.y, qm.z, qm.w);
+    }).start();
+  }).call(this);
+}
+
+
+		</script>
+
+	</body>
+
+</html>
