@@ -1,0 +1,6278 @@
+[{
+    "sciName": "Macrozamia viridis",
+    "species": "viridis",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Macrozamia"
+    }
+}, {
+    "sciName": "Cycas collina",
+    "species": "collina",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Cycas"
+    }
+}, {
+    "sciName": "Ceratozamia microstrobila",
+    "species": "microstrobila",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Ceratozamia"
+    }
+}, {
+    "sciName": "Zamia restrepoi",
+    "species": "restrepoi",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Zamia"
+    }
+}, {
+    "sciName": "Cycas maconochiei",
+    "species": "maconochiei",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Cycas"
+    }
+}, {
+    "sciName": "Cycas media",
+    "species": "media",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Cycas"
+    }
+}, {
+    "sciName": "Cycas guizhouensis",
+    "species": "guizhouensis",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Cycas"
+    }
+}, {
+    "sciName": "Cycas multipinnata",
+    "species": "multipinnata",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Cycas"
+    }
+}, {
+    "sciName": "Dioon pygmaea",
+    "species": "pygmaea",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Dioon"
+    }
+}, {
+    "sciName": "Encephalartos barteri",
+    "species": "barteri",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Encephalartos"
+    }
+}, {
+    "sciName": "Encephalartos tegulaneus",
+    "species": "tegulaneus",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Encephalartos"
+    }
+}, {
+    "sciName": "Macrozamia heteromera",
+    "species": "heteromera",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Macrozamia"
+    }
+}, {
+    "sciName": "Zamia pumila",
+    "species": "pumila",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Cycadophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Zamia"
+    }
+}, {
+    "sciName": "Cycas circinalis",
+    "species": "circinalis",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Cycas"
+    }
+}, {
+    "sciName": "Alethopteris australis",
+    "species": "australis",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Gymnospermophyta",
+        "class": "Cycadopsida",
+        "order": "Medullosales",
+        "family": "Medullosaceae",
+        "genus": "Alethopteris"
+    }
+}, {
+    "sciName": "Alethopteris dacreanii",
+    "species": "dacreanii",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "family": "Medullosaceae",
+        "genus": "Alethopteris"
+    }
+}, {
+    "sciName": "Alethopteris erosa",
+    "species": "erosa",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Gymnospermophyta",
+        "class": "Cycadopsida",
+        "order": "Medullosales",
+        "family": "Medullosaceae",
+        "genus": "Alethopteris"
+    }
+}, {
+    "sciName": "Alethopteris grandini",
+    "species": "grandini",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "family": "Medullosaceae",
+        "genus": "Alethopteris"
+    }
+}, {
+    "sciName": "Alethopteris longchitica",
+    "species": "longchitica",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Gymnospermophyta",
+        "class": "Cycadopsida",
+        "order": "Medullosales",
+        "family": "Medullosaceae",
+        "genus": "Alethopteris"
+    }
+}, {
+    "sciName": "Alethopteris muricata",
+    "species": "muricata",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Gymnospermophyta",
+        "class": "Cycadopsida",
+        "order": "Medullosales",
+        "family": "Medullosaceae",
+        "genus": "Alethopteris"
+    }
+}, {
+    "sciName": "Alethopteris ovata",
+    "species": "ovata",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Gymnospermophyta",
+        "class": "Cycadopsida",
+        "order": "Medullosales",
+        "family": "Medullosaceae",
+        "genus": "Alethopteris"
+    }
+}, {
+    "sciName": "Alethopteris sullivanti",
+    "species": "sullivanti",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Gymnospermophyta",
+        "class": "Cycadopsida",
+        "order": "Medullosales",
+        "family": "Medullosaceae",
+        "genus": "Alethopteris"
+    }
+}, {
+    "sciName": "Zamia lindenii",
+    "species": "lindenii",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Zamia"
+    }
+}, {
+    "sciName": "Zamia montana",
+    "species": "montana",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Zamia"
+    }
+}, {
+    "sciName": "Zamia chigua",
+    "species": "chigua",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Zamia"
+    }
+}, {
+    "sciName": "Zamia roezlii",
+    "species": "roezlii",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Zamia"
+    }
+}, {
+    "sciName": "Zamia skinneri",
+    "species": "skinneri",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Zamia"
+    }
+}, {
+    "sciName": "Lepidozamia peroffskyana",
+    "species": "peroffskyana",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Lepidozamia"
+    }
+}, {
+    "sciName": "Ceratozamia alvarezii",
+    "species": "alvarezii",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Ceratozamia"
+    }
+}, {
+    "sciName": "Ceratozamia angustifolia",
+    "species": "angustifolia",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Ceratozamia"
+    }
+}, {
+    "sciName": "Ceratozamia beccarae",
+    "species": "beccarae",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Gymnospermophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Ceratozamia"
+    }
+}, {
+    "sciName": "Ceratozamia becerrae",
+    "species": "becerrae",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Ceratozamia"
+    }
+}, {
+    "sciName": "Ceratozamia boliviense",
+    "species": "boliviense",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Ceratozamia"
+    }
+}, {
+    "sciName": "Ceratozamia brevifrons",
+    "species": "brevifrons",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Ceratozamia"
+    }
+}, {
+    "sciName": "Ceratozamia decumbens",
+    "species": "decumbens",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Ceratozamia"
+    }
+}, {
+    "sciName": "Ceratozamia ensiformis",
+    "species": "ensiformis",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Ceratozamia"
+    }
+}, {
+    "sciName": "Ceratozamia fuscata",
+    "species": "fuscata",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Ceratozamia"
+    }
+}, {
+    "sciName": "Ceratozamia fuscoviridis",
+    "species": "fuscoviridis",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Ceratozamia"
+    }
+}, {
+    "sciName": "Ceratozamia mexicana",
+    "species": "mexicana",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Ceratozamia"
+    }
+}, {
+    "sciName": "Ceratozamia miqueliana",
+    "species": "miqueliana",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Ceratozamia"
+    }
+}, {
+    "sciName": "Ceratozamia gomez-pompae",
+    "species": "gomez-pompae",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Ceratozamia"
+    }
+}, {
+    "sciName": "Ceratozamia hildae",
+    "species": "hildae",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Cycadophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Ceratozamia"
+    }
+}, {
+    "sciName": "Ceratozamia huastecorum",
+    "species": "huastecorum",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Gymnospermophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Ceratozamia"
+    }
+}, {
+    "sciName": "Ceratozamia kuesteriana",
+    "species": "kuesteriana",
+    "classification": {
+        "kingdom": "Plantae",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Ceratozamia"
+    }
+}, {
+    "sciName": "Ceratozamia latifolia",
+    "species": "latifolia",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Ceratozamia"
+    }
+}, {
+    "sciName": "Ceratozamia longipinnata",
+    "species": "longipinnata",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Ceratozamia"
+    }
+}, {
+    "sciName": "Ceratozamia matudae",
+    "species": "matudae",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Cycadophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Ceratozamia"
+    }
+}, {
+    "sciName": "Ceratozamia miquelii",
+    "species": "miquelii",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Ceratozamia"
+    }
+}, {
+    "sciName": "Ceratozamia mirandae",
+    "species": "mirandae",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Ceratozamia"
+    }
+}, {
+    "sciName": "Ceratozamia mixeorum",
+    "species": "mixeorum",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Ceratozamia"
+    }
+}, {
+    "sciName": "Ceratozamia morettii",
+    "species": "morettii",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Gymnospermophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Ceratozamia"
+    }
+}, {
+    "sciName": "Ceratozamia muricata",
+    "species": "muricata",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Ceratozamia"
+    }
+}, {
+    "sciName": "Ceratozamia norstogii",
+    "species": "norstogii",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Cycadophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Ceratozamia"
+    }
+}, {
+    "sciName": "Ceratozamia robusta",
+    "species": "robusta",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Ceratozamia"
+    }
+}, {
+    "sciName": "Ceratozamia sabatoi",
+    "species": "sabatoi",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Cycadophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Ceratozamia"
+    }
+}, {
+    "sciName": "Ceratozamia santillanii",
+    "species": "santillanii",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Cycadophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Ceratozamia"
+    }
+}, {
+    "sciName": "Ceratozamia whitelockiana",
+    "species": "whitelockiana",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Cycadophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Ceratozamia"
+    }
+}, {
+    "sciName": "Ceratozamia zaragozae",
+    "species": "zaragozae",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Gymnospermophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Ceratozamia"
+    }
+}, {
+    "sciName": "Ceratozamia zoquorum",
+    "species": "zoquorum",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Cycadophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Ceratozamia"
+    }
+}, {
+    "sciName": "Ctenis falcata",
+    "species": "falcata",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "genus": "Ctenis"
+    }
+}, {
+    "sciName": "Ctenis lechenbii",
+    "species": "lechenbii",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Gymnospermophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "genus": "Ctenis"
+    }
+}, {
+    "sciName": "Cycas aculeata",
+    "species": "aculeata",
+    "classification": {
+        "kingdom": "Plantae",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Cycas"
+    }
+}, {
+    "sciName": "Cycas sexseminifera",
+    "species": "sexseminifera",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Cycas"
+    }
+}, {
+    "sciName": "Cycas angulata",
+    "species": "angulata",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Cycas"
+    }
+}, {
+    "sciName": "Cycas apoa",
+    "species": "apoa",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Cycas"
+    }
+}, {
+    "sciName": "Cycas arenicola",
+    "species": "arenicola",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Cycas"
+    }
+}, {
+    "sciName": "Cycas armstrongii",
+    "species": "armstrongii",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Cycas"
+    }
+}, {
+    "sciName": "Cycas arnhemica",
+    "species": "arnhemica",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Gymnospermophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Cycas"
+    }
+}, {
+    "sciName": "Cycas badensis",
+    "species": "badensis",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Cycas"
+    }
+}, {
+    "sciName": "Cycas panzhihuaensis",
+    "species": "panzhihuaensis",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Cycas"
+    }
+}, {
+    "sciName": "Cycas balansae",
+    "species": "balansae",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Cycas"
+    }
+}, {
+    "sciName": "Cycas beddomei",
+    "species": "beddomei",
+    "classification": {
+        "kingdom": "Plantae",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Cycas"
+    }
+}, {
+    "sciName": "Cycas bellefontii",
+    "species": "bellefontii",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Cycas"
+    }
+}, {
+    "sciName": "Cycas bifida",
+    "species": "bifida",
+    "classification": {
+        "kingdom": "Plantae",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Cycas"
+    }
+}, {
+    "sciName": "Cycas bougainvilleana",
+    "species": "bougainvilleana",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Cycas"
+    }
+}, {
+    "sciName": "Cycas brachycantha",
+    "species": "brachycantha",
+    "classification": {
+        "kingdom": "Plantae",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Cycas"
+    }
+}, {
+    "sciName": "Cycas brunnea",
+    "species": "brunnea",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Gymnospermophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Cycas"
+    }
+}, {
+    "sciName": "Encephalartos caffer",
+    "species": "caffer",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Encephalartos"
+    }
+}, {
+    "sciName": "Cycas cairnsiana",
+    "species": "cairnsiana",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Gymnospermophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Cycas"
+    }
+}, {
+    "sciName": "Cycas canalis",
+    "species": "canalis",
+    "classification": {
+        "kingdom": "Plantae",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Cycas"
+    }
+}, {
+    "sciName": "Cycas candida",
+    "species": "candida",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Gymnospermophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Cycas"
+    }
+}, {
+    "sciName": "Cycas cantafolia",
+    "species": "cantafolia",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Cycas"
+    }
+}, {
+    "sciName": "Cycas rumphii",
+    "species": "rumphii",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Cycas"
+    }
+}, {
+    "sciName": "Cycas chamaoensis",
+    "species": "chamaoensis",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Gymnospermophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Cycas"
+    }
+}, {
+    "sciName": "Cycas changjiangensis",
+    "species": "changjiangensis",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Gymnospermophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Cycas"
+    }
+}, {
+    "sciName": "Cycas chevalieri",
+    "species": "chevalieri",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Cycas"
+    }
+}, {
+    "sciName": "Cycas condaoensis",
+    "species": "condaoensis",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Gymnospermophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Cycas"
+    }
+}, {
+    "sciName": "Cycas debaoensis",
+    "species": "debaoensis",
+    "classification": {
+        "kingdom": "Plantae",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Cycas"
+    }
+}, {
+    "sciName": "Cycas desolata",
+    "species": "desolata",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Cycas"
+    }
+}, {
+    "sciName": "Cycas diannanensis",
+    "species": "diannanensis",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Cycas"
+    }
+}, {
+    "sciName": "Cycas dolichophylla",
+    "species": "dolichophylla",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Cycas"
+    }
+}, {
+    "sciName": "Cycas edentata",
+    "species": "edentata",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Cycas"
+    }
+}, {
+    "sciName": "Cycas elephantipes",
+    "species": "elephantipes",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Gymnospermophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Cycas"
+    }
+}, {
+    "sciName": "Cycas elongata",
+    "species": "elongata",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Cycas"
+    }
+}, {
+    "sciName": "Cycas fairylakea",
+    "species": "fairylakea",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Cycas"
+    }
+}, {
+    "sciName": "Cycas ferruginea",
+    "species": "ferruginea",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Gymnospermophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Cycas"
+    }
+}, {
+    "sciName": "Cycas fugax",
+    "species": "fugax",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Cycas"
+    }
+}, {
+    "sciName": "Cycas furacea",
+    "species": "furacea",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Cycas"
+    }
+}, {
+    "sciName": "Cycas glauca ex",
+    "species": "glauca ex",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Gymnospermophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Cycas"
+    }
+}, {
+    "sciName": "Cycas gracilis",
+    "species": "gracilis",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Cycas"
+    }
+}, {
+    "sciName": "Cycas hainanensis",
+    "species": "hainanensis",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Gymnospermophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Cycas"
+    }
+}, {
+    "sciName": "Cycas hoabinhensis",
+    "species": "hoabinhensis",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Gymnospermophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Cycas"
+    }
+}, {
+    "sciName": "Cycas hongheensis",
+    "species": "hongheensis",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Cycas"
+    }
+}, {
+    "sciName": "Cycas siamensis",
+    "species": "siamensis",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Cycas"
+    }
+}, {
+    "sciName": "Cycas indica",
+    "species": "indica",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Gymnospermophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Cycas"
+    }
+}, {
+    "sciName": "Cycas javana",
+    "species": "javana",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Cycas"
+    }
+}, {
+    "sciName": "Cycas pectinata",
+    "species": "pectinata",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Cycas"
+    }
+}, {
+    "sciName": "Cycas thouarsii",
+    "species": "thouarsii",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Cycas"
+    }
+}, {
+    "sciName": "Cycas lacrimans",
+    "species": "lacrimans",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Cycas"
+    }
+}, {
+    "sciName": "Cycas lanepoolei",
+    "species": "lanepoolei",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Cycas"
+    }
+}, {
+    "sciName": "Cycas laotica",
+    "species": "laotica",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Cycas"
+    }
+}, {
+    "sciName": "Cycas lindstromii",
+    "species": "lindstromii",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Gymnospermophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Cycas"
+    }
+}, {
+    "sciName": "Cycas litoralis",
+    "species": "litoralis",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Gymnospermophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Cycas"
+    }
+}, {
+    "sciName": "Cycas macrocarpa",
+    "species": "macrocarpa",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Cycas"
+    }
+}, {
+    "sciName": "Cycas revoluta",
+    "species": "revoluta",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Cycas"
+    }
+}, {
+    "sciName": "Cycas montana",
+    "species": "montana",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Cycas"
+    }
+}, {
+    "sciName": "Cycas multifrondis",
+    "species": "multifrondis",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Gymnospermophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Cycas"
+    }
+}, {
+    "sciName": "Cycas nathorstii",
+    "species": "nathorstii",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Cycas"
+    }
+}, {
+    "sciName": "Cycas nitida",
+    "species": "nitida",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Cycas"
+    }
+}, {
+    "sciName": "Cycas nongnoochiae",
+    "species": "nongnoochiae",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Gymnospermophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Cycas"
+    }
+}, {
+    "sciName": "Cycas ophiolitica",
+    "species": "ophiolitica",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Cycas"
+    }
+}, {
+    "sciName": "Cycas papuana",
+    "species": "papuana",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Cycas"
+    }
+}, {
+    "sciName": "Cycas petraea",
+    "species": "petraea",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Gymnospermophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Cycas"
+    }
+}, {
+    "sciName": "Cycas platyphylla",
+    "species": "platyphylla",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Cycas"
+    }
+}, {
+    "sciName": "Cycas pranburiensis",
+    "species": "pranburiensis",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Cycas"
+    }
+}, {
+    "sciName": "Cycas pruinosa",
+    "species": "pruinosa",
+    "classification": {
+        "kingdom": "Plantae",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Cycas"
+    }
+}, {
+    "sciName": "Cycas pygmaea",
+    "species": "pygmaea",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Cycas"
+    }
+}, {
+    "sciName": "Macrozamia riedlei",
+    "species": "riedlei",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Macrozamia"
+    }
+}, {
+    "sciName": "Cycas riuminiana",
+    "species": "riuminiana",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Cycas"
+    }
+}, {
+    "sciName": "Cycas zeylanica",
+    "species": "zeylanica",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Cycas"
+    }
+}, {
+    "sciName": "Cycas sancti-lasallei",
+    "species": "sancti-lasallei",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Cycas"
+    }
+}, {
+    "sciName": "Cycas schumanniana",
+    "species": "schumanniana",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Cycas"
+    }
+}, {
+    "sciName": "Cycas scratchleyana",
+    "species": "scratchleyana",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Gymnospermophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Cycas"
+    }
+}, {
+    "sciName": "Cycas segmentifida",
+    "species": "segmentifida",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Cycas"
+    }
+}, {
+    "sciName": "Cycas silvestris",
+    "species": "silvestris",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Gymnospermophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Cycas"
+    }
+}, {
+    "sciName": "Cycas simplicipinna",
+    "species": "simplicipinna",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Cycas"
+    }
+}, {
+    "sciName": "Cycas sphaerica",
+    "species": "sphaerica",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Cycas"
+    }
+}, {
+    "sciName": "Cycas spherica",
+    "species": "spherica",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Gymnospermophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Cycas"
+    }
+}, {
+    "sciName": "Cycas sundaica",
+    "species": "sundaica",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Gymnospermophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Cycas"
+    }
+}, {
+    "sciName": "Cycas szechuanensis",
+    "species": "szechuanensis",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Cycas"
+    }
+}, {
+    "sciName": "Cycas taitungensis",
+    "species": "taitungensis",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Cycadophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Cycas"
+    }
+}, {
+    "sciName": "Cycas taiwaniana",
+    "species": "taiwaniana",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Gymnospermophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Cycas"
+    }
+}, {
+    "sciName": "Cycas tansachana",
+    "species": "tansachana",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Cycas"
+    }
+}, {
+    "sciName": "Cycas thuarsii",
+    "species": "thuarsii",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Cycas"
+    }
+}, {
+    "sciName": "Cycas tonkinensis",
+    "species": "tonkinensis",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Cycas"
+    }
+}, {
+    "sciName": "Cycas tropophylla",
+    "species": "tropophylla",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Gymnospermophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Cycas"
+    }
+}, {
+    "sciName": "Cycas villosa",
+    "species": "villosa",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Cycas"
+    }
+}, {
+    "sciName": "Cycas wadei",
+    "species": "wadei",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Cycas"
+    }
+}, {
+    "sciName": "Cycas xipholepis",
+    "species": "xipholepis",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Gymnospermophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Cycas"
+    }
+}, {
+    "sciName": "Cycas yorkiana",
+    "species": "yorkiana",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Cycas"
+    }
+}, {
+    "sciName": "Cycas zambalensis",
+    "species": "zambalensis",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Cycas"
+    }
+}, {
+    "sciName": "Dioon edule",
+    "species": "edule",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Dioon"
+    }
+}, {
+    "sciName": "Dioon angustifolium",
+    "species": "angustifolium",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Dioon"
+    }
+}, {
+    "sciName": "Dioon argenteum",
+    "species": "argenteum",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Gymnospermophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Dioon"
+    }
+}, {
+    "sciName": "Dioon califanoi",
+    "species": "califanoi",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Dioon"
+    }
+}, {
+    "sciName": "Dioon holmgrenii",
+    "species": "holmgrenii",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Cycadophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Dioon"
+    }
+}, {
+    "sciName": "Dioon mejiae",
+    "species": "mejiae",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Dioon"
+    }
+}, {
+    "sciName": "Dioon merolae",
+    "species": "merolae",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Cycadophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Dioon"
+    }
+}, {
+    "sciName": "Dioon purpusii",
+    "species": "purpusii",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Cycadophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Dioon"
+    }
+}, {
+    "sciName": "Dioon rzedowskii",
+    "species": "rzedowskii",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Cycadophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Dioon"
+    }
+}, {
+    "sciName": "Dioon spinulosum",
+    "species": "spinulosum",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Dioon"
+    }
+}, {
+    "sciName": "Dioon stevensonii",
+    "species": "stevensonii",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Dioon"
+    }
+}, {
+    "sciName": "Encephalartos aemulans",
+    "species": "aemulans",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Encephalartos"
+    }
+}, {
+    "sciName": "Encephalartos altensteinii",
+    "species": "altensteinii",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Encephalartos"
+    }
+}, {
+    "sciName": "Encephalartos horridus",
+    "species": "horridus",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Encephalartos"
+    }
+}, {
+    "sciName": "Encephalartos arenarius",
+    "species": "arenarius",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Encephalartos"
+    }
+}, {
+    "sciName": "Encephalartos bubalinus",
+    "species": "bubalinus",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Encephalartos"
+    }
+}, {
+    "sciName": "Encephalartos caffrorum",
+    "species": "caffrorum",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Encephalartos"
+    }
+}, {
+    "sciName": "Encephalartos cupidus",
+    "species": "cupidus",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Encephalartos"
+    }
+}, {
+    "sciName": "Encephalartos cycadifolius",
+    "species": "cycadifolius",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Encephalartos"
+    }
+}, {
+    "sciName": "Encephalartos delucanus",
+    "species": "delucanus",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Encephalartos"
+    }
+}, {
+    "sciName": "Encephalartos dolomiticus",
+    "species": "dolomiticus",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Gymnospermophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Encephalartos"
+    }
+}, {
+    "sciName": "Macrozamia miquelii",
+    "species": "miquelii",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Macrozamia"
+    }
+}, {
+    "sciName": "Macrozamia dyeri",
+    "species": "dyeri",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Macrozamia"
+    }
+}, {
+    "sciName": "Encephalartos dyerianus",
+    "species": "dyerianus",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Gymnospermophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Encephalartos"
+    }
+}, {
+    "sciName": "Encephalartos lehmannii",
+    "species": "lehmannii",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Encephalartos"
+    }
+}, {
+    "sciName": "Encephalartos equatorialis",
+    "species": "equatorialis",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Encephalartos"
+    }
+}, {
+    "sciName": "Encephalartos eugene-maraisii",
+    "species": "eugene-maraisii",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Gymnospermophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Encephalartos"
+    }
+}, {
+    "sciName": "Encephalartos ferox",
+    "species": "ferox",
+    "classification": {
+        "kingdom": "Plantae",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Encephalartos"
+    }
+}, {
+    "sciName": "Encephalartos schaijesii",
+    "species": "schaijesii",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Encephalartos"
+    }
+}, {
+    "sciName": "Macrozamia fraseri",
+    "species": "fraseri",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Macrozamia"
+    }
+}, {
+    "sciName": "Encephalartos friderici-guilielmi",
+    "species": "friderici-guilielmi",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Gymnospermophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Encephalartos"
+    }
+}, {
+    "sciName": "Encephalartos glaber",
+    "species": "glaber",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Encephalartos"
+    }
+}, {
+    "sciName": "Encephalartos ghellinckii",
+    "species": "ghellinckii",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Encephalartos"
+    }
+}, {
+    "sciName": "Encephalartos graniticolus",
+    "species": "graniticolus",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Encephalartos"
+    }
+}, {
+    "sciName": "Encephalartos gratus",
+    "species": "gratus",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Encephalartos"
+    }
+}, {
+    "sciName": "Encephalartos heenanii",
+    "species": "heenanii",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Encephalartos"
+    }
+}, {
+    "sciName": "Encephalartos heteropterus",
+    "species": "heteropterus",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Encephalartos"
+    }
+}, {
+    "sciName": "Encephalartos hildebrandtii",
+    "species": "hildebrandtii",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Gymnospermophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Encephalartos"
+    }
+}, {
+    "sciName": "Encephalartos hirsutus",
+    "species": "hirsutus",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Encephalartos"
+    }
+}, {
+    "sciName": "Encephalartos humilis",
+    "species": "humilis",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Gymnospermophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Encephalartos"
+    }
+}, {
+    "sciName": "Encephalartos inopinus",
+    "species": "inopinus",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Encephalartos"
+    }
+}, {
+    "sciName": "Encephalartos ituriensis",
+    "species": "ituriensis",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Encephalartos"
+    }
+}, {
+    "sciName": "Encephalartos kisambo",
+    "species": "kisambo",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Encephalartos"
+    }
+}, {
+    "sciName": "Encephalartos lanatus",
+    "species": "lanatus",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Gymnospermophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Encephalartos"
+    }
+}, {
+    "sciName": "Encephalartos longifolius",
+    "species": "longifolius",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Encephalartos"
+    }
+}, {
+    "sciName": "Zamia furfuracea",
+    "species": "furfuracea",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Zamia"
+    }
+}, {
+    "sciName": "Encephalartos latifrons",
+    "species": "latifrons",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Encephalartos"
+    }
+}, {
+    "sciName": "Encephalartos laurentianus",
+    "species": "laurentianus",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Encephalartos"
+    }
+}, {
+    "sciName": "Encephalartos lebomboensis",
+    "species": "lebomboensis",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Gymnospermophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Encephalartos"
+    }
+}, {
+    "sciName": "Encephalartos poggei",
+    "species": "poggei",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Encephalartos"
+    }
+}, {
+    "sciName": "Encephalartos lepeschkinei",
+    "species": "lepeschkinei",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Encephalartos"
+    }
+}, {
+    "sciName": "Macrozamia macdonnellii",
+    "species": "macdonnellii",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Macrozamia"
+    }
+}, {
+    "sciName": "Encephalartos mackenziei",
+    "species": "mackenziei",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Gymnospermophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Encephalartos"
+    }
+}, {
+    "sciName": "Encephalartos manikensis",
+    "species": "manikensis",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Encephalartos"
+    }
+}, {
+    "sciName": "Encephalartos marunguensis",
+    "species": "marunguensis",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Gymnospermophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Encephalartos"
+    }
+}, {
+    "sciName": "Encephalartos middelburgensis",
+    "species": "middelburgensis",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Gymnospermophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Encephalartos"
+    }
+}, {
+    "sciName": "Macrozamia moorei",
+    "species": "moorei",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Macrozamia"
+    }
+}, {
+    "sciName": "Encephalartos msinganus",
+    "species": "msinganus",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Encephalartos"
+    }
+}, {
+    "sciName": "Encephalartos munchii",
+    "species": "munchii",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Encephalartos"
+    }
+}, {
+    "sciName": "Encephalartos natalensis",
+    "species": "natalensis",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Encephalartos"
+    }
+}, {
+    "sciName": "Encephalartos ngoyanus",
+    "species": "ngoyanus",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Gymnospermophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Encephalartos"
+    }
+}, {
+    "sciName": "Encephalartos paucidentatus",
+    "species": "paucidentatus",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Encephalartos"
+    }
+}, {
+    "sciName": "Encephalartos pterogonus",
+    "species": "pterogonus",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Encephalartos"
+    }
+}, {
+    "sciName": "Encephalartos pungens",
+    "species": "pungens",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Encephalartos"
+    }
+}, {
+    "sciName": "Encephalartos relictus",
+    "species": "relictus",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Gymnospermophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Encephalartos"
+    }
+}, {
+    "sciName": "Encephalartos revolutus",
+    "species": "revolutus",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Encephalartos"
+    }
+}, {
+    "sciName": "Encephalartos royenii",
+    "species": "royenii",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Encephalartos"
+    }
+}, {
+    "sciName": "Encephalartos schmitzii",
+    "species": "schmitzii",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Gymnospermophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Encephalartos"
+    }
+}, {
+    "sciName": "Encephalartos sclavoi",
+    "species": "sclavoi",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Gymnospermophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Encephalartos"
+    }
+}, {
+    "sciName": "Encephalartos senticosus",
+    "species": "senticosus",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Encephalartos"
+    }
+}, {
+    "sciName": "Encephalartos septentrionalis",
+    "species": "septentrionalis",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Encephalartos"
+    }
+}, {
+    "sciName": "Encephalartos villosus",
+    "species": "villosus",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Encephalartos"
+    }
+}, {
+    "sciName": "Encephalartos turneri",
+    "species": "turneri",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Gymnospermophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Encephalartos"
+    }
+}, {
+    "sciName": "Encephalartos umbeluziensis",
+    "species": "umbeluziensis",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Gymnospermophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Encephalartos"
+    }
+}, {
+    "sciName": "Encephalartos vanhallii",
+    "species": "vanhallii",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Encephalartos"
+    }
+}, {
+    "sciName": "Encephalartos nubimontanus",
+    "species": "nubimontanus",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Encephalartos"
+    }
+}, {
+    "sciName": "Encephalartos woodii",
+    "species": "woodii",
+    "classification": {
+        "kingdom": "Plantae",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Encephalartos"
+    }
+}, {
+    "sciName": "Eriozamia latifolia",
+    "species": "latifolia",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Eriozamia"
+    }
+}, {
+    "sciName": "Lepidozamia hopei",
+    "species": "hopei",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Lepidozamia"
+    }
+}, {
+    "sciName": "Stangeria eriopus",
+    "species": "eriopus",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Stangeria"
+    }
+}, {
+    "sciName": "Macrozamia communis",
+    "species": "communis",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Macrozamia"
+    }
+}, {
+    "sciName": "Macrozamia cardiacensis",
+    "species": "cardiacensis",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Gymnospermophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Macrozamia"
+    }
+}, {
+    "sciName": "Macrozamia concinna",
+    "species": "concinna",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Macrozamia"
+    }
+}, {
+    "sciName": "Macrozamia conferta",
+    "species": "conferta",
+    "classification": {
+        "kingdom": "Plantae",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Macrozamia"
+    }
+}, {
+    "sciName": "Macrozamia spiralis",
+    "species": "spiralis",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Macrozamia"
+    }
+}, {
+    "sciName": "Macrozamia crassifolia",
+    "species": "crassifolia",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Macrozamia"
+    }
+}, {
+    "sciName": "Macrozamia diplomera",
+    "species": "diplomera",
+    "classification": {
+        "kingdom": "Plantae",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Macrozamia"
+    }
+}, {
+    "sciName": "Macrozamia douglasii",
+    "species": "douglasii",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Gymnospermophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Macrozamia"
+    }
+}, {
+    "sciName": "Macrozamia elegans",
+    "species": "elegans",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Macrozamia"
+    }
+}, {
+    "sciName": "Macrozamia eriolepis",
+    "species": "eriolepis",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Macrozamia"
+    }
+}, {
+    "sciName": "Macrozamia fawcettii",
+    "species": "fawcettii",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Gymnospermophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Macrozamia"
+    }
+}, {
+    "sciName": "Macrozamia flexuosa",
+    "species": "flexuosa",
+    "classification": {
+        "kingdom": "Plantae",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Macrozamia"
+    }
+}, {
+    "sciName": "Macrozamia lomandroides",
+    "species": "lomandroides",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Gymnospermophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Macrozamia"
+    }
+}, {
+    "sciName": "Macrozamia lucida",
+    "species": "lucida",
+    "classification": {
+        "kingdom": "Plantae",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Macrozamia"
+    }
+}, {
+    "sciName": "Macrozamia macdonnelli",
+    "species": "macdonnelli",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Macrozamia"
+    }
+}, {
+    "sciName": "Macrozamia machinii",
+    "species": "machinii",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Macrozamia"
+    }
+}, {
+    "sciName": "Macrozamia macleayi",
+    "species": "macleayi",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Macrozamia"
+    }
+}, {
+    "sciName": "Macrozamia montana",
+    "species": "montana",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Macrozamia"
+    }
+}, {
+    "sciName": "Macrozamia mountperiensis",
+    "species": "mountperiensis",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Macrozamia"
+    }
+}, {
+    "sciName": "Macrozamia mountperriensis",
+    "species": "mountperriensis",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Macrozamia"
+    }
+}, {
+    "sciName": "Macrozamia occidua",
+    "species": "occidua",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Gymnospermophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Macrozamia"
+    }
+}, {
+    "sciName": "Macrozamia parcifolia",
+    "species": "parcifolia",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Gymnospermophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Macrozamia"
+    }
+}, {
+    "sciName": "Macrozamia perowskiana",
+    "species": "perowskiana",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Macrozamia"
+    }
+}, {
+    "sciName": "Macrozamia platyrachis",
+    "species": "platyrachis",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Macrozamia"
+    }
+}, {
+    "sciName": "Macrozamia platyrhachis",
+    "species": "platyrhachis",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Gymnospermophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Macrozamia"
+    }
+}, {
+    "sciName": "Macrozamia pauli-guilielmi",
+    "species": "pauli-guilielmi",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Macrozamia"
+    }
+}, {
+    "sciName": "Macrozamia plumosa",
+    "species": "plumosa",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Macrozamia"
+    }
+}, {
+    "sciName": "Macrozamia plurinervia",
+    "species": "plurinervia",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Macrozamia"
+    }
+}, {
+    "sciName": "Macrozamia polymorpha",
+    "species": "polymorpha",
+    "classification": {
+        "kingdom": "Plantae",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Macrozamia"
+    }
+}, {
+    "sciName": "Macrozamia reducta",
+    "species": "reducta",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Macrozamia"
+    }
+}, {
+    "sciName": "Macrozamia reidlei",
+    "species": "reidlei",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Macrozamia"
+    }
+}, {
+    "sciName": "Macrozamia secunda",
+    "species": "secunda",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Gymnospermophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Macrozamia"
+    }
+}, {
+    "sciName": "Macrozamia serpentina",
+    "species": "serpentina",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Gymnospermophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Macrozamia"
+    }
+}, {
+    "sciName": "Macrozamia stenomera",
+    "species": "stenomera",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Gymnospermophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Macrozamia"
+    }
+}, {
+    "sciName": "Microcycas calocoma",
+    "species": "calocoma",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Cycadophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Microcycas"
+    }
+}, {
+    "sciName": "Microcycas velutina",
+    "species": "velutina",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Microcycas"
+    }
+}, {
+    "sciName": "Palmifolia angustifolium",
+    "species": "angustifolium",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Palmifolia"
+    }
+}, {
+    "sciName": "Palmifolia bolivianum",
+    "species": "bolivianum",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Palmifolia"
+    }
+}, {
+    "sciName": "Palmifolia integrifolium",
+    "species": "integrifolium",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Palmifolia"
+    }
+}, {
+    "sciName": "Palmifolia latifolium",
+    "species": "latifolium",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Palmifolia"
+    }
+}, {
+    "sciName": "Palmifolia mexicanum",
+    "species": "mexicanum",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Palmifolia"
+    }
+}, {
+    "sciName": "Palmifolia poeppigianum",
+    "species": "poeppigianum",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Palmifolia"
+    }
+}, {
+    "sciName": "Palmifolia pseudoparasiticum",
+    "species": "pseudoparasiticum",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Palmifolia"
+    }
+}, {
+    "sciName": "Palmifolia pumilum",
+    "species": "pumilum",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Palmifolia"
+    }
+}, {
+    "sciName": "Palmifolia skinneri",
+    "species": "skinneri",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Palmifolia"
+    }
+}, {
+    "sciName": "Palmifolia sparteum",
+    "species": "sparteum",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Palmifolia"
+    }
+}, {
+    "sciName": "Zamia angustifolia",
+    "species": "angustifolia",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Zamia"
+    }
+}, {
+    "sciName": "Zamia boliviana",
+    "species": "boliviana",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Zamia"
+    }
+}, {
+    "sciName": "Zamia muricata",
+    "species": "muricata",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Zamia"
+    }
+}, {
+    "sciName": "Zamia loddigesii",
+    "species": "loddigesii",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Zamia"
+    }
+}, {
+    "sciName": "Zamia pygmaea",
+    "species": "pygmaea",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Zamia"
+    }
+}, {
+    "sciName": "Zamia pseudoparasitica",
+    "species": "pseudoparasitica",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Zamia"
+    }
+}, {
+    "sciName": "Zamia stricta",
+    "species": "stricta",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Zamia"
+    }
+}, {
+    "sciName": "Zamia integrifolia",
+    "species": "integrifolia",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Zamia"
+    }
+}, {
+    "sciName": "Phyllopteroides expansa",
+    "species": "expansa",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Gymnospermophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "genus": "Phyllopteroides"
+    }
+}, {
+    "sciName": "Phyllopteroides laevis",
+    "species": "laevis",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "genus": "Phyllopteroides"
+    }
+}, {
+    "sciName": "Phyllopteroides lanceolata",
+    "species": "lanceolata",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "genus": "Phyllopteroides"
+    }
+}, {
+    "sciName": "Phyllopteroides macclymontae",
+    "species": "macclymontae",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "genus": "Phyllopteroides"
+    }
+}, {
+    "sciName": "Phyllopteroides serrata",
+    "species": "serrata",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Gymnospermophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "genus": "Phyllopteroides"
+    }
+}, {
+    "sciName": "Pseudoctenis eathiensis",
+    "species": "eathiensis",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Gymnospermophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "genus": "Pseudoctenis"
+    }
+}, {
+    "sciName": "Pseudocycas dunkeriana",
+    "species": "dunkeriana",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "genus": "Pseudocycas"
+    }
+}, {
+    "sciName": "Pseudocycas insignis",
+    "species": "insignis",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "genus": "Pseudocycas"
+    }
+}, {
+    "sciName": "Pseudocycas lesleyae",
+    "species": "lesleyae",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "genus": "Pseudocycas"
+    }
+}, {
+    "sciName": "Ptilophyllum boolensis",
+    "species": "boolensis",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Gymnospermophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "genus": "Ptilophyllum"
+    }
+}, {
+    "sciName": "Ptilophyllum cutchense",
+    "species": "cutchense",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Gymnospermophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "genus": "Ptilophyllum"
+    }
+}, {
+    "sciName": "Ptilophyllum fasciatum",
+    "species": "fasciatum",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Gymnospermophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "genus": "Ptilophyllum"
+    }
+}, {
+    "sciName": "Ptilophyllum spinosum",
+    "species": "spinosum",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "genus": "Ptilophyllum"
+    }
+}, {
+    "sciName": "Ptilozamites leckenbyi",
+    "species": "leckenbyi",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "genus": "Ptilozamites"
+    }
+}, {
+    "sciName": "Rhipidopsis narrabeenensis",
+    "species": "narrabeenensis",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "genus": "Rhipidopsis"
+    }
+}, {
+    "sciName": "Sphaereda physaliformis",
+    "species": "physaliformis",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Gymnospermophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "genus": "Sphaereda"
+    }
+}, {
+    "sciName": "Trigonocarpon dubium",
+    "species": "dubium",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Gymnospermophyta",
+        "class": "Cycadopsida",
+        "order": "Medullosales",
+        "family": "Medullosaceae",
+        "genus": "Trigonocarpus"
+    }
+}, {
+    "sciName": "Trigonocarpon noeggeruthi",
+    "species": "noeggeruthi",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "family": "Medullosaceae",
+        "genus": "Trigonocarpus"
+    }
+}, {
+    "sciName": "Trigonocarpon parkinsoni",
+    "species": "parkinsoni",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Gymnospermophyta",
+        "class": "Cycadopsida",
+        "order": "Medullosales",
+        "family": "Medullosaceae",
+        "genus": "Trigonocarpus"
+    }
+}, {
+    "sciName": "Zamia acuminata",
+    "species": "acuminata",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Zamia"
+    }
+}, {
+    "sciName": "Zamia amazonum",
+    "species": "amazonum",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Gymnospermophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Zamia"
+    }
+}, {
+    "sciName": "Zamia amplifolia",
+    "species": "amplifolia",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Zamia"
+    }
+}, {
+    "sciName": "Zamia amplifolia cv.",
+    "species": "amplifolia cv.",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Cycadophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Zamia"
+    }
+}, {
+    "sciName": "Zamia poeppigiana",
+    "species": "poeppigiana",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Zamia"
+    }
+}, {
+    "sciName": "Zamia baraquiniana ex",
+    "species": "baraquiniana ex",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Zamia"
+    }
+}, {
+    "sciName": "Zamia onan-reyesii",
+    "species": "onan-reyesii",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Zamia"
+    }
+}, {
+    "sciName": "Zamia caracasana",
+    "species": "caracasana",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Zamia"
+    }
+}, {
+    "sciName": "Zamia concinna",
+    "species": "concinna",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Zamia"
+    }
+}, {
+    "sciName": "Zamia cremnophila",
+    "species": "cremnophila",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Cycadophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Zamia"
+    }
+}, {
+    "sciName": "Zamia cunaria",
+    "species": "cunaria",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Gymnospermophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Zamia"
+    }
+}, {
+    "sciName": "Zamia cycadifolia",
+    "species": "cycadifolia",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Zamia"
+    }
+}, {
+    "sciName": "Zamia decumbens",
+    "species": "decumbens",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Zamia"
+    }
+}, {
+    "sciName": "Zamia disodon",
+    "species": "disodon",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Zamia"
+    }
+}, {
+    "sciName": "Zamia dressleri",
+    "species": "dressleri",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Gymnospermophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Zamia"
+    }
+}, {
+    "sciName": "Zamia elegans",
+    "species": "elegans",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Zamia"
+    }
+}, {
+    "sciName": "Zamia encephalartoides",
+    "species": "encephalartoides",
+    "classification": {
+        "kingdom": "Plantae",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Zamia"
+    }
+}, {
+    "sciName": "Zamia erosa",
+    "species": "erosa",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Cycadophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Zamia"
+    }
+}, {
+    "sciName": "Zamia fischeri",
+    "species": "fischeri",
+    "classification": {
+        "kingdom": "Plantae",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Zamia"
+    }
+}, {
+    "sciName": "Zamia verschaffeltii",
+    "species": "verschaffeltii",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Zamia"
+    }
+}, {
+    "sciName": "Zamia gentryi",
+    "species": "gentryi",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Zamia"
+    }
+}, {
+    "sciName": "Zamia glauca",
+    "species": "glauca",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Zamia"
+    }
+}, {
+    "sciName": "Zamia gomeziana",
+    "species": "gomeziana",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Zamia"
+    }
+}, {
+    "sciName": "Zamia grijalvensis",
+    "species": "grijalvensis",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Zamia"
+    }
+}, {
+    "sciName": "Zamia herrerae",
+    "species": "herrerae",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Zamia"
+    }
+}, {
+    "sciName": "Zamia huilensis",
+    "species": "huilensis",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Zamia"
+    }
+}, {
+    "sciName": "Zamia hymenophyllidia",
+    "species": "hymenophyllidia",
+    "classification": {
+        "kingdom": "Plantae",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Zamia"
+    }
+}, {
+    "sciName": "Zamia inermis",
+    "species": "inermis",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Gymnospermophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Zamia"
+    }
+}, {
+    "sciName": "Zamia insignis",
+    "species": "insignis",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Zamia"
+    }
+}, {
+    "sciName": "Zamia ipetiensis",
+    "species": "ipetiensis",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Zamia"
+    }
+}, {
+    "sciName": "Zamia katzeriana",
+    "species": "katzeriana",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Zamia"
+    }
+}, {
+    "sciName": "Zamia kickxii",
+    "species": "kickxii",
+    "classification": {
+        "kingdom": "Plantae",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Zamia"
+    }
+}, {
+    "sciName": "Zamia lacandona",
+    "species": "lacandona",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Gymnospermophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Zamia"
+    }
+}, {
+    "sciName": "Zamia lecointei",
+    "species": "lecointei",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Zamia"
+    }
+}, {
+    "sciName": "Zamia lindleyi",
+    "species": "lindleyi",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Zamia"
+    }
+}, {
+    "sciName": "Zamia lucayana",
+    "species": "lucayana",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Zamia"
+    }
+}, {
+    "sciName": "Zamia macrochiera",
+    "species": "macrochiera",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Gymnospermophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Zamia"
+    }
+}, {
+    "sciName": "Zamia manicata",
+    "species": "manicata",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Zamia"
+    }
+}, {
+    "sciName": "Zamia meermanii",
+    "species": "meermanii",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Zamia"
+    }
+}, {
+    "sciName": "Zamia melanorrhachis",
+    "species": "melanorrhachis",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Gymnospermophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Zamia"
+    }
+}, {
+    "sciName": "Zamia miqueli",
+    "species": "miqueli",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Zamia"
+    }
+}, {
+    "sciName": "Zamia monticola",
+    "species": "monticola",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Zamia"
+    }
+}, {
+    "sciName": "Zamia nana",
+    "species": "nana",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Zamia"
+    }
+}, {
+    "sciName": "Zamia neurophyllidia",
+    "species": "neurophyllidia",
+    "classification": {
+        "kingdom": "Plantae",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Zamia"
+    }
+}, {
+    "sciName": "Zamia oligodonta",
+    "species": "oligodonta",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Zamia"
+    }
+}, {
+    "sciName": "Zamia oreillyi",
+    "species": "oreillyi",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Zamia"
+    }
+}, {
+    "sciName": "Zamia paucijuga",
+    "species": "paucijuga",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Cycadophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Zamia"
+    }
+}, {
+    "sciName": "Zamia polymorpha",
+    "species": "polymorpha",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Cycadophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Zamia"
+    }
+}, {
+    "sciName": "Zamia prasina",
+    "species": "prasina",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Zamia"
+    }
+}, {
+    "sciName": "Zamia potemkinii",
+    "species": "potemkinii",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Zamia"
+    }
+}, {
+    "sciName": "Zamia pseudomonticola",
+    "species": "pseudomonticola",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Zamia"
+    }
+}, {
+    "sciName": "Zamia purpurea",
+    "species": "purpurea",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Gymnospermophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Zamia"
+    }
+}, {
+    "sciName": "Zamia pyrophylla",
+    "species": "pyrophylla",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Zamia"
+    }
+}, {
+    "sciName": "Zamia repanda",
+    "species": "repanda",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Zamia"
+    }
+}, {
+    "sciName": "Zamia serrulata",
+    "species": "serrulata",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Zamia"
+    }
+}, {
+    "sciName": "Zamia soconuscensis",
+    "species": "soconuscensis",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Gymnospermophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Zamia"
+    }
+}, {
+    "sciName": "Zamia spinosissima",
+    "species": "spinosissima",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Zamia"
+    }
+}, {
+    "sciName": "Zamia standleyi",
+    "species": "standleyi",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Gymnospermophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Zamia"
+    }
+}, {
+    "sciName": "Zamia tolimensis",
+    "species": "tolimensis",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Zamia"
+    }
+}, {
+    "sciName": "Zamia tuerckheimii",
+    "species": "tuerckheimii",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Zamia"
+    }
+}, {
+    "sciName": "Zamia ulei",
+    "species": "ulei",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Zamia"
+    }
+}, {
+    "sciName": "Zamia urep",
+    "species": "urep",
+    "classification": {
+        "kingdom": "Plantae",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Zamia"
+    }
+}, {
+    "sciName": "Zamia variegata",
+    "species": "variegata",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Zamia"
+    }
+}, {
+    "sciName": "Zamia vazquezii",
+    "species": "vazquezii",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Cycadophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Zamia"
+    }
+}, {
+    "sciName": "Zamia wallisii",
+    "species": "wallisii",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Zamia"
+    }
+}, {
+    "sciName": "Zamia yatesi",
+    "species": "yatesi",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Zamia"
+    }
+}, {
+    "sciName": "Zamites arcticus",
+    "species": "arcticus",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "genus": "Zamites"
+    }
+}, {
+    "sciName": "Zamites dowellii",
+    "species": "dowellii",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "genus": "Zamites"
+    }
+}, {
+    "sciName": "Zamites finconus",
+    "species": "finconus",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "genus": "Zamites"
+    }
+}, {
+    "sciName": "Zamites wendyellisae",
+    "species": "wendyellisae",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "genus": "Zamites"
+    }
+}, {
+    "sciName": "Alethopteris aquilina",
+    "species": "aquilina",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "family": "Medullosaceae",
+        "genus": "Alethopteris"
+    }
+}, {
+    "sciName": "Alethopteris crenulata",
+    "species": "crenulata",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "family": "Medullosaceae",
+        "genus": "Alethopteris"
+    }
+}, {
+    "sciName": "Alethopteris nervosa",
+    "species": "nervosa",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Gymnospermophyta",
+        "class": "Cycadopsida",
+        "order": "Medullosales",
+        "family": "Medullosaceae",
+        "genus": "Alethopteris"
+    }
+}, {
+    "sciName": "Alethopteris serlii",
+    "species": "serlii",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Gymnospermophyta",
+        "class": "Cycadopsida",
+        "order": "Medullosales",
+        "family": "Medullosaceae",
+        "genus": "Alethopteris"
+    }
+}, {
+    "sciName": "Bowenia serrulata",
+    "species": "serrulata",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Gymnospermophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Bowenia"
+    }
+}, {
+    "sciName": "Bowenia spectabilis",
+    "species": "spectabilis",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Bowenia"
+    }
+}, {
+    "sciName": "Ceratozamia alvarezzi",
+    "species": "alvarezzi",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Ceratozamia"
+    }
+}, {
+    "sciName": "Ceratozamia chimalapensis",
+    "species": "chimalapensis",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Cycadophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Ceratozamia"
+    }
+}, {
+    "sciName": "Ceratozamia delucana",
+    "species": "delucana",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Ceratozamia"
+    }
+}, {
+    "sciName": "Ceratozamia euryphillidia",
+    "species": "euryphillidia",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Ceratozamia"
+    }
+}, {
+    "sciName": "Ceratozamia euryphyllidia",
+    "species": "euryphyllidia",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Gymnospermophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Ceratozamia"
+    }
+}, {
+    "sciName": "Ceratozamia fusco-viridis",
+    "species": "fusco-viridis",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Ceratozamia"
+    }
+}, {
+    "sciName": "Ceratozamia ghiesbrechti",
+    "species": "ghiesbrechti",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Ceratozamia"
+    }
+}, {
+    "sciName": "Ceratozamia hondurensis",
+    "species": "hondurensis",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Ceratozamia"
+    }
+}, {
+    "sciName": "Ceratozamia juscata",
+    "species": "juscata",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Ceratozamia"
+    }
+}, {
+    "sciName": "Ceratozamia ottonis",
+    "species": "ottonis",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Ceratozamia"
+    }
+}, {
+    "sciName": "Ceratozamia vovidesii",
+    "species": "vovidesii",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Ceratozamia"
+    }
+}, {
+    "sciName": "Ceratozamia wrightii",
+    "species": "wrightii",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Ceratozamia"
+    }
+}, {
+    "sciName": "Ceratozamia hybrida",
+    "species": "hybrida",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Ceratozamia"
+    }
+}, {
+    "sciName": "Chigua bernalii",
+    "species": "bernalii",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Gymnospermophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Zamia"
+    }
+}, {
+    "sciName": "Chigua restrepoi",
+    "species": "restrepoi",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Cycadophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Chigua"
+    }
+}, {
+    "sciName": "Cycadolepis cedricii",
+    "species": "cedricii",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "genus": "Cycadolepis"
+    }
+}, {
+    "sciName": "Cycadolepis shuteana",
+    "species": "shuteana",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "genus": "Cycadolepis"
+    }
+}, {
+    "sciName": "Cycas aenigma",
+    "species": "aenigma",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Cycas"
+    }
+}, {
+    "sciName": "Cycas afra",
+    "species": "afra",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Cycas"
+    }
+}, {
+    "sciName": "Cycas annaikalensis",
+    "species": "annaikalensis",
+    "classification": {
+        "kingdom": "Plantae",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Cycas"
+    }
+}, {
+    "sciName": "Cycas aurea",
+    "species": "aurea",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Cycas"
+    }
+}, {
+    "sciName": "Cycas basaltica",
+    "species": "basaltica",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Gymnospermophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Cycas"
+    }
+}, {
+    "sciName": "Cycas boddami",
+    "species": "boddami",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Cycas"
+    }
+}, {
+    "sciName": "Cycas calcicola",
+    "species": "calcicola",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Cycas"
+    }
+}, {
+    "sciName": "Cycas clivicola",
+    "species": "clivicola",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Cycas"
+    }
+}, {
+    "sciName": "Cycas conferta",
+    "species": "conferta",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Cycas"
+    }
+}, {
+    "sciName": "Cycas couttsiana",
+    "species": "couttsiana",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Gymnospermophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Cycas"
+    }
+}, {
+    "sciName": "Cycas cupida",
+    "species": "cupida",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Gymnospermophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Cycas"
+    }
+}, {
+    "sciName": "Cycas curranii",
+    "species": "curranii",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Gymnospermophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Cycas"
+    }
+}, {
+    "sciName": "Cycas falcata",
+    "species": "falcata",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Gymnospermophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Cycas"
+    }
+}, {
+    "sciName": "Cycas furfuracea",
+    "species": "furfuracea",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Cycas"
+    }
+}, {
+    "sciName": "Cycas hamelini",
+    "species": "hamelini",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Cycas"
+    }
+}, {
+    "sciName": "Cycas hypoleuca",
+    "species": "hypoleuca",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Cycas"
+    }
+}, {
+    "sciName": "Cycas inermis",
+    "species": "inermis",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Cycas"
+    }
+}, {
+    "sciName": "Cycas lane-poolei",
+    "species": "lane-poolei",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Cycas"
+    }
+}, {
+    "sciName": "Cycas megacarpa",
+    "species": "megacarpa",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Gymnospermophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Cycas"
+    }
+}, {
+    "sciName": "Cycas micholitzii",
+    "species": "micholitzii",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Cycas"
+    }
+}, {
+    "sciName": "Cycas micronesica",
+    "species": "micronesica",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Gymnospermophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Cycas"
+    }
+}, {
+    "sciName": "Cycas miquelii",
+    "species": "miquelii",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Gymnospermophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Cycas"
+    }
+}, {
+    "sciName": "Cycas seemannii",
+    "species": "seemannii",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Cycas"
+    }
+}, {
+    "sciName": "Cycas orientis",
+    "species": "orientis",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Cycas"
+    }
+}, {
+    "sciName": "Cycas pachypoda",
+    "species": "pachypoda",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Cycas"
+    }
+}, {
+    "sciName": "Cycas pandanifolia",
+    "species": "pandanifolia",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Cycas"
+    }
+}, {
+    "sciName": "Cycas semota",
+    "species": "semota",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Gymnospermophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Cycas"
+    }
+}, {
+    "sciName": "Cycas squamosa",
+    "species": "squamosa",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Cycas"
+    }
+}, {
+    "sciName": "Cycas tanqingii",
+    "species": "tanqingii",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Gymnospermophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Cycas"
+    }
+}, {
+    "sciName": "Cycas terryana",
+    "species": "terryana",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Cycas"
+    }
+}, {
+    "sciName": "Cycas tuckeri",
+    "species": "tuckeri",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Gymnospermophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Cycas"
+    }
+}, {
+    "sciName": "Cycas longipetiolula",
+    "species": "longipetiolula",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Cycas"
+    }
+}, {
+    "sciName": "Dioon caputoi",
+    "species": "caputoi",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Gymnospermophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Dioon"
+    }
+}, {
+    "sciName": "Dioon dohenyii",
+    "species": "dohenyii",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Dioon"
+    }
+}, {
+    "sciName": "Dioon pectinatum",
+    "species": "pectinatum",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Dioon"
+    }
+}, {
+    "sciName": "Dioon sonorense",
+    "species": "sonorense",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Cycadophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Dioon"
+    }
+}, {
+    "sciName": "Dioon tellezii",
+    "species": "tellezii",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Dioon"
+    }
+}, {
+    "sciName": "Dioon tomasellii",
+    "species": "tomasellii",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Cycadophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Dioon"
+    }
+}, {
+    "sciName": "Encephalartos aplanatus",
+    "species": "aplanatus",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Encephalartos"
+    }
+}, {
+    "sciName": "Encephalartos brevifoliolatus",
+    "species": "brevifoliolatus",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Gymnospermophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Encephalartos"
+    }
+}, {
+    "sciName": "Encephalartos brownei",
+    "species": "brownei",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Encephalartos"
+    }
+}, {
+    "sciName": "Encephalartos cerinus",
+    "species": "cerinus",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Encephalartos"
+    }
+}, {
+    "sciName": "Encephalartos chimanimaniensis",
+    "species": "chimanimaniensis",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Encephalartos"
+    }
+}, {
+    "sciName": "Encephalartos concinnus",
+    "species": "concinnus",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Gymnospermophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Encephalartos"
+    }
+}, {
+    "sciName": "Encephalartos friderici-guilielmii",
+    "species": "friderici-guilielmii",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Encephalartos"
+    }
+}, {
+    "sciName": "Encephalartos katzeri",
+    "species": "katzeri",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Encephalartos"
+    }
+}, {
+    "sciName": "Encephalartos laevifolius",
+    "species": "laevifolius",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Encephalartos"
+    }
+}, {
+    "sciName": "Encephalartos macdonelli",
+    "species": "macdonelli",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Encephalartos"
+    }
+}, {
+    "sciName": "Encephalartos macrostrobilus",
+    "species": "macrostrobilus",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Encephalartos"
+    }
+}, {
+    "sciName": "Encephalartos princeps",
+    "species": "princeps",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Gymnospermophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Encephalartos"
+    }
+}, {
+    "sciName": "Encephalartos pruniferus",
+    "species": "pruniferus",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Encephalartos"
+    }
+}, {
+    "sciName": "Encephalartos regalis",
+    "species": "regalis",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Encephalartos"
+    }
+}, {
+    "sciName": "Encephalartos repandus",
+    "species": "repandus",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Encephalartos"
+    }
+}, {
+    "sciName": "Encephalartos whitelockii",
+    "species": "whitelockii",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Encephalartos"
+    }
+}, {
+    "sciName": "Encephalartos transvenosus",
+    "species": "transvenosus",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Gymnospermophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Encephalartos"
+    }
+}, {
+    "sciName": "Encephalartos trispinosus",
+    "species": "trispinosus",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Gymnospermophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Encephalartos"
+    }
+}, {
+    "sciName": "Encephalartos vromii",
+    "species": "vromii",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Encephalartos"
+    }
+}, {
+    "sciName": "Lepidozamia denisoni",
+    "species": "denisoni",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Lepidozamia"
+    }
+}, {
+    "sciName": "Macrozamia fawcetii",
+    "species": "fawcetii",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Macrozamia"
+    }
+}, {
+    "sciName": "Macrozamia fawcetti",
+    "species": "fawcetti",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Macrozamia"
+    }
+}, {
+    "sciName": "Macrozamia fearnsidei",
+    "species": "fearnsidei",
+    "classification": {
+        "kingdom": "Plantae",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Macrozamia"
+    }
+}, {
+    "sciName": "Macrozamia glaucophylla",
+    "species": "glaucophylla",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Macrozamia"
+    }
+}, {
+    "sciName": "Macrozamia hilli",
+    "species": "hilli",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Macrozamia"
+    }
+}, {
+    "sciName": "Macrozamia humilis",
+    "species": "humilis",
+    "classification": {
+        "kingdom": "Plantae",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Macrozamia"
+    }
+}, {
+    "sciName": "Macrozamia johnsonii",
+    "species": "johnsonii",
+    "classification": {
+        "kingdom": "Plantae",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Macrozamia"
+    }
+}, {
+    "sciName": "Macrozamia longispina",
+    "species": "longispina",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Gymnospermophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Macrozamia"
+    }
+}, {
+    "sciName": "Macrozamia oldfieldi",
+    "species": "oldfieldi",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Macrozamia"
+    }
+}, {
+    "sciName": "Palmifolia angustissimum",
+    "species": "angustissimum",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Palmifolia"
+    }
+}, {
+    "sciName": "Palmifolia chigua",
+    "species": "chigua",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Palmifolia"
+    }
+}, {
+    "sciName": "Palmifolia floridanum",
+    "species": "floridanum",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Palmifolia"
+    }
+}, {
+    "sciName": "Palmifolia furfuraceum",
+    "species": "furfuraceum",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Palmifolia"
+    }
+}, {
+    "sciName": "Palmifolia galeottii",
+    "species": "galeottii",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Palmifolia"
+    }
+}, {
+    "sciName": "Palmifolia kickxii",
+    "species": "kickxii",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Palmifolia"
+    }
+}, {
+    "sciName": "Palmifolia strictum",
+    "species": "strictum",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Palmifolia"
+    }
+}, {
+    "sciName": "Palmifolia tenue",
+    "species": "tenue",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Palmifolia"
+    }
+}, {
+    "sciName": "Palmifolia yatesii",
+    "species": "yatesii",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Palmifolia"
+    }
+}, {
+    "sciName": "Zamia spartea",
+    "species": "spartea",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Zamia"
+    }
+}, {
+    "sciName": "Pseudocycas saportae",
+    "species": "saportae",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "genus": "Pseudocycas"
+    }
+}, {
+    "sciName": "Ptilophyllum castertonensis",
+    "species": "castertonensis",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Gymnospermophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "genus": "Ptilophyllum"
+    }
+}, {
+    "sciName": "Ptilophyllum pecten",
+    "species": "pecten",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Gymnospermophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "genus": "Ptilophyllum"
+    }
+}, {
+    "sciName": "Trigonocarpon noeggeratha",
+    "species": "noeggeratha",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "family": "Medullosaceae",
+        "genus": "Trigonocarpus"
+    }
+}, {
+    "sciName": "Zamia amazonas",
+    "species": "amazonas",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Gymnospermophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Zamia"
+    }
+}, {
+    "sciName": "Zamia amblyphyllidia",
+    "species": "amblyphyllidia",
+    "classification": {
+        "kingdom": "Plantae",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Zamia"
+    }
+}, {
+    "sciName": "Zamia amplifolia ex",
+    "species": "amplifolia ex",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Cycadophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Zamia"
+    }
+}, {
+    "sciName": "Zamia debilis",
+    "species": "debilis",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Zamia"
+    }
+}, {
+    "sciName": "Zamia fairchildiana",
+    "species": "fairchildiana",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Gymnospermophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Zamia"
+    }
+}, {
+    "sciName": "Zamia hamannii",
+    "species": "hamannii",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Zamia"
+    }
+}, {
+    "sciName": "Zamia imperialis",
+    "species": "imperialis",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Zamia"
+    }
+}, {
+    "sciName": "Zamia incognita",
+    "species": "incognita",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Zamia"
+    }
+}, {
+    "sciName": "Zamia nesophila",
+    "species": "nesophila",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Zamia"
+    }
+}, {
+    "sciName": "Zamia noeffiana",
+    "species": "noeffiana",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Zamia"
+    }
+}, {
+    "sciName": "Zamia obliqua",
+    "species": "obliqua",
+    "classification": {
+        "kingdom": "Plantae",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Zamia"
+    }
+}, {
+    "sciName": "Zamia occidentalis",
+    "species": "occidentalis",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Zamia"
+    }
+}, {
+    "sciName": "Zamia picta",
+    "species": "picta",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Gymnospermophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Zamia"
+    }
+}, {
+    "sciName": "Zamia portoricensis",
+    "species": "portoricensis",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Cycadophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Zamia"
+    }
+}, {
+    "sciName": "Zamia prunifera",
+    "species": "prunifera",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Zamia"
+    }
+}, {
+    "sciName": "Zamia sandovalii",
+    "species": "sandovalii",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Zamia"
+    }
+}, {
+    "sciName": "Zamia stevensonii",
+    "species": "stevensonii",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Zamia"
+    }
+}, {
+    "sciName": "Zamia tricuspidata",
+    "species": "tricuspidata",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Zamia"
+    }
+}, {
+    "sciName": "Zamia tridentata",
+    "species": "tridentata",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Zamia"
+    }
+}, {
+    "sciName": "Zamia wallisii cv.",
+    "species": "wallisii cv.",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Gymnospermophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Zamia"
+    }
+}, {
+    "sciName": "Zamites carruthersii",
+    "species": "carruthersii",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "genus": "Zamites"
+    }
+}, {
+    "sciName": "Zamites nicolae",
+    "species": "nicolae",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "genus": "Zamites"
+    }
+}, {
+    "sciName": "Zamites notokenensis",
+    "species": "notokenensis",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "genus": "Zamites"
+    }
+}, {
+    "sciName": "Zamia media",
+    "species": "media",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Zamia"
+    }
+}, {
+    "sciName": "Alethopteris mantelli",
+    "species": "mantelli",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Gymnospermophyta",
+        "class": "Cycadopsida",
+        "order": "Medullosales",
+        "family": "Medullosaceae",
+        "genus": "Alethopteris"
+    }
+}, {
+    "sciName": "Alethopteris nertleriana",
+    "species": "nertleriana",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "family": "Medullosaceae",
+        "genus": "Alethopteris"
+    }
+}, {
+    "sciName": "Anomozamites nilssoni",
+    "species": "nilssoni",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Gymnospermophyta",
+        "class": "Cycadopsida",
+        "genus": "Anomozamites"
+    }
+}, {
+    "sciName": "Carpolithites strahanensis",
+    "species": "strahanensis",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "genus": "Carpolithites"
+    }
+}, {
+    "sciName": "Ceratozamia eriolepis",
+    "species": "eriolepis",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Ceratozamia"
+    }
+}, {
+    "sciName": "Ceratozamia fusca",
+    "species": "fusca",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Ceratozamia"
+    }
+}, {
+    "sciName": "Ceratozamia fusca-viridis",
+    "species": "fusca-viridis",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Ceratozamia"
+    }
+}, {
+    "sciName": "Cycadolepis crawleyeana",
+    "species": "crawleyeana",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "genus": "Cycadolepis"
+    }
+}, {
+    "sciName": "Cycadolepis cromwellensis",
+    "species": "cromwellensis",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "genus": "Cycadolepis"
+    }
+}, {
+    "sciName": "Cycadolepis markii",
+    "species": "markii",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "genus": "Cycadolepis"
+    }
+}, {
+    "sciName": "Cycadolepis villosa",
+    "species": "villosa",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "genus": "Cycadolepis"
+    }
+}, {
+    "sciName": "Cycas bellefonti",
+    "species": "bellefonti",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Cycas"
+    }
+}, {
+    "sciName": "Cycas campestris",
+    "species": "campestris",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Gymnospermophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Cycas"
+    }
+}, {
+    "sciName": "Cycas chamberlainii",
+    "species": "chamberlainii",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Gymnospermophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Cycas"
+    }
+}, {
+    "sciName": "Cycas circinnalis",
+    "species": "circinnalis",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Cycas"
+    }
+}, {
+    "sciName": "Cycas duivenbodei",
+    "species": "duivenbodei",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Cycas"
+    }
+}, {
+    "sciName": "Cycas glauca",
+    "species": "glauca",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Cycas"
+    }
+}, {
+    "sciName": "Cycas glaucophylla",
+    "species": "glaucophylla",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Cycas"
+    }
+}, {
+    "sciName": "Cycas lingshuigensis",
+    "species": "lingshuigensis",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Cycas"
+    }
+}, {
+    "sciName": "Cycas parvulus",
+    "species": "parvulus",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Gymnospermophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Cycas"
+    }
+}, {
+    "sciName": "Cycas petrae",
+    "species": "petrae",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Cycas"
+    }
+}, {
+    "sciName": "Cycas romanzoffiana",
+    "species": "romanzoffiana",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Cycas"
+    }
+}, {
+    "sciName": "Cycas saxatilis",
+    "species": "saxatilis",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Gymnospermophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Cycas"
+    }
+}, {
+    "sciName": "Cycas squarrosa",
+    "species": "squarrosa",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Cycas"
+    }
+}, {
+    "sciName": "Cycas vespertilio",
+    "species": "vespertilio",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Cycas"
+    }
+}, {
+    "sciName": "Encephalartos almasianus",
+    "species": "almasianus",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Encephalartos"
+    }
+}, {
+    "sciName": "Encephalartos crassifolius",
+    "species": "crassifolius",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Encephalartos"
+    }
+}, {
+    "sciName": "Encephalartos grandis",
+    "species": "grandis",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Encephalartos"
+    }
+}, {
+    "sciName": "Encephalartos lanuginosus",
+    "species": "lanuginosus",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Encephalartos"
+    }
+}, {
+    "sciName": "Encephalartos mackenii",
+    "species": "mackenii",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Encephalartos"
+    }
+}, {
+    "sciName": "Encephalartos macrophyllus",
+    "species": "macrophyllus",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Encephalartos"
+    }
+}, {
+    "sciName": "Encephalartos middleburgensis",
+    "species": "middleburgensis",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Encephalartos"
+    }
+}, {
+    "sciName": "Encephalartos van-den-heckei",
+    "species": "van-den-heckei",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Encephalartos"
+    }
+}, {
+    "sciName": "Macrozamia cranei",
+    "species": "cranei",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Gymnospermophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Macrozamia"
+    }
+}, {
+    "sciName": "Macrozamia cylindrica",
+    "species": "cylindrica",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Macrozamia"
+    }
+}, {
+    "sciName": "Macrozamia denisonii",
+    "species": "denisonii",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Macrozamia"
+    }
+}, {
+    "sciName": "Macrozamia hopeites",
+    "species": "hopeites",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Macrozamia"
+    }
+}, {
+    "sciName": "Macrozamia hopii",
+    "species": "hopii",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Macrozamia"
+    }
+}, {
+    "sciName": "Macrozamia pungens",
+    "species": "pungens",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Macrozamia"
+    }
+}, {
+    "sciName": "Palmifolia debile",
+    "species": "debile",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Palmifolia"
+    }
+}, {
+    "sciName": "Palmifolia fischeri",
+    "species": "fischeri",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Palmifolia"
+    }
+}, {
+    "sciName": "Palmifolia loddigesii",
+    "species": "loddigesii",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Palmifolia"
+    }
+}, {
+    "sciName": "Palmifolia medium",
+    "species": "medium",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Palmifolia"
+    }
+}, {
+    "sciName": "Palmifolia multifoliatum",
+    "species": "multifoliatum",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Palmifolia"
+    }
+}, {
+    "sciName": "Palmifolia muricatum",
+    "species": "muricatum",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Palmifolia"
+    }
+}, {
+    "sciName": "Palmifolia ottonis",
+    "species": "ottonis",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Palmifolia"
+    }
+}, {
+    "sciName": "Palmifolia pygmaeum",
+    "species": "pygmaeum",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Palmifolia"
+    }
+}, {
+    "sciName": "Palmifolium poppigianum",
+    "species": "poppigianum",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Cycadaceae",
+        "genus": "Palmifolium"
+    }
+}, {
+    "sciName": "Phyllopteroides dentata",
+    "species": "dentata",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Gymnospermophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "genus": "Phyllopteroides"
+    }
+}, {
+    "sciName": "Pseudocycas douglasii",
+    "species": "douglasii",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "genus": "Pseudocycas"
+    }
+}, {
+    "sciName": "Pseudocycas roemeri",
+    "species": "roemeri",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "genus": "Pseudocycas"
+    }
+}, {
+    "sciName": "Pterostoma zamioides",
+    "species": "zamioides",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Gymnospermophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Pterostoma"
+    }
+}, {
+    "sciName": "Ptilophyllum elongatum",
+    "species": "elongatum",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Gymnospermophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "genus": "Ptilophyllum"
+    }
+}, {
+    "sciName": "Zamia amplifrons",
+    "species": "amplifrons",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Zamia"
+    }
+}, {
+    "sciName": "Zamia beeldsnijderiana",
+    "species": "beeldsnijderiana",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Zamia"
+    }
+}, {
+    "sciName": "Zamia cylindrica",
+    "species": "cylindrica",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Zamia"
+    }
+}, {
+    "sciName": "Zamia dentata",
+    "species": "dentata",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Zamia"
+    }
+}, {
+    "sciName": "Zamia elegantissima",
+    "species": "elegantissima",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Zamia"
+    }
+}, {
+    "sciName": "Zamia friderici-guilielmi",
+    "species": "friderici-guilielmi",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Zamia"
+    }
+}, {
+    "sciName": "Zamia fusca",
+    "species": "fusca",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Zamia"
+    }
+}, {
+    "sciName": "Zamia grandis",
+    "species": "grandis",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Zamia"
+    }
+}, {
+    "sciName": "Zamia latifolia",
+    "species": "latifolia",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Zamia"
+    }
+}, {
+    "sciName": "Zamia pallida",
+    "species": "pallida",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Zamia"
+    }
+}, {
+    "sciName": "Zamia pungens",
+    "species": "pungens",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Zamia"
+    }
+}, {
+    "sciName": "Zamia religiosa",
+    "species": "religiosa",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Zamia"
+    }
+}, {
+    "sciName": "Zamia roezli",
+    "species": "roezli",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Zamia"
+    }
+}, {
+    "sciName": "Zamia spinulosa",
+    "species": "spinulosa",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Zamia"
+    }
+}, {
+    "sciName": "Zamia spiralis",
+    "species": "spiralis",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Zamia"
+    }
+}, {
+    "sciName": "Zamia vasquezii",
+    "species": "vasquezii",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Zamia"
+    }
+}, {
+    "sciName": "Zamia vroomani",
+    "species": "vroomani",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Zamia"
+    }
+}, {
+    "sciName": "Zamia vroomi",
+    "species": "vroomi",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "family": "Zamiaceae",
+        "genus": "Zamia"
+    }
+}, {
+    "sciName": "Zamites californica",
+    "species": "californica",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "genus": "Zamites"
+    }
+}, {
+    "sciName": "Zamites corderi",
+    "species": "corderi",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "genus": "Zamites"
+    }
+}, {
+    "sciName": "Zamites manoniae",
+    "species": "manoniae",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "genus": "Zamites"
+    }
+}, {
+    "sciName": "Zamites tatianae",
+    "species": "tatianae",
+    "classification": {
+        "kingdom": "Plantae",
+        "phylum": "Tracheophyta",
+        "class": "Cycadopsida",
+        "order": "Cycadales",
+        "genus": "Zamites"
+    }
+}, {
+    "sciName": "Ginkgo biloba",
+    "species": "biloba",
+    "classification": {
+        "class": "Ginkgoopsida",
+        "order": "Ginkgoales",
+        "family": "Ginkgoaceae",
+        "genus": "Ginkgo"
+    }
+}]

@@ -1,0 +1,443 @@
+@font-face {
+    font-family: 'TofinoBlack';
+    src: url('TofinoBlack.otf');
+    /* IE9 Compat Modes */
+}
+
+@font-face {
+    font-family: 'TofinoBold';
+    src: url('TofinoBold.otf');
+}
+
+@font-face {
+    font-family: 'TofinoBook';
+    src: url('TofinoBook.otf');
+}
+
+@font-face {
+    font-family: 'TofinoLight';
+    src: url('TofinoLight.otf');
+}
+
+@font-face {
+    font-family: 'TofinoMedium';
+    src: url('TofinoMedium.otf');
+}
+
+.publications {
+    position: absolute;
+    right: 10%;
+    top: 20%;
+    text-align: right;
+    font-size: 1.5em;
+    color: #E1EBF1;
+}
+
+#title {
+    /*height: 30px;*/
+    position: absolute;
+    top: 5%;
+    height: 10%;
+    width: 30%;
+    left: 5%;
+    text-align: left;
+    font-family: "TofinoBook";
+    font-size: 1.7em;
+    color: #ffffff;
+    letter-spacing: .028em;
+}
+
+#title b {
+    color: #EFC954;
+}
+
+li {
+    opacity: .9;
+    list-style-type: none;
+    margin-left: .5em;
+    color: #E1EBF1;
+}
+
+.three {
+    position: relative;
+    color: #E1EBF1;
+}
+
+#info {
+    font-weight: bold;
+    font-size: 1.3em;
+    height: 30px;
+    top: 20%;
+    position: absolute;
+    right: 0%;
+    width: 20%;
+    /*visibility: hidden;*/
+    color: #E1EBF1;
+}
+
+
+/*#nature {*/
+
+
+/*    position: absolute;*/
+
+
+/*    right: 0%;*/
+
+
+/*    top: 70%;*/
+
+
+/*    width: 20%;*/
+
+
+/*    text-align: left;*/
+
+
+/*    font-size: 1.3em;*/
+
+
+/*    color: #E1EBF1;*/
+
+
+/*}*/
+
+#currentPublications {
+    position: absolute;
+    right: 0%;
+    top: 80%;
+    width: 20%;
+    text-align: left;
+    font-size: 1em;
+    color: #E1EBF1;
+}
+
+#line {
+    position: absolute;
+    top: 85%;
+    left: 20%;
+    width: 50%;
+    border: 1px solid #000;
+    color: #E1EBF1;
+}
+
+#rightBar {
+    position: absolute;
+    top: 5%;
+    height: 96%;
+    width: 10%;
+    right: 3%;
+}
+
+#openNav {
+    /*font-weight: bold;*/
+    /*font-size: 1.3em;*/
+    height: 15%;
+    top: 0%;
+    position: relative;
+    right: 0%;
+    width: 100%;
+    /*visibility: hidden;*/
+    color: #E1EBF1;
+    background-color: #2F3132;
+}
+
+#openNav #exploreOrders {
+    position: absolute;
+    text-align: center;
+    /*left: 30%;*/
+    top: 10%;
+    width: 100%;
+    height: 10%;
+    margin-top: 30px;
+    font-family: 'tofinoLight';
+    font-size: 0.7em;
+    letter-spacing: .028em;
+}
+
+#openNav #exploreOrders b {
+    font-size: 1.3em;
+    font-family: 'tofinoBook';
+}
+
+
+/* The Overlay (background) */
+
+#below {
+    position: absolute;
+    top: 80%;
+    height: 20%;
+    width: 100%;
+    right: 0%;
+    color: #E1EBF1;
+    background-color: #010C13;
+}
+
+#pubBox {
+    position: absolute;
+    height: 100%;
+    top: 0%;
+    left: 0.8%;
+    width: 49.5%;
+    /*visibility: hidden;*/
+    color: #E1EBF1;
+    background-color: #2F3132;
+}
+
+#pubBox #nature {
+    position: relative;
+    /*display: table-cell;*/
+    text-align: left;
+    width: 80%;
+    height: 20%;
+    left: 4%;
+    top: 8%;
+    font-family: 'tofinoMedium';
+    font-size: 1.3em;
+    letter-spacing: .028em;
+}
+
+#pubBox #currentPublications {
+    position: absolute;
+    /*display: table-cell;*/
+    text-align: left;
+    width: 100%;
+    height: 60%;
+    left: 4%;
+    top: 30%;
+    font-family: 'tofinoLight';
+    font-size: 1.1em;
+    letter-spacing: .028em;
+}
+
+#otherInfo {
+    /*font-weight: bold;*/
+    /*font-size: 1.3em;*/
+    position: relative;
+    height: 100%;
+    top: 0%;
+    left: 50.5%;
+    width: 49%;
+    /*visibility: hidden;*/
+    color: #E1EBF1;
+    background-color: #2F3132;
+    /*display: table-cell;*/
+}
+
+#otherInfo #heirarchy {
+    position: absolute;
+    /*display: table-cell;*/
+    text-align: left;
+    width: 30%;
+    height: 10%;
+    left: 4%;
+    top: 8%;
+    font-family: 'tofinoMedium';
+    font-size: 1.3em;
+    letter-spacing: .028em;
+    /*color: ;*/
+}
+
+#otherInfo #info {
+    position: relative;
+    /*display: table-cell;*/
+    text-align: left;
+    width: 30%;
+    height: 70%;
+    left: 4%;
+    top: 40%;
+    font-family: 'tofinoBold';
+    font-size: 1.15em;
+    letter-spacing: .028em;
+    /*color: ;*/
+}
+
+#otherInfo #info p {
+    display: table-cell;
+    padding-right: 4%;
+}
+
+#otherInfo #info b {
+    font-family: 'tofinoLight';
+    font-size: 0.95em;
+    color: #A5ADB1;
+}
+
+.overlay {
+    /* Height & width depends on how you want to reveal the overlay (see JS below) */
+    height: 100%;
+    width: 0;
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    left: 0;
+    top: 0;
+    background-color: rgb(255, 255, 255);
+    /* Black fallback color */
+    background-color: rgba(255, 255, 255, 0.85);
+    /* Black w/opacity */
+    overflow-x: hidden;
+    /* Disable horizontal scroll */
+    transition: 0.5s;
+    /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+}
+
+
+/* Position the content inside the overlay */
+
+.overlay-content {
+    position: relative;
+    top: 0%;
+    /* 25% from the top */
+    width: 100%;
+    height: 90%;
+    /* 100% width */
+    text-align: center;
+    /* Centered text/links */
+    margin-top: 30px;
+    /* 30px top margin to avoid conflict with the close button on smaller screens */
+    color: #666666;
+}
+
+.overlay-content p {
+    position: absolute;
+    top: 19%;
+    height: 10%;
+    width: 70%;
+    left: 18%;
+    text-align: left;
+    font-family: 'tofinoBook';
+    font-size: 1.175em;
+    letter-spacing: .028em;
+}
+
+.overlay-content h1 {
+    position: absolute;
+    top: 26%;
+    height: 10%;
+    width: 60%;
+    left: 18%;
+    text-align: left;
+    font-family: 'tofinoLight';
+    font-size: 2.6em;
+    letter-spacing: .028em;
+}
+
+.overlay-content h1 b {
+    font-family: 'tofinoMedium';
+}
+
+.overlay-content #leftLeft {
+    position: relative;
+    top: 45%;
+    /* 25% from the top */
+    width: 30%;
+    /* 100% width */
+    left: 18%;
+    text-align: left;
+    /* Centered text/links */
+    margin-top: 30px;
+    font-family: 'tofinoBold';
+    font-size: 0.02em;
+    letter-spacing: .028em;
+    /* 30px top margin to avoid conflict with the close button on smaller screens */
+}
+
+.overlay-content #leftMid {
+    position: absolute;
+    top: 40%;
+    /* 25% from the top */
+    width: 10%;
+    /* 100% width */
+    left: 34%;
+    text-align: left;
+    /* Centered text/links */
+    margin-top: 0px;
+    /* 30px top margin to avoid conflict with the close button on smaller screens */
+    margin-top: 30px;
+    font-family: 'tofinoBold';
+    font-size: 0.02em;
+    letter-spacing: .028em;
+}
+
+.overlay-content #rightMid {
+    position: absolute;
+    top: 40%;
+    /* 25% from the top */
+    width: 10%;
+    /* 100% width */
+    left: 50%;
+    text-align: left;
+    /* Centered text/links */
+    margin-top: 0px;
+    /* 30px top margin to avoid conflict with the close button on smaller screens */
+    margin-top: 30px;
+    font-family: 'tofinoBold';
+    font-size: 0.02em;
+    letter-spacing: .028em;
+}
+
+.overlay-content #rightRight {
+    position: absolute;
+    top: 40%;
+    /* 25% from the top */
+    width: 10%;
+    /* 100% width */
+    left: 66%;
+    text-align: left;
+    /* Centered text/links */
+    margin-top: 0px;
+    /* 30px top margin to avoid conflict with the close button on smaller screens */
+    margin-top: 30px;
+    font-family: 'tofinoBold';
+    font-size: 0.02em;
+    letter-spacing: .028em;
+}
+
+
+/* The navigation links inside the overlay */
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #666666;
+    display: block;
+    /* Display block instead of inline */
+    transition: 0.3s;
+    /* Transition effects on hover (color) */
+}
+
+
+/* When you mouse over the navigation links, change their color */
+
+.overlay a:hover,
+.overlay a:focus {
+    color: #CCCCCC;
+}
+
+
+/* Position the close button (top right corner) */
+
+.closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px !important;
+    /* Override the font-size specified earlier (36px) for all navigation links */
+}
+
+
+/* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
+
+@media screen and (max-height: 450px) {
+    .overlay a {
+        font-size: 20px
+    }
+    .closebtn {
+        font-size: 40px !important;
+        top: 15px;
+        right: 35px;
+    }
+}
