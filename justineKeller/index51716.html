@@ -1,0 +1,1554 @@
+<!DOCTYPE html>
+<html>
+<head> <!-- loading d3 in JavaScript-->
+<script src="http://d3js.org/d3.v3.min.js">
+</script> <!-- loading font Muli in JavaScript-->
+<link href='https://fonts.googleapis.com/css?family=Muli' rel='stylesheet' type='text/css'>
+<style>
+/*CSS style*/
+
+		/*CSS rollover applied to SVG*/
+		/*	svg,*/
+		/*img {*/
+		/*	width: 100%;*/
+		/*} */
+/*Gray background*/
+
+backgorund body {
+	background-color: #C1CEBD;
+}
+
+
+/*body to align everything to edges*/
+
+body {
+	margin: 0;
+	margin-left: 0;
+	margin-top: 0;
+}
+
+
+/*container holding everything*/
+
+#everything {
+	font-family: 'Muli', sans-serif;
+	font-size: 24px;
+	width: 100%;
+	position: absolute;
+	z-index: -1;
+	background-color: #C1CEBD;
+}
+
+
+/*Upper stat bar*/
+
+#TopStat{
+	position: fixed;
+	width: 100%;
+	z-index: 2;
+	padding: 15px;
+	height: 200px;
+
+}
+
+/*Legond*/
+
+#key {
+	position: fixed;
+	width: 100%;
+	top: 200px;
+}
+
+
+/*Senate*/
+
+#senate {
+	font-family: 'Muli', sans-serif;
+	float: left;
+	left: 25%;
+	top: 175px;
+	position: relative;
+}
+
+#senateW {
+	position: absolute;
+	width: 50px;
+}
+
+
+/*hide stats until hover*/
+
+#senateWomenWLStat {
+	opacity: 0;
+}
+
+#senateWomenWStat {
+	opacity: 0;
+}
+
+#senateWomenMLStat {
+	opacity: 0;
+}
+
+#senateWomenMStat {
+	opacity: 0;
+}
+
+#senateWomenWLStat:hover {
+	opacity: 1;
+}
+
+#senateWomenWStat:hover {
+	opacity: 1;
+}
+
+#senateWomenMLStat:hover {
+	opacity: 1;
+}
+
+#senateWomenMStat:hover {
+	opacity: 1;
+}
+
+#senateWW {
+	width: 250px;
+	margin-left: 75px;
+	overflow: hidden;
+	position: absolute;
+}
+
+#senateWM {
+	width: 250;
+	margin-left: 300px;
+	overflow: hidden;
+	position: absolute;
+}
+
+#senateM {
+	position: absolute;
+	width: 50px;
+}
+
+#senateMenWLStat {
+	opacity: 0;
+}
+
+#senateMenWStat {
+	opacity: 0;
+}
+
+#senateMenMLStat {
+	opacity: 0;
+}
+
+#senateMenMStat {
+	opacity: 0;
+}
+
+#senateMenWLStat:hover {
+	opacity: 1;
+}
+
+#senateMenWStat:hover {
+	opacity: 1;
+}
+
+#senateMenMLStat:hover {
+	opacity: 1;
+}
+
+#senateMenMStat:hover {
+	opacity: 1;
+}
+
+#senateMW {
+	width: 250px;
+	margin-left: 75px;
+	overflow: hidden;
+	position: absolute;
+}
+
+#senateMM {
+	width: 250;
+	margin-left: 300px;
+	overflow: hidden;
+	position: absolute;
+}
+
+#senateG {
+	position: absolute;
+	width: 50px;
+}
+
+#senateGirlsWLStat {
+	opacity: 0;
+}
+
+#senateGirlsWStat {
+	opacity: 0;
+}
+
+#senateGirlsMLStat {
+	opacity: 0;
+}
+
+#senateGirlsMStat {
+	opacity: 0;
+}
+
+#senateGirlsWLStat:hover {
+	opacity: 1;
+}
+
+#senateGirlsWStat:hover {
+	opacity: 1;
+}
+
+#senateGirlsMLStat:hover {
+	opacity: 1;
+}
+
+#senateGirlsMStat:hover {
+	opacity: 1;
+}
+
+#senateGW {
+	width: 250px;
+	margin-left: 75px;
+	overflow: hidden;
+	position: absolute;
+}
+
+#senateGM {
+	width: 250;
+	margin-left: 300px;
+	overflow: hidden;
+	position: absolute;
+}
+
+#senateB {
+	position: absolute;
+	width: 50px;
+}
+
+#senateBoysWLStat {
+	opacity: 0;
+}
+
+#senateBoysWStat {
+	opacity: 0;
+}
+
+#senateBoysMLStat {
+	opacity: 0;
+}
+
+#senateBoysMStat {
+	opacity: 0;
+}
+
+#senateBoysWLStat:hover {
+	opacity: 1;
+}
+
+#senateBoysWStat:hover {
+	opacity: 1;
+}
+
+#senateBoysMLStat:hover {
+	opacity: 1;
+}
+
+#senateBoysMStat:hover {
+	opacity: 1;
+}
+
+#senateBW {
+	width: 250px;
+	margin-left: 75px;
+	overflow: hidden;
+	position: absolute;
+}
+
+#senateBM {
+	width: 250;
+	margin-left: 300px;
+	overflow: hidden;
+	position: absolute;
+}
+
+#house {
+	float: left;
+	left: 25%;
+	top:400px;
+	position: relative;
+	font-family: 'Muli', sans-serif;
+}
+
+#houseW {
+	position: absolute;
+	width: 50px;
+}
+
+#houseWomenWLStat {
+	opacity: 0;
+}
+
+#houseWomenWStat {
+	opacity: 0;
+}
+
+#houseWomenMLStat {
+	opacity: 0;
+}
+
+#houseWomenMStat {
+	opacity: 0;
+}
+
+#houseWW {
+	width: 250px;
+	margin-left: 75px;
+	overflow: hidden;
+	position: absolute;
+}
+
+#houseWM {
+	width: 250;
+	margin-left: 300px;
+	overflow: hidden;
+	position: absolute;
+}
+
+#houseM {
+	position: absolute;
+	width: 50px;
+}
+
+#houseMenWLStat {
+	opacity: 0;
+}
+
+#houseMenWStat {
+	opacity: 0;
+}
+
+#houseMenMLStat {
+	opacity: 0;
+}
+
+#houseMenMStat {
+	opacity: 0;
+}
+
+#houseMenWLStat:hover {
+	opacity: 1;
+}
+
+#houseMenWStat:hover {
+	opacity: 1;
+}
+
+#houseMenMLStat:hover {
+	opacity: 1;
+}
+
+#houseMenMStat:hover {
+	opacity: 1;
+}
+
+#houseMW {
+	width: 250px;
+	margin-left: 75px;
+	overflow: hidden;
+	position: absolute;
+}
+
+#houseMM {
+	width: 250;
+	margin-left: 300px;
+	overflow: hidden;
+	position: absolute;
+}
+
+#houseG {
+	position: absolute;
+	width: 50px;
+}
+
+#houseGirlsWLStat {
+	opacity: 0;
+}
+
+#houseGirlsWStat {
+	opacity: 0;
+}
+
+#houseGirlsMLStat {
+	opacity: 0;
+}
+
+#houseGirlsMStat {
+	opacity: 0;
+}
+
+#houseGirlsWLStat:hover {
+	opacity: 1;
+}
+
+#houseGirlsWStat:hover {
+	opacity: 1;
+}
+
+#houseGirlsMLStat:hover {
+	opacity: 1;
+}
+
+#houseGirlsMStat:hover {
+	opacity: 1;
+}
+
+#houseGW {
+	width: 250px;
+	margin-left: 75px;
+	overflow: hidden;
+	position: absolute;
+}
+
+#shouseGM {
+	width: 250;
+	margin-left: 300px;
+	overflow: hidden;
+	position: absolute;
+}
+
+#houseB {
+	position: absolute;
+	width: 50px;
+}
+
+#houseBoysWLStat {
+	opacity: 0;
+}
+
+#houseBoysWStat {
+	opacity: 0;
+}
+
+#houseBoysMLStat {
+	opacity: 0;
+}
+
+#houseBoysMStat {
+	opacity: 0;
+}
+
+#houseBoysWLStat:hover {
+	opacity: 1;
+}
+
+#houseBoysWStat:hover {
+	opacity: 1;
+}
+
+#houseBoysMLStat:hover {
+	opacity: 1;
+}
+
+#houseBoysMStat:hover {
+	opacity: 1;
+}
+
+#houseBW {
+	width: 250px;
+	margin-left: 75px;
+	overflow: hidden;
+	position: absolute;
+}
+
+#houseBM {
+	width: 250;
+	margin-left: 300px;
+	overflow: hidden;
+	position: absolute;
+}
+
+#sLeg {
+	float: left;
+	left: 25%;
+	top: 175px;
+	position: relative;
+	font-family: 'Muli', sans-serif;
+}
+
+#sLegW {
+	position: absolute;
+	width: 50px;
+}
+
+#sLegWW {
+	width: 250px;
+	margin-left: 75px;
+	overflow: hidden;
+	position: absolute;
+}
+
+#sLegWM {
+	width: 250;
+	margin-left: 300px;
+	overflow: hidden;
+	position: absolute;
+}
+
+#sLegM {
+	position: absolute;
+	width: 50px;
+}
+
+#sLegMW {
+	width: 250px;
+	margin-left: 75px;
+	overflow: hidden;
+	position: absolute;
+}
+
+#sLegMM {
+	width: 250;
+	margin-left: 300px;
+	overflow: hidden;
+	position: absolute;
+}
+
+#sLegG {
+	position: absolute;
+	width: 50px;
+}
+
+#sLegGW {
+	width: 250px;
+	margin-left: 75px;
+	overflow: hidden;
+	position: absolute;
+}
+
+#ssLegGM {
+	width: 250;
+	margin-left: 300px;
+	overflow: hidden;
+	position: absolute;
+}
+
+#sLegB {
+	position: absolute;
+	width: 50px;
+}
+
+#sLegBW {
+	width: 250px;
+	margin-left: 75px;
+	overflow: hidden;
+	position: absolute;
+}
+
+#sLegBM {
+	width: 250;
+	margin-left: 300px;
+	overflow: hidden;
+	position: absolute;
+}
+
+#gov {
+	float: left;
+	left: 25%;
+	top: 175px;
+	position: relative;
+	font-family: 'Muli', sans-serif;
+}
+
+#govW {
+	position: absolute;
+	width: 50px;
+}
+
+#govWW {
+	width: 250px;
+	margin-left: 75px;
+	overflow: hidden;
+	position: absolute;
+}
+
+#govWM {
+	width: 250;
+	margin-left: 300px;
+	overflow: hidden;
+	position: absolute;
+}
+
+#govM {
+	position: absolute;
+	width: 50px;
+}
+
+#govMW {
+	width: 250px;
+	margin-left: 75px;
+	overflow: hidden;
+	position: absolute;
+}
+
+#govMM {
+	width: 250;
+	margin-left: 300px;
+	overflow: hidden;
+	position: absolute;
+}
+
+#govG {
+	position: absolute;
+	width: 50px;
+}
+
+#govGW {
+	width: 250px;
+	margin-left: 75px;
+	overflow: hidden;
+	position: absolute;
+}
+
+#govGM {
+	width: 250;
+	margin-left: 300px;
+	overflow: hidden;
+	position: absolute;
+}
+
+#govB {
+	position: absolute;
+	width: 50px;
+}
+
+#govBW {
+	width: 250px;
+	margin-left: 75px;
+	overflow: hidden;
+	position: absolute;
+}
+
+#govBM {
+	width: 250;
+	margin-left: 300px;
+	overflow: hidden;
+	position: absolute;
+}
+
+#fedJ {
+	float: left;
+	left: 25%;
+	top: 175px;
+	position: relative;
+	font-family: 'Muli', sans-serif;
+}
+
+#fedJW {
+	position: absolute;
+	width: 50px;
+}
+
+#fedJWW {
+	width: 250px;
+	margin-left: 75px;
+	overflow: hidden;
+	position: absolute;
+}
+
+#sfedJWM {
+	width: 250;
+	margin-left: 300px;
+	overflow: hidden;
+	position: absolute;
+}
+
+#fedJM {
+	position: absolute;
+	width: 50px;
+}
+
+#fedJMW {
+	width: 250px;
+	margin-left: 75px;
+	overflow: hidden;
+	position: absolute;
+}
+
+#fedJMM {
+	width: 250;
+	margin-left: 300px;
+	overflow: hidden;
+	position: absolute;
+}
+
+#fedJG {
+	position: absolute;
+	width: 50px;
+}
+
+#fedJGW {
+	width: 250px;
+	margin-left: 75px;
+	overflow: hidden;
+	position: absolute;
+}
+
+#fedJGM {
+	width: 250;
+	margin-left: 300px;
+	overflow: hidden;
+	position: absolute;
+}
+
+#fedJB {
+	position: absolute;
+	width: 50px;
+}
+
+#fedJBW {
+	width: 250px;
+	margin-left: 75px;
+	overflow: hidden;
+	position: absolute;
+}
+
+#fedJBM {
+	width: 250;
+	margin-left: 300px;
+	overflow: hidden;
+	position: absolute;
+}
+
+#stJ {
+	float: left;
+	left: 25%;
+	top: 175px;
+	position: relative;
+	font-family: 'Muli', sans-serif;
+}
+
+#stJW {
+	position: absolute;
+	width: 50px;
+}
+
+#stJWW {
+	width: 250px;
+	margin-left: 75px;
+	overflow: hidden;
+	position: absolute;
+}
+
+#stJWM {
+	width: 250;
+	margin-left: 300px;
+	overflow: hidden;
+	position: absolute;
+}
+
+#stJM {
+	position: absolute;
+	width: 50px;
+}
+
+#stJMW {
+	width: 250px;
+	margin-left: 75px;
+	overflow: hidden;
+	position: absolute;
+}
+
+#stJMM {
+	width: 250;
+	margin-left: 300px;
+	overflow: hidden;
+	position: absolute;
+}
+
+#stJG {
+	position: absolute;
+	width: 50px;
+}
+
+#stJGW {
+	width: 250px;
+	margin-left: 75px;
+	overflow: hidden;
+	position: absolute;
+}
+
+#stJGM {
+	width: 250;
+	margin-left: 300px;
+	overflow: hidden;
+	position: absolute;
+}
+
+#stJB {
+	position: absolute;
+	width: 50px;
+}
+
+#stJBW {
+	width: 250px;
+	margin-left: 75px;
+	overflow: hidden;
+	position: absolute;
+}
+
+#stJBM {
+	width: 250;
+	margin-left: 300px;
+	overflow: hidden;
+	position: absolute;
+}
+
+#full {
+	top: 1000px;
+}
+
+svg,
+img {
+	width: 100%;
+}
+
+</style>
+</head>
+<body>
+<script>
+		//header loading svg
+		// d3.xml("svg/statHeader.svg", function(xml) {
+		// 	var destination = document.getElementById("stat");
+		// 	destination.appendChild(xml.documentElement);
+		// 	var element = d3.select("#stat");
+		// 	element.insert("div",":first-child")
+		// 			.style("position", "relative")
+		// 			.style("top", "20px")
+		// 			.style("text-transform", "uppercase")
+		// 			.text(element.attr("title"));
+		// });
+
+		//key
+		d3.xml("svg/key.svg", function(xml) {
+			var destination = document.getElementById("key");
+			destination.appendChild(xml.documentElement);
+			var element = d3.select("#key");
+		});
+		
+		//women title
+		d3.xml("svg/WomenTitle.svg", function(xml) {
+			var destination = document.getElementById("women");
+			destination.appendChild(xml.documentElement);
+			var element = d3.select("#women");
+		});
+			// men title
+		d3.xml("svg/MenTitle.svg", function(xml) {
+			var destination = document.getElementById("men");
+			destination.appendChild(xml.documentElement);
+			var element = d3.select("#men");
+		});
+			//Girls title
+		d3.xml("svg/girlsTitle.svg", function(xml) {
+			var destination = document.getElementById("girls");
+			destination.appendChild(xml.documentElement);
+			var element = d3.select("#girls");
+		});
+			// boys title
+		d3.xml("svg/boysTitle.svg", function(xml) {
+			var destination = document.getElementById("boys");
+			destination.appendChild(xml.documentElement);
+			var element = d3.select("#boys");
+		});
+		//SENATE******************************************
+	//Women Sentate Women		
+			d3.xml("svg/senateWomenW.svg", function(xml) {
+			var destination = document.getElementById("senateWW");
+			destination.appendChild(xml.documentElement);
+			var element = d3.select("#senateWW");
+			
+// mouse event to display title
+			element.on("mouseover", function() { 
+				// setting the text of the page headline
+				d3.select("#TopStat").text(element.attr("title"));
+			})
+		});
+		//Women Senate Men
+					d3.xml("svg/senateWomenM.svg", function(xml) {
+			var destination = document.getElementById("senateWM");
+			destination.appendChild(xml.documentElement);
+			var element = d3.select("#senateWM");
+			
+// mouse event to display title
+			element.on("mouseover", function() { 
+				// setting the text of the page headline
+				d3.select("#TopStat").text(element.attr("title"));
+			})
+		});
+		//Men Senate Women
+					d3.xml("svg/senateMenW.svg", function(xml) {
+			var destination = document.getElementById("senateMW");
+			destination.appendChild(xml.documentElement);
+			var element = d3.select("#senateMW");
+			
+// mouse event to display title
+			element.on("mouseover", function() { 
+				// setting the text of the page headline
+				d3.select("#TopStat").text(element.attr("title"));
+			})
+		});
+		//Men Senate Men
+					d3.xml("svg/senateMenM.svg", function(xml) {
+			var destination = document.getElementById("senateMM");
+			destination.appendChild(xml.documentElement);
+			var element = d3.select("#senateMM");
+			
+// mouse event to display title
+			element.on("mouseover", function() { 
+				// setting the text of the page headline
+				d3.select("#TopStat").text(element.attr("title"));
+			})
+		});
+		//Girls Senate Women
+					d3.xml("svg/senateGirlsW.svg", function(xml) {
+			var destination = document.getElementById("senateGW");
+			destination.appendChild(xml.documentElement);
+			var element = d3.select("#senateGW");
+			
+// mouse event to display title
+			element.on("mouseover", function() { 
+				// setting the text of the page headline
+				d3.select("#TopStat").text(element.attr("title"));
+			})
+		});
+		//Girls Senate Men
+					d3.xml("svg/senateGirlsM.svg", function(xml) {
+			var destination = document.getElementById("senateGM");
+			destination.appendChild(xml.documentElement);
+			var element = d3.select("#senateGM");
+			
+// mouse event to display title
+			element.on("mouseover", function() { 
+				// setting the text of the page headline
+				d3.select("#TopStat").text(element.attr("title"));
+			})
+		});
+		// Boys Senate Women
+						d3.xml("svg/senateBoysW.svg", function(xml) {
+			var destination = document.getElementById("senateBW");
+			destination.appendChild(xml.documentElement);
+			var element = d3.select("#senateBW");
+			
+// mouse event to display title
+			element.on("mouseover", function() { 
+				// setting the text of the page headline
+				d3.select("#TopStat").text(element.attr("title"));
+			})
+		});
+		//Boys Senate Men
+					d3.xml("svg/senateBoysM.svg", function(xml) {
+			var destination = document.getElementById("senateBM");
+			destination.appendChild(xml.documentElement);
+			var element = d3.select("#senateBM");
+			
+// mouse event to display title
+			element.on("mouseover", function() { 
+				// setting the text of the page headline
+				d3.select("#TopStat").text(element.attr("title"));
+			})
+		});
+		//HOUSE*****************************************
+			//Women house Women		
+			d3.xml("svg/houseWomenW.svg", function(xml) {
+			var destination = document.getElementById("houseWW");
+			destination.appendChild(xml.documentElement);
+			var element = d3.select("#houseWW");
+			
+// mouse event to display title
+			element.on("mouseover", function() { 
+				// setting the text of the page headline
+				d3.select("#TopStat").text(element.attr("title"));
+			})
+		});
+		//Women house Men
+					d3.xml("svg/houseWomenM.svg", function(xml) {
+			var destination = document.getElementById("houseWM");
+			destination.appendChild(xml.documentElement);
+			var element = d3.select("#houseWM");
+			
+// mouse event to display title
+			element.on("mouseover", function() { 
+				// setting the text of the page headline
+				d3.select("#TopStat").text(element.attr("title"));
+			})
+		});
+		//Men house Women
+					d3.xml("svg/houseMenW.svg", function(xml) {
+			var destination = document.getElementById("houseMW");
+			destination.appendChild(xml.documentElement);
+			var element = d3.select("#houseMW");
+			
+// mouse event to display title
+			element.on("mouseover", function() { 
+				// setting the text of the page headline
+				d3.select("#TopStat").text(element.attr("title"));
+			})
+		});
+		//Men house Men
+					d3.xml("svg/houseMenM.svg", function(xml) {
+			var destination = document.getElementById("houseMM");
+			destination.appendChild(xml.documentElement);
+			var element = d3.select("#houseMM");
+			
+// mouse event to display title
+			element.on("mouseover", function() { 
+				// setting the text of the page headline
+				d3.select("#TopStat").text(element.attr("title"));
+			})
+		});
+		//Girls house Women
+					d3.xml("svg/houseGirlsW.svg", function(xml) {
+			var destination = document.getElementById("houseGW");
+			destination.appendChild(xml.documentElement);
+			var element = d3.select("#houseGW");
+			
+// mouse event to display title
+			element.on("mouseover", function() { 
+				// setting the text of the page headline
+				d3.select("#TopStat").text(element.attr("title"));
+			})
+		});
+		//Girls house Men
+					d3.xml("svg/houseGirlsM.svg", function(xml) {
+			var destination = document.getElementById("houseGM");
+			destination.appendChild(xml.documentElement);
+			var element = d3.select("#houseGM");
+			
+// mouse event to display title
+			element.on("mouseover", function() { 
+				// setting the text of the page headline
+				d3.select("#TopStat").text(element.attr("title"));
+			})
+		});
+		// Boys house Women
+						d3.xml("svg/houseBoysW.svg", function(xml) {
+			var destination = document.getElementById("houseBW");
+			destination.appendChild(xml.documentElement);
+			var element = d3.select("#houseBW");
+			
+// mouse event to display title
+			element.on("mouseover", function() { 
+				// setting the text of the page headline
+				d3.select("#TopStat").text(element.attr("title"));
+			})
+		});
+		//Boys house Men
+					d3.xml("svg/houseBoysM.svg", function(xml) {
+			var destination = document.getElementById("houseBM");
+			destination.appendChild(xml.documentElement);
+			var element = d3.select("#houseBM");
+			
+// mouse event to display title
+			element.on("mouseover", function() { 
+				// setting the text of the page headline
+				d3.select("#TopStat").text(element.attr("title"));
+			})
+		});
+		//STATE LEGISLATOR *********************************
+					//Women sLeg Women		
+			d3.xml("svg/sLegWomenW.svg", function(xml) {
+			var destination = document.getElementById("sLegWW");
+			destination.appendChild(xml.documentElement);
+			var element = d3.select("#sLegWW");
+			
+// mouse event to display title
+			element.on("mouseover", function() { 
+				// setting the text of the page headline
+				d3.select("#TopStat").text(element.attr("title"));
+			})
+		});
+		//Women sLeg Men
+					d3.xml("svg/sLegWomenM.svg", function(xml) {
+			var destination = document.getElementById("sLegWM");
+			destination.appendChild(xml.documentElement);
+			var element = d3.select("#sLegWM");
+			
+// mouse event to display title
+			element.on("mouseover", function() { 
+				// setting the text of the page headline
+				d3.select("#TopStat").text(element.attr("title"));
+			})
+		});
+		//Men sLeg Women
+					d3.xml("svg/sLegMenW.svg", function(xml) {
+			var destination = document.getElementById("sLegMW");
+			destination.appendChild(xml.documentElement);
+			var element = d3.select("#sLegMW");
+			
+// mouse event to display title
+			element.on("mouseover", function() { 
+				// setting the text of the page headline
+				d3.select("#TopStat").text(element.attr("title"));
+			})
+		});
+		//Men sLeg Men
+					d3.xml("svg/sLegMenM.svg", function(xml) {
+			var destination = document.getElementById("sLegMM");
+			destination.appendChild(xml.documentElement);
+			var element = d3.select("#sLegMM");
+			
+// mouse event to display title
+			element.on("mouseover", function() { 
+				// setting the text of the page headline
+				d3.select("#TopStat").text(element.attr("title"));
+			})
+		});
+		//Girls sLeg Women
+					d3.xml("svg/sLegGirlsW.svg", function(xml) {
+			var destination = document.getElementById("sLegGW");
+			destination.appendChild(xml.documentElement);
+			var element = d3.select("#sLegGW");
+			
+// mouse event to display title
+			element.on("mouseover", function() { 
+				// setting the text of the page headline
+				d3.select("#TopStat").text(element.attr("title"));
+			})
+		});
+		//Girls sLeg Men
+					d3.xml("svg/sLegGirlsM.svg", function(xml) {
+			var destination = document.getElementById("sLegGM");
+			destination.appendChild(xml.documentElement);
+			var element = d3.select("#sLegGM");
+			
+// mouse event to display title
+			element.on("mouseover", function() { 
+				// setting the text of the page headline
+				d3.select("#TopStat").text(element.attr("title"));
+			})
+		});
+		// Boys sLeg Women
+						d3.xml("svg/sLegBoysW.svg", function(xml) {
+			var destination = document.getElementById("sLegBW");
+			destination.appendChild(xml.documentElement);
+			var element = d3.select("#sLegBW");
+			
+// mouse event to display title
+			element.on("mouseover", function() { 
+				// setting the text of the page headline
+				d3.select("#TopStat").text(element.attr("title"));
+			})
+		});
+		//Boys sLeg Men
+					d3.xml("svg/sLegBoysM.svg", function(xml) {
+			var destination = document.getElementById("sLegBM");
+			destination.appendChild(xml.documentElement);
+			var element = d3.select("#sLegBM");
+			
+// mouse event to display title
+			element.on("mouseover", function() { 
+				// setting the text of the page headline
+				d3.select("#TopStat").text(element.attr("title"));
+			})
+		});
+		
+		//GOVENORS********************************
+							//Women gov Women		
+			d3.xml("svg/govWomenW.svg", function(xml) {
+			var destination = document.getElementById("govWW");
+			destination.appendChild(xml.documentElement);
+			var element = d3.select("#govWW");
+			
+// mouse event to display title
+			element.on("mouseover", function() { 
+				// setting the text of the page headline
+				d3.select("#TopStat").text(element.attr("title"));
+			})
+		});
+		//Women gov Men
+					d3.xml("svg/govWomenM.svg", function(xml) {
+			var destination = document.getElementById("govWM");
+			destination.appendChild(xml.documentElement);
+			var element = d3.select("#govWM");
+			
+// mouse event to display title
+			element.on("mouseover", function() { 
+				// setting the text of the page headline
+				d3.select("#TopStat").text(element.attr("title"));
+			})
+		});
+		//Men gov Women
+					d3.xml("svg/govMenW.svg", function(xml) {
+			var destination = document.getElementById("govMW");
+			destination.appendChild(xml.documentElement);
+			var element = d3.select("#govMW");
+			
+// mouse event to display title
+			element.on("mouseover", function() { 
+				// setting the text of the page headline
+				d3.select("#TopStat").text(element.attr("title"));
+			})
+		});
+		//Men gov Men
+					d3.xml("svg/govMenM.svg", function(xml) {
+			var destination = document.getElementById("govMM");
+			destination.appendChild(xml.documentElement);
+			var element = d3.select("#govMM");
+			
+// mouse event to display title
+			element.on("mouseover", function() { 
+				// setting the text of the page headline
+				d3.select("#TopStat").text(element.attr("title"));
+			})
+		});
+		//Girls gov Women
+					d3.xml("svg/govGirlsW.svg", function(xml) {
+			var destination = document.getElementById("govGW");
+			destination.appendChild(xml.documentElement);
+			var element = d3.select("#govGW");
+			
+// mouse event to display title
+			element.on("mouseover", function() { 
+				// setting the text of the page headline
+				d3.select("#TopStat").text(element.attr("title"));
+			})
+		});
+		//Girls gov Men
+					d3.xml("svg/govGirlsM.svg", function(xml) {
+			var destination = document.getElementById("govGM");
+			destination.appendChild(xml.documentElement);
+			var element = d3.select("#govGM");
+			
+// mouse event to display title
+			element.on("mouseover", function() { 
+				// setting the text of the page headline
+				d3.select("#TopStat").text(element.attr("title"));
+			})
+		});
+		// Boys gov Women
+						d3.xml("svg/govBoysW.svg", function(xml) {
+			var destination = document.getElementById("govBW");
+			destination.appendChild(xml.documentElement);
+			var element = d3.select("#govBW");
+			
+// mouse event to display title
+			element.on("mouseover", function() { 
+				// setting the text of the page headline
+				d3.select("#TopStat").text(element.attr("title"));
+			})
+		});
+		//Boys gov Men
+					d3.xml("svg/govBoysM.svg", function(xml) {
+			var destination = document.getElementById("govBM");
+			destination.appendChild(xml.documentElement);
+			var element = d3.select("#govBM");
+			
+// mouse event to display title
+			element.on("mouseover", function() { 
+				// setting the text of the page headline
+				d3.select("#TopStat").text(element.attr("title"));
+			})
+		});
+		//US FED COURT JUDGES***************************
+								//Women fedJ Women		
+			d3.xml("svg/fedJWomenW.svg", function(xml) {
+			var destination = document.getElementById("fedJWW");
+			destination.appendChild(xml.documentElement);
+			var element = d3.select("#fedJWW");
+			
+// mouse event to display title
+			element.on("mouseover", function() { 
+				// setting the text of the page headline
+				d3.select("#TopStat").text(element.attr("title"));
+			})
+		});
+		//Women fedJ Men
+					d3.xml("svg/fedJWomenM.svg", function(xml) {
+			var destination = document.getElementById("fedJWM");
+			destination.appendChild(xml.documentElement);
+			var element = d3.select("#fedJWM");
+			
+// mouse event to display title
+			element.on("mouseover", function() { 
+				// setting the text of the page headline
+				d3.select("#TopStat").text(element.attr("title"));
+			})
+		});
+		//Men fedJ Women
+					d3.xml("svg/fedJMenW.svg", function(xml) {
+			var destination = document.getElementById("fedJMW");
+			destination.appendChild(xml.documentElement);
+			var element = d3.select("#fedJMW");
+			
+// mouse event to display title
+			element.on("mouseover", function() { 
+				// setting the text of the page headline
+				d3.select("#TopStat").text(element.attr("title"));
+			})
+		});
+		//Men fedJ Men
+					d3.xml("svg/fedJMenM.svg", function(xml) {
+			var destination = document.getElementById("fedJMM");
+			destination.appendChild(xml.documentElement);
+			var element = d3.select("#fedJMM");
+			
+// mouse event to display title
+			element.on("mouseover", function() { 
+				// setting the text of the page headline
+				d3.select("#TopStat").text(element.attr("title"));
+			})
+		});
+		//Girls fedJ Women
+					d3.xml("svg/fedJGirlsW.svg", function(xml) {
+			var destination = document.getElementById("fedJGW");
+			destination.appendChild(xml.documentElement);
+			var element = d3.select("#fedJGW");
+			
+// mouse event to display title
+			element.on("mouseover", function() { 
+				// setting the text of the page headline
+				d3.select("#TopStat").text(element.attr("title"));
+			})
+		});
+		//Girls fedJ Men
+					d3.xml("svg/fedJGirlsM.svg", function(xml) {
+			var destination = document.getElementById("fedJGM");
+			destination.appendChild(xml.documentElement);
+			var element = d3.select("#fedJGM");
+			
+// mouse event to display title
+			element.on("mouseover", function() { 
+				// setting the text of the page headline
+				d3.select("#TopStat").text(element.attr("title"));
+			})
+		});
+		// Boys fedJ Women
+						d3.xml("svg/fedJBoysW.svg", function(xml) {
+			var destination = document.getElementById("fedJBW");
+			destination.appendChild(xml.documentElement);
+			var element = d3.select("#fedJBW");
+			
+// mouse event to display title
+			element.on("mouseover", function() { 
+				// setting the text of the page headline
+				d3.select("#TopStat").text(element.attr("title"));
+			})
+		});
+		//Boys fedJ Men
+					d3.xml("svg/fedJBoysM.svg", function(xml) {
+			var destination = document.getElementById("fedJBM");
+			destination.appendChild(xml.documentElement);
+			var element = d3.select("#fedJBM");
+			
+// mouse event to display title
+			element.on("mouseover", function() { 
+				// setting the text of the page headline
+				d3.select("#TopStat").text(element.attr("title"));
+			})
+		});
+		
+		//US STATE COURT JUDGES ******************************
+										//Women stJ Women		
+			d3.xml("svg/stJWomenW.svg", function(xml) {
+			var destination = document.getElementById("stJWW");
+			destination.appendChild(xml.documentElement);
+			var element = d3.select("#stJWW");
+			
+// mouse event to display title
+			element.on("mouseover", function() { 
+				// setting the text of the page headline
+				d3.select("#TopStat").text(element.attr("title"));
+			})
+		});
+		//Women stJ Men
+					d3.xml("svg/stJWomenM.svg", function(xml) {
+			var destination = document.getElementById("stJWM");
+			destination.appendChild(xml.documentElement);
+			var element = d3.select("#stJWM");
+			
+// mouse event to display title
+			element.on("mouseover", function() { 
+				// setting the text of the page headline
+				d3.select("#TopStat").text(element.attr("title"));
+			})
+		});
+		//Men stJ Women
+					d3.xml("svg/stJMenW.svg", function(xml) {
+			var destination = document.getElementById("stJMW");
+			destination.appendChild(xml.documentElement);
+			var element = d3.select("#stJMW");
+			
+// mouse event to display title
+			element.on("mouseover", function() { 
+				// setting the text of the page headline
+				d3.select("#TopStat").text(element.attr("title"));
+			})
+		});
+		//Men stJ Men
+					d3.xml("svg/stJMenM.svg", function(xml) {
+			var destination = document.getElementById("stJMM");
+			destination.appendChild(xml.documentElement);
+			var element = d3.select("#stJMM");
+			
+// mouse event to display title
+			element.on("mouseover", function() { 
+				// setting the text of the page headline
+				d3.select("#TopStat").text(element.attr("title"));
+			})
+		});
+		//Girls stJ Women
+					d3.xml("svg/stJGirlsW.svg", function(xml) {
+			var destination = document.getElementById("stJGW");
+			destination.appendChild(xml.documentElement);
+			var element = d3.select("#stJGW");
+			
+// mouse event to display title
+			element.on("mouseover", function() { 
+				// setting the text of the page headline
+				d3.select("#TopStat").text(element.attr("title"));
+			})
+		});
+		//Girls stJ Men
+					d3.xml("svg/stJGirlsM.svg", function(xml) {
+			var destination = document.getElementById("stJGM");
+			destination.appendChild(xml.documentElement);
+			var element = d3.select("#stJGM");
+			
+// mouse event to display title
+			element.on("mouseover", function() { 
+				// setting the text of the page headline
+				d3.select("#TopStat").text(element.attr("title"));
+			})
+		});
+		// Boys stJ Women
+						d3.xml("svg/stJBoysW.svg", function(xml) {
+			var destination = document.getElementById("stJBW");
+			destination.appendChild(xml.documentElement);
+			var element = d3.select("#stJBW");
+			
+// mouse event to display title
+			element.on("mouseover", function() { 
+				// setting the text of the page headline
+				d3.select("#TopStat").text(element.attr("title"));
+			})
+		});
+		//Boys stJ Men
+					d3.xml("svg/stJBoysM.svg", function(xml) {
+			var destination = document.getElementById("stJBM");
+			destination.appendChild(xml.documentElement);
+			var element = d3.select("#stJBM");
+			
+// mouse event to display title
+			element.on("mouseover", function() { 
+				// setting the text of the page headline
+				d3.select("#TopStat").text(element.attr("title"));
+			})
+		});
+</script>
+
+<div id= "everything">
+	<div id = "stat">
+	</div>
+	<div id= "TopStat"></div>
+	</div>
+	<div id ="key">
+	</div>
+	<div id="senate">
+		<h2> SENATE </h2>
+		<div id ="senateWo">
+	
+			<div id= "women">
+			</div>
+			<div id="senateW">
+				<div id= "senateWW" title="11% of women prefer a female political leader and 76% have no difference in preference. Women comprise 20% of the Senate">
+				</div>
+				<div id= "senateWM" title="12% of women prefer a male political leader and 76% have no difference in preference. Men comprise 80% of the Senate">
+				</div>
+			</div>
+		</div>
+		<div id="senateMe">
+			<div id= "men">
+			</div>
+			<div id="senateM">
+				<div id= "senateMW">
+				</div>
+				<div id= "senateMM">
+				</div>	
+			</div>
+		</div>
+		<div id ="senateGi">
+			<div id= "girls">
+			</div>
+			<div id= "senateG">
+				<div id= "senateGW" >
+				</div>
+				<div id= "senateGM">
+				</div>
+			</div>
+		</div>
+		<div id="senateBo">
+			<div id= "boys">
+			</div>
+			<div id ="senateB">
+				
+			<div id= "senateBW">
+			</div>
+			<div id= "senateBM">
+			</div>	
+			</div>
+		</div>
+	</div>
+	<div id="house">
+		<h2> HOUSE OF REPRESENTATIVES </h2>
+		<div id ="houseWo">
+	
+			<div id= "women">
+			</div>
+			<div id = "houseW">
+				<div id= "houseWW" title="11% of women prefer a female political leader and 76% have no difference in preference. Women comprise 20% of the Senate">
+				</div>
+				<div id= "houseWM" title="12% of women prefer a male political leader and 76% have no difference in preference. Men comprise 80% of the Senate">
+				</div>
+			</div>
+		</div>
+		<div id="houseMe">
+			<div id= "men">
+			</div>
+			<div id ="houseM">
+				<div id= "houseMW">
+				</div>
+				<div id= "houseMM">
+				</div>	
+			</div>
+		</div>
+		<div id ="houseGi">
+	
+			<div id= "girls">
+			</div>
+			<div id="houseG">
+				<div id= "houseGW" >
+				</div>
+				<div id= "houseGM">
+				</div>
+			</div>
+		</div>
+		<div id="houseBo">
+			<div id= "boys">
+			</div>
+			<div id= "houseB">
+				<div id= "houseBW">
+				</div>
+				<div id= "houseBM">
+				</div>
+			</div>	
+		</div>
+	</div>
+	
+</div>
+</body>
+</html>

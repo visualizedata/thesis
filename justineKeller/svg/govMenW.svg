@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="200px" height="200px" viewBox="0 0 200 200" enable-background="new 0 0 200 200" xml:space="preserve">
+<g id="govMenPercentW">
+	<g>
+		<g>
+			<rect x="9.882" y="9.63" fill="#FFF0E1" width="182.683" height="182.685"/>
+		</g>
+		<rect x="9.882" y="174.05" opacity="0.5" fill="#767C6D" enable-background="new    " width="182.683" height="18.265"/>
+	</g>
+</g>
+<g id="govMenWL">
+	
+		<rect x="9.882" y="178.254" fill="none" stroke="#EF885A" stroke-width="4" stroke-miterlimit="10" width="182.685" height="12.787"/>
+	
+		<rect x="9.882" y="39.942" fill="none" stroke="#EDC9B1" stroke-width="4" stroke-miterlimit="10" width="182.685" height="135.185"/>
+</g>
+<g id="govMenWLStat">
+	<rect x="12.659" y="41.994" fill="none" width="174.683" height="20.938"/>
+	<text transform="matrix(1 0 0 1 12.6582 52.2002)" fill="#EDC9B1" font-family="'Muli'" font-size="14">74% No Preference</text>
+	<rect x="12.885" y="167.339" fill="none" width="174.684" height="37.136"/>
+	<text transform="matrix(1 0 0 1 12.8848 177.5449)" fill="#EF885A" font-family="'Muli'" font-size="14">7% Prefer Women</text>
+</g>
+<g id="govMenWStat">
+	<rect x="12.659" y="128.206" fill="none" width="185.606" height="48.582"/>
+	<text transform="matrix(1 0 0 1 12.6582 141.3281)" fill="#767C6D" font-family="'Muli'" font-size="18">Women serving as </text>
+	<text transform="matrix(1 0 0 1 12.6582 162.9277)" fill="#767C6D" font-family="'Muli'" font-size="18">Govenor 10%</text>
+</g>
+</svg>

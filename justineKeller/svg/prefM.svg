@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="200px"
+	 height="200px" viewBox="0 0 200 200" enable-background="new 0 0 200 200" xml:space="preserve">
+<g id="prefMenbg">
+	<rect x="8.966" y="7.843" fill="#E3EFE5" width="182.685" height="182.679"/>
+</g>
+<g id="prefMboxes">
+	
+		<rect x="8.658" y="8.104" fill="none" stroke="#EF885A" stroke-width="3" stroke-miterlimit="10" width="182.684" height="31.057"/>
+	
+		<rect x="8.658" y="177.473" fill="none" stroke="#EF885A" stroke-width="3" stroke-miterlimit="10" width="182.684" height="12.787"/>
+	
+		<rect x="8.658" y="41.051" fill="none" stroke="#EDC9B1" stroke-width="3" stroke-miterlimit="10" width="182.684" height="135.186"/>
+</g>
+<g id="prefMStat">
+	<rect x="12.658" y="26.267" fill="none" width="174.684" height="20.938"/>
+	<text transform="matrix(1 0 0 1 12.6567 36.4722)" fill="#EF885A" font-family="'Muli'" font-size="14">17% Prefer Men</text>
+	<rect x="12.658" y="165.189" fill="none" width="174.684" height="20.938"/>
+	<text transform="matrix(1 0 0 1 12.6567 175.3945)" fill="#EDC9B1" font-family="'Muli'" font-size="14">74% No Preference</text>
+	<rect x="15.099" y="179.195" fill="none" width="174.684" height="37.135"/>
+	<text transform="matrix(1 0 0 1 15.0986 189.4023)" fill="#EF885A" font-family="'Muli'" font-size="14">7% Prefer Women</text>
+</g>
+</svg>

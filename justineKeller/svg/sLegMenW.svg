@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="200px"
+	 height="200px" viewBox="0 0 200 200" enable-background="new 0 0 200 200" xml:space="preserve">
+<g id="sLegMenPercentW">
+	<g>
+		<rect x="8.659" y="7.652" fill="#FFF0E1" width="182.684" height="182.686"/>
+		<rect x="8.659" y="146.127" opacity="0.5" fill="#767C6D" width="182.684" height="44.211"/>
+	</g>
+</g>
+<g id="sLegMenWL">
+	
+		<rect x="9.882" y="178.254" fill="none" stroke="#EF885A" stroke-width="4" stroke-miterlimit="10" width="182.684" height="12.787"/>
+	
+		<rect x="9.882" y="39.942" fill="none" stroke="#EDC9B1" stroke-width="4" stroke-miterlimit="10" width="182.684" height="135.185"/>
+</g>
+<g id="sLegMenWLStat">
+	<rect x="12.659" y="41.994" fill="none" width="174.683" height="20.938"/>
+	<text transform="matrix(1 0 0 1 12.6587 52.2002)" fill="#EDC9B1" font-family="'Muli'" font-size="14">74% No Preference</text>
+	<rect x="12.885" y="167.339" fill="none" width="174.684" height="37.135"/>
+	<text transform="matrix(1 0 0 1 12.8843 177.5449)" fill="#EF885A" font-family="'Muli'" font-size="14">7% Prefer Women</text>
+</g>
+<g id="sLegMenWStat">
+	<rect x="11.882" y="107.534" fill="none" width="178.685" height="48.582"/>
+	<text transform="matrix(1 0 0 1 11.8818 120.6563)" opacity="0.5"><tspan x="0" y="0" fill="#767C6D" font-family="'Muli'" font-size="18">Women in the State </tspan><tspan x="0" y="21.6" fill="#767C6D" font-family="'Muli'" font-size="18">Legislator 24%</tspan></text>
+</g>
+</svg>
