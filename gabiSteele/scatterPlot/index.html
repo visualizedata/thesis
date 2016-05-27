@@ -1,0 +1,132 @@
+<!DOCTYPE HTML>
+<meta charset="utf-8">
+<html>
+<head>
+
+<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:400italic,600italic,700italic,200,300,400,600,700,900">
+<script src="http://d3js.org/d3.v3.min.js"></script>
+
+<style>
+
+body, h1, h2, h3, p {
+  margin: 0;
+  padding: 0;
+ font-family: Montserrat;
+  font-size: 0.9em;
+  color: #333;
+  font-weight: 400;
+}
+
+#content {
+  margin: 0px;
+  padding: 20px;
+  text-align: left;
+ 
+}
+
+h1 {
+  line-height: 1em;
+  font-size: 1.75em;
+  font-weight: 900;
+  color: #000;
+}
+
+p {
+  margin: 5px 0px 0px 0px;
+}
+
+.domain {
+  stroke-width: 1px;
+}
+
+#chart {
+  margin: 15px 0px 0px 0px;
+  width: 100%;
+  height: 100%;
+  padding: 0px;
+}
+
+#menu {
+  float: right;
+  margin: 15px 0px 0px 0px;
+  padding: 0;
+  display: block;
+}
+
+select {
+  width: 450px;
+ 	font-family: Montserrat;
+  font-size: 1.2em;
+  color: #003399;
+  font-weight: 400;
+}
+
+.axis path, .axis line {
+  fill: none;
+  stroke: none;
+  shape-rendering: crispEdges;
+}
+
+.axis line {
+  stroke: #eee;
+  stroke-width: 1;
+  opacity: 0.5;
+  shape-rendering: crispEdges;
+}
+
+.tick text, #xAxisLabel, #yAxisLabel {
+  fill: #003399;
+  text-align: center;
+  font-size: .8em;
+  margin: 5, 0, 0, 0;
+  
+}
+
+.tooltip {
+  position: absolute;
+  padding: 7px;
+  width: 340px;
+  font-size: 1.1em;
+  pointer-events: none;
+  opacity: 0.6;
+  background: #fff;
+  
+  /*border: 1px solid #ccc;*/
+  /*border-radius: 4px;*/
+}
+
+.tooltip p {
+  margin: 0;
+  padding: 0;
+}
+
+circle {
+  stroke: #0165A8;
+  stroke-width: 2px;
+  fill: #003399;
+  opacity:0.2;
+}
+
+circle:hover {
+  /*stroke: #003275;*/
+  opacity:0.8;
+  fill: #ffff66;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div id="content">
+	<!--<h1>Examining Changes in Mother-Child relationships before and after Treatment</h1>-->
+	<!--<p>U.S. counties were sorted into 20 equally sized groups according to median household income. Poverty rates, infant mortality rates, and life expectancies were calculated for each of the 20 income groups. The data show that in 2007, low-income counties had significantly higher infant mortality rates and lower life expectancies than high-income counties.</p>-->
+	<div id="menu"></div>
+	<div id="chart"></div>
+	<!--<p>Source: The New School for Social Reesearch, Center for Attachment.</p>-->
+</div>
+
+<script type='text/javascript' src='chart.js'></script>
+</body>
+</html>
