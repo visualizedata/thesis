@@ -17,6 +17,7 @@
     var usePreview = true;
 
     $(document).ready(function() {
+      
       // images
       $("div .project").each(function() {
         if ($(this).attr('href') != undefined) {
@@ -81,15 +82,22 @@
 
       // index
       $("h3").each(function(i) {
-        $("#index").append("<li><a href='#" + i + "'>" +
-          "<span class='glyphicon glyphicon-chevron-down'></span>  &nbsp;" +
-          $(this).text() + "</a><li>");
-        $(this).prepend("<a id='" + i + "'>");
+        if (!$(this).hasClass("no-touch")) {
+          $("#index").append("<li><a href='#" + i + "'>" +
+            "<span class='glyphicon glyphicon-chevron-down'></span>  &nbsp;" +
+            $(this).text() + "</a><li>");
+          $(this).prepend("<a id='" + i + "'>");
+        }
       });
       
       // activate tooltip
       $('[data-toggle="tooltip"]').tooltip();
-
+      
+      // check for touch screens
+      // var hasTouch = window.matchMedia('(pointer: coarse)').matches;
+      // if (hasTouch) {
+        $(".no-touch").hide();
+      // }
 
     });
   </script>
@@ -171,16 +179,16 @@
 
     <!--PROJECT-->
 
-    <div class="bottom-stripe col-md-12">
+    <div class="bottom-stripe col-md-12 no-touch">
       <div class="bottom-stripe-inner"></div>
     </div>
-    <h3 class="col-md-12">Justine Keller</h3>
-    <div class="bottom-stripe col-md-12">
+    <h3 class="col-md-12 no-touch">Justine Keller</h3>
+    <div class="bottom-stripe col-md-12 no-touch">
       <div class="bottom-stripe-inner"></div>
     </div>
 
     <a id="justine"></a>
-    <div href="justineKeller/" img-src="content/justineKeller.png" class="project col-md-12">
+    <div href="justineKeller/" img-src="content/justineKeller.png" class="project col-md-12 no-touch">
       <p class=" col-md-2">
         <span class="title">Leadership Gender Gap</span>
       </p>
@@ -328,7 +336,7 @@
           <p><a href="http://www.newschool.edu/parsons/ms-data-visualization/">MS Data Visualization 2016</a></p>
 
           <a href="https://github.com/compagnb">Barbara Compagnoni</a>
-          <br /> <a href="https://github.com/Justinerk2">Justine Keller</a>
+          <br /> <a href="https://github.com/Justinerk2" class="no-touch">Justine Keller</a>
           <br /> <a href="https://github.com/llapp">Linnea Lapp</a>
           <br /> <a href="https://github.com/jacobmbr">Jacob Romer</a>
           <br /> <a href="https://github.com/gabisteele">Gabi Steele</a>
