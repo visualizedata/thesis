@@ -22,19 +22,8 @@
       $("div .project").each(function() {
         if ($(this).attr('href') != undefined) {
 
-          // embed button
-          // var embed = "<span class='glyphicon glyphicon-share' data-toggle='tooltip' title='Embed'></span>";
-          // $(this).append(embed).click(function() {
-          //   $(this).find("input").animate({
-          //     width: 'toggle'
-          //   }).select();
-          // });
-
           // scale
           var str = "";
-          // str += "<button type='button' class='btn-large' title='launch project' onClick='window.open(\"";
-          // str += $(this).attr('href');
-          // str += "\")'><span class= 'glyphicon glyphicon-resize-full' aria-hidden='true' ></span></button>";
           str += "<a href='#top'><span class='pull-right glyphicon glyphicon-chevron-up' data-toggle='tooltip' data-placement='left' title='top'></span></a>";
           $(this).append(str);
 
@@ -65,21 +54,6 @@
         }
       });
 
-      // $("div .project").hover(function() {
-      //   if ($(this).attr('href') != undefined) {
-
-      //     // iFrames
-      //     // add iframe with content
-      //     console.log("path: " + $(this).attr('href'));
-      //     $(this).has("img").append("<iframe width='100%' src='" + $(this).attr('href') + "'></iframe>");
-      //     // hide image
-      //     $(this).find("img").hide();
-      //   }
-      // }, function() {
-      //   $(this).has("img").find("iframe").remove();
-      //   $(this).find("img").show();
-      // });
-
       // index
       $("h3").each(function(i) {
         if (!$(this).hasClass("no-touch")) {
@@ -87,17 +61,23 @@
             "<span class='glyphicon glyphicon-chevron-down'></span>  &nbsp;" +
             $(this).text() + "</a><li>");
           $(this).prepend("<a id='" + i + "'>");
+         }
+        else {
+          $("#index").append("<li class='no-touch'><a href='#" + i + "'>" +
+            "<span class='glyphicon glyphicon-chevron-down'></span>  &nbsp;" +
+            $(this).text() + "</a><li>");
+          $(this).prepend("<a id='" + i + "'>");
         }
       });
       
+      // check for touch screens
+      var hasTouch = window.matchMedia('(pointer: coarse)').matches;
+      if (hasTouch) {
+        $(".no-touch").hide();
+      }
+      
       // activate tooltip
       $('[data-toggle="tooltip"]').tooltip();
-      
-      // check for touch screens
-      // var hasTouch = window.matchMedia('(pointer: coarse)').matches;
-      // if (hasTouch) {
-        $(".no-touch").hide();
-      // }
 
     });
   </script>
