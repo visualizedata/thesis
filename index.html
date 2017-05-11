@@ -10,7 +10,7 @@
   <link href="web/css/style.css" rel="stylesheet">
   <link href="web/css/color.css" rel="stylesheet">
   <link href="web/css/bootstrap.min.css" rel="stylesheet">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="web/js/jquery.min.js"></script>
 
   <script>
     // use preview images if available otherwise iframes directly
@@ -20,22 +20,12 @@
       
       // images
       $("div .project").each(function() {
-        if ($(this).attr('href') != undefined) {
+        if ($(this).attr('href') !== undefined) {
 
           // scale
           var str = "";
           str += "<a href='#top'><span class='pull-right glyphicon glyphicon-chevron-up' data-toggle='tooltip' data-placement='left' title='top'></span></a>";
           $(this).append(str);
-
-          // create text field to copy from
-          var iframe = "<input id='embed' type='text' class='collapse pull-right btn btn-default col-md-12' value='" +
-            $(this).find("p").html() +
-            "<iframe width=\"100%\" height=\"100%\" src=\"" + window.location.href + "/." + $(this).attr('href') + "\"></iframe>" +
-            "<a href=\"https://visualizedata.github.io/undp/\"><img style=\"width:200px !important\" src=\"" + window.location.href + "/../" + "web/img/ParsonsDataVisualization.png" + "\"></a>" +
-            "'>";
-          if ($(this).find("input").length == 0) {
-            $(this).append(iframe);
-          }
 
           // add preview image when available
           if (usePreview) {
@@ -126,7 +116,7 @@
       <div class="bottom-stripe-inner"></div>
     </div>
     <div class="font-width-3 col-md-12">
-      2016
+      2017
     </div>
         
     <!--INDEX-->
@@ -142,44 +132,24 @@
     <div class="bottom-stripe col-md-12">
       <div class="bottom-stripe-inner"></div>
     </div>
-    <h3 class="col-md-12">Barbara Compagnoni</h3>
+    <h3 class="col-md-12">Sam Vickars</h3>
     <div class="bottom-stripe col-md-12">
       <div class="bottom-stripe-inner"></div>
     </div>
 
-    <a id="barbara"></a>
-    <div href="barbaraCompagnoni/" img-src="content/barbaraCompagnoni.png" class="project col-md-12">
+    <a id="sam"></a>
+    <div href="https://svickars.github.io/thesis/" img-src="https://github.com/svickars/thesis/raw/master/preview.png" class="project col-md-12">
       <p class=" col-md-2">
-        <span class="title">Feeling.it</span>
+        <span class="title">Visualizing Canada's Indian Residential School System</span>
       </p>
       <p class="col-md-9">
-        How our bodies interpret data is the result of our brain processing the environment around us through our senses. The data collected from the environment triggers a response from the brain to different parts of the body. These physiological and psychological reactions become a unique series of signals and chain reactions controlled by the nervous system. These experiences become memories when data about the event is stored in the human brain. By collecting the environmental stimuli in its entirety, as well as the biometric data created by the electrical and chemical reactions communicating these responses throughout the body from the brain, we are able to evaluate the data without the influence of these filters. Each snapshot of intimate communication within our bodies is documented through the sensor readings of wearable technologies. These processors present biological data to the subject through the perceptions and realities created by the goals of the companies that produce these technologies. Feelin.it is an opportunity to share and compare this intimate data with others.
-      </p>
-    </div>
-
-    <!--PROJECT-->
-
-    <div class="bottom-stripe col-md-12 no-touch">
-      <div class="bottom-stripe-inner"></div>
-    </div>
-    <h3 class="col-md-12 no-touch">Justine Keller</h3>
-    <div class="bottom-stripe col-md-12 no-touch">
-      <div class="bottom-stripe-inner"></div>
-    </div>
-
-    <a id="justine"></a>
-    <div href="justineKeller/" img-src="content/justineKeller.png" class="project col-md-12 no-touch">
-      <p class=" col-md-2">
-        <span class="title">Leadership Gender Gap</span>
-      </p>
-      <p class="col-md-9">
-        While 92% of girls believe anyone can acquire the skills of leadership, only 21% believe they currently have most of the key qualities required to be a good leader (Schoenberg, Salmond, Fleshman, 2008). 
-        <br /><br />
-        Political leadership determines the public policy of a country. Diverse political leadership ensures accurate representation of the population. In the United States, a gender gap exists in political leadership. Although women gained the right to vote 97 years ago, in federal and state politics women hold fewer than 20% of seats in congress (Pew Research Center, 2015). 
-        <br /><br />
-        Girls and women are often not viewed in society as strong leaders, not only by boys and men, but equally by women themselves. Society needs to become aware of these false perceptions of female leaders and their negative impact on political representation. 
-        <br /><br />
-        This visualization contrasts the perspectives of women, men, boys, and girls to the number of men and women in various political entities. Comparing these four viewpoints allows for a more comprehensive look at how gender and age affect the relationship between the perceptions of female leaders and the reality of the number of female leaders in politics. 
+        Canada's Indian Residential School System was a network of boarding schools, industrial schools, and federal hostels created to remove indigenous children from their homes and families. While many schools originated long before Confederation in 1867, the Indian Residential School System was primarily active following the approval of the Indian Act in 1876 — a group of laws aiming to do away with the Indian tribal system and forcibly enfranchise First Nations peoples -- until the the last federally-operated school closed in 1996.
+        <br/>
+        Overall, there were 130 schools, as recognized by the National Truth and Reconciliation Commission and not including various Metis and Inuit institutions, in which roughly 150,000 native children were placed. They were located throughout every Canadian province except Prince Edward Island, Newfoundland, and New Brunswick. The schools were funded by the Canadian Government and operated by various religious groups.
+        <br/>
+        In recent years and in light of official apologies issued by the Government of Canada, individual provinces and territories, the Vatican, and church groups, information about the schools and their students' welfare has become public knowledge: physical and sexual abuse was common, both between students and involving administrators; malnourishment and poor living conditions were typical; and assimilation, deprivation of cultural traditions, and punishment was the standard. It is estimated that 6000 children died while in attendance.
+        <br/>
+        This project aims to investigate the IRS system visually, beginning with the stories of survivors and transitioning into the narrative of each school, it's student demographics, policies, everyday life, and management. What follows is a selection of survivor stories, as gathered by the National Truth and Reconciliation Commission between 2008 and 2015.
       </p>
     </div>
 
@@ -188,20 +158,38 @@
     <div class="bottom-stripe col-md-12">
       <div class="bottom-stripe-inner"></div>
     </div>
-    <h3 class="col-md-12">Linnea Lapp</h3>
+    <h3 class="col-md-12">Aseem Agarwal</h3>
+    <div class="bottom-stripe col-md-12 no-touch">
+      <div class="bottom-stripe-inner"></div>
+    </div>
+
+    <a id="aseem"></a>
+    <div href="http://ec2-34-223-227-182.us-west-2.compute.amazonaws.com:8383/presentation/1.html" img-src="https://github.com/agaase/msdv-thesis/raw/master/visualization/preview.png" class="project col-md-12 no-touch">
+      <p class=" col-md-2">
+        <span class="title">How is Delhi Slowing Down?</span>
+      </p>
+      <p class="col-md-9">
+        Congestion on roads in urban cities is a common phenomenon and also regarded sometimes as the hallmark of vibrant business districts. But when it comes to Delhi, the capital city of India, it is a point of major concern with studies forecasting speeds of 5 kmph on all major roads in the next five years. Road density has already reached saturation level and more and more vehicles are added every day on the streets of Delhi. Looking at the severity of the situation, there is less scope for long term planning and what is needed is an exhaustive analysis from multiple perspectives. This project aims to collect and use big data to carry out granular analysis at scale in terms of congestion or excess time faced by different areas and routes. It is both visual and analytical, where the former is carried out using spatial representation that can bring forward unknown relationships. The outcome is a tool that can be used by urban planners and analysts who can combine or filter multiple variables to understand patterns behind congestion across the city.
+      </p>
+    </div>
+
+    <!--PROJECT-->
+
+    <div class="bottom-stripe col-md-12">
+      <div class="bottom-stripe-inner"></div>
+    </div>
+    <h3 class="col-md-12">Nancy Zhao</h3>
     <div class="bottom-stripe col-md-12">
       <div class="bottom-stripe-inner"></div>
     </div>
 
-    <a id="linnea"></a>
-    <div href="linneaLapp/" img-src="content/linneaLapp.png" class="project col-md-12">
+    <a id="nancy"></a>
+    <div href="https://nancyzhao888.github.io/thesis/work/broadway/" img-src="https://github.com/nancyzhao888/thesis/raw/master/work/broadway/preview.png" class="project col-md-12">
       <p class=" col-md-2">
-        <span class="title">Patterns of Vulnerability: Visualizing Northern Canadian Food Insecurity</span>
+        <span class="title">The International Afterlife of Broadway Musicals</span>
       </p>
       <p class="col-md-9">
-        Although Canada has no official measure of poverty, food insecurity (the financial and/or physical inability to access adequate food) is present in homes across the country, with a particularly severe prominence in Canada’s Northern territories of the Yukon, Northwest Territories, and Nunavut. Northern Canada’s unique geographical and social landscape make its residents especially vulnerable to food insecurity. Extreme temperatures, low population density, isolated communities, inconsistent access, and a higher Aboriginal population set Canada’s north apart. Declining physical and mental health, the deterioration of Aboriginal traditions, and a degeneration of society are at stake when food insecurity exists. 
-        <br /><br />
-        Informed through current studies, reports, initiatives, and data collection, this investigation strives to synthesize the available resources into a single visual representation. The process revealed the inconsistency and lack of granularity within publicly available data related to Northern Canadian food insecurity, as well as the many determinants which intersect to create vulnerability within communities. The final visualization breaks down the complexity of the issue into an organized narrative in order to establish a foundational knowledge of Northern Canadian food insecurity. 
+        Broadway musical theatre is not a ephemeral and New York local phenomenon. It is a powerful brand, and a form of cultural export, which through international touring and international productions, has created a global network of audience. However, while eyes and ears are on the 40 theatres on the Great White Way, the theatre industry has hardly examined this mechanism of international business and Broadway’s cultural impact.
       </p>
     </div> 
 
@@ -210,22 +198,18 @@
     <div class="bottom-stripe col-md-12">
       <div class="bottom-stripe-inner"></div>
     </div>
-    <h3 class="col-md-12">Jacob Romer</h3>
+    <h3 class="col-md-12">Sambhav Jain</h3>
     <div class="bottom-stripe col-md-12">
       <div class="bottom-stripe-inner"></div>
     </div>
 
-    <a id="jacob"></a>
-    <div href="https://github.com/visualizedata/glimpse" img-src="content/jacobRomer.png" class="project col-md-12">
+    <a id="sambhav"></a>
+    <div href="https://jainsambhav91.github.io/thesis/work/finalViz/" img-src="https://raw.githubusercontent.com/jainsambhav91/thesis/master/preview.png" class="project col-md-12">
       <p class=" col-md-2">
-        <span class="title">Glimpse: You Can Only Know What You See, You Can Only Act On What You Know.</span>
+        <span class="title">Visualizing Law: Understanding the sex offender registry laws and their collateral consequences</span>
       </p>
       <p class="col-md-9">
-        Glimpse is a Chrome extension that reveals the network of entities that watch you on the web, across time, and across space. It shows you who can track your location on the internet and in real life. 
-        <br /><br />
-        Every time you visit a website, the other party can decide whom to inform. These third parties may send you images and videos you want to see, serve you advertising you don’t want to see, or track your behavior without your knowledge. They all have one thing in common: at the moment your browser interacts with them, they know what site you’re on, what time you visited that site, and your physical location at that moment. This information can be used to build a profile, but you have no way of knowing who knows what. 
-        <br /><br />
-        Glimpse is an attempt to create legibility around your online footprint: it hooks into your browser and keeps a record of the entities that receive information about you. You can keep a record of what part of your life is exposed to whom. 
+        This thesis is about the visual exploration of the current sex offender registration and community notification laws in the United States. It is an attempt to understand how examining these laws and their impact on society from an objective lens can debunk myths and create awareness. It tries to explore the collateral consequences that these laws have, specifically the residence restrictions that are imposed on offenders, and raises questions about the effectiveness of their intentions. This work also aims to serve as a tool for lawmakers to visualize what the consequences of their actions might look like, and help them to preempt decisions that may not be in the best interest of society.
       </p>
     </div>
 
@@ -234,20 +218,24 @@
     <div class="bottom-stripe col-md-12">
       <div class="bottom-stripe-inner"></div>
     </div>
-    <h3 class="col-md-12">Gabriella Steele</h3>
+    <h3 class="col-md-12">PJ Moriarty</h3>
     <div class="bottom-stripe col-md-12">
       <div class="bottom-stripe-inner"></div>
     </div>
 
-    <a id="gabi"></a>
-    <div href="gabiSteele/" img-src="content/gabiSteele.png" class="project col-md-12">
-      <p class="col-md-2">
-        <span class="title">Visualizing the Group Attachment Based Intervention</span>
+    <a id="pj"></a>
+    <div href="http://moriartp.github.io/projects/wave_9/" img-src="https://raw.githubusercontent.com/moriartp/ms2/master/Images/preview.png" class="project col-md-12">
+      <p class=" col-md-2">
+        <span class="title">wave9</span>
       </p>
       <p class="col-md-9">
-        This project was fueled by the notion that the majority of data shared within the Social Science community—specifically the field of Child Attachment—is done so using static forms of communication. Scholarly articles, grants, and research papers serve as the dominant method of distributing work. This visualization sought to challenge that status quo by creating a digital resource that portrayed data collected by The Group Attachment Based Intervention (GABI) study, a pragmatic clinical trial focused on reducing child maltreatment in vulnerable families. It was developed jointly by The New School for Social Research Center for Attachment and Einstein Albert Einstein College of Medicine’s Center for Babies, Toddlers and Families, in the South Bronx, the poorest congressional district in the United States. 
-        <br /><br />
-        The intervention targets vulnerable families at high risk of maltreatment and abuse, specifically working with children ages 0-3. One in four children in the United States experiences child maltreatment at some point in their lives. Among these, one in four victims will be under the age of three. This visualization hopes to shed light on the important work being conducted by this study and provide a unique resource that can better share psychological datasets with all stakeholders involved in the work as well as greater interested audiences. 
+        wave9 is an augemented reality mobile application that allows audiences to experience an immersive model of teh solar system set against the backdrop of Manhattan's Fifth Avenue.
+        <br />
+        Commonly, numerical values expressed in multiple orders of magnitude are difficult to comprehend, particularly so for audiences that are less-mathematically inclined. The deliverable of this project is intended to narrow this gap in comprehension in order to create meaning and make interpretable a true model of the solar system to a general audience. Owing to early visual representations of the the sublime in 19th century romanticism, the project name, in homage to Russian Armenian painter Ivan Aivazovsky, is dubbed, Wave 9.
+        <br />
+        Using the physical landscape of Manhattan, as its backdrop, the wave 9 mobile application guides audiences on a walking tour through a physical model of the solar system that begins at Parsons campus in dowtown New York and stretches up Fifth Avenue to the Metropolitan Museum of art, where the model concludes. Along the way, guided the applications map, audiences encounter various markers which trigger 3D renderings within the mobile app visualizing the various planets of our solar system using augmented reality technology.
+        <br />
+        The three dimensional renderings set within the recognizable landscape of New York city provides audience with a level of conprehension of size, scale, interplanetary relationship, and solar enormity in a clear, intuitive, and accessible way.
       </p>
     </div>
 
@@ -256,22 +244,18 @@
     <div class="bottom-stripe col-md-12">
       <div class="bottom-stripe-inner"></div>
     </div>
-    <h3 class="col-md-12">Jaime Tanner</h3>
+    <h3 class="col-md-12">Joshua Lee</h3>
     <div class="bottom-stripe col-md-12">
       <div class="bottom-stripe-inner"></div>
     </div>
 
-    <a id="jaime"></a>
-    <div href="jaimeTanner/project.html" img-src="content/jaimeTanner.png" class="project col-md-12">
+    <a id="joshua"></a>
+    <div href="http://joshua-tests.us-east-1.elasticbeanstalk.com/" img-src="https://raw.githubusercontent.com/neuralism/thesis-app/master/preview.png" class="project col-md-12">
       <p class=" col-md-2">
-        <span class="title">Taxonomic Bias: In Scientific Research & Funding</span>
+        <span class="title">Visualizing Interactivity in Massive Multiplayer Online Role-Playing Games</span>
       </p>
       <p class="col-md-9">
-        World species are declining at relatively high rates. Researchers in the fields of ecology, conservation biology, and related areas of study are working to better understand species, and the factors contributing to their loss. In generating this knowledge, the scientific community in many ways shapes conservation policy and natural resource management. However, it has been shown that certain species and taxa receive much more attention than those that may be more difficult to access or less beneficial to humans. As a result, species which may be more critical to the overall health of an ecosystem may be at risk. With so much of our conservation practices dependent on the knowledge produced by the scientific community, it is critical to address this taxonomic bias in research. 
-        <br /><br />
-        This project offers one solution to the challenge of communicating bias in organismal research. Using the publications from one major scientific journal, the visualization allows the the reader to explore animal species organized taxonomically and by number of publications where the species is mentioned. Readers can explore publications at a species level or use the sorting tools to observe trends. 
-        <br /><br />
-        This visual investigation aims to provoke the reader into questioning prevailing practices for understanding nature. Using research publications as a lens through which we can explore scientific methods of inquiry, this piece visualizes not only the species which receive the most attention from humans but also those which may be least understood. 
+        This thesis attempts to explore the activity of players in a Massive Multiplayer Online Role Playing Game (MMORPG) by visualizing the interactions they engage in while playing the game and reveal patterns behind them. What do they do while playing the game? Who do they meet and who do they talk to? Do they spend more time interacting with humans or the virtual environment? What are their usage patterns like and what motivates them to become so invested in these shared virtual environments? Not much is known about the structure and nature of these interactions. Hence, I plan to investigate these interactions through a visualization to better understand the psychology and the patterns behind them. I will be using the shared virtual environment of Aion (an MMORPG released in 2009) as the backdrop for this project. It will be the environment through which these interactions are captured and visualized from. I picked Aion is because it is a highly successful MMORPG that has been around for a long time, and has a large player base. Aion was developed by a Korean gaming company called NCSOFT, and they have gaming servers and offices in Asia, Europe, and North America. I have personally played this game myself in the past and am familiar with the concept and mechanics of the game.
       </p>
     </div>
 
@@ -280,23 +264,20 @@
     <div class="bottom-stripe col-md-12">
       <div class="bottom-stripe-inner"></div>
     </div>
-    <h3 class="col-md-12">Jonathan Thirkield</h3>
+    <h3 class="col-md-12">Riley Hoonan</h3>
     <div class="bottom-stripe col-md-12">
       <div class="bottom-stripe-inner"></div>
     </div>
 
-    <a id="jon"></a>
-    <div href="jonThirkield/" img-src="content/jonThirkield.png" class="project col-md-12">
+    <a id="riley"></a>
+    <div href="http://www.mappingdada.info/" img-src="https://github.com/rhoon/thesis/raw/master/preview.png" class="project col-md-12">
       <p class=" col-md-2">
-        <span class="title">Visualizing Poetic Space: Mapping Dante’s Comedy</span>
+        <span class="title">Mapping Dada</span>
       </p>
       <p class="col-md-9">
-        Written in the early 1300s, The Divine Comedy stands at the threshold of the Medieval and the Renaissance ages. Both its grand universal scope — Dante travels through the center of earth, up through the planets, and beyond the stars — and the intimate, vivid realism with which Dante portrays the souls he encounters, have captivated readers for seven centuries. In the Renaissance, the specificity of Dante’s geometry led figures such as Botticelli and Galileo to speculate on the exact topology of the Inferno. In the time since, artists from Bosch to Rodin to Twombly have imagined and reimagined the landscapes and populations of Hell, Purgatory, and Paradise. For poets and writers, the formal complexity, beauty, and radical inventiveness of Dante’s poetry has opened countless pathways for remaking and reconceiving the written word. This project draws inspiration specifically from Italo Calvino and Jorge Luis Borges, the great 20th century fabulists, each of whom regarded Dante as a touchstone for the visual and spatial imagination.
-        <br /><br />
-        This project seeks to extend these speculations, inspirations, and reimaginations into the emergent 21st century paradigms of knowledge generation: the three-dimensional interactive capabilities of the graphical user interface, and the n-dimensional dynamics of data transit. Built in JavaScript, using the Threejs 3D library and a MongoDB database, this speculative map of Dante’s poetic space serves as an environment for active, exploratory, deep, and collaborative reading of the poem. My central questions are: How can poetic space be visualized? And how can such a visualization lead us to new modes of reading, understanding, imagination, and expression?
+        How do we measure influence? If you allow that a link from one page to another allows us to measure relevance, ala the PageRankU+2122 algorithm, and that proximity (e.g. the number of links from one page to another) gives us a sense of how that relevance diminishes with distance, ‘influence’ is only a function of chronological order. This project is a case study in applying this methodology to the art movement, Dada, using the closed network of wikipedia to provide a consistent dataset. From this dataset (the scraped URLs and basic metadata of pages linking to and from Dada) a map of the conceptual framework, players and geography of Dada is established, contextualizing the art movement within it’s moment in history.
       </p>
     </div>
-
     <!--FOOTER-->
 
     <div class="bottom-stripe col-md-12">
@@ -313,15 +294,17 @@
 
         <div class="col-md-3">
 
-          <p><a href="http://www.newschool.edu/parsons/ms-data-visualization/">MS Data Visualization 2016</a></p>
+          <p><a href="http://www.newschool.edu/parsons/ms-data-visualization/">MS Data Visualization 2017</a></p>
 
-          <a href="https://github.com/compagnb">Barbara Compagnoni</a>
-          <br /> <a href="https://github.com/Justinerk2" class="no-touch">Justine Keller</a>
-          <br /> <a href="https://github.com/llapp">Linnea Lapp</a>
-          <br /> <a href="https://github.com/jacobmbr">Jacob Romer</a>
-          <br /> <a href="https://github.com/gabisteele">Gabi Steele</a>
-          <br /> <a href="https://github.com/jat3002">Jaime Tanner</a>
-          <br /> <a href="https://github.com/jthirkield">Jon Thirkield</a>
+          
+          <a href="https://github.com/svickars/thesis">Sam Vickars</a>
+          <br /> <a href="https://github.com/agaase/msdv-thesis">Aseem Agarwal</a>
+          <br /> <a href="https://github.com/nancyzhao888/thesis">Nancy Zhao</a>
+          <br /> <a href="https://github.com/jainsambhav91/thesis">Sambhav Jain</a>
+          <br /> <a href="https://github.com/Ianssmith/thesis">Ian Smith</a>
+          <br /> <a href="https://github.com/moriartp/ms2">PJ Moriarty</a>
+          <br /> <a href="https://github.com/neuralism/thesis">Joshua Lee</a>
+          <br /> <a href="https://github.com/rhoon/thesis">Riley Hoonan</a>
           <p></p>
 
         </div>
@@ -329,6 +312,7 @@
 
           <p><a href="http://www.newschool.edu/parsons/">Parsons School of Design</a></p>
           <a href="http://www.newschool.edu/parsons/faculty.aspx?id=4e54-5978-4d7a-4932">Daniel Sauter, Assoc. Prof.</a>
+          <br />Thesis Advisor
           <br /> <a href="https://courses.newschool.edu/courses/PGDV5200">PGDV Major Studio 2</a>
           <p></p>
 
@@ -336,7 +320,8 @@
         <div class="col-md-3">
 
           <p><a href="http://www.newschool.edu/parsons/ms-data-visualization/">Contact</a></p>
-          <a href="http://www.newschool.edu/parsons/faculty.aspx?id=4d6a-5577-4d6a-4d7a">Aaron Hill, Director and Assist. Prof.</a>
+          <a href="http://www.newschool.edu/parsons/faculty.aspx?id=4d6a-5577-4d6a-4d7a">Aaron Hill, Assist. Prof.</a>
+          <br />Program Director, Data Visualization 
           <br /> <a href="http://www.newschool.edu/parsons/art-media-technology-school-amt/">Art, Media, and Technology</a>
 
         </div>
