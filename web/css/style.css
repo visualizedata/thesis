@@ -306,3 +306,9 @@ button:hover,
     color: #e82e21 !important;
     transition: all .3s ease-in-out;
 }
+
+#cover {
+    position: fixed;
+    z-index: 1;
+    min-width: 100vw;
+}
