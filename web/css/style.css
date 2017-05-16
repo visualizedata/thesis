@@ -311,4 +311,7 @@ button:hover,
     position: fixed;
     z-index: 1;
     min-width: 100vw;
+    height: 100%;
+    background-color: rgb(251, 189, 137);	
+    visibility: hidden;
 }

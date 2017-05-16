@@ -76,6 +76,11 @@
 	    $( "div#cover:visible" ).click(function() {
 	      $(this).css( "display", "inline" ).fadeOut( "slow" );
 	    });
+	    
+	    if( (new Date().getTime() < new Date('May 18, 2017 18:30:00').getTime()))
+      {
+        $( "div#cover" ).css('visibility', 'visible');
+      }
     });
   </script>
 </head>
