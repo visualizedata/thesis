@@ -1,0 +1,26 @@
+/*@import url(http://fonts.googleapis.com/css?family=Raleway);*/
+html{
+  /*font: .9em 'Raleway',sans-serif;*/
+	/*font-family: 'Numans', sans-serif;*/
+	/*font-family: 'Doppio One', sans-serif;*/
+	font-family: 'Carrois Gothic', sans-serif;
+  height: 100%;
+  text-align: center;
+  background: radial-gradient(50% 0,rgba(255,255,255,.3),rgba(255,255,255,0)), ghostwhite;
+  color: rgba(0,0,0,.6);
+}
+#nav li{
+	font-size:28;
+	display:inline;
+	padding-left:200px;
+	padding-right:200px;
+}
+div #html-details div{
+	display:inline-block;
+}
+h2{
+	color:black;
+}
+#dropdown-minor{
+	border-bottom:1px solid black;
+}
