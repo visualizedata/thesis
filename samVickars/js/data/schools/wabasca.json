@@ -1,0 +1,38 @@
+{
+  "name": "Wabasca (St. John's)",
+  "type": "Residential",
+  "location": {
+    "province": "Alberta",
+    "city": "city",
+    "latLng": {
+      "lat": 55.9823,
+      "-113.8979278": 0.000
+    }
+  },
+  "narrativeDate": "09-11-01",
+  "startYear": 1902,
+  "endYear": 1966,
+  "data": {
+    "nameVariants": [],
+    "chronoHistory": [],
+    "notesHistory": [],
+    "management": [],
+    "enrollment": [],
+    "reserves": ["cardston", "gambler", "gleichen", "jeanBaptiste", "saddleLake", "spedden", "wabasca"],
+    "religiousGroups": [{
+      "group": "group",
+      "ref": ["number"]
+    }, {
+      "group": "group",
+      "ref": ["number"]
+    }, {
+      "group": "group",
+      "ref": ["number"]
+    }, {
+      "group": "group",
+      "ref": ["number"]
+    }],
+    "writtenAgreements": [],
+    "additionalInformation": []
+  }
+}

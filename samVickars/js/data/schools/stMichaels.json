@@ -1,0 +1,38 @@
+{
+  "name": "St. Michael's (Alert Bay)",
+  "type": "Residential",
+  "location": {
+    "province": "British Columbia",
+    "city": "Alert Bay",
+    "latLng": {
+      "lat": 50.59395556,
+      "-126.9413972": 0.000
+    }
+  },
+  "narrativeDate": "09-11-01",
+  "startYear": 1894,
+  "endYear": 1974,
+  "data": {
+    "nameVariants": [],
+    "chronoHistory": [],
+    "notesHistory": [],
+    "management": [],
+    "enrollment": [],
+    "reserves": ["aiyansh", "bellaBella", "bellaCoola", "campbellRiver", "canyonCity", "capeMudge", "gilfordIsland", "gitlakdamix", "greenville", "hartleyBay", "kincolith", "kitamaat", "kitasoo", "kitkatla", "kitselas", "kitsumkalum", "kitwancool", "kitwanga", "klemtu", "klowitsis", "masset", "matilpi", "metlakatla", "nakwakto", "nimkish", "nishga", "oweekano", "portEssington", "portSimpson", "quatsino", "skidegate", "squamish", "tsimpsean", "tumourIsland"],
+    "religiousGroups": [{
+      "group": "group",
+      "ref": ["number"]
+    }, {
+      "group": "group",
+      "ref": ["number"]
+    }, {
+      "group": "group",
+      "ref": ["number"]
+    }, {
+      "group": "group",
+      "ref": ["number"]
+    }],
+    "writtenAgreements": [],
+    "additionalInformation": []
+  }
+}

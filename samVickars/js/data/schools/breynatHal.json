@@ -1,0 +1,283 @@
+{
+  "name": "Breynat Hall (Fort Smith Hostel)",
+  "type": "Residential",
+  "location": {
+    "province": "Northwest Territories",
+    "city": "Fort Smith",
+    "latLng": {
+      "lat": 60.00653889,
+      "lng": -111.8933278
+    }
+  },
+  "narrativeDate": "09-11-01",
+  "startYear": 1957,
+  "endYear": 1975,
+  "data": {
+    "nameVariants": [{
+      "startYear": 1958,
+      "endYear": 1958,
+      "name": "Fort Smith Federal Hostel",
+      "note": "",
+      "ref": ["BTU-000116[000-000]"]
+    }, {
+      "startYear": 1961,
+      "endYear": 1977,
+      "name": "Breynat Hall",
+      "note": "The hostel in Fort Smith is named Breynat Hall after Bishop G.J.E. Breynat who was assigned to the Arctic missions and became the first Apostolic Vicar ofthe Mackenzie in 1902.",
+      "ref": ["NWT-000614[000-000]"]
+    }],
+    "chronoHistory": [{
+      "date": 1955,
+      "desc": ["A draft letter from the government to the Roman Catholic Education Association in Fort Smith states that a Roman Catholic Day School and a Federal Day School (FDS) were both in operation. The FDS was non-denominational but 75 out of 100 students were Roman Catholic. The introduction ofthe large hostel program meant that 'these two schools will be replaced by one school in which the principal will be Roman Catholic and all the teachers in grades 1-8 will be Roman Catholic.' In situations where Protestant children are present in a classroom religious symbols will be removed and non- denominational curriculum applied."],
+      "ref": ["NWT-003163[001-001]"]
+    }, {
+      "date": 1957,
+      "desc": ["A government memorandum states: <em>\nIt was not our intention to build up the Fort Smith hostel as a hostel for high school students, since the high school facilities which will be available at Fort Smith are not in any way comparable to those which will be provided at Yellowknife. The high school at Fort Smith is primarily for local residents.</em>", "Students were transferred from Fort Resolution Residential School December 27 and 28, 1957 via air transportation to the new hostel in Fort Smith. The transfer ofthese students marked the opening ofthe hostel."],
+      "ref": ["BTU- 0000 55 [000-000]", "BTU-000106[000-000]"]
+    }, {
+      "date": 1958,
+      "desc": ["An article from the Western Oblate Studies, July 1991, titled 'Residential Schooling at Fort Chipewyan and Fort Resolution 1874-1974' states: <em>After St. Joseph's [Roman Catholic residential school in Fort Resolution] closed, the children ofthe decreasing number offamilies who stayed on the land and children who were thought to be neglected were sent to an integrated federal school (J.B. Tyrell) and a government-owned, church-managed pupil residence (Breynat Hall) in Fort Smith. There they were taught by certified teachers who followed the Alberta curriculum which included virtually no reference to traditional cultures or languages. The pupil residence in Fort Smith and the residential facilities at Chipewyan also became custodial centres for many children whom welfare or law enforcement authorities had determined were in need of remedial treatment of some kind. </em>"],
+      "ref": ["FSU-01187"]
+    }, {
+      "date": 1969,
+      "desc": ["All educational responsibilities in the Mackenzie District, including the management of student residences and therefore Breynat Hall, were transferred to the Government ofthe Northwest Territories."],
+      "ref": ["NWTG-001324[000-000]"]
+    }, {
+      "date": 1975,
+      "desc": ["A document dated April 14, 1975, from the Continuing Education Division, states that the 'Fort Smith student residence' was destroyed in a fire. The community of Fort Chipewyan Alberta offered to house some ofthe displaced students in foster homes. The Government was considering improving housing conditions in students' communities so that they could reside at home.", "A document dated September 9, 1975 from the Continuing Education Division states that the 'Fort Smith Hostel is in operation, but getting a supervisor is a problem.'"],
+      "ref": ["BTU-000318[000-000]"]
+    }, {
+      "date": 1976,
+      "desc": ["A letter cancelling a service contract for the accommodation ofgirls from Fort Chipewyan at the hostel in Fort Smith is evidence that the pupil residence referred to as 'Girls' Residence of Fort Smith' was in operation in June of 1976. It is not known if this residence is Breynat Hall or a separate residence."],
+      "ref": ["FSU-02551"]
+    }],
+    "notesHistory": [],
+    "management": [{
+      "startYear": 1969,
+      "endYear": 1977,
+      "org": "government",
+      "orgName": "Government of the Northwest Territories",
+      "type": ["Management", "Teaching", "Staff"],
+      "ref": ["NWTG-001324[000-000]"]
+    }, {
+      "startYear": 1955,
+      "endYear": 1969,
+      "org": "church",
+      "orgName": "Roman Catholic Episcopal Corporation",
+      "type": ["Management", "Teaching", "Staff"],
+      "ref": ["NWT", "-000088[000-000]"]
+    }],
+    "enrollment": [{
+      "year": 1957,
+      "number": 11,
+      "notes": ""
+    }, {
+      "year": 1958,
+      "number": 170,
+      "notes": ""
+    }, {
+      "year": 1959,
+      "number": 185,
+      "notes": ""
+    }, {
+      "year": 1960,
+      "number": 200,
+      "notes": ""
+    }, {
+      "year": 1961,
+      "number": 185,
+      "notes": ""
+    }, {
+      "year": 1962,
+      "number": 176,
+      "notes": "Boys 76, Girls 100"
+    }, {
+      "year": 1963,
+      "number": 167,
+      "notes": "Boys 77, Girls 90"
+    }, {
+      "year": 1964,
+      "number": 172,
+      "notes": "Boys 81, Girls 91"
+    }, {
+      "year": 1965,
+      "number": 176,
+      "notes": "Boys 77, Girls 99"
+    }, {
+      "year": 1966,
+      "number": 186,
+      "notes": "Boys 87, Girls 99"
+    }, {
+      "year": 1967,
+      "number": 188,
+      "notes": "Boys 95, Girls 93"
+    }, {
+      "year": 1968,
+      "number": 165,
+      "notes": "Boys 82, Girls 83"
+    }, {
+      "year": 1969,
+      "number": 165,
+      "notes": "Boys 82, Girls 83"
+    }, {
+      "year": 1970,
+      "number": 161,
+      "notes": "Eskimo: 0, Indian: 128, Other: 33, Total: 161"
+    }],
+    "reserves": [],
+    "religiousGroups": [{
+      "group": "Roman Catholic Episcopal Corporation",
+      "ref": ["NWT", "-000088[000-000]"]
+    }],
+    "writtenAgreements": [{
+      "date": 1957,
+      "title": "",
+      "desc": "The Operating Agreement for the management and operation ofthe 'School Hostel' in Fort Smith was signed between Her Majesty the Queen, represented by a Minister ofthe Government, and the Roman Catholic Episcopal Corporation of Mackenzie.",
+      "ref": ["BTU-000031", "[001-001]"]
+    }, {
+      "date": 1960,
+      "title": "",
+      "desc": "The former Operating Agreement for the management and operation ofthe hostel in Fort Smith was terminated as of July 15, 1960. A revised Operating Agreement was signed between Her Majesty the Queen, represented by Minister ofthe Government, and the Roman Catholic Episcopal Corporation ofMackenzie. The Crown agrees to pay for the operating and management costs of running the hostel.",
+      "ref": ["BTU-000219[000-000]"]
+    }, {
+      "date": 1969,
+      "title": "",
+      "desc": "A letter from the government to the Vicar Apostolic ofthe Mackenzie states: <em>\nAs a result ofthe transfer ofresponsibility for the education program in the Mackenzie District to the Government ofthe N.W.T. on April 1, 1969, the three pupil residences which you have been operating under an agreement with the Crown will be transferred to the Government ofthe N.W.T. effective on the same date. The Commissioner ofthe N.W.T. has agreed to fulfill all ofthe conditions contained in the present agreements.\nThe Commissioner will be writing to you to make arrangements for new agreements appropriate to the new situation. The only changes will be those to make the agreements relate to the new signing authorities, that is the Commissioner rather than the Deputy Minister ofthis Department. The intent and the substance will remain unaltered.</em>",
+      "ref": ["NWTG-001324[000-000]"]
+    }],
+    "additionalInformation": [{
+      "date": 1957,
+      "type": "policy",
+      "victim": "",
+      "agressor": "",
+      "notes": "Recruitment o f pupils for the school and hostel was the joint responsibility o f the Superintendent of Schools, the Church officials, and the local Indian Superintendent.",
+      "ref": ["BTU-000033[000-000]"]
+    }, {
+      "date": 1958,
+      "type": "policy",
+      "victim": "",
+      "agressor": "",
+      "notes": "Children entering the Fort Smith Hostel were required to meet the following criteria: <br><em>\nThe children must live in that part ofthe Mackenzie District Lying east of Hay River, Great Slave Lake, Great Bear Lake, and the chain of waterways joining Great Slave Lake and Great Bear Lakes but not including the immediate environs of the Hay River settlement and the portion ofthe Mackenzie District north ofthe tree-line. <br>\nThe children must be ofgood health as evidenced by a medical examination including x-ray.<br> Only children who will have reached the full age of six by December the 31st of the academic year ofwhich they commence school shall be eligible for admission. First preference must be given to children who were in attendance at school in [the] previous academic year.<br> Only children ofRoman Catholic faith will be eligible for admission to the hostel. <br>\nOnly those children who do not have a day or other school facilities available to them shall be eligible for admission.<br> When the hostel enrolment has reached 200 pupils no further children will be admitted.</em>",
+      "ref": ["BTU-000114[000-001]"]
+    }, {
+      "date": 1959,
+      "type": "policy",
+      "victim": "",
+      "agressor": "",
+      "notes": "Admissions requirements are stated in a report on NWT hostel program: <br><em>\nParental consent is required in all cases where students are removed from their home and are maintained in such residences. If a parent does not wish his child to attend, no pressure is exerted upon him to do so. The only exception to this general rule applies to welfare admissions.</em>",
+      "ref": ""
+    }, {
+      "date": 1961,
+      "type": "policy",
+      "victim": "",
+      "agressor": "",
+      "notes": "A report from the Assistant Principal ofthe Federal Day School in Fort Smith to the Assistant Superintendent of Schools states that he had difficulty in securing students for attendance in the school and hostel from the communities ofFort Rae, Lac La Martre, and Yellowknife. The parents were reluctant to send their children as they did not receive family allowance while the child was in school and still did not receive it when the children returned home for the summer. The parents also complained that during the school year they 'did not hear from their children or receive any pictures.' The parents wanted the younger children to stay home and the older boys to stay home to work. The parents were 'satisfied with the calibre ofinstruction their children were receiving' and also felt 'that the children were well-fed and clothed while at the hostel.'",
+      "ref": ["NWT-000811[000-000]"]
+    }, {
+      "date": 1961,
+      "type": "policy",
+      "victim": "",
+      "agressor": "",
+      "notes": "The Roman Catholic Mission in Fort Smith, responsible for the management ofthe school and hostel, boarded four high school students in the mission so that they could attend the Roman Catholic high school in Fort Smith instead of attending the non-denominational high school in Yellowknife. Bishop Piche, R.C. Mission in Fort Smith, felt that there should be a hostel in Fort Smith for older R.C. students. He also felt that it was not proper for older students to stay in the large hostel with the younger students.",
+      "ref": ["NWT- 003125[000-006]"]
+    }, {
+      "date": 1960,
+      "type": "health",
+      "victim": "",
+      "agressor": "",
+      "notes": "The Director oflndian and Northern Health Services recommends in a letter to a Government Director that a registered Nurse is required at the Fort Smith Hostel.",
+      "ref": ["NWTG-000698 [000-000]"]
+    }, {
+      "date": 1961,
+      "type": "health",
+      "victim": "",
+      "agressor": "",
+      "notes": "The District Administrator in Fort Smith wrote the following regarding dental services in hostels: 'At present the Department of National Health and Welfare has provided a dentist stationed at Fort Smith who has completed his dental examinations in the schools at Fort Smith, Hay River, and Fort Resolution.'",
+      "ref": ["NWTG-000758[000-000]"]
+    }, {
+      "date": 1961,
+      "type": "health",
+      "victim": "",
+      "agressor": "",
+      "notes": "An 'Urgent Report' from the Indian and Northern Health Services reports on a single case of 'Infectious Hepatitis.'' The following actions were taken: 'all routine public health measures. Gamma globulin given to the hostel and school children at Federal school and all contacts. Also hospital patients.'",
+      "ref": ["NPC-601758"]
+    }, {
+      "date": 1961,
+      "type": "health",
+      "victim": "",
+      "agressor": "",
+      "notes": "Children at Fort Smith were preventatively treated for tuberculosis with the Heaf Gun Method and suffered from a skin reaction as a result. There were no reported cases oftuberculosis at this time.",
+      "ref": ["NPC-601823a"]
+    }, {
+      "date": 1962,
+      "type": "health",
+      "victim": "",
+      "agressor": "",
+      "notes": "A dental inspection ofthe children at the Fort Smith Hostel found that 50% ofthem had cavities that required treatment.",
+      "ref": ["NPC-601697"]
+    }, {
+      "date": 1963,
+      "type": "health",
+      "victim": "",
+      "agressor": "",
+      "notes": "A monthly regional health report states that arrangements were made with a dentist to set up a portable dental office in a suitable room in the Fort Smith hostel building.",
+      "ref": ["NPC- 620883"]
+    }, {
+      "date": 1960,
+      "type": "report",
+      "victim": "",
+      "agressor": "",
+      "notes": "The Inspection of Food Services Report provides the information about the conditions at the hostel. The general conditions ofthe kitchen, menu, and food preparation are satisfactory. The Administrator requested direction in serving more fresh fruit in the menu.\nThe dining room is too small for everyone at once so a cafeteria system was in place. Students performed the following duties in the kitchen: Students help with serving and preparing vegetables and boys sweep floors. Bed sheets were washed once every four weeks and pillow cases washed once a week. Laundry facilities were not large enough to wash sheets more frequently.",
+      "ref": ["NPC-605600"]
+    }, {
+      "date": 1960,
+      "type": "policy",
+      "victim": "",
+      "agressor": "",
+      "notes": "The 'Supplementary Instructions for the Management of Hostels Owned by the Department of Northern Affairs and National Resources and Operated under Contract' submitted to hostel Administrators by the Government is an instruction manual detailing policies and procedures as well as rules, allowable expenses, and suggestions for extra- curricular activities.",
+      "ref": ["NWT-000006[000-000]"]
+    }, {
+      "date": 1965,
+      "type": "policy",
+      "victim": "",
+      "agressor": "",
+      "notes": "Authority was granted by the government to provide spending money to older students enrolled in the residence whose parents cannot provide spending money for them. The allowance was limited to .60 or $40.00 per year for each qualifying pupil over the age of 15.",
+      "ref": ["BTU-000294[000-000]"]
+    }, {
+      "date": 1965,
+      "type": "program",
+      "victim": "",
+      "agressor": "",
+      "notes": "The Hostel Administrator wrote a letter to the District Superintendent of Schools detailing the problems that hostel residents have experienced by having a very limited recreation\nand activity budget. The weekly allowance was only available for senior students and therefore all other younger students were not able to participate in community activities with fellow students that did not reside in the hostel. The Administrator notes the problem residents faced in not being able to socialize with their peers outside ofthe hostel.",
+      "ref": ["BTU- 000302[001-001 ]"]
+    }, {
+      "date": 1967,
+      "type": "policy",
+      "victim": "",
+      "agressor": "",
+      "notes": "1967 The Administrator of Breynat Hall details the problems with cooperation between the school, hostel, and the community. He states that there is a lack of cooperation between the teachers at the day school and the supervisors at the hostel. It is stated that students are allowed to visit the homes of non-resident friends in the community and they are permitted to do jobs such as baby-sitting and house cleaning. However, he also comments on his 'feeling' that in the 'town of Fort Smith, very few are interested in our students as human beings, as persons, mainly because they are Indian.' He recommends that 2 resident students and a Supervisor become involved at the 'community club level' to achieve 'more cooperation between the hostel and the town community.''",
+      "ref": ["BTU- 000305[001-002]"]
+    }, {
+      "date": 1968,
+      "type": "policy",
+      "victim": "",
+      "agressor": "",
+      "notes": "The enrollment at Breynat Hall was restricted to no more than 172 residents. The decision was made as a result of a higher number of older students than younger students in residence thus causing crowding in the dormitory for older students. Enrollment was limited to provide more privacy for the older students.",
+      "ref": ["BTU-000309[000-000]"]
+    }, {
+      "date": 1969,
+      "type": "program",
+      "victim": "",
+      "agressor": "",
+      "notes": "Breynat Hall had an elected student council.",
+      "ref": ["BTU-00314[000-003]"]
+    }, {
+      "date": 1969,
+      "type": "program",
+      "victim": "",
+      "agressor": "",
+      "notes": "A list of expenses for extra curricular activities includes weekly movies, art supplies, travel expenses, playground equipment, indoor sports equipment, games, music, and\ninstruments.",
+      "ref": ["NWT-000078[001-001]"]
+    }]
+  }
+}

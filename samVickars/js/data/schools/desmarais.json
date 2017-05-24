@@ -1,0 +1,527 @@
+{
+  "name": "Desmarais (St. Martin's) IRS",
+  "type": "Residential",
+  "location": {
+    "province": "Alberta",
+    "city": "Desmarais-Wabasca",
+    "latLng": {
+      "lat": 55.94385556,
+      "lng": -113.8058722
+    }
+  },
+  "narrativeDate": "09-11-01",
+  "startYear": 1902,
+  "endYear": 1973,
+  "data": {
+    "nameVariants": [{
+      "startYear": "",
+      "endYear": "",
+      "name": "St. Martin's IRS",
+      "note": "",
+      "ref": ["01593"]
+    }, {
+      "startYear": "",
+      "endYear": "",
+      "name": "Wabiscaw Roman Catholic Boarding School",
+      "note": "",
+      "ref": ["01776"]
+    }, {
+      "startYear": "",
+      "endYear": "",
+      "name": "Wabasca Roman Catholic IRS",
+      "note": "",
+      "ref": ["01313"]
+    }, {
+      "startYear": "",
+      "endYear": "",
+      "name": "Desmarais IRS",
+      "note": "",
+      "ref": ["00050"]
+    }, {
+      "startYear": "",
+      "endYear": "",
+      "name": "Desmarais Student Residence",
+      "note": "",
+      "ref": ["01095"]
+    }],
+    "chronoHistory": [{
+      "date": 1900,
+      "desc": ["Bishop Grouard establishes a boarding school at St. Martin's Mission on Wabasca Lake. The building was partially built, but requests were made for grants of land and for the operation of the school. The estimate for 1901-1902 was for 30 students."],
+      "ref": ["08629"]
+    }, {
+      "date": 1901,
+      "desc": ["Sisters of Providence from Montreal came to work at St. Martin's IRS in July  and the school opened in August of 1901"],
+      "ref": ["04185", "04017"]
+    }, {
+      "date": 1928,
+      "desc": ["A small temporary, two-storey hospital was built and linked to the school by a corridor to transport food from the school kitchen "],
+      "ref": ["04017"]
+    }, {
+      "date": 1959,
+      "desc": ["May 1, 1959, the Oblate Order assumed responsibility for the new St. Martin's IRS and on May 2, 1959 the 'Sisters and the children started occupying the new building'. The official opening ceremony was to be held on December 10, 1959"],
+      "ref": ["03495", "01914"]
+    }, {
+      "date": 1961,
+      "desc": ["It was proposed to integrate the junior high school from Desmarais into the Wabasca Public School effective September, 1962 "],
+      "ref": ["02532"]
+    }, {
+      "date": 1962,
+      "desc": ["Effective September 1, 1962, Desmarais junior high school students (grades 7, 8, and 9) lived in residence and attended schools operated by Northland School Division "],
+      "ref": ["00771", "03390"]
+    }, {
+      "date": 1963,
+      "desc": ["A public high school, Misstassiniy School, opened in Desmarais for all students Grade 7 and up "],
+      "ref": ["04017"]
+    }, {
+      "date": 1964,
+      "desc": ["Administration of the Desmarais Indian Residential School was 'turned over to theNorthland School Division effective September, 1, 1964. The Desmarais Indian Residential School will no longer be operated effective September 1, 1964'.", "Northland School Division leased and operated four classrooms in Desmarais IRS effective September 1, 1964."],
+      "ref": ["01765", "03252"]
+    }, {
+      "date": 1965,
+      "desc": ["Except for one primary class, all pupils in residence attended schools operated by Northland School Division (Mistassiniy School or St. Theresa School). The Bigstone Band requests the remaining operating IRS classrooms to be transferred to the Northland School Division effective the beginning ofthe 1965-66 school year"],
+      "ref": ["01774", "00843"]
+    }, {
+      "date": 1973,
+      "desc": ["The Residence is closed as of June 30, 1973 "],
+      "ref": ["03934"]
+    }],
+    "notesHistory": [],
+    "management": [{
+      "startYear": 1901,
+      "endYear": 1956,
+      "org": "church",
+      "orgName": "Oblate Order",
+      "type": ["Management"],
+      "ref": ["01776", "01766", "00216"]
+    }, {
+      "startYear": 1956,
+      "endYear": 1964,
+      "org": "government",
+      "orgName": "Federal Government of Canada",
+      "type": ["Management", "Staff", "Teaching"],
+      "ref": ["00706", "00077", "150136"]
+    }, {
+      "startYear": 1973,
+      "endYear": 1975,
+      "org": "band",
+      "orgName": "Bigstone Band",
+      "type": ["Management"],
+      "ref": ["02959"]
+    }],
+    "enrollment": [{
+      "year": 1912,
+      "number": 10,
+      "notes": ""
+    }, {
+      "year": 1913,
+      "number": 21,
+      "notes": ""
+    }, {
+      "year": 1914,
+      "number": 23,
+      "notes": ""
+    }, {
+      "year": 1915,
+      "number": 22,
+      "notes": ""
+    }, {
+      "year": 1916,
+      "number": 22,
+      "notes": ""
+    }, {
+      "year": 1917,
+      "number": 19,
+      "notes": ""
+    }, {
+      "year": 1918,
+      "number": 22,
+      "notes": ""
+    }, {
+      "year": 1919,
+      "number": 23,
+      "notes": ""
+    }, {
+      "year": 1920,
+      "number": 21,
+      "notes": ""
+    }, {
+      "year": 1921,
+      "number": 22,
+      "notes": ""
+    }, {
+      "year": 1922,
+      "number": 20,
+      "notes": ""
+    }, {
+      "year": 1923,
+      "number": 22,
+      "notes": ""
+    }, {
+      "year": 1924,
+      "number": 17,
+      "notes": ""
+    }, {
+      "year": 1925,
+      "number": 27,
+      "notes": ""
+    }, {
+      "year": 1926,
+      "number": 30,
+      "notes": ""
+    }, {
+      "year": 1927,
+      "number": 33,
+      "notes": ""
+    }, {
+      "year": 1928,
+      "number": 37,
+      "notes": ""
+    }, {
+      "year": 1929,
+      "number": 47,
+      "notes": ""
+    }, {
+      "year": 1930,
+      "number": 53,
+      "notes": ""
+    }, {
+      "year": 1931,
+      "number": 60,
+      "notes": ""
+    }, {
+      "year": 1932,
+      "number": 68,
+      "notes": ""
+    }, {
+      "year": 1933,
+      "number": 115,
+      "notes": ""
+    }, {
+      "year": 1934,
+      "number": 115,
+      "notes": ""
+    }, {
+      "year": 1935,
+      "number": 115,
+      "notes": ""
+    }, {
+      "year": 1936,
+      "number": 115,
+      "notes": ""
+    }, {
+      "year": 1937,
+      "number": 115,
+      "notes": ""
+    }, {
+      "year": 1938,
+      "number": 115,
+      "notes": ""
+    }, {
+      "year": 1939,
+      "number": 115,
+      "notes": ""
+    }, {
+      "year": 1940,
+      "number": 115,
+      "notes": ""
+    }, {
+      "year": 1941,
+      "number": 125,
+      "notes": ""
+    }, {
+      "year": 1942,
+      "number": 122,
+      "notes": ""
+    }, {
+      "year": 1943,
+      "number": 120,
+      "notes": ""
+    }, {
+      "year": 1944,
+      "number": 115,
+      "notes": ""
+    }, {
+      "year": 1945,
+      "number": 106,
+      "notes": ""
+    }, {
+      "year": 1946,
+      "number": 93,
+      "notes": ""
+    }, {
+      "year": 1947,
+      "number": 85,
+      "notes": ""
+    }, {
+      "year": 1948,
+      "number": 82,
+      "notes": ""
+    }, {
+      "year": 1949,
+      "number": 72,
+      "notes": ""
+    }, {
+      "year": 1950,
+      "number": 66,
+      "notes": ""
+    }, {
+      "year": 1951,
+      "number": 65,
+      "notes": ""
+    }, {
+      "year": 1952,
+      "number": 88,
+      "notes": ""
+    }, {
+      "year": 1953,
+      "number": 100,
+      "notes": ""
+    }, {
+      "year": 1954,
+      "number": 117,
+      "notes": ""
+    }, {
+      "year": 1955,
+      "number": 131,
+      "notes": ""
+    }, {
+      "year": 1956,
+      "number": 134,
+      "notes": ""
+    }, {
+      "year": 1957,
+      "number": 122,
+      "notes": ""
+    }, {
+      "year": 1958,
+      "number": 114,
+      "notes": ""
+    }, {
+      "year": 1959,
+      "number": 93,
+      "notes": ""
+    }, {
+      "year": 1960,
+      "number": 102,
+      "notes": ""
+    }, {
+      "year": 1961,
+      "number": 99,
+      "notes": ""
+    }, {
+      "year": 1962,
+      "number": 96,
+      "notes": ""
+    }, {
+      "year": 1963,
+      "number": 65,
+      "notes": ""
+    }, {
+      "year": 1964,
+      "number": 96,
+      "notes": ""
+    }, {
+      "year": 1965,
+      "number": 99,
+      "notes": ""
+    }, {
+      "year": 1966,
+      "number": 92,
+      "notes": ""
+    }, {
+      "year": 1967,
+      "number": 136,
+      "notes": ""
+    }, {
+      "year": 1968,
+      "number": 135,
+      "notes": ""
+    }, {
+      "year": 1969,
+      "number": 131,
+      "notes": ""
+    }, {
+      "year": 1970,
+      "number": 40,
+      "notes": ""
+    }, {
+      "year": 1971,
+      "number": 65,
+      "notes": ""
+    }, {
+      "year": 1972,
+      "number": 28,
+      "notes": ""
+    }, {
+      "year": 1973,
+      "number": 27,
+      "notes": ""
+    }],
+    "reserves": ["Tall Cree", "Little R.River", "Athabaska Agen.", "Sturgeon Lake,", "Namew", "Saddle Lake", "Erminskin", "Samson", "Enoch", "Smith Band", "Fort Chipweyan", "Fitzgarals Smith", "Drift Pile", "Whitefish Lake", "Blood", "Boyer River", "Royal River", "Non-Treaty", "Legoff Band", "Alexis", "Slavey", "Janvier", "Alexander", "Tall Cree", "Lubicon", "Prov Welfare", "N.S.D.", "Ft. Vermillion", "Slaves of UHR", "Grouard"],
+    "religiousGroups": [{
+      "group": "The Roman Catholic Episcopal Corporation of Grouard & The Oblates of Mary Immaculate",
+      "ref": ["00077", "00045", "01211"]
+    }, {
+      "group": "The Sisters of Charity of Providence",
+      "ref": ["01350", "00921", "03323", "01331", "01122", "03858B", "03886A"]
+    }],
+    "writtenAgreements": [{
+      "date": 1911,
+      "title": "Agreement for the Operation of St. Martin's IRS",
+      "desc": "",
+      "ref": ["01776"]
+    }, {
+      "date": 1962,
+      "title": "Indianescom Agreement",
+      "desc": "Indianescom Agreement - Contract wherein the Government, represented by Indian Affairs ['Minister'], entered into an agreement with Indianescom [referred to as 'Management' in contract] for the operation of the Desmarais Indian Residential School [01766]. Indianescom was the incorporated body created in 1961 to be the only corporate entity to sign all the contracts concerning schoolsadministered by the Oblate Fathers. Formerly, this body was known as the Oblate Fathers Indian and Eskimo Welfare Commission, which was created in 1936 ",
+      "ref": ["01766"]
+    }, {
+      "date": 1962,
+      "title": "Agreement between the Crown and Northland School Division regarding payment of tuition ",
+      "desc": "",
+      "ref": ["01292"]
+    }, {
+      "date": 1965,
+      "title": "Agreements with Northland School Division for use of classrooms at the Desmarais Residence",
+      "desc": "",
+      "ref": ["00002"]
+    }, {
+      "date": 1969,
+      "title": "Service Contracts",
+      "desc": "Service Contracts signed between the Indian-Eskimo Council and the Crown for liaison duties, recruitment of Student Residence Administrators, and recruitment of Child Care Workers. Administrators and Child Care Workers did not fall under the Public Service Employment Act ",
+      "ref": ["010255", "013170", "010455", "014177"]
+    }, {
+      "date": 1970,
+      "title": "Chaplaincy Agreement",
+      "desc": "",
+      "ref": ["01032"]
+    }],
+    "additionalInformation": [{
+      "date": 1944,
+      "type": "policy",
+      "victim": "",
+      "agressor": "",
+      "notes": "St. Theresa School was a Roman Catholic School operated in conjunction with the nearby St. Charles Mission.",
+      "ref": ["00930", "0016"]
+    }, {
+      "date": 1949,
+      "type": "report",
+      "victim": "",
+      "agressor": "",
+      "notes": "St. Martin's IRS was not inspected by Provincial Inspectors prior to January of 1949.",
+      "ref": ["00032"]
+    }, {
+      "date": 1953,
+      "type": "report",
+      "victim": "",
+      "agressor": "",
+      "notes": "A report indicates that there are 131 school children from the Bigstone Reserve and notes the following: 'The role ofthis school, serving a semi-nomadic band, in still undeveloped country, is likely to remain unchanged for the next ten or twenty years. A residential school with a few day pupils would seem to be needed for the education ofthese children'.",
+      "ref": ["03294"]
+    }, {
+      "date": 1959,
+      "type": "policy",
+      "victim": "",
+      "agressor": "",
+      "notes": "Children were not to be admitted to the residential school for 'welfare' reasons.",
+      "ref": ["016978", "03981", "03982", "03983", "03975"]
+    }, {
+      "date": 1960,
+      "type": "health",
+      "victim": "",
+      "agressor": "",
+      "notes": "St. Martin's IRS was visited by a Dietician in 1960.",
+      "ref": ["00650", "00061", "174957", "171879", "171879A"]
+    }, {
+      "date": 1960,
+      "type": "report",
+      "victim": "",
+      "agressor": "",
+      "notes": "It appears that 'the majority of pupils who are in residence at Desmarais live within 4 miles ofthe school'. Also, 105 pupils 'reside within a radius of four miles on Reserve 166A' and 'another 25 pupils live within a radius of 8 miles'. Two reports from 1964-65 and 1965-66 indicate that children from the Bigstone Band on Reserves No. 183, Jean Baptiste Gambler Reserve, and Nos. 166 A&D, the Wabasca Reserves attend at Desmarais IRS. It is speculated that new road construction in the area 'will reduce the resident population by forty to fifty pupils'.",
+      "ref": ["04344", "07078", "2374A", "03120", "02679"]
+    }, {
+      "date": 1960,
+      "type": "policy",
+      "victim": "",
+      "agressor": "",
+      "notes": "With regards to the Wabasca-Desmarais area specifically, J.W. Chalmers, Director of School Administration, Department of Education, Government of the Province of Alberta writes to Mr. L. Jampolsky, Inspector oflndian Schools, Department of Indian Affairs: 'You will recall that it is not intended to operate a school in Desmarais S.D. No. 5112, and that Indian children would be accepted without fee at Wabasca S.D. No. 5113 in return for the same courtesy being extended to certain Metis children attending Wabasca Indian School'.",
+      "ref": ["03282"]
+    }, {
+      "date": 1960,
+      "type": "policy",
+      "victim": "",
+      "agressor": "",
+      "notes": "In December of 1960, the Crown was approached by the newly formed Northland School Division about the 'take over operation of Indian schools in its general territory'. Desmarais was one ofthese schools. Northland School Division took over the education of Indian children from Grade 7 and up, beginning in September of 1962. The agreement between Canada and the Northland School Division for children from Grade 7 and up, was signed in July of 1962.",
+      "ref": ["03419A", "03390", "01292"]
+    }, {
+      "date": 1959,
+      "type": "health",
+      "victim": "",
+      "agressor": "",
+      "notes": "The hospital at St. Martin's Mission is a 'contract hospital' which opened in 1958.  Indian Health Services pays the Sister R.N. $100 a month for her work, which includes care ofthe Indians in hospital and out-patients, including all x-ray work done.",
+      "ref": ["04040B", "03880", "03897", "04040B"]
+    }, {
+      "date": 1961,
+      "type": "health",
+      "victim": "",
+      "agressor": "",
+      "notes": "In February 1961, the Province of Alberta assumed responsibility for providing health services to both Indians and Non-Indians in the Wabasca- Desmarais area. In exchange, the Federal government agreed to provide health services to the population in the Fort Chipewyan area.",
+      "ref": ["03880"]
+    }, {
+      "date": 1964,
+      "type": "policy",
+      "victim": "",
+      "agressor": "",
+      "notes": "It is suggested that St. Martin's IRS was being used as a '...rehabilitation centre where potential delinquents can be accommodated and assisted before they become delinquent'. It appears that eleven pupils were 'involved in this experiment in grades four to nine' and that they were '...directed to Desmarais from the Saddle Lake, Edmonton and Hobbema Agencies'.",
+      "ref": ["01769", "01770", "01771"]
+    }, {
+      "date": 1964,
+      "type": "policy",
+      "victim": "",
+      "agressor": "",
+      "notes": "The Government approved the employment of a teacher-counsellor at High Prairie, Alberta for the 1964-65 school year. His duties included '(4) Provide vocational counselling for Indian students attending secondary schools in the Lesser Slave Lake Indian Agency'. In 1965, a Guidance Counsellor position was established at Wabasca.",
+      "ref": ["02093", "00051", "01755A"]
+    }, {
+      "date": 1964,
+      "type": "policy",
+      "victim": "",
+      "agressor": "",
+      "notes": "Bishop Routhier wrote to the Superintendent of Indian Schools requesting that Catholic pupils continue to be taught by Catholic teachers upon take over by Northland School Division",
+      "ref": ["03260C"]
+    }, {
+      "date": 1968,
+      "type": "policy",
+      "victim": "",
+      "agressor": "",
+      "notes": "The Canadian Lay Missionaries were providing some sort oftraining course to individuals 'interested in giving a year or more oftheir lives to work in missions in Canada or Africa'. Some ofthe supervisors at St. Martins IRS indicate that they took part in a 6 week training course offered by this organization. Whether this course offered instruction in child supervision is not clear.",
+      "ref": ["01970", "03270C", "03270D"]
+    }, {
+      "date": 1968,
+      "type": "policy",
+      "victim": "",
+      "agressor": "",
+      "notes": "Reasons for accepting children in residence are limited to: (1) isolated home removed from bus services; (2) parents are migratory; and (3) problems in the home. This new policy reflects the desire to have children attend as day pupils: 'our real aim should be to strengthen families so that the child may grow up in an adequate home, and attend school from that home'",
+      "ref": ["03228"]
+    }, {
+      "date": 1969,
+      "type": "policy",
+      "victim": "",
+      "agressor": "",
+      "notes": "Continued move towards having children attend school from their homes if at all possible and in their interests. Application forms were revised and 'an application for admission must be made each school year by the parent or guardian and when a student is being re-admitted...'. Very strict admission criteria had to be satisfied before a child's application for admission to an IRS would be approved.",
+      "ref": ["014706", "03833"]
+    }, {
+      "date": 1969,
+      "type": "policy",
+      "victim": "",
+      "agressor": "",
+      "notes": "St. Martin's Supervisors Larry Anaquod, Sister J. Laporte, John Prefontaine and SisterS. Belanger are noted as attending the Child Care Workers Training Course, August 17th-23rd, 1969 at the University of Saskatchewan sponsored by the Government.",
+      "ref": ["010076"]
+    }, {
+      "date": 1970,
+      "type": "policy",
+      "victim": "",
+      "agressor": "",
+      "notes": "Significant tension is noted amongst Protestant and Catholic staff after the Government took over administration in 1969",
+      "ref": ["01029", "01027"]
+    }]
+  }
+}

@@ -1,0 +1,256 @@
+{
+  "name": "Beauval IRS (Ile a la Crosse)",
+  "type": "Residential",
+  "location": {
+    "province": "Saskatchewan",
+    "city": "Beauval",
+    "latLng": {
+      "lat": 55.15725,
+      "lng": -107.5817222
+    }
+  },
+  "narrativeDate": "09-11-01",
+  "startYear": 1897,
+  "endYear": 1995,
+  "data": {
+    "nameVariants": [{
+      "startYear": 1860,
+      "endYear": 1906,
+      "name": "Ile à la Crosse School",
+      "note": "Ile à la Crosse School opened in either 1860 or 1869.",
+      "ref": ["BVL-001307a", "BVL-001313", "BVL-000741"]
+    }, {
+      "startYear": 1906,
+      "endYear": 1927,
+      "name": "Lac la Plonge Boarding School",
+      "note": "Lac la Plonge Boarding School opened in Sep 1906.",
+      "ref": ["BVL-000744", "BVL-000748", "BVL-000755"]
+    }],
+    "chronoHistory": [{
+      "date": 1860,
+      "desc": ["Opening of School at Ile-à-la-Crosse"],
+      "ref": []
+    }, {
+      "date": 1877,
+      "desc": ["Received some government aid as early as this date"],
+      "ref": []
+    }, {
+      "date": 1897,
+      "desc": ["Officially designated as a Boarding School"],
+      "ref": []
+    }, {
+      "date": 1906,
+      "desc": ["Opening of school at Lac la Plonge site"],
+      "ref": []
+    }, {
+      "date": 1911,
+      "desc": ["First operating agreement"],
+      "ref": []
+    }, {
+      "date": 1927,
+      "desc": ["Fire destroys School"],
+      "ref": []
+    }, {
+      "date": 1932,
+      "desc": ["New school opens"],
+      "ref": []
+    }, {
+      "date": 1962,
+      "desc": ["Second operating agreement"],
+      "ref": []
+    }, {
+      "date": 1963,
+      "desc": ["Opening of new classroom block"],
+      "ref": []
+    }, {
+      "date": 1968,
+      "desc": ["Beginning of Joint School Agreement"],
+      "ref": []
+    }, {
+      "date": 1969,
+      "desc": ["Federal government takeover of residential schools"],
+      "ref": []
+    }, {
+      "date": 1973,
+      "desc": ["Some Band involvement in the residence begins"],
+      "ref": []
+    }, {
+      "date": 1974,
+      "desc": ["Ending of Joint School Agreement"],
+      "ref": []
+    }, {
+      "date": 1977,
+      "desc": ["Opening of new school block"],
+      "ref": []
+    }, {
+      "date": 1985,
+      "desc": ["Transfer to Band Control"],
+      "ref": []
+    }, {
+      "date": 1995,
+      "desc": ["School closure"],
+      "ref": []
+    }],
+    "notesHistory": [],
+    "management": [{
+      "startYear": 1897,
+      "endYear": 1969,
+      "org": "church",
+      "orgName": "Roman Catholic Church",
+      "type": ["Management", "Teaching", "Staff"],
+      "ref": []
+    }, {
+      "startYear": 1897,
+      "endYear": 1905,
+      "org": "church",
+      "orgName": "Grey Nuns",
+      "type": ["Teaching"],
+      "ref": []
+    }, {
+      "startYear": 1905,
+      "endYear": 1972,
+      "org": "church",
+      "orgName": "Sisters of St. Joseph",
+      "type": ["Teaching"],
+      "ref": []
+    }, {
+      "startYear": 1969,
+      "endYear": 1973,
+      "org": "government",
+      "orgName": "Federal Government of Canada",
+      "type": ["Management", "Teaching", "Staff"],
+      "ref": []
+    }, {
+      "startYear": 1973,
+      "endYear": 1995,
+      "org": "band",
+      "orgName": "Meadow Lakes Chiefs",
+      "type": ["Management", "Teaching", "Staff"],
+      "ref": []
+    }],
+    "enrollment": [],
+    "reserves": [],
+    "religiousGroups": [{
+      "group": "The Oblate Fathers (R.C. Episcopal Corp. of Keewatin)",
+      "ref": []
+    }, {
+      "group": "Sisters of St. Joseph",
+      "ref": []
+    }, {
+      "group": "Grey Nuns of Montreal",
+      "ref": []
+    }, {
+      "group": "Vicar Apostolic of the Diocese of Keewatin",
+      "ref": []
+    }, {
+      "group": "Archdiocese of Keewatin - Le Pas",
+      "ref": []
+    }],
+    "writtenAgreements": [{
+      "date": 1911,
+      "title": "",
+      "desc": "Agreement between Crown and Vicar Apostolic of the Diocese of Keewatin for Management of the Boarding School at Lac La Plonge.",
+      "ref": ["BVL-000084"]
+    }, {
+      "date": 1930,
+      "title": "",
+      "desc": "Order-in-Council, PC 1180, draft re-working original 1930 order-incouncil for land set aside for school use, to reflect changes of ownership to the Province.",
+      "ref": ["BVL-002431"]
+    }, {
+      "date": 1954,
+      "title": "",
+      "desc": "Waterhen Lake Band Council surrenders land for the new church site.",
+      "ref": ["BVL-000657"]
+    }, {
+      "date": 1954,
+      "title": "",
+      "desc": "Affidavit regarding the surrender of land for new church site at Waterhen Lake Reserve.",
+      "ref": ["BVL-000658"]
+    }, {
+      "date": 1962,
+      "title": "",
+      "desc": "Operational Agreement for the operation of Beauval Indian residential school",
+      "ref": ["BVL-000021"]
+    }, {
+      "date": 1967,
+      "title": "",
+      "desc": "Memorandum of Agreement between the government and the province",
+      "ref": ["BVL-002366"]
+    }, {
+      "date": 1969,
+      "title": "",
+      "desc": "Memorandum of Agreement between the government and the province",
+      "ref": ["BVL-002327"]
+    }, {
+      "date": 1969,
+      "title": "",
+      "desc": "Service contract between the government and the Indian-Eskimo Council for advisory and liaison duties in connection with Indian Student Residences",
+      "ref": ["BVL-003169"]
+    }, {
+      "date": 1976,
+      "title": "",
+      "desc": "Chaplaincy service contract",
+      "ref": ["BVL-001225a"]
+    }, {
+      "date": 1978,
+      "title": "",
+      "desc": "Legal declaration of the Chiefs of the Meadow District, consenting to the land entitlement of the Beauval school lands tot he English River Band",
+      "ref": ["BVL-001247a"]
+    }, {
+      "date": 1979,
+      "title": "",
+      "desc": "Schedule to Order in Council P.C. 1979-.",
+      "ref": ["BVL-002682"]
+    }, {
+      "date": 1979,
+      "title": "",
+      "desc": "Order-in-Council PC 997/79, report on lands for transfer to government ownership",
+      "ref": ["BVL-002679/a"]
+    }, {
+      "date": 1979,
+      "title": "",
+      "desc": "Order-in-Council, PC 1979-1863, authorizes that the land set aside for Beauval school by PC 1180 to be set aside for the use and benefit of the English River Band as an addition to the La Plonge Indian Reserve",
+      "ref": ["BVL-001189"]
+    }, {
+      "date": 1980,
+      "title": "",
+      "desc": "Order-in-Council, PC 1980-631, authorizes the transfer of the road passing through the land set aside for Beauval school to the administration and control of the Province and the remaining land to the English River Band as an addition to the La Plonge Indian Reserve",
+      "ref": ["BVL-001190"]
+    }, {
+      "date": 1981,
+      "title": "",
+      "desc": "Chaplaincy service contract",
+      "ref": ["BVL-002813a"]
+    }, {
+      "date": 1984,
+      "title": "",
+      "desc": "Agreement between the Meadow Lake District Indian Band Governments and the government",
+      "ref": ["BVL-001283"]
+    }, {
+      "date": 1995,
+      "title": "",
+      "desc": "Memorandum of Agreement and Understanding between the Meadow Lake First Nations and the government to close Beauval as of June 30, 1995",
+      "ref": ["BVL-001305"]
+    }, {
+      "date": 1995,
+      "title": "",
+      "desc": "Memorandum of Agreement and Understanding between the English River First Nation and the Meadow Lake Tribal Council that Beauval will close as of June 30, 1995",
+      "ref": ["BVL-001306"]
+    }],
+    "additionalInformation": [{
+      "date": 1967,
+      "type": "sexual",
+      "victim": "",
+      "agressor": "Paul Leroux",
+      "notes": "In 1998, Paul Leroux was sentenced after pleading guilty to nine counts of gross indecency, and, was also found guilty of three counts indecent assault, one count of attempt to commit indecent assault and one count of attempted buggery. These convictions resulted from his employment as a supervisor at Grollier Hall from 1967 to 1979.",
+      "ref": ["BVL-003970"]
+    }, {
+      "date": 1950,
+      "type": "sexual",
+      "victim": "eight native girls",
+      "agressor": "Father Norbert Dufault",
+      "notes": "In Jan, 2004, Father Norbert Dufault, a former Principal of Beauval IRS, was covicted of eight counts of indecent assault on eight native girls during the 1950s and 1960s while he was a parish priest at Dillion, Saskatchewan and principal at Beauval, Saskatchewan. He was sentenced to two years in a Federal penitentiary.",
+      "ref": ["BVL-003968"]
+    }]
+  }
+}

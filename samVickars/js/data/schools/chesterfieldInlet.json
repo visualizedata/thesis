@@ -1,0 +1,255 @@
+{
+  "name": "Chesterfield Inlet IRS (Turquetil Hall)",
+  "type": "Residential",
+  "location": {
+    "province": "Nunavut",
+    "city": "Chesterfield Inlet",
+    "latLng": {
+      "lat": 63.34011944,
+      "lng": -90.70515833
+    }
+  },
+  "narrativeDate": "09-11-01",
+  "startYear": 1954,
+  "endYear": 1969,
+  "data": {
+    "nameVariants": [{
+      "startYear": 1954,
+      "endYear": 1969,
+      "name": "Roman Catholic Mission Hostel/Residence at Chesterfield Inlet",
+      "note": "",
+      "ref": ["CIU-000576", "NWT-003567"]
+    }, {
+      "startYear": 1954,
+      "endYear": 1969,
+      "name": "St. Mary’s Residence / Sainte-Marie Residence",
+      "note": "",
+      "ref": ["CIU-002466", "CIU-001484"]
+    }, {
+      "startYear": 1954,
+      "endYear": 1969,
+      "name": "Chesterfield Inlet Federal Hostel / Roman Catholic (Federal) Hostel at Chesterfield Inlet",
+      "note": "",
+      "ref": ["NWT-000184[001-001]"]
+    }, {
+      "startYear": 1954,
+      "endYear": 1969,
+      "name": "Turquetil Hall Hostel / Residence",
+      "note": "",
+      "ref": ["RCN-006139"]
+    }],
+    "chronoHistory": [{
+      "date": 1954,
+      "desc": ["Construction on the student residence begins in 1954. 'Most of the work of construction was carried out by Brother Paradis [of the Roman Catholic Mission]  and five Eskimos'. For the school year 1954/55, two dozen students are housed in the old mission residence (attached to the mission church) while construction begins on the residence."],
+      "ref": ["NWT-003567", "CIU-000299", "CIU-000302"]
+    }, {
+      "date": 1955,
+      "desc": ["In 1955 the Catholic Church completes a 28-bed hostel in Chesterfield Inlet, which is replaced the following year by a 70-bed hostel. The hostel, at this time a Church-owned and -managed student residence, funded by the federal government, begins housing children as of 1955 and is named St. Mary’s (Sainte-Marie) residence by the Catholic mission."],
+      "ref": ["CIU-000485", "CIU-002466", "CIU- 001484", "NWT-000131[001-001]"]
+    }, {
+      "date": 1956,
+      "desc": ["The official inauguration of St. Mary’s Residence [Turquetil Hall] was held on  August 14, 1956. In 1956, the Government inspects the hostel with the intention of arriving at a fair purchase price. The inspection finds that additional work would be needed to bring the building up to an adequate standard."],
+      "ref": ["NWT-003565 [001-001]", "NWT- 003567[000-000]", "CIU-000762"]
+    }, {
+      "date": 1957,
+      "desc": ["A second appraisal is conducted in 1957 to determine the present state of the building; the utility of the building for continued use as a hostel; the repairs needed to bring the building up to good standard; the effect any defects might have on the long-term life of the building; and the likely costs to the department to continue to maintain the building."],
+      "ref": ["NWT-000131[001-001]", "NWT-000142[003-003]"]
+    }, {
+      "date": 1959,
+      "desc": ["As of February 26, 1959 the Government approves the purchase of 'a 75-student hostel at Chesterfield Inlet' and the Catholic Church authorities accept the Government’s offer to purchase the hostel."],
+      "ref": ["NWT-000178"]
+    }, {
+      "date": 1961,
+      "desc": ["The residence in Chesterfield is officially renamed Turquetil Hall."],
+      "ref": ["RCN-006139"]
+    }, {
+      "date": 1968,
+      "desc": ["Outlying communities which had sent their children to board at Turquetil Hall are obtaining their own schools, eliminating the need to send children to Chesterfield Inlet."],
+      "ref": ["NWT-003594[000-000]"]
+    }, {
+      "date": 1969,
+      "desc": ["On April 1, 1969, the Government of the Northwest Territories (GNWT) becomes responsible for education in the NWT. Some financial responsibilities continue to be divided with the Federal Government. On June 20, 1969, the Territorial Government advises the Church that 'due to expanded education and housing facilities in various northern communities, especially Repulse Bay, Igloolik and Hall Beach, the number of students requiring accommodation will be so reduced by June of 1970 that it would be uneconomic to attempt to continue the facility [Turquetil Hall] after that date.' The letter is offered as formal notice to terminate the contract for the management of Turquetil Hall effective June 30, 1970.", "No students are admitted to Turquetil Hall for the school year 1969-70. Instead, the residence is converted into an adult learning centre."],
+      "ref": ["RCN-001236", "RCN- 001329-0001", "NWT-000537[001-003]", "CIU-001807"]
+    }],
+    "notesHistory": [],
+    "management": [{
+      "startYear": 1954,
+      "endYear": 1969,
+      "org": "church",
+      "orgName": "Roman Catholic Mission",
+      "type": ["Management", "Teaching", "Staff"],
+      "ref": ""
+    }, {
+      "startYear": 1959,
+      "endYear": 1969,
+      "org": "government",
+      "orgName": "Federal Government of Canada",
+      "type": ["Ownership"],
+      "ref": ""
+    }],
+    "enrollment": [{
+      "year": 1954,
+      "number": 27,
+      "notes": ""
+    }, {
+      "year": 1955,
+      "number": 26,
+      "notes": ""
+    }, {
+      "year": 1956,
+      "number": 75,
+      "notes": ""
+    }, {
+      "year": 1957,
+      "number": 75,
+      "notes": ""
+    }, {
+      "year": 1958,
+      "number": 73,
+      "notes": ""
+    }, {
+      "year": 1959,
+      "number": 82,
+      "notes": ""
+    }, {
+      "year": 1960,
+      "number": 82,
+      "notes": ""
+    }, {
+      "year": 1961,
+      "number": 89,
+      "notes": ""
+    }, {
+      "year": 1962,
+      "number": 84,
+      "notes": ""
+    }, {
+      "year": 1963,
+      "number": 80,
+      "notes": ""
+    }, {
+      "year": 1964,
+      "number": 82,
+      "notes": ""
+    }, {
+      "year": 1965,
+      "number": 80,
+      "notes": ""
+    }, {
+      "year": 1966,
+      "number": 85,
+      "notes": ""
+    }, {
+      "year": 1967,
+      "number": 76,
+      "notes": ""
+    }, {
+      "year": 1968,
+      "number": 46,
+      "notes": ""
+    }, {
+      "year": 1969,
+      "number": 46,
+      "notes": ""
+    }],
+    "reserves": ["bakerLake", "capeDyer", "chesterfieldInlet", "coralHarbour", "eskimoPoint", "eskimoPoint", "foxeMain", "gjoaHaven", "iglooik", "pellyBay", "rankinInlet", "repulseBay", "spenceBay"],
+    "religiousGroups": [{
+      "group": "Roman Catholic Episcopal Corporation of Hudson’s Bay / Vicariate Apostolic of Hudson’s Bay",
+      "ref": ["CIU-000978-0001"]
+    }, {
+      "group": "The Missionary Oblates of Mary Immaculate",
+      "ref": ["CIU-002466"]
+    }, {
+      "group": "The Oblate Fathers Indian and Eskimo Welfare Commission",
+      "ref": ["RCN-008476", "CIU-000949", "RCN-005843"]
+    }, {
+      "group": "The Sisters of Charity (Grey Nuns)",
+      "ref": ["CIU-002466"]
+    }],
+    "writtenAgreements": [{
+      "date": 1950,
+      "title": "",
+      "desc": "Memorandum of Agreement for the construction of the Chesterfield Inlet day school and hostel. The agreement stipulates that the Church will agree to build a student residence using its own funds, to be owned and operated by the Church.",
+      "ref": ["CIU-000543-0001"]
+    }, {
+      "date": 1955,
+      "title": "",
+      "desc": "The Memorandum of Agreement dated February 1955 transfers responsibility over Indian Education from the Indian Affairs Branch to the Commissioner of the NWT / Northern Affairs and consolidates all educational authority in the NWT under Northern Affairs. The agreement further transfers (at no cost) all existing Indian Affairs school buildings, equipment, residences and all Indian Affairs staff ('teachers, welfare teachers, caretakers, and other employees') to Northern Affairs effective April 1, 1955.",
+      "ref": ["RCN-011649"]
+    }, {
+      "date": 1959,
+      "title": "",
+      "desc": "Memorandum of Agreement for the management of Turquetil Hall student residence dated October 1, 1959, effective September 1, 1959, between the Federal Government and the Catholic Church",
+      "ref": ["CIU-000978-0001"]
+    }, {
+      "date": 1969,
+      "title": "",
+      "desc": "Unsigned Draft Memorandum of Agreement for the management of Turquetil Hall. The contract is identical to the original 1959 agreement, except that the signing authority for the government has been changed from the Federal to the Territorial Government",
+      "ref": ["NWT-000198"]
+    }],
+    "additionalInformation": [{
+      "date": 1957,
+      "type": "report",
+      "victim": "",
+      "agressor": "",
+      "notes": "The food used in the hostel is 'country food': seal, fish, white whale (beluga). This is supplemented by imported food: flour, milk, tea, oats, cocoa, sugar and  meat.",
+      "ref": ["CIU-000485"]
+    }, {
+      "date": 1963,
+      "type": "report",
+      "victim": "",
+      "agressor": "",
+      "notes": "In 1963 there is overcrowding at the school and residence. Possible solutions include: expanding the residence; sending some students to hostels/schools in the Mackenzie District (especially in Yellowknife, to Akaitcho Hall / the John Franklin School); housing some students in a warehouse which could be converted for this purpose; and housing some students in St. Theresa’s hospital. The Government and Church cannot agree on sending children to the Mackenzie District. The interim solution is to house 12 students in St. Theresa’s Hospital for the 1963-64 school year.",
+      "ref": ["NWT-000184[001-001]", "NWT-000185[000-000], NWT-000190[000-000]", "NWT-003584[002-002]", "NWT-003587[001-001]"]
+    }, {
+      "date": 1967,
+      "type": "report",
+      "victim": "",
+      "agressor": "",
+      "notes": "An inspection of the student residence is conducted by government officials. The residence is described as 'grossly overcrowded' with hygienic standards neglected. Recommendations are made to reduce the number of residents for the school year 1967-68 to 40 pupils. Later correspondence indicates that the Department of Health and Welfare recommends the number of pupils to be reduced to 60 students.",
+      "ref": ["CIU-001776-0001", "CIU-001783"]
+    }, {
+      "date": 1957,
+      "type": "program",
+      "victim": "",
+      "agressor": "",
+      "notes": "Recreational nights were held at the day school and at the hostel. These involved board games, singing, listening to music and bingo. It appears that extracurricular activities were held at the day school for local students and other community members, including adults; these activities included English classes and sewing classes. Choir practice for all of the students was held at the residence, because there was no piano or organ at the day school. Separate activities were held at Turquetil Hall for hostel residents. Movie night entertained 'the whole population'.",
+      "ref": ["CIU-000444", "CIU-000454"]
+    }, {
+      "date": 1959,
+      "type": "program",
+      "victim": "",
+      "agressor": "",
+      "notes": "A Boy Scout Group is formed for the boys of the community.",
+      "ref": ["CIU-000521"]
+    }, {
+      "date": 1959,
+      "type": "program",
+      "victim": "",
+      "agressor": "",
+      "notes": "The management agreement for Turquetil Hall signed in 1959 by the Government and the Church refers to extra-curricular activities.",
+      "ref": ["CIU-000978-0001"]
+    }, {
+      "date": 1959,
+      "type": "program",
+      "victim": "",
+      "agressor": "",
+      "notes": "The day school Principal’s Welfare Report dated February 6, 1959 indicates that 'The Teachers, on their part, willingly also accepted the coordinated program for the hostel children’s recreations. This program, with the help of [a] Brother … from the R.C. Mission and [a] Sister … from the Residence, consist for the most of prepared games or other activities which will be instructive as well as recreational.' It is not clear whether the activities took place at the day school or at the residence. The Principal’s Welfare Report for February 1959 states with respect to recreational activities for the hostel pupils that 'The Teachers, [a Sister] from the Hostel and [a Brother] from the Mission take turns and enjoy their evenings with the youngsters'.",
+      "ref": ["CIU-000523", "CIU-000522"]
+    }, {
+      "date": 1961,
+      "type": "program",
+      "victim": "",
+      "agressor": "",
+      "notes": "The Government asks that the Hostel Administrator use some of the 'Extra Curricular Activity Fund' to purchase books and promote reading amongst the hostel residents.",
+      "ref": ["CIU-001081"]
+    }, {
+      "date": 1965,
+      "type": "program",
+      "victim": "",
+      "agressor": "",
+      "notes": "In 1965 the Government employs a Professor of the University of British Columbia to formally study and assess the success of the coordinated program for pupil residences in the Mackenzie. In the survey proposal, the relationship of the school and hostel in this region is explained: <br><em>In 1965 the Government employs a Professor of the University of British Columbia to formally study and assess the success of the coordinated program for pupil residences in the Mackenzie [RCN-002663-0001]. In the survey proposal, the relationship of the school and hostel in this region is explained:</em>",
+      "ref": ["RCN-002663-0001", "RCN-002663-0003"]
+    }]
+  }
+}

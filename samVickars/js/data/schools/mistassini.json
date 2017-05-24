@@ -1,0 +1,38 @@
+{
+  "name": "Mistassini Hostels",
+  "type": "Residential",
+  "location": {
+    "province": "Quebec",
+    "city": "city",
+    "latLng": {
+      "lat": 48.57667222,
+      "-72.23239722": 0.000
+    }
+  },
+  "narrativeDate": "09-11-01",
+  "startYear": 1971,
+  "endYear": 1978,
+  "data": {
+    "nameVariants": [],
+    "chronoHistory": [],
+    "notesHistory": [],
+    "management": [],
+    "enrollment": [],
+    "reserves": [""],
+    "religiousGroups": [{
+      "group": "group",
+      "ref": ["number"]
+    }, {
+      "group": "group",
+      "ref": ["number"]
+    }, {
+      "group": "group",
+      "ref": ["number"]
+    }, {
+      "group": "group",
+      "ref": ["number"]
+    }],
+    "writtenAgreements": [],
+    "additionalInformation": []
+  }
+}

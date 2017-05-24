@@ -1,0 +1,38 @@
+{
+  "name": "Portage la Prairie",
+  "type": "Residential",
+  "location": {
+    "province": "Manitoba",
+    "city": "city",
+    "latLng": {
+      "lat": 49.9623,
+      "-98.32255": 0.000
+    }
+  },
+  "narrativeDate": "09-11-01",
+  "startYear": 1891,
+  "endYear": 1975,
+  "data": {
+    "nameVariants": [],
+    "chronoHistory": [],
+    "notesHistory": [],
+    "management": [],
+    "enrollment": [],
+    "reserves": [""],
+    "religiousGroups": [{
+      "group": "group",
+      "ref": ["number"]
+    }, {
+      "group": "group",
+      "ref": ["number"]
+    }, {
+      "group": "group",
+      "ref": ["number"]
+    }, {
+      "group": "group",
+      "ref": ["number"]
+    }],
+    "writtenAgreements": [],
+    "additionalInformation": []
+  }
+}

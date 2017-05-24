@@ -1,0 +1,38 @@
+{
+  "name": "Notre Dame Hostel (Jack River Annex)",
+  "type": "Residential",
+  "location": {
+    "province": "Manitoba",
+    "city": "city",
+    "latLng": {
+      "lat": 53.950125,
+      "-97.84936667": 0.000
+    }
+  },
+  "narrativeDate": "09-11-01",
+  "startYear": 1960,
+  "endYear": 1967,
+  "data": {
+    "nameVariants": [],
+    "chronoHistory": [],
+    "notesHistory": [],
+    "management": [],
+    "enrollment": [],
+    "reserves": ["beaverLake", "blood", "crowfoot", "peigan", "saddleLake"],
+    "religiousGroups": [{
+      "group": "group",
+      "ref": ["number"]
+    }, {
+      "group": "group",
+      "ref": ["number"]
+    }, {
+      "group": "group",
+      "ref": ["number"]
+    }, {
+      "group": "group",
+      "ref": ["number"]
+    }],
+    "writtenAgreements": [],
+    "additionalInformation": []
+  }
+}

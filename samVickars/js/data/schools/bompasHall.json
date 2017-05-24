@@ -1,0 +1,284 @@
+{
+  "name": "Bompas Hall (Koe Go Cho)",
+  "type": "Residential",
+  "location": {
+    "province": "Northwest Territories",
+    "city": "Fort Simpson",
+    "latLng": {
+      "lat": 61.86670833,
+      "lng": -121.3590028
+    }
+  },
+  "narrativeDate": "09-11-01",
+  "startYear": 1960,
+  "endYear": 1975,
+  "data": {
+    "nameVariants": [{
+      "startYear": 0,
+      "endYear": 0,
+      "name": "Bompas Hall (Anglican Pupil Residence)",
+      "note": "",
+      "ref": ["NWT-000614"]
+    }, {
+      "startYear": 0,
+      "endYear": 0,
+      "name": "Fort Simpson Anglican",
+      "note": "",
+      "ref": ["NWT-003153[002-006]"]
+    }, {
+      "startYear": 0,
+      "endYear": 0,
+      "name": "Fort Simpson Anglican Hostel",
+      "note": "",
+      "ref": ["NWTG-004392"]
+    }],
+    "chronoHistory": [{
+      "date": 1960,
+      "desc": ["Bompas Hall Anglican pupil residence opened in October 1960"],
+      "ref": ["ANGDC-84492"]
+    }, {
+      "date": 1961,
+      "desc": ["The government adopts the policy to name the 'large hostels' after northern Anglican and Catholic missionaries, and the related day schools after northern explorers. The Anglican hostel in Fort Simpson is named Bompas Hall after Bishop William C. Bompas, the first Anglican Bishop of Athabasca, 1874; the first Bishop ofMackenzie River, 1884; and the first Bishop of Selkirk (Yukon), 1890"],
+      "ref": ["NWT-000614"]
+    }, {
+      "date": 1969,
+      "desc": ["The NTRC does not have specific information indicating the closing date of this institution. We do know that Bompas Hall was part ofthis federal day school/contract residence program from September 1, 1960 to April1, 1969. We have no direct documentary references to Bompas Hall after 1969 and therefore have no knowledge ofthe residence after that year."],
+      "ref": ["FNU-200601 NWT-000221"]
+    }],
+    "notesHistory": [],
+    "management": [{
+      "startYear": 1959,
+      "endYear": 1969,
+      "org": "government",
+      "orgName": "Federal Government of Canada",
+      "type": ["Ownership"],
+      "ref": [""]
+    }, {
+      "startYear": 1959,
+      "endYear": 1969,
+      "org": "church",
+      "orgName": "Missionary Society of the ANglican Church of Canada (MSCC)",
+      "type": ["Management", "Teaching", "Staff"],
+      "ref": [""]
+    }, {
+      "startYear": 1969,
+      "endYear": 1969,
+      "org": "government",
+      "orgName": "Government of the Northwest Territories",
+      "type": ["Management", "Teaching", "Staff"],
+      "ref": ["NWT-000556"]
+    }],
+    "enrollment": [{
+      "year": 1960,
+      "number": 18,
+      "notes": "18 children in residence (12 boys; 6 girls)"
+    }, {
+      "year": 1961,
+      "number": 30,
+      "notes": "30 children in residence 14 boys; 16 girls"
+    }, {
+      "year": 1962,
+      "number": 25,
+      "notes": "25 children in residence (14 boys; 11 girls)"
+    }, {
+      "year": 1963,
+      "number": 37,
+      "notes": "37 children in residence (18 boys; 21 girls)"
+    }, {
+      "year": 1964,
+      "number": 46,
+      "notes": "46 children in residence (26 boys; 20 girls)"
+    }, {
+      "year": 1965,
+      "number": 53,
+      "notes": "53 children in residence (34 boys; 19 girls)"
+    }, {
+      "year": 1966,
+      "number": 46,
+      "notes": "46 children in residence (24 boys; 22 girls)"
+    }, {
+      "year": 1967,
+      "number": 64,
+      "notes": "64 children in residence (36 boys; 28 girls)"
+    }, {
+      "year": 1968,
+      "number": 72,
+      "notes": "72 children in residence (41 boys; 31 girls)"
+    }, {
+      "year": 1969,
+      "number": 73,
+      "notes": "73 children in residence (43 boys; 30 girls)"
+    }, {
+      "year": 1970,
+      "number": 55,
+      "notes": "0 Eskimo, 17 Indian, 38 'other' children in residence"
+    }],
+    "reserves": ["bathhurstInlet", "cambridgeBay", "coppermine", "fortChipewyan", "fortLiard", "fortNorman", "fortProvidence", "fortProvidence", "fortRae", "fortResolution", "fortSimpson", "fortSmith", "fortWrigley", "fortWrigley", "hayLakes", "jeanMarieRiver", "lacLaBiche", "longIsland", "marionLake", "martenLake", "nahanni", "rankinInlet", "rayRock", "rocherRiver", "snowdrift", "spenceBay", "yellowknife", "yellowknife"],
+    "religiousGroups": [{
+      "group": "Anglican Church of Canada",
+      "ref": []
+    }],
+    "writtenAgreements": [{
+      "date": 1960,
+      "title": "",
+      "desc": "1960 Formal written agreement between Her Majesty the Queen and the Missionary Society of the Anglican Church of Canada for the operation of a pupil residence at Fort Simpson commencing on September 1, 1960",
+      "ref": ["FNU-200601A"]
+    }, {
+      "date": 1960,
+      "title": "",
+      "desc": "Given that the residence I day school system, ofwhich Bompas Hall was part, was unique to the NWT, the Indian Affairs field manuals used to supplement the management of southern-Canadian residential schools were not employed.",
+      "ref": ["NWT-000006", "NWTG-001154", "NWTG-001233"]
+    }, {
+      "date": 1960,
+      "title": "",
+      "desc": "Given that the residence I day school system, ofwhich Bompas Hall was part, was unique to the NWT, the Indian Affairs field manuals used to supplement the management of southern-Canadian residential schools were not employed.",
+      "ref": ["NWT-000006", "NWTG-001154", "NWTG-001233"]
+    }, {
+      "date": 1969,
+      "title": "",
+      "desc": "Letter, April3, 1969, notes that the terms and conditions of the Church agreements for the operation of pupil residences in the NWT will remain the 'same as in the past' although the agreement is being transferred from the Federal Government to the N.W.T. Government . Attached to this letter is an unsigned copy of this agreement between the Commissioner ofthe Northwest Territories and the Missionary Society ofthe Anglican Church ofCanada for Bompas Hall.",
+      "ref": ["NWTG-001341[000-007]", "NWTG-001341[004-007]"]
+    }],
+    "additionalInformation": [{
+      "date": 1965,
+      "type": "policy",
+      "victim": "",
+      "agressor": "",
+      "notes": "The curriculum used in the Mackenzie District schools resembles the Alberta school curriculum.",
+      "ref": ["NWT-000547"]
+    }, {
+      "date": 1962,
+      "type": "policy",
+      "victim": "",
+      "agressor": "",
+      "notes": "A series o f documents discuss financial irregularities and apparent mismanagement of funds at Bompas Hall. 'Numerous errors and omissions' made it very difficult for auditors to reconcile hostel records with bank statements",
+      "ref": ["BPU-000180[000-005]", "BPU-000181[000-000]"]
+    }, {
+      "date": 1960,
+      "type": "health",
+      "victim": "",
+      "agressor": "",
+      "notes": "An Inspection of the Food Services was conducted shortly after the hostel opened in 1960. Documents indicate that the kitchen and food preparation was not well organized\n yet. \nLetter, September 22, 1961, from Director, B.G. Sivertz to Administrator King at Bompas Hall notes concerns regarding Eskimos who have died oftrichinosis caused by eating walrus and polar bear. Hostel administrators are cautioned that children should not be exposed to this risk and asks that King respond regarding the potential implications of discontinuing the practice of serving raw food, if it is, in fact, occurring at Bompas Hall.",
+      "ref": ["NPC-605598", "NWTG-000776[000-003]"]
+    }, {
+      "date": 1962,
+      "type": "policy",
+      "victim": "",
+      "agressor": "",
+      "notes": "Several letters authorize Administrator King at Bompas Hall to permit administrators to have in their possession dry moose meat and waterfowl when received as a gift from residence children and to distribute this dry moose meat to children as a treat, and to serve migratory waterfowl as an occasional meal",
+      "ref": ["NWT-003406", "NWT-003410"]
+    }, {
+      "date": 1964,
+      "type": "report",
+      "victim": "",
+      "agressor": "",
+      "notes": "A chart outlining sanitation ratings for establishments in the N.W.T. notes that the cafeteria at the Anglican Hostel at Fort Simpson uses piped water and sewage and has a staff washroom. The facility is rated as 'generally satisfactory' although the document notes 'major deficiencies' to be a lack of fly screens and the fact that food spoils in the hot basement storeroom",
+      "ref": ["NPC-620596b"]
+    }, {
+      "date": 1965,
+      "type": "report",
+      "victim": "",
+      "agressor": "",
+      "notes": "A Food Services Inspection Report, March 2, 1965, notes that menus should include daily sources of Vitamin C, vegetables (in addition to potatoes) should be served daily; whole grain cereals should be served daily and cheese and eggs should be served three times per week. The following recommendations also appear: there is a constant need for supervision when children are operating the dishwashing machine; toweling of dishes should be discontinued; and that dishwashing facilities should be improved by adding a sink with spray, stainless steel tables, proper flooring and floor drains. In addition, kitchen and dining room staff should be required to wear hairnets, uniforms and aprons.",
+      "ref": ["BPU-000334[001-004]"]
+    }, {
+      "date": 1966,
+      "type": "report",
+      "victim": "",
+      "agressor": "",
+      "notes": "A Food Services Inspection Report, March 15, 1966, notes that all recommendations regarding the frequency of serving fruit and vegetables are met and that additional servings ofgrains and cereals are required. The report notes that stainless steel tables have replaced the previous wooden tables in the kitchen which is a vast improvement. The report recommends that skim milk powder be combined with whole milk powder to improve milk consumption, that the dishwashing machine water temperature should be checked and that refrigeration temperature should be increased to between 35 and 38 degree Fahrenheit.",
+      "ref": ["FNU-173218F"]
+    }, {
+      "date": 1967,
+      "type": "report",
+      "victim": "",
+      "agressor": "",
+      "notes": "A series of correspondence describes the use oflocal fish at Bompas Hall. Documents note that 400 lbs of fillets, 100 lbs of salmon, and 200 lbs of tuna are purchased from a packing house",
+      "ref": ["NWTG-002756[000-000]", "NWTG-002851[000-001][001-001]"]
+    }, {
+      "date": 1960,
+      "type": "health",
+      "victim": "",
+      "agressor": "",
+      "notes": "Letter, May 31, 1960, notes that there were no Northern Health Services nurses in the Fort Simpson area at that time",
+      "ref": ["NWT-000934"]
+    }, {
+      "date": 1960,
+      "type": "health",
+      "victim": "",
+      "agressor": "",
+      "notes": "A series of correspondence notes that a registered nurse is required at all hostels with a capacity of 200 or more children and those hostels in isolated areas with less than 200 children. A decision regarding the situation at Fort Simpson is pending. It is recommended that a nurse from Indian and Northern Health Services make occasional visits to Bompas Hall, in coordination with the matron, to provide services to the resident children.",
+      "ref": ["NWTG-000653", "NWTG-000655", "NWTG-000698"]
+    }, {
+      "date": 1961,
+      "type": "health",
+      "victim": "",
+      "agressor": "",
+      "notes": "A letter, January 4, 1961 outlines problems in providing dental services to the hostel children in Fort Simpson. A follow-up letter recommends the issue be taken up with the regional office ofNorthern and Indian Health Services at Edmonton.",
+      "ref": ["NWTG-000758", "NWTG-000773"]
+    }, {
+      "date": 1963,
+      "type": "health",
+      "victim": "",
+      "agressor": "",
+      "notes": "A report from Indian and Northern Health Services, April4, 1963, notes 43 admissions to hospital due to an influenza epidemic at Fort Simpson. The school was allowed to open after Easter vacation as the infection was generalized in the community. Although the hostels are not specifically mentioned in this document it seems likely that the epidemic included students who resided at the hostels.",
+      "ref": ["NPC-600531"]
+    }, {
+      "date": 1966,
+      "type": "health",
+      "victim": "",
+      "agressor": "",
+      "notes": "A report from Administrator Kufeldt notes that a severe outbreak ofthe flu at the hostel resulted in the cancellation ofthe planned Easter festival.",
+      "ref": ["ANGDC-84515"]
+    }, {
+      "date": 1968,
+      "type": "policy",
+      "victim": "",
+      "agressor": "",
+      "notes": "Memorandum, June 20, 1968, notes that personal allowances of one dollar per week are given to students 15 years ofage or over.",
+      "ref": ["NWTG-002791[000-003]"]
+    }, {
+      "date": 1962,
+      "type": "program",
+      "victim": "",
+      "agressor": "",
+      "notes": "Two reports from Administrator Sales notes that activities at Bompas Hall include Brownies, Cubs and Junior Auxiliary, picnics and overnight camping. An Audit Report for 1962 includes the following expenditures related to extra-curricular activities: films, hockey sticks and supplies, games, toys, wagon, felt crests and trophies.",
+      "ref": ["ANGDC-84491", "ANGDC-84492", "BPU-000223[002-007]"]
+    }, {
+      "date": 1963,
+      "type": "program",
+      "victim": "",
+      "agressor": "",
+      "notes": "A report from Administrator Sales notes that activities at Bompas Hall include hockey, curling, basketball and gym sessions. An Audit Report for 1963 includes the following expenditures related to extra-curricular activities: playing cards, film rental, theatre tickets and a skate holder.",
+      "ref": ["ANGDC-", "84493", "BPU-000299[002-002]"]
+    }, {
+      "date": 1964,
+      "type": "program",
+      "victim": "",
+      "agressor": "",
+      "notes": "An Audit Report for 1964 includes the following expenditures related to extra-curricular activities: gift items, toys, games, records, film rental, theatre tickets and hockey socks.",
+      "ref": ["BPU-0003", "36[000-003]"]
+    }, {
+      "date": 1965,
+      "type": "program",
+      "victim": "",
+      "agressor": "",
+      "notes": "A report from Administrator Herring notes that activities at Bompas Hall include hockey as well as soap stone and wood carving, and copper tooling. He notes that a display case has been constructed to display the students' work.",
+      "ref": ["ANGDC-84496"]
+    }, {
+      "date": 1966,
+      "type": "program",
+      "victim": "",
+      "agressor": "",
+      "notes": "A report from Administrator Kufeldt notes that activities at Bompas Hall include basketball, hockey, broomball, sliding, curling, snow sculpting and dog team racing.",
+      "ref": ["ANGDC-84515"]
+    }, {
+      "date": 1967,
+      "type": "program",
+      "victim": "",
+      "agressor": "",
+      "notes": "A report from Administrator Kufeldt notes that activities at Bompas Hall include hockey, trapping, carving, Girl Guides, Brownies, 4H, baseball, track and field, night camping trips for the boys, a craft fair and concert.",
+      "ref": ["ANGDC-84517"]
+    }]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "name": "Pine Creek (Camperville)",
+  "type": "Residential",
+  "location": {
+    "province": "Manitoba",
+    "city": "city",
+    "latLng": {
+      "lat": 52.00363056,
+      "-100.1505": 0.000
+    }
+  },
+  "narrativeDate": "09-11-01",
+  "startYear": 1890,
+  "endYear": 1969,
+  "data": {
+    "nameVariants": [],
+    "chronoHistory": [],
+    "notesHistory": [],
+    "management": [],
+    "enrollment": [],
+    "reserves": [""],
+    "religiousGroups": [{
+      "group": "group",
+      "ref": ["number"]
+    }, {
+      "group": "group",
+      "ref": ["number"]
+    }, {
+      "group": "group",
+      "ref": ["number"]
+    }, {
+      "group": "group",
+      "ref": ["number"]
+    }],
+    "writtenAgreements": [],
+    "additionalInformation": []
+  }
+}

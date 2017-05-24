@@ -1,0 +1,208 @@
+{
+  "name": "Fleming Hall (St. Matthew's Anglican Hostel)",
+  "type": "Residential",
+  "location": {
+    "province": "Northwest Territories",
+    "city": "Fort McPherson",
+    "latLng": {
+      "lat": 67.43692222,
+      "lng": -134.8817889
+    }
+  },
+  "narrativeDate": "09-11-01",
+  "startYear": 1955,
+  "endYear": 1976,
+  "data": {
+    "nameVariants": [{
+      "startYear": 1955,
+      "endYear": 1976,
+      "name": "Fort McPherson Hostel",
+      "note": "",
+      "ref": ["NWT-000337[000-000]"]
+    }, {
+      "startYear": 1955,
+      "endYear": 1976,
+      "name": "Fleming Hall",
+      "note": "",
+      "ref": ["NWT-000614[000-000]"]
+    }],
+    "chronoHistory": [{
+      "date": 1955,
+      "desc": ["Fort McPherson Federal School appears on a statement of attendance of 'white children and o f children o f mixed blood who attend the Federal Schools o f the Northwest Territories."],
+      "ref": ["NWT-000706[001- 001]"]
+    }, {
+      "date": 1956,
+      "desc": ["Enrollment for Fort McPherson FDS is stated as 86. (Cover document date is March 23, 1959)"],
+      "ref": ["NWT-000718[001-001]"]
+    }, {
+      "date": 1957,
+      "desc": ["A report on the hostel in Fort McPherson by the Anglican Church states: <br><em>The small twenty pupil (all boys) Hostel under the matronship ofMiss N. Houldcroft is also operating under rather primitive conditions. This however will be the last term before the new Hostel, now under construction by the Department ofPublic Works is put into use.</em>", "Enrollment for Fort McPherson FDS is stated as 88. (Cover document date is March 23, 1959)."],
+      "ref": ["ANGMSCC-90778", "NWT-000718[001-001]"]
+    }, {
+      "date": 1958,
+      "desc": ["A memorandum discussing the management and operation ofthe Fort McPherson hostel states that from January 1 to July 1, 1958 the 'old mission-owned hostel was operated without a formal agreement.' The Government Hostel replaced the Mission Hostel for the 1958-59 school year.", "Fort McPherson Federal School appears on a statement of attendance of 'white children and o f children o f mixed blood who attend the Federal Schools o f the Northwest Territories.' (Cover document is dated Oct. 1959).", "The 'newly constructed Government-owned hostel' began operation on August 1, 1958."],
+      "ref": ["NWT-000337[000-000]", "NWT- 000717[001-001]", "NWT -0003 37[000-000]"]
+    }, {
+      "date": 1961,
+      "desc": ["The name ofthe Federal Day School in Fort McPherson is changed to Peter Warren Dease School after Sir John Franklin's commissariat officer ofthe second land expedition from 1825-27."],
+      "ref": ["NWT-000614[000-000]"]
+    }, {
+      "date": 1963,
+      "desc": ["The day school in Fort McPherson includes grades 1-8 with plans to add grade 9 for the following school year."],
+      "ref": ["ANGMSCC-84493"]
+    }, {
+      "date": 1966,
+      "desc": ["Construction was underway to build new buildings for the government day school."],
+      "ref": ["ANGMSCC-84515"]
+    }, {
+      "date": 1967,
+      "desc": ["There was no grade 8 provided in Fort McPherson for the 1967-68 school year.", "t is not known when or ifPeter Warren Dease School closed. The only school currently operating in Fort McPherson, as stated on the Government ofthe NWT education website, is Chief Julius School. The school name may have been changed but we cannot confirm or deny this at this time."],
+      "ref": ["ANGMSCC-84516"]
+    }, {
+      "date": 1976,
+      "desc": ["At this time we do not have information stating the closure date of the residence."],
+      "ref": ["."]
+    }],
+    "notesHistory": [],
+    "management": [{
+      "startYear": 1955,
+      "endYear": 1969,
+      "org": "church",
+      "orgName": "Roman Catholic and Anglican Church",
+      "type": ["Management Teaching Staff"],
+      "ref": ["NWT-000539[000-000]"]
+    }, {
+      "startYear": 1955,
+      "endYear": 1976,
+      "org": "government",
+      "orgName": "Government of the Northwest Territories",
+      "type": ["Funding"],
+      "ref": ["NWT-000539[000-000]"]
+    }, {
+      "startYear": 1969,
+      "endYear": 1976,
+      "org": "government",
+      "orgName": "Government of the Northwest Territories",
+      "type": ["Management Teaching Staff"],
+      "ref": ["NWTG-001339[000-000]"]
+    }],
+    "enrollment": [{
+      "year": 1955,
+      "number": "100",
+      "notes": ""
+    }, {
+      "year": 1958,
+      "number": "99",
+      "notes": "White: 9, Treaty Indian: 90, Eskimo: 0"
+    }, {
+      "year": 1959,
+      "number": "78",
+      "notes": ""
+    }, {
+      "year": 1960,
+      "number": "79",
+      "notes": "Girls: 31, Boys: 47"
+    }, {
+      "year": 1961,
+      "number": "70",
+      "notes": "Girls: 28, Boys: 42"
+    }, {
+      "year": 1962,
+      "number": "78",
+      "notes": "Girls: 33, Boys: 45]"
+    }, {
+      "year": 1963,
+      "number": "81",
+      "notes": "Girls: 36, Boys: 45"
+    }, {
+      "year": 1966,
+      "number": "84",
+      "notes": ""
+    }, {
+      "year": 1968,
+      "number": "75",
+      "notes": ""
+    }],
+    "reserves": ["loucheaux", "oldCrow", "yukon"],
+    "religiousGroups": [{
+      "group": "Bishop ofthe Arctic",
+      "ref": ["ANGMSCC-84688"]
+    }, {
+      "group": "Anglican Church of Canada",
+      "ref": ["NWTG-000692[001-001]"]
+    }],
+    "writtenAgreements": [{
+      "date": 1958,
+      "title": "",
+      "desc": "A memorandum, dated November 1959, discussing the management and operation o f the Fort McPherson hostel states that from January 1 to July 1, 1958 the 'old mission-owned hostel was operated without a formal agreement.'",
+      "ref": ["NWT-000337[000-000]"]
+    }, {
+      "date": 1959,
+      "title": "",
+      "desc": "Operating Agreement between Her Majesty the Queen and the Missionary Society ofthe Anglican Church ofCanada for the operation and management ofthe student residence in Fort McPherson. It states that the MSACC has operated and managed the residence since September 1958.",
+      "ref": ["FHU-200601G"]
+    }, {
+      "date": 1969,
+      "title": "",
+      "desc": "A letter from the government to the MSACC states: <br><em>As a result ofthe transfer ofresponsibility for the education program in the Mackenzie District to the Government ofthe N.W.T. on April 1, 1969, the three pupil residences which you have been operating under an agreement with the Crown will be transferred to the Government ofthe N.W.T. effective on the same date.<br>This letter is to confirm the termination of the Memorandum of Agreement between the Missionary Society of the Anglican Church of Canada and the Crown for the three pupil residence shown hereunder: Bompas Hall, Fleming Hall, Stringer Hall.</em>",
+      "ref": ["NWTG-001339[000-000]"]
+    }],
+    "additionalInformation": [{
+      "date": 1963,
+      "type": "report",
+      "victim": "",
+      "agressor": "",
+      "notes": "An article published in the University of Alberta's Journal ofthe Sociology Club by former Assistant Principal, Mr. D.W. Hepburn, from the school in Inuvik, contains heavy criticism ofthe educational system in the Northwest Territories in regard to Inuit and Native education. He heavily criticizes the curriculum as inadequate in that it does not teach what is relevant to these children: <br><em>The harm done in the process [of education] far outweighs the meagre good, the waste of years when other valuable life-skills should be developed as well as academic ones, the disintegration of pride in the cultural tradition, the deprivation of family life for many ofthe children, the resultant cultural vacuum and psychological insecurity.</em>",
+      "ref": ["NWT-000648[001-001]"]
+    }, {
+      "date": 1960,
+      "type": "report",
+      "victim": "",
+      "agressor": "",
+      "notes": "The document titled 'Supplementary Instructions for the Management ofHostels Owned by the Department ofNorthern Affairs and National Resources and Operated under Contract' was submitted to hostel Administrators by the government. The document is an instruction manual detailing policies and procedures as well as rules, allowable expenses, and suggestions for extra-curricular activities.",
+      "ref": ["NWT-000006"]
+    }, {
+      "date": 1960,
+      "type": "incident",
+      "victim": "",
+      "agressor": "",
+      "notes": "Incidents of discord between the staff were documented by the government and stated in the following excerpt of a report:<br><em>There was, therefore, the general statement that the hostel was over-regimented in a most dictatorial manner and that this dictatorial manner was also being thrust on the maintenance staff, the teaching staff at the school, and, in some cases, the general public at Fort McPherson.</em><br>It was recommended that Canon Cook ofMSACC intervene and ensure that the situation would improve.",
+      "ref": ["NWTG-000723[001-001]"]
+    }, {
+      "date": 1963,
+      "type": "report",
+      "victim": "",
+      "agressor": "",
+      "notes": "A report from the Administrator ofthe Fleming Hall states that enrolment levels at the hostel fluctuated seasonally as many local parents would leave the settlement to hunt resulting in more children from Fort McPherson requiring accommodation. Some older students were released from school and the hostel to accompany their parents on the caribou hunt.<br>The report also stated that students at Fleming Hall were able to participate in Cubs and Brownies clubs run by the Matron and Boys' Supervisor.",
+      "ref": ["ANGMSCC-84493"]
+    }, {
+      "date": 1964,
+      "type": "program",
+      "victim": "",
+      "agressor": "",
+      "notes": "A report from the Administrator ofFleming Hall states that the following activities are provided at the hostel: Ice skating, curling, Scouts, Girl Guides, and volleyball.",
+      "ref": ["ANGMSCC-84494"]
+    }, {
+      "date": 1966,
+      "type": "report",
+      "victim": "",
+      "agressor": "",
+      "notes": "A report from the Administrator ofFleming Hall states that the facility is operating near its capacity of 100 residents. However, the girls' dormitory was very full and facilities were 'rather strained' as there was an attendance ratio of about 2 girls to each boy.",
+      "ref": ["ANGMSCC-84497"]
+    }, {
+      "date": 1960,
+      "type": "policy",
+      "victim": "",
+      "agressor": "",
+      "notes": "A statement on 'Student Residences in the Northwest Territories' states the following regarding admissions policies for the government owned hostels:<BR><em>Parental consent is required in all cases where students are removed from their homes and are maintained in such residences. If a parent does not wish his child to attend, no pressure is exerted upon him to do so. The only exception to this general rule applies to welfare admissions. In such admissions there may be evidence of parental neglect and if such neglect is proven students may be admitted on welfare grounds either through a court order or by the unanimous decision of a special committee set up for this purpose. In general however, most parents are anxious to have their children maintained in a hostel and many applications for admission are turned down because the rigid criteria for admission are not met.</em>",
+      "ref": ["NWTG-000696[001-001]"]
+    }, {
+      "date": 1966,
+      "type": "report",
+      "victim": "",
+      "agressor": "",
+      "notes": "The Food Services Report for 1966 gives an overall positive report on the meals, food preparation, and kitchen services.",
+      "ref": ["FHU-173218A"]
+    }]
+  }
+}

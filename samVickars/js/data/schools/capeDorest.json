@@ -1,0 +1,84 @@
+{
+  "name": "Federal Hostel at Cape Dorset (Kinngait)",
+  "type": "Residential",
+  "location": {
+    "province": "Nunavut",
+    "city": "Kinngait",
+    "latLng": {
+      "lat": 64.23037222,
+      "lng": -76.54096389
+    }
+  },
+  "narrativeDate": "09-11-01",
+  "startYear": 1962,
+  "endYear": 1965,
+  "data": {
+    "nameVariants": [{
+      "startYear": 1962,
+      "endYear": 1965,
+      "name": "Cape Dorset, N.W.T Pupil Residence",
+      "note": "",
+      "ref": ["CPS-000001"]
+    }, {
+      "startYear": 1962,
+      "endYear": 1965,
+      "name": "Hostel Buildings #29 and #30",
+      "note": "",
+      "ref": ["CPS-000196"]
+    }],
+    "chronoHistory": [{
+      "date": 1962,
+      "desc": ["January: The first pupils were admitted to the Federal Hostels at Cape Dorset on January 1, 1962. The hostels housed children from camps in the Cape Dorset area in addition to the children of hostel employees. The first pupils were admitted to the Federal Hostels at Cape Dorset on January 1, 1962. The hostels housed children from camps in the Cape Dorset area in addition to the children of hostel employees. ", "February: Service Agreement was signed between the federal government and two hostel parents to oversee day-to- day operations at the Hostel. Only one hostel building was reportedly 'in operation'.", "May: Documents indicate that a group of women from the Cape Dorset community were performing some supervisory duties at the hostel on an ad hoc basis.", " November: A Hostel Supervisor was hired to train and supervise the Hostel Parents.", " December-January: Due to a fuel shortage in the community, just one eight-bed building was being used to house students. Another eight-bed building was used to house a Hostel Parent and her two children."],
+      "ref": ["CPS-000001", "CPS-000013-0000", "CPS-000167", "CPS-000178-0000", "CPS-000193-0000", "CPS-000193-0001", "CPS-000196", "CPS-000199"]
+    }, {
+      "date": 1963,
+      "desc": ["January - Feburary: Due to a continued fuel shortage, two of the three hostel buildings remained closed.", "May 4: By May 4, 1963, three pupils remained in the one operating hostel building.", "June: Only one hostel building operated during the 1962/63 school year.", "September 1: Service Agreement was signed between federal government and three Hostel Parents to oversee the day to day operations at the hostel.", " September-November: At the beginning of the 1963/64 school year, two hostel buildings were in operation, one for boys and one for girls. By November 8, 1963, all residents were living in the former girls’ hostel. The former boys’ hostel was to be used for 'homemaking' instruction until more residential pupils could be recruited.", "November 28: The federal government approved an expansion of the hostels’ pupil recruiting region in hopes of boosting resident pupil enrolment."],
+      "ref": ["CPS-000205", "CPS-000218-0001", "RCN-009162-0001", "CPS-000222-0001", "CPS-000222-0002", "CPS-000222-0003", "CPS-000222-0003", "CPS-000228", "CPS-000231", "CPS-000232"]
+    }, {
+      "date": 1964,
+      "desc": ["January-September: The Federal Hostels at Cape Dorset temporarily closed on January 31, 1964, as a result of decreased enrollment and parental preference to not have their children placed in hostels. The Federal Hostels at Cape Dorset remained closed until September 14, 1964.", "September 14: Service Agreement was signed between the federal government and two hostel parents to oversee day-to- day operations at the Hostel.", " September to November: The hostel re-opened for the 1964/65 school year. By November 5, 1964, there were five pupils in residence."],
+      "ref": ["CPS-000007", "CPS-000008", "CPS-00146", "RCN-004478", "CPS-000147", "CPS-000237", "CPS-000242", "CPS-000008", "CPS-000245"]
+    }, {
+      "date": 1965,
+      "desc": ["June: The Federal Hostels at Cape Dorset did not re-open after the 1964/65 school year. By September 1965, all three of the former hostel buildings were being utilized for purposes other than the housing of children."],
+      "ref": ["CPS-000254", "CPS-000148-0000", "GWR-000233-0002", "CPS-000249", "CPS-000256", "CPS-000257"]
+    }],
+    "notesHistory": [],
+    "management": [{
+      "startYear": 1962,
+      "endYear": 1962,
+      "org": "government",
+      "orgName": "Federal Government of Canada",
+      "type": ["Management Teaching Staff"],
+      "ref": ["CPS-000001", "CPS-000013-0000", "CPS-000159"]
+    }],
+    "enrollment": [{
+      "year": 1962,
+      "number": "8",
+      "notes": "6-10 [2-4 boys; 4-6 girls]"
+    }, {
+      "year": 1963,
+      "number": "6",
+      "notes": "3-11 [1-6 boys; 2-5 girls]"
+    }, {
+      "year": 1964,
+      "number": "0",
+      "notes": "Interim Closure of the Federal Hostels at Cape Dorset: January 31, 1964 to September 14, 1964"
+    }, {
+      "year": 1965,
+      "number": "5",
+      "notes": "4-6 [2-3 boys; 2-3 girls]"
+    }],
+    "reserves": [""],
+    "religiousGroups": [],
+    "writtenAgreements": [],
+    "additionalInformation": [{
+      "date": 1962,
+      "type": "report",
+      "victim": "",
+      "agressor": "",
+      "notes": "Documents indicate that on several occasions, parents had resisted the placement of their children in the hostels.",
+      "ref": ["CPS-000213", "CPS-000228", "CPS-000231", "CPS-000147", "CPS-000249"]
+    }]
+  }
+}

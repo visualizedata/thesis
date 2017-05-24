@@ -1,0 +1,554 @@
+{
+  "name": "Joussard (St. Bruno's) IRS",
+  "type": "Residential",
+  "location": {
+    "province": "Alberta",
+    "city": "Joussard",
+    "latLng": {
+      "lat": 55.401075,
+      "lng": -115.9701389
+    }
+  },
+  "narrativeDate": "09-11-01",
+  "startYear": 1913,
+  "endYear": 1969,
+  "data": {
+    "nameVariants": [{
+      "startYear": 1913,
+      "endYear": 1923,
+      "name": "St. Bruno's Roman Catholic Mission School, St. Bruno's Mission Boarding School, or Saint Bruno's School",
+      "note": "",
+      "ref": ["000604", "000219", "000224"]
+    }, {
+      "startYear": 1923,
+      "endYear": 1937,
+      "name": "St Bruno's Indian School or IRS",
+      "note": "",
+      "ref": ["003059"]
+    }, {
+      "startYear": 1937,
+      "endYear": 1969,
+      "name": "Joussard IRS",
+      "note": "",
+      "ref": ["000278"]
+    }],
+    "chronoHistory": [{
+      "date": 1913,
+      "desc": ["Four Sisters came from Grouard IRS in 1913 [002056] when the Roman Catholic Church ' erected a new school on Lesser Slave Lake."],
+      "ref": ["002056", "000206"]
+    }, {
+      "date": 1935,
+      "desc": ["Opened St. Anne's Day School in Joussard."],
+      "ref": ["002056"]
+    }, {
+      "date": 1955,
+      "desc": ["Day school erected on the Driftpile Reserve."],
+      "ref": ["003357"]
+    }, {
+      "date": 1958,
+      "desc": ["Grade nine is introduced at Joussard IRS."],
+      "ref": ["000320"]
+    }, {
+      "date": 1959,
+      "desc": ["It is agreed that the integration of Joussard IRS with the Joussard Public School is not feasible, and that in keeping with the integration policy of the government, further efforts to integrate students into the Separate School Board should be made [00034 7]. Instruction of grade ten is approved at Joussard IRS."],
+      "ref": ["000347", "003373"]
+    }, {
+      "date": 1960,
+      "desc": ["Grade eleven is introduced to the High School program at Joussard IRS. Bus service for day pupils from the Sucker Creek Reserve to Joussard IRS is provided."],
+      "ref": ["000351", "000356"]
+    }, {
+      "date": 1961,
+      "desc": ["High School grades 9 to 12 are being offered at Joussard IRS. It is reported that there are no Provincial high schools in the area that are within commuting distance."],
+      "ref": ["004286"]
+    }, {
+      "date": 1962,
+      "desc": ["It is proposed that high school students from Joussard be transferred to the Grouard Public school system under a joint agreement with the Northland School Division. It is later decided that this arrangement would not be practical for the 1962-63 school year."],
+      "ref": ["000404"]
+    }, {
+      "date": 1964,
+      "desc": ["Grade twelve pupils are bussed to the High Prairie Separate School for instruction.", "The Driftpile Day school is placed under the administration of the High Prairie School Division."],
+      "ref": ["004586", "000372"]
+    }, {
+      "date": 1965,
+      "desc": ["The Vicar Apostolic of Grouard rejects the proposal to have the High Prairie School Division accept administrative responsibility of classrooms at Joussard IRS [000372]. Students from the Sucker Creek Reserve are to be bussed to schools in the High Prairie School Division No.48."],
+      "ref": ["004793"]
+    }, {
+      "date": 1967,
+      "desc": ["Residential students from Joussard IRS are attending school in various Provincial institutions in High Prairie."],
+      "ref": ["004733"]
+    }, {
+      "date": 1968,
+      "desc": ["Due to increased movements into integrated schools and the obsolescence of the physical plant, the phasing out of the J oussard school is accelerated. Admissions to the school are to be limited to residents of the Agency and some residential students are to be transferred to St. Martin's IRS.", "Due to increased movements into integrated schools and the obsolescence of the physical plant, the phasing out of the J oussard school is accelerated. Admissions to the school are to be limited to residents of the Agency and some residential students are to be transferred to St. Martin's IRS."],
+      "ref": ["002123", "007125A"]
+    }, {
+      "date": 1969,
+      "desc": ["It is agreed that coming 1969-1970 academic year will be the last for the Joussard school. However, the school actually closes one year prior to the target date of September 1970. The early closure became necessary when the Bands expected to send their children to the school for this final year of operation decided not to do so.", "The residence was closed as of October 31, 1969.", "The two-room day school located on the school grounds continued to run for the final 1969-1970 school year."],
+      "ref": ["001721", "006084", "001879", "006083A"]
+    }],
+    "notesHistory": [],
+    "management": [{
+      "startYear": 1913,
+      "endYear": 1956,
+      "org": "chuch",
+      "orgName": "The Oblate Order",
+      "type": ["Management", " Staff", " Teaching"],
+      "ref": ["004638", "000271"]
+    }, {
+      "startYear": 1956,
+      "endYear": 1969,
+      "org": "government",
+      "orgName": "Federal Government of Canada",
+      "type": ["Management", " Staff", " Teaching"],
+      "ref": ["004679"]
+    }],
+    "enrollment": [{
+      "year": 1913,
+      "number": "25",
+      "notes": ""
+    }, {
+      "year": 1914,
+      "number": "35",
+      "notes": ""
+    }, {
+      "year": 1919,
+      "number": "67",
+      "notes": ""
+    }, {
+      "year": 1922,
+      "number": "85",
+      "notes": ""
+    }, {
+      "year": 1925,
+      "number": "87",
+      "notes": ""
+    }, {
+      "year": 1926,
+      "number": "103",
+      "notes": ""
+    }, {
+      "year": 1933,
+      "number": "123",
+      "notes": ""
+    }, {
+      "year": 1941,
+      "number": "112",
+      "notes": ""
+    }, {
+      "year": 1950,
+      "number": "104",
+      "notes": ""
+    }, {
+      "year": 1955,
+      "number": "122",
+      "notes": ""
+    }, {
+      "year": 1960,
+      "number": "106",
+      "notes": ""
+    }, {
+      "year": 1969,
+      "number": "106",
+      "notes": ""
+    }],
+    "reserves": ["alexander", "alexis", "assabaska", "atikameg", "beaverLake", "bigStone", "callingLake", "chipewyan", "chipewyan", "cree", "cree", "desmaris", "duncons", "edmonton", "enoch", "fortMcKay", "fortVermilion", "hayLakes", "horseLake", "janvier", "littleRedRiver", "lubiconLake", "michel", "pellyBay", "saddleLake", "slaveLake", "spenceBay", "sturgeonLake", "tallCree", "whitefishLake"],
+    "religiousGroups": [{
+      "group": "The Roman Catholic Episcopal Corporation of Grouard & The Oblates of Mary Immaculate",
+      "ref": ["004679", "000378"]
+    }, {
+      "group": "The Sisters of Charity of Providence",
+      "ref": ["000593", "002021", "006062", "001126"]
+    }],
+    "writtenAgreements": [{
+      "date": 1962,
+      "title": "",
+      "desc": "1962 contract wherein Canada, represented by Indian Affairs ['Minister'], entered into an agreement with Indianescom [referred to as 'Management' in contract] for the operation of the Joussard Indian Residential School. Indianescom was the incorporated body created in 1961 to be the only corporate entity to sign all the contracts concerning schools administered by the Oblate Fathers. Formerly, this body was known as the Oblate Fathers Indian and Eskimo Welfare Commission which was created in 1936.",
+      "ref": ["1190"]
+    }],
+    "additionalInformation": [{
+      "date": 1939,
+      "type": "physical",
+      "victim": "",
+      "agressor": "",
+      "notes": "Two truants were reported to have been 'reprimanded severely'.",
+      "ref": ["001370"]
+    }, {
+      "date": 1949,
+      "type": "physical",
+      "victim": "",
+      "agressor": "",
+      "notes": "Inspection report indicated that discipline was too severe in two of the classrooms.",
+      "ref": ["000296", "000297"]
+    }, {
+      "date": 1953,
+      "type": "physical",
+      "victim": "",
+      "agressor": "",
+      "notes": "Monthly reports indicate 5 instances of corporal punishment",
+      "ref": ["000199"]
+    }, {
+      "date": 1954,
+      "type": "physical",
+      "victim": "",
+      "agressor": "",
+      "notes": "Monthly reports indicate 2 instances of corporal punishment",
+      "ref": ["000196"]
+    }, {
+      "date": 1954,
+      "type": "physical",
+      "victim": "",
+      "agressor": "",
+      "notes": "Monthly reports indicate 2 instances of corporal punishment",
+      "ref": ["000192"]
+    }, {
+      "date": 1954,
+      "type": "physical",
+      "victim": "",
+      "agressor": "",
+      "notes": "Monthly reports indicate 2 instances of corporal punishment",
+      "ref": ["000190"]
+    }, {
+      "date": 1955,
+      "type": "physical",
+      "victim": "",
+      "agressor": "",
+      "notes": "Monthly reports indicate 3 instances of corporal punishment",
+      "ref": ["000187"]
+    }, {
+      "date": 1958,
+      "type": "physical",
+      "victim": "",
+      "agressor": "",
+      "notes": "Monthly reports indicate 1 instances of corporal punishment",
+      "ref": ["000149"]
+    }, {
+      "date": 1959,
+      "type": "physical",
+      "victim": "",
+      "agressor": "",
+      "notes": "Monthly reports indicate 4 instances of corporal punishment",
+      "ref": ["000144"]
+    }, {
+      "date": 1960,
+      "type": "physical",
+      "victim": "",
+      "agressor": "",
+      "notes": "Monthly reports indicate 1 instances of corporal punishment",
+      "ref": ["000137"]
+    }, {
+      "date": 1961,
+      "type": "physical",
+      "victim": "",
+      "agressor": "",
+      "notes": "Monthly reports indicate 2 instances of corporal punishment",
+      "ref": ["000126"]
+    }, {
+      "date": 1963,
+      "type": "physical",
+      "victim": "",
+      "agressor": "",
+      "notes": "Monthly reports indicate 1 instances of corporal punishment",
+      "ref": ["000106"]
+    }, {
+      "date": 1937,
+      "type": "incident",
+      "victim": "",
+      "agressor": "",
+      "notes": "In his statement to police, a student indicates that his reason for starting a fire at the school was because he didn't want to stay there any longer 'as the boys were too rough'. Following his trial, for attempted arson under the Juvenile Delinquents Act, the student was sentenced to the Roman Catholic Mission Farm at Grouard until the age of eighteen.",
+      "ref": ["002138", "002136", "002137", "003386", "003386A", "003386B", "002139", "002140", "002141", " 002142", " 003389"]
+    }, {
+      "date": 1943,
+      "type": "incident",
+      "victim": "",
+      "agressor": "",
+      "notes": "A parent from the Driftpile Reserve indicated, as one of his reasons for withholding his child from the Joussard school, that 'some of the older boys are rough on small boys'.",
+      "ref": ["001375"]
+    }, {
+      "date": 1923,
+      "type": "incident",
+      "victim": "",
+      "agressor": "",
+      "notes": "There was only one major fire in the history of the school, it destroyed the main building.",
+      "ref": ["003063"]
+    }, {
+      "date": 1937,
+      "type": "incident",
+      "victim": "",
+      "agressor": "",
+      "notes": "A student from the Joussard residence started a small fire in the main building. The fire was discovered quickly and the damages were described as negligible",
+      "ref": ["002139"]
+    }, {
+      "date": 1958,
+      "type": "incident",
+      "victim": "",
+      "agressor": "",
+      "notes": "A minor fire at the school destroyed the old warehouse.",
+      "ref": ["001029"]
+    }, {
+      "date": 1914,
+      "type": "report",
+      "victim": "",
+      "agressor": "",
+      "notes": "Ten children, transferred to Grouard IRS due to lack of dormitory space, were returned to Joussard IRS after parents complained. They were provided with temporary accommodation in the Priest's house.",
+      "ref": ["000017G"]
+    }, {
+      "date": 1925,
+      "type": "incident",
+      "victim": "",
+      "agressor": "",
+      "notes": "A number of boys ran away from the school and it was necessary for the police to assist in their return.",
+      "ref": ["004502"]
+    }, {
+      "date": 1929,
+      "type": "report",
+      "victim": "",
+      "agressor": "",
+      "notes": "Band petitioned against the erection of a non-Catholic school on the Driftpile Reserve. The government assured the Bishop and the Band that these rumors were unfounded.",
+      "ref": ["004988"]
+    }, {
+      "date": 1929,
+      "type": "incident",
+      "victim": "",
+      "agressor": "",
+      "notes": "An Indian Agent reports that the parents of 2 truant children, though warned by the police, had refused to return their children to school.",
+      "ref": ["000574"]
+    }, {
+      "date": 1934,
+      "type": "incident",
+      "victim": "",
+      "agressor": "",
+      "notes": "An Indian Agent reports visiting a parent, who complained that her son was being held by the Principal against her wishes.",
+      "ref": ["006112"]
+    }, {
+      "date": 1937,
+      "type": "incident",
+      "victim": "",
+      "agressor": "",
+      "notes": "A male student ran away from school, then stole from a store, in what he explained as an attempt to be kicked out of school. In this correspondence, the Principal of the school was also asking the government to enforce the Indian Act as far as attendance at school was concerned.",
+      "ref": ["001363"]
+    }, {
+      "date": 1937,
+      "type": "report",
+      "victim": "",
+      "agressor": "",
+      "notes": "A mother refused to send her children to the school. The Indian Agent reports that there were eleven similar cases at the beginning of the year.",
+      "ref": ["001354", "001360"]
+    }, {
+      "date": 1938,
+      "type": "incident",
+      "victim": "",
+      "agressor": "",
+      "notes": "A father removes his daughter from the school, returning her the following day upon the request of the Royal Canadian Mounted Police. It is later reported that the child's mother had refused to sign the admission application in her husband's absence. <BR> The government enacts Section 10 of the fudian Act. Truant boys from the school are returned by the Royal Canadian Mounted Police.",
+      "ref": ["001359", "003406", "001361", "006348A"]
+    }, {
+      "date": 1944,
+      "type": "incident",
+      "victim": "",
+      "agressor": "",
+      "notes": "Fourteen children from the Driftpile Reserve were reported truant.",
+      "ref": ["000921"]
+    }, {
+      "date": 1945,
+      "type": "report",
+      "victim": "",
+      "agressor": "",
+      "notes": "Nineteen children from the Driftpile Reserve and three from the Sucker Creek Reserve had parents who refused to send them to the school. The payment of Family Allowance was refused those individuals who had not returned their children to the school.",
+      "ref": ["000924", "000925"]
+    }, {
+      "date": 1946,
+      "type": "report",
+      "victim": "",
+      "agressor": "",
+      "notes": "Twenty-seven children from the Driftpile Reserve and 13 from the Sucker Creek Reserve were reported as truant.",
+      "ref": ["000928"]
+    }, {
+      "date": 1949,
+      "type": "incident",
+      "victim": "",
+      "agressor": "",
+      "notes": "A child was taken from the residence by her father without permission of the Principal.",
+      "ref": ["006311"]
+    }, {
+      "date": 1949,
+      "type": "report",
+      "victim": "",
+      "agressor": "",
+      "notes": "Families from the Sucker Creek Reserve, squatting on Provincial lands near the school so their children can attend as day pupils, had been denied Family Allowance.",
+      "ref": ["000292"]
+    }, {
+      "date": 1950,
+      "type": "report",
+      "victim": "",
+      "agressor": "",
+      "notes": "The Principal indicates that some parents were not sending children to the school.",
+      "ref": ["006153"]
+    }, {
+      "date": 1951,
+      "type": "incident",
+      "victim": "",
+      "agressor": "",
+      "notes": "After both parents refused to sign the application for admission forms, two children were admitted into the school against the wishes of parents.",
+      "ref": ["000935"]
+    }, {
+      "date": 1951.5,
+      "type": "incident",
+      "victim": "",
+      "agressor": "",
+      "notes": "The Indian Agent reports that the parents of four truant children were being charged under Section 118 of the Indian Act.",
+      "ref": ["000499"]
+    }, {
+      "date": 1952,
+      "type": "pol",
+      "victim": "",
+      "agressor": "",
+      "notes": "Band Council Resolution requested that children be allowed home on weekends. This resolution was approved.",
+      "ref": ["001709", "000308"]
+    }, {
+      "date": 1954,
+      "type": "report",
+      "victim": "",
+      "agressor": "",
+      "notes": "Two two-classroom day schools were proposed for the Driftpile and Sucker Creek Reserves. While the Driftpile Band approved this proposal, the Sucker Creek Band officially opposed it.",
+      "ref": ["005219A"]
+    }, {
+      "date": 1954.5,
+      "type": "report",
+      "victim": "",
+      "agressor": "",
+      "notes": "Discharging young men from the institution due to insubordination was becoming a problem.",
+      "ref": ["006336"]
+    }, {
+      "date": 1957,
+      "type": "incident",
+      "victim": "",
+      "agressor": "",
+      "notes": "A truant student from Whitefish Lake was to be sent to Joussard IRS.",
+      "ref": ["0006343"]
+    }, {
+      "date": 1960,
+      "type": "report",
+      "victim": "",
+      "agressor": "",
+      "notes": "The Sucker Creek Band once again opposed the suggestion of a Day school on the Reserve.",
+      "ref": ["000355"]
+    }, {
+      "date": 1963,
+      "type": "health",
+      "victim": "",
+      "agressor": "",
+      "notes": "A parent writes requesting grade nine instruction at Joussard IRS.",
+      "ref": ["000975G"]
+    }, {
+      "date": 1918,
+      "type": "health",
+      "victim": "",
+      "agressor": "",
+      "notes": "An breakout of Spanish influenza in Notthern Alberta left many children in the Region orphaned.",
+      "ref": ["000225"]
+    }, {
+      "date": 1923,
+      "type": "health",
+      "victim": "",
+      "agressor": "",
+      "notes": "Inspection indicates that 'with few exceptions the children are infected with venereal disease in various stages'.",
+      "ref": ["000595"]
+    }, {
+      "date": 1927,
+      "type": "health",
+      "victim": "",
+      "agressor": "",
+      "notes": "The Principal of the school reports that the Board of Health condemned the water being drawn from the well. Obtaining an adequate water supply appears to have been an on-going problem at the school. Throughout the school's history, several attempts were made to procure a suitable water well; as these were quite numerous, they do not appear in the Buildings section of this narrative. Running water was available in the school by at least 1931, however it appears that for the majority of time the school was open, water was drawn from the lake rather than a well, and treated so as to be fit for drinking and domestic use.",
+      "ref": ["005058"]
+    }, {
+      "date": 1941,
+      "type": "health",
+      "victim": "",
+      "agressor": "",
+      "notes": "Schools in Alberta were closed due to medical reasons.",
+      "ref": ["001371"]
+    }, {
+      "date": 1947,
+      "type": "health",
+      "victim": "",
+      "agressor": "",
+      "notes": "School began late due to Measles epidemic on the Sucker Creek Reserve.",
+      "ref": ["001607"]
+    }, {
+      "date": 1936,
+      "type": "incident",
+      "victim": "",
+      "agressor": "",
+      "notes": "An inquest was held into the death of a pupil at the school. No other information provided.",
+      "ref": ["003384"]
+    }, {
+      "date": 1947,
+      "type": "incident",
+      "victim": "",
+      "agressor": "",
+      "notes": "The death of a pupil was reported; no additional information as to the cause of death was provided.",
+      "ref": ["006310"]
+    }, {
+      "date": 1967,
+      "type": "incident",
+      "victim": "",
+      "agressor": "",
+      "notes": "A student was reported to have died of kidney failure. An inquest into the death determined that it was not due to the negligence of any party. The jury did however make the following recommendations: (1) That a complete medical record be maintained by the nurse in charge of every patient treated; (2) That the administration take steps to ensure adequate supervision at all times that children are in residence; (3) That the administrator take steps to ensure that adequate communication 1) between administrator and nurse and 2) between administrator and supervisors be put on a routine basis.",
+      "ref": ["004746A"]
+    }, {
+      "date": 1925,
+      "type": "policy",
+      "victim": "",
+      "agressor": "",
+      "notes": "'Girls, except under special circumstances, are discharged at the age of eighteen. Boys are discharged after completing the full age of sixteen'.",
+      "ref": ["004502"]
+    }, {
+      "date": 1926,
+      "type": "policy",
+      "victim": "",
+      "agressor": "",
+      "notes": "'If you will examine Section 10 of the Indian Act, you will note that the department can enforce attendance at school in the case of all physically fit Indian children from 7 to 15 years of age. The law does not give us power to make any other regulations concerning the matter'.",
+      "ref": ["000257"]
+    }, {
+      "date": 1934,
+      "type": "policy",
+      "victim": "",
+      "agressor": "",
+      "notes": "' ... the policy of the Department in instituting residential schools was not simply for the purpose of giving the Indian children academic training, but also to train them in domestic science ... '.",
+      "ref": ["004969"]
+    }, {
+      "date": 1948,
+      "type": "policy",
+      "victim": "",
+      "agressor": "",
+      "notes": "' .. .Indian children who attend the J oussard Indian Residential school as day pupils would be classed as truants for purposes of compiling the amount of Family Allowances payments due'.",
+      "ref": ["000288"]
+    }, {
+      "date": 1949,
+      "type": "policy",
+      "victim": "",
+      "agressor": "",
+      "notes": "'The Family Allowance Act does not provide any legal ground for the suspension of allowances on behalf of these children provided they attend school regularly'.",
+      "ref": ["000287"]
+    }, {
+      "date": 1958,
+      "type": "policy",
+      "victim": "",
+      "agressor": "",
+      "notes": "Section 117 of the Indian Act reads as follows: <BR><em>'Every child who is required to attend school shall attend such school as the Minister may designate, but no child whose parent is a Protestant shall be assigned to a school conducted under Roman Catholic auspices and no child whose parent is a Roman Catholic shall be assigned to a school conducted under Protestant auspices, except by written direction of the parent'</em><BR>Section 115 states that:<BR><em>'Every Indian child that has attained the age of seven years shall attend school'.</em>",
+      "ref": ["004721"]
+    }, {
+      "date": 1961,
+      "type": "policy",
+      "victim": "",
+      "agressor": "",
+      "notes": "Following the request of a parent from the Sucker Creek Band to have his child admitted to the residence, the Regional Superintendent outlined the government's policy for residential admission:<BR><em>'The Indian Residential School is maintained to provide for children from broken homes, or whose parents are unable to provide the proper care and directions; for the children of migrant hunters and trappers whose way of life makes day school arrangements impracticable and for high school students unable to attend school as day pupils'</em>",
+      "ref": ["003378"]
+    }, {
+      "date": 1962,
+      "type": "policy",
+      "victim": "",
+      "agressor": "",
+      "notes": "The government wrote in response to complaints raised by the Bishop and school Principal concerning admission policy:<BR><em>'At one time Principals of the residential schools and the Missionaries had a very free hand in selecting and assigning pupils to residential schools. Now that the Department is exercising closer control I recognize that we expect misunderstandings and friction'</em>",
+      "ref": ["006036"]
+    }]
+  }
+}

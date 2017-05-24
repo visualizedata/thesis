@@ -1,0 +1,628 @@
+{
+  "name": "Cariboo IRS (Williams Lake)",
+  "type": "Residential",
+  "location": {
+    "province": "British Columbia",
+    "city": "Williams Lake",
+    "latLng": {
+      "lat": 52.06208889,
+      "lng": -121.9520306
+    }
+  },
+  "narrativeDate": "09-11-01",
+  "startYear": 1891,
+  "endYear": 1981,
+  "data": {
+    "nameVariants": [{
+      "startYear": 1891,
+      "endYear": 1920,
+      "name": "Williams Lake Industrial School/St. Joseph's Industrial School",
+      "note": "",
+      "ref": ["JP-0042", "13009"]
+    }, {
+      "startYear": 1920,
+      "endYear": 1927,
+      "name": "Cariboo Industrial School/Cariboo Indian Industrial School",
+      "note": "",
+      "ref": ["JP-0042", "13009A"]
+    }, {
+      "startYear": 1923,
+      "endYear": 1981,
+      "name": "Cariboo Residential School/Cariboo Indian Residential School",
+      "note": "",
+      "ref": ["13071", "28210"]
+    }, {
+      "startYear": 1929,
+      "endYear": 1981,
+      "name": "St. Joseph's Mission School",
+      "note": "",
+      "ref": ["19122"]
+    }, {
+      "startYear": 1932,
+      "endYear": 1932,
+      "name": "St. Joseph's Indian Residential School",
+      "note": "",
+      "ref": ["25150"]
+    }, {
+      "startYear": 1963,
+      "endYear": 1969,
+      "name": "St. Joseph's Residential School",
+      "note": "",
+      "ref": ["19149A"]
+    }, {
+      "startYear": 1967,
+      "endYear": 1987,
+      "name": "Cariboo Student Residence/Cariboo Indian Student Residence",
+      "note": "",
+      "ref": ["28438A", "14532"]
+    }, {
+      "startYear": 1891,
+      "endYear": 1981,
+      "name": "Indian School at 150 Mile House",
+      "note": "Being located at 150 Mile House, the school was also frequently referred to as the Indian School at 150 Mile House",
+      "ref": ["27359"]
+    }],
+    "chronoHistory": [{
+      "date": 1891,
+      "desc": ["Williams Lake Industrial School was opened under the auspices ofthe Roman Catholic Church."],
+      "ref": ["06600", "60001", "JP-0013"]
+    }, {
+      "date": 1954,
+      "desc": ["Construction of new school building completed."],
+      "ref": ["25540"]
+    }, {
+      "date": 1961,
+      "desc": ["Approval granted for transfer ofgrade 9 students from Cariboo Indian Residential School to the Public High School at Williams Lake."],
+      "ref": ["28210"]
+    }, {
+      "date": 1962,
+      "desc": ["For the 1962-1963 school year, grade 10 students are enrolled at the Prince George Catholic High School and grade 9 students at Williams Lake Public High School."],
+      "ref": ["06207"]
+    }, {
+      "date": 1964,
+      "desc": ["Stone Indian Day School closes until September 1965. As a result, 23 children transferred to Cariboo IRS in January 1965."],
+      "ref": ["13681"]
+    }, {
+      "date": 1968,
+      "desc": ["Joint School Submission covering the complete integration of all Indian pupils in School District No. 27."],
+      "ref": ["60201", "60202"]
+    }, {
+      "date": 1981,
+      "desc": ["Cariboo Student Residence closed."],
+      "ref": ["28438A"]
+    }],
+    "notesHistory": [],
+    "management": [{
+      "startYear": 1891,
+      "endYear": 1969,
+      "org": "church",
+      "orgName": "Indianescom (Oblate Indian and Eskimo Commission)",
+      "type": ["Management", "Teaching", "Staff"],
+      "ref": ["JP-0013", "121642", "121653", "00371"]
+    }, {
+      "startYear": 1969,
+      "endYear": 1981,
+      "org": "government",
+      "orgName": "Federal Government of Canada",
+      "type": ["Management", "Teaching", "Staff"],
+      "ref": ""
+    }],
+    "enrollment": [{
+      "year": 1892,
+      "number": 20,
+      "notes": ""
+    }, {
+      "year": 1893,
+      "number": 30,
+      "notes": ""
+    }, {
+      "year": 1894,
+      "number": 30,
+      "notes": ""
+    }, {
+      "year": 1895,
+      "number": 30,
+      "notes": ""
+    }, {
+      "year": 1896,
+      "number": 30,
+      "notes": ""
+    }, {
+      "year": 1897,
+      "number": 30,
+      "notes": ""
+    }, {
+      "year": 1898,
+      "number": 30,
+      "notes": ""
+    }, {
+      "year": 1899,
+      "number": 30,
+      "notes": ""
+    }, {
+      "year": 1900,
+      "number": 30,
+      "notes": ""
+    }, {
+      "year": 1901,
+      "number": 30,
+      "notes": ""
+    }, {
+      "year": 1902,
+      "number": 30,
+      "notes": ""
+    }, {
+      "year": 1903,
+      "number": 30,
+      "notes": ""
+    }, {
+      "year": 1904,
+      "number": 30,
+      "notes": ""
+    }, {
+      "year": 1905,
+      "number": 30,
+      "notes": ""
+    }, {
+      "year": 1906,
+      "number": 30,
+      "notes": ""
+    }, {
+      "year": 1907,
+      "number": 30,
+      "notes": ""
+    }, {
+      "year": 1908,
+      "number": 30,
+      "notes": ""
+    }, {
+      "year": 1909,
+      "number": 30,
+      "notes": ""
+    }, {
+      "year": 1910,
+      "number": 30,
+      "notes": ""
+    }, {
+      "year": 1911,
+      "number": 30,
+      "notes": ""
+    }, {
+      "year": 1912,
+      "number": 30,
+      "notes": ""
+    }, {
+      "year": 1913,
+      "number": 30,
+      "notes": ""
+    }, {
+      "year": 1914,
+      "number": 30,
+      "notes": ""
+    }, {
+      "year": 1915,
+      "number": 60,
+      "notes": ""
+    }, {
+      "year": 1916,
+      "number": 60,
+      "notes": ""
+    }, {
+      "year": 1917,
+      "number": 60,
+      "notes": ""
+    }, {
+      "year": 1918,
+      "number": 60,
+      "notes": ""
+    }, {
+      "year": 1919,
+      "number": 60,
+      "notes": ""
+    }, {
+      "year": 1920,
+      "number": 60,
+      "notes": ""
+    }, {
+      "year": 1921,
+      "number": 60,
+      "notes": ""
+    }, {
+      "year": 1922,
+      "number": 60,
+      "notes": ""
+    }, {
+      "year": 1923,
+      "number": 60,
+      "notes": ""
+    }, {
+      "year": 1924,
+      "number": 60,
+      "notes": ""
+    }, {
+      "year": 1925,
+      "number": 60,
+      "notes": ""
+    }, {
+      "year": 1926,
+      "number": 60,
+      "notes": ""
+    }, {
+      "year": 1927,
+      "number": 80,
+      "notes": ""
+    }, {
+      "year": 1928,
+      "number": 80,
+      "notes": ""
+    }, {
+      "year": 1929,
+      "number": 80,
+      "notes": ""
+    }, {
+      "year": 1930,
+      "number": 80,
+      "notes": ""
+    }, {
+      "year": 1931,
+      "number": 80,
+      "notes": ""
+    }, {
+      "year": 1932,
+      "number": 80,
+      "notes": ""
+    }, {
+      "year": 1933,
+      "number": 80,
+      "notes": ""
+    }, {
+      "year": 1934,
+      "number": 80,
+      "notes": ""
+    }, {
+      "year": 1935,
+      "number": 120,
+      "notes": ""
+    }, {
+      "year": 1936,
+      "number": 120,
+      "notes": ""
+    }, {
+      "year": 1937,
+      "number": 120,
+      "notes": ""
+    }, {
+      "year": 1938,
+      "number": 120,
+      "notes": ""
+    }, {
+      "year": 1939,
+      "number": 120,
+      "notes": ""
+    }, {
+      "year": 1940,
+      "number": 120,
+      "notes": ""
+    }, {
+      "year": 1941,
+      "number": 120,
+      "notes": ""
+    }, {
+      "year": 1942,
+      "number": 120,
+      "notes": ""
+    }, {
+      "year": 1943,
+      "number": 120,
+      "notes": ""
+    }, {
+      "year": 1944,
+      "number": 120,
+      "notes": ""
+    }, {
+      "year": 1945,
+      "number": 120,
+      "notes": ""
+    }, {
+      "year": 1946,
+      "number": 120,
+      "notes": ""
+    }, {
+      "year": 1947,
+      "number": 110,
+      "notes": ""
+    }, {
+      "year": 1948,
+      "number": 110,
+      "notes": ""
+    }, {
+      "year": 1949,
+      "number": 110,
+      "notes": ""
+    }, {
+      "year": 1950,
+      "number": 110,
+      "notes": ""
+    }, {
+      "year": 1951,
+      "number": 110,
+      "notes": ""
+    }, {
+      "year": 1952,
+      "number": 170,
+      "notes": ""
+    }, {
+      "year": 1953,
+      "number": 220,
+      "notes": ""
+    }, {
+      "year": 1954,
+      "number": 282,
+      "notes": ""
+    }, {
+      "year": 1955,
+      "number": 282,
+      "notes": ""
+    }, {
+      "year": 1956,
+      "number": 273,
+      "notes": ""
+    }, {
+      "year": 1957,
+      "number": 273,
+      "notes": ""
+    }, {
+      "year": 1958,
+      "number": 273,
+      "notes": ""
+    }, {
+      "year": 1959,
+      "number": 280,
+      "notes": ""
+    }, {
+      "year": 1960,
+      "number": 280,
+      "notes": ""
+    }, {
+      "year": 1961,
+      "number": 303,
+      "notes": ""
+    }, {
+      "year": 1962,
+      "number": 303,
+      "notes": ""
+    }, {
+      "year": 1963,
+      "number": 296,
+      "notes": ""
+    }, {
+      "year": 1964,
+      "number": 296,
+      "notes": ""
+    }, {
+      "year": 1965,
+      "number": 308,
+      "notes": ""
+    }, {
+      "year": 1966,
+      "number": 308,
+      "notes": ""
+    }, {
+      "year": 1967,
+      "number": 287,
+      "notes": ""
+    }, {
+      "year": 1968,
+      "number": 256,
+      "notes": ""
+    }, {
+      "year": 1969,
+      "number": 256,
+      "notes": ""
+    }, {
+      "year": 1970,
+      "number": 271,
+      "notes": ""
+    }, {
+      "year": 1971,
+      "number": 271,
+      "notes": ""
+    }, {
+      "year": 1972,
+      "number": 271,
+      "notes": ""
+    }, {
+      "year": 1973,
+      "number": 271,
+      "notes": ""
+    }, {
+      "year": 1974,
+      "number": 261,
+      "notes": ""
+    }, {
+      "year": 1975,
+      "number": 261,
+      "notes": ""
+    }, {
+      "year": 1976,
+      "number": 185,
+      "notes": ""
+    }, {
+      "year": 1977,
+      "number": 185,
+      "notes": ""
+    }, {
+      "year": 1978,
+      "number": 117,
+      "notes": ""
+    }, {
+      "year": 1979,
+      "number": 117,
+      "notes": ""
+    }, {
+      "year": 1980,
+      "number": 56,
+      "notes": ""
+    }],
+    "reserves": ["alexandria", "alexisCreek", "alkaliLake", "anahimLake", "andersonLake", "ashcroft", "bonaparte", "bridgeRiver", "canimLake", "canoeCreek", "clinton", "coldwater", "cowichan", "dogCreek", "euchinico", "fountain", "highBar", "kamloops", "kluskus", "lakeBabine", "lillooet", "littleShuswap", "moricetown", "mountCurrie", "nazko", "nemiahValley", "northThompson", "pavillion", "pemberton", "quesnel", "redstone", "riskeCreek", "setonLake", "skwah", "sodaCreek", "squamish", "stoney", "toosey", "ulkatcho", "williamsLake"],
+    "religiousGroups": [{
+      "group": "Oblates of Mary Immaculate",
+      "ref": ["06624"]
+    }, {
+      "group": "Sisters oflnstruction ofthe Child Jesus",
+      "ref": ["JP-0201", "JP-0202"]
+    }],
+    "writtenAgreements": [{
+      "date": 1962,
+      "title": "",
+      "desc": "Agreement for the Operation of Cariboo Indian Residential School, between Her Majesty the Queen in Right of Canada represented by the Minister of Citizenship and Immigration and Indianescom (Oblate Indian and Eskimo Commission) - September 25, 1962",
+      "ref": ["00371"]
+    }, {
+      "date": 1981,
+      "title": "",
+      "desc": "Chaplaincy Contract - March 31, 1981",
+      "ref": ["62011A"]
+    }],
+    "additionalInformation": [{
+      "date": 1902,
+      "type": "physical",
+      "victim": "three children",
+      "agressor": "",
+      "notes": "In February 1902, three children ran away from the school resulting in the death of one child from exposure and exhaustion. An inquiry into the death revealed allegations of physical abuse and poor conditions at the school, including students receiving excessive punishment and being forced to eat rotten food. It is alleged that the three children, including the deceased child, ran away from the school as a result ofthese conditions.",
+      "ref": ["47074", "47107"]
+    }, {
+      "date": 1920,
+      "type": "physical",
+      "victim": "",
+      "agressor": "staff",
+      "notes": "In 1920, a complaint was received from the parent of a student at the school regarding a staff member who 'was much too free with his cane.' This parent also alleges, in reference to a case where nine children ingested hemlock, resulting in the death o f one child and the illness o f the remaining eight, that the children 'were in a very depressed frame of mind' and ingested the poisonous weed deliberately.",
+      "ref": ["47108", "47116"]
+    }, {
+      "date": 1946,
+      "type": "physical",
+      "victim": "",
+      "agressor": "",
+      "notes": "In April 1946, a police report detailed the allegations of a student regarding physical abuse by a religious resident at the school. The student alleged that the individual 'walked up to him, threw him down, his stomach stricking [sic] a stick ofwood, struck him with his hand, then when the [student] tried to get up, the [individual] kicked him.' This individual was removed from the school as a result.ofthis incident.",
+      "ref": ["44047", "44053"]
+    }, {
+      "date": 1980,
+      "type": "physical",
+      "victim": "",
+      "agressor": "Brother Glen Doughty",
+      "notes": "Brother Glen Doughty was convicted on June 28, 1991, for abuse perpetrated at Cariboo IRS and was sentenced to 12 months in prison. He was also convicted in April 1995, and in October 2002, for abuse perpetrated at Kuper Island IRS. [RCMP News Release, April 23, 2003]",
+      "ref": ""
+    }, {
+      "date": 1979,
+      "type": "physical",
+      "victim": "",
+      "agressor": "Father Harold McIntee",
+      "notes": "Father Harold Mcintee was convicted in May 1989 for abuse perpetrated at Cariboo IRS. He was sentenced to 3 years in prison and 3 years probation. [RCMP News Release, April23, 2003]",
+      "ref": ""
+    }, {
+      "date": 1978,
+      "type": "physical",
+      "victim": "",
+      "agressor": "Bishop Hubert O'Conner",
+      "notes": "Bishop Hubert O'Conner was charged in 1992 for abuse perpetrated at Cariboo IRS. After two appeals to the Supreme Court, the charges were eventually stayed. [RCMP News Release, April 23, 2003]",
+      "ref": ""
+    }, {
+      "date": 1938,
+      "type": "incident",
+      "victim": "",
+      "agressor": "",
+      "notes": "In 1938, a Reverend Father writes to the Provincial regarding certain Fathers in the Province. In the course of his letter, he refers to boys admitting to practicing sodomy. It is difficult to determine whether the children he is referring to are students at Cariboo IRS. He also mentions general misconduct of the Oblates, however the misconduct is not necessarily of a physical or sexual nature.",
+      "ref": ["45000"]
+    }, {
+      "date": 1899,
+      "type": "incident",
+      "victim": "",
+      "agressor": "",
+      "notes": "In 1899, a complaint by a Williams Lake resident which accused the Oblates of poor management ofthe school, led to an unannounced inspection ofthe school by the Indian Agent and School Superintendent. This inspection concluded that the charges were unfounded.",
+      "ref": ["JP-0027", "JP-0028"]
+    }, {
+      "date": 1911,
+      "type": "incident",
+      "victim": "",
+      "agressor": "",
+      "notes": "In 1911, a boy charged with the attempted rape of a six year old girl was placed in the residential school.",
+      "ref": ["JP-0039"]
+    }, {
+      "date": 1955,
+      "type": "incident",
+      "victim": "",
+      "agressor": "",
+      "notes": "In 1955, some 'unfortunate publicity' was issued by the British United Press concerning the school. This publicity surrounds the unsupervised discharge of a student from the school.",
+      "ref": ["01292", "JP-0527"]
+    }, {
+      "date": 1958,
+      "type": "program",
+      "victim": "",
+      "agressor": "",
+      "notes": "In 1958, a Girls' Pipe Band was started at the school. The band toured throughout Canada.",
+      "ref": ["22075B"]
+    }, {
+      "date": 1969,
+      "type": "report",
+      "victim": "",
+      "agressor": "",
+      "notes": "In 1969, a complaint was made regarding the 'mal-administration' ofthe school by the Superintendent.",
+      "ref": ["20810", "20810A", "21937", "21805"]
+    }, {
+      "date": 1927,
+      "type": "health",
+      "victim": "",
+      "agressor": "",
+      "notes": "In 1927, flu and meningitis outbreaks caused the death oftwo pupils.",
+      "ref": ["13190"]
+    }, {
+      "date": 1928,
+      "type": "health",
+      "victim": "",
+      "agressor": "",
+      "notes": "In 1928, an analysis ofthe drinking water at the school determined that it was not safe for domestic use.",
+      "ref": ["28761", "62003", "62003A"]
+    }, {
+      "date": 1943,
+      "type": "health",
+      "victim": "",
+      "agressor": "",
+      "notes": "In 1943, there was an outbreak ofmumps that affected at least 84 students/",
+      "ref": ["20855"]
+    }, {
+      "date": 1945,
+      "type": "health",
+      "victim": "",
+      "agressor": "",
+      "notes": "In 1945, it appears that an annex was constructed to be used as an infirmary and for isolation purposes. The new school building also contained an infirmary.",
+      "ref": ["JP-0060", "JP-0205"]
+    }, {
+      "date": 1947,
+      "type": "health",
+      "victim": "",
+      "agressor": "",
+      "notes": "In 1947, the hair ofthree students was found to be infested with nits",
+      "ref": ["21223"]
+    }, {
+      "date": 1956,
+      "type": "health",
+      "victim": "",
+      "agressor": "",
+      "notes": "In 1956, there was an outbreak ofmeasles at the school",
+      "ref": ["25662"]
+    }, {
+      "date": 1960,
+      "type": "health",
+      "victim": "",
+      "agressor": "",
+      "notes": "In 1960, there were epidemics ofinfluenza, measles, and chicken pox.",
+      "ref": ["60320"]
+    }, {
+      "date": 1969,
+      "type": "health",
+      "victim": "",
+      "agressor": "",
+      "notes": "In 1969, there was an infestation ofbedbugs in\nPRINCIP ALS/ADMINISTRA TORS\nthe school dormitory",
+      "ref": ["64706A"]
+    }]
+  }
+}

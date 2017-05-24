@@ -1,0 +1,219 @@
+{
+  "name": "Federal Hostel at Frobisher Bay (Ukkivik Student Residence)",
+  "type": "Residential",
+  "location": {
+    "province": "Nunavut",
+    "city": "Iqaluit",
+    "latLng": {
+      "lat": 63.757575,
+      "lng": -68.54323333
+    }
+  },
+  "narrativeDate": "09-11-01",
+  "startYear": 1971,
+  "endYear": 1995,
+  "data": {
+    "nameVariants": [{
+      "startYear": 1971,
+      "endYear": 1995,
+      "name": "Ukkivik Student Residence",
+      "note": "",
+      "ref": ["FBS-000056-0001"]
+    }, {
+      "startYear": 1971,
+      "endYear": 1995,
+      "name": "Ukkivik Residence ",
+      "note": "",
+      "ref": ["FBS-000436"]
+    }, {
+      "startYear": 1971,
+      "endYear": 1995,
+      "name": "Frobisher Bay Pupil Residence",
+      "note": "",
+      "ref": ["FBS-000420"]
+    }],
+    "chronoHistory": [{
+      "date": 1971,
+      "desc": ["1971 A letter dated February 19, 1971 shows the details of a Student Bus Contract between the Department ofPublic Works and Ritchie Mechanical Contractors (1963) Ltd.. The contractor will provide bus services to the students from the hostel to the base high school. The costs for the bus service are as follows: <BR><em>250 students- $77,011.00<br> 300 students- $81,633.00<br> 350 students- $158,644.00 <br>400 students- $163,264.00</em>", "Ukkivik Student Residence opens in September."],
+      "ref": ["FBS-000415", "FBS-000414"]
+    }, {
+      "date": 1972,
+      "desc": ["A letter dated June 19, 1972 to the Regional Superintendent ofEducation shows the Administrator ofUkkivik Residence, Rod McKenzie, tendering his resignation effective June 30th.", "A letter to the Director of Education dated November 22, 1972 shows the Administrator ofUkkivik Residence, James A. Earle, tendering his resignation effective December 15th. A letter from the Assistant Superintendent ofEducation dated November 23, 1972 shows his acceptance of said resignation. Mr. Ron Allen is appointed as Acting Administrator of the residence.", "A letter from the Supervisor of Student Services dated December 20, 1972 addressed to the Director of Education reports on his visit to the Ukkivik Residence. The letter states that there were 95 students in residence, 12 Child Care Workers, a Matron and an Office Clerk.", "The Regional Director is directly responsible for the operation of the Ukkivik Residence. The Residence Supervisor directly reports to the Regional Director and not through the Superintendent of Education."],
+      "ref": ["FBS-000436", "FBS-000427", "FBS-000428", "FBS-000430-0000", "FBS-000432"]
+    }, {
+      "date": 1977,
+      "desc": ["A petition addressed to the Residence Administrator dated January 19, 1977 and signed by Ukkivik students requests that they go to school during the combined Spring Break and Easter holidays so they could go home earlier to join their families on the land. This matter was brought to the attention of the Regional Superintendent of Education and the Minister of Education. A letter shows that the Minister of Education decided the holiday would go on as scheduled but Ukkivik students may be given an educational program during the break so they could be returned home earlier than the date specified in the school calendar."],
+      "ref": ["FBS-000435-0001", "FBS- 000435-0000", "FBS-000435-0002", "FBS-000440"]
+    }, {
+      "date": 1991,
+      "desc": ["A review committee was established to gather information on the operation of the student residence and make recommendations. The new Ukkivik Student Residence is scheduled to open in the 1992-93 school year. The committee recommends the establishment of a Steering Committee to solve the transition problems in the move to the new residence. It would recommend the policy, guidelines and budget under which the Administration would operate the Residence. A reduction of staff is expected for the new residence. Operating costs are projected to be $1,235,100."],
+      "ref": ["FB S-000446"]
+    }, {
+      "date": 1992,
+      "desc": ["The new Ukkivik Residence opens for the 1992-93 school year. It can accommodate up to 40 students, mostly in a two-to-a-room format. There is a small kitchen outfitted to allow the students to help themselves to a continental breakfast and snacks, a large mixed student lounge, a boy's lounge, a girl's lounge, laundry facilities and administration offices. Mid-day and evening meals are provided to the students at the high school cafeteria which is located next door to the residence."],
+      "ref": ["FBS-000451"]
+    }, {
+      "date": 1994,
+      "desc": ["Interested individual or firms are invited to submit proposals to evaluate the present use of three student residences in Iqaluit, Inuvik and Rankin Inlet and recommend future directions. The Senior Secondary School Policy, developed by the Department of Education Culture and Employment, mandated all Boards with the responsibility of developing and implementing community high school programs within their jurisdiction. Because of this, the number of high school students who must leave their home community and require accommodation has declined significantly. Changes in the Department's approach to student accommodations are therefore required."],
+      "ref": ["FBS-000453-0001"]
+    }, {
+      "date": 1995,
+      "desc": ["A letter dated January 24, 1995 to the Director of the Baffin Divisional Board of Education from the Deputy Director of the Northwest Territories Education, Culture and Employment discusses the new funding formula for student residences. The letter indicates that the need for large student residences is expected to diminish to the point of being no longer required due to rapidly declining enrolments as more students are able to receive all their education with their own community. In light of this, residence/homeboarding funding will be based on a formula applied to all divisional boards. The proposed funding formula WIll not provide funding to boards for the residence/ homeboarding costs of students who attend a regional high school where high school grades exist in a community or busing to another community's high school is provided. Where vacant residence space is available, homeboarding funding will not be provided. Variable funding for student residences/homeboarding will be based on the projected number of students for September/October for the first semester and on actual number of students at the beginning of the second semester. The implementation of the formula is to take effect for the school year 1995-96.", "A letter dated January 20, 1995 to the Minister of Education, Culture and Employment from Members of the Nunavut Caucus expresses concerns that the proposed student residential formula funding to take effect in the 1995-96 school year will result in the forced closure ofKivalliq Hall and Ukkivik Residences. They are asking the Minister to delay the implementation of the proposed changes until the results of the review process on the future role of regional large residences being conducted by Avery, Cooper and Associates are made available and can be considered by their constituents.", " A draft of a report dated February 2, 1995 presents the consultants' initial analysis and proposed recommendations on the future of the Ukkivik Residence. The report indicates that there has been a steady decline of enrolment at the new Residence since the first year of operation in 1992-93. Grade extensions reduced the initial enrolment of 41 students to 28 students in 1993-94 and 25 students in 1994-95. Advanced students now compose half of the population at Ukkivik. In 1995-96, it is projected that the number of students who will leave their home communities in order to continue their secondary school education is projected at 30 students. It also emphasized that the current facility has a high level of fixed costs which must be paid regardless of the number of residents. The report recommends that Ukkivik be phased out as a large residence with an institutional approach and operated using a small residence approach. Ukkivik would operate with two sets of house parents due to the larger number of students. It would accommodate up to 36 students. Minor renovations would be needed to bring the meals in-house and create living space for two sets of house parents. Home boarding is not an option due to the current housing shortage.", " An electronic mail dated April 26 h from Lome Levy of the Baffin Divisional Board shows the Board's decision to privatize the residence and proceed with lay- offs for the staff at Ukkivik, composing of 6 dormitory supervisors, 1 academic counselor, 1 janitor and 1 clerk. A private contract to run the residence will take effect for the next academic school year, 1995-96.", " Ukkivik Student Residence closed in June."],
+      "ref": ["FBS-0004 50-0000", "FBS-000449", "FB S-000451", "FBS-000452", "FBS-000439"]
+    }],
+    "notesHistory": [],
+    "management": [{
+      "startYear": 1971,
+      "endYear": 1995,
+      "org": "government",
+      "orgName": "Baffin Divisional Board of Education, Government of the Northwest Territories",
+      "type": ["Management", " Staff", " Teaching"],
+      "ref": ["."]
+    }],
+    "enrollment": [{
+      "year": 1971,
+      "number": "163",
+      "notes": ""
+    }, {
+      "year": 1972,
+      "number": "136",
+      "notes": ""
+    }, {
+      "year": 1973,
+      "number": "104",
+      "notes": ""
+    }, {
+      "year": 1974,
+      "number": "79",
+      "notes": ""
+    }, {
+      "year": 1975,
+      "number": "78",
+      "notes": ""
+    }, {
+      "year": 1976,
+      "number": "90",
+      "notes": ""
+    }, {
+      "year": 1977,
+      "number": "90",
+      "notes": ""
+    }, {
+      "year": 1978,
+      "number": "96",
+      "notes": ""
+    }, {
+      "year": 1979,
+      "number": "100",
+      "notes": ""
+    }, {
+      "year": 1980,
+      "number": "78",
+      "notes": ""
+    }, {
+      "year": 1981,
+      "number": "120",
+      "notes": ""
+    }, {
+      "year": 1982,
+      "number": "134",
+      "notes": ""
+    }, {
+      "year": 1984,
+      "number": "101",
+      "notes": ""
+    }, {
+      "year": 1985,
+      "number": "92",
+      "notes": ""
+    }, {
+      "year": 1986,
+      "number": "85",
+      "notes": ""
+    }, {
+      "year": 1987,
+      "number": "88",
+      "notes": ""
+    }, {
+      "year": 1989,
+      "number": "88",
+      "notes": ""
+    }, {
+      "year": 1990,
+      "number": "54",
+      "notes": ""
+    }, {
+      "year": 1991,
+      "number": "54",
+      "notes": ""
+    }, {
+      "year": 1992,
+      "number": "41",
+      "notes": ""
+    }, {
+      "year": 1993,
+      "number": "28",
+      "notes": ""
+    }],
+    "reserves": ["arcticBay", "bakerLake", "broughtonIsland", "chesterfieldInlet", "clydeRiver", "coralHarbour", "dorset", "eskimoPoint", "griseFiord", "hallBeach", "iglooik", "lakeHarbour", "pangnirtung", "pondInlet", "rankinInlet", "repulseBay", "resoluteBay", "sanikiluaq"],
+    "religiousGroups": [],
+    "writtenAgreements": [],
+    "additionalInformation": [{
+      "date": 1971,
+      "type": "report",
+      "victim": "",
+      "agressor": "",
+      "notes": "The parents of two students told the police that their children had returned from school with black eyes.A memorandum dated October 19, 1971 to the Regional Superintendent of Education from the Principal of GREC reveals his concerns regarding the operation of the student residence. There have been a high number of students who arrive at the residence intoxicated after a weekend pass, who return late or not return at all, and who sneak out. There are also concerns regarding the approach some of the students are taking towards their supervisors, and the attitude of some of the students and supervisors towards the teachers who attempted to correct them in the residence. A fight broke out between a Frobisher Bay boy and a staff member who was allegedly intoxicated. Students have been afraid to stay at the residence and want to go home because of these incidents. The Principal also relayed unofficial stories he heard about the residence- such as 'students roaming about all night and some staying at undesirable places, male and female students seen in dark corners of the residence necking and petting, students being in the warehouse, boxes of shaving lotion bottles found under the residence, boys visiting girls' rooms, female students practicing prostitution, etc.. <BR> A memorandum dated October 27, 1971 and addressed to the Residence Administrator of the Frobisher Bay Pupil Residence reveals problems and concerns in the operation of the pupil residence. The lack of supplies and equipment, new and inexperienced staff members, and the presence of a large number of teachers in the residence have caused difficulties. The Residence Administrator is being asked to establish administrative procedures to correct the situation at the residence and to correct the image of the residence as 'anything goes.' Reports also indicate that certain residents live in fear because of the drinking and fighting that goes on in the residence",
+      "ref": ["FBS-000419", "FBS-000420"]
+    }, {
+      "date": 1972,
+      "type": "report",
+      "victim": "",
+      "agressor": "",
+      "notes": "A memorandum dated October 31, indicates that a review of the food services at the hostel is being requested. Many accounts suggest that 'the quality and quantity of the food leaves much to be desired'. <BR>A letter dated March 27, 1972 by a Child Care Worker addressed to the Residence Administrator indicates his stand on the reporting of venereal disease and the guardianship of students in residence. He refused to divulge information to the Residence Administrator regarding students who advise him of the disease. According to the letter, the law no longer requires cases to be reported to parents where the individual is 16 years or older. This letter was forwarded to the Supervisor of Student Residences by the Student Administrator for interpretation and advice.<BR> A letter of resignation dated March 22, 1972 was submitted by a Child Care Worker. She cited the lack ofleadership and the way the residential situation is being controlled as her reasons for resigning. <BR>A letter dated July 6, 1972 from the Principal ofGREC to the Regional Superintendent ofEducation reports the conduct of two students and a staff member pertaining to the residence. It is reported that this student 'got in bed' with a female student in her room using a master key. This student and another student have visited female students' rooms and consequently female students are afraid to live in the residence. This student has threatened students, and his friend has threatened and beaten male students. A staff member is reported to have a considerable amount of liquor in his room and would occasionally invite female students and give them liquor. There have been miscarriages, abortion and births, as well as a lot of drinking and fighting, this year. The Principal stresses the need for more rigid rules and input on choosing the new Residence Administrator. <BR>A letter dated November 26, 1972 reveals students' discontent with how the residence is being run. They feel that they have issues that are not being heard and addressed. Their frustrations have caused some to act out, such as damaging the property and fighting with one another. The letter also reveals the tension between the Administrator and the Supervisors, and between the Supervisors and the students. They are asking the Regional Director to consider appointing John Nuyens as Administrator of the residence to fix this situation. <BR>A letter dated December 20, 1972 from the Supervisor of Student Services addressed to the Director ofEducation details his visit to the Ukkivik Residence. He reports that the front hall carpet was covered with cigarette burns, the walls were dirty, and the boys' bedrooms were a mess. There were obscene writings on the walls. There was minimal programming within the residence. Students complained of boredom. Meetings were held to discuss the fate of some Child Care Workers who were unfit for the job. One Child Care Worker was a 'heavy drinker and a woman chaser' and another has a relationship with one of the older students. Individual interviews were held with the Staff Two of the Staff members were requested to resign and another staff member's resignation was accepted effective immediately. One of the Child Care Workers was offered the position of Administrator.",
+      "ref": ["FBS-000426", "FBS-000423-0001", "FBS-000422-0001", "FBS-000424", "FBS-000429", "FBS-000430-0000"]
+    }, {
+      "date": 1973,
+      "type": "report",
+      "victim": "",
+      "agressor": "",
+      "notes": "A report written by a former Child Care Worker at Ukkivik Student Residence details the conditions at the residence and her recommendations for improving the situation. The report reveals that many students are not receiving medical attention for eye and ear complaints. There is a lot of fighting and drinking at the residence, and may have been partly caused by culture shock experienced by the students who were taken out from their home communities and the easy access to liquor in Frobisher Bay. Funding issues are also mentioned in the report. There are no funds to purchase clothing for the residents especially during winter. Many of the planned programs were not implemented due to lack of equipment and proper facilities. The report recommends that Native food should be served to the students as food is being thrown away because Eskimos are not used to the new diet.<BR> The report also mentions the staff problems at Ukkivik with the recent spates of resignations. The report cites the isolation experienced by the Staff members due to the dearth of activities in Frobisher Bay and the extreme change in weather and daylight hours. The differences in culture also pose a challenge for the staff to work competently with Eskimo teenagers. The living conditions of the staff have also been cited. Living in the hostel with the students subjects them to be on call 24 hours a day and causes a lack of privacy. The lack of communication and follow up between the staff, the administrator and other government officials also contribute to the frustrations of the Staff.",
+      "ref": ["FBS-000431", "FBS-000431"]
+    }, {
+      "date": 1974,
+      "type": "report",
+      "victim": "",
+      "agressor": "",
+      "notes": "A report dated February 28, 1974 to the Chief Superintendent of Education from the Supervisor of Student Services and Special Projects details his visit to the Ukkivik Residence. He reports a dramatic change in the operation of the residence since his last visit in December 1972. There is now empathy between students and Staff Programming within the residence has improved and the place is bustling with activity. Alcohol abuse has been eliminated due to the variety of activities available within the residence and the use of community facilities. Cooperation between the residence and school has improved as they share each other's facilities, both during the day and evening periods. An In-Service Training for Child Care Workers is being implemented by the Administrator, John Nuyens, and the Senior Child Care Worker, Lizette Horkovec.",
+      "ref": ["FBS-000434-0000"]
+    }, {
+      "date": 1975,
+      "type": "porgram",
+      "victim": "",
+      "agressor": "",
+      "notes": "A Gordon Robertson Education Centre newsletter dated November 7, 1975 talks about the activities for the students at Ukkivik Student Residence. The Residence has a gymnasium, art room, kitchen, games room, and students' lounges. There are dances at the school or Residence on Fridays, and movies on Saturdays. On Sunday morning there is a bus that picks up students for church services in Frobisher Bay and there is a church service on Sunday evening at the Residence",
+      "ref": ["FBS-000437"]
+    }, {
+      "date": 1987,
+      "type": "program",
+      "victim": "",
+      "agressor": "",
+      "notes": "<em>Undated, c. 1987-1991</em>: A form letter to incoming students ofUkkivik Residence instructs them to read and sign the Residence handbook, which contains activities and rules. The rule book also has a form for parents to sign to give them permission to go on weekend passes, hunting trips and exchange trips. The students are encouraged to bring their own stereos and radios, as well as bathing suits and skates. Ukkivik rents the skating rink and swimming pool and the school uses the pool for gym. They are also asked to bring their health card, birth certificate and social insurance card. It is also indicated that there are 2 or 3 banquet nights during the year at the residence and students are encouraged to bring dresses or suits appropriate to the occasion.",
+      "ref": ["FBS-000443"]
+    }, {
+      "date": 1987,
+      "type": "policy",
+      "victim": "",
+      "agressor": "",
+      "notes": "<em>Undated, c. 1987-1991</em>: A handbook of the Ukkivik Student Residence outlines the daily routine for students:<BR><em> Monday to Friday: Wake up begins at 6:30. Breakfast is served from 7:00- 7:45. Students leave for school at 8:15am and return from school at 4:00 pm. Snacks is served and free time for those with no chores. Dinner is served from 5:00 to 5:45pm. Compulsory study hour in the cafeteria is from 6:15 to 7:15pm from Monday to Thursday. Recreational activities within Ukkivik are available from 7:30 to 10:00 pm. From Monday to Thursday, all students must be at their proper floors in the residence (boys on the 2nd floor, girls on the 3rd) by 10:00 pm. Students must be at their rooms by 10:30 pm. Lights out at 11:00 pm.<BR> On Saturday, all students must be up by 10:00 am. Breakfast is served from 8:00 to 8:45am. Clean-up starts at 10:00 am and must be done by 11:30 am. Brunch is served from 11:00 am to 12:45 pm. Supper is served from 5:00 to 5:45pm. Students must be back at the residence at 11:45 pm on Friday and Saturday.<BR> On Sunday, all students must be up by 11:00 am. Brunch is served from 11:00 am to 12:45 pm. Supper is served from 5:00 to 5:45pm and Study Hour is from 6:00 to 6:45 pm.<BR> Students may leave after cleaning their rooms on Friday, and must return to the residence by 10:00 pm Sunday night. Visiting hours are from 7:30 to 9:30pm on Sunday to Thursday, 7:30 to 10:30 pm on Friday and Saturday, and 2:00 to 4:00pm on Saturday and Sunday.",
+      "ref": ["FBS-000444"]
+    }, {
+      "date": 1987.5,
+      "type": "policy",
+      "victim": "",
+      "agressor": "",
+      "notes": "Residence students are given a weekly allowance of$5.00.",
+      "ref": ["FBS-000445"]
+    }]
+  }
+}

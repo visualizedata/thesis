@@ -1,0 +1,194 @@
+{
+  "name": "Guy Hill (Clearwater) IRS",
+  "type": "Residential",
+  "location": {
+    "province": "Manitoba",
+    "city": "The Pas",
+    "latLng": {
+      "lat": 53.98446111,
+      "lng": -101.0379389
+    }
+  },
+  "narrativeDate": "09-11-01",
+  "startYear": 1952,
+  "endYear": 1979,
+  "data": {
+    "nameVariants": [{
+      "startYear": 1952,
+      "endYear": 1979,
+      "name": "Sturgeon Landing Boarding School",
+      "note": "",
+      "ref": ["GUY-000043"]
+    }, {
+      "startYear": 1952,
+      "endYear": 1979,
+      "name": "Guy Residential School",
+      "note": "",
+      "ref": ["GUY-000049"]
+    }, {
+      "startYear": 1952,
+      "endYear": 1979,
+      "name": "Guy Indian Residential School",
+      "note": "",
+      "ref": ["GUY-000050"]
+    }, {
+      "startYear": 1952,
+      "endYear": 1979,
+      "name": "Sturgeon Landing Indian Residential School",
+      "note": "",
+      "ref": ["GUY-000055"]
+    }, {
+      "startYear": 1952,
+      "endYear": 1979,
+      "name": "Residential Guy School",
+      "note": "",
+      "ref": ["GUY-000067"]
+    }, {
+      "startYear": 1952,
+      "endYear": 1979,
+      "name": "Indian Boarding School at Sturgeon Landing",
+      "note": "",
+      "ref": ["GUY-000650"]
+    }, {
+      "startYear": 1952,
+      "endYear": 1979,
+      "name": "Guy R.C. Indian Residential School",
+      "note": "",
+      "ref": ["GUY-000089"]
+    }, {
+      "startYear": 1952,
+      "endYear": 1979,
+      "name": "Guy Indian Residential Boarding School",
+      "note": "",
+      "ref": ["GUY-000102a"]
+    }, {
+      "startYear": 1952,
+      "endYear": 1979,
+      "name": "Guy School",
+      "note": "",
+      "ref": ["GUY-000108"]
+    }, {
+      "startYear": 1952,
+      "endYear": 1979,
+      "name": "Guy (Sturgeon Landing) Indian Residential School",
+      "note": "",
+      "ref": ["GUY-00162"]
+    }, {
+      "startYear": 1952,
+      "endYear": 1979,
+      "name": "Guy Student Residence",
+      "note": "",
+      "ref": ["GUY-000440"]
+    }, {
+      "startYear": 1952,
+      "endYear": 1979,
+      "name": "Guy Hill Student Residence",
+      "note": "",
+      "ref": ["GUY-000578"]
+    }],
+    "chronoHistory": [{
+      "date": 1952,
+      "desc": ["Temporary school opens in The Pas, Manitoba, after Guy school burnt down."],
+      "ref": ["NWT000539", "NWT000023", "NWT000088", "NWT000416]."]
+    }, {
+      "date": 1979,
+      "desc": ["School closes"],
+      "ref": ["NWT000539", "NWT000023", "NWT000088", "NWT000416]."]
+    }],
+    "notesHistory": [],
+    "management": [{
+      "startYear": 1952,
+      "endYear": 1969,
+      "org": "church",
+      "orgName": "Oblates of Mary Immaculate",
+      "type": ["Management", " Administered"],
+      "ref": ["GUY-000060"]
+    }, {
+      "startYear": 1969,
+      "endYear": 1971,
+      "org": "church",
+      "orgName": "INDIANESCOM (Oblate Indian-Eskimo Commission)",
+      "type": ["Management", " Administered"],
+      "ref": ["GUY-000496", "GUY-000458"]
+    }, {
+      "startYear": 1971,
+      "endYear": 1979,
+      "org": "government",
+      "orgName": "Government of Manitoba",
+      "type": ["Management", " Administered"],
+      "ref": ["GUY-000524"]
+    }],
+    "enrollment": [],
+    "reserves": [""],
+    "religiousGroups": [{
+      "group": "Oblates .of Mary Immaculate",
+      "ref": ["GUY-000060"]
+    }, {
+      "group": "Sisters of St. Joseph of St. Hyacinthe, Quebec",
+      "ref": ["GUY-000637a"]
+    }, {
+      "group": "Archdiocese of Keewatin - Le Pas",
+      "ref": ["GUY-000060"]
+    }],
+    "writtenAgreements": [{
+      "date": 1962,
+      "title": "",
+      "desc": "Agreement for the operation of Guy school between the government of Canada and the (Oblate) Indian-Eskimo Commission",
+      "ref": ["GUY-000410a"]
+    }, {
+      "date": 1969,
+      "title": "",
+      "desc": "Between the Government of Canada and the Oblate Indian & Eskimo Council (Roman Catholic Church) to provide advisory and liaison duties",
+      "ref": ["GUY-000474"]
+    }, {
+      "date": 1969,
+      "title": "",
+      "desc": "Between the Government of Canada and the Catholic Archbishop of The Pas- Keewatin to provide chaplaincy services",
+      "ref": ["GUY-000482a"]
+    }, {
+      "date": 1972,
+      "title": "",
+      "desc": "Between the Government of Canada and the Catholic Archbishop of The Pas- Keewatin to provide chaplaincy services",
+      "ref": ["GUY-000555a"]
+    }, {
+      "date": 1973,
+      "title": "",
+      "desc": "Between the Government of Canada and the Oblate Indian & Eskimo Council (Roman Catholic Church) to provide advisory and liaison duties",
+      "ref": ["GUY-000564,", "GUY-000565a"]
+    }, {
+      "date": 1974,
+      "title": "",
+      "desc": "Between the Government of Canada and the Oblate Indian & Eskimo Council (Roman Catholic Church) to provide advisory and liaison duties",
+      "ref": ["GUY-000571"]
+    }],
+    "additionalInformation": [{
+      "date": 1952,
+      "type": "incident",
+      "victim": "",
+      "agressor": "",
+      "notes": "School burns to ground September 4, 1952.",
+      "ref": ["GUY-000147", "GUY-000148"]
+    }, {
+      "date": 1958,
+      "type": "health",
+      "victim": "",
+      "agressor": "",
+      "notes": "'this school is woefully overcrowded and I note that the double deck beds which were recommended are still lacking. From a health point of view though would be of material benefit to the children.' Document also notes that there is a 'rather serious epidemic which has affected 19 boys of various ages. This may turn out to be tuberculosis...'<BR> Nineteen boys of all ages are in bed from an unknown sickness.",
+      "ref": ["GUY-000129a", "GUY-000133f]"]
+    }, {
+      "date": 1958.5,
+      "type": "health",
+      "victim": "",
+      "agressor": "",
+      "notes": "Water at new school is contaminated and 'found to be dangerous as it contains bacteria usually found in sewage'.",
+      "ref": ["GUY-000336"]
+    }, {
+      "date": 1959,
+      "type": "health",
+      "victim": "",
+      "agressor": "",
+      "notes": "Water at school is still unhealthy to consume.",
+      "ref": ["GUY-000345a"]
+    }]
+  }
+}

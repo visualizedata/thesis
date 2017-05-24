@@ -1,0 +1,359 @@
+{
+  "name": "Coqualeetza RS (Chilliwack Home)",
+  "type": "Residential",
+  "location": {
+    "province": "British Columbia",
+    "city": "Chilliwack / Sardis",
+    "latLng": {
+      "lat": 49.13593056,
+      "lng": -121.9599472
+    }
+  },
+  "narrativeDate": "09-11-01",
+  "startYear": 1889,
+  "endYear": 1940,
+  "data": {
+    "nameVariants": [{
+      "startYear": "1889",
+      "endYear": "1924",
+      "name": "Coqualeetza Boarding School",
+      "note": "",
+      "ref": ["00323"]
+    }, {
+      "startYear": "1889",
+      "endYear": "1924",
+      "name": "Coqualeetza Institute",
+      "note": "",
+      "ref": ["00328"]
+    }, {
+      "startYear": "1889",
+      "endYear": "1924",
+      "name": "Coqualeetza Home",
+      "note": "",
+      "ref": ["00329"]
+    }, {
+      "startYear": "1889",
+      "endYear": "1924",
+      "name": "Coqualeetza Industrial Institute",
+      "note": "",
+      "ref": ["00330"]
+    }, {
+      "startYear": "1889",
+      "endYear": "1924",
+      "name": "Indian Industrial Institute, Chilliwack",
+      "note": "",
+      "ref": ["00331"]
+    }, {
+      "startYear": "1889",
+      "endYear": "1924",
+      "name": "Chilliwack Home",
+      "note": "",
+      "ref": ["00332"]
+    }, {
+      "startYear": "1889",
+      "endYear": "1924",
+      "name": "Coqualeetza Institute",
+      "note": "",
+      "ref": ["00335A"]
+    }, {
+      "startYear": "1889",
+      "endYear": "1924",
+      "name": "Coqualeetza Industrial School",
+      "note": "",
+      "ref": ["00376"]
+    }, {
+      "startYear": "1889",
+      "endYear": "1924",
+      "name": "Coqualeetza Indian Institute",
+      "note": "",
+      "ref": ["00897A"]
+    }, {
+      "startYear": "1889",
+      "endYear": "1924",
+      "name": "Coqualeetza Training Institute",
+      "note": "",
+      "ref": ["00957"]
+    }, {
+      "startYear": "1924",
+      "endYear": "1939",
+      "name": "Coqualeetza Residential School",
+      "note": "",
+      "ref": ["00957"]
+    }, {
+      "startYear": "1924",
+      "endYear": "1939",
+      "name": "Coqualeetza Indian Residential School",
+      "note": "",
+      "ref": ["00004"]
+    }],
+    "chronoHistory": [{
+      "date": 1889,
+      "desc": ["School building constructed."],
+      "ref": ["00984"]
+    }, {
+      "date": 1891,
+      "desc": ["Fire destroyed the school building."],
+      "ref": ["00973", "00961"]
+    }, {
+      "date": 1894,
+      "desc": ["April 26, Coqualeetza Industrial Institue opened"],
+      "ref": ["00984", "00972", "00280"]
+    }, {
+      "date": 1924,
+      "desc": ["The new Coqualeetza IRS was formally opened in October."],
+      "ref": ["00973", "00972", "00916"]
+    }, {
+      "date": 1939,
+      "desc": ["February, first mention of Coqualeetza IRS being transformed into a sanatorium. June, a resolution was adopted by the Executive of the Board of Home Missions of the United Church of Canada approving the handing over of the Coqualeetza IRS to be used as a Government Tuberculosis sanatorium."],
+      "ref": ["00572", "00589B", "00607A", "00629A"]
+    }],
+    "notesHistory": [],
+    "management": [{
+      "startYear": 1886,
+      "endYear": 1940,
+      "org": "church",
+      "orgName": "Women's Missionary Society of the Methodist Church, Board of Home Missions of the United Church",
+      "type": ["Management", "Teaching", "Staff"],
+      "ref": ["00241", "00255", "00328", "00961", "00916", "00607A", "5138", "00543"]
+    }],
+    "enrollment": [{
+      "year": 1890,
+      "number": 28,
+      "notes": ""
+    }, {
+      "year": 1891,
+      "number": 28,
+      "notes": ""
+    }, {
+      "year": 1892,
+      "number": 28,
+      "notes": ""
+    }, {
+      "year": 1893,
+      "number": 28,
+      "notes": ""
+    }, {
+      "year": 1894,
+      "number": 63,
+      "notes": ""
+    }, {
+      "year": 1895,
+      "number": 86,
+      "notes": ""
+    }, {
+      "year": 1896,
+      "number": 97,
+      "notes": ""
+    }, {
+      "year": 1897,
+      "number": 97,
+      "notes": ""
+    }, {
+      "year": 1898,
+      "number": 119,
+      "notes": ""
+    }, {
+      "year": 1899,
+      "number": 123,
+      "notes": ""
+    }, {
+      "year": 1900,
+      "number": 110,
+      "notes": ""
+    }, {
+      "year": 1901,
+      "number": 110,
+      "notes": ""
+    }, {
+      "year": 1902,
+      "number": 110,
+      "notes": ""
+    }, {
+      "year": 1903,
+      "number": 104,
+      "notes": ""
+    }, {
+      "year": 1904,
+      "number": 104,
+      "notes": ""
+    }, {
+      "year": 1905,
+      "number": 107,
+      "notes": ""
+    }, {
+      "year": 1906,
+      "number": 107,
+      "notes": ""
+    }, {
+      "year": 1907,
+      "number": 83,
+      "notes": ""
+    }, {
+      "year": 1908,
+      "number": 93,
+      "notes": ""
+    }, {
+      "year": 1909,
+      "number": 110,
+      "notes": ""
+    }, {
+      "year": 1910,
+      "number": 110,
+      "notes": ""
+    }, {
+      "year": 1911,
+      "number": 99,
+      "notes": ""
+    }, {
+      "year": 1912,
+      "number": 99,
+      "notes": ""
+    }, {
+      "year": 1913,
+      "number": 94,
+      "notes": ""
+    }, {
+      "year": 1914,
+      "number": 94,
+      "notes": ""
+    }, {
+      "year": 1915,
+      "number": 117,
+      "notes": ""
+    }, {
+      "year": 1916,
+      "number": 117,
+      "notes": ""
+    }, {
+      "year": 1917,
+      "number": 117,
+      "notes": ""
+    }, {
+      "year": 1918,
+      "number": 117,
+      "notes": ""
+    }, {
+      "year": 1919,
+      "number": 144,
+      "notes": ""
+    }, {
+      "year": 1920,
+      "number": 144,
+      "notes": ""
+    }, {
+      "year": 1921,
+      "number": 137,
+      "notes": ""
+    }, {
+      "year": 1922,
+      "number": 151,
+      "notes": ""
+    }, {
+      "year": 1924,
+      "number": 180,
+      "notes": ""
+    }, {
+      "year": 1925,
+      "number": 211,
+      "notes": ""
+    }, {
+      "year": 1926,
+      "number": 215,
+      "notes": ""
+    }, {
+      "year": 1927,
+      "number": 215,
+      "notes": ""
+    }, {
+      "year": 1928,
+      "number": 215,
+      "notes": ""
+    }, {
+      "year": 1929,
+      "number": 271,
+      "notes": ""
+    }, {
+      "year": 1930,
+      "number": 237,
+      "notes": ""
+    }, {
+      "year": 1931,
+      "number": 237,
+      "notes": ""
+    }, {
+      "year": 1932,
+      "number": 237,
+      "notes": ""
+    }, {
+      "year": 1933,
+      "number": 237,
+      "notes": ""
+    }, {
+      "year": 1934,
+      "number": 264,
+      "notes": ""
+    }, {
+      "year": 1935,
+      "number": 169,
+      "notes": ""
+    }, {
+      "year": 1936,
+      "number": 169,
+      "notes": ""
+    }, {
+      "year": 1937,
+      "number": 169,
+      "notes": ""
+    }, {
+      "year": 1938,
+      "number": 232,
+      "notes": ""
+    }, {
+      "year": 1939,
+      "number": 260,
+      "notes": ""
+    }],
+    "reserves": ["Aiyansh", "Bella Balla", "Bella Coola", "Campbell River", "Capliano", "Chemainus", "Clo'oose", "Cowichan", "Gitlakdamix", "Haida", "Hartley Bay", "Hazelton", "Kemano", "Kilgard", "Kincolith", "Kitalope", "Kitamaat", "Kitkatla", "Klemtu", "Koksilah", "Lakalsap", "Lytton", "Malahat", "Massett", "Musqueam", "Nanaimo", "Nanoose", "Nitinaht", "Port Essington", "Port Renfrew", "Port Simpson", "Quamichan", "Saanichton", "Salishan", "Salmon River", "Skulayn", "Somenos", "Soowahlia", "Sumas", "Teheaston"],
+    "religiousGroups": [{
+      "group": "Methodist Church, Women's Missionary Society/United Church, Board of Home Missions",
+      "ref": ["00241", "00255", "00328", "00916", "00607A", "00961", "00534", "00596", "00897A", "5138", "00543"]
+    }],
+    "writtenAgreements": [],
+    "additionalInformation": [{
+      "date": 1900,
+      "type": "physical",
+      "victim": "",
+      "agressor": "teachers",
+      "notes": "In 1900, there was a complaint made about the treatment ofthe students by the teachers, there were allegations of physical abuse and of being locked in a room.",
+      "ref": ["00344", "00345", "00346", "00347", "00348", "00348A", "00349"]
+    }, {
+      "date": 1940,
+      "type": "physical",
+      "victim": "unnamed male student",
+      "agressor": "unnamed male staff member",
+      "notes": "In June and July o f 1940, there was an investigation conducted into allegations o f physical abuse at the school. The allegations were first made by a male staff member to the government, alleging that another male staff member attempted to strike a male pupil on the face and then administereda'...severethrashing...withapieceofharnesstrace...'onabarebottom. Hefurther stated that this was '...the common form ofpunishment...towards the boys.' The investigation carried out by the government collected statements from 5 staff members and concluded that '...there has been no ill-treatment whatever ofthe boys as alleged..' It was recommended to the Principal that the use ofcorporal punishment be limited, his permission first be obtained and, when it is deemed necessary, a regulation school strap made of rubber be used.",
+      "ref": ["41349", " 41350", " 41351", "41351A", " 41351B", " 41351C", " 41351D", " 41351E", " 41351F", " 41358", " 41359"]
+    }, {
+      "date": 1915,
+      "type": "report",
+      "victim": "",
+      "agressor": "",
+      "notes": "In 1915, some parents of children at the school wrote to the Government complaining that their children returned from the school in the same clothes they left in, their shoes were worn out and that the food they were provided with at the school was insufficient. [00392] In response the Government inspected the school and found 'On the whole...the Indian parents have no just cause for complaint.'",
+      "ref": ["00406", " 00410"]
+    }, {
+      "date": 1935,
+      "type": "health",
+      "victim": "",
+      "agressor": "",
+      "notes": "It appears that there was an infirmary in operation at Coqualeetza Residential School... In 1935/1936, a Preventorium was constructed at the school for '...children who are most liable to contract Tuberculosis...'",
+      "ref": ["00005A", "00189", "00562", "01910", "00916", "00983"]
+    }, {
+      "date": 1900,
+      "type": "policy",
+      "victim": "",
+      "agressor": "",
+      "notes": "During the entire history ofthe school, vocational training was provided to the pupils in the areas ofcooking, laundering, manufacturing, arts and crafts, manual training, boat building, navigation and motor mechanics.",
+      "ref": ["00837", "00841", "00847", "000852", "00855", "00862", "00870", "00970", "00182Pl", "00182B,00182C,00182D,00191Pl,00183,00185,00188,00194,00187,00435,00958,00491", "00505", "00956,00537", "5122"]
+    }]
+  }
+}

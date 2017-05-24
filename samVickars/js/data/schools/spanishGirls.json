@@ -1,0 +1,38 @@
+{
+  "name": "Spanish Girls School (St. Anne's)",
+  "type": "Residential",
+  "location": {
+    "province": "Ontario",
+    "city": "city",
+    "latLng": {
+      "lat": 46.18693056,
+      "-82.355675": 0.000
+    }
+  },
+  "narrativeDate": "09-11-01",
+  "startYear": 1868,
+  "endYear": 1962,
+  "data": {
+    "nameVariants": [],
+    "chronoHistory": [],
+    "notesHistory": [],
+    "management": [],
+    "enrollment": [],
+    "reserves": [""],
+    "religiousGroups": [{
+      "group": "group",
+      "ref": ["number"]
+    }, {
+      "group": "group",
+      "ref": ["number"]
+    }, {
+      "group": "group",
+      "ref": ["number"]
+    }, {
+      "group": "group",
+      "ref": ["number"]
+    }],
+    "writtenAgreements": [],
+    "additionalInformation": []
+  }
+}

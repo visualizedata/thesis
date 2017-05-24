@@ -1,0 +1,38 @@
+{
+  "name": "Muscowequan (Touchwood)",
+  "type": "Residential",
+  "location": {
+    "province": "Saskatchewan",
+    "city": "city",
+    "latLng": {
+      "lat": 51.34141667,
+      "-104.0292583": 0.000
+    }
+  },
+  "narrativeDate": "09-11-01",
+  "startYear": 1889,
+  "endYear": 1997,
+  "data": {
+    "nameVariants": [],
+    "chronoHistory": [],
+    "notesHistory": [],
+    "management": [],
+    "enrollment": [],
+    "reserves": [""],
+    "religiousGroups": [{
+      "group": "group",
+      "ref": ["number"]
+    }, {
+      "group": "group",
+      "ref": ["number"]
+    }, {
+      "group": "group",
+      "ref": ["number"]
+    }, {
+      "group": "group",
+      "ref": ["number"]
+    }],
+    "writtenAgreements": [],
+    "additionalInformation": []
+  }
+}

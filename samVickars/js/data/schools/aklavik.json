@@ -1,0 +1,345 @@
+{
+  "name": "All Saints (Aklavik Anglican) RS",
+  "type": "Residential",
+  "location": {
+    "province": "Northwest Territories",
+    "city": "Aklavik",
+    "latLng": {
+      "lat": 68.22099722,
+      "lng": -135.0075444
+    }
+  },
+  "narrativeDate": "09-11-01",
+  "startYear": 1936,
+  "endYear": 1959,
+  "data": {
+    "nameVariants": [{
+      "startYear": 0,
+      "endYear": 0,
+      "name": "All Saints Residential School",
+      "note": "",
+      "ref": ["NWT000274", "NWT004001"]
+    }, {
+      "startYear": 0,
+      "endYear": 0,
+      "name": "All Saints Hostel",
+      "note": "",
+      "ref": ["ASU000039"]
+    }, {
+      "startYear": 0,
+      "endYear": 0,
+      "name": "All Saints Mission School",
+      "note": "",
+      "ref": ["ASU000004[001-001]"]
+    }, {
+      "startYear": 0,
+      "endYear": 0,
+      "name": "All Saints Anglican Mission",
+      "note": "",
+      "ref": ["NWT004000[001-001]"]
+    }, {
+      "startYear": 0,
+      "endYear": 0,
+      "name": "All Saints Anglican Residential School",
+      "note": "",
+      "ref": ["NWT000276]"]
+    }, {
+      "startYear": 0,
+      "endYear": 0,
+      "name": "All Saints Anglican Mission Residential School",
+      "note": "",
+      "ref": ["ASU000029"]
+    }, {
+      "startYear": 0,
+      "endYear": 0,
+      "name": "Aklavik Church of England Residential School",
+      "note": "",
+      "ref": ["ASU001093"]
+    }, {
+      "startYear": 0,
+      "endYear": 0,
+      "name": "Aklavik Anglican Residential School",
+      "note": "",
+      "ref": ["NWT004038[000-002]"]
+    }, {
+      "startYear": 0,
+      "endYear": 0,
+      "name": "Anglican Mission School, Aklavik",
+      "note": "",
+      "ref": ["NWT004000[000-001]", "NWT004002"]
+    }],
+    "chronoHistory": [{
+      "date": 1936,
+      "desc": ["The All Saints Residential School at Aklavik opened in 1936. <BR>Correspondence notes that the Anglican Residential School at Aklavik had a minimum pupilage of 80 in its first year of operation. Officials respond that they will receive payment for the 43 children currently in residence and that the pupilage for the school will be raised to 50 in the 1937-38 year. Further correspondence indicates that this figure was raised to 100 pupils."],
+      "ref": ["NWT003344", "NWT003348", "ASU016454", "ANGDC021559-21567", "ASU000002[001-001]", "ASU000003"]
+    }, {
+      "date": 1939,
+      "desc": ["A grant for the All Saints Mission School was received."],
+      "ref": ["ASU000004[001-001]"]
+    }, {
+      "date": 1941,
+      "desc": ["A letter from the Medical Health Officer notes that Mr. Shepherd, Principal of the Anglican Residential School has received a letter requesting that a child from the Roman Catholic School be transferred to the Anglican school. It is suggested that this transfer is unsatisfactory and a departmental ruling in the matter is requested. A followup telegram states that the transfer of children from one mission school to another during the school year will not be approved unless there are extenuating circumstances. When this is the case, details of the circumstances need to be submitted for review. A report indicates that the school has capacity for 150 children but that pupilage is limited to 100 children.", "An extract from a report notes that the garden at the Anglican Residential School was outstanding, producing a quality harvest."],
+      "ref": ["ASU000009", "ASU000011", "ANGDC021559-21567", "ASU000013"]
+    }, {
+      "date": 1950,
+      "desc": "A wireless message is received indicating that an outbreak of TB has occurred in the Aklavik Mission hospitals and that the [day] school will be used as an emergency hospital for patients with measles and other non-TB infected patients. It is suggested that the pending hiring of a teacher at Aklavik be postponed or cancelled until the school is no longer required as a hospital. The opening of the Aklavik school is postponed until July or August of 1950.",
+      "ref": ["ASU000022", "ASU000023", "ASU000024"]
+    }, {
+      "date": 1951,
+      "desc": "A report on Northern Education states that the Territorial Day School at Aklavik is a two room school and that the Anglican Residential School had three teachers at this time.",
+      "ref": ["NWT003000", "NWT003000"]
+    }, {
+      "date": 1952,
+      "desc": ["A memorandum to the Deputy Minister indicates that the Federal Day School at Aklavik must be expanded to meet anticipated needs for children accommodated at the Anglican Hostel. It is proposed that the All Saints 'hostel' be ready with the necessary staff to accommodate 170 pupils by September 1954 when a new school and teacher's residence is expected to be completed<br> A series of correspondence discussing Anglican children attending the Roman Catholic School at Aklavik requests that the authorities of the Roman Catholic faith include only children of this denomination within their schools. The Roman Catholic Church is said to be accepting Eskimo Anglican children over Roman Catholic Indian children<br> An inspection report provides a variety of information regarding All Saints Anglican Residential School at Aklavik. Teacher Reports indicate that grades 1 to 9 are taught at the school and time tables I curriculums are attached to each of these reports. The report also indicates that supplies at the school are quite limited and notes a need for maintenance of the existing educational facilities. A series of recommendations includes the following: hiring of qualified teachers; upgrades to facilities including lighting and water; the provision of additional playground equipment; and the provision of more books for primary grades. A typical menu is attached to the report.<br> A series of correspondence indicates that additional books may be provided to the school."],
+      "ref": ["ASU000043", "ASU000034", "ASU000035", "ASU000039", "ASU000027", "ASU000028", "ASU000036", "ASU000029", "ASU000030[000-002]", "ASU000031[000 - 001]", "ASU000031[001-001]"]
+    }, {
+      "date": 1953,
+      "desc": ["A document titled Assistance to Mission Schools I Mackenzie District indicates that an annual grant for the maintenance of school buildings and equipment was allowed. <br> A memorandum indicates that in the 1954-55 school year the new Federal School at Aklavik will be accommodating children presently attending All Saints Anglican School. It is estimated that two-thirds of the students attending the day school will be residents of the Anglican Hostel. The Church of England will no longer be hiringteachers and it is necessary for the federal government to supply teachers for the All Saints Hospital School."],
+      "ref": ["NWT004038[000-002]", "ASU000040", "ASU000041", "ASU000042"]
+    }, {
+      "date": 1956,
+      "desc": ["An inspection report regarding Aklavik school facilities notes that the Anglican Residential School operates three classrooms, that the school seemed to have a good kitchen and that at least one classroom was overcrowded.<br> A list of costs for education indicates grants for the Federal Day School at Aklavik began in the 1949-50 fiscal year and continued until 1955-54 [sic]. Enrollment figures for the Aklavik Federal School begin in the 1950-51 school year and continue through to 1953-54.<br> Correspondence indicates that the federal government and the Anglican Church entered into discussions regarding turning All Saints Residential School into a hostel where children were boarded at the hostel and attended the federal day school. Correspondence does not clearly indicate whether or not this plan was carried out.<br> A series of correspondence negotiates the attendance of Anglican children at the Roman Catholic Mission Residential School. This is allowed as long as these children are permitted to attend the All Saints Cathedral for church services on Sundays."],
+      "ref": ["ASU000047", "NWT000700 [002-007]", "NWT000700[003-007]", "NWT004000[001-001]", "ASU000045", "ASU000046"]
+    }, {
+      "date": 1957,
+      "desc": ["An undated document notes a meeting was held with Principal Kerr of the Federal Day School and Rev. Holman of All Saints Residential School discussing the amalgamation of grades 5 and greater with the Federal Day School (with the exception of seven grade 5 girls who would remain at the Residential School).", "An inspection report indicates that Rev. Holman reported a shortage of hostel staff and that he requires teachers to assist and sometimes supervise students.<br> A memorandum from the Chief of the Education Division notes that Grade 9 is taught only in the Anglican Residential School where they have 4 teachers and 111 students. Concerns regarding class sizes are raised and it is recommended that if the situation still exists one of the teachers be given some relief regarding her teaching duties."],
+      "ref": ["ASU000044", "NWT000998", "ASU000048"]
+    }, {
+      "date": 1958,
+      "desc": ["A list of appropriation ordinances for 1957-58 refers to the proportion of costs of northern education shared by the federal and territorial governments. The document notes that Aklavik will have two hostels of 250 students each.<br> A letter from the Director to the Department of Finance indicates that the two residential schools at Aklavik will be replaced by the two new 250-pupil federal school hostels at Inuvik scheduled to open on September 1, 1959."],
+      "ref": ["NWT000528", "NWT003221"]
+    }, {
+      "date": 1959,
+      "desc": ["Policy documents indicate that the former administrative and supervisory staff from All Saints were 'transplanted' into similar positions in the new Inuvik residence (Stringer Hall).<br> It appears there was some question as to whether all of the students accommodated in the mission residential schools at Aklavik would meet the criteria for attendance at the new hostels opening in Inuvik in September 1959. Additional correspondence indicates that where children had access to local facilities for the grades and subjects they wished to take they would not be eligible for admission to the new hostels. In the event that their needs could not be met by local schools they would be eligible for admission to a hostel at government expense.<br> An undated document titled 'Mission Residential Schools at Aklavik' notes that the Aklavik Anglican Residential School closed on June 30, 1959."],
+      "ref": ["NWT000023", "NWT000487", "NWT003274", "NWT003348"]
+    }],
+    "notesHistory": [],
+    "management": [{
+      "startYear": 1936,
+      "endYear": 1959,
+      "org": "church",
+      "orgName": "Missionary Society of Church of England in Canada",
+      "type": ["Management", "Teaching", "Staff"],
+      "ref": ["NWT003344", "ANGDC021559-21567"]
+    }, {
+      "startYear": 1956,
+      "endYear": 1959,
+      "org": "government",
+      "orgName": "Federal Government of Canada",
+      "type": ["Teaching"],
+      "ref": ["NWT003344", "NWT003348"]
+    }],
+    "enrollment": [{
+      "year": 1929,
+      "number": 44,
+      "notes": ""
+    }, {
+      "year": 1930,
+      "number": 44,
+      "notes": ""
+    }, {
+      "year": 1931,
+      "number": 44,
+      "notes": ""
+    }, {
+      "year": 1932,
+      "number": 44,
+      "notes": ""
+    }, {
+      "year": 1933,
+      "number": 44,
+      "notes": ""
+    }, {
+      "year": 1934,
+      "number": 44,
+      "notes": ""
+    }, {
+      "year": 1935,
+      "number": 44,
+      "notes": ""
+    }, {
+      "year": 1936,
+      "number": 44,
+      "notes": ""
+    }, {
+      "year": 1937,
+      "number": 26,
+      "notes": ""
+    }, {
+      "year": 1938,
+      "number": 34,
+      "notes": ""
+    }, {
+      "year": 1939,
+      "number": 30,
+      "notes": ""
+    }, {
+      "year": 1940,
+      "number": 29,
+      "notes": ""
+    }, {
+      "year": 1941,
+      "number": 44,
+      "notes": ""
+    }, {
+      "year": 1942,
+      "number": 50,
+      "notes": ""
+    }, {
+      "year": 1943,
+      "number": 51,
+      "notes": ""
+    }, {
+      "year": 1945,
+      "number": 70,
+      "notes": ""
+    }, {
+      "year": 1946,
+      "number": 39,
+      "notes": ""
+    }, {
+      "year": 1947,
+      "number": 44,
+      "notes": ""
+    }, {
+      "year": 1948,
+      "number": 64,
+      "notes": ""
+    }, {
+      "year": 1949,
+      "number": 55,
+      "notes": ""
+    }, {
+      "year": 1950,
+      "number": 63,
+      "notes": ""
+    }, {
+      "year": 1951,
+      "number": 68,
+      "notes": ""
+    }, {
+      "year": 1952,
+      "number": 104,
+      "notes": ""
+    }, {
+      "year": 1953,
+      "number": 106,
+      "notes": ""
+    }, {
+      "year": 1954,
+      "number": 108,
+      "notes": ""
+    }, {
+      "year": 1955,
+      "number": 106,
+      "notes": ""
+    }, {
+      "year": 1956,
+      "number": 114,
+      "notes": ""
+    }, {
+      "year": 1957,
+      "number": 109,
+      "notes": ""
+    }, {
+      "year": 1958,
+      "number": 112,
+      "notes": ""
+    }, {
+      "year": 1959,
+      "number": 106,
+      "notes": ""
+    }],
+    "reserves": ["aklavik", "banksIsland", "cambridgeBay", "delta", "fortMcPherson", "fortNorman", "herschelIsland", "holmanIsland", "perryRiver", "reindeerCamp", "spenceBay", "tuktoyaktuk"],
+    "religiousGroups": [{
+      "group": "Missionary Society of the Church of England in Canada (MSCC)",
+      "ref": ["ASU016444", "ANGDC021559-21567"]
+    }],
+    "writtenAgreements": [],
+    "additionalInformation": [{
+      "date": 1934,
+      "type": "health",
+      "victim": "",
+      "agressor": "",
+      "notes": "A letter from the Medical Health Officer notes that he believes that tuberculosis is prevented in students attending residential schools because of the proper regime of regular hours, good food and the close supervision from teaching staff and nurse.",
+      "ref": ["NPC-602546"]
+    }, {
+      "date": 1937,
+      "type": "health",
+      "victim": "",
+      "agressor": "",
+      "notes": "A telegram reports that a number of natives employed in the construction of the Anglican Mission School were ill with typhoid in summer and fall 1936 due to drinking water from the river without boiling it.",
+      "ref": ["NPC-622705"]
+    }, {
+      "date": 1938,
+      "type": "health",
+      "victim": "",
+      "agressor": "",
+      "notes": "A report notes that ice for drinking purposes at the school and hospital is cut from the river and stored in semi-subterranean covered chambers and boiled before use. The contents of sewage pail type privies and garbage which is not burned is deposited into the river at the end of the mission wharf.",
+      "ref": ["NPC-622988"]
+    }, {
+      "date": 1944,
+      "type": "health",
+      "victim": "",
+      "agressor": "",
+      "notes": "A memorandum notes that the doctor at Aklavik has been vaccinating and 'toxoiding' children in the two residential schools.",
+      "ref": ["NPC-622704"]
+    }, {
+      "date": 1950,
+      "type": "health",
+      "victim": "",
+      "agressor": "",
+      "notes": "Several reports discuss a measles epidemic at Aklavik. By Fall 1950 the town of Aklavik is under quarantine due to measles epidemic.<br> A letter notes concerns about the disposal of garbage near the Anglican school that requires clean-up.<br> A letter notes concerns about the disposal of wash water near the rear of the school buildings and recommends that the water be disposed of in drainage ditches or in the river.",
+      "ref": ["NPC-606176", "NPC-601412", "NPC-601407", "NPC-603141c", "NPC-60314la"]
+    }, {
+      "date": 1954,
+      "type": "health",
+      "victim": "",
+      "agressor": "",
+      "notes": "A letter notes that all school children at Aklavik receive an annual medical examination and the necessary vaccinations and innoculations.",
+      "ref": ["NPC-621703a"]
+    }, {
+      "date": 1939,
+      "type": "health",
+      "victim": "",
+      "agressor": "",
+      "notes": "A series of correspondence discusses the provision of dental services at the Anglican hospital at Aklavik. It is noted that student have received dental treatment at the hospital and a request is put forth that the government fund dental treatment for Anglican school children.",
+      "ref": ["ASU000005", "ASU000006"]
+    }, {
+      "date": 1934,
+      "type": "policy",
+      "victim": "",
+      "agressor": "",
+      "notes": "A letter from the Medical Health Officer discusses educational policy noting that because trapping is their future vocation the residential schools cannot be industrial for the boys. He recommends that the boys in the residential schools at Aklavik do not stay in school 'too long' as they are prevented from learning the art of trapping from their fathers while they are at school; he sees benefit to the girls staying in school as they learn sewing and how to keep house.",
+      "ref": ["NPC-602546"]
+    }, {
+      "date": 1946,
+      "type": "policy",
+      "victim": "",
+      "agressor": "",
+      "notes": "A letter notes that children at the Anglican school at Aklavik are forbidden to speak Eskimo.",
+      "ref": ["NPC-600901"]
+    }, {
+      "date": 1956,
+      "type": "policy",
+      "victim": "",
+      "agressor": "",
+      "notes": "All senior and some intermediate students participated in business arising out of the registered trapping area. Income from the sale of furs was used to purchase instruments for a school band (instruments included 12 guitars, 1 mandolin and 4 violins).",
+      "ref": ["NWT004001"]
+    }, {
+      "date": 1951,
+      "type": "policy",
+      "victim": "",
+      "agressor": "",
+      "notes": "Minutes from the N.W.T. Council Meeting note that Aklavik has three schools (two residential schools and one day school) which are all over-crowded. It is proposed that a new school will be constructed in 1953.",
+      "ref": ["ASU000026[001-001]"]
+    }, {
+      "date": 1957,
+      "type": "policy",
+      "victim": "",
+      "agressor": "",
+      "notes": "A memorandum from the Chief of the Education Division notes that the Anglican Residential School has 4 teachers and 111 students. Concerns regarding class sizes are raised and it is recommended that if the situation still exists one of the teachers be given some relief regarding her teaching duties.",
+      "ref": ["ASU000048"]
+    }]
+  }
+}

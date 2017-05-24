@@ -1,0 +1,243 @@
+{
+  "name": "Fort Alexander (Pine Falls) IRS",
+  "type": "Residential",
+  "location": {
+    "province": "Manitoba",
+    "city": "Fort Alexander",
+    "latLng": {
+      "lat": 50.61630833,
+      "lng": -96.30871667
+    }
+  },
+  "narrativeDate": "09-11-01",
+  "startYear": 1905,
+  "endYear": 1970,
+  "data": {
+    "nameVariants": [{
+      "startYear": 1905,
+      "endYear": 1925,
+      "name": "Fort Alexander Boarding School",
+      "note": "",
+      "ref": ["FAR-000003", "FAR-000059", "FAR-000014"]
+    }, {
+      "startYear": 1925,
+      "endYear": 1968,
+      "name": "Fort Alexander Indian Residential School;  Fort Alexander Residential School;  Fort Alexander Residential and Day",
+      "note": "",
+      "ref": ["FAR-002718", "FAR-004235", "FAR-004779-0000", "FAR-000143-0001", "FAR-005881", "FAR-000338", "FAR-000339"]
+    }, {
+      "startYear": 1968,
+      "endYear": 1970,
+      "name": "Fort Alexander Student Residence",
+      "note": "",
+      "ref": ["GUY-000440", "RCM-005947-0001", "FAR-000180"]
+    }],
+    "chronoHistory": [{
+      "date": 1904,
+      "desc": ["September: Fort Alexander Indian Boarding School was opened and inspected as of September 15, 1904."],
+      "ref": ["FAR-049999", "FAR-002709-0001"]
+    }, {
+      "date": 1905,
+      "desc": ["As of the fiscal year 1905-1906, Fort Alexander Residential School was Government owned.", "The Sisters from France known as 'Filles de la Croix', or Sisters of the Cross, provided services at the school until 1914. For other names for this order, see Religious Affiliation, above."],
+      "ref": ["FAR-004019-0000 IMR-000281 FAR-050005"]
+    }, {
+      "date": 1911,
+      "desc": ["Operational Agreement between the Government and the Oblates of Mary Immaculate signed for the operation of the Fort Alexander Boarding School."],
+      "ref": ["FAR-000059 FAR-000008-0001"]
+    }, {
+      "date": 1914,
+      "desc": ["On July 18, 1914, the first Oblate Sisters arrived at the boarding school to work as teachers and domestic staff."],
+      "ref": ["IMR-000281"]
+    }, {
+      "date": 1921,
+      "desc": ["The Principal of the Fort Alexander Boarding School was advised by the Government to discontinue the class for day pupils at the residential school."],
+      "ref": ["FAR-000013 FAR-000014"]
+    }, {
+      "date": 1937,
+      "desc": ["In 1937, the Oblate Fathers remodeled and constructed an addition to an annex of the school building to be used as a Preventorium for school children in order to aid in the prevention of tuberculosis. The Preventorium was operated from January 1938 to August 1939. By November 1939, the building was being used by the residential school as a dormitory."],
+      "ref": ["NPC-500112 FAR-060231 FAR-060226"]
+    }, {
+      "date": 1950,
+      "desc": ["Some Residential students were discharged from the Residential School to attend Fort Alexander No. 2 Indian Day School when it opened adjacent to the IRS in March 1950. Day and residential students were integrated in both the IRS classroom block and in the separate Day School."],
+      "ref": ["FAR-005277 FAR-060221 FAR-000237 FAR-005447 FAR-060222"]
+    }, {
+      "date": 1954,
+      "desc": ["Farming at the IRS is abandoned.", "September: Effective September 1, 1954, the Fort Alexander Day School No. 2, which had previously been a separate administrative entity, amalgamated with the Fort Alexander Residential School. The former day school building became a classroom for the IRS. (Please see 1951 to 1957 in 'Grades Taught section for more information)."],
+      "ref": ["FAR-000913-0002"]
+    }, {
+      "date": 1958,
+      "desc": ["July-September: High school pupils from Fort Alexander Residential School were to be transferred to the Assiniboia Residential School effective September 1958. The Principal’s Monthly Report for September 1958 confirms that only Beginner through Grades 7 were taught at the IRS."],
+      "ref": ["FAR-002406 FAR-004196 FAR-004091"]
+    }, {
+      "date": 1962,
+      "desc": ["The Government entered into an Agreement with INDIANESCOM (Indian Eskimo Commission of the Roman Catholic Church) for the operation of Fort Alexander Indian Residential School."],
+      "ref": ["FAR-000143-0001"]
+    }, {
+      "date": 1965,
+      "desc": ["Beginning January 1, 1965, kindergarten classes for the Fort Alexander IRS operated in a former separate Day School building. The kindergarten class was part of the IRS despite being held in a different building. The classes continued until sometime in 1966. (A May 1968 letter from the District Superintendent of Schools noted that the Day School building had not been used as a day or residential classroom for two years)."],
+      "ref": ["NCA-010791 FAR-002278 FAR-006365 FAR-003386 FAR-000155 FAR-002907"]
+    }, {
+      "date": 1966,
+      "desc": ["March to April: The school establishment number for Fort Alexander IRS changed from 579 to 019."],
+      "ref": ["FAR-000318 FAR-000319"]
+    }, {
+      "date": 1968,
+      "desc": ["The school name changed from Fort Alexander Indian Residential School to Fort Alexander Student Residence."],
+      "ref": ["GUY-000440 RCM-005947-0001"]
+    }, {
+      "date": 1969,
+      "desc": ["September: Classroom education was no longer offered; Fort Alexander Student Residence had become a student residence only. The former classroom block became the Sagkeeng Consolidated School.", "October The Fort Alexander Student Residence number was referred to as 552, formerly 019."],
+      "ref": ["ARS-001236 FAR-012769 FAR-005472-0001"]
+    }, {
+      "date": 1970,
+      "desc": ["The Student Residence was considered unsafe for residential occupancy in 1969, and closed June 30, 1970. At the time of closure, 45 students were enrolled at the Residence. The Department retained five of the buildings for day school purposes, and part of the land reverted back to Band ownership. The remaining buildings were turned over to the Fort Alexander Band Council and the student residence building was removed. One structure was subsequently used as a garment factory."],
+      "ref": ["FAR-000792 FAR-000180 FAR-000184-0003 FAR-000184-0005"]
+    }],
+    "notesHistory": [],
+    "management": [{
+      "startYear": 1904,
+      "endYear": 1970,
+      "org": "church",
+      "orgName": "Missionary Oblates of Mary Immaculate",
+      "type": ["Management Staff"],
+      "ref": ["NWT-000539[000-000]"]
+    }, {
+      "startYear": 1905,
+      "endYear": 1914,
+      "org": "church",
+      "orgName": "Sister of St. Andrew of the Cross",
+      "type": ["Teaching"],
+      "ref": ["NWT-000539[000-000]"]
+    }, {
+      "startYear": 1914,
+      "endYear": 1970,
+      "org": "church",
+      "orgName": "Missionary Oblate Sisters, St. Boniface",
+      "type": ["Teaching"],
+      "ref": ["NWTG-001339[000-000]"]
+    }],
+    "enrollment": [{
+      "year": 1904,
+      "number": "45",
+      "notes": ""
+    }, {
+      "year": 1905,
+      "number": "45",
+      "notes": ""
+    }, {
+      "year": 1906,
+      "number": "45",
+      "notes": ""
+    }, {
+      "year": 1907,
+      "number": "65",
+      "notes": ""
+    }, {
+      "year": 1923,
+      "number": "86",
+      "notes": ""
+    }, {
+      "year": 1931,
+      "number": "111",
+      "notes": ""
+    }, {
+      "year": 1949,
+      "number": "130",
+      "notes": ""
+    }, {
+      "year": 1959,
+      "number": "101",
+      "notes": ""
+    }, {
+      "year": 1961,
+      "number": "104",
+      "notes": ""
+    }, {
+      "year": 1963,
+      "number": "83",
+      "notes": ""
+    }, {
+      "year": 1965,
+      "number": "93",
+      "notes": ""
+    }, {
+      "year": 1970,
+      "number": "45",
+      "notes": ""
+    }],
+    "reserves": [""],
+    "religiousGroups": [],
+    "writtenAgreements": [],
+    "additionalInformation": [{
+      "date": 1904,
+      "type": "program",
+      "victim": "",
+      "agressor": "",
+      "notes": "Playgrounds and games for rainy days and evening hours.",
+      "ref": ["FAR-049999"]
+    }, {
+      "date": 1914,
+      "type": "program",
+      "victim": "",
+      "agressor": "",
+      "notes": "Outdoor activities, games, swings, baseball, football, and parallel bars.",
+      "ref": ["FAR-004126"]
+    }, {
+      "date": 1963,
+      "type": "program",
+      "victim": "",
+      "agressor": "",
+      "notes": "Hockey, skating, films, games handicrafts and music.",
+      "ref": ["FAR-004000-0004"]
+    }, {
+      "date": 1964,
+      "type": "program",
+      "victim": "",
+      "agressor": "",
+      "notes": "Piano lessons.",
+      "ref": ["FAR-002259"]
+    }, {
+      "date": 1965,
+      "type": "program",
+      "victim": "",
+      "agressor": "",
+      "notes": "Organized sports with provincial schools, singing, track and field meets.",
+      "ref": ["FAR-002194", "FAR-002188", "FAR-002189"]
+    }, {
+      "date": 1967,
+      "type": "program",
+      "victim": "",
+      "agressor": "",
+      "notes": "Track and field meet, hockey, tobogganing, baseball, films, games music and field trip.",
+      "ref": ["FAR-005353", "FAR-000563-0008"]
+    }, {
+      "date": 1968,
+      "type": "program",
+      "victim": "",
+      "agressor": "",
+      "notes": "Hockey, films, swings, and baseball.",
+      "ref": ["FAR-000564-0009"]
+    }, {
+      "date": 1963,
+      "type": "physical",
+      "victim": "unnamed student",
+      "agressor": "staff members",
+      "notes": "In a letter, a truant Fort Alexander IRS student expressed fear at returning to the institution, alleged frequent rebukes by staff and the likelihood of corporal punishment upon return",
+      "ref": ["FAR-000185-0001"]
+    }, {
+      "date": 1961,
+      "type": "program",
+      "victim": "",
+      "agressor": "",
+      "notes": "In 1961, Home Economics was taught to girls attending the Powerview Community High School once a week and Manual Training classes were taught to day school boys and men from the Fort Alexander Reserve at the Fort Alexander IRS.",
+      "ref": ["FAR-002542-0000", "RCM-000098"]
+    }, {
+      "date": 1937,
+      "type": "health",
+      "victim": "",
+      "agressor": "",
+      "notes": "On July 6, 1937, the Government gave approval for the Oblates to modify the 'outside building' at Fort Alexander IRS for use as a Preventorium, to aid in the prevention of tuberculosis. The Government would continue the usual school per capita grants for children admitted to the Preventorium, and in addition was prepared to pay an extra 25 cents per day per child during their stay [FAR-002122]. The Preventorium opened in January 1938 and it accommodated approximately 30 children during its operation [FAR-060226; FAR-002140-0001; NPC-500112]. In a January 1939 letter to the Director of Medical Services, DIAND, a doctor from the St. Boniface Sanatorium noted that the original purpose of the Preventorium was to provide generally unwell children a place to be given extra care and medical supervision, and that potentially infectious cases of tuberculosis should not be admitted [FAR-002161-0001]. The doctor expressed concern regarding the recent admission of 'spreader' cases to the Preventorium, as they could possibly contaminate the children at the residential school, with whom they associated freely except in regard to sleeping quarters. If the Preventorium was to be run as a 'spreader school,' the doctor recommended a separate dining room with separate dishes, classroom and playgrounds, and no interaction between Preventorium children and other students at the residential school. The Preventorium at Fort Alexander IRS closed in August 1939 as recommended by officers of the Manitoba Tuberculosis Sanatorium Board, since the institution was not accomplishing the results expected and the health of the children at the residence was potentially at risk [NPC-500112; FAR-060226]. By November 1939, the closed Preventorium was in use as a dormitory for Fort Alexander IRS [FAR-060231]. An October 1946 letter written by the Principal at Fort Alexander IRS describes the former Preventorium building as annexed to the school [FAR-060226].",
+      "ref": ["."]
+    }]
+  }
+}

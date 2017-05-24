@@ -1,0 +1,38 @@
+{
+  "name": "Sarcee (St. Barnabas)",
+  "type": "Residential",
+  "location": {
+    "province": "Alberta",
+    "city": "city",
+    "latLng": {
+      "lat": 50.93197778,
+      "-114.1487389": 0.000
+    }
+  },
+  "narrativeDate": "09-11-01",
+  "startYear": 1892,
+  "endYear": 1921,
+  "data": {
+    "nameVariants": [],
+    "chronoHistory": [],
+    "notesHistory": [],
+    "management": [],
+    "enrollment": [],
+    "reserves": [""],
+    "religiousGroups": [{
+      "group": "group",
+      "ref": ["number"]
+    }, {
+      "group": "group",
+      "ref": ["number"]
+    }, {
+      "group": "group",
+      "ref": ["number"]
+    }, {
+      "group": "group",
+      "ref": ["number"]
+    }],
+    "writtenAgreements": [],
+    "additionalInformation": []
+  }
+}

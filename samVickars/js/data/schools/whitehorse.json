@@ -1,0 +1,38 @@
+{
+  "name": "Whitehorse Baptist (Lee School)",
+  "type": "Residential",
+  "location": {
+    "province": "Yukon Territory",
+    "city": "city",
+    "latLng": {
+      "lat": 60.71660833,
+      "-135.0544944": 0.000
+    }
+  },
+  "narrativeDate": "09-11-01",
+  "startYear": 1947,
+  "endYear": 1960,
+  "data": {
+    "nameVariants": [],
+    "chronoHistory": [],
+    "notesHistory": [],
+    "management": [],
+    "enrollment": [],
+    "reserves": ["aishihik", "atlin-Teslin", "burwash", "carmacks", "champagne", "dawson", "hainesJunction", "laberge", "pellyLakes", "rossRiver", "selkirk", "teslin", "upperLaberge", "whitehorse"],
+    "religiousGroups": [{
+      "group": "group",
+      "ref": ["number"]
+    }, {
+      "group": "group",
+      "ref": ["number"]
+    }, {
+      "group": "group",
+      "ref": ["number"]
+    }, {
+      "group": "group",
+      "ref": ["number"]
+    }],
+    "writtenAgreements": [],
+    "additionalInformation": []
+  }
+}

@@ -1,0 +1,766 @@
+{
+  "name": "St. Michael's IRS (Duck Lake)",
+  "type": "Residential",
+  "location": {
+    "province": "Saskatchewan",
+    "city": "Duck Lake",
+    "latLng": {
+      "lat": 52.79979722,
+      "lng": -106.2326472
+    }
+  },
+  "narrativeDate": "09-11-01",
+  "startYear": 1894,
+  "endYear": 1996,
+  "data": {
+    "nameVariants": [{
+      "startYear": 1894,
+      "endYear": 1924,
+      "name": "Duck Lake Boarding School",
+      "note": "",
+      "ref": ["SMD-002321", "SMD-001265"]
+    }, {
+      "startYear": 1924,
+      "endYear": 1969,
+      "name": "St. Michael’s Indian Residential School",
+      "note": "",
+      "ref": ["SMD-001270", "SMD-000240"]
+    }, {
+      "startYear": 1925,
+      "endYear": 1925,
+      "name": "Duck Lake Indian School",
+      "note": "",
+      "ref": ["SMD-001808-0001"]
+    }, {
+      "startYear": 1925,
+      "endYear": 1968,
+      "name": "Duck Lake Residential School",
+      "note": "",
+      "ref": ["SMD- 001539", "SMD-003798"]
+    }, {
+      "startYear": 1965,
+      "endYear": 1990,
+      "name": "Duck Lake Student Residence",
+      "note": "",
+      "ref": ["SMD-007703", "SMD-000048"]
+    }, {
+      "startYear": 1969,
+      "endYear": 1996,
+      "name": "St. Michael’s Student Residence",
+      "note": "",
+      "ref": ["SMD-000524-0001", "SMD- 000651-0000"]
+    }, {
+      "startYear": 1926,
+      "endYear": 1926,
+      "name": "Duck Lake Residential School",
+      "note": "",
+      "ref": ["SMD-001477-0001", "SMD-000643-0001"]
+    }, {
+      "startYear": 1995,
+      "endYear": 1995,
+      "name": "Duck Lake Residential School",
+      "note": "",
+      "ref": ["SMD-001477-0001", "SMD-000643-0001"]
+    }],
+    "chronoHistory": [{
+      "date": 1894,
+      "desc": ["August: The St. Michael’s IRS was built by the federal government and opened in August 1894. The IRS was originally built to house 12 to 14 children, though by July 1896 additions to the buildings were made to accommodate 75 pupils and a full staff."],
+      "ref": ["SMD-001129", "SMD-002321", "SMD-002322"]
+    }, {
+      "date": 1906,
+      "desc": ["July 6: The Sisters of the Faithful Companions of Jesus left the IRS. They were replaced by the Sisters of the Presentation of Mary later in 1903."],
+      "ref": ["SMD-002329"]
+    }, {
+      "date": 1911,
+      "desc": ["Les Reverends Peres Oblats de Marie Immaculee des Territoires du Nord Ouest purchased the St. Michael’s IRS land, buildings, cattle and equipment from the federal government and became sole owners of the IRS."],
+      "ref": ["SMD-001362-0001", "SMD-001373", "SMD-001377", "SMD-001380", "SMD-002995"]
+    }, {
+      "date": 1912,
+      "desc": ["January: The federal government and Les Reverends Peres Oblats de Marie Immaculee des Territoires du Nord Ouest signed an agreement for the operation of St. Michael’s IRS."],
+      "ref": ["SMD-001211-0001"]
+    }, {
+      "date": 1924,
+      "desc": ["The Oblates sold the St Michael’s IRS land and the IRS buildings back to the federal government.", "The federal government began the construction of a new St. Michael’s IRS building in 1924 and it was completed by February 1925, though it was not opened until July 1925. The new IRS building was located approximately 1000 yards east of the original IRS building."],
+      "ref": ["SMD-001276", "SMD-001402-0001", "SMD-001405-0000", "SMD-001405-0001", "SMD-002995", "SMD-001808-0001", "SMD-002995"]
+    }, {
+      "date": 1926,
+      "desc": ["The original IRS main building constructed in 1894 burned down. The building was not in use at the time, as it was in disrepair and deemed a fire hazard."],
+      "ref": ["SMD-001611", "SMD-002995"]
+    }, {
+      "date": 1944,
+      "desc": ["St. Michael’s IRS celebrated its 50 year anniversary."],
+      "ref": ["SMD-002995"]
+    }, {
+      "date": 1952,
+      "desc": ["In order to relieve overcrowding in the IRS classrooms, the Principal opened another classroom in a Church building approximately 100 yards south of the main IRS building."],
+      "ref": ["SMD-000683"]
+    }, {
+      "date": 1962,
+      "desc": ["Classrooms at the IRS were reduced from eight to seven. Five classrooms were located in the main IRS building, including one on the top floor. The other classrooms were described as located in a single room frame structure and at the end of an old building.", "September: The federal government and the Oblate Indian- Eskimo Council (INDIANESCOM) signed an agreement for the operation of the St. Michael’s IRS."],
+      "ref": ["SMD-002188", "SMD-000966", "SMD-000248"]
+    }, {
+      "date": 1963,
+      "desc": ["A new classroom block opened at the IRS."],
+      "ref": ["SMD-012021-0000", "SMD-002533-0000"]
+    }, {
+      "date": 1965,
+      "desc": ["Seven classrooms operated for the 1965/66 school year."],
+      "ref": ["SMD-002230"]
+    }, {
+      "date": 1968,
+      "desc": ["The administration of the classrooms and the residence was separated as of September 1, 1968. The Principal became the Administrator of the Student Residence and the Senior Teacher became the Principal of the classroom block."],
+      "ref": ["BAX-000911-0000", "BAX-000911-0001"]
+    }, {
+      "date": 1970,
+      "desc": ["The Roman Catholic Church provided chaplaincy services to staff and students at the IRS."],
+      "ref": ["SMD-002998-0001", "SMD-002999-0001", "SMD-003203-0001", "SMD-000506", "SMD-000145-0002", "SMD-000186-0001", "SMD-009917-0001"]
+    }, {
+      "date": 1971,
+      "desc": ["By September 1971, only four classrooms were operating in the classroom block."],
+      "ref": ["SMD-155096"]
+    }, {
+      "date": 1974,
+      "desc": ["A Service contract to carry on liaison duties was granted for INDIANESCOM at the St Michael’s IRS."],
+      "ref": ["SMD-003103"]
+    }, {
+      "date": 1982,
+      "desc": ["The responsibility for the operation of the St. Michael's IRS was transferred to the Saskatoon District Tribal Council."],
+      "ref": ["SMD-000653"]
+    }, {
+      "date": 1993,
+      "desc": ["Beginning April 1, 1993, the Grand Council of the Willow Cree assumed the responsibility for the operation of the St. Michael's IRS.", "Beginning April 1, 1993, the Grand Council of the Willow Cree assumed the responsibility for the operation of the St. Michael's IRS.", "From 1993 to 1996, St. Michael's College was operated by the Grand Council of the Willow Cree in the renovated St. Michael's IRS building."],
+      "ref": ["SMD-000653", "SMD-012197", "SMD-012198", "SMD-000643-0000", "SMD-000643-0001"]
+    }, {
+      "date": 1996,
+      "desc": ["The IRS closed on June 30, 1996."],
+      "ref": ["SMD-016512-0017", "MDD-001136"]
+    }],
+    "notesHistory": [],
+    "management": [{
+      "startYear": 1894,
+      "endYear": 1982,
+      "org": "government",
+      "orgName": "Federal Government of Canada",
+      "type": ["Management", " Staff", " Teaching"],
+      "ref": ["SMD-001129", "SMD-002321"]
+    }, {
+      "startYear": 1983,
+      "endYear": 1993,
+      "org": "band",
+      "orgName": "Saskatoon District Tribal Council",
+      "type": ["Management", " Staff", " Teaching"],
+      "ref": ["SMD-000653"]
+    }, {
+      "startYear": 1994,
+      "endYear": 1996,
+      "org": "band",
+      "orgName": "Grand Council of the Willow Cree",
+      "type": ["Management", " Staff", " Teaching"],
+      "ref": ["SMD-000653", "SMD-000643-0000", "SMD-000643-0001"]
+    }],
+    "enrollment": [{
+      "year": 1894,
+      "number": "17",
+      "notes": ""
+    }, {
+      "year": 1895,
+      "number": "45",
+      "notes": ""
+    }, {
+      "year": 1896,
+      "number": "60",
+      "notes": ""
+    }, {
+      "year": 1897,
+      "number": "95",
+      "notes": ""
+    }, {
+      "year": 1898,
+      "number": "100",
+      "notes": ""
+    }, {
+      "year": 1899,
+      "number": "100",
+      "notes": ""
+    }, {
+      "year": 1900,
+      "number": "101",
+      "notes": ""
+    }, {
+      "year": 1901,
+      "number": "104",
+      "notes": ""
+    }, {
+      "year": 1902,
+      "number": "101",
+      "notes": ""
+    }, {
+      "year": 1903,
+      "number": "106",
+      "notes": ""
+    }, {
+      "year": 1904,
+      "number": "105",
+      "notes": ""
+    }, {
+      "year": 1905,
+      "number": "103",
+      "notes": ""
+    }, {
+      "year": 1906,
+      "number": "104",
+      "notes": ""
+    }, {
+      "year": 1907,
+      "number": "106",
+      "notes": ""
+    }, {
+      "year": 1908,
+      "number": "105",
+      "notes": ""
+    }, {
+      "year": 1909,
+      "number": "105",
+      "notes": ""
+    }, {
+      "year": 1910,
+      "number": "106",
+      "notes": ""
+    }, {
+      "year": 1911,
+      "number": "105",
+      "notes": ""
+    }, {
+      "year": 1912,
+      "number": "105",
+      "notes": ""
+    }, {
+      "year": 1913,
+      "number": "107",
+      "notes": ""
+    }, {
+      "year": 1914,
+      "number": "108",
+      "notes": ""
+    }, {
+      "year": 1915,
+      "number": "111",
+      "notes": ""
+    }, {
+      "year": 1916,
+      "number": "107",
+      "notes": ""
+    }, {
+      "year": 1917,
+      "number": "109",
+      "notes": ""
+    }, {
+      "year": 1918,
+      "number": "107",
+      "notes": ""
+    }, {
+      "year": 1919,
+      "number": "103",
+      "notes": ""
+    }, {
+      "year": 1920,
+      "number": "111",
+      "notes": ""
+    }, {
+      "year": 1921,
+      "number": "113",
+      "notes": ""
+    }, {
+      "year": 1922,
+      "number": "112",
+      "notes": ""
+    }, {
+      "year": 1923,
+      "number": "113",
+      "notes": ""
+    }, {
+      "year": 1924,
+      "number": "114",
+      "notes": ""
+    }, {
+      "year": 1925,
+      "number": "155",
+      "notes": ""
+    }, {
+      "year": 1926,
+      "number": "145",
+      "notes": ""
+    }, {
+      "year": 1927,
+      "number": "152",
+      "notes": ""
+    }, {
+      "year": 1928,
+      "number": "148",
+      "notes": ""
+    }, {
+      "year": 1929,
+      "number": "147",
+      "notes": ""
+    }, {
+      "year": 1930,
+      "number": "153",
+      "notes": ""
+    }, {
+      "year": 1931,
+      "number": "157",
+      "notes": ""
+    }, {
+      "year": 1932,
+      "number": "156",
+      "notes": ""
+    }, {
+      "year": 1933,
+      "number": "155",
+      "notes": ""
+    }, {
+      "year": 1934,
+      "number": "158",
+      "notes": ""
+    }, {
+      "year": 1935,
+      "number": "161",
+      "notes": ""
+    }, {
+      "year": 1936,
+      "number": "165",
+      "notes": ""
+    }, {
+      "year": 1937,
+      "number": "175",
+      "notes": ""
+    }, {
+      "year": 1938,
+      "number": "186",
+      "notes": ""
+    }, {
+      "year": 1939,
+      "number": "181",
+      "notes": ""
+    }, {
+      "year": 1940,
+      "number": "179",
+      "notes": ""
+    }, {
+      "year": 1941,
+      "number": "187",
+      "notes": ""
+    }, {
+      "year": 1942,
+      "number": "191",
+      "notes": ""
+    }, {
+      "year": 1943,
+      "number": "183",
+      "notes": ""
+    }, {
+      "year": 1944,
+      "number": "175",
+      "notes": ""
+    }, {
+      "year": 1945,
+      "number": "213",
+      "notes": ""
+    }, {
+      "year": 1946,
+      "number": "221",
+      "notes": ""
+    }, {
+      "year": 1947,
+      "number": "222",
+      "notes": ""
+    }, {
+      "year": 1948,
+      "number": "228",
+      "notes": ""
+    }, {
+      "year": 1949,
+      "number": "238",
+      "notes": ""
+    }, {
+      "year": 1950,
+      "number": "251",
+      "notes": ""
+    }, {
+      "year": 1951,
+      "number": "276",
+      "notes": ""
+    }, {
+      "year": 1952,
+      "number": "275",
+      "notes": ""
+    }, {
+      "year": 1953,
+      "number": "275",
+      "notes": ""
+    }, {
+      "year": 1954,
+      "number": "266",
+      "notes": ""
+    }, {
+      "year": 1955,
+      "number": "282",
+      "notes": ""
+    }, {
+      "year": 1956,
+      "number": "258",
+      "notes": ""
+    }, {
+      "year": 1957,
+      "number": "276",
+      "notes": ""
+    }, {
+      "year": 1958,
+      "number": "258",
+      "notes": ""
+    }, {
+      "year": 1959,
+      "number": "260",
+      "notes": ""
+    }, {
+      "year": 1960,
+      "number": "260",
+      "notes": ""
+    }, {
+      "year": 1961,
+      "number": "254",
+      "notes": ""
+    }, {
+      "year": 1962,
+      "number": "218",
+      "notes": ""
+    }, {
+      "year": 1963,
+      "number": "255",
+      "notes": ""
+    }, {
+      "year": 1964,
+      "number": "227",
+      "notes": ""
+    }, {
+      "year": 1965,
+      "number": "200",
+      "notes": ""
+    }, {
+      "year": 1966,
+      "number": "182",
+      "notes": ""
+    }, {
+      "year": 1967,
+      "number": "170",
+      "notes": ""
+    }, {
+      "year": 1968,
+      "number": "146",
+      "notes": ""
+    }, {
+      "year": 1969,
+      "number": "176",
+      "notes": ""
+    }, {
+      "year": 1970,
+      "number": "146",
+      "notes": ""
+    }, {
+      "year": 1971,
+      "number": "151",
+      "notes": ""
+    }, {
+      "year": 1972,
+      "number": "133",
+      "notes": ""
+    }, {
+      "year": 1973,
+      "number": "117",
+      "notes": ""
+    }, {
+      "year": 1974,
+      "number": "125",
+      "notes": ""
+    }, {
+      "year": 1975,
+      "number": "116",
+      "notes": ""
+    }, {
+      "year": 1976,
+      "number": "122",
+      "notes": ""
+    }, {
+      "year": 1977,
+      "number": "123",
+      "notes": ""
+    }, {
+      "year": 1978,
+      "number": "122",
+      "notes": ""
+    }, {
+      "year": 1979,
+      "number": "129",
+      "notes": ""
+    }, {
+      "year": 1980,
+      "number": "94",
+      "notes": ""
+    }, {
+      "year": 1981,
+      "number": "12",
+      "notes": ""
+    }, {
+      "year": 1982,
+      "number": "125",
+      "notes": ""
+    }],
+    "reserves": [""],
+    "religiousGroups": [{
+      "group": "Oblates of Mary Immaculate",
+      "ref": ["SMD-000279", "SMD-001691-0000", "SMD-010027", "SMD-001341-0001, pg. 1", "SMD-002995"]
+    }, {
+      "group": "Sisters, Faithful Companions of Jesus",
+      "ref": ["SMD-000279", "SMD-002322, pg. 3", "SMD-002329, pg. 6"]
+    }, {
+      "group": "Sisters of the Presentation of Mary",
+      "ref": ["SMD-02329, pg. 6", "IMR- 000327, pg.10"]
+    }, {
+      "group": "Roman Catholic Church",
+      "ref": ["."]
+    }],
+    "writtenAgreements": [{
+      "date": 1890,
+      "title": "",
+      "desc": "Rules and Regulations - Kootenay Industrial School.",
+      "ref": ["00664"]
+    }, {
+      "date": 1890.3,
+      "title": "",
+      "desc": "Arrangement between the Government and the Roman Catholic Church for operation of the school covering per capital allowance, maintenance, furnishing and trades to be taught.",
+      "ref": ["00656"]
+    }, {
+      "date": 1890.6,
+      "title": "",
+      "desc": "Arrangement between the Government, the Diocese of New Westminster, and the Sisters of Charity of the House of Montreal. Sisters will take entire charge and management of the school, with the Reverend Sister Superior acting as Principal.",
+      "ref": ["00652", "00651"]
+    }, {
+      "date": 1962,
+      "title": "",
+      "desc": "Agreement between Her Majesty the Queen in Right of Canada and Indianescom, hereinafter called the 'Management', for the operation of Kootenay Residential School.",
+      "ref": ["00680"]
+    }, {
+      "date": 1965,
+      "title": "",
+      "desc": "Agreement between Her Majesty the Queen and St. Mary's Catholic Public School Board. Pupil transport from St. Eugene Mission to St. Mary's Catholic school.",
+      "ref": ["02409"]
+    }, {
+      "date": 1966,
+      "title": "",
+      "desc": "Agreement between Her Majesty the Queen and Cranbrook Golden Bus Line. Pupil transport from St. Eugene Mission to St. Mary's Catholic school.",
+      "ref": ["02404"]
+    }, {
+      "date": 1973,
+      "title": "",
+      "desc": "Agreement between Her Majesty the Queen in right of Canada and Her Majesty the Queen in right of the Province of B.C. regarding transfer of administration and control of a leasehold interest of those parts of District Lot 1, known as Parcel 'A', being of St. Eugene residence.",
+      "ref": ["03158"]
+    }],
+    "additionalInformation": [{
+      "date": 1898,
+      "type": "program",
+      "victim": "",
+      "agressor": "",
+      "notes": "Boys participated in baseball, football, jumping and running. Girls went for walks in summer, and participated in music and singing in winter. There were two playgrounds at the St. Michael’s IRS.",
+      "ref": ["SMD-002325"]
+    }, {
+      "date": 1900,
+      "type": "program",
+      "victim": "",
+      "agressor": "",
+      "notes": "Boys participated in cricket and played ball and tops. They also boated and swam on summer evenings. Girls went for walks and picked fruit and flowers.",
+      "ref": ["SMD-002327"]
+    }, {
+      "date": 1901,
+      "type": "program",
+      "victim": "",
+      "agressor": "",
+      "notes": "Boys played football, marbles and checkers. Singing and music was popular with both boys and girls.",
+      "ref": ["SMD-002328"]
+    }, {
+      "date": 1943,
+      "type": "program",
+      "victim": "",
+      "agressor": "",
+      "notes": "Boys participated in the IRS hockey team.",
+      "ref": ["SMD-002813"]
+    }, {
+      "date": 1945,
+      "type": "program",
+      "victim": "",
+      "agressor": "",
+      "notes": "The IRS hockey team won their league championship.",
+      "ref": ["SMD-002822"]
+    }, {
+      "date": 1948,
+      "type": "program",
+      "victim": "",
+      "agressor": "",
+      "notes": "The St. Michael’s IRS boys’ midget hockey team won the provincial championship. Residents participated in football, softball, and volleyball. The IRS acquired a radio-record player and sound projector.",
+      "ref": ["SMD-001527-0001"]
+    }, {
+      "date": 1957,
+      "type": "program",
+      "victim": "",
+      "agressor": "",
+      "notes": "The boys’ bantam C hockey team was a provincial finalist. Pupils participated in track and field, soccer, softball and table tennis. A total of 37 boys participated in Royal Canadian Air Cadets. Other activities included public speaking, an amateur hour, woodworking and home economics.",
+      "ref": ["SMD-000415"]
+    }, {
+      "date": 1958,
+      "type": "program",
+      "victim": "",
+      "agressor": "",
+      "notes": "The boys’ midget C hockey team reached the provincial 'playdowns.' Pupils participated in track and field, intramural soccer, softball and table tennis. A total of 37 boys participated in Royal Canadian Air Cadets. Other activities included public speaking, an amateur hour, home economics and band.",
+      "ref": ["SMD-000971"]
+    }, {
+      "date": 1959,
+      "type": "program",
+      "victim": "",
+      "agressor": "",
+      "notes": "Extra-curricular athletics included bantam and midget level hockey, intramural soccer, softball, baseball, table tennis, badminton, broomball, hockey, and local and provincial-level rifle competitions. Some students travelled to Fort-a- la-Corne and to Battleford for track and field meets. A total of 48 boys participated in Royal Canadian Air Cadets. Other activities included an amateur hour, an oratory contest, woodworking and the IRS band.",
+      "ref": ["SMD-000970"]
+    }, {
+      "date": 1960,
+      "type": "program",
+      "victim": "",
+      "agressor": "",
+      "notes": "A track and field meet that included teams from northern Saskatchewan residential schools was held at St. Michael’s IRS. Extra-curricular activities included hockey, baseball and boxing access to an outdoor rink, roller skates, a television set, a piano, film rentals, games and toys, and magazines.",
+      "ref": ["SMD-009247-0216", "SMD-001720-0007"]
+    }, {
+      "date": 1961,
+      "type": "program",
+      "victim": "",
+      "agressor": "",
+      "notes": "Extra-curricular athletics included bantam and midget level hockey, a baseball league with Rosthern, intramural soccer, softball, baseball, table tennis, badminton, broomball, curling, and rifle competitions at the dominion at the local and provincial levels. A total of 45 boys participated in Royal Canadian Air Cadets. Other activities included public speaking, woodworking and the IRS band.",
+      "ref": ["SMD-012173-0001"]
+    }, {
+      "date": 1962,
+      "type": "program",
+      "victim": "",
+      "agressor": "",
+      "notes": "Extra-curricular athletics included bantam and midget level hockey, intramural soccer, baseball, softball, table tennis, badminton, broomball, volley ball, curling, and rifle competitions at the dominion at local and provincial levels. A total of 30 boys participated in Royal Canadian Air Cadets. Other activities included public speaking, weekly films and card parties, skating parties, bingo and the IRS band.",
+      "ref": ["SMD-000966"]
+    }, {
+      "date": 1963,
+      "type": "program",
+      "victim": "",
+      "agressor": "",
+      "notes": "A curling rink opened at the IRS.",
+      "ref": ["SMD-010364"]
+    }, {
+      "date": 1966,
+      "type": "program",
+      "victim": "",
+      "agressor": "",
+      "notes": "The Saskatchewan Indian Teachers’ Association held a track and field meet at the IRS.",
+      "ref": ["SMD-003514"]
+    }, {
+      "date": 1967,
+      "type": "program",
+      "victim": "",
+      "agressor": "",
+      "notes": "A curling bonspiel was held at the IRS.",
+      "ref": ["SMD-005801"]
+    }, {
+      "date": 1974,
+      "type": "program",
+      "victim": "",
+      "agressor": "",
+      "notes": "Students participated in 'all sports' in the house league system, 'various leagues' outside the residence as well as weight training and track and field. Cultural activities included Pow Wows, Indian History, and dancing. Other activities included a walkathon, winter carnival, films, record hops and arts and crafts.",
+      "ref": ["SMD-000930"]
+    }, {
+      "date": 1983,
+      "type": "program",
+      "victim": "",
+      "agressor": "",
+      "notes": "Residents participated in area soccer, fastball and volleyball leagues. Boys were part of the atom, peewee, bantam and midget hockey teams. Residents played intramural mixed volleyball and boys’ floor hockey. They participated in track and field with local high school teams. St. Michael’s residents and adults were part of the badminton club.",
+      "ref": ["SMD-000015"]
+    }, {
+      "date": 1973,
+      "type": "sexual",
+      "victim": "",
+      "agressor": "former staff member",
+      "notes": "A former staff member who worked as a chaplain, child care worker and guidance counsellor at the St. Michael’s IRS, from September 1973 to approximately 1992, was convicted of committing acts of gross indecency between September 1986 and December 1987.",
+      "ref": ["SMD-014246", "SMD-016700", "SMD-000390"]
+    }, {
+      "date": 1984,
+      "type": "physical",
+      "victim": "unnamed student",
+      "agressor": "child care worker",
+      "notes": "A child care worker gave a student a spanking for swearing at the other boys. A child care worker kicked a student in the buttocks for hitting another student.",
+      "ref": ["SMD-000391"]
+    }, {
+      "date": 1986,
+      "type": "physical",
+      "victim": "2 unnamed studenss",
+      "agressor": "child care worker",
+      "notes": "A child care worker 'swatted 2 wet rears' for allegedly sliding on the wet floor of the shower room.",
+      "ref": ["SMD-000395"]
+    }, {
+      "date": 1988,
+      "type": "physical",
+      "victim": "2 unnamed students",
+      "agressor": "child care worker",
+      "notes": "A child care worker spanked a student for soiling pants and hiding them under her mattress. A child care worker slapped a student for swearing.",
+      "ref": ["SMD-000382"]
+    }, {
+      "date": 1989,
+      "type": "physical",
+      "victim": "unnamed student",
+      "agressor": "child care worker",
+      "notes": "A child care worker slapped a student for bothering smaller girls.",
+      "ref": ["SMD-000382"]
+    }, {
+      "date": 1993,
+      "type": "incident",
+      "victim": "unnamed female student",
+      "agressor": "unnamed male students",
+      "notes": "A child care worker wrote that a female student reported she had been sexually abused starting at 5 years of age. The student stated in a written report that she slept with two male pupils.",
+      "ref": ["SMD-000384"]
+    }, {
+      "date": 1912,
+      "type": "health",
+      "victim": "",
+      "agressor": "",
+      "notes": "Federal health authorities ordered 75 pupils and staff at the IRS to receive small pox vaccinations.",
+      "ref": ["SMD-001225", "SMD-001224"]
+    }, {
+      "date": 1937,
+      "type": "policy",
+      "victim": "",
+      "agressor": "",
+      "notes": "A December 1937 federal inspection report indicated that Cree was being taught to pupils through evening classes held at the IRS.",
+      "ref": ["SMD-001497-0001"]
+    }, {
+      "date": 1959.5,
+      "type": "program",
+      "victim": "",
+      "agressor": "",
+      "notes": "Some St. Michael’s IRS students travelled to Fort-a-la-Corne and to Battleford for track and field events.",
+      "ref": ["SMD-000970"]
+    }, {
+      "date": 1970,
+      "type": "program",
+      "victim": "",
+      "agressor": "",
+      "notes": "In June and July, 21 male pupils, the IRS Administrator and three other IRS staff members travelled to Ottawa (where they met the Prime Minister) Montreal, Sherbrooke and Toronto (where they visited the hockey Hall of Fame).",
+      "ref": ["SMD-009009", "SMD-000910"]
+    }, {
+      "date": 1978,
+      "type": "program",
+      "victim": "",
+      "agressor": "",
+      "notes": "Senior students and IRS teaching staff were invited to visit the Fort George Roman Catholic IRS in Quebec. While the trip was approved, no documents confirming that the trip occurred were found.",
+      "ref": ["SMD-012146", "SMD-012147-0000", "SMD-012147-0002"]
+    }]
+  }
+}
