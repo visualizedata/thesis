@@ -1,0 +1,38 @@
+{
+  "name": "Fort George Hostels",
+  "type": "Residential",
+  "location": {
+    "province": "Quebec",
+    "city": "Fort George",
+    "latLng": {
+      "lat": 53.83091111,
+      "lng": -78.98991944
+    }
+  },
+  "narrativeDate": "09-11-01",
+  "startYear": 1975,
+  "endYear": 1978,
+  "data": {
+    "nameVariants": [],
+    "chronoHistory": [],
+    "notesHistory": [],
+    "management": [],
+    "enrollment": [],
+    "reserves": [""],
+    "religiousGroups": [{
+      "group": "group",
+      "ref": ["number"]
+    }, {
+      "group": "group",
+      "ref": ["number"]
+    }, {
+      "group": "group",
+      "ref": ["number"]
+    }, {
+      "group": "group",
+      "ref": ["number"]
+    }],
+    "writtenAgreements": [],
+    "additionalInformation": []
+  }
+}

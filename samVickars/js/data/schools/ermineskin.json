@@ -1,0 +1,909 @@
+{
+  "name": "Ermineskin (Hobbema) IRS",
+  "type": "Residential",
+  "location": {
+    "province": "Alberta",
+    "city": "Hobbema",
+    "latLng": {
+      "lat": 52.83632222,
+      "lng": -113.4573556
+    }
+  },
+  "narrativeDate": "09-11-01",
+  "startYear": 1894,
+  "endYear": 1975,
+  "data": {
+    "nameVariants": [{
+      "startYear": 1877,
+      "endYear": 1877,
+      "name": "Ermineskin School",
+      "note": "",
+      "ref": ["ERM-007057-0000"]
+    }, {
+      "startYear": 1894,
+      "endYear": 1894,
+      "name": "Ermineskin's Boarding School",
+      "note": "",
+      "ref": ["ERM-001910"]
+    }, {
+      "startYear": 1932,
+      "endYear": 1932,
+      "name": "Hobbema IRS",
+      "note": "",
+      "ref": ["ERM-001873"]
+    }, {
+      "startYear": 1947,
+      "endYear": 1947,
+      "name": "Ermineskin Idian School",
+      "note": "",
+      "ref": ["ERM-002703-0001"]
+    }, {
+      "startYear": 1955,
+      "endYear": 1955,
+      "name": "Ermineskin Indian Residential School",
+      "note": "",
+      "ref": ["ERM-003518"]
+    }, {
+      "startYear": 1961,
+      "endYear": 1962,
+      "name": "Residential-Day School ",
+      "note": "",
+      "ref": ["ERM-004800"]
+    }, {
+      "startYear": 1969,
+      "endYear": 1969,
+      "name": "Ermineskin Indian Student Residence (RC) ",
+      "note": "",
+      "ref": ["ERM-008157"]
+    }, {
+      "startYear": 1969,
+      "endYear": 1969,
+      "name": "Hobbema Educational Complex",
+      "note": "",
+      "ref": ["ERM-008624"]
+    }, {
+      "startYear": 1969,
+      "endYear": 1969,
+      "name": "Ermineskin Student Residence ",
+      "note": "",
+      "ref": ["ERM-002006"]
+    }, {
+      "startYear": 1970,
+      "endYear": 1970,
+      "name": "Ermineskin Hostel ",
+      "note": "",
+      "ref": ["ERM-002016"]
+    }, {
+      "startYear": 1970,
+      "endYear": 1970,
+      "name": "Ermineskin School Residence",
+      "note": "",
+      "ref": ["ERM-000919"]
+    }, {
+      "startYear": 1971,
+      "endYear": 1971,
+      "name": "Ermineskin Residential School, Red Deer, Alberta ",
+      "note": "",
+      "ref": ["ERM-003045-0002"]
+    }, {
+      "startYear": 1972,
+      "endYear": 1972,
+      "name": "Ermineskin Residence",
+      "note": "",
+      "ref": ["ERM-001181"]
+    }, {
+      "startYear": 1974,
+      "endYear": 1974,
+      "name": "Erministium School in Hobbema",
+      "note": "",
+      "ref": ["ERM-007896-0001"]
+    }],
+    "chronoHistory": [{
+      "date": 1894,
+      "desc": ["School established in 1894"],
+      "ref": ["ERM-006225-0001", "ERM-800010"]
+    }, {
+      "date": 1895,
+      "desc": ["Request Oblates of Mary Immaculate to the Government for an Industrial Boarding School on Ermineskin reserve for the Nuns to operate, along with buildings and per capita grants. Management by the Sisters of Assumption began in 1895 "],
+      "ref": ["ERM-001906", "ERM-030920"]
+    }, {
+      "date": 1934,
+      "desc": ["Management by the Sisters of Assumption discontinued as of Apr. 1, 1934. School managed by the Order of the Oblate Fathers as of Apr. 1, 1934. Residence managed by the Order of the Oblate Fathers as of Apr. 1, 1934 "],
+      "ref": ["ERM-001906", "ERM-030920", "ERM-001572", "ERM-002010"]
+    }, {
+      "date": 1939,
+      "desc": ["New building erected, including an upper floor boys’ dorm, the ground floor containing 4 classrooms and the basement including a playroom and gym "],
+      "ref": ["ERM-003142-0000"]
+    }, {
+      "date": 1949,
+      "desc": ["Hobbema Indian Day School opened on Sep. 6, 1949 "],
+      "ref": ["ERM-001317", "ERM-008461"]
+    }, {
+      "date": 1950,
+      "desc": ["Ermineskin Day School began operations "],
+      "ref": ["ERM-000109", "ERM-008654"]
+    }, {
+      "date": 1954,
+      "desc": ["Contract awarded for construction of a dormitory building at Ermineskin IRS. New dormitory block will be owned by the Government "],
+      "ref": ["ERM-001531", "ERM-001537"]
+    }, {
+      "date": 1955,
+      "desc": ["Management of the school by the Order of Oblate fathers discontinued as of Sep. 1, 1955 ", "Construction begins on a new dormitory, including kitchen, recreation hall, Sisters’ residence, and Father’s residence. Specifications of the building ", "Amalgamation of Ermineskin IRS and the Hobbema No. 2 Day School"],
+      "ref": ["EREM-001572", "ERM-030920", "ERM-002494-0001", "ERM-000293"]
+    }, {
+      "date": 1956,
+      "desc": ["New dormitory, including kitchen, recreation hall, Sisters’ residence, and Father’s residence completed "],
+      "ref": ["ERM-000695"]
+    }, {
+      "date": 1959,
+      "desc": ["A Gr. 12 class was taught at Ermineskin IRS without approval from the Government "],
+      "ref": ["ERM-000361"]
+    }, {
+      "date": 1961,
+      "desc": ["Agreement reached regarding high school program at Ermineskin IRS. General high school diploma pattern only to be offered, and students whose Gr. 9 marks indicate academic ability will be required to attend separate schools at Edmonton or Jasper Place "],
+      "ref": ["ERM-008181"]
+    }, {
+      "date": 1964,
+      "desc": ["Policy of Government regarding High School students, admission, and residency, notes that approval of admission is its responsibility (not the Principal’s). High School students can attend on a day basis and may be admitted to residence if required for study purposes "],
+      "ref": ["ERM-006217"]
+    }, {
+      "date": 1965,
+      "desc": ["First kindergarten class started on Nov. 22, 1965 "],
+      "ref": ["ERM-000831"]
+    }, {
+      "date": 1966,
+      "desc": ["Opening of a new gym built by the Government "],
+      "ref": ["ERM-000071"]
+    }, {
+      "date": 1968,
+      "desc": ["Plans to discontinue high school instruction at federal schools", "Separation of the classroom and residence administration to be effective on Sep. 1, 1968.  The residence’s name will change from “Residential School” to “Student Residence.” Person in charge of the Student Residence will be called the Administrator. Person in charge of the School currently designated as the Senior Teacher will be called the Principal "],
+      "ref": ["ERM-008120", "ERM-007295"]
+    }, {
+      "date": 1969,
+      "desc": ["Difficulties arise from separation of administration of classroom blocks from residence with respect to combined staff whose duties encompass both areas, particularly janitors, caretakers, nightwatchmen, childcare supervisors, etc. ", "Ermineskin IRS name changed to Ermineskin Student Residence ", "Construction of 16 classroom school and 12 unit staff accommodation officially completed ", "Management of the residence by the Order of Oblate Fathers discontinued as of Apr. 1, 1969.  The federal government takes over operation of the residence on April 1, 1969 and all employees of the residence become federal public servants."],
+      "ref": ["ERM-008601-0000", "ERM-002006", "ERM-008268-0000", "ERM-002010", "ERM-030920"]
+    }, {
+      "date": 1971,
+      "desc": ["The school on the grounds of Ermineskin IRS was administratively divided into the following 3 institutions: 1. Ermineskin Kindergarten School; 2. Ermineskin Primary School; 3. Ermineskin Elementary-Junior High School. The Kindergarten and Primary school was administered by one Principal and the Elementary – Junior High School by another Principal "],
+      "ref": ["ERM-007236", "ERM-007539-0001"]
+    }, {
+      "date": 1972,
+      "desc": ["Reference to the possible closing of Ermineskin Residence if it is no longer needed for strictly educational purposes", "Letter from the District Supervisor to the Four Band Council regarding consultations about the possible future closure of the Residence "],
+      "ref": ["ERM-001181", "ERM-007187"]
+    }, {
+      "date": 1975,
+      "desc": ["Government discontinued managing the Ermineskin Residence as of Sep. 1, 1975. Remaining students were either sent home or placed in foster care "],
+      "ref": ["ERM-001164", "ERM-007171", "ERM-002225", "ERM-007312"]
+    }, {
+      "date": 1979,
+      "desc": ["The Ermineskin Band requested by Band Council Resolution that the Government turn over the old Residence building to the Band for use of the community. The Ermineskin Band also requested the Government turn over the 6 unit motel, two 3 bedroom bungalows and two 4 bedroom bungalows to the Band. These Band Council Resolutions were approved by the Government, “on the condition that the Band assumes all future responsibility (financial and otherwise) for the buildings” "],
+      "ref": ["ERM-002230", "ERM-002227", "ERM-002228", "ERM-002472-0001", "ERM-002477-0000", "ERM-002477-0001", "ERM-07192-0000", "ERM-007192-0001", "ERM-007192-0002"]
+    }, {
+      "date": 1980,
+      "desc": ["Band Council Resolution requesting the Government turn over a 12-unit teacherage to the Band. Government approved authority to transfer the teacherage at no cost for Band use."],
+      "ref": ["ERM-002231", "ERM-002232"]
+    }, {
+      "date": 1985,
+      "desc": ["Letter to the Four Band Education from the Government notifying them that direct federal involvement in the operation and maintenance of educational facilities will cease. The Government requests that “the Four Band Education organization consider taking over the operation and maintenance of the Education facilities at the Ermineskin site” "],
+      "ref": ["ERM-007021"]
+    }, {
+      "date": 1987,
+      "desc": ["The last documented references to school activities are dated in the 1986/1987 school year "],
+      "ref": ["ERM-008571-0002"]
+    }],
+    "notesHistory": [],
+    "management": [{
+      "startYear": 1895,
+      "endYear": 1934,
+      "org": "church",
+      "orgName": "Sisters of Assumption",
+      "type": ["Management"],
+      "ref": ["ERM-001906", "ERM-030920"]
+    }, {
+      "startYear": 1934,
+      "endYear": 1955,
+      "org": "church",
+      "orgName": "Order of the Oblate Fathers, Roman Catholic (R.C.) Church",
+      "type": ["Management"],
+      "ref": ["ERM-001572", "ERM-030920"]
+    }, {
+      "startYear": 1934,
+      "endYear": 1969,
+      "org": "church",
+      "orgName": "Order of the Oblate Fathers",
+      "type": ["Management"],
+      "ref": ["ERM-002010", "ERM-030920"]
+    }, {
+      "startYear": 1955,
+      "endYear": 1975,
+      "org": "government",
+      "orgName": "Federal Government of Canada",
+      "type": ["Management"],
+      "ref": ["ERM-000960", "ERM-001572", "ERM-004363", "ERM-002010", "ERM-008157", "ERM-007171"]
+    }, {
+      "startYear": 1975,
+      "endYear": 1987,
+      "org": "band",
+      "orgName": "Ermineskin Band Council",
+      "type": ["Management"],
+      "ref": ["ERM-000919", "ERM-003050-0000", "ERM-003050-0001", "ERM-003040", "ERM-003042", "ERM-007553-0000", "ERM-008619", "ERM-007021"]
+    }],
+    "enrollment": [{
+      "year": 1895,
+      "number": 20,
+      "notes": ""
+    }, {
+      "year": 1896,
+      "number": 20,
+      "notes": ""
+    }, {
+      "year": 1897,
+      "number": 20,
+      "notes": ""
+    }, {
+      "year": 1898,
+      "number": 20,
+      "notes": ""
+    }, {
+      "year": 1899,
+      "number": 20,
+      "notes": ""
+    }, {
+      "year": 1900,
+      "number": 54,
+      "notes": ""
+    }, {
+      "year": 1901,
+      "number": 54,
+      "notes": ""
+    }, {
+      "year": 1902,
+      "number": 54,
+      "notes": ""
+    }, {
+      "year": 1903,
+      "number": 54,
+      "notes": ""
+    }, {
+      "year": 1904,
+      "number": 54,
+      "notes": ""
+    }, {
+      "year": 1905,
+      "number": 54,
+      "notes": ""
+    }, {
+      "year": 1906,
+      "number": 54,
+      "notes": ""
+    }, {
+      "year": 1907,
+      "number": 58,
+      "notes": ""
+    }, {
+      "year": 1908,
+      "number": 58,
+      "notes": ""
+    }, {
+      "year": 1909,
+      "number": 58,
+      "notes": ""
+    }, {
+      "year": 1910,
+      "number": 58,
+      "notes": ""
+    }, {
+      "year": 1911,
+      "number": 58,
+      "notes": ""
+    }, {
+      "year": 1912,
+      "number": 58,
+      "notes": ""
+    }, {
+      "year": 1913,
+      "number": 58,
+      "notes": ""
+    }, {
+      "year": 1914,
+      "number": 58,
+      "notes": ""
+    }, {
+      "year": 1915,
+      "number": 58,
+      "notes": ""
+    }, {
+      "year": 1916,
+      "number": 55,
+      "notes": ""
+    }, {
+      "year": 1917,
+      "number": 55,
+      "notes": ""
+    }, {
+      "year": 1918,
+      "number": 55,
+      "notes": ""
+    }, {
+      "year": 1919,
+      "number": 55,
+      "notes": ""
+    }, {
+      "year": 1920,
+      "number": 55,
+      "notes": ""
+    }, {
+      "year": 1921,
+      "number": 55,
+      "notes": ""
+    }, {
+      "year": 1922,
+      "number": 72,
+      "notes": ""
+    }, {
+      "year": 1923,
+      "number": 72,
+      "notes": ""
+    }, {
+      "year": 1924,
+      "number": 72,
+      "notes": ""
+    }, {
+      "year": 1925,
+      "number": 72,
+      "notes": ""
+    }, {
+      "year": 1926,
+      "number": 109,
+      "notes": ""
+    }, {
+      "year": 1927,
+      "number": 123,
+      "notes": ""
+    }, {
+      "year": 1928,
+      "number": 122,
+      "notes": ""
+    }, {
+      "year": 1929,
+      "number": 133,
+      "notes": ""
+    }, {
+      "year": 1930,
+      "number": 152,
+      "notes": ""
+    }, {
+      "year": 1931,
+      "number": 147,
+      "notes": ""
+    }, {
+      "year": 1932,
+      "number": 147,
+      "notes": ""
+    }, {
+      "year": 1933,
+      "number": 147,
+      "notes": ""
+    }, {
+      "year": 1934,
+      "number": 147,
+      "notes": ""
+    }, {
+      "year": 1935,
+      "number": 154,
+      "notes": ""
+    }, {
+      "year": 1936,
+      "number": 154,
+      "notes": ""
+    }, {
+      "year": 1937,
+      "number": 153,
+      "notes": ""
+    }, {
+      "year": 1938,
+      "number": 155,
+      "notes": ""
+    }, {
+      "year": 1939,
+      "number": 160,
+      "notes": ""
+    }, {
+      "year": 1940,
+      "number": 160,
+      "notes": ""
+    }, {
+      "year": 1941,
+      "number": 160,
+      "notes": ""
+    }, {
+      "year": 1942,
+      "number": 157,
+      "notes": ""
+    }, {
+      "year": 1943,
+      "number": 184,
+      "notes": ""
+    }, {
+      "year": 1944,
+      "number": 177,
+      "notes": ""
+    }, {
+      "year": 1945,
+      "number": 182,
+      "notes": ""
+    }, {
+      "year": 1946,
+      "number": 170,
+      "notes": ""
+    }, {
+      "year": 1947,
+      "number": 152,
+      "notes": ""
+    }, {
+      "year": 1948,
+      "number": 197,
+      "notes": ""
+    }, {
+      "year": 1949,
+      "number": 1210,
+      "notes": ""
+    }, {
+      "year": 1950,
+      "number": 187,
+      "notes": ""
+    }, {
+      "year": 1951,
+      "number": 176,
+      "notes": ""
+    }, {
+      "year": 1952,
+      "number": 205,
+      "notes": ""
+    }, {
+      "year": 1953,
+      "number": 210,
+      "notes": ""
+    }, {
+      "year": 1954,
+      "number": 220,
+      "notes": ""
+    }, {
+      "year": 1955,
+      "number": 231,
+      "notes": ""
+    }, {
+      "year": 1956,
+      "number": 263,
+      "notes": ""
+    }, {
+      "year": 1957,
+      "number": 244,
+      "notes": ""
+    }, {
+      "year": 1958,
+      "number": 205,
+      "notes": ""
+    }, {
+      "year": 1959,
+      "number": 216,
+      "notes": ""
+    }, {
+      "year": 1960,
+      "number": 219,
+      "notes": ""
+    }, {
+      "year": 1961,
+      "number": 206,
+      "notes": ""
+    }, {
+      "year": 1962,
+      "number": 177,
+      "notes": ""
+    }, {
+      "year": 1963,
+      "number": 195,
+      "notes": ""
+    }, {
+      "year": 1964,
+      "number": 199,
+      "notes": ""
+    }, {
+      "year": 1965,
+      "number": 207,
+      "notes": ""
+    }, {
+      "year": 1966,
+      "number": 208,
+      "notes": ""
+    }, {
+      "year": 1967,
+      "number": 203,
+      "notes": ""
+    }, {
+      "year": 1968,
+      "number": 176,
+      "notes": ""
+    }, {
+      "year": 1969,
+      "number": 160,
+      "notes": ""
+    }, {
+      "year": 1970,
+      "number": 147,
+      "notes": ""
+    }, {
+      "year": 1971,
+      "number": 142,
+      "notes": ""
+    }, {
+      "year": 1972,
+      "number": 142,
+      "notes": ""
+    }, {
+      "year": 1973,
+      "number": 79,
+      "notes": ""
+    }, {
+      "year": 1974,
+      "number": 92,
+      "notes": ""
+    }],
+    "reserves": ["Alexander", "Alexis", "Beaver Lake", "Big Stone", "Cold Lake", "Enoch", "Ermineskin", "Heart Lake", "Kehewin", "Louis Bull", "Montana", "Paul's", "Poundmaker", "Saddle Lake", "Samson", "Sarcee", "Sunchild", "Winterburn"],
+    "religiousGroups": [{
+      "group": "Oblate Fathers of the Mary Immaculate",
+      "ref": ["ERM-003098"]
+    }, {
+      "group": "Sisteres of Assuption of Nicolet",
+      "ref": ["ERM-030920"]
+    }],
+    "writtenAgreements": [{
+      "date": 1911,
+      "title": "1911 Agreement",
+      "desc": "Standard agreement for operation of Ermineskin IRS: complete and signed ",
+      "ref": ["ERM-000186"]
+    }, {
+      "date": 1962,
+      "title": "1962 Indianescom Agreement",
+      "desc": "Agreement for operation of Ermineskin IRS: signed on Sep. 25, 1962 between the Government and Indianescom (Oblate Indian-Eskimo Commission) ",
+      "ref": ["ERM-001094"]
+    }],
+    "additionalInformation": [{
+      "date": 1965,
+      "type": "sexual",
+      "victim": "",
+      "agressor": "",
+      "notes": "Letter from Ermineskin IRS staff member reporting bare-bottom strapping of teenage girls and boys as punishment. The letter states that other staff members know about it and will verify. Request to keep the source confidential. Includes letters from two girls, with descriptions of being strapped in an office with their bottoms bare.",
+      "ref": ["ERM-000058"]
+    }, {
+      "date": 1949,
+      "type": "physical",
+      "victim": "",
+      "agressor": "principal",
+      "notes": "Complaint against the Principal for truancy punishment. Truant boys were given two warnings. The 3rd time, they were given a choice between strapping or close hair cut, and the 4th time, they were given a close hair cut. Principal was brought before the Band Council at the Samson Band to explain the case for exceeding his authority. Discussion states that other complaints (not listed) were being corrected by the Principal, and in one instance, that the services of a staff member were terminated and another person was hired .",
+      "ref": ["EDH-000379"]
+    }, {
+      "date": 1949,
+      "type": "physical",
+      "victim": "",
+      "agressor": "",
+      "notes": "Instruction given to the Principal to cease giving students hair cuts as punishment and to keep a log of strappings.",
+      "ref": ["OGP-030586"]
+    }, {
+      "date": 1965,
+      "type": "physical",
+      "victim": "",
+      "agressor": "",
+      "notes": "Letter from Ermineskin IRS staff member reporting bare-bottom strapping of teenage girls and boys as punishment. The letter states that other staff members know about it and will verify. Request to keep the source confidential. Includes letters from two girls, with descriptions of being strapped in an office with their bottoms bare.",
+      "ref": ["ERM-000058", "ERM-200048"]
+    }, {
+      "date": 1897,
+      "type": "health",
+      "victim": "",
+      "agressor": "",
+      "notes": "Two students died during the school year: one student from a brain disease and another from 'consumption'.",
+      "ref": ["OGP-032540"]
+    }, {
+      "date": 1900,
+      "type": "health",
+      "victim": "",
+      "agressor": "",
+      "notes": "Two students died during the school year: one student from a hemorrhage and another from 'consumption'.",
+      "ref": ["OGP-032541"]
+    }, {
+      "date": 1901,
+      "type": "health",
+      "victim": "",
+      "agressor": "",
+      "notes": "Small pox: reported cases at the school, case details, vaccination/quarantine efforts, school closure and re-opening.",
+      "ref": ["ERM-000133", "ERM-000137", "ERM- 000139", "ERM-000140"]
+    }, {
+      "date": 1917,
+      "type": "health",
+      "victim": "",
+      "agressor": "",
+      "notes": "Measles: 8 cases found by Doctor at the school and students quarantined.",
+      "ref": ["ERM-000166"]
+    }, {
+      "date": 1921,
+      "type": "health",
+      "victim": "",
+      "agressor": "",
+      "notes": "Smallpox outbreak: '...quarantined with a kind of pox... the 4 children who got sick are well' [ERM-008797]. The quarantine was to be held until at least Jul. 5 or 6, 1921.",
+      "ref": ["ERM-008797", "ERM-008796"]
+    }, {
+      "date": 1927,
+      "type": "health",
+      "victim": "",
+      "agressor": "",
+      "notes": "Chicken pox: '4 cases of mild form of chicken-pox broke out in the school during the month'.",
+      "ref": ["ERM-006047"]
+    }, {
+      "date": 1928,
+      "type": "incident",
+      "victim": "",
+      "agressor": "",
+      "notes": "Death: 'a boy... died very suddenly at the school, cause unknown'.",
+      "ref": ["ERM-006058"]
+    }, {
+      "date": 1928,
+      "type": "health",
+      "victim": "",
+      "agressor": "",
+      "notes": "Influenza: 'a mild form of influenza went through the school during the month and ninety-five of the pupils were ill at one time'.",
+      "ref": ["ERM-006059"]
+    }, {
+      "date": 1937,
+      "type": "health",
+      "victim": "",
+      "agressor": "",
+      "notes": "TB statistics for the students at Ermineskin IRS.",
+      "ref": ["RM-800184", "ERM-800186"]
+    }, {
+      "date": 1938,
+      "type": "health",
+      "victim": "",
+      "agressor": "",
+      "notes": "Death: one pupil died from pneumonia.",
+      "ref": ["ERM-001902"]
+    }, {
+      "date": 1938,
+      "type": "health",
+      "victim": "",
+      "agressor": "",
+      "notes": "Illness: 34 children are sick in bed in the dormitories (31 with mumps, 2 with chicken pox, 1 with pneumonia.",
+      "ref": ["ERM-001803"]
+    }, {
+      "date": 1944,
+      "type": "health",
+      "victim": "",
+      "agressor": "",
+      "notes": "Tuberculosis: 5 pupils reported as sent home.",
+      "ref": ["ERM-000395"]
+    }, {
+      "date": 1944,
+      "type": "health",
+      "victim": "",
+      "agressor": "",
+      "notes": "Blood tests to be carried out on pupils.",
+      "ref": ["ERM-007290"]
+    }, {
+      "date": 1946,
+      "type": "health",
+      "victim": "",
+      "agressor": "",
+      "notes": "Polio: school opening postponed from Sep. 3 to Sep. 16 on advice of the Doctor due to cases of poliomyelitis (infantile paralysis) in the district.",
+      "ref": ["ERM-002084"]
+    }, {
+      "date": 1948,
+      "type": "health",
+      "victim": "",
+      "agressor": "",
+      "notes": "Measles epidemic - continued into Mar. 1948.",
+      "ref": ["ERM-006189", "ERM-006192", "OGP-030548"]
+    }, {
+      "date": 1949,
+      "type": "health",
+      "victim": "",
+      "agressor": "",
+      "notes": "Some cases of chicken pox.",
+      "ref": ["ERM-006200"]
+    }, {
+      "date": 1949,
+      "type": "health",
+      "victim": "",
+      "agressor": "",
+      "notes": "Ermineskin IRS cooperated extensively with rehabilitation of TB patients and children of TB families and children returning from Charles Camsell Indian Hospital, who were all accommodated before others and special food and attention was necessary for them.",
+      "ref": ["ERM-001315"]
+    }, {
+      "date": 1950,
+      "type": "health",
+      "victim": "",
+      "agressor": "",
+      "notes": "Letter indicates that a dentist has not visited Ermineskin IRS for several years. Dental care was subsequently arranged for 1951.",
+      "ref": ["OGP-030642", "OGP-030656"]
+    }, {
+      "date": 1951,
+      "type": "report",
+      "victim": "",
+      "agressor": "",
+      "notes": "Letter to the Doctor mentions that the fluoride content in water at Ermineskin IRS is 2 ppm. (any amount in excess of 1.5 ppm produces mottling).",
+      "ref": ["ERM-006223"]
+    }, {
+      "date": 1955,
+      "type": "health",
+      "victim": "",
+      "agressor": "",
+      "notes": "Mar. 8 to 11 - the school was closed under Doctor’s orders due to an unknown epidemic.",
+      "ref": ["ERM-000577"]
+    }, {
+      "date": 1956,
+      "type": "health",
+      "victim": "",
+      "agressor": "",
+      "notes": "Diphtheria: school closed to day pupils for 2 weeks on Doctor’s orders due to diphtheria cases. Ermineskin IRS under quarantine for diphtheria from Feb. 17, 1956 - Mar. 5, 1956.",
+      "ref": ["ERM-000568", "ERM-004659"]
+    }, {
+      "date": 1958,
+      "type": "health",
+      "victim": "",
+      "agressor": "",
+      "notes": "A letter contains an accusation that a student was turned away from Hobbema hospital despite requiring medical care. An explanation was supplied later.",
+      "ref": ["OGP-031475", "OGP-031484"]
+    }, {
+      "date": 1961,
+      "type": "report",
+      "victim": "",
+      "agressor": "",
+      "notes": "Report indicates toilet facilities at the institution were inadequate.",
+      "ref": ["OGP-031708"]
+    }, {
+      "date": 1964,
+      "type": "health",
+      "victim": "",
+      "agressor": "",
+      "notes": "Diphtheria: 72 children under quarantine last week and presently, 40 are in quarantine due to active cases of diphtheria.",
+      "ref": ["ERM-004903"]
+    }, {
+      "date": 1965,
+      "type": "report",
+      "victim": "",
+      "agressor": "",
+      "notes": "School buildings are served by 3 septic tanks with common short outfall sewer.",
+      "ref": ["ERM-002448-0000"]
+    }, {
+      "date": 1974,
+      "type": "policy",
+      "victim": "",
+      "agressor": "",
+      "notes": "Meeting minutes mention the effects of the cutbacks on the education budget, and list various recommendations, including that: 'a full time nurse is urgently needed as the nurses stationed at the Hobbema clinic make only periodic visits to the School for preventative health services and not for treatment, also there are numerous other needs for diagnosis and treatment of children at school'.",
+      "ref": ["ERM-003308-0001"]
+    }, {
+      "date": 1975,
+      "type": "policy",
+      "victim": "",
+      "agressor": "",
+      "notes": "Letter of opinion to the Government from the Nurse in Charge stating that the 'lunch program at the Ermineskin School should be continued...I have seen children faint on Monday morning, in some instances, they had nothing to eat since Friday noon'.",
+      "ref": ["ERM-007155-0003"]
+    }, {
+      "date": 1927,
+      "type": "program",
+      "victim": "",
+      "agressor": "",
+      "notes": "Agent’s report notes that 'on the afternoon of my visit to the school the boys were engaged in shoe mending and the girls in sewing and knitting... very good progress is being made'.",
+      "ref": ["ERM-006046"]
+    }, {
+      "date": 1929,
+      "type": "policy",
+      "victim": "",
+      "agressor": "",
+      "notes": "Letter notes that the Government is allowing now two months for holidays for the children’s summer vacation.",
+      "ref": ["ERM-008790"]
+    }, {
+      "date": 1936,
+      "type": "program",
+      "victim": "",
+      "agressor": "",
+      "notes": "Boys 'are taught a certain amount of carpentering and blacksmithing in the shop the Department helped to set up a year ago'.",
+      "ref": ["ERM-006132"]
+    }, {
+      "date": 1940,
+      "type": "policy",
+      "victim": "",
+      "agressor": "",
+      "notes": "Letter notes that 'all caskets for funerals of Indians are made by these boys...' as part of their vocational training.",
+      "ref": ["ERM-006144"]
+    }, {
+      "date": 1943,
+      "type": "policy",
+      "victim": "",
+      "agressor": "",
+      "notes": "Ermineskin IRS received surplus military clothes while the school provided material to the local military district.",
+      "ref": ["OGP-030387", "OGP-030389"]
+    }, {
+      "date": 1947,
+      "type": "report",
+      "victim": "",
+      "agressor": "",
+      "notes": "Food service and dietary inspection of the school.",
+      "ref": ["OGP-032537"]
+    }, {
+      "date": 1949,
+      "type": "policy",
+      "victim": "",
+      "agressor": "",
+      "notes": "The practice of using children for farm labour is discontinued and the school subsequently hires labour for the work.",
+      "ref": ["ERM-001309"]
+    }, {
+      "date": 1949,
+      "type": "policy",
+      "victim": "",
+      "agressor": "",
+      "notes": "Change of the school work to the Alberta curriculum.",
+      "ref": ["ERM-003858"]
+    }, {
+      "date": 1951,
+      "type": "program",
+      "victim": "",
+      "agressor": "",
+      "notes": "Students went on trip to Edmonton to see the Prince and Princess.",
+      "ref": ["ERM-004738"]
+    }, {
+      "date": 1953,
+      "type": "program",
+      "victim": "",
+      "agressor": "",
+      "notes": "Inspection report lists extra-class activities at the school: cadets, sports, music, student union, concert work, fancy needlework, films.",
+      "ref": ["ERM-000041"]
+    }, {
+      "date": 1953,
+      "type": "program",
+      "victim": "",
+      "agressor": "",
+      "notes": "Newspaper article refers to the school paper: The Moccasin News.",
+      "ref": ["ERM-000596"]
+    }, {
+      "date": 1955,
+      "type": "policy",
+      "victim": "",
+      "agressor": "",
+      "notes": "Letter from the Government notes that 'I expect that we will be able to secure satisfactory teachers now that the school is considered government owned. We certainly cannot tolerate the engagement of teachers who are not fluent in English'.",
+      "ref": ["EDH-000024"]
+    }, {
+      "date": 1956,
+      "type": "program",
+      "victim": "",
+      "agressor": "",
+      "notes": "Quarterly Return lists several students as being on a 'tour in France'.",
+      "ref": ["ERM- 004589"]
+    }, {
+      "date": 1962,
+      "type": "policy",
+      "victim": "",
+      "agressor": "",
+      "notes": "Agricultural class students to receive their vacation during winter (Dec. and Jan.), while they will have class in Jul. and Aug. due to practical work to be accomplished for the course during that time.",
+      "ref": ["ERM-000865"]
+    }, {
+      "date": 1966,
+      "type": "report",
+      "victim": "",
+      "agressor": "",
+      "notes": "Letter mentions that 'we are desperately short of teachers for the Ermineskin school'.",
+      "ref": ["EDH-000015"]
+    }, {
+      "date": 1973,
+      "type": "policy",
+      "victim": "",
+      "agressor": "",
+      "notes": "Cultural programs: 'Cree language classes are being taught in Grades 5 to 9 in the school... Also, students are being taught stories by older people on the reserve'.",
+      "ref": ["ERM-007179-0001"]
+    }, {
+      "date": 1971,
+      "type": "policy",
+      "victim": "",
+      "agressor": "",
+      "notes": "Lunch program: 'a hot noon lunch is served to nearly 800 students (inclusive of those in residence) who attend the adjacent elementary and junior high schools. This program is conducted in an orderly and efficient manner... over 45 minute period... students participate in clearing away dishes after the meal'.",
+      "ref": ["ERM-008136"]
+    }]
+  }
+}

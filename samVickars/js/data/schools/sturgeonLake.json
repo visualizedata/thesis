@@ -1,0 +1,38 @@
+{
+  "name": "Sturgeon Lake (Calais)",
+  "type": "Residential",
+  "location": {
+    "province": "Alberta",
+    "city": "city",
+    "latLng": {
+      "lat": 55.07253889,
+      "-117.5020556": 0.000
+    }
+  },
+  "narrativeDate": "09-11-01",
+  "startYear": 1907,
+  "endYear": 1961,
+  "data": {
+    "nameVariants": [],
+    "chronoHistory": [],
+    "notesHistory": [],
+    "management": [],
+    "enrollment": [],
+    "reserves": [""],
+    "religiousGroups": [{
+      "group": "group",
+      "ref": ["number"]
+    }, {
+      "group": "group",
+      "ref": ["number"]
+    }, {
+      "group": "group",
+      "ref": ["number"]
+    }, {
+      "group": "group",
+      "ref": ["number"]
+    }],
+    "writtenAgreements": [],
+    "additionalInformation": []
+  }
+}

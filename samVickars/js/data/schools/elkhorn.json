@@ -1,0 +1,398 @@
+{
+  "name": "Elkhorn (Washakada) IRS",
+  "type": "Residential",
+  "location": {
+    "province": "Manitoba",
+    "city": "Elkhorn",
+    "latLng": {
+      "lat": 49.97706944,
+      "lng": -101.25095
+    }
+  },
+  "narrativeDate": "09-11-01",
+  "startYear": 1889,
+  "endYear": 1949,
+  "data": {
+    "nameVariants": [{
+      "startYear": 1889,
+      "endYear": 1895,
+      "name": "Homes for Indian Children; Washakada Home (girls) and Kasota Home (boys) ",
+      "note": "",
+      "ref": ["ELK-000431, pg. 2-3"]
+    }, {
+      "startYear": 1889,
+      "endYear": 1918,
+      "name": "Washakada (Indian) Home/Industrial School ",
+      "note": "",
+      "ref": ["ELK-000039", "ELK-000207", "ELK-000438, pg. 2", "ELK-000551, pg. 4, 9"]
+    }, {
+      "startYear": 1892,
+      "endYear": 1892,
+      "name": "Elkhorn Institution/Institute",
+      "note": "",
+      "ref": ["ELK-000025"]
+    }, {
+      "startYear": 1895,
+      "endYear": 1918,
+      "name": "Elkhorn Industrial School ",
+      "note": "",
+      "ref": ["ELK-000481", "ELK-000496", "ELK-000160"]
+    }, {
+      "startYear": 1924,
+      "endYear": 1949,
+      "name": "Elkhorn Indian Residential School ",
+      "note": "",
+      "ref": ["ELK-000481", "ELK-000496", "ELK-000160"]
+    }, {
+      "startYear": 1945,
+      "endYear": 1945,
+      "name": "St. Mark’s Anglican Indian School",
+      "note": "",
+      "ref": ["ELK-000413"]
+    }],
+    "chronoHistory": [{
+      "date": 1889,
+      "desc": ["The IRS opened with residents.  The Principal referred to the IRS as “Homes for Indian Children.”  The original Elkhorn IRS consisted of a main building, and two residential buildings called the Washakada Home for girls and the Kasota Home for boys"],
+      "ref": ["ELK-000039", "ELK-000431, pg. 2-3"]
+    }, {
+      "date": 1895,
+      "desc": ["A fire destroyed the IRS buildings with the exception of the Kasota Home for boys.  As a result, the IRS temporarily operated out of buildings in the town of Elkhorn.  A former restaurant accommodated the female pupils, while a large store with a stock room was used as a dining hall, kitchen and classroom. The Kasota Home for boys was used to serve meals for residents.  The IRS buildings reached “from end to end” of the town."],
+      "ref": ["ELK-000436, pg. 22", "ELK-000440, pg. 2", "ELK-000551, pg. 25-27"]
+    }, {
+      "date": 1899,
+      "desc": ["The new Elkhorn IRS building was opened and occupied"],
+      "ref": ["ELK-000445, pg. 2"]
+    }, {
+      "date": 1908,
+      "desc": ["A fire occurred at the IRS. No one was injured and both staff and students helped extinguish the fire. "],
+      "ref": ["ELK-000217"]
+    }, {
+      "date": 1918,
+      "desc": ["The Elkhorn IRS was closed due to a lack of agreement between the Anglican Church and the federal government regarding financial responsibility and in the “interests of economy.” "],
+      "ref": ["ELLLK-000249", "ELK-000468, pg. 6", "ELK-000250"]
+    }, {
+      "date": 1924,
+      "desc": ["The IRS re-opened for the 1923/24 school year with seventeen pupils.  Several students returned to the IRS in January 1924 from trapping with their parents"],
+      "ref": ["AAC-083007, pg. 7", "AAC-085160, pg. 4", "ELK-000551, pg. 52-53"]
+    }, {
+      "date": 1947,
+      "desc": ["By 1947, the IRS classroom block needed numerous repairs. In May 1948, one classroom was operating in the main IRS building.  The classroom block was also still in use, but an inspector noted that repairs to the classroom block “would be a waste of money.”  In July the federal government decided to reduce the pupilage at the IRS to 75 so that use of the classroom block would not be necessary. By November 1948, the only two classrooms in use at the IRS were located in the main IRS building. "],
+      "ref": ["ELK-00146-0001", "ELK-000085", "ELK-000426", "ELK-000428"]
+    }, {
+      "date": 1949,
+      "desc": ["The Elkhorn IRS closed."],
+      "ref": ["ELK-000160"]
+    }],
+    "notesHistory": [],
+    "management": [{
+      "startYear": 1889,
+      "endYear": 1949,
+      "org": "government",
+      "orgName": "Federal Government of Canada",
+      "type": ["Management"],
+      "ref": ["01999"]
+    }],
+    "enrollment": [{
+      "year": 1889,
+      "number": 49,
+      "notes": ""
+    }, {
+      "year": 1890,
+      "number": 49,
+      "notes": ""
+    }, {
+      "year": 1891,
+      "number": 30,
+      "notes": ""
+    }, {
+      "year": 1892,
+      "number": 62,
+      "notes": ""
+    }, {
+      "year": 1893,
+      "number": 69,
+      "notes": ""
+    }, {
+      "year": 1894,
+      "number": 95,
+      "notes": ""
+    }, {
+      "year": 1895,
+      "number": 103,
+      "notes": ""
+    }, {
+      "year": 1896,
+      "number": 86,
+      "notes": ""
+    }, {
+      "year": 1897,
+      "number": 96,
+      "notes": ""
+    }, {
+      "year": 1898,
+      "number": 80,
+      "notes": ""
+    }, {
+      "year": 1899,
+      "number": 86,
+      "notes": ""
+    }, {
+      "year": 1900,
+      "number": 83,
+      "notes": ""
+    }, {
+      "year": 1901,
+      "number": 85,
+      "notes": ""
+    }, {
+      "year": 1902,
+      "number": 89,
+      "notes": ""
+    }, {
+      "year": 1903,
+      "number": 80,
+      "notes": ""
+    }, {
+      "year": 1904,
+      "number": 77,
+      "notes": ""
+    }, {
+      "year": 1905,
+      "number": 111,
+      "notes": ""
+    }, {
+      "year": 1906,
+      "number": 105,
+      "notes": ""
+    }, {
+      "year": 1907,
+      "number": 97,
+      "notes": ""
+    }, {
+      "year": 1908,
+      "number": 93,
+      "notes": ""
+    }, {
+      "year": 1909,
+      "number": 72,
+      "notes": ""
+    }, {
+      "year": 1910,
+      "number": 79,
+      "notes": ""
+    }, {
+      "year": 1911,
+      "number": 81,
+      "notes": ""
+    }, {
+      "year": 1912,
+      "number": 84,
+      "notes": ""
+    }, {
+      "year": 1913,
+      "number": 89,
+      "notes": ""
+    }, {
+      "year": 1914,
+      "number": 113,
+      "notes": ""
+    }, {
+      "year": 1915,
+      "number": 125,
+      "notes": ""
+    }, {
+      "year": 1916,
+      "number": 93,
+      "notes": ""
+    }, {
+      "year": 1917,
+      "number": 79,
+      "notes": ""
+    }, {
+      "year": 1923,
+      "number": 83,
+      "notes": ""
+    }, {
+      "year": 1924,
+      "number": 131,
+      "notes": ""
+    }, {
+      "year": 1925,
+      "number": 129,
+      "notes": ""
+    }, {
+      "year": 1926,
+      "number": 122,
+      "notes": ""
+    }, {
+      "year": 1927,
+      "number": 131,
+      "notes": ""
+    }, {
+      "year": 1928,
+      "number": 129,
+      "notes": ""
+    }, {
+      "year": 1929,
+      "number": 168,
+      "notes": ""
+    }, {
+      "year": 1930,
+      "number": 152,
+      "notes": ""
+    }, {
+      "year": 1930,
+      "number": 152,
+      "notes": ""
+    }, {
+      "year": 1931,
+      "number": 119,
+      "notes": ""
+    }, {
+      "year": 1932,
+      "number": 116,
+      "notes": ""
+    }, {
+      "year": 1933,
+      "number": 1151,
+      "notes": ""
+    }, {
+      "year": 1934,
+      "number": 164,
+      "notes": ""
+    }, {
+      "year": 1935,
+      "number": 160,
+      "notes": ""
+    }, {
+      "year": 1936,
+      "number": 154,
+      "notes": ""
+    }, {
+      "year": 1937,
+      "number": 143,
+      "notes": ""
+    }, {
+      "year": 1938,
+      "number": 161,
+      "notes": ""
+    }, {
+      "year": 1939,
+      "number": 161,
+      "notes": ""
+    }, {
+      "year": 1940,
+      "number": 161,
+      "notes": ""
+    }, {
+      "year": 1941,
+      "number": 161,
+      "notes": ""
+    }, {
+      "year": 1942,
+      "number": 142,
+      "notes": ""
+    }, {
+      "year": 1943,
+      "number": 161,
+      "notes": ""
+    }, {
+      "year": 1944,
+      "number": 143,
+      "notes": ""
+    }, {
+      "year": 1945,
+      "number": 108,
+      "notes": ""
+    }, {
+      "year": 1946,
+      "number": 108,
+      "notes": ""
+    }, {
+      "year": 1947,
+      "number": 108,
+      "notes": ""
+    }, {
+      "year": 1948,
+      "number": 108,
+      "notes": ""
+    }, {
+      "year": 1949,
+      "number": 108,
+      "notes": ""
+    }],
+    "reserves": [],
+    "religiousGroups": [{
+      "group": "Church of England",
+      "ref": ["ELK-000014", "ELK-000207", "ELK-000236", "ELK-000252"]
+    }, {
+      "group": "Missionary Society of the Church of England in Canada",
+      "ref": ["ELK000306", "ELK-000318", "ELK-000036"]
+    }],
+    "writtenAgreements": [],
+    "additionalInformation": [{
+      "date": 1925,
+      "type": "physical",
+      "victim": "",
+      "agressor": "boys' supervisor",
+      "notes": "A federal Inspector reported that a visiting Nurse at the IRS made allegations that the boys’ supervisor mistreated the children. The IRS Principal denied the claim.",
+      "ref": ["ELK-000330"]
+    }, {
+      "date": 1948,
+      "type": "physical",
+      "victim": "",
+      "agressor": "",
+      "notes": "The Chief and a Councillor from The Pas Band complained about conditions at the IRS: poor clothing, head lice, and inadequate food. They also alleged that a boy was punished and not fed for two weeks, and that a female pupil’s feet froze and had to be amputated. A federal Inspector visited the IRS to investigate the allegations. He noted that two girls who ran away from the IRS suffered frostbite and a boy was punished by the IRS Principal and sent to bed without supper. The Inspector suggested ways to improve the conditions at the IRS.",
+      "ref": ["ELK-000082", "ELK-000419", "ELK-000085"]
+    }, {
+      "date": 1891,
+      "type": "report",
+      "victim": "",
+      "agressor": "",
+      "notes": "The farm used by the IRS was on 640 acres owned by the federal government, and was located four miles away from the IRS buildings.",
+      "ref": ["ELK-000047", "ELK-000070", "ELK-000431"]
+    }, {
+      "date": 1911,
+      "type": "health",
+      "victim": "",
+      "agressor": "",
+      "notes": "There were two epidemics of measles at the IRS in 1911 and 1912.",
+      "ref": ["ELK-000459"]
+    }, {
+      "date": 1926,
+      "type": "health",
+      "victim": "",
+      "agressor": "",
+      "notes": "A federal Indian Agent reported numerous complaints from parents of residents at the IRS regarding sickness, poor nutrition and lack of sufficient clothing. One parent alleged that one of her children died and she was not notified by the IRS that her child was sick.",
+      "ref": ["ELK-000326", "ELK-000331", "ELK-000332"]
+    }, {
+      "date": 1936,
+      "type": "health",
+      "victim": "",
+      "agressor": "",
+      "notes": "There was a measles epidemic at the IRS in January 1936.",
+      "ref": ["ELK-000551"]
+    }, {
+      "date": 1939,
+      "type": "health",
+      "victim": "",
+      "agressor": "",
+      "notes": "There was an influenza epidemic at the IRS.",
+      "ref": ["ELK-000551"]
+    }, {
+      "date": 1944,
+      "type": "report",
+      "victim": "",
+      "agressor": "",
+      "notes": "Parents complained that conditions at the IRS were very poor. A federal inspection report noted that IRS was in bad state and that parents had good reason to complain.",
+      "ref": ["ELK-000392-0000", "ELK-000381", "ELK-000395", "ELK-000399-0000", "ELK-000399-0001", "ELK-000400"]
+    }, {
+      "date": 1948,
+      "type": "report",
+      "victim": "",
+      "agressor": "",
+      "notes": "A grandmother of pupils at the IRS complained about inadequate food at the IRS.",
+      "ref": ["ELK-000406-0000", "ELK-000406-0001"]
+    }]
+  }
+}

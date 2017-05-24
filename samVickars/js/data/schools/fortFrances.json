@@ -1,0 +1,462 @@
+{
+  "name": "Fort Frances (Coochiching) IRS",
+  "type": "Residential",
+  "location": {
+    "province": "Ontario",
+    "city": "Fort Frances",
+    "latLng": {
+      "lat": 48.62881667,
+      "lng": -93.35896389
+    }
+  },
+  "narrativeDate": "09-11-01",
+  "startYear": 1906,
+  "endYear": 1974,
+  "data": {
+    "nameVariants": [{
+      "startYear": 1906,
+      "endYear": 1922,
+      "name": "Fort Frances (Indian) Boarding School",
+      "note": "",
+      "ref": ["FFR-060061", "FFR-001523, pg. 1", "FFR-002826, pg. 3"]
+    }, {
+      "startYear": 1925,
+      "endYear": 1925,
+      "name": "Cootchiching Indian Boarding School",
+      "note": "",
+      "ref": ["FFR-000186-0001"]
+    }, {
+      "startYear": 1923,
+      "endYear": 1968,
+      "name": "Fort Frances (Indian) Residential School",
+      "note": "",
+      "ref": ["FFR-002827, pg. 3", "FFR- 002937", "FFR-000031, pg. 2"]
+    }, {
+      "startYear": 1957,
+      "endYear": 1957,
+      "name": "St. Margaret’s Indian Residential School",
+      "note": "",
+      "ref": ["FFR-001475"]
+    }, {
+      "startYear": 1968,
+      "endYear": 1974,
+      "name": "Fort Frances Student Residence",
+      "note": "",
+      "ref": ["FFR-001983-0000, pg. 1", "FFR- 002773, pg. 1"]
+    }],
+    "chronoHistory": [{
+      "date": 1906,
+      "desc": ["April 1: The construction of the Fort Frances IRS buildings began in 1905 and the IRS opened on April 1, 1906.", "April 14: An agreement was signed between the Sisters of the Charity, also known as the Grey Nuns, and the Diocese of St. Boniface, represented by the Oblates of Mary Immaculate, for the Sisters to manage the Fort Frances IRS on behalf of the Diocese. Under the direction of the Oblate Father Principal, the Sisters agreed to provide classroom instruction to boys and girls, and to train and supervise the girls. The Oblate Fathers would supervise boys outside of the classrooms. Two classrooms operated in the main IRS building."],
+      "ref": ["FFR-002809", "GNB-000262", "FFR-002814"]
+    }, {
+      "date": 1911,
+      "desc": ["March: The Grey Nuns managed the IRS under the supervision of an Oblate Father Principal.", "March 14: An agreement was signed between the federal government and the Oblate Archdiocese of St. Boniface for the operation of the IRS."],
+      "ref": ["FFR-002815", "FFR-001523"]
+    }, {
+      "date": 1950,
+      "desc": ["The Oblate Fathers of Manitoba and the Grey Nuns of Montreal signed a contract for the provision of educational and administrative services at the Fort Frances IRS."],
+      "ref": ["GNB-000565-0000", "GNB-000565-0001", "GNB-000565-0002"]
+    }, {
+      "date": 1955,
+      "desc": ["Three classrooms operated at the IRS."],
+      "ref": ["FFR-004473"]
+    }, {
+      "date": 1962,
+      "desc": ["September: A new dormitory building and a three classroom block opened. The two buildings were connected by a long corridor.", "September 25: An agreement was signed between the federal government and the Oblate Indian Eskimo Commission (INDIANESCOM) for the operation of the IRS."],
+      "ref": ["FFR-003182-0000", "FFR-003182-0001", "FFR-003182-0002", "FFR-002311-0000", "FFR-000444-0000"]
+    }, {
+      "date": 1963,
+      "desc": ["In May 1963, the federal government and the Board of Trustees of the Roman Catholic Separate School Board in Fort Frances signed an agreement for the Board to accept the admission of twenty Grade 7 and 8 pupils living at the IRS to attend the Provincial Separate School.<BR> In the summer of 1963, the federal government granted permission for the IRS to be used as a hostel for Grade 9 students attending a separate school in Fort Frances.<BR> During the 1963/64 school year, students in Grades 5 and 7 to 10 were residing at the IRS and attending schools in the town of Fort Frances.<br> During the 1964/65 school year, a smaller number of IRS students in Grades 6 to 11 continued to attend schools in the town of Fort Frances."],
+      "ref": ["FFR-060129", "FFR-000456", "FFR-003808-0000", "FFR-003809", "FFR-000462", "FFR-002605", "FFR-002606", "FFR-002611", "FFR-002612", "FFR-002613", "FFR-002616", "FFR-002617", "FFR-002620"]
+    }, {
+      "date": 1964,
+      "desc": ["September: A 'special class' was established in the basement of the main IRS building for students who were unable to meet the Grade 9 standard required in the Fort Frances High School."],
+      "ref": ["FFR-003722", "FFR-002117"]
+    }, {
+      "date": 1965,
+      "desc": ["March: After a fire destroyed the McIntosh IRS in March 1965, Grades 4 and 5 pupils from the McIntosh IRS stayed at the Fort Frances IRS for the remainder of the 1964/65 school year."],
+      "ref": ["MCI-006376-0001", "MCI-006378", "FFR-004123-0000", "FFR-001140-0003", "FFR-001142-0001"]
+    }, {
+      "date": 1968,
+      "desc": ["September: The IRS residence and classroom buildings were joined by a long corridor. The administration of the residence and classroom portions of the IRS was slated to be separated in September 1968. The IRS Principal objected to the proposed separation, and the federal government did not proceed at the time due to upcoming 'major developments'.<br> The federal government assumed responsibility for the direct operation of the Fort Frances IRS on April 1, 1969."],
+      "ref": ["FFR-000585-0000", "FFR-000585-0001", "FFR-000585-0002", "FFR-000745-0002", "FFR-000750-0000", "FFR-000750-0002"]
+    }, {
+      "date": 1971,
+      "desc": ["Three classrooms operated at the IRS during the 1971/72 to 1973/74 school years."],
+      "ref": ["FFR-002636", "FFR-002646", "FFR-002655"]
+    }, {
+      "date": 1974,
+      "desc": ["March: The federal government decided to close the IRS due to declining enrolment. Upon closure, students were to be transferred to the Cecilia Jeffrey IRS in Kenora or placed in boarding homes.", "The IRS was closed. No pupils returned for the September 1974 term."],
+      "ref": ["FFR-001987-0000", "FFR-001987-0001", "FFR-003875-0000", "FFR-002027"]
+    }],
+    "notesHistory": [],
+    "management": [{
+      "startYear": 1906,
+      "endYear": 1974,
+      "org": "government",
+      "orgName": "Federal Government of Canada",
+      "type": ["Management Staff"],
+      "ref": ["FFR-002810"]
+    }],
+    "enrollment": [{
+      "year": 1906,
+      "number": "46",
+      "notes": ""
+    }, {
+      "year": 1907,
+      "number": "49",
+      "notes": ""
+    }, {
+      "year": 1908,
+      "number": "45",
+      "notes": ""
+    }, {
+      "year": 1909,
+      "number": "45",
+      "notes": ""
+    }, {
+      "year": 1910,
+      "number": "45",
+      "notes": ""
+    }, {
+      "year": 1911,
+      "number": "55",
+      "notes": ""
+    }, {
+      "year": 1912,
+      "number": "52",
+      "notes": ""
+    }, {
+      "year": 1913,
+      "number": "53",
+      "notes": ""
+    }, {
+      "year": 1914,
+      "number": "65",
+      "notes": ""
+    }, {
+      "year": 1915,
+      "number": "61",
+      "notes": ""
+    }, {
+      "year": 1916,
+      "number": "66",
+      "notes": ""
+    }, {
+      "year": 1917,
+      "number": "66",
+      "notes": ""
+    }, {
+      "year": 1918,
+      "number": "63",
+      "notes": ""
+    }, {
+      "year": 1919,
+      "number": "68",
+      "notes": ""
+    }, {
+      "year": 1920,
+      "number": "75",
+      "notes": ""
+    }, {
+      "year": 1921,
+      "number": "80",
+      "notes": ""
+    }, {
+      "year": 1922,
+      "number": "86",
+      "notes": ""
+    }, {
+      "year": 1923,
+      "number": "84",
+      "notes": ""
+    }, {
+      "year": 1924,
+      "number": "86",
+      "notes": ""
+    }, {
+      "year": 1925,
+      "number": "90",
+      "notes": ""
+    }, {
+      "year": 1926,
+      "number": "93",
+      "notes": ""
+    }, {
+      "year": 1927,
+      "number": "94",
+      "notes": ""
+    }, {
+      "year": 1928,
+      "number": "97",
+      "notes": ""
+    }, {
+      "year": 1929,
+      "number": "97",
+      "notes": ""
+    }, {
+      "year": 1930,
+      "number": "102",
+      "notes": ""
+    }, {
+      "year": 1931,
+      "number": "105",
+      "notes": ""
+    }, {
+      "year": 1932,
+      "number": "101",
+      "notes": ""
+    }, {
+      "year": 1933,
+      "number": "101",
+      "notes": ""
+    }, {
+      "year": 1934,
+      "number": "93",
+      "notes": ""
+    }, {
+      "year": 1935,
+      "number": "93",
+      "notes": ""
+    }, {
+      "year": 1936,
+      "number": "94",
+      "notes": ""
+    }, {
+      "year": 1937,
+      "number": "99",
+      "notes": ""
+    }, {
+      "year": 1938,
+      "number": "97",
+      "notes": ""
+    }, {
+      "year": 1939,
+      "number": "97",
+      "notes": ""
+    }, {
+      "year": 1940,
+      "number": "103",
+      "notes": ""
+    }, {
+      "year": 1941,
+      "number": "87",
+      "notes": ""
+    }, {
+      "year": 1942,
+      "number": "89",
+      "notes": ""
+    }, {
+      "year": 1943,
+      "number": "87",
+      "notes": ""
+    }, {
+      "year": 1944,
+      "number": "94",
+      "notes": ""
+    }, {
+      "year": 1945,
+      "number": "93",
+      "notes": ""
+    }, {
+      "year": 1946,
+      "number": "92",
+      "notes": ""
+    }, {
+      "year": 1947,
+      "number": "91",
+      "notes": ""
+    }],
+    "reserves": [""],
+    "religiousGroups": [{
+      "group": "Roman Catholic Church",
+      "ref": ["GNB-000262", "FFR-000444-0000", "FFR-000443", "FFR-000736", "FFR-000745-0000", "FFR-000750-0000", "FFR-000750-0002", "FFR-000763-0000", "FFR- 000763-0001"]
+    }, {
+      "group": "The Oblate Fathers of Mary Immaculate",
+      "ref": ["GNB-000262", "FFR-000444-0000", "FFR-000443", "FFR-000736", "FFR-000745-0000", "FFR-000750-0000", "FFR-000750-0002", "FFR-000763-0000", "FFR- 000763-0001"]
+    }, {
+      "group": "Oblate Indian and Eskimo Commission (INDIANESCOM)",
+      "ref": ["GNB-000262", "GNB-000606, pg. 1-2, 274"]
+    }, {
+      "group": "Sistsers of Charity (Grey Nuns of Montreal)",
+      "ref": ["GNB-000262", "GNB-000606, pg. 1-2, 274"]
+    }],
+    "writtenAgreements": [],
+    "additionalInformation": [{
+      "date": 1930,
+      "type": "program",
+      "victim": "",
+      "agressor": "",
+      "notes": "Boys skated and played hockey on an outdoor rink at the IRS. The Principal requested funding to help build a toboggan slide to get the girls more involved in outdoor activities. A junior Red Cross organization was established at the IRS.",
+      "ref": ["FFR-001829", "FFR-001831", "FFR-000220"]
+    }, {
+      "date": 1945,
+      "type": "program",
+      "victim": "",
+      "agressor": "",
+      "notes": "A Cadet Corps of 28 boys was formed at the IRS.",
+      "ref": ["FFR-001834"]
+    }, {
+      "date": 1947,
+      "type": "program",
+      "victim": "",
+      "agressor": "",
+      "notes": "Softballs, footballs, basketballs and volleyballs were supplied to the IRS for extra-curricular activities.",
+      "ref": ["FFR-001839", "FFR-001840", "FFR-001841"]
+    }, {
+      "date": 1949,
+      "type": "program",
+      "victim": "",
+      "agressor": "",
+      "notes": "The Principal requested hockey equipment, skates and toboggans with the federal funding available for sporting goods and equipment.",
+      "ref": ["FFR-001843"]
+    }, {
+      "date": 1950,
+      "type": "program",
+      "victim": "",
+      "agressor": "",
+      "notes": "The IRS boys won the Bantam hockey league championship competing in the Fort Frances and Kenora District Bantam League.",
+      "ref": ["FFR-001844"]
+    }, {
+      "date": 1951,
+      "type": "program",
+      "victim": "",
+      "agressor": "",
+      "notes": "The IRS had two hockey teams: a Bantam team for boys 14 years of age and younger, and a Pee Wee team for boys 12 years of age and younger. Three older boys who resided at the IRS played hockey with the J.A. Mathieu Midget Team from the community.",
+      "ref": ["FFR-001848"]
+    }, {
+      "date": 1954,
+      "type": "program",
+      "victim": "",
+      "agressor": "",
+      "notes": "The IRS had an outdoor rink that was equipped with electric lights and several teams from the IRS were entered in the town’s minor hockey league.",
+      "ref": ["FFR-001680,"]
+    }, {
+      "date": 1954.5,
+      "type": "program",
+      "victim": "",
+      "agressor": "",
+      "notes": "The IRS rented the Fort Frances Memorial Arena for an Indian Residential School Hockey Tournament.",
+      "ref": ["FFR-001852"]
+    }, {
+      "date": 1955,
+      "type": "program",
+      "victim": "",
+      "agressor": "",
+      "notes": "The IRS had five teams entered in the local hockey league.",
+      "ref": ["FFR-001681"]
+    }, {
+      "date": 1955.5,
+      "type": "program",
+      "victim": "",
+      "agressor": "",
+      "notes": "Teams from five Indian Residential Schools in Northwestern Ontario, including the Fort Frances IRS, competed in the annual hockey tournament held in Fort Frances.",
+      "ref": ["FFR-001681"]
+    }, {
+      "date": 1958,
+      "type": "program",
+      "victim": "",
+      "agressor": "",
+      "notes": "Cubs and Scouts organizations were active at the IRS. The Boy Scouts held twice monthly meetings in the Parish Hall at the IRS.",
+      "ref": ["FFR-001486", "FFR-000387-0000", "FFR-000387-0001"]
+    }, {
+      "date": 1963,
+      "type": "program",
+      "victim": "",
+      "agressor": "",
+      "notes": "Extra-curricular activities at the IRS included hockey, skating, camping, magazines, watching films, television, photography, listening to music, and using tape recording equipment.",
+      "ref": ["FFR-002803-0010"]
+    }, {
+      "date": 1964,
+      "type": "program",
+      "victim": "",
+      "agressor": "",
+      "notes": "Extra-curricular activities at the IRS included hockey, skating, tobogganing, magazines, watching films, television, photography, playing guitar and accordion, and listening to the radio.",
+      "ref": ["FFR-002806-0007"]
+    }, {
+      "date": 1965,
+      "type": "program",
+      "victim": "",
+      "agressor": "",
+      "notes": "Extra-curricular activities at the IRS included hockey, skating, swimming, field day, watching films and television, and listening to the records and the radio.",
+      "ref": ["FFR-002807-0008"]
+    }, {
+      "date": 1967,
+      "type": "program",
+      "victim": "",
+      "agressor": "",
+      "notes": "Extra-curricular activities at the IRS included hockey, skating, tobogganing, badminton, bicycling, reading books and magazines, watching movies, listening to music, playing piano, and pool/billiards.",
+      "ref": ["FFR-000708-0009"]
+    }, {
+      "date": 1968,
+      "type": "program",
+      "victim": "",
+      "agressor": "",
+      "notes": "Extra-curricular activities at the IRS included skating, basketball, reading magazines, watching movies, and listening to music.",
+      "ref": ["FFR-000719", "FFR-000751-0008"]
+    }, {
+      "date": 1920,
+      "type": "sexual",
+      "victim": "unnamed students",
+      "agressor": "principal",
+      "notes": "An R.C.M.P. report indicated that on more than one occasion the Principal had made indecent proposals to pupils. As a result, the Principal was relieved of his religious duties, but remained as Principal of the IRS",
+      "ref": ["FFR- 000148-0000", "FFR-000148-0001"]
+    }, {
+      "date": 1912,
+      "type": "incident",
+      "victim": "",
+      "agressor": "",
+      "notes": "A male IRS pupil died of consumption",
+      "ref": ["FFR-002816"]
+    }, {
+      "date": 1913,
+      "type": "health",
+      "victim": "",
+      "agressor": "",
+      "notes": "Two siblings enrolled at the IRS died at their home as a result of tuberculosis.",
+      "ref": ["FFR-002817"]
+    }, {
+      "date": 1932,
+      "type": "incident",
+      "victim": "",
+      "agressor": "",
+      "notes": "The Principal terminated the employment of the IRS night watchman due to 'misconduct and carelessness'.",
+      "ref": ["FFR-000234-0000", "FFR-000234-0001"]
+    }, {
+      "date": 1951.25,
+      "type": "program",
+      "victim": "",
+      "agressor": "",
+      "notes": "A hockey tournament took place in Kenora and involved teams from the following Indian Residential Schools: Fort Frances, Cecilia Jeffrey, McIntosh, Kenora (St. Mary’s), and Sioux Lookout (Pelican Lake).",
+      "ref": ["FFR- 001848"]
+    }, {
+      "date": 1953,
+      "type": "health",
+      "victim": "",
+      "agressor": "",
+      "notes": "A Fort Frances IRS student was admitted to a hospital and died. The cause of death was not provided.",
+      "ref": ["FFR-001796"]
+    }, {
+      "date": 1958,
+      "type": "policy",
+      "victim": "",
+      "agressor": "",
+      "notes": "1958-1963: When necessary, the IRS Principal placed students in private homes for the summer, rather than keep them at the IRS. The room and board expenses related to the summer placements of students were an operating cost of the IRS",
+      "ref": ["FFR-000369", "FFR-000427", "FFR-000429", "FFR- 000467-0000", "FFR-000467-0001"]
+    }, {
+      "date": 1963,
+      "type": "report",
+      "victim": "",
+      "agressor": "",
+      "notes": "The Children’s Aid Society learned from the IRS Principal that runaway incidents from the IRS had reached 'serious proportions' in the last year. The federal government investigated the matter and reported in August 1963 that the IRS had occasional runaways. The Principal noted that running away had become popular amongst students, and those who did not participate were ridiculed.",
+      "ref": ["FFR-000461-0001", "FFR-01547", "FFR- 000460", "FFR-000464"]
+    }, {
+      "date": 1965,
+      "type": "report",
+      "victim": "",
+      "agressor": "",
+      "notes": "In September, the federal government requested that the R.C.M.P. investigate a former IRS Principal regarding allegations that he had committed fraud in relation to payments received from the IRS’ fuel supply company. In March, the federal government decided not to pursue the allegations.",
+      "ref": ["FFR-000633-0000", "FFR-000633-0001", "FFR-000634", "FFR- 000635-0000", "FFR-000635-0001", "FFR-000637", "FFR-000638-0002", "FFR- 000664-0000", "FFR-000664-0001", "FFR-000649-0002"]
+    }]
+  }
+}

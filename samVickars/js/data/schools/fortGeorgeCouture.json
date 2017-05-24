@@ -1,0 +1,318 @@
+{
+  "name": "Fort George Roman Catholic RS (Residence Couture)",
+  "type": "Residential",
+  "location": {
+    "province": "Quebec",
+    "city": "Fort George",
+    "latLng": {
+      "lat": 53.83073889,
+      "lng": -78.98974722
+    }
+  },
+  "narrativeDate": "09-11-01",
+  "startYear": 1937,
+  "endYear": 1981,
+  "data": {
+    "nameVariants": [{
+      "startYear": 1937,
+      "endYear": 1981,
+      "name": "Fort George Roman Catholic Indian Residential School",
+      "note": "",
+      "ref": ["FTG-000008", "FTG-00060"]
+    }, {
+      "startYear": 1937,
+      "endYear": 1981,
+      "name": "Ecole Ste. Thérèse-de-l'Enfant-Jésus",
+      "note": "",
+      "ref": ["FTG-000151"]
+    }, {
+      "startYear": 1937,
+      "endYear": 1981,
+      "name": "Ste. Therese R.C. Indian Residential School",
+      "note": "",
+      "ref": ["FTG-000415"]
+    }, {
+      "startYear": 1937,
+      "endYear": 1981,
+      "name": "Ste. Theresa of the Infant Jesus R.C. school",
+      "note": "",
+      "ref": ["FTG-000303a"]
+    }, {
+      "startYear": 1937,
+      "endYear": 1981,
+      "name": "St. Theresa's School",
+      "note": "",
+      "ref": ["FTG-000143", "FTG-000018"]
+    }, {
+      "startYear": 1937,
+      "endYear": 1981,
+      "name": "Ste. Therese Residence",
+      "note": "",
+      "ref": ["FTG-000437"]
+    }, {
+      "startYear": 1937,
+      "endYear": 1981,
+      "name": "Couture Student Residence (official name changed in 1972)",
+      "note": "",
+      "ref": ["FTG-000118"]
+    }],
+    "chronoHistory": [{
+      "date": 1937,
+      "desc": ["Fort George R.C. school first appears on Department of Mines and Resources Annual Report, offering grades 1 to 5; school may have been open as early as 1930."],
+      "ref": ["FTG-000008", "IMR-000348"]
+    }, {
+      "date": 1952,
+      "desc": ["School offers grades 1 to 6.", "School is divided into two types of classrooms, English and French, until 1968 when the school was to be completely French, having switched fully to the Quebec curriculum."],
+      "ref": ["FTG-000316b", "FTG-000316", "FTG-000004a", "FTG-000077"]
+    }, {
+      "date": 1953,
+      "desc": ["First record of day school students attending school"],
+      "ref": ["FTG-000021"]
+    }, {
+      "date": 1961,
+      "desc": ["Principal informs regional superintendent that he will begin to offer grades 7 and 8 in the fall; previous agreement was for grades up to 6.", "January: Principal=s Monthly report indicates grade 7 being offered.", "Principal's Monthly reports for March and May indicate that a grade 9 day pupil was attending school."],
+      "ref": ["FTG-000050", "FTG-000303a", "FTG-000300", "FTG-000298"]
+    }, {
+      "date": 1966,
+      "desc": ["School was to be restricted to grades 1 to 6, after which pupils would be sent to La Tuque; Administrator apparently ignored this Departmental directive as in 1966/67 there was still a combined class of grades 6 to 8.", "School offers Kindergarten to grade 6."],
+      "ref": ["FTG-000004a", "FTG-000542"]
+    }, {
+      "date": 1967,
+      "desc": ["Beginning in September 1967 grades Pre 1/Kindergarten to 7 are offered, though in 1970-71 school is still listed as being for grades 1 to 8"],
+      "ref": ["FTG-", "000241", "FTG-000545", "FTG-000110"]
+    }, {
+      "date": 1971,
+      "desc": ["School offers Kindergarten to grade 6."],
+      "ref": ["FTG-000406a"]
+    }, {
+      "date": 1972,
+      "desc": ["Ste. Therese Indian School is separate from Couture Residence"],
+      "ref": ["FTG-000118"]
+    }, {
+      "date": 1978,
+      "desc": ["School and Residence turned over to Cree School Board through lease agreement on July 1, 1978."],
+      "ref": ["FTG-000171"]
+    }],
+    "notesHistory": [],
+    "management": [{
+      "startYear": 1938,
+      "endYear": 1978,
+      "org": "church",
+      "orgName": "Roman Catholic Episcopal Corporation of James Bay",
+      "type": ["Administration"],
+      "ref": ["FTG-000016a"]
+    }, {
+      "startYear": 1976,
+      "endYear": 1978,
+      "org": "government",
+      "orgName": "Quebec Regional Office of Indian Affairs",
+      "type": ["funding"],
+      "ref": ["FTG-00156", "FTG-000150", "FTG-000170"]
+    }, {
+      "startYear": 1978,
+      "endYear": 1981,
+      "org": "band",
+      "orgName": "Cree School Board",
+      "type": ["Management", " Administration"],
+      "ref": ["."]
+    }],
+    "enrollment": [{
+      "year": 1937,
+      "number": "10",
+      "notes": ""
+    }, {
+      "year": 1938,
+      "number": "20",
+      "notes": ""
+    }, {
+      "year": 1947,
+      "number": "20",
+      "notes": ""
+    }, {
+      "year": 1949,
+      "number": "20",
+      "notes": ""
+    }, {
+      "year": 1952,
+      "number": "68",
+      "notes": ""
+    }, {
+      "year": 1953,
+      "number": "57",
+      "notes": ""
+    }, {
+      "year": 1954,
+      "number": "74",
+      "notes": ""
+    }, {
+      "year": 1957,
+      "number": "67",
+      "notes": ""
+    }, {
+      "year": 1958,
+      "number": "67",
+      "notes": ""
+    }, {
+      "year": 1959,
+      "number": "84",
+      "notes": ""
+    }, {
+      "year": 1960,
+      "number": "84",
+      "notes": ""
+    }, {
+      "year": 1961,
+      "number": "89",
+      "notes": ""
+    }, {
+      "year": 1962,
+      "number": "73",
+      "notes": ""
+    }, {
+      "year": 1963,
+      "number": "99",
+      "notes": ""
+    }, {
+      "year": 1964,
+      "number": "94",
+      "notes": ""
+    }, {
+      "year": 1965,
+      "number": "79",
+      "notes": ""
+    }, {
+      "year": 1966,
+      "number": "95",
+      "notes": ""
+    }, {
+      "year": 1967,
+      "number": "106",
+      "notes": ""
+    }, {
+      "year": 1968,
+      "number": "89",
+      "notes": ""
+    }, {
+      "year": 1969,
+      "number": "66",
+      "notes": ""
+    }, {
+      "year": 1970,
+      "number": "71",
+      "notes": ""
+    }, {
+      "year": 1971,
+      "number": "101",
+      "notes": ""
+    }, {
+      "year": 1972,
+      "number": "82",
+      "notes": ""
+    }, {
+      "year": 1973,
+      "number": "60",
+      "notes": ""
+    }, {
+      "year": 1974,
+      "number": "53",
+      "notes": ""
+    }, {
+      "year": 1975,
+      "number": "68",
+      "notes": ""
+    }, {
+      "year": 1976,
+      "number": "67",
+      "notes": ""
+    }, {
+      "year": 1977,
+      "number": "41",
+      "notes": ""
+    }, {
+      "year": 1978,
+      "number": "49",
+      "notes": ""
+    }],
+    "reserves": ["albany", "attawapiscat", "eastmain", "fortGeorge", "greatWhaleRiver", "mooseFort", "moosonee", "oldFactory", "paintHills", "pointeBleue", "rupertHouse"],
+    "religiousGroups": [{
+      "group": "Order of Oblates Immaculate ",
+      "ref": ["FTG-000063a"]
+    }, {
+      "group": "Oblats de Marie Immaculée",
+      "ref": ["FTG-000415b"]
+    }, {
+      "group": "Soeurs Grises de la Croix (the Grey Nuns), Mission St-Joseph",
+      "ref": ["FTG-000088a", "FTG-000089"]
+    }],
+    "writtenAgreements": [{
+      "date": 1973,
+      "title": "",
+      "desc": "Contract with Indianescom covering advisory and liasion duties in connection with Indian Student residence for one year beginning April 1, 1973.",
+      "ref": ["OMI-030931"]
+    }, {
+      "date": 1974,
+      "title": "",
+      "desc": "Contract with Oblate Indian & Eskimo Council covering co-ordinating and liasion duties in connection with Indian Student residence, signed June 10, 1974.",
+      "ref": ["OMI-030117"]
+    }, {
+      "date": 1975,
+      "title": "",
+      "desc": "While Government owned residential schools were covered by the October 19, 1961 operation agreements, Church owned schools were only required to send in a copy of their budget; this resulted in no formal agreements with the Oblates specifically covering the school.",
+      "ref": ["FTG-00138"]
+    }, {
+      "date": 1975,
+      "title": "",
+      "desc": "Audit report remarks that 1972 service agreement signed between Couture Residence and St. Joseph Mission was not approved by Department.",
+      "ref": ["FTG-000144c"]
+    }, {
+      "date": 1977,
+      "title": "",
+      "desc": "School operates under Treasury Board Minute # 585658 dated October 19, 1961 as a church owned residence; a service contract between the Department and the Couture Residence was made on January 19, 1972, but was never signed.",
+      "ref": ["FTG-000581"]
+    }, {
+      "date": 1978,
+      "title": "",
+      "desc": "There is no formal agreement with the residence; it has been operated under an oral understanding with the Department; correspondence which construed to a formal agreement was destroyed in a flood.",
+      "ref": ["FTG-000420", "FTG-000417"]
+    }, {
+      "date": 1979,
+      "title": "",
+      "desc": "All efforts to locate a formal agreement to cover payments to the Church operating the residence have been unsuccessful; there is no useful purpose to be served by the Department retroactively engaging in negotiations for an agreement.",
+      "ref": ["FTG-000419"]
+    }, {
+      "date": 1980,
+      "title": "",
+      "desc": "The Department no long administers the residence; related files are closed",
+      "ref": ["FTG-00418"]
+    }],
+    "additionalInformation": [{
+      "date": 1960,
+      "type": "report",
+      "victim": "",
+      "agressor": "",
+      "notes": "Until September the school was overcrowded with enrolment of some 90 children; opening of Pointe-Blue IRS dropped enrolment to authorized level.",
+      "ref": ["FTG-000054"]
+    }, {
+      "date": 1963,
+      "type": "report",
+      "victim": "",
+      "agressor": "",
+      "notes": "Fire Inspection report states that school has little fire protection.",
+      "ref": ["FTG-000063a"]
+    }, {
+      "date": 1966,
+      "type": "report",
+      "victim": "",
+      "agressor": "",
+      "notes": "No protection for fire; classrooms are located in old quarters, and the number of cubic feet is under standard.",
+      "ref": ["FTG-000094"]
+    }, {
+      "date": 1966.5,
+      "type": "report",
+      "victim": "",
+      "agressor": "",
+      "notes": "Inspection report indicates that the five classrooms at the school are old, and present a fire hazard.",
+      "ref": ["FTG-000095a"]
+    }]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "name": "St. Albert (Youville)",
+  "type": "Residential",
+  "location": {
+    "province": "Alberta",
+    "city": "Youville",
+    "latLng": {
+      "lat": 53.63701667,
+      "-113.630925": 0.000
+    }
+  },
+  "narrativeDate": "09-11-01",
+  "startYear": 1873,
+  "endYear": 1948,
+  "data": {
+    "nameVariants": [],
+    "chronoHistory": [],
+    "notesHistory": [],
+    "management": [],
+    "enrollment": [],
+    "reserves": ["alexander", "alexis", "callihooBand", "enoch", "lacSteAnne", "michelReserve", "wabamunReserve"],
+    "religiousGroups": [{
+      "group": "group",
+      "ref": ["number"]
+    }, {
+      "group": "group",
+      "ref": ["number"]
+    }, {
+      "group": "group",
+      "ref": ["number"]
+    }, {
+      "group": "group",
+      "ref": ["number"]
+    }],
+    "writtenAgreements": [],
+    "additionalInformation": []
+  }
+}

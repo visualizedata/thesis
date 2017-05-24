@@ -1,0 +1,38 @@
+{
+  "name": "McKay (Dauphin)",
+  "type": "Residential",
+  "location": {
+    "province": "Manitoba",
+    "city": "city",
+    "latLng": {
+      "lat": 51.1403,
+      "-100.0658833": 0.000
+    }
+  },
+  "narrativeDate": "09-11-01",
+  "startYear": 1914,
+  "endYear": 1988,
+  "data": {
+    "nameVariants": [],
+    "chronoHistory": [],
+    "notesHistory": [],
+    "management": [],
+    "enrollment": [],
+    "reserves": [""],
+    "religiousGroups": [{
+      "group": "group",
+      "ref": ["number"]
+    }, {
+      "group": "group",
+      "ref": ["number"]
+    }, {
+      "group": "group",
+      "ref": ["number"]
+    }, {
+      "group": "group",
+      "ref": ["number"]
+    }],
+    "writtenAgreements": [],
+    "additionalInformation": []
+  }
+}

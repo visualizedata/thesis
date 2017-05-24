@@ -1,0 +1,136 @@
+{
+  "name": "Cote Improved Federal Day School (School #604)",
+  "type": "Residential",
+  "location": {
+    "province": "Saskatchewan",
+    "city": "Kamsack",
+    "latLng": {
+      "lat": 51.63933333,
+      "lng": -101.9109806
+    }
+  },
+  "narrativeDate": "09-11-01",
+  "startYear": 1928,
+  "endYear": 1940,
+  "data": {
+    "nameVariants": [{
+      "startYear": 1928,
+      "endYear": 1940,
+      "name": "Cote Improved Day School",
+      "note": "",
+      "ref": ["CTS-000418-0000", "CTS-00472"]
+    }, {
+      "startYear": 1928,
+      "endYear": 1940,
+      "name": "Cote Indian Day School",
+      "note": "",
+      "ref": ["CTS-000419", "CTS-00508-0000"]
+    }],
+    "chronoHistory": [{
+      "date": 1928,
+      "desc": ["The federal government officially recognized and supported the boarding of children at Cote Improved Federal Day School. From Monday to Friday, the IRS accommodated boarders who could not travel daily between their homes and the school."],
+      "ref": ["CTS-000448", "CTS-000415", "CTS-000418-0000", "CTS-000420", "CTS-000424"]
+    }, {
+      "date": 1940,
+      "desc": ["The Cote Improved Federal Day School ceased the boarding of students at the end of the 1939/40 school year.  After June 30, 1940, the former IRS operated only as a day school."],
+      "ref": ["CTS-000492", "CTS-000331", "CTS-000470-0001"]
+    }],
+    "notesHistory": [],
+    "management": [],
+    "enrollment": [{
+      "year": 1928,
+      "number": 36,
+      "notes": "May include residents"
+    }, {
+      "year": 1929,
+      "number": 36,
+      "notes": "May include residents"
+    }, {
+      "year": 1930,
+      "number": 36,
+      "notes": "May include residents"
+    }, {
+      "year": 1931,
+      "number": 27,
+      "notes": "May include residents"
+    }, {
+      "year": 1932,
+      "number": 31,
+      "notes": "May include residents"
+    }, {
+      "year": 1933,
+      "number": 34,
+      "notes": "May include residents"
+    }, {
+      "year": 1934,
+      "number": 33,
+      "notes": "May include residents"
+    }, {
+      "year": 1935,
+      "number": 28,
+      "notes": "May include residents"
+    }, {
+      "year": 1936,
+      "number": 29,
+      "notes": "May include residents"
+    }, {
+      "year": 1937,
+      "number": 22,
+      "notes": ""
+    }, {
+      "year": 1938,
+      "number": 23,
+      "notes": ""
+    }, {
+      "year": 1939,
+      "number": 23,
+      "notes": ""
+    }],
+    "reserves": [],
+    "religiousGroups": [],
+    "writtenAgreements": [],
+    "additionalInformation": [{
+      "date": 1928,
+      "type": "report",
+      "victim": "",
+      "agressor": "",
+      "notes": "Between 1928 and 1940 Milk was provided to the Cote Improved Federal Day School by the nearby federal government Indian Agency; water was hauled six miles daily to the IRS by the Agency labourer.",
+      "ref": ["CTS-000472"]
+    }, {
+      "date": 1930,
+      "type": "report",
+      "victim": "",
+      "agressor": "",
+      "notes": "A teacher stated in March 1930 that she used her car to 'take resident children five miles on their way home every Friday after four o’clock'.",
+      "ref": ["CTS-000112"]
+    }, {
+      "date": 1932,
+      "type": "report",
+      "victim": "",
+      "agressor": "",
+      "notes": "The outdoor toilets at the Cote Improved Federal Day School were cleaned and maintained by a local labourer.",
+      "ref": ["CTS-000134-0000", "CTS-000134-0001", "CTS-000393-0001"]
+    }, {
+      "date": 1937,
+      "type": "report",
+      "victim": "",
+      "agressor": "",
+      "notes": "The outdoor toilets at the Cote Improved Federal Day School were cleaned and maintained by a local labourer.",
+      "ref": ["CTS-000134-0000", "CTS-000134-0001", "CTS-000393-0001"]
+    }, {
+      "date": 1934,
+      "type": "policy",
+      "victim": "",
+      "agressor": "",
+      "notes": "While boarding accommodation continued to be provided for a few pupils from Monday to Friday whose families lived farther away from the school, staff noted that fewer parents made use of the boarding facilities at the Cote Improved Federal Day School.",
+      "ref": ["CTS-000054-0001"]
+    }, {
+      "date": 1937,
+      "type": "health",
+      "victim": "",
+      "agressor": "",
+      "notes": "Two pupils were diagnosed with tuberculosis and were sent to the Sanatorium at Fort Qu’Appelle for treatment. An outbreak of measles lowered overall attendance during the spring months.",
+      "ref": ["CTS-000055"]
+    }]
+  }
+}

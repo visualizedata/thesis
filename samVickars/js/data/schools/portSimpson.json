@@ -1,0 +1,38 @@
+{
+  "name": "Port Simpson (Crosby Home for Girls)",
+  "type": "Residential",
+  "location": {
+    "province": "British Columbia",
+    "city": "city",
+    "latLng": {
+      "lat": 54.55626944,
+      "-130.4314028": 0.000
+    }
+  },
+  "narrativeDate": "09-11-01",
+  "startYear": 1892,
+  "endYear": 1948,
+  "data": {
+    "nameVariants": [],
+    "chronoHistory": [],
+    "notesHistory": [],
+    "management": [],
+    "enrollment": [],
+    "reserves": ["aiyansh", "bellaCoola", "gitlakdamix", "greenville", "hazelton", "kincolith", "kitikshan", "kitkatla", "kitsegucla", "kitselas", "kitsumkalum", "metlakatla", "nishga", "portSimpson", "tsimpsean"],
+    "religiousGroups": [{
+      "group": "group",
+      "ref": ["number"]
+    }, {
+      "group": "group",
+      "ref": ["number"]
+    }, {
+      "group": "group",
+      "ref": ["number"]
+    }, {
+      "group": "group",
+      "ref": ["number"]
+    }],
+    "writtenAgreements": [],
+    "additionalInformation": []
+  }
+}

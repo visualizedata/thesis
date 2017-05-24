@@ -1,0 +1,38 @@
+{
+  "name": "Shubenacadie (St. Anne's Convent)",
+  "type": "Residential",
+  "location": {
+    "province": "Nova Scotia",
+    "city": "city",
+    "latLng": {
+      "lat": 45.09665,
+      "-63.40818056": 0.000
+    }
+  },
+  "narrativeDate": "09-11-01",
+  "startYear": 1929,
+  "endYear": 1967,
+  "data": {
+    "nameVariants": [],
+    "chronoHistory": [],
+    "notesHistory": [],
+    "management": [],
+    "enrollment": [],
+    "reserves": [""],
+    "religiousGroups": [{
+      "group": "group",
+      "ref": ["number"]
+    }, {
+      "group": "group",
+      "ref": ["number"]
+    }, {
+      "group": "group",
+      "ref": ["number"]
+    }, {
+      "group": "group",
+      "ref": ["number"]
+    }],
+    "writtenAgreements": [],
+    "additionalInformation": []
+  }
+}

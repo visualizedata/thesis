@@ -1,0 +1,582 @@
+{
+  "name": "Brandon IRS",
+  "type": "Residential",
+  "location": {
+    "province": "Manitoba",
+    "city": "Brandon",
+    "latLng": {
+      "lat": 49.86935,
+      "lng": -99.98953056
+    }
+  },
+  "narrativeDate": "09-11-01",
+  "startYear": 1895,
+  "endYear": 1972,
+  "data": {
+    "nameVariants": [{
+      "startYear": 1895,
+      "endYear": 1925,
+      "name": "Brandon Industrial School",
+      "note": "",
+      "ref": ["BRS-000183", "BRS-000206", "BRS-001532"]
+    }, {
+      "startYear": 1926,
+      "endYear": 1967,
+      "name": "Brandon Indian Residential School",
+      "note": "",
+      "ref": ["BRS-003650", "BRS-000686"]
+    }, {
+      "startYear": 1967,
+      "endYear": 1969,
+      "name": "Brandon Residence for Indian Children",
+      "note": "",
+      "ref": ["BRS-000686", "BRS-006542"]
+    }, {
+      "startYear": 1968,
+      "endYear": 1972,
+      "name": "Brandon Student Residence",
+      "note": "",
+      "ref": ""
+    }],
+    "chronoHistory": [{
+      "date": 1895,
+      "desc": ["The IRS, then known as Brandon Industrial School, opened."],
+      "ref": ["BRS-000181 BRS-000180 BRS-000407"]
+    }, {
+      "date": 1929,
+      "desc": ["In July 1929, the Brandon IRS closed while a new residence building was under construction. During this time, 83 students were transferred to the Edmonton IRS, with the remaining pupils returning to their homes to attend day schools. The new Brandon IRS opened on July 18, 1930."],
+      "ref": ["BRS-003666 BRS-003667 BRS-003668 BRS-000407 BRS-000230 BRS-000231"]
+    }, {
+      "date": 1957,
+      "desc": ["Farm operations at the IRS ceased.", "There were 6 operating classrooms at the IRS. Two additional classrooms were being built near the main IRS building."],
+      "ref": ["BRS-001436-0000 BRS-001946"]
+    }, {
+      "date": 1962,
+      "desc": ["The federal government and the United Church of Canada signed an agreement for the operation of the Brandon IRS."],
+      "ref": ["BRS-000627-0001"]
+    }, {
+      "date": 1964,
+      "desc": ["A report indicated that grades 1 and 2 were taught in a Brandon IRS building referred to as the 'Cottage School'. A plan of the IRS site identifies the building as a 'two classroom school' near the main IRS building."],
+      "ref": ["BRS-001941 BRS-000639-0001"]
+    }, {
+      "date": 1967,
+      "desc": ["The name of the IRS changed from Brandon Indian Residential School to the Brandon Residence for Indian Children."],
+      "ref": ["BRS-000686"]
+    }, {
+      "date": 1968,
+      "desc": ["By June 1968, one class was operating at the IRS, and by November all residents were attending non-federal schools.", "The name of the IRS changed from Brandon Residence for Indian Children to Brandon Student Residence during the 1968/69 school year."],
+      "ref": ["NCA-000984 BRS-002032 BRS-103082", "BRS-006936 BRS-000647"]
+    }, {
+      "date": 1969,
+      "desc": ["From June to October 1969, it was decided that Roman Catholic pupils in need of a hostel would be accommodated at the Brandon IRS for the 1970/71 school year. This decision was based on the closure of Roman Catholic Indian Residential Schools in Manitoba (Pine Creek IRS, Fort Alexander IRS, and Sandy Bay IRS) and the Brandon IRS having fewer than 50 pupils."],
+      "ref": ["BRS-000742 BRS-000748 BRS-000767"]
+    }, {
+      "date": 1970,
+      "desc": ["Guidance Cousellors relocated from their district office to the IRS building.", "Management of the IRS was transferred from the United Church of Canada to the Roman Catholic Oblate Indian and Eskimo Commission (INDIANESCOM)."],
+      "ref": ["BRS-004812", "BRS-000771-0001", "BRS-000779-0000"]
+    }, {
+      "date": 1972,
+      "desc": ["The IRS closed in June. About 12 students were to be transferred to Guy Hill IRS at The Pas after the closure, but the majority of students would be able to attend school from their own homes. Other children, if necessary, would be placed in foster homes and the homes of relatives."],
+      "ref": ["BRS-000837 BRS-000853 BRS-000854 BRS-006760-0001"]
+    }],
+    "notesHistory": [],
+    "management": [{
+      "startYear": 1895,
+      "endYear": 1926,
+      "org": "church",
+      "orgName": "Methodist Missionary Society / Methodist Church",
+      "type": ["Management", "Teaching", "Staff"],
+      "ref": ["BRS-000169", "BRS-000202", "BRS-003133"]
+    }, {
+      "startYear": 1926,
+      "endYear": 1970,
+      "org": "church",
+      "orgName": "The United Church of Canada / United Church Board of Home Missions",
+      "type": ["Management", "Teaching", "Staff"],
+      "ref": ["BRS-003134", "BRS-000627-0001", "BRS-000771-0001"]
+    }, {
+      "startYear": 1970,
+      "endYear": 1972,
+      "org": "church",
+      "orgName": "Oblate Indian and Eskimo Commission (INDIANESCOM)",
+      "type": ["Management", "Teaching", "Staff"],
+      "ref": ["BRS-000767", "BRS-000779-0000"]
+    }],
+    "enrollment": [{
+      "year": 1895,
+      "number": 54,
+      "notes": ""
+    }, {
+      "year": 1896,
+      "number": 54,
+      "notes": ""
+    }, {
+      "year": 1897,
+      "number": 56,
+      "notes": ""
+    }, {
+      "year": 1898,
+      "number": 58,
+      "notes": ""
+    }, {
+      "year": 1899,
+      "number": 60,
+      "notes": ""
+    }, {
+      "year": 1900,
+      "number": 62,
+      "notes": ""
+    }, {
+      "year": 1901,
+      "number": 64,
+      "notes": ""
+    }, {
+      "year": 1902,
+      "number": 66,
+      "notes": ""
+    }, {
+      "year": 1903,
+      "number": 68,
+      "notes": ""
+    }, {
+      "year": 1904,
+      "number": 70,
+      "notes": ""
+    }, {
+      "year": 1905,
+      "number": 72,
+      "notes": ""
+    }, {
+      "year": 1906,
+      "number": 74,
+      "notes": ""
+    }, {
+      "year": 1907,
+      "number": 76,
+      "notes": ""
+    }, {
+      "year": 1908,
+      "number": 78,
+      "notes": ""
+    }, {
+      "year": 1909,
+      "number": 80,
+      "notes": ""
+    }, {
+      "year": 1910,
+      "number": 82,
+      "notes": ""
+    }, {
+      "year": 1911,
+      "number": 84,
+      "notes": ""
+    }, {
+      "year": 1912,
+      "number": 86,
+      "notes": ""
+    }, {
+      "year": 1913,
+      "number": 88,
+      "notes": ""
+    }, {
+      "year": 1914,
+      "number": 90,
+      "notes": ""
+    }, {
+      "year": 1915,
+      "number": 92,
+      "notes": ""
+    }, {
+      "year": 1916,
+      "number": 94,
+      "notes": ""
+    }, {
+      "year": 1917,
+      "number": 96,
+      "notes": ""
+    }, {
+      "year": 1918,
+      "number": 98,
+      "notes": ""
+    }, {
+      "year": 1919,
+      "number": 100,
+      "notes": ""
+    }, {
+      "year": 1920,
+      "number": 102,
+      "notes": ""
+    }, {
+      "year": 1921,
+      "number": 104,
+      "notes": ""
+    }, {
+      "year": 1922,
+      "number": 106,
+      "notes": ""
+    }, {
+      "year": 1923,
+      "number": 108,
+      "notes": ""
+    }, {
+      "year": 1924,
+      "number": 110,
+      "notes": ""
+    }, {
+      "year": 1925,
+      "number": 112,
+      "notes": ""
+    }, {
+      "year": 1926,
+      "number": 114,
+      "notes": ""
+    }, {
+      "year": 1927,
+      "number": 116,
+      "notes": ""
+    }, {
+      "year": 1928,
+      "number": 118,
+      "notes": ""
+    }, {
+      "year": 1929,
+      "number": 120,
+      "notes": ""
+    }, {
+      "year": 1930,
+      "number": 150,
+      "notes": ""
+    }, {
+      "year": 1931,
+      "number": 151,
+      "notes": ""
+    }, {
+      "year": 1932,
+      "number": 152,
+      "notes": ""
+    }, {
+      "year": 1933,
+      "number": 153,
+      "notes": ""
+    }, {
+      "year": 1934,
+      "number": 154,
+      "notes": ""
+    }, {
+      "year": 1935,
+      "number": 155,
+      "notes": ""
+    }, {
+      "year": 1936,
+      "number": 156,
+      "notes": ""
+    }, {
+      "year": 1937,
+      "number": 157,
+      "notes": ""
+    }, {
+      "year": 1938,
+      "number": 158,
+      "notes": ""
+    }, {
+      "year": 1939,
+      "number": 159,
+      "notes": ""
+    }, {
+      "year": 1940,
+      "number": 160,
+      "notes": ""
+    }, {
+      "year": 1941,
+      "number": 161,
+      "notes": ""
+    }, {
+      "year": 1942,
+      "number": 162,
+      "notes": ""
+    }, {
+      "year": 1943,
+      "number": 163,
+      "notes": ""
+    }, {
+      "year": 1944,
+      "number": 164,
+      "notes": ""
+    }, {
+      "year": 1945,
+      "number": 165,
+      "notes": ""
+    }, {
+      "year": 1946,
+      "number": 166,
+      "notes": ""
+    }, {
+      "year": 1947,
+      "number": 167,
+      "notes": ""
+    }, {
+      "year": 1948,
+      "number": 168,
+      "notes": ""
+    }, {
+      "year": 1949,
+      "number": 174,
+      "notes": ""
+    }, {
+      "year": 1950,
+      "number": 174,
+      "notes": ""
+    }, {
+      "year": 1951,
+      "number": 160,
+      "notes": ""
+    }, {
+      "year": 1952,
+      "number": 179,
+      "notes": ""
+    }, {
+      "year": 1953,
+      "number": 170,
+      "notes": ""
+    }, {
+      "year": 1954,
+      "number": 154,
+      "notes": ""
+    }, {
+      "year": 1955,
+      "number": 197,
+      "notes": ""
+    }, {
+      "year": 1956,
+      "number": 151,
+      "notes": ""
+    }, {
+      "year": 1957,
+      "number": 151,
+      "notes": ""
+    }, {
+      "year": 1958,
+      "number": 172,
+      "notes": ""
+    }, {
+      "year": 1959,
+      "number": 173,
+      "notes": ""
+    }, {
+      "year": 1960,
+      "number": 190,
+      "notes": ""
+    }, {
+      "year": 1961,
+      "number": 145,
+      "notes": ""
+    }, {
+      "year": 1962,
+      "number": 157,
+      "notes": ""
+    }, {
+      "year": 1963,
+      "number": 157,
+      "notes": ""
+    }, {
+      "year": 1964,
+      "number": 154,
+      "notes": ""
+    }, {
+      "year": 1965,
+      "number": 186,
+      "notes": ""
+    }, {
+      "year": 1966,
+      "number": 200,
+      "notes": ""
+    }, {
+      "year": 1967,
+      "number": 183,
+      "notes": ""
+    }, {
+      "year": 1968,
+      "number": 177,
+      "notes": ""
+    }, {
+      "year": 1969,
+      "number": 55,
+      "notes": ""
+    }, {
+      "year": 1970,
+      "number": 55,
+      "notes": ""
+    }, {
+      "year": 1971,
+      "number": 80,
+      "notes": ""
+    }],
+    "reserves": [],
+    "religiousGroups": [{
+      "group": "Methodist Missionary Society / Methodist Church",
+      "ref": ["BRS-000169", "BRS-000202", "BRS-003133"]
+    }, {
+      "group": "The United Church of Canada / United Church Board of Home Missions",
+      "ref": ["BRS-003134", "BRS-000627-0001", "BRS-000771-0001"]
+    }, {
+      "group": "Oblate Indian and Eskimo Commission (INDIANESCOM)",
+      "ref": ["BRS-000767", "BRS-000779-0000"]
+    }],
+    "writtenAgreements": [],
+    "additionalInformation": [{
+      "date": 1839,
+      "type": "program",
+      "victim": "",
+      "agressor": "",
+      "notes": "Extra-curricular activities at the IRS included softball, football, student council, choral class, basketball, hockey, badminton, swimming, golfing and skiing.",
+      "ref": ["BRS-000426"]
+    }, {
+      "date": 1946,
+      "type": "program",
+      "victim": "",
+      "agressor": "",
+      "notes": "Students participated in church concerts and evening gym classes.",
+      "ref": ["BRS-000414"]
+    }, {
+      "date": 1964,
+      "type": "program",
+      "victim": "",
+      "agressor": "",
+      "notes": "Students participated in a Carol Festival, sing songs, and games evenings.",
+      "ref": ["BRS-103077"]
+    }, {
+      "date": 1965,
+      "type": "program",
+      "victim": "",
+      "agressor": "",
+      "notes": "There was an Xmas concert and students had attended the Children's Theatre in town, as well as a display of native dances.",
+      "ref": ["BRS-103074"]
+    }, {
+      "date": 1969,
+      "type": "program",
+      "victim": "",
+      "agressor": "",
+      "notes": "Students participated in 'community activities' such as Music and Speech Festival, Track and Field, Elementary Art Show.",
+      "ref": ["BRS-006784"]
+    }, {
+      "date": 1969,
+      "type": "program",
+      "victim": "",
+      "agressor": "",
+      "notes": "A Newsletter dated May 1969 noted that the annual Sports Day and Buffet Supper will be held on June 15. It also indicated that many residents had taken part in a City Wide Road Races. As many as 55 residents had entered each Wednesday race. Two residence boys’ soccer teams participated in the Manitoba Minor Soccer League.",
+      "ref": ["BRS-006811"]
+    }, {
+      "date": 1926,
+      "type": "physical",
+      "victim": "",
+      "agressor": "",
+      "notes": "A 17 year old former student was charged with unauthorized entry into the IRS. The document mentions the boy’s improper conduct including 'carnal knowledge'. He was subsequently convicted in juvenile court of breaking and entering, and was sentenced to spend one additional year at the Portage la Prairie Industrial School",
+      "ref": ["BRS-000216", "BRS-000217", "BRS-000219"]
+    }, {
+      "date": 1936,
+      "type": "physical",
+      "victim": "",
+      "agressor": "principal",
+      "notes": "A federal inspector noted that while the IRS Principal uses the strap for punishment, the Principal denies hitting pupils with his fist",
+      "ref": ["BRS-000251"]
+    }, {
+      "date": 1936,
+      "type": "physical",
+      "victim": "",
+      "agressor": "",
+      "notes": "Letter expressed concern that children at the IRS were mistreated and did not get enough to eat",
+      "ref": ["BRS-000244"]
+    }, {
+      "date": 1943,
+      "type": "physical",
+      "victim": "",
+      "agressor": "",
+      "notes": "A local Member of Parliament had received a complaint that the children at the IRS were not fed or clothed properly [BRS-000492-0000; BRS- 0000492-0001]. The federal government replied that reports on the Brandon IRS indicated it 'continues to be capably managed under the auspices of the United Church of Canada' but that an Inspector would be visiting the IRS in the near future and would rectify matters, if necessary.",
+      "ref": ["BRS-000494", "BRS-000493-0000", "BRS-000493-0001", "BRS-000495", "BRS- 000496"]
+    }, {
+      "date": 1944,
+      "type": "physical",
+      "victim": "",
+      "agressor": "",
+      "notes": "Two anonymous letters of complaint received by the RCMP alleged that students were badly under-nourished, and truant students were severely beaten before being returned to the IRS.",
+      "ref": ["BRS-000509-0000", "BRS-000509-0001", "BRS-000510"]
+    }, {
+      "date": 1946,
+      "type": "physical",
+      "victim": "",
+      "agressor": "",
+      "notes": "A letter from a federal government Inspector referred to sworn statements submitted by two parents regarding the alleged mistreatment of their children by the IRS Principal. The Inspector suggested that the statements be investigated, as he had received other complaints of a similar nature about the action of the Principal, 'and perhaps it is an explanation of the numerous cases of truancy at this school'. Please note that the sworn statements were not found.",
+      "ref": ["BRS-000523", "BRS-000525"]
+    }, {
+      "date": 1951,
+      "type": "physical",
+      "victim": "",
+      "agressor": "",
+      "notes": "A student told an inspector that the IRS supservisors were 'sometimes rough with the boys'.",
+      "ref": ["BRS-000882"]
+    }, {
+      "date": 1962,
+      "type": "physical",
+      "victim": "",
+      "agressor": "",
+      "notes": "Two parents had heard that their children were being mistreated at the IRS and wanted to remove them from residence.",
+      "ref": ["BRS-003661"]
+    }, {
+      "date": 1950,
+      "type": "incident",
+      "victim": "",
+      "agressor": "",
+      "notes": "A father complained that the Principal was not 'looking after things' and that some of the children were 'very mean to the little ones and the reason is the staff aren’t with them enough to see to these things, and they are not getting enough to eat'. The letter also mentioned a boy who froze his feet while running away from the IRS the previous winter. The father asked to keep his child at home and send him to a day school",
+      "ref": ["BRS- 000944"]
+    }, {
+      "date": 1950,
+      "type": "report",
+      "victim": "",
+      "agressor": "",
+      "notes": "The Superintendent of the Pelly Indian Agency wrote that parents refused to send their young boys to the Brandon IRS because the boys were not supervised outside the classroom and that 'the little boys were much abused and knocked about by the older boys and if they complained to their teacher, it only resulted in more abuse from the older boys'.",
+      "ref": ["BRS- 001022"]
+    }, {
+      "date": 1918,
+      "type": "health",
+      "victim": "",
+      "agressor": "",
+      "notes": "A nurse reported that throughout the year at the IRS there were three deaths from tuberculosis, five cases of pneumonia, thirty six cases of measles, fifteen cases of grippe and that all 'of these pupils had to be kept in the dormitories'. The federal government recommended that all pupils should have their own bed and sick children should not remain in the dormitories.",
+      "ref": ["BRS-000209", "BRS-000210"]
+    }, {
+      "date": 1942,
+      "type": "report",
+      "victim": "",
+      "agressor": "",
+      "notes": "The federal government noted concern over the numerous reports of truancy received from the Royal Canadian Mounted Police and requested that the Principal 'remove any friction that may be causing the pupils to truant'.",
+      "ref": ["BRS-000483", "BRS-000485", "BRS-000489-0000"]
+    }, {
+      "date": 1949,
+      "type": "incident",
+      "victim": "",
+      "agressor": "",
+      "notes": "A child was accidentally run over by a tractor and died.",
+      "ref": ["BRS-000331- 0000", "BRS-000330"]
+    }, {
+      "date": 1953,
+      "type": "report",
+      "victim": "",
+      "agressor": "",
+      "notes": "The federal government received a complaint from 'a reliable source that a deplorable condition' existed at the Brandon IRS with respect to the quality and quantity of meals served to the children.",
+      "ref": ["BRS-001001", "BRS- 000964"]
+    }, {
+      "date": 1961,
+      "type": "report",
+      "victim": "",
+      "agressor": "",
+      "notes": "The Principal informed the Board of Home Missions of the United Church that he discharged one of the Supervisors, as he found her to be 'quite odd and peculiar in her actions' and was 'found on many occasions to be in a trance-like attitude, her control of the children practically nil'.",
+      "ref": ["BRS- 000632"]
+    }, {
+      "date": 1962,
+      "type": "health",
+      "victim": "",
+      "agressor": "",
+      "notes": "On February 18 it was reported that there had been 50 cases of an infection virus that was originally thought to be measles. Ten children became very ill with a repeat infection and the Principal suggested having a doctor make weekly visits.",
+      "ref": ["BRS-003662"]
+    }]
+  }
+}

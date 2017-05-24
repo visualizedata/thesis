@@ -1,0 +1,38 @@
+{
+  "name": "Lac La Ronge (All Saints)",
+  "type": "Residential",
+  "location": {
+    "province": "Saskatchewan",
+    "city": "city",
+    "latLng": {
+      "lat": 55.09999167,
+      "-105.2912278": 0.000
+    }
+  },
+  "narrativeDate": "09-11-01",
+  "startYear": 1894,
+  "endYear": 1997,
+  "data": {
+    "nameVariants": [],
+    "chronoHistory": [],
+    "notesHistory": [],
+    "management": [],
+    "enrollment": [],
+    "reserves": [""],
+    "religiousGroups": [{
+      "group": "group",
+      "ref": ["number"]
+    }, {
+      "group": "group",
+      "ref": ["number"]
+    }, {
+      "group": "group",
+      "ref": ["number"]
+    }, {
+      "group": "group",
+      "ref": ["number"]
+    }],
+    "writtenAgreements": [],
+    "additionalInformation": []
+  }
+}

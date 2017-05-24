@@ -1,0 +1,38 @@
+{
+  "name": "Lebret (Qu'Appelle)",
+  "type": "Residential",
+  "location": {
+    "province": "Saskatchewan",
+    "city": "city",
+    "latLng": {
+      "lat": 50.75785,
+      "-103.7115722": 0.000
+    }
+  },
+  "narrativeDate": "09-11-01",
+  "startYear": 1884,
+  "endYear": 1998,
+  "data": {
+    "nameVariants": [],
+    "chronoHistory": [],
+    "notesHistory": [],
+    "management": [],
+    "enrollment": [],
+    "reserves": [""],
+    "religiousGroups": [{
+      "group": "group",
+      "ref": ["number"]
+    }, {
+      "group": "group",
+      "ref": ["number"]
+    }, {
+      "group": "group",
+      "ref": ["number"]
+    }, {
+      "group": "group",
+      "ref": ["number"]
+    }],
+    "writtenAgreements": [],
+    "additionalInformation": []
+  }
+}

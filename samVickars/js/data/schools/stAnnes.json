@@ -1,0 +1,38 @@
+{
+  "name": "St. Anne's (Fort Albany)",
+  "type": "Residential",
+  "location": {
+    "province": "Ontario",
+    "city": "Fort Albany",
+    "latLng": {
+      "lat": 52.2062861,
+      "-81.6903528": 0.000
+    }
+  },
+  "narrativeDate": "09-11-01",
+  "startYear": 1906,
+  "endYear": 1976,
+  "data": {
+    "nameVariants": [],
+    "chronoHistory": [],
+    "notesHistory": [],
+    "management": [],
+    "enrollment": [],
+    "reserves": [""],
+    "religiousGroups": [{
+      "group": "group",
+      "ref": ["number"]
+    }, {
+      "group": "group",
+      "ref": ["number"]
+    }, {
+      "group": "group",
+      "ref": ["number"]
+    }, {
+      "group": "group",
+      "ref": ["number"]
+    }],
+    "writtenAgreements": [],
+    "additionalInformation": []
+  }
+}

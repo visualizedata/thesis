@@ -1,0 +1,679 @@
+{
+  "name": "Carcross IRS (Chooutla)",
+  "type": "Residential",
+  "location": {
+    "province": "Yukon Territory",
+    "city": "Carcross",
+    "latLng": {
+      "lat": 60.17613333,
+      "lng": -134.6760667
+    }
+  },
+  "narrativeDate": "09-11-01",
+  "startYear": 1903,
+  "endYear": 1969,
+  "data": {
+    "nameVariants": [{
+      "startYear": 1907,
+      "endYear": 1908,
+      "name": "Carcross Indian School",
+      "note": "",
+      "ref": ["CA011050"]
+    }, {
+      "startYear": 1908,
+      "endYear": 1912,
+      "name": "Carcross School",
+      "note": "",
+      "ref": ["CA001056"]
+    }, {
+      "startYear": 1912,
+      "endYear": 1914,
+      "name": "Carcross Boarding School",
+      "note": "",
+      "ref": ["YS009114"]
+    }, {
+      "startYear": 1914,
+      "endYear": 1914,
+      "name": "Chooutla Indian School",
+      "note": "",
+      "ref": ["CA011111"]
+    }, {
+      "startYear": 1914,
+      "endYear": 1929,
+      "name": "Carcross Indian Boarding School",
+      "note": "",
+      "ref": ["CA011116"]
+    }, {
+      "startYear": 1929,
+      "endYear": 1931,
+      "name": "Carcross Indian Residential School",
+      "note": "",
+      "ref": ["CA011233"]
+    }, {
+      "startYear": 1931,
+      "endYear": 1942,
+      "name": "Carcross (Chooutla Indian Residential School)",
+      "note": "",
+      "ref": ["CA011261"]
+    }, {
+      "startYear": 1942,
+      "endYear": 1947,
+      "name": "Chooutla Indian Residential School",
+      "note": "",
+      "ref": ["CA011315"]
+    }, {
+      "startYear": 1947,
+      "endYear": 1960,
+      "name": "Carcross Residential School",
+      "note": "",
+      "ref": ["CA011279"]
+    }, {
+      "startYear": 1960,
+      "endYear": 1964,
+      "name": "Carcriss Indian Mission School",
+      "note": "",
+      "ref": ["YS000941"]
+    }, {
+      "startYear": 1964,
+      "endYear": 1969,
+      "name": "Chooutla (Carcross) Indian School",
+      "note": "",
+      "ref": ["CA011280"]
+    }, {
+      "startYear": 1969,
+      "endYear": 1980,
+      "name": "Choutla School",
+      "note": "",
+      "ref": ["YS004084"]
+    }, {
+      "startYear": 1980,
+      "endYear": 1980,
+      "name": "Choutla Indian Residential School",
+      "note": "",
+      "ref": ["YS005157"]
+    }],
+    "chronoHistory": [{
+      "date": 1903,
+      "desc": ["The first Carcross School was established in the spring of 1903 by an Anglican Bishop."],
+      "ref": ["CA011225"]
+    }, {
+      "date": 1907,
+      "desc": ["A request is made to the government to build an adequate building for the Carcross Indian School."],
+      "ref": ["CA011050"]
+    }, {
+      "date": 1908,
+      "desc": ["The government establishes the current school as an Indian Residential School."],
+      "ref": ["YS004084A"]
+    }, {
+      "date": 1910,
+      "desc": ["Site for a new school was purchased."],
+      "ref": ["YS004084A"]
+    }, {
+      "date": 1913,
+      "desc": ["New school was built about two miles from community of Carcross"],
+      "ref": ["YS004084A"]
+    }, {
+      "date": 1939,
+      "desc": ["On April 17, 1939, the school burned to the ground. Because ofthe war, the government could not immediately re-build the school, and small rented buildings were used."],
+      "ref": ["CA011309", "CA010223"]
+    }, {
+      "date": 1942,
+      "desc": ["The school buildings are condemned by the medical health officer."],
+      "ref": ["CA011315"]
+    }, {
+      "date": 1944,
+      "desc": ["The Anglican church re-builds the Carcross Indian Residential School and the school is opened in the fall of 1944."],
+      "ref": ["CA011328", "CA011330", "CA011331"]
+    }, {
+      "date": 1950,
+      "desc": ["The government begins a consultation process with reference to the relocation of Carcross Indian Residential School."],
+      "ref": ["YS000737"]
+    }, {
+      "date": 1954,
+      "desc": ["When the new school opens, it is anticipated that students will be transferred in from the Whitehorse Day School", "New school opens some time soon after September 1954."],
+      "ref": ["YS003428"]
+    }, {
+      "date": 1955,
+      "desc": ["Student enrolled in the Carmacks Day School and the Whitehorse Indian Day School are to be accommodated in the newly built Carcross Residential School."],
+      "ref": ["CA010319"]
+    }, {
+      "date": 1956,
+      "desc": ["The Mayo Indian Day School was closed on November 1, 1956, and children were transferred into Carcross."],
+      "ref": ["CA010393"]
+    }, {
+      "date": 1960,
+      "desc": ["Students from Grades 5 up were transferred out of Carcross IRS and into the Whitehorse Hostels, leaving Carcross IRS with students in Grades 1 - 4."],
+      "ref": ["YS003830A"]
+    }, {
+      "date": 1966,
+      "desc": ["There was a fire in the boiler room ofCarcross IRS on June 5, 1966."],
+      "ref": ["CA011275"]
+    }, {
+      "date": 1967,
+      "desc": ["Classrooms for the public school children and the residence children were integrated in September o f 1967."],
+      "ref": ["YS004110"]
+    }, {
+      "date": 1968,
+      "desc": ["There was a fire in the boiler house on March 4, 1968.", "With the proposed closing of the school in 1969, enrollment is limited, keeping in residence only students in Grades 1 - 4 and a small number in Grade 5."],
+      "ref": ["CA011276", "CA011276A"]
+    }, {
+      "date": 1969,
+      "desc": ["Carcross IRS closes June 30, 1969. Land and buildings are transferred to the Yukon Territorial Government."],
+      "ref": ["CA011355", "CA011355A", "CA011355B", "CA011355C"]
+    }],
+    "notesHistory": [],
+    "management": [{
+      "startYear": 1903,
+      "endYear": 1969,
+      "org": "church",
+      "orgName": "Anglican Church",
+      "type": ["Management", "Teaching", "Staff"],
+      "ref": ""
+    }],
+    "enrollment": [{
+      "year": 1908,
+      "number": 18,
+      "notes": ""
+    }, {
+      "year": 1909,
+      "number": 18,
+      "notes": ""
+    }, {
+      "year": 1910,
+      "number": 30,
+      "notes": ""
+    }, {
+      "year": 1911,
+      "number": 30,
+      "notes": ""
+    }, {
+      "year": 1912,
+      "number": 30,
+      "notes": ""
+    }, {
+      "year": 1913,
+      "number": 30,
+      "notes": ""
+    }, {
+      "year": 1914,
+      "number": 30,
+      "notes": ""
+    }, {
+      "year": 1915,
+      "number": 30,
+      "notes": ""
+    }, {
+      "year": 1916,
+      "number": 30,
+      "notes": ""
+    }, {
+      "year": 1917,
+      "number": 30,
+      "notes": ""
+    }, {
+      "year": 1918,
+      "number": 30,
+      "notes": ""
+    }, {
+      "year": 1919,
+      "number": 35,
+      "notes": ""
+    }, {
+      "year": 1920,
+      "number": 35,
+      "notes": ""
+    }, {
+      "year": 1921,
+      "number": 35,
+      "notes": ""
+    }, {
+      "year": 1922,
+      "number": 35,
+      "notes": ""
+    }, {
+      "year": 1923,
+      "number": 40,
+      "notes": ""
+    }, {
+      "year": 1924,
+      "number": 40,
+      "notes": ""
+    }, {
+      "year": 1925,
+      "number": 40,
+      "notes": ""
+    }, {
+      "year": 1926,
+      "number": 40,
+      "notes": ""
+    }, {
+      "year": 1927,
+      "number": 40,
+      "notes": ""
+    }, {
+      "year": 1928,
+      "number": 40,
+      "notes": ""
+    }, {
+      "year": 1929,
+      "number": 40,
+      "notes": ""
+    }, {
+      "year": 1930,
+      "number": 40,
+      "notes": ""
+    }, {
+      "year": 1931,
+      "number": 40,
+      "notes": ""
+    }, {
+      "year": 1932,
+      "number": 40,
+      "notes": ""
+    }, {
+      "year": 1933,
+      "number": 40,
+      "notes": ""
+    }, {
+      "year": 1934,
+      "number": 40,
+      "notes": ""
+    }, {
+      "year": 1935,
+      "number": 40,
+      "notes": ""
+    }, {
+      "year": 1936,
+      "number": 40,
+      "notes": ""
+    }, {
+      "year": 1937,
+      "number": 40,
+      "notes": ""
+    }, {
+      "year": 1938,
+      "number": 40,
+      "notes": ""
+    }, {
+      "year": 1939,
+      "number": 40,
+      "notes": ""
+    }, {
+      "year": 1940,
+      "number": 43,
+      "notes": ""
+    }, {
+      "year": 1941,
+      "number": 40,
+      "notes": ""
+    }, {
+      "year": 1942,
+      "number": 36,
+      "notes": ""
+    }, {
+      "year": 1943,
+      "number": 20,
+      "notes": ""
+    }, {
+      "year": 1944,
+      "number": 20,
+      "notes": ""
+    }, {
+      "year": 1945,
+      "number": 48,
+      "notes": ""
+    }, {
+      "year": 1946,
+      "number": 52,
+      "notes": ""
+    }, {
+      "year": 1947,
+      "number": 69,
+      "notes": ""
+    }, {
+      "year": 1948,
+      "number": 50,
+      "notes": ""
+    }, {
+      "year": 1949,
+      "number": 45,
+      "notes": ""
+    }, {
+      "year": 1950,
+      "number": 49,
+      "notes": ""
+    }, {
+      "year": 1951,
+      "number": 52,
+      "notes": ""
+    }, {
+      "year": 1952,
+      "number": 65,
+      "notes": ""
+    }, {
+      "year": 1953,
+      "number": 65,
+      "notes": ""
+    }, {
+      "year": 1954,
+      "number": 120,
+      "notes": ""
+    }, {
+      "year": 1955,
+      "number": 120,
+      "notes": ""
+    }, {
+      "year": 1956,
+      "number": 120,
+      "notes": ""
+    }, {
+      "year": 1957,
+      "number": 130,
+      "notes": ""
+    }, {
+      "year": 1958,
+      "number": 158,
+      "notes": ""
+    }, {
+      "year": 1959,
+      "number": 156,
+      "notes": ""
+    }, {
+      "year": 1960,
+      "number": 161,
+      "notes": ""
+    }, {
+      "year": 1961,
+      "number": 148,
+      "notes": ""
+    }, {
+      "year": 1962,
+      "number": 161,
+      "notes": ""
+    }, {
+      "year": 1963,
+      "number": 116,
+      "notes": ""
+    }, {
+      "year": 1964,
+      "number": 161,
+      "notes": ""
+    }, {
+      "year": 1965,
+      "number": 135,
+      "notes": ""
+    }, {
+      "year": 1966,
+      "number": 109,
+      "notes": ""
+    }, {
+      "year": 1967,
+      "number": 83,
+      "notes": ""
+    }, {
+      "year": 1968,
+      "number": 94,
+      "notes": ""
+    }, {
+      "year": 1969,
+      "number": 42,
+      "notes": ""
+    }],
+    "reserves": ["alexandria", "alexisCreek", "alkaliLake", "anahimLake", "andersonLake", "ashcroft", "bonaparte", "bridgeRiver", "canimLake", "canoeCreek", "clinton", "coldwater", "cowichan", "dogCreek", "euchinico", "fountain", "highBar", "kamloops", "kluskus", "lakeBabine", "lillooet", "littleShuswap", "moricetown", "mountCurrie", "nazko", "nemiahValley", "northThompson", "pavillion", "pemberton", "quesnel", "redstone", "riskeCreek", "setonLake", "skwah", "sodaCreek", "squamish", "stoney", "toosey", "ulkatcho", "williamsLake"],
+    "religiousGroups": [{
+      "group": "Church of England",
+      "ref": ["CA011056"]
+    }, {
+      "group": "Missionary Society of the Church of England in Canada",
+      "ref": ["CA011238"]
+    }],
+    "writtenAgreements": [{
+      "date": 1912,
+      "title": "",
+      "desc": "Agreement for the Operation of a School, between His Majesty the King, represented by the Deputy Superintendent General oflndian Affairs and Isaac 0. Stringer, Bishop of Yukon.",
+      "ref": ["YS009114"]
+    }, {
+      "date": 1954,
+      "title": "",
+      "desc": "An Indenture is signed between the Church and the government for the government to purchase the buildings erected by the Church on the government-owned land 'Carcross Indian Reserve' at Carcross.",
+      "ref": ["YS001090"]
+    }, {
+      "date": 1962,
+      "title": "",
+      "desc": "Original Agreement_between the Department and the Missionary Society of the Anglican Church regarding Carcross Indian Residential School",
+      "ref": ["YS003444", "YS003444A"]
+    }],
+    "additionalInformation": [{
+      "date": 1942,
+      "type": "sexual",
+      "victim": "",
+      "agressor": "two US soldiers",
+      "notes": "Two U.S. soldiers 'were caught in the girls dormitory ... during the early morning hours of December 22nct' and were subsequently charged with indecent assault.",
+      "ref": ["CA011318", "CA011311", "CA011319A", "CA011360A"]
+    }, {
+      "date": 1943,
+      "type": "sexual",
+      "victim": "",
+      "agressor": "",
+      "notes": "A document states that Indian children in residence at the Carcross Indian Residential School were molested, likely a reference to the incident regarding U.S. soldiers found in the girls' dormitory.",
+      "ref": ["CA011283"]
+    }, {
+      "date": 1940,
+      "type": "physical",
+      "victim": "",
+      "agressor": "principal",
+      "notes": "Several incidents o f physical abuse, such as strapping, cutting hair and 'corporal punishment,' are described by the Principal as punishment for allegations oftheft.",
+      "ref": ["CA011309"]
+    }, {
+      "date": 1956,
+      "type": "physical",
+      "victim": "",
+      "agressor": "",
+      "notes": "The principal ofthe school is requesting authority to discharge a student from the school. The principal writes that he at first strapped the student for infractions of the rules, when the student failed to respond to loss ofprivileges. After many attempts to work with this student, he was transferred to Whitehorse Indian Day School",
+      "ref": ["YS003442, YS003442A, YS003443, YS003482"]
+    }, {
+      "date": 1958,
+      "type": "physical",
+      "victim": "",
+      "agressor": "staff",
+      "notes": "There was a complaint that a member ofthe staffat Carcross IRS was '...striking some ofthe boys over the head in order to discipline them.' The Principal informed the Yukon Agency that ' ... the [staff member] was relieved of duties as soon as the matter came to his attention'.",
+      "ref": ["YS003314"]
+    }, {
+      "date": 1959,
+      "type": "physical",
+      "victim": "female student",
+      "agressor": "",
+      "notes": "A female student's hair 'was cut as a punitive measure following her third instance ofrunning away'.",
+      "ref": ["YS003318"]
+    }, {
+      "date": 1960,
+      "type": "physical",
+      "victim": "",
+      "agressor": "principal",
+      "notes": "The Principal o f Carcross is accused o f forcibly removing a student from the Whitehorse Baptist Mission School and there is a significant controversy between the Principal ofthe School, the Baptists and the Anglican Church.",
+      "ref": ["CA010169, CA010176"]
+    }, {
+      "date": 1964,
+      "type": "physical",
+      "victim": "students",
+      "agressor": "staff",
+      "notes": "A former teacher from Carcross IRS alleges various incidences of abuse by staff towards the students.",
+      "ref": ["CA010114"]
+    }, {
+      "date": 1956,
+      "type": "incident",
+      "victim": "",
+      "agressor": "",
+      "notes": "The principal ofthe school is requesting authority to discharge a pupil who appeared in Juvenile Court on two occasions for breaking and entering, and in connection with a fire. While at the school,the student repeatedly beats upon the younger boys. After many attempts to work with this student, he was transferred to Whitehorse Indian Day School.",
+      "ref": ["YS003442, YS003442A, YS003443, YS003482"]
+    }, {
+      "date": 1912,
+      "type": "report",
+      "victim": "",
+      "agressor": "",
+      "notes": "A representative from the Office ofthe Auditor General of Canada expresses concern with regard to stories he was told by 'various parties' about the care children are getting at the Carcross Indian School.",
+      "ref": ["CA011092"]
+    }, {
+      "date": 1912,
+      "type": "report",
+      "victim": "",
+      "agressor": "",
+      "notes": "The Inspector for the Office of the Auditor General reports on a number of complaints he heard during his visit to Carcross, including a lack ofnourishment, possiblyleadingtotuberculartroubles. TheSchoolwasallegedtobesellingmilk and eggs that may not have been 'surplus'...local 'indians' were taking their children away from the school, and recruiting 'was coming from the indians who are a long distance from Carcross.'",
+      "ref": ["CA011098"]
+    }, {
+      "date": 1929,
+      "type": "report",
+      "victim": "",
+      "agressor": "",
+      "notes": "The Indian Superintendent noted in his report that 'Staff appear to be unsettled...' and note is made of'considerable changes in the staffat this school....which are detrimental to the work ofthe school...'",
+      "ref": ["CA011233, CA011237"]
+    }, {
+      "date": 1929,
+      "type": "report",
+      "victim": "",
+      "agressor": "",
+      "notes": "The Missionary Society o f the Church o f England in Canada responds to complaints ofstaffturnover suggesting the impact is not as bad as it appears from afar.",
+      "ref": ["CA011238"]
+    }, {
+      "date": 1931,
+      "type": "report",
+      "victim": "",
+      "agressor": "",
+      "notes": "The Indian Superintendent reports on much better conditions at the Carcross Indian Residential School, agreeing that there had been a decline in general. Also, an Indian from town had entered the girl's dormitory at night but was discovered 'before any real harm had been done'.",
+      "ref": ["CA011264"]
+    }, {
+      "date": 1940,
+      "type": "report",
+      "victim": "",
+      "agressor": "",
+      "notes": "Several incidents oftheft are described by the Principal to the Superintendent of Indian Affairs, considered to be 'an epidemic of stealing in the school.' Responses to the abuse, e.g., cutting off students hair, resulted in 'quite a bit of resentment [arising] amongst the Indians regarding this form of punishment'.",
+      "ref": ["CA011309"]
+    }, {
+      "date": 1960,
+      "type": "report",
+      "victim": "",
+      "agressor": "",
+      "notes": "The President ofthe Yukon Baptist Missionary Society (Mr. Montgomery) alleges mistreatment of Baptist children attending Carcross IRS. The Principal refutes these charges",
+      "ref": ["YS000951, YS000952, YS000953"]
+    }, {
+      "date": 1929,
+      "type": "health",
+      "victim": "",
+      "agressor": "",
+      "notes": "An epidemic of influenza was prevalent since the beginning of the year resulting in the deaths oftwo pupils.",
+      "ref": ["CA011233A"]
+    }, {
+      "date": 1931,
+      "type": "health",
+      "victim": "",
+      "agressor": "",
+      "notes": "Two students died in the Whitehorse hospital in January 1931 from tuberculosis and a third student was discharged from the school 'suffering from the same disease'.",
+      "ref": ["CA011293"]
+    }, {
+      "date": 1936,
+      "type": "health",
+      "victim": "",
+      "agressor": "",
+      "notes": "An outbreak of measles affected 'practically all of the pupils' - all had recovered by the time of the Superintendent's visit.",
+      "ref": ["CA010617"]
+    }, {
+      "date": 1942,
+      "type": "health",
+      "victim": "",
+      "agressor": "",
+      "notes": "The Medical Health Officer reports poor health conditions at the school and the school buildings are condemned.",
+      "ref": ["CA011315, CA011315A"]
+    }, {
+      "date": 1933,
+      "type": "incident",
+      "victim": "",
+      "agressor": "",
+      "notes": "A teacher has an accident at the school",
+      "ref": ["CA011300"]
+    }, {
+      "date": 1940,
+      "type": "incident",
+      "victim": "",
+      "agressor": "",
+      "notes": "A student was badly injured in an accident while 'driving one ofthe school teams down a hill'.",
+      "ref": ["CA011358"]
+    }, {
+      "date": 1946,
+      "type": "incident",
+      "victim": "",
+      "agressor": "",
+      "notes": "A student was accidentally drowned.",
+      "ref": ["CA011284, CA011362, CA011362A"]
+    }, {
+      "date": 1953,
+      "type": "incident",
+      "victim": "",
+      "agressor": "",
+      "notes": "A female student dies of'lymphacitic leukemia'.",
+      "ref": ["CA011296, CA011297, CA011298"]
+    }, {
+      "date": 1960,
+      "type": "incident",
+      "victim": "",
+      "agressor": "",
+      "notes": "A car accident claimed the life of a teacher from Chooutla School and a 13-year old student.",
+      "ref": ["YS004107, CA010207"]
+    }, {
+      "date": 1914,
+      "type": "program",
+      "victim": "",
+      "agressor": "",
+      "notes": "The Anglican Church newsletter 'Northern Lights' was published at the school by students.",
+      "ref": ["CA011111"]
+    }, {
+      "date": 1931,
+      "type": "program",
+      "victim": "",
+      "agressor": "",
+      "notes": "Scouts and a Social Club' were initiated.",
+      "ref": ["CA011357"]
+    }, {
+      "date": 1957,
+      "type": "program",
+      "victim": "",
+      "agressor": "",
+      "notes": "Students have a full size skating rink.",
+      "ref": ["CA010216"]
+    }, {
+      "date": 1926,
+      "type": "incident",
+      "victim": "",
+      "agressor": "",
+      "notes": "Member of the staff assaulted the Principal; police report was filed and individual was ordered offthe premises.",
+      "ref": ["CA011196A"]
+    }, {
+      "date": 1932,
+      "type": "incident",
+      "victim": "",
+      "agressor": "",
+      "notes": "Two boys had run away from the school; they were found the next day, but escaped a second time, and were soon found and escorted back to the school by the Principal.",
+      "ref": ["CA011295"]
+    }, {
+      "date": 1940,
+      "type": "sexual",
+      "victim": "",
+      "agressor": "",
+      "notes": "A labourer from Whitehorse attempted to crawl into the girls' dormitory, breaking a screen window. He was charged with the offense of Vagrancy (Disorderly conduct).",
+      "ref": ""
+    }, {
+      "date": 1947,
+      "type": "incident",
+      "victim": "",
+      "agressor": "",
+      "notes": "Two male students ran away from Carcross Residential School; one was returned to the school, the other was older and was allowed to leave the school.",
+      "ref": ["CA011279"]
+    }, {
+      "date": 1960,
+      "type": "incident",
+      "victim": "",
+      "agressor": "",
+      "notes": "Two 'Runaway Boys from Carcross Indian Mission School' were found residing with the mother ofone ofthe boys",
+      "ref": ["YS000941"]
+    }]
+  }
+}

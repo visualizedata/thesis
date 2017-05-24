@@ -1,0 +1,38 @@
+{
+  "name": "St. Mary's (Mission)",
+  "type": "Residential",
+  "location": {
+    "province": "British Columbia",
+    "city": "Mission",
+    "latLng": {
+      "lat": 49.1374,
+      "-122.2879472": 0.000
+    }
+  },
+  "narrativeDate": "09-11-01",
+  "startYear": 1867,
+  "endYear": 1984,
+  "data": {
+    "nameVariants": [],
+    "chronoHistory": [],
+    "notesHistory": [],
+    "management": [],
+    "enrollment": [],
+    "reserves": [""],
+    "religiousGroups": [{
+      "group": "group",
+      "ref": ["number"]
+    }, {
+      "group": "group",
+      "ref": ["number"]
+    }, {
+      "group": "group",
+      "ref": ["number"]
+    }, {
+      "group": "group",
+      "ref": ["number"]
+    }],
+    "writtenAgreements": [],
+    "additionalInformation": []
+  }
+}

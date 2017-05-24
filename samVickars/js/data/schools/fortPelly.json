@@ -1,0 +1,136 @@
+{
+  "name": "Fort Pelly (St. Philip's) IRS",
+  "type": "Residential",
+  "location": {
+    "province": "Saskatchewan",
+    "city": "Fort Pelly",
+    "latLng": {
+      "lat": 51.714,
+      "lng": -101.8962
+    }
+  },
+  "narrativeDate": "09-11-01",
+  "startYear": 1905,
+  "endYear": 1913,
+  "data": {
+    "nameVariants": [{
+      "startYear": 1905,
+      "endYear": 1913,
+      "name": "Keeseekoose / Keeseekouse (St. Philips) Boarding School",
+      "note": "",
+      "ref": ["SPR- 000824", "SPR-000966", "SPR-001021"]
+    }, {
+      "startYear": 1906,
+      "endYear": 1909,
+      "name": "Fort Pelly School",
+      "note": "",
+      "ref": ["FFR-004340", "FFR-004341-0000"]
+    }, {
+      "startYear": 1906,
+      "endYear": 1913,
+      "name": "St. Philip’s (Boarding) School",
+      "note": "",
+      "ref": ["SPR-000968", "SPR-001020"]
+    }],
+    "chronoHistory": [{
+      "date": 1905,
+      "desc": ["July: The Fort Pelly IRS began operating with federal government support on July 1, 1905."],
+      "ref": ["SPR-000824", "SPR-000451"]
+    }, {
+      "date": 1910,
+      "desc": ["The Missionary Oblate Sisters (Oblate Sisters of the Sacred Heart and Mary Immaculate) arrived at the IRS on May 4, 1910 to replace the Sisters of St. André de la Croix / Sisters of the Holy Cross."],
+      "ref": ["SPR-004700"]
+    }, {
+      "date": 1913,
+      "desc": ["Due to low enrolment, the ill health of the Principal, and the poor conditions of the IRS building, the IRS closed on September 30, 1913."],
+      "ref": ["SPR-000828", "SPR-001958", "SPR-001020", "SPR-001021"]
+    }],
+    "notesHistory": [],
+    "management": [{
+      "startYear": 1905,
+      "endYear": 1913,
+      "org": "government",
+      "orgName": "Federal Government of Canada",
+      "type": ["Management", " Teaching", " Staff"],
+      "ref": ["SPR-000824", "SPR-000451"]
+    }],
+    "enrollment": [{
+      "year": 1904,
+      "number": "16",
+      "notes": ""
+    }, {
+      "year": 1905,
+      "number": "26",
+      "notes": ""
+    }, {
+      "year": 1906,
+      "number": "25",
+      "notes": ""
+    }, {
+      "year": 1907,
+      "number": "30",
+      "notes": ""
+    }, {
+      "year": 1908,
+      "number": "29",
+      "notes": ""
+    }, {
+      "year": 1909,
+      "number": "29",
+      "notes": ""
+    }, {
+      "year": 1910,
+      "number": "29",
+      "notes": ""
+    }, {
+      "year": 1911,
+      "number": "30",
+      "notes": ""
+    }, {
+      "year": 1912,
+      "number": "27",
+      "notes": ""
+    }, {
+      "year": 1913,
+      "number": "27",
+      "notes": ""
+    }],
+    "reserves": [""],
+    "religiousGroups": [{
+      "group": "Roman Catholic Church",
+      "ref": ["SPR-001919", "SPR-001928", "SPR-000826-0001"]
+    }, {
+      "group": "Oblates of Mary Immaculate of St. Boniface, Manitoba",
+      "ref": ["SPR-001919", "SPR-001928", "SPR-000826-0001"]
+    }, {
+      "group": "Sisters of St. André de la Croix / Sisters of the Holy Cross",
+      "ref": ["SPR-005403", "SPR-000967", "SPR-001936", "SPR-001937", "SPR-001938"]
+    }, {
+      "group": "The Missionary Oblate Sisters (Oblate Sisters of the Sacred Heart and Mary Immaculate)",
+      "ref": ["SPR-004700", "SPR-001020"]
+    }],
+    "writtenAgreements": [],
+    "additionalInformation": [{
+      "date": 1911,
+      "type": "program",
+      "victim": "",
+      "agressor": "",
+      "notes": "Boys at the IRS were taught farming and care of livestock. Girls were taught general house keeping skills such as cooking, knitting, and sewing. Pupils played baseball and football, marbles, cards, dominoes and checkers. Religious training was given to IRS pupils twice daily by the Principal.",
+      "ref": ["SPR-000965"]
+    }, {
+      "date": 1909,
+      "type": "report",
+      "victim": "",
+      "agressor": "",
+      "notes": "A federal Indian Agent reported that female students had been sneaking out of their sleeping quarters to meet with young men from the Key and Keeseekoose Reserves. The Agent suggested that the 'local ladies' who had taken over from the Sisters who had previously worked at the IRS had no experience in working with pupils and 'let the children do very much as they please ' The federal government advised that the Principal was in charge of discipline at the IRS and should be more vigilant in light of the recent staff changes.",
+      "ref": ["SPR-001936", "SPR-001937", "SPR-001938"]
+    }, {
+      "date": 1911,
+      "type": "incident",
+      "victim": "",
+      "agressor": "",
+      "notes": "The Chief of the Keeseekoose Reserve reported to a federal Indian Agent that the assistant to the Principal had been intoxicated at the IRS and had taken a rifle and told those who were there at the time that he was going to shoot some of them. The Agent noted that the assistant to the Principal had left the IRS and that two other Fathers had arrived. The federal government requested that the Principal explain what had been done to ' quiet the trouble caused by this painful incident;' however, the Principal would not comment on the matter. The Principal tendered his resignation shortly thereafter. In September 1911, the federal government was told by Church authorities that the former assistant to the Principal (involved in the previous incident) had become the Principal of the IRS.",
+      "ref": ["SPR-000062", "SPR-001943", "SPR-001945", "SPR-000063", "SPR-001947"]
+    }]
+  }
+}

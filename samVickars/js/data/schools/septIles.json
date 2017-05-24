@@ -1,0 +1,38 @@
+{
+  "name": "Sept-Iles (Maliotenam)",
+  "type": "Residential",
+  "location": {
+    "province": "Quebec",
+    "city": "city",
+    "latLng": {
+      "lat": 50.21333333,
+      "-66.20710278": 0.000
+    }
+  },
+  "narrativeDate": "09-11-01",
+  "startYear": 1952,
+  "endYear": 1971,
+  "data": {
+    "nameVariants": [],
+    "chronoHistory": [],
+    "notesHistory": [],
+    "management": [],
+    "enrollment": [],
+    "reserves": ["bersimis", "fortChimo", "laRomaine", "lesEscoumins", "mingan", "natashquan", "schefferville", "sevenIslands", "stAugustine"],
+    "religiousGroups": [{
+      "group": "group",
+      "ref": ["number"]
+    }, {
+      "group": "group",
+      "ref": ["number"]
+    }, {
+      "group": "group",
+      "ref": ["number"]
+    }, {
+      "group": "group",
+      "ref": ["number"]
+    }],
+    "writtenAgreements": [],
+    "additionalInformation": []
+  }
+}

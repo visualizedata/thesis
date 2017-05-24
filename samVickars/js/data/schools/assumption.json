@@ -1,0 +1,26 @@
+{
+  "name": "Assumption IRS (Hay Lakes)",
+  "type": "Residential",
+  "location": {
+    "province": "Alberta",
+    "city": "Assumption",
+    "latLng": {
+      "lat": 58.7018,
+      "lng": -118.686322
+    }
+  },
+  "narrativeDate": "09-11-01",
+  "startYear": 1951,
+  "endYear": 1974,
+  "data": {
+    "nameVariants": [],
+    "chronoHistory": [],
+    "notesHistory": [],
+    "management": [],
+    "enrollment": [],
+    "reserves": [""],
+    "religiousGroups": [],
+    "writtenAgreements": [],
+    "additionalInformation": []
+  }
+}

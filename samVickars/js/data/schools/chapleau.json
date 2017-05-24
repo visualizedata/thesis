@@ -1,0 +1,300 @@
+{
+  "name": "Chapleau IRS (St. John's)",
+  "type": "Residential",
+  "location": {
+    "province": "Ontario",
+    "city": "Chapleau",
+    "latLng": {
+      "lat": 47.81780833,
+      "lng": -83.39447778
+    }
+  },
+  "narrativeDate": "09-11-01",
+  "startYear": 1907,
+  "endYear": 1948,
+  "data": {
+    "nameVariants": [{
+      "startYear": 1907,
+      "endYear": 1948,
+      "name": "Chapleau (St. John's) Boarding School",
+      "note": "",
+      "ref": ["CRS-000820", "CRS-001281"]
+    }, {
+      "startYear": 1907,
+      "endYear": 1948,
+      "name": "Chapleau (St. John's) Indian Residential School",
+      "note": "",
+      "ref": ["CRS-001179", "CRS-001918"]
+    }, {
+      "startYear": 1907,
+      "endYear": 1948,
+      "name": "St. John's (Indian) School, Chapleau",
+      "note": "",
+      "ref": ["CRS-000821-0000", "CRS-002141"]
+    }, {
+      "startYear": 1907,
+      "endYear": 1948,
+      "name": "Chapleau Industrial School",
+      "note": "",
+      "ref": ["CRS-001178"]
+    }],
+    "chronoHistory": [{
+      "date": 1907,
+      "desc": ["Chapleau IRS began operating in January 1907 under the auspices of the Anglican Bishop of Moosonee."],
+      "ref": ["CRS-000802", "CRS-002147"]
+    }, {
+      "date": 1911,
+      "desc": ["An operational agreement was signed between the Federal Government and the Bishop of Moosonee for the future management of the Chapleau IRS."],
+      "ref": ["CRS- 002070"]
+    }, {
+      "date": 1920,
+      "desc": ["A new school building, with a small barn and outbuildings, was constructed by the Federal Government at a new school site."],
+      "ref": ["CRS-001286", "CRS-002147"]
+    }, {
+      "date": 1923,
+      "desc": ["Administration of the Chapleau IRS was transferred from the Diocese of Moosonee to the Missionary Society of the Church of England in Canada (M.S.C.C.)."],
+      "ref": ["CRS-001165", "CRS-002147, p. 4", "CRS-002139"]
+    }, {
+      "date": 1926,
+      "desc": ["The old school building burned down."],
+      "ref": ["CRS-001190-0000", "CRS-001192"]
+    }, {
+      "date": 1944,
+      "desc": ["A small chimney fire occurred at the school."],
+      "ref": ["CRS-001610", "CRS-001887"]
+    }, {
+      "date": 1947,
+      "desc": ["A small fire occurred in the basement of the school."],
+      "ref": ["CRS-001947"]
+    }, {
+      "date": 1948,
+      "desc": ["The school ceased operation as of July 1."],
+      "ref": ["CRS-001998"]
+    }],
+    "notesHistory": [],
+    "management": [{
+      "startYear": 1907,
+      "endYear": 1923,
+      "org": "church",
+      "orgName": "Anglican Church: Diocese of Moosonee",
+      "type": ["Management", "Teaching", "Staff"],
+      "ref": ["CRS-000811", "CRS-000814", "CRS- 000889", "CRS-000906"]
+    }, {
+      "startYear": 1923,
+      "endYear": 1948,
+      "org": "church",
+      "orgName": "Church of England in Canada",
+      "type": ["Management", "Teaching", "Staff"],
+      "ref": ""
+    }],
+    "enrollment": [{
+      "year": 1907,
+      "number": 13,
+      "notes": ""
+    }, {
+      "year": 1908,
+      "number": 29.5,
+      "notes": ""
+    }, {
+      "year": 1909,
+      "number": 29.5,
+      "notes": ""
+    }, {
+      "year": 1910,
+      "number": 29.5,
+      "notes": ""
+    }, {
+      "year": 1911,
+      "number": 29.5,
+      "notes": ""
+    }, {
+      "year": 1912,
+      "number": 29.5,
+      "notes": ""
+    }, {
+      "year": 1913,
+      "number": 29.5,
+      "notes": ""
+    }, {
+      "year": 1914,
+      "number": 29.5,
+      "notes": ""
+    }, {
+      "year": 1915,
+      "number": 29.5,
+      "notes": ""
+    }, {
+      "year": 1916,
+      "number": 29.5,
+      "notes": ""
+    }, {
+      "year": 1917,
+      "number": 29.5,
+      "notes": ""
+    }, {
+      "year": 1918,
+      "number": 29.5,
+      "notes": ""
+    }, {
+      "year": 1919,
+      "number": 29.5,
+      "notes": ""
+    }, {
+      "year": 1920,
+      "number": 46,
+      "notes": ""
+    }, {
+      "year": 1921,
+      "number": 55,
+      "notes": ""
+    }, {
+      "year": 1922,
+      "number": 82.5,
+      "notes": ""
+    }, {
+      "year": 1923,
+      "number": 82.5,
+      "notes": ""
+    }, {
+      "year": 1924,
+      "number": 82.5,
+      "notes": ""
+    }, {
+      "year": 1925,
+      "number": 82.5,
+      "notes": ""
+    }, {
+      "year": 1926,
+      "number": 82.5,
+      "notes": ""
+    }, {
+      "year": 1927,
+      "number": 82.5,
+      "notes": ""
+    }, {
+      "year": 1928,
+      "number": 82.5,
+      "notes": ""
+    }, {
+      "year": 1929,
+      "number": 82.5,
+      "notes": ""
+    }, {
+      "year": 1930,
+      "number": 110,
+      "notes": ""
+    }, {
+      "year": 1931,
+      "number": 80,
+      "notes": ""
+    }, {
+      "year": 1932,
+      "number": 92,
+      "notes": ""
+    }, {
+      "year": 1933,
+      "number": 92,
+      "notes": ""
+    }, {
+      "year": 1934,
+      "number": 92,
+      "notes": ""
+    }, {
+      "year": 1935,
+      "number": 92,
+      "notes": ""
+    }, {
+      "year": 1936,
+      "number": 92,
+      "notes": ""
+    }, {
+      "year": 1937,
+      "number": 92,
+      "notes": ""
+    }, {
+      "year": 1938,
+      "number": 92,
+      "notes": ""
+    }, {
+      "year": 1939,
+      "number": 92,
+      "notes": ""
+    }, {
+      "year": 1940,
+      "number": 92,
+      "notes": ""
+    }, {
+      "year": 1941,
+      "number": 92,
+      "notes": ""
+    }, {
+      "year": 1942,
+      "number": 92,
+      "notes": ""
+    }, {
+      "year": 1943,
+      "number": 92,
+      "notes": ""
+    }, {
+      "year": 1944,
+      "number": 92,
+      "notes": ""
+    }, {
+      "year": 1945,
+      "number": 92,
+      "notes": ""
+    }, {
+      "year": 1946,
+      "number": 92,
+      "notes": ""
+    }, {
+      "year": 1947,
+      "number": 104,
+      "notes": ""
+    }, {
+      "year": 1948,
+      "number": 69,
+      "notes": ""
+    }],
+    "reserves": ["bala", "brantford", "brunswick", "capeCroke", "chapleau", "chapleau", "chochrane", "cochrane", "fortAlbany", "fortFrancis", "gibson", "gibson", "islandFalls", "missanabie", "missanabie", "mistissini", "muncey", "newBrunswickHouse", "nimkish", "parryIsland", "rama", "rupertHouse", "senneterre"],
+    "religiousGroups": [{
+      "group": "Anglican Church",
+      "ref": []
+    }],
+    "writtenAgreements": [{
+      "date": 1911,
+      "title": "",
+      "desc": "Operational agreement for the future management of the Chapleau IRS signed between the Bishop of Moosonee and the Federal Government.",
+      "ref": ["CRS-002070"]
+    }],
+    "additionalInformation": [{
+      "date": 1922,
+      "type": "physical",
+      "victim": "",
+      "agressor": "",
+      "notes": "A series of affidavits alleging cruelty toward the children at the school produced an official investigation. The investigation concluded that discipline was severe, but it found that the statements made in connection with these affidavits could not be corroborated. Nevertheless, the Department issued instructions that any corporal punishment that might appear pitiless to outsiders should be avoided at the  school.",
+      "ref": ["CRS-001009, p. 2", "CRS-001014-0001"]
+    }, {
+      "date": 1936,
+      "type": "physical",
+      "victim": "",
+      "agressor": "",
+      "notes": "A staff member informed the Government that severe whipping had been a part of efforts to discipline a pupil.",
+      "ref": ["CRS-001254; CRS-001255"]
+    }, {
+      "date": 1937,
+      "type": "physical",
+      "victim": "",
+      "agressor": "",
+      "notes": "Truant students were to be given a sound whipping to discourage further escape attempts.",
+      "ref": ["CRS-001293-0000; CRS-001293-0001; CRS-001294-0000", "0001, 0002"]
+    }, {
+      "date": 1939,
+      "type": "physical",
+      "victim": "",
+      "agressor": "",
+      "notes": "Truant students had their hair cut off close to their heads. They were warned that if they ran away again, their heads would be shaved. [CRS-001315-0000; CRS- 001316; CRS-001321] When three of these student did run away again, the Department was informed that they had been severely strapped for their earlier attempt and would be again when they were returned to the school. [CRS-001325- 0001] Another student was severely whipped for threatening a staff member with a knife and for running away.",
+      "ref": ["CRS-001330-0001"]
+    }]
+  }
+}

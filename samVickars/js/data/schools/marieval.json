@@ -1,0 +1,38 @@
+{
+  "name": "Marieval (Cowesess)",
+  "type": "Residential",
+  "location": {
+    "province": "Saskatchewan",
+    "city": "city",
+    "latLng": {
+      "lat": 50.58074167,
+      "-102.6533333": 0.000
+    }
+  },
+  "narrativeDate": "09-11-01",
+  "startYear": 1898,
+  "endYear": 1997,
+  "data": {
+    "nameVariants": [],
+    "chronoHistory": [],
+    "notesHistory": [],
+    "management": [],
+    "enrollment": [],
+    "reserves": [""],
+    "religiousGroups": [{
+      "group": "group",
+      "ref": ["number"]
+    }, {
+      "group": "group",
+      "ref": ["number"]
+    }, {
+      "group": "group",
+      "ref": ["number"]
+    }, {
+      "group": "group",
+      "ref": ["number"]
+    }],
+    "writtenAgreements": [],
+    "additionalInformation": []
+  }
+}

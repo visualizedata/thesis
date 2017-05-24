@@ -1,0 +1,205 @@
+{
+  "name": "Fort William (St. Joseph's) RS",
+  "type": "Residential",
+  "location": {
+    "province": "Ontario",
+    "city": "Fort William",
+    "latLng": {
+      "lat": 48.38084722,
+      "lng": -89.25665
+    }
+  },
+  "narrativeDate": "09-11-01",
+  "startYear": 1870,
+  "endYear": 1970,
+  "data": {
+    "nameVariants": [{
+      "startYear": 1885,
+      "endYear": 1970,
+      "name": "Immaculate Conception Orphan Asylum",
+      "note": "",
+      "ref": ["SJS-000012", "SJS-000017"]
+    }, {
+      "startYear": 1885,
+      "endYear": 1970,
+      "name": "St. Joseph Convent Orphanage School",
+      "note": "",
+      "ref": ["SJS-000838", "SJS-000839"]
+    }, {
+      "startYear": 1885,
+      "endYear": 1970,
+      "name": "St. Joseph's Indian Home",
+      "note": "",
+      "ref": ["SJS-000146", "SJS-000857"]
+    }, {
+      "startYear": 1885,
+      "endYear": 1970,
+      "name": "Fort William Orphanage Boarding School",
+      "note": "",
+      "ref": ["SJS-000153"]
+    }, {
+      "startYear": 1885,
+      "endYear": 1970,
+      "name": "St. Joseph's Home",
+      "note": "",
+      "ref": ["SJS-000153"]
+    }, {
+      "startYear": 1885,
+      "endYear": 1970,
+      "name": "St. Joseph's Orphanage",
+      "note": "",
+      "ref": ["SJS-000189", "SJS-000189a", "SJS-000844"]
+    }, {
+      "startYear": 1885,
+      "endYear": 1970,
+      "name": "St. Joseph's Indian Industrial School",
+      "note": "",
+      "ref": ["SJS-000859"]
+    }, {
+      "startYear": 1885,
+      "endYear": 1970,
+      "name": "Fort William Orphanage Boarding School",
+      "note": "",
+      "ref": ["SJS-000262", "SJS-000844"]
+    }, {
+      "startYear": 1885,
+      "endYear": 1970,
+      "name": "Fort William Indian Boarding School",
+      "note": "",
+      "ref": ["SJS-000212"]
+    }, {
+      "startYear": 1885,
+      "endYear": 1970,
+      "name": "St. Joseph's Residential School",
+      "note": "",
+      "ref": ["SJS-0003000", "SJS-000477"]
+    }, {
+      "startYear": 1885,
+      "endYear": 1970,
+      "name": "Fort William Indian Residential School",
+      "note": "",
+      "ref": ["SJS-000390", "SJS-000458"]
+    }, {
+      "startYear": 1885,
+      "endYear": 1970,
+      "name": "St. Joseph's Boarding School",
+      "note": "",
+      "ref": ["SJS-000859", "SJS-000484", "SJS-000437", "SJS-000477"]
+    }],
+    "chronoHistory": [{
+      "date": 1870,
+      "desc": ["Immaculate Conception Orphan Asylum was established by nuns affiliated with the Society of the Sacred Heart of Mary to educate young Native girls. Not long after the school's opening, it was compelled to enrol destitute non-Native children."],
+      "ref": ["SJS-000012", "SJS-000017", "SJS-000023", "SJS-000153"]
+    }, {
+      "date": 1885,
+      "desc": ["St. Joseph's (Fort William) Indian Residential School came under the charge of the Sisters of St. Joseph. "],
+      "ref": ["SJS-000835", "SJS-000153"]
+    }, {
+      "date": 1895,
+      "desc": ["On April 10, the orphanage building and Roman Catholic Church were destroyed by fire.", "The rebuilding of the school and church were financed by the Fort William Band. The new orphanage was completed in the fall."],
+      "ref": ["SJS-000078", "SJS-000078a", "SJS-000080", "SJS-000153", "SJS-000081", "SJS-000094", "SJS-000091a", "SJS-000846"]
+    }, {
+      "date": 1909,
+      "desc": ["St. Joseph's (Fort William) Indian Residential School relocated to the city of Fort William on January 8. Relocation was required after the school and land were expropriated by the Grand Trunk Pacific Railway."],
+      "ref": ["SJS-000859", "SJS-000447a", "SJS- 000232", "SJS-000213"]
+    }, {
+      "date": 1968,
+      "desc": ["As of September, St. Joseph's (Fort William) Indian Residential School was used only as a hostel."],
+      "ref": ["SJS-000546", "SJS-000734"]
+    }, {
+      "date": 1970,
+      "desc": ["St. Joseph's (Fort William) Indian Residential School closed on June 30."],
+      "ref": ["SJS- 000567"]
+    }],
+    "notesHistory": [],
+    "management": [{
+      "startYear": 1870,
+      "endYear": 1884,
+      "org": "church",
+      "orgName": "Society of the Sacred Heart of Mary",
+      "type": ["Management", " Teaching"],
+      "ref": ["SJS-000835", "SJS-000012", "SJS-000016", "SJS- 000017", "SJS-000153", "SJS-000158a", "SJS-000390", "SJS-000567"]
+    }, {
+      "startYear": 1885,
+      "endYear": 1970,
+      "org": "church",
+      "orgName": "Sisters of St. Joseph",
+      "type": ["Management", " Teaching"],
+      "ref": ["SJS-000835;", "SJS-000012;", "SJS-000016;", "SJS-", "000017;", "SJS-000153;", "SJS-000158a;", "SJS-000390;", "SJS-000567"]
+    }],
+    "enrollment": [{
+      "year": 1870,
+      "number": "7",
+      "notes": ""
+    }, {
+      "year": 1880,
+      "number": "26",
+      "notes": ""
+    }, {
+      "year": 1890,
+      "number": "38",
+      "notes": ""
+    }, {
+      "year": 1898,
+      "number": "22",
+      "notes": ""
+    }, {
+      "year": 1910,
+      "number": "20",
+      "notes": ""
+    }, {
+      "year": 1920,
+      "number": "17",
+      "notes": ""
+    }, {
+      "year": 1930,
+      "number": "92",
+      "notes": ""
+    }, {
+      "year": 1939,
+      "number": "97",
+      "notes": ""
+    }, {
+      "year": 1940,
+      "number": "105",
+      "notes": ""
+    }, {
+      "year": 1951,
+      "number": "135",
+      "notes": ""
+    }, {
+      "year": 1962,
+      "number": "86",
+      "notes": ""
+    }, {
+      "year": 1968,
+      "number": "64",
+      "notes": ""
+    }],
+    "reserves": ["fortWilliam", "longLake", "nepigon", "paysPlat", "picRiver", "savanne", "whiteRiver"],
+    "religiousGroups": [{
+      "group": "Roman Catholic Church",
+      "ref": ["SJS-000086", "SJS-000153"]
+    }, {
+      "group": "Society of the Sacred Heart of Mary",
+      "ref": ["."]
+    }, {
+      "group": "Sisters of St. Joseph",
+      "ref": ["SJS-000835", "SJS-000033", "SJS- 000059a", "SJS-000567"]
+    }],
+    "writtenAgreements": [{
+      "date": 1911,
+      "title": "",
+      "desc": "Agreement between the Bishop of the Diocese of Sault St. Marie and the Federal Government for the operation and management of St. Joseph's (Fort William) Indian Residential School.",
+      "ref": ["SJS-000262"]
+    }],
+    "additionalInformation": [{
+      "date": 1961,
+      "type": "physical",
+      "victim": "",
+      "agressor": "",
+      "notes": "The parents of two students told the police that their children had returned from school with black eyes.",
+      "ref": ["SJS-000480"]
+    }]
+  }
+}

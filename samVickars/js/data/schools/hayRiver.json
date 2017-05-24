@@ -1,0 +1,327 @@
+{
+  "name": "Hay River (All Saints) IRS",
+  "type": "Residential",
+  "location": {
+    "province": "Northwest Territories",
+    "city": "Hay River",
+    "latLng": {
+      "lat": 60.85754444,
+      "lng": -115.7226611
+    }
+  },
+  "narrativeDate": "09-11-01",
+  "startYear": 1895,
+  "endYear": 1937,
+  "data": {
+    "nameVariants": [{
+      "startYear": 1895,
+      "endYear": 1937,
+      "name": "Hay River Boarding School (St. Peter’s Mission)",
+      "note": "",
+      "ref": ["HRU-000254[000-000]"]
+    }, {
+      "startYear": 1895,
+      "endYear": 1937,
+      "name": "Protestant Episcopal Mission School",
+      "note": "",
+      "ref": ["HRU-000199[000-000]"]
+    }, {
+      "startYear": 1895,
+      "endYear": 1937,
+      "name": "Protestant School at St. Peter’s Mission",
+      "note": "",
+      "ref": ["HRU-000202[000-000]"]
+    }, {
+      "startYear": 1895,
+      "endYear": 1937,
+      "name": "St. Peter’s Mission [Boarding] School",
+      "note": "",
+      "ref": ["HRU-000226[000-000]"]
+    }, {
+      "startYear": 1895,
+      "endYear": 1937,
+      "name": "Hay River Indian Boarding School",
+      "note": "",
+      "ref": ["HRU-000001[000-000]"]
+    }, {
+      "startYear": 1895,
+      "endYear": 1937,
+      "name": "Hay River Indian Residential School",
+      "note": "",
+      "ref": ["HRU-000019[000-002]"]
+    }, {
+      "startYear": 1895,
+      "endYear": 1937,
+      "name": "Hay River Indian School",
+      "note": "",
+      "ref": ["HRU-000017[000-001]"]
+    }, {
+      "startYear": 1895,
+      "endYear": 1937,
+      "name": "Hay River Protestant School",
+      "note": "",
+      "ref": ["HRU-000201[000-000]"]
+    }],
+    "chronoHistory": [{
+      "date": 1895,
+      "desc": ["The boarding school at Hay River opens on July 5, 1895. Seven students and various staff from the Anglican Mission Day School at Fort Resolution transferred to St. Peter’s at that time."],
+      "ref": ["ANGDC-87477", "ANGDC-87480"]
+    }, {
+      "date": 1899,
+      "desc": ["The Hay River School received Government grants for its operations from [at least] the quarter ending June 30, 1899."],
+      "ref": ["HRU-000204[000-000]"]
+    }, {
+      "date": 1911,
+      "desc": ["The only known/identified Operating Agreement was signed between the Department of Indian Affairs and Bishop Stringer (on behalf of the Anglican Church). This document formally spells out the operational parameters and management/funding structure of the Hay River Residential School."],
+      "ref": ["HRU-000254[000-000]"]
+    }, {
+      "date": 1917,
+      "desc": ["Construction of a new Residential School building is completed."],
+      "ref": ["HRU-000744[000-000]"]
+    }, {
+      "date": 1925,
+      "desc": ["A Government-funded hospital is added to the Residential School facilities."],
+      "ref": ["HRU-000397[000-000]", "HRU-000398[000-006]"]
+    }, {
+      "date": 1936,
+      "desc": ["All Saints Residential School opens in Aklavik and becomes the focal point of Anglican residential schooling in the far north. Shingle Point Residential School (Yukon) simultaneously closes and its students and staff transfer to All Saints.."],
+      "ref": ["."]
+    }, {
+      "date": 1937,
+      "desc": ["Hay River Residential School closes officially on August 31, 1937. All but local Hay River students were transferred to All Saints Anglican Residential School in Aklavik. The decision to close St. Peter’s as a residential school was based on enrolment: 15 of 23 students were to be discharged/transferred at the end of the school year, and the remaining 8 were not sufficient in number to recover operating costs through federal grants.", "After closure of the residential school, St Peter’s Mission operated a Government-funded 'Indian' Day School for local Hay River students, which officially opened September 1, 1937 in a classroom adjacent to the residential school building. The main residential school building is vacated.", "St. Peter’s Day School comes under the management of the Diocese of Athabasca rather than the Indian and Eskimo Residential School Commission of the MSCC."],
+      "ref": ["HRU-000719[001-002]", "ANGDC-90345", "HRU-000744[000-000]", "HRU-000748[000-000]", "HRU-000750[001-001]", "HRU-000751[000-000]", "ANGDC-90422"]
+    }],
+    "notesHistory": [],
+    "management": [{
+      "startYear": 1895,
+      "endYear": 1937,
+      "org": "church",
+      "orgName": "Anglican Church (St. Peter's Mission in Hay River)",
+      "type": ["Management", " Staff", " Teaching", " Ownership"],
+      "ref": ["HRU-000345[001-001]"]
+    }],
+    "enrollment": [{
+      "year": 1895,
+      "number": "7",
+      "notes": ""
+    }, {
+      "year": 1899,
+      "number": "10",
+      "notes": ""
+    }, {
+      "year": 1900,
+      "number": "30",
+      "notes": ""
+    }, {
+      "year": 1901,
+      "number": "36",
+      "notes": ""
+    }, {
+      "year": 1902,
+      "number": "33",
+      "notes": ""
+    }, {
+      "year": 1903,
+      "number": "28",
+      "notes": ""
+    }, {
+      "year": 1904,
+      "number": "30",
+      "notes": ""
+    }, {
+      "year": 1905,
+      "number": "17",
+      "notes": ""
+    }, {
+      "year": 1906,
+      "number": "25",
+      "notes": ""
+    }, {
+      "year": 1907,
+      "number": "30",
+      "notes": ""
+    }, {
+      "year": 1908,
+      "number": "31",
+      "notes": ""
+    }, {
+      "year": 1909,
+      "number": "33",
+      "notes": ""
+    }, {
+      "year": 1910,
+      "number": "35",
+      "notes": ""
+    }, {
+      "year": 1911,
+      "number": "39",
+      "notes": ""
+    }, {
+      "year": 1912,
+      "number": "33",
+      "notes": ""
+    }, {
+      "year": 1913,
+      "number": "32",
+      "notes": ""
+    }, {
+      "year": 1914,
+      "number": "34",
+      "notes": ""
+    }, {
+      "year": 1915,
+      "number": "31",
+      "notes": ""
+    }, {
+      "year": 1916,
+      "number": "28",
+      "notes": ""
+    }, {
+      "year": 1917,
+      "number": "34",
+      "notes": ""
+    }, {
+      "year": 1918,
+      "number": "44",
+      "notes": ""
+    }, {
+      "year": 1919,
+      "number": "44",
+      "notes": ""
+    }, {
+      "year": 1920,
+      "number": "39",
+      "notes": ""
+    }, {
+      "year": 1921,
+      "number": "46",
+      "notes": ""
+    }, {
+      "year": 1922,
+      "number": "54",
+      "notes": ""
+    }, {
+      "year": 1923,
+      "number": "56",
+      "notes": ""
+    }, {
+      "year": 1924,
+      "number": "51",
+      "notes": ""
+    }, {
+      "year": 1925,
+      "number": "49",
+      "notes": ""
+    }, {
+      "year": 1926,
+      "number": "18",
+      "notes": ""
+    }, {
+      "year": 1927,
+      "number": "11",
+      "notes": ""
+    }, {
+      "year": 1928,
+      "number": "29",
+      "notes": ""
+    }, {
+      "year": 1929,
+      "number": "21",
+      "notes": ""
+    }, {
+      "year": 1930,
+      "number": "19",
+      "notes": ""
+    }, {
+      "year": 1931,
+      "number": "14",
+      "notes": ""
+    }, {
+      "year": 1932,
+      "number": "30",
+      "notes": ""
+    }, {
+      "year": 1933,
+      "number": "11",
+      "notes": ""
+    }, {
+      "year": 1934,
+      "number": "30",
+      "notes": ""
+    }, {
+      "year": 1935,
+      "number": "8",
+      "notes": ""
+    }, {
+      "year": 1936,
+      "number": "14",
+      "notes": ""
+    }],
+    "reserves": ["coppermine", "hayLakes", "mackenzieDelta"],
+    "religiousGroups": [{
+      "group": "Anglican Church (MSCC)",
+      "ref": ["."]
+    }],
+    "writtenAgreements": [{
+      "date": 1903,
+      "title": "",
+      "desc": "A memorandum dated January 5, 1925 refers to an agreement between made 'on the 31st of October, 1903, by the Lieutenant-Governor of the North West Territories with Archdeacon Geo. Holmes, St. Peter’s Mission' concerning grant payments that would be made to the school. formal documentation of this agreement has been identified in IRSRC collections.",
+      "ref": ["HRU-000364[000-000]"]
+    }, {
+      "date": 1911,
+      "title": "",
+      "desc": "A formal operating agreement between 'His Majesty the King' and the Right Rev. Isaac O. Stringer, D.D., Bishop of the Yukon for operation of the Hay River Boarding [Residential] School was signed on April 1, 1911. This agreement was authored by the Department of Indian Affairs.<BR> The duration for which the 1911 operating agreement was to remain in effect is not stated. No subsequent operating agreement has been identified. It appears that established operating and granting practices continued after the 1923 shift of management from the Diocese of Mackenzie to the Indian and Eskimo Residential Schools Commission.",
+      "ref": ["000364[000-000]"]
+    }],
+    "additionalInformation": [{
+      "date": 1925,
+      "type": "incident",
+      "victim": "",
+      "agressor": "",
+      "notes": "Reference is made to six pupil deaths having occurred at St. Peter’s, with no elaboration upon the circumstances or causes of these fatalities.",
+      "ref": ["HRU-000385[000-000]"]
+    }, {
+      "date": 1926,
+      "type": "sexual",
+      "victim": "14 year old female student",
+      "agressor": "Jack Stamp, a Fort Providence man,",
+      "notes": "A group of related documents discuss the sexual assault of a 14 year old female former St. Peter’s student, by a Fort Providence man (Jack Stamp, a Treaty Indian with no apparent or obvious connection to Hay River RS). Stamp was subsequently arrested, stood trial, and was ultimately incarcerated for two years for the assault. <BR> As a result of the assault, the girl gave birth to a child, and the Hay River Mission authorities petitioned for mother and child to be admitted to the school on compassionate grounds. They also requested that the Government provide a 'destitute' grant for the care of the two (which the Government declined to do). The assaulted teen girl apparently returned to live with her parents while her child was admitted as a destitute 'pupil' to the Hay River RS at the age of 11 months.",
+      "ref": ["000420[000-002]", "HRU-000420[001-002]", "HRU-000420[002-002]", "HRU-000422[000-000]", "000496[000-000]"]
+    }, {
+      "date": 1928,
+      "type": "incident",
+      "victim": "",
+      "agressor": "",
+      "notes": "A brief letter indicates that pupil H.E. Sanfrere died on January 2, 1928. No cause of death is specified and the death is not specifically indicated as having happened at the school.",
+      "ref": ["HRU-000518[000-000]"]
+    }, {
+      "date": 1900,
+      "type": "report",
+      "victim": "",
+      "agressor": "",
+      "notes": "In the early years (prior to completion of a new school/mission house in 1917) conditions were very rustic.",
+      "ref": ["ANGDC-87474"]
+    }, {
+      "date": 1922,
+      "type": "report",
+      "victim": "",
+      "agressor": "",
+      "notes": "The condition of the Mission buildings and grounds created 'a favourable impression' upon visitors, particularly with respect to the productivity of the Mission gardens.",
+      "ref": ["HRU-000328[000-000]"]
+    }, {
+      "date": 1922,
+      "type": "health",
+      "victim": "",
+      "agressor": "",
+      "notes": "The school received donation(s) of clothing from the 'W.A.' (Women’s Auxiliary of the Missionary Society of the Church of England in Canada).",
+      "ref": ["HRU-000328[000-000]"]
+    }, {
+      "date": 1922.5,
+      "type": "health",
+      "victim": "",
+      "agressor": "",
+      "notes": "The school population was afflicted by a mild strain of 'flu', but apparently avoided a small pox epidemic through 'prompt measures taken by the Indian Department'.",
+      "ref": ["HRU-000328[000-000]"]
+    }]
+  }
+}

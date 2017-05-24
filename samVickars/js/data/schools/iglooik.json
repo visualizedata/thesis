@@ -1,0 +1,65 @@
+{
+  "name": "Federal Hostel at Igloolik (Iglulik)",
+  "type": "Residential",
+  "location": {
+    "province": "Nunavut",
+    "city": "Igloolik / Iglulik",
+    "latLng": {
+      "lat": 69.36733333,
+      "lng": -81.82313056
+    }
+  },
+  "narrativeDate": "09-11-01",
+  "startYear": 1961,
+  "endYear": 1969,
+  "data": {
+    "nameVariants": [],
+    "chronoHistory": [],
+    "notesHistory": [],
+    "management": [{
+      "startYear": 1961,
+      "endYear": 1969,
+      "org": "government",
+      "orgName": "Federal Government of Canada",
+      "type": ["Management", " Staff", " Teaching"],
+      "ref": ["."]
+    }],
+    "enrollment": [{
+      "year": 1961,
+      "number": "16",
+      "notes": ""
+    }, {
+      "year": 1962,
+      "number": "17",
+      "notes": ""
+    }, {
+      "year": 1963,
+      "number": "24",
+      "notes": ""
+    }, {
+      "year": 1964,
+      "number": "27",
+      "notes": ""
+    }, {
+      "year": 1965,
+      "number": "21",
+      "notes": ""
+    }, {
+      "year": 1966,
+      "number": "16",
+      "notes": ""
+    }, {
+      "year": 1967,
+      "number": "13",
+      "notes": ""
+    }, {
+      "year": 1968,
+      "number": "6",
+      "notes": ""
+    }],
+    "reserves": [""],
+    "religiousGroups": [],
+    "writtenAgreements": [],
+    "additionalInformation": []
+  }
+}

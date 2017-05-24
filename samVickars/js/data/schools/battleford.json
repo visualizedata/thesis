@@ -1,0 +1,203 @@
+{
+  "name": "Battleford IRS",
+  "type": "Residential",
+  "location": {
+    "province": "Saskatchewan",
+    "city": "Battleford",
+    "latLng": {
+      "lat": 52.71205278,
+      "lng": -108.3087472
+    }
+  },
+  "narrativeDate": "09-11-01",
+  "startYear": 1883,
+  "endYear": 1914,
+  "data": {
+    "nameVariants": [],
+    "chronoHistory": [{
+      "date": 1883,
+      "desc": ["The IRS opened on the site of “Old Government House” in Battleford."],
+      "ref": ["BFI-000001", "BFI-000010"]
+    }, {
+      "date": 1885,
+      "desc": ["During the North-West Rebellion, the IRS was damaged, evacuated, then temporarily re-established in a private rented building.  The IRS re-opened at its original site in September 1885.  In October, as the North-West Rebellion continued, the IRS buildings were occupied by Canadian soldiers.  The IRS was then situated temporarily in two vacant houses owned by the federal government.  On July 30, 1886, the IRS was still located in the federal government houses."],
+      "ref": ["BFI-000003", "BFI-000011"]
+    }, {
+      "date": 1886,
+      "desc": ["The repairs to the original IRS building were completed and it re-opened."],
+      "ref": ["BFI-000004", "BFI-000003"]
+    }, {
+      "date": 1890,
+      "desc": ["The IRS was owned and operated by the federal government. Staff salaries and other operational expenses at the IRS were paid directly by the federal government."],
+      "ref": ["BFI-000012"]
+    }, {
+      "date": 1892,
+      "desc": ["The IRS continued to be entirely supported by the federal government."],
+      "ref": ["BFI-000014"]
+    }, {
+      "date": 1895,
+      "desc": ["A federal Order-in-Council placed the IRS on a per capita grant system effective July 1, 1893, but Church authorities refused to take over the IRS at that time. The federal government continued to pay all the IRS expenses until the Diocese of Saskatchewan assumed responsibility for the operation of the IRS on July 1, 1895."],
+      "ref": ["BFI-000016", "BFI-000017", "BFI-000005"]
+    }, {
+      "date": 1910,
+      "desc": ["The IRS was no longer used as an industrial institution. It instead functioned mainly as a boarding establishment with regular classroom instruction, and instruction in housekeeping and a limited amount of farming and care of livestock.", "Enrolment was in decline at the IRS as some Indian parents, particularly those from Montreal Lake, were unwilling to send their children away from home for an education.  Due to the enrolment decrease, the funds raised through the per capita grant was insufficient to maintain the IRS, leading to a deficit at the end of the year.<br> The main IRS building was in need of repairs, but the cost to improve the safety of the building would exceed the building’s worth."],
+      "ref": ["BFI-000006"]
+    }, {
+      "date": 1911,
+      "desc": ["The enrolment at the IRS decreased from 67 pupils in January 1911 to 42 pupils in March 1912. Students from the “hunting bands” of Montreal Lake and La Pas were no longer recruited to the IRS."],
+      "ref": ["BFI-000021"]
+    }, {
+      "date": 1914,
+      "desc": ["The IRS closed."],
+      "ref": ["BFI-000007"]
+    }],
+    "notesHistory": [],
+    "management": [{
+      "startYear": 1883,
+      "endYear": 1914,
+      "org": "church",
+      "orgName": "Church of England",
+      "type": ["Management", "Teaching", "Staff"],
+      "ref": ["BFI-000001", "BFI-000016", "BFI-000017", "BFI-000022"]
+    }],
+    "enrollment": [{
+      "year": 1883,
+      "number": 24,
+      "notes": ""
+    }, {
+      "year": 1884,
+      "number": 17,
+      "notes": ""
+    }, {
+      "year": 1885,
+      "number": 17,
+      "notes": ""
+    }, {
+      "year": 1886,
+      "number": 44,
+      "notes": ""
+    }, {
+      "year": 1887,
+      "number": 44,
+      "notes": ""
+    }, {
+      "year": 1888,
+      "number": 45,
+      "notes": ""
+    }, {
+      "year": 1889,
+      "number": 50,
+      "notes": ""
+    }, {
+      "year": 1890,
+      "number": 54,
+      "notes": ""
+    }, {
+      "year": 1891,
+      "number": 109,
+      "notes": ""
+    }, {
+      "year": 1892,
+      "number": 109,
+      "notes": ""
+    }, {
+      "year": 1893,
+      "number": 113,
+      "notes": ""
+    }, {
+      "year": 1894,
+      "number": 120,
+      "notes": ""
+    }, {
+      "year": 1895,
+      "number": 114,
+      "notes": ""
+    }, {
+      "year": 1896,
+      "number": 116,
+      "notes": ""
+    }, {
+      "year": 1897,
+      "number": 109,
+      "notes": ""
+    }, {
+      "year": 1898,
+      "number": 107,
+      "notes": ""
+    }, {
+      "year": 1899,
+      "number": 104,
+      "notes": ""
+    }, {
+      "year": 1900,
+      "number": 98,
+      "notes": ""
+    }, {
+      "year": 1901,
+      "number": 97,
+      "notes": ""
+    }, {
+      "year": 1902,
+      "number": 93,
+      "notes": ""
+    }, {
+      "year": 1903,
+      "number": 90,
+      "notes": ""
+    }, {
+      "year": 1904,
+      "number": 83,
+      "notes": ""
+    }, {
+      "year": 1905,
+      "number": 77,
+      "notes": ""
+    }, {
+      "year": 1906,
+      "number": 64,
+      "notes": ""
+    }, {
+      "year": 1907,
+      "number": 67,
+      "notes": ""
+    }, {
+      "year": 1908,
+      "number": 69,
+      "notes": ""
+    }, {
+      "year": 1909,
+      "number": 72,
+      "notes": ""
+    }, {
+      "year": 1910,
+      "number": 67,
+      "notes": ""
+    }, {
+      "year": 1911,
+      "number": 42,
+      "notes": ""
+    }, {
+      "year": 1912,
+      "number": 42,
+      "notes": ""
+    }, {
+      "year": 1913,
+      "number": 30,
+      "notes": ""
+    }],
+    "reserves": [],
+    "religiousGroups": [{
+      "group": "Church of England",
+      "ref": ["BFI-000001", "BFI-000016", "BFI-000017", "BFI-000022"]
+    }],
+    "writtenAgreements": [],
+    "additionalInformation": [{
+      "date": 1894,
+      "type": "health",
+      "victim": "",
+      "agressor": "",
+      "notes": "During the year there was a 'good deal of sickness' at the IRS; several pupils were in hospital and four pupils had died.<br> Female students were responsible for doing all of the baking for the IRS.",
+      "ref": ["BFI-000015"]
+    }]
+  }
+}

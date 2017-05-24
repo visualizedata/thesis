@@ -1,0 +1,38 @@
+{
+  "name": "Norway House (Rossville)",
+  "type": "Residential",
+  "location": {
+    "province": "Manitoba",
+    "city": "city",
+    "latLng": {
+      "lat": 53.99718333,
+      "-97.78369167": 0.000
+    }
+  },
+  "narrativeDate": "09-11-01",
+  "startYear": 1899,
+  "endYear": 1967,
+  "data": {
+    "nameVariants": [],
+    "chronoHistory": [],
+    "notesHistory": [],
+    "management": [],
+    "enrollment": [],
+    "reserves": ["princeAlbert"],
+    "religiousGroups": [{
+      "group": "group",
+      "ref": ["number"]
+    }, {
+      "group": "group",
+      "ref": ["number"]
+    }, {
+      "group": "group",
+      "ref": ["number"]
+    }, {
+      "group": "group",
+      "ref": ["number"]
+    }],
+    "writtenAgreements": [],
+    "additionalInformation": []
+  }
+}

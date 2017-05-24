@@ -1,0 +1,26 @@
+{
+  "name": "Fort Vermilion (St. Henri) IRS",
+  "type": "Residential",
+  "location": {
+    "province": "Alberta",
+    "city": "Fort Vermilion",
+    "latLng": {
+      "lat": 58.38918889,
+      "lng": -116.0203111
+    }
+  },
+  "narrativeDate": "09-11-01",
+  "startYear": 1903,
+  "endYear": 1968,
+  "data": {
+    "nameVariants": [],
+    "chronoHistory": [],
+    "notesHistory": [],
+    "management": [],
+    "enrollment": [],
+    "reserves": [""],
+    "religiousGroups": [],
+    "writtenAgreements": [],
+    "additionalInformation": []
+  }
+}

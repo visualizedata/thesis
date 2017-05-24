@@ -1,0 +1,38 @@
+{
+  "name": "Sacred Heart (Providence Mission)",
+  "type": "Residential",
+  "location": {
+    "province": "Northwest Territories",
+    "city": "city",
+    "latLng": {
+      "lat": 61.35563611,
+      "-117.6664806": 0.000
+    }
+  },
+  "narrativeDate": "09-11-01",
+  "startYear": 1906,
+  "endYear": 1960,
+  "data": {
+    "nameVariants": [],
+    "chronoHistory": [],
+    "notesHistory": [],
+    "management": [],
+    "enrollment": [],
+    "reserves": ["fortSimpson", "goodHopeLake", "peelRiver", "slaveLake"],
+    "religiousGroups": [{
+      "group": "group",
+      "ref": ["number"]
+    }, {
+      "group": "group",
+      "ref": ["number"]
+    }, {
+      "group": "group",
+      "ref": ["number"]
+    }, {
+      "group": "group",
+      "ref": ["number"]
+    }],
+    "writtenAgreements": [],
+    "additionalInformation": []
+  }
+}

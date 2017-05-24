@@ -1,0 +1,38 @@
+{
+  "name": "Yukon Hall (Whitehorse)",
+  "type": "Residential",
+  "location": {
+    "province": "Yukon Territory",
+    "city": "city",
+    "latLng": {
+      "lat": 60.70524722,
+      "-135.0376056": 0.000
+    }
+  },
+  "narrativeDate": "09-11-01",
+  "startYear": 1960,
+  "endYear": 1985,
+  "data": {
+    "nameVariants": [],
+    "chronoHistory": [],
+    "notesHistory": [],
+    "management": [],
+    "enrollment": [],
+    "reserves": ["aishihik", "atlin-Teslin", "carcross", "carmacks", "champagne", "dawson", "fortMcPherson", "goodHopeLake", "kluaneLake", "liard", "liardRiver", "loucheaux", "lowerPost", "mayo", "mile898", "oldCrow", "pellyCrossing", "rossRiver", "selkirk", "soowahlia", "squangaLake", "tahltan", "telegraphCreek", "teslin", "upperLiard", "whitehorse"],
+    "religiousGroups": [{
+      "group": "group",
+      "ref": ["number"]
+    }, {
+      "group": "group",
+      "ref": ["number"]
+    }, {
+      "group": "group",
+      "ref": ["number"]
+    }, {
+      "group": "group",
+      "ref": ["number"]
+    }],
+    "writtenAgreements": [],
+    "additionalInformation": []
+  }
+}

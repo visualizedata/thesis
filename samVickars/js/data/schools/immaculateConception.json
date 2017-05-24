@@ -1,0 +1,269 @@
+{
+  "name": "Immaculate Conception (Aklavik Roman Catholic) RS",
+  "type": "Residential",
+  "location": {
+    "province": "Northwest Territories",
+    "city": "Aklavik",
+    "latLng": {
+      "lat": 68.219917,
+      "lng": -135.007789
+    }
+  },
+  "narrativeDate": "09-11-01",
+  "startYear": 1926,
+  "endYear": 1959,
+  "data": {
+    "nameVariants": [{
+      "startYear": 1926,
+      "endYear": 1959,
+      "name": "Aklavik Roman Catholic Residential School",
+      "note": "",
+      "ref": ["ICU-000107"]
+    }, {
+      "startYear": 1926,
+      "endYear": 1959,
+      "name": "Aklavik R.C. Boarding School",
+      "note": "",
+      "ref": ["AEDC-010038"]
+    }, {
+      "startYear": 1926,
+      "endYear": 1959,
+      "name": "Immaculate Conception Residential School",
+      "note": "",
+      "ref": ["ICU-000296"]
+    }, {
+      "startYear": 1926,
+      "endYear": 1959,
+      "name": "Mary Immaculate Conception Residential School",
+      "note": "",
+      "ref": ["NWTG-001626"]
+    }, {
+      "startYear": 1926,
+      "endYear": 1959,
+      "name": "Mary Immaculate RC Residential School",
+      "note": "",
+      "ref": ["NWTG-000115[001-001]"]
+    }],
+    "chronoHistory": [{
+      "date": 1926,
+      "desc": ["A report indicates that Roman Catholic Church established a mission and school at Aklavik in 1926 and that a small hospital was added to the school in 1927.", "An undated list of Schools in the N.W.T. notes that the Aklavik R.C. Residential School known as Mary Immaculate was opened in 1926."],
+      "ref": ["NWTG-000077", "NWTG-00 1626"]
+    }, {
+      "date": 1927,
+      "desc": ["The Annual Report for the Department oflndian Affairs notes that 'A[t]he Roman Catholic Church, at its own expense, erected a boarding school for Indian Children at Aklavik, in the Mackenzie Delta, N.W.T.'"],
+      "ref": ["AEDC-010038"]
+    }, {
+      "date": 1931,
+      "desc": ["An undated document titled 'Mission Residential Schools at Aklavik' notes that the Aklavik R.C. Residential School was built in 1931. Another undated document notes 'since 1931 the Roman Catholic Church had been operating a residential school in Aklavik'"],
+      "ref": ["NWT-003348", "NWT-003344"]
+    }, {
+      "date": 1959,
+      "desc": ["Policy documents indicate that the former administrative and supervisory stafffrom Immaculate Conception were 'transplanted' into similar positions in the new Inuvik residence ( Grollier Hall).", "An undated document titled 'Mission Residential Schools at Aklavik' notes that the Aklavik R.C. Residential School closed on June 30, 1959."],
+      "ref": ["NWT-000023]", "NWT-003348"]
+    }],
+    "notesHistory": [],
+    "management": [{
+      "startYear": 1926,
+      "endYear": 1959,
+      "org": "church",
+      "orgName": "Roman Catholic Church",
+      "type": ["Management", " Staff", " Teaching"],
+      "ref": ["."]
+    }],
+    "enrollment": [{
+      "year": 1927,
+      "number": "16",
+      "notes": ""
+    }, {
+      "year": 1928,
+      "number": "27",
+      "notes": ""
+    }, {
+      "year": 1929,
+      "number": "36",
+      "notes": ""
+    }, {
+      "year": 1930,
+      "number": "42",
+      "notes": ""
+    }, {
+      "year": 1931,
+      "number": "40",
+      "notes": ""
+    }, {
+      "year": 1932,
+      "number": "35",
+      "notes": ""
+    }, {
+      "year": 1933,
+      "number": "33",
+      "notes": ""
+    }, {
+      "year": 1934,
+      "number": "22",
+      "notes": ""
+    }, {
+      "year": 1935,
+      "number": "22",
+      "notes": ""
+    }, {
+      "year": 1936,
+      "number": "38",
+      "notes": ""
+    }, {
+      "year": 1937,
+      "number": "26",
+      "notes": ""
+    }, {
+      "year": 1938,
+      "number": "36",
+      "notes": ""
+    }, {
+      "year": 1939,
+      "number": "27",
+      "notes": ""
+    }, {
+      "year": 1940,
+      "number": "29",
+      "notes": ""
+    }, {
+      "year": 1941,
+      "number": "27",
+      "notes": ""
+    }, {
+      "year": 1942,
+      "number": "25",
+      "notes": ""
+    }, {
+      "year": 1943,
+      "number": "34",
+      "notes": ""
+    }, {
+      "year": 1944,
+      "number": "35",
+      "notes": ""
+    }, {
+      "year": 1945,
+      "number": "54",
+      "notes": ""
+    }, {
+      "year": 1946,
+      "number": "44",
+      "notes": ""
+    }, {
+      "year": 1947,
+      "number": "48",
+      "notes": ""
+    }, {
+      "year": 1948,
+      "number": "46",
+      "notes": ""
+    }, {
+      "year": 1949,
+      "number": "47",
+      "notes": ""
+    }, {
+      "year": 1950,
+      "number": "40",
+      "notes": ""
+    }, {
+      "year": 1951,
+      "number": "46",
+      "notes": ""
+    }, {
+      "year": 1952,
+      "number": "31",
+      "notes": ""
+    }, {
+      "year": 1953,
+      "number": "76",
+      "notes": ""
+    }, {
+      "year": 1954,
+      "number": "84",
+      "notes": ""
+    }, {
+      "year": 1955,
+      "number": "154",
+      "notes": ""
+    }, {
+      "year": 1956,
+      "number": "161",
+      "notes": ""
+    }, {
+      "year": 1957,
+      "number": "161",
+      "notes": ""
+    }, {
+      "year": 1958,
+      "number": "172",
+      "notes": ""
+    }, {
+      "year": 1959,
+      "number": "87",
+      "notes": ""
+    }],
+    "reserves": ["aklavik", "banksIsland", "cambridgeBay", "coppermine", "delta", "fortMcPherson", "fortNorman", "herschelIsland", "holmanIsland", "perryRiver", "reindeerCamp", "spenceBay", "tuktoyaktuk"],
+    "religiousGroups": [{
+      "group": "Roman Catholic Church",
+      "ref": ["."]
+    }, {
+      "group": "The Oblates",
+      "ref": ["."]
+    }, {
+      "group": "The Grey Nuns",
+      "ref": ["."]
+    }],
+    "writtenAgreements": [],
+    "additionalInformation": [{
+      "date": 1957,
+      "type": "health",
+      "victim": "",
+      "agressor": "",
+      "notes": "Memorandum, October 27, 1956 indicates that the federal day school at Aklavik was closed due to an influenza epidemic. It remained closed as ofNovember 1, 1957.",
+      "ref": ["NWTG-000583", "NWTG-000568"]
+    }, {
+      "date": 1959,
+      "type": "health",
+      "victim": "",
+      "agressor": "",
+      "notes": "Memorandum, March 16, 1959 provides Dr. Lyons' report of an outbreak of 'pneumonitus' at the R.C. Mission School at Aklavik; he reports hospitalizing selected cases. A follow-up report written April 15, 1959 states that 105 children were seen and that no new cases have been seen for 10 days.",
+      "ref": ["NPC-601443", "NPC-605423a"]
+    }, {
+      "date": 1938,
+      "type": "health",
+      "victim": "",
+      "agressor": "",
+      "notes": "Report, September 20, 1938 notes that the Roman Catholic Mission operates a school for Indian and Eskimo children as well as a hospital. Drinking water in the establishments is boiled before use. In the summer months the children use outdoor privies situated about 60 feet from the river bank and the pits were noted to be flooded with water. In the winter indoor chemical tanks are used and contents are disposed of on the river ice. Unburned rubbish and garbage is also disposed of on top of the river ice.",
+      "ref": ["NPC-622988"]
+    }, {
+      "date": 1951,
+      "type": "health",
+      "victim": "",
+      "agressor": "",
+      "notes": "A letter from the Medical Officer ofHealth to the Director ofN.W.T. Administration reports on the progress made regarding sanitary conditions at Aklavik. The document notes that the R.C. Mission is upstream from the town and in the previous year a sewage system consisting of large metal tanks containing caustic soda was installed in the basements of the school and hospital; at intervals the treated sewage is pumped into the river. Concern is expressed that during the fall 'freeze-up' some of the material is frozen into the ice which is dependent upon for drinking water. It is recommended that pumping the tanks should be suspended during the freeze up. <BR> A letter from the Senior Sanitary Engineer to the Medical Health Officer notes that children at the Roman Catholic Residential School wash their own dishes in a common pan of water and recommends that the dishes be sterilized by submersion in a chlorine solution of hot water according to accepted methods.",
+      "ref": ["NPC-603141", "NPC-622974"]
+    }, {
+      "date": 1947,
+      "type": "policy",
+      "victim": "",
+      "agressor": "",
+      "notes": "Letter, September 17, 1947 reporting on the Roman Catholic Residential School at Aklavik from Sister Kristoff notes that the curriculum at the school is restricted to reading, writing and arithmetic and that geography and history are part of the reading materials only. In addition religious instruction occurs for one half hour per day and students study vocal music for one half hour three times per week.<BR><em>'The Alberta curriculum taught in most of the residential schools in the Mackenzie District ofthe N.W.T.'</em>",
+      "ref": ["NWTG-001745[001-001]"]
+    }, {
+      "date": 1948,
+      "type": "policy",
+      "victim": "",
+      "agressor": "",
+      "notes": "Letter from the Inspector of Schools to the Deputy Commissioner notes that manual training is being taught at the four residential schools in the N.W.T.<BR> A letter directed to principals in the N.W. T. notes that the program of study for intermediate and high school in the N.W.T. will follow Alberta curriculum until such time that the department prepares a special curriculum for schools in the N.W.T. All Alberta Curriculum authorized subjects should be taught and teachers are 'at liberty to choose freely within the rather generous boundaries of the curriculum and to add desirable areas of their own selections as they move beyond the minimum requirements'.",
+      "ref": ["NWTG-000199"]
+    }, {
+      "date": 1947,
+      "type": "report",
+      "victim": "",
+      "agressor": "",
+      "notes": "A series of documents discuss issues of attendance and truancy at N. W. T. residential schools. The documents seem to support the notion that attendance at the residential schools in Aklavik is not at issue.",
+      "ref": ["NWTG-001709[000-008][002-008][008-008]", "NWTG-001713"]
+    }]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "name": "Federal Hostel at Pond Inlet (Mittimatalik)",
+  "type": "Residential",
+  "location": {
+    "province": "Nunavut",
+    "city": "city",
+    "latLng": {
+      "lat": 72.700117,
+      "-77.958531": 0.000
+    }
+  },
+  "narrativeDate": "09-11-01",
+  "startYear": 1962,
+  "endYear": 1970,
+  "data": {
+    "nameVariants": [],
+    "chronoHistory": [],
+    "notesHistory": [],
+    "management": [],
+    "enrollment": [],
+    "reserves": [""],
+    "religiousGroups": [{
+      "group": "group",
+      "ref": ["number"]
+    }, {
+      "group": "group",
+      "ref": ["number"]
+    }, {
+      "group": "group",
+      "ref": ["number"]
+    }, {
+      "group": "group",
+      "ref": ["number"]
+    }],
+    "writtenAgreements": [],
+    "additionalInformation": []
+  }
+}

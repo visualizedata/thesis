@@ -1,0 +1,651 @@
+{
+  "name": "Birtle IRS",
+  "type": "Residential",
+  "location": {
+    "province": "Manitoba",
+    "city": "Birtle",
+    "latLng": {
+      "lat": 50.43191111,
+      "lng": -101.0418306
+    }
+  },
+  "narrativeDate": "09-11-01",
+  "startYear": 1888,
+  "endYear": 1970,
+  "data": {
+    "nameVariants": [{
+      "startYear": 1888,
+      "endYear": 1893,
+      "name": "Birtle Industrial School",
+      "note": "",
+      "ref": ["BIR-060000", "BIR-060004"]
+    }, {
+      "startYear": 1894,
+      "endYear": 1898,
+      "name": "Birtle Boarding and Industrial School",
+      "note": "",
+      "ref": ["BIR-000008"]
+    }, {
+      "startYear": 1899,
+      "endYear": 1911,
+      "name": "Birtle Indian Boarding School",
+      "note": "",
+      "ref": ["BIR-000012"]
+    }, {
+      "startYear": 1912,
+      "endYear": 1923,
+      "name": "Birtle Boarding School",
+      "note": "",
+      "ref": ["BIR-060023", "BIR-002303"]
+    }, {
+      "startYear": 1924,
+      "endYear": 1932,
+      "name": "Birtle Indian Residential School",
+      "note": "",
+      "ref": ["BIR-000062", "BIR-000428"]
+    }, {
+      "startYear": 1933,
+      "endYear": 1968,
+      "name": "Birtle Residential School",
+      "note": "",
+      "ref": ["BIR-001871", "BIR-006183"]
+    }, {
+      "startYear": 1969,
+      "endYear": 1970,
+      "name": "Birtle Student Residence",
+      "note": "",
+      "ref": ["BIR-006181", "BIR-000452-0001"]
+    }],
+    "chronoHistory": [{
+      "date": 1888,
+      "desc": ["The Birtle IRS was opened by the Presbyterian Church with Federal Government support. The IRS was conducted in a public school building leased from the town of Birtle until about the summer of 1893."],
+      "ref": ["BIR-060006", "BIR-060000", "BIR-000012", "BIR-000049"]
+    }, {
+      "date": 1893,
+      "desc": ["Since the first stone building was not well suited for IRS purposes, a new stone building was constructed at the expense of the Presbyterian Church in the summer of 1893. The building was occupied by October 1893 with an average of thirty pupils."],
+      "ref": ["BIR-000412", "BIR-000008", "BIR-000049", "BIR-000012"]
+    }, {
+      "date": 1911,
+      "desc": ["An agreement was signed between the federal government and the Foreign Mission Committee of the Presbyterian Church in Canada for the operation of the Birtle IRS."],
+      "ref": ["BIR-000022"]
+    }, {
+      "date": 1924,
+      "desc": ["A new two classroom building was near completion.", "Students attended class half of the day and worked on the farm or in the residence for the other half day."],
+      "ref": ["BIR-000061", "BIR-000062", "BIR-002322-0002", "BIR-000081-0000", "BIR-002314-0001"]
+    }, {
+      "date": 1930,
+      "desc": ["Authority was granted for the federal government to purchase a total of 655 acres of land for the Birtle IRS from the Presbyterian Church, the town of Birtle, and private citizens. The portion of land purchased from the town of Birtle comprised Blocks 211, 212, 213, and 214, Plan M. in N.E. 1/4 Sec. 6, and totalled approximately 20 acres. This parcel was the building site for the new Birtle IRS. The land was adjacent to the N.E. 1/4 Sec. 6 comprising 30 acres that was being purchased from the Presbyterian Church Missionary to be used for playgrounds, garden, and pasture.", "A new Birtle IRS building was built between 1930 and 1931 and occupied by the 1931/32 school year."],
+      "ref": ["BIR-000164", "BIR-000162", "BIR-000163", "BIR-000114", "BIR-000109", "BIR-000131", "BIR-000137-0000", "BIR-000138", "BIR-060042", "BIR-000177 BIR-000457", "BIR-002403"]
+    }, {
+      "date": 1959,
+      "desc": ["Beginning in September, grades one to eight were taught at the Birtle IRS and residents in grades 9 to 12 were sent to the Birtle High School in town. There were five classrooms in operation at the Birtle IRS."],
+      "ref": ["BIR-001241"]
+    }, {
+      "date": 1962,
+      "desc": ["An agreement was signed between the federal government and Women’s Missionary Society (Western Division) of the Presbyterian Church in Canada for the operation of the Birtle IRS."],
+      "ref": ["BIR-000406"]
+    }, {
+      "date": 1968,
+      "desc": ["By the 1968/69 school year, the IRS was referred to as the Birtle Indian Student Residence or the Birtle Student Residence, though two classrooms for grades 5 and 6 were still in operation at the IRS"],
+      "ref": ["BIR-000773-0001", "BIR-001141-0001"]
+    }, {
+      "date": 1969,
+      "desc": ["Due to the enrolment of younger pupils in the IRS, it was determined in February 1969 that the farm would not be worked during the year. By July 1969, all farming operations had ceased and the farm land, equipment, and livestock had been sold to private interests."],
+      "ref": ["BIR-000418", "BIR-000417", "BIR-001545", "BIR-000959-0001"]
+    }, {
+      "date": 1970,
+      "desc": ["The Birtle IRS closed after the 1969/70 school year due to low admission."],
+      "ref": ["BIR-000455", "BIR-000449", "NCA-001847"]
+    }],
+    "notesHistory": [],
+    "management": [{
+      "startYear": 1888,
+      "endYear": 1963,
+      "org": "church",
+      "orgName": "The Presbyterian Church in Canada",
+      "type": ["Management", "Teaching", "Staff"],
+      "ref": ["BIR-060006", "BIR-001538"]
+    }, {
+      "startYear": 1911,
+      "endYear": 1911,
+      "org": "church",
+      "orgName": "Foreign Mission Committee of the Presbyterian Church in Canada",
+      "type": ["Management", "Teaching", "Staff"],
+      "ref": ["BIR-000022"]
+    }, {
+      "startYear": 1925,
+      "endYear": 1927,
+      "org": "church",
+      "orgName": "The United Church of Canada, Board of Home Missions",
+      "type": ["Management", "Teaching", "Staff"],
+      "ref": ["BIR-002332-0001", "BIR-000096"]
+    }, {
+      "startYear": 1920,
+      "endYear": 1969,
+      "org": "church",
+      "orgName": "Women’s Missionary Society of the Presbyterian Church in Canada",
+      "type": ["Management", "Teaching", "Staff"],
+      "ref": ["BIR-000053", "BIR-000417"]
+    }],
+    "enrollment": [{
+      "year": 1888,
+      "number": 20,
+      "notes": ""
+    }, {
+      "year": 1889,
+      "number": 16,
+      "notes": ""
+    }, {
+      "year": 1890,
+      "number": 28,
+      "notes": ""
+    }, {
+      "year": 1891,
+      "number": 17,
+      "notes": ""
+    }, {
+      "year": 1892,
+      "number": 21,
+      "notes": ""
+    }, {
+      "year": 1893,
+      "number": 20,
+      "notes": ""
+    }, {
+      "year": 1894,
+      "number": 25,
+      "notes": ""
+    }, {
+      "year": 1895,
+      "number": 24,
+      "notes": ""
+    }, {
+      "year": 1896,
+      "number": 34,
+      "notes": ""
+    }, {
+      "year": 1897,
+      "number": 44,
+      "notes": ""
+    }, {
+      "year": 1898,
+      "number": 41,
+      "notes": ""
+    }, {
+      "year": 1899,
+      "number": 41,
+      "notes": ""
+    }, {
+      "year": 1900,
+      "number": 45,
+      "notes": ""
+    }, {
+      "year": 1901,
+      "number": 34,
+      "notes": ""
+    }, {
+      "year": 1902,
+      "number": 43,
+      "notes": ""
+    }, {
+      "year": 1903,
+      "number": 43,
+      "notes": ""
+    }, {
+      "year": 1904,
+      "number": 50,
+      "notes": ""
+    }, {
+      "year": 1905,
+      "number": 45,
+      "notes": ""
+    }, {
+      "year": 1906,
+      "number": 52,
+      "notes": ""
+    }, {
+      "year": 1907,
+      "number": 51,
+      "notes": ""
+    }, {
+      "year": 1908,
+      "number": 51,
+      "notes": ""
+    }, {
+      "year": 1909,
+      "number": 56,
+      "notes": ""
+    }, {
+      "year": 1910,
+      "number": 53,
+      "notes": ""
+    }, {
+      "year": 1911,
+      "number": 56,
+      "notes": ""
+    }, {
+      "year": 1912,
+      "number": 56,
+      "notes": ""
+    }, {
+      "year": 1913,
+      "number": 48,
+      "notes": ""
+    }, {
+      "year": 1914,
+      "number": 58,
+      "notes": ""
+    }, {
+      "year": 1915,
+      "number": 59,
+      "notes": ""
+    }, {
+      "year": 1916,
+      "number": 53,
+      "notes": ""
+    }, {
+      "year": 1917,
+      "number": 66,
+      "notes": ""
+    }, {
+      "year": 1918,
+      "number": 71,
+      "notes": ""
+    }, {
+      "year": 1919,
+      "number": 66,
+      "notes": ""
+    }, {
+      "year": 1920,
+      "number": 70,
+      "notes": ""
+    }, {
+      "year": 1921,
+      "number": 73,
+      "notes": ""
+    }, {
+      "year": 1922,
+      "number": 70,
+      "notes": ""
+    }, {
+      "year": 1923,
+      "number": 73,
+      "notes": ""
+    }, {
+      "year": 1924,
+      "number": 96,
+      "notes": ""
+    }, {
+      "year": 1925,
+      "number": 89,
+      "notes": ""
+    }, {
+      "year": 1926,
+      "number": 90,
+      "notes": ""
+    }, {
+      "year": 1927,
+      "number": 92,
+      "notes": ""
+    }, {
+      "year": 1928,
+      "number": 89,
+      "notes": ""
+    }, {
+      "year": 1929,
+      "number": 88,
+      "notes": ""
+    }, {
+      "year": 1930,
+      "number": 83,
+      "notes": ""
+    }, {
+      "year": 1931,
+      "number": 126,
+      "notes": ""
+    }, {
+      "year": 1932,
+      "number": 132,
+      "notes": ""
+    }, {
+      "year": 1933,
+      "number": 123,
+      "notes": ""
+    }, {
+      "year": 1934,
+      "number": 122,
+      "notes": ""
+    }, {
+      "year": 1935,
+      "number": 116,
+      "notes": ""
+    }, {
+      "year": 1936,
+      "number": 121,
+      "notes": ""
+    }, {
+      "year": 1937,
+      "number": 121,
+      "notes": ""
+    }, {
+      "year": 1938,
+      "number": 125,
+      "notes": ""
+    }, {
+      "year": 1939,
+      "number": 125,
+      "notes": ""
+    }, {
+      "year": 1940,
+      "number": 114,
+      "notes": ""
+    }, {
+      "year": 1941,
+      "number": 109,
+      "notes": ""
+    }, {
+      "year": 1942,
+      "number": 115,
+      "notes": ""
+    }, {
+      "year": 1943,
+      "number": 118,
+      "notes": ""
+    }, {
+      "year": 1944,
+      "number": 116,
+      "notes": ""
+    }, {
+      "year": 1945,
+      "number": 108,
+      "notes": ""
+    }, {
+      "year": 1946,
+      "number": 119,
+      "notes": ""
+    }, {
+      "year": 1947,
+      "number": 121,
+      "notes": ""
+    }, {
+      "year": 1948,
+      "number": 125,
+      "notes": ""
+    }, {
+      "year": 1949,
+      "number": 142,
+      "notes": ""
+    }, {
+      "year": 1950,
+      "number": 155,
+      "notes": ""
+    }, {
+      "year": 1951,
+      "number": 164,
+      "notes": ""
+    }, {
+      "year": 1952,
+      "number": 153,
+      "notes": ""
+    }, {
+      "year": 1953,
+      "number": 161,
+      "notes": ""
+    }, {
+      "year": 1954,
+      "number": 168,
+      "notes": ""
+    }, {
+      "year": 1955,
+      "number": 178,
+      "notes": ""
+    }, {
+      "year": 1956,
+      "number": 163,
+      "notes": ""
+    }, {
+      "year": 1957,
+      "number": 164,
+      "notes": ""
+    }, {
+      "year": 1958,
+      "number": 162,
+      "notes": ""
+    }, {
+      "year": 1959,
+      "number": 159,
+      "notes": ""
+    }, {
+      "year": 1960,
+      "number": 175,
+      "notes": ""
+    }, {
+      "year": 1961,
+      "number": 161,
+      "notes": ""
+    }, {
+      "year": 1962,
+      "number": 131,
+      "notes": ""
+    }, {
+      "year": 1963,
+      "number": 125,
+      "notes": ""
+    }, {
+      "year": 1964,
+      "number": 135,
+      "notes": ""
+    }, {
+      "year": 1965,
+      "number": 131,
+      "notes": ""
+    }, {
+      "year": 1966,
+      "number": 112,
+      "notes": ""
+    }, {
+      "year": 1967,
+      "number": 107,
+      "notes": ""
+    }, {
+      "year": 1968,
+      "number": 90,
+      "notes": ""
+    }, {
+      "year": 1969,
+      "number": 41,
+      "notes": ""
+    }],
+    "reserves": [],
+    "religiousGroups": [{
+      "group": "The Presbyterian Church in Canada",
+      "ref": ["BIR-060006", "BIR-001538"]
+    }, {
+      "group": "Foreign Mission Committee of the Presbyterian Church in Canada",
+      "ref": ["BIR-000022"]
+    }, {
+      "group": "The United Church of Canada, Board of Home Missions",
+      "ref": ["BIR-002332-0001", "BIR-000096"]
+    }, {
+      "group": "Women’s Missionary Society of the Presbyterian Church in Canada",
+      "ref": ["BIR-000053", "BIR-000417"]
+    }],
+    "writtenAgreements": [],
+    "additionalInformation": [{
+      "date": 1949,
+      "type": "physical",
+      "victim": "students",
+      "agressor": "principal",
+      "notes": "In a November letter, the Principal reported that he physically disciplined students who ran away from the IRS by giving them 'the usual tanning.' He also physically disciplined students planning to run away. The Principal also noted that he had 'thoroughly spanked' two girls who had run away on another date.",
+      "ref": ["BIR-000507"]
+    }, {
+      "date": 1953,
+      "type": "physical",
+      "victim": "two male students",
+      "agressor": "principal",
+      "notes": "A complaint was made by a parent regarding the Principal's punishment of two students. The father stated that the Principal punished his two sons by strapping them on a table and bruising them. The boys ran away from the IRS and returned home. An examination of the boys by a doctor confirmed that one boy had 'blue marks' over his buttocks, thighs and the back of his legs. The other boy had injuries to his buttocks.",
+      "ref": ["BIR-000434-0001", "BIR-000434-0002", "BIR-000433-0001", "BIR-000435", "BIR-000432", "BIR-000357", "BIR-000434-0000", "BIR-000433-0000"]
+    }, {
+      "date": 1959,
+      "type": "physical",
+      "victim": "male student",
+      "agressor": "principal",
+      "notes": "n February, a male student left the IRS complaining about being forced to work. The Principal also noted that a teacher at the IRS tried to strap the boy and that the boy 'refused to take the strapping'.",
+      "ref": ["BIR-000392-0000", "BIR-000392-0001"]
+    }, {
+      "date": 1959,
+      "type": "physical",
+      "victim": "",
+      "agressor": "",
+      "notes": "In May, the Principal wrote to an Indian Agency Superintendent in reference to a letter written by a parent to a student at the IRS about the student’s truant brother. The mother refused to let her son go back to the IRS. The Principal admitted that the boy 'may have and no doubt he did get the cut from my flashlight but I was doing that in self-defence and I did not wish to injure the lad but I certainly did not feel like being tossed around and poked by any student at 2 A.M. in the morning'.",
+      "ref": ["BIR-000396"]
+    }, {
+      "date": 1965,
+      "type": "physical",
+      "victim": "student",
+      "agressor": "staff",
+      "notes": "A former student of the Birtle IRS wrote about experiencing 'cruel disciplinary measures, often for no reason, such as being tied to a flagpole, sent to bed with no food, literally beaten and slapped by staff, extra work duties on the farm in crudest conditions'.",
+      "ref": ["IRC-041367"]
+    }, {
+      "date": 1965,
+      "type": "sexual",
+      "victim": "female students",
+      "agressor": "principal",
+      "notes": "Allegations were made that the Principal went into the girls' shower room while the girls were taking showers. These allegations were again made by a female student in 1966. The student also claimed that the Principal 'tore a girls (sic) shorts off her as she was coming out of the dining room'.",
+      "ref": ["BIR-000588", "BIR-005112"]
+    }, {
+      "date": 1926,
+      "type": "incident",
+      "victim": "",
+      "agressor": "",
+      "notes": "In February, younger students told the Indian Agent that the older boys abused them. In September, parents of a few runaway pupils told the Agent 'that the bigger pupils are in the habit of abusing the smaller ones'.",
+      "ref": ["BIR-002336-0002", "BIR-002340-0001"]
+    }, {
+      "date": 1915,
+      "type": "incident",
+      "victim": "",
+      "agressor": "",
+      "notes": "Two female pupils at the IRS gave birth and claimed that they had become pregnant by other pupils while at the IRS. Members of the Keeseekeewenin Reserve complained about immoralities at the IRS and sexual conduct amongst students. The Principal notes that it was difficult to 'safeguard' girls at the IRS, especially since there was so much cover. It was also noted that a potential solution was to further separate the boys and girls, including enclosing the girls playground in a fence to make supervision by the Matron easier.",
+      "ref": ["BIR-000033", "BIR-000035", "BIR-000041"]
+    }, {
+      "date": 1931,
+      "type": "incident",
+      "victim": "",
+      "agressor": "",
+      "notes": "In a report, the Synodical Missionary Superintendent of the Presbyterian Church noted that the Principal of Birtle IRS was acquitted of 'charges of immoral conduct' and that at the trial 'there was not a shred of evidence in support of any of the charges'. The report does not elaborate on the details surrounding the charges and from whom the complaints were made.",
+      "ref": ["BIR-000526-0000", "BIR-000526-0001"]
+    }, {
+      "date": 1948,
+      "type": "incident",
+      "victim": "",
+      "agressor": "",
+      "notes": "In August, parents from the Waywayseecappo Reserve complained about the behaviour of the Principal and signed a petition for him to be replaced. One parent wrote that he 'was told by pupils that they were given cigars, tobacco, snuff, as punishment for smoke, and chew the stubs as well These boys and girls were given 20 minutes to chew and smoke a given amount such as 2 box of snuff for one person.'",
+      "ref": ["BIR-000517-0001", "BIR-000333-0000", "BIR-000333-0001", "BIR-000333-0002", "BIR-000333-0003", "BIR-000517-0000"]
+    }, {
+      "date": 1917,
+      "type": "health",
+      "victim": "",
+      "agressor": "",
+      "notes": "There was a 'Hospital Department' or 'Cottage Hospital' at Birtle IRS. This section of the IRS consisted of a kitchen and wards that were 20 by 24 feet, and a nurse’s apartment that was a one-storey building split into two rooms. Due to the poor conditions of these buildings, the 'Hospital Department' or 'Cottage Hospital' at Birtle IRS was closed by May 1918.",
+      "ref": ["BIR-000046", "BIR-000048"]
+    }, {
+      "date": 1927,
+      "type": "health",
+      "victim": "",
+      "agressor": "",
+      "notes": "The federal Inspector of Indian Agencies reported that six children from the Birtle IRS were in hospital, four at home sick, two sick in bed in the IRS and two had recently died. The Inspector also noted that the milk supply at the IRS was insufficient and that the children needed milk badly. The Principal wrote the next month that the conditions at the IRS had to be improved immediately or the IRS should be closed.",
+      "ref": ["BIR-000079", "BIR-000081-0001", "BIR-000085", "BIR-000093"]
+    }, {
+      "date": 1939,
+      "type": "health",
+      "victim": "",
+      "agressor": "",
+      "notes": "Twenty positive cases of Trachoma and many cases of colds and flu. Two new students had tuberculosis and were removed. One student died of tuberculosis in a Sanatorium. Another girl had her appendix removed.",
+      "ref": ["BIR-000547"]
+    }, {
+      "date": 1939,
+      "type": "health",
+      "victim": "",
+      "agressor": "",
+      "notes": "Two new students had tuberculosis and were removed and one student died of tuberculosis in a sanatorium.",
+      "ref": ["BIR-000547"]
+    }, {
+      "date": 1940,
+      "type": "health",
+      "victim": "",
+      "agressor": "",
+      "notes": "Anti Typhoid serum was given to the pupils as they had been drinking untreated water for two weeks.",
+      "ref": ["BIR-000253"]
+    }, {
+      "date": 1945,
+      "type": "health",
+      "victim": "",
+      "agressor": "",
+      "notes": "In April, two ten year old boys ran away, resulting in frozen toes. The boys were found on April 18 and taken to a Doctor who in turn admitted them to hospital. It was thought that some toes might have to be amputated. As of March 21 one boy was back in IRS while the other was still in hospital but expected to fully recover and neither child required surgery.",
+      "ref": ["BIR-000307", "BIR-000309"]
+    }, {
+      "date": 1913,
+      "type": "policy",
+      "victim": "",
+      "agressor": "",
+      "notes": "The federal Indian Agent reported that IRS students had been allowed to speak their own language and that the matter had to be remedied. Local Indian Bands had also noted something 'was radically wrong' since too many pupils were running away and that IRS management had to be improved.",
+      "ref": ["BIR-000029"]
+    }, {
+      "date": 1915,
+      "type": "policy",
+      "victim": "",
+      "agressor": "",
+      "notes": "A federal Regional Inspector was asked to investigate unspecified allegations concerning the management of the IRS.",
+      "ref": ["BIR-000035"]
+    }, {
+      "date": 1935,
+      "type": "policy",
+      "victim": "",
+      "agressor": "",
+      "notes": "Ten students were truant from the IRS during the previous year and therefore discussions were held to determine the cause. No conclusions were reached concerning the reasons for truancy other than poor 'spirit' at the IRS.",
+      "ref": ["BIR-000208", "BIR-000221"]
+    }, {
+      "date": 1937,
+      "type": "policy",
+      "victim": "",
+      "agressor": "",
+      "notes": "A lack of winter recreational activity and being indoors during the winter contributed to girls attempting to run away from the IRS. In contrast to the girls, boys had access to an outdoor rink for exercise. The Principal promised to obtain toboggans and other winter sport equipment.",
+      "ref": ["BIR-000222"]
+    }, {
+      "date": 1942,
+      "type": "policy",
+      "victim": "",
+      "agressor": "",
+      "notes": "Truancy was rife at Birtle IRS and attributed to the numerous staff changes, the lack of a Boys Supervisor, and that older boys were able to obtain waged employment at fair wages due to wartime conditions.",
+      "ref": ["BIR-000262"]
+    }, {
+      "date": 1944,
+      "type": "policy",
+      "victim": "",
+      "agressor": "",
+      "notes": "Birtle IRS residents had participated in Achievement Day and the Brandon Provincial Fair.",
+      "ref": ["BIR-000540"]
+    }, {
+      "date": 1950,
+      "type": "report",
+      "victim": "",
+      "agressor": "",
+      "notes": "Hot water was unavailable at the IRS and the students were washing in mostly cold and tepid water. To bathe, the students carried buckets of boiling water from the boiler to the bath tubs, which the Principal noted was quite dangerous.",
+      "ref": ["BIR-000345"]
+    }, {
+      "date": 1959,
+      "type": "report",
+      "victim": "",
+      "agressor": "",
+      "notes": "A student dropped out of Birtle IRS complaining they had not attended the IRS to become a farm hand. The student expressed that too much time was spent engaged in farm work, including 2 hours of chores from 6 to 8 a.m., at the expense of academic work.",
+      "ref": ["BIR-000397"]
+    }, {
+      "date": 1967,
+      "type": "policy",
+      "victim": "",
+      "agressor": "",
+      "notes": "The Principal responded to complaints by former students about farm work at Birtle IRS, indicating that it provided the opportunity to develop skills and to earn spending money by working for local farmers on Saturdays.",
+      "ref": ["BIR-002503"]
+    }]
+  }
+}

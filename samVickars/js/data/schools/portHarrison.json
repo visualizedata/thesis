@@ -1,0 +1,38 @@
+{
+  "name": "Federal Hostel at Port Harrison (Inoucdjouac)",
+  "type": "Residential",
+  "location": {
+    "province": "Quebec",
+    "city": "city",
+    "latLng": {
+      "lat": 58.45280278,
+      "-78.11154722": 0.000
+    }
+  },
+  "narrativeDate": "09-11-01",
+  "startYear": 1960,
+  "endYear": 1971,
+  "data": {
+    "nameVariants": [],
+    "chronoHistory": [],
+    "notesHistory": [],
+    "management": [],
+    "enrollment": [],
+    "reserves": [""],
+    "religiousGroups": [{
+      "group": "group",
+      "ref": ["number"]
+    }, {
+      "group": "group",
+      "ref": ["number"]
+    }, {
+      "group": "group",
+      "ref": ["number"]
+    }, {
+      "group": "group",
+      "ref": ["number"]
+    }],
+    "writtenAgreements": [],
+    "additionalInformation": []
+  }
+}

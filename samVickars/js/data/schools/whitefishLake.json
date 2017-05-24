@@ -1,0 +1,38 @@
+{
+  "name": "Whitefish Lake (St. Andrew's)",
+  "type": "Residential",
+  "location": {
+    "province": "Alberta",
+    "city": "city",
+    "latLng": {
+      "lat": 55.91786944,
+      "-115.6608056": 0.000
+    }
+  },
+  "narrativeDate": "09-11-01",
+  "startYear": 1908,
+  "endYear": 1950,
+  "data": {
+    "nameVariants": [],
+    "chronoHistory": [],
+    "notesHistory": [],
+    "management": [],
+    "enrollment": [],
+    "reserves": [""],
+    "religiousGroups": [{
+      "group": "group",
+      "ref": ["number"]
+    }, {
+      "group": "group",
+      "ref": ["number"]
+    }, {
+      "group": "group",
+      "ref": ["number"]
+    }, {
+      "group": "group",
+      "ref": ["number"]
+    }],
+    "writtenAgreements": [],
+    "additionalInformation": []
+  }
+}

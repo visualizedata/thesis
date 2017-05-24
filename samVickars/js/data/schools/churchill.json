@@ -1,0 +1,215 @@
+{
+  "name": "Churchill IRS",
+  "type": "Residential",
+  "location": {
+    "province": "Manitoba",
+    "city": "Churchill",
+    "latLng": {
+      "lat": 58.75689444,
+      "lng": -94.07794444
+    }
+  },
+  "narrativeDate": "09-11-01",
+  "startYear": 1964,
+  "endYear": 1973,
+  "data": {
+    "nameVariants": [{
+      "startYear": 1964,
+      "endYear": 1973,
+      "name": "(Fort) Churchill School",
+      "note": "",
+      "ref": ["CVC-001468", "CVC-000467-0000"]
+    }, {
+      "startYear": 1964,
+      "endYear": 1965,
+      "name": "(Fort) Churchill Federal School",
+      "note": "",
+      "ref": ["CVC-000331", "CVC-001906"]
+    }, {
+      "startYear": 1964,
+      "endYear": 1968,
+      "name": "(Fort) Churchill Hostel",
+      "note": "",
+      "ref": ["CVC-000467-0000", "CVC-000411", "CVC-001427-0000"]
+    }, {
+      "startYear": 1965,
+      "endYear": 1970,
+      "name": "(Fort) Churchill Pupil Residence",
+      "note": "",
+      "ref": ["CVC-003213-0001", "CVC-000443", "CVC-001732-0001"]
+    }, {
+      "startYear": 1965,
+      "endYear": 1973,
+      "name": "Churchill Vocational Centre",
+      "note": "",
+      "ref": ["CVC-000951-0001", "CVC-000299-0000", "CVC-000205-0001"]
+    }, {
+      "startYear": 1966,
+      "endYear": 1973,
+      "name": "Churchill Vocational School (Vocational School at Churchill",
+      "note": "",
+      "ref": ["CVC-001865-0000", "CVC-000615-0000"]
+    }, {
+      "startYear": 1970,
+      "endYear": 1970,
+      "name": "(Churchill) Student Residence",
+      "note": "",
+      "ref": ["CVC-000879"]
+    }, {
+      "startYear": 1971,
+      "endYear": 1971,
+      "name": "Eskimo Residential School",
+      "note": "",
+      "ref": ["CVC-000832"]
+    }],
+    "chronoHistory": [{
+      "date": 1964,
+      "desc": ["The Churchill Vocational Centre opened in former military barracks, and it was owned by the federal government throughout its operation"],
+      "ref": ["CVC-000332", "CVC-001217-0000", "CVC-001529"]
+    }, {
+      "date": 1966,
+      "desc": ["Students in the academic program were obligated to remain at the IRS each year until the end of June, whereas vocatioal students were often returned to their settlements prior to ice break-up each spring. The federal government decided to begin the 1966/67 school year at the Churchill Vocational Centre in late August and to operate during the Easter break.  As a result, the school year ended earlier in June to allow pupils to return home before the ice break-up"],
+      "ref": ["CVC-001896-0000", "CVC-001883", "CVC-001871"]
+    }, {
+      "date": 1968,
+      "desc": ["An agreement was made between the federal government and the Canadian National Institute for the Blind (C.N.I.B.) to provide food services for students and staff at the Churchill Vocational Centre"],
+      "ref": ["CVC-001427-0003"]
+    }, {
+      "date": 1970,
+      "desc": ["The Principal of the Churchill Vocational Centre decided that students would not be allowed to return to their home settlements for Easter, due to difficulties encountered when some students returned to their homes for the previous Christmas", "Officers of the Northwest Territories and Quebec governments were allowed access to the Churchill Vocational Center, including the student residence, provided acvance notice was given. These provincial and territorial officers assumed an advisory role"],
+      "ref": ["CVC-001628", "CVC-000501"]
+    }, {
+      "date": 1971,
+      "desc": ["The Churchill Vocational Centre admitted to the residence Indian students receiving classroom instruction at Duke of Edinburgh school", "There was a reduction in the number of students from the Northwest Territories and Arctic Quebec.  The primary group of students remaining at the Churchill Vocational Centre was students returning to complete their second and third year of the vocational program"],
+      "ref": ["CVC-000821-0000", "CVC-000821-0001", "CVC-000299-0000", "CVC-000861"]
+    }, {
+      "date": 1973,
+      "desc": ["The Churchill Vocational Centre closed"],
+      "ref": ["CVC-000615-0000", "CVC-000006-0000"]
+    }],
+    "notesHistory": [],
+    "management": [{
+      "startYear": 1964,
+      "endYear": 1973,
+      "org": "government",
+      "orgName": "Federal Government of Canada",
+      "type": ["Management"],
+      "ref": ["CVC-000332", "CVC-001217-0000", "CVC-001529"]
+    }],
+    "enrollment": [{
+      "year": 1964,
+      "number": 154,
+      "notes": ""
+    }, {
+      "year": 1965,
+      "number": 251,
+      "notes": ""
+    }, {
+      "year": 1966,
+      "number": 237,
+      "notes": ""
+    }, {
+      "year": 1967,
+      "number": 226,
+      "notes": ""
+    }, {
+      "year": 1968,
+      "number": 230,
+      "notes": ""
+    }, {
+      "year": 1969,
+      "number": 234,
+      "notes": ""
+    }, {
+      "year": 1970,
+      "number": 290,
+      "notes": ""
+    }, {
+      "year": 1971,
+      "number": 142,
+      "notes": ""
+    }, {
+      "year": 1972,
+      "number": 75,
+      "notes": ""
+    }, {
+      "year": 1973,
+      "number": 75,
+      "notes": ""
+    }],
+    "reserves": [],
+    "religiousGroups": [],
+    "writtenAgreements": [],
+    "additionalInformation": [{
+      "date": 1965,
+      "type": "sexual",
+      "victim": "",
+      "agressor": "male supervisor",
+      "notes": "In a letter to the federal government, the Bishop of the Arctic noted that there was a problem regarding a male 'Supervisor who has become too familiar with the students'. No further details on this matter were found.",
+      "ref": ["CVC-000411"]
+    }, {
+      "date": 1973,
+      "type": "physical",
+      "victim": "staff member",
+      "agressor": "unnamed student",
+      "notes": "A student allegedly assaulted a staff member who had been called in to assist when the student was found 'drunk and disorderly' in the Garrison Theatre. Upon being asked to return to the dorm, the student responded by becoming verbally and physically abusive towards staff resulting in the RCMP being called in to remove him from the building. The incident report lists other episodes in which this same student had been drunk or abusive.",
+      "ref": ["CVC-000205-0000", "CVC-000205-0001", "CVC-000205-0002", "CVC-000205-0003"]
+    }, {
+      "date": 1966,
+      "type": "incident",
+      "victim": "",
+      "agressor": "",
+      "notes": "A media report in 1966 claimed that the federal program at the Churchill Vocational Centre was jeopardized by 'drinking and immorality among students' despite denials by federal officials. The allegations centered on drinking, sexual misconduct and fighting between Inuit and Indian students, although there were no Indian  students residing there at the time. These allegations were refuted in an article in the Taiga Times newsletter.",
+      "ref": ["CVC-000363-0001", "CVC-001835"]
+    }, {
+      "date": 1964,
+      "type": "health",
+      "victim": "",
+      "agressor": "",
+      "notes": "Students participated in a 'sick parade' when the Matron and a registered nurse would evaluate the students and identify any potential health problems.",
+      "ref": ["CVC-001896-0000, pg. 4"]
+    }, {
+      "date": 1965,
+      "type": "incident",
+      "victim": "",
+      "agressor": "",
+      "notes": "Two teachers had an altercation during a school session and tendered their resignations after an investigation into the incident was completed by the federal District Superintendent.",
+      "ref": ["CVC- 000454", "CVC-000452"]
+    }, {
+      "date": 1965,
+      "type": "health",
+      "victim": "",
+      "agressor": "",
+      "notes": "The protocol for monitoring the health of the pupils was outlined as a complete physical examination conducted by the Hostel Residence Matron, assisted by a male nurse, upon the arrival of children at the Churchill Vocation Centre. Although gynecological exams were not conducted, the Matron was vigilant about watching for symptoms of venereal disease or pregnancy.",
+      "ref": ["CVC-000951- 0001"]
+    }, {
+      "date": 1966,
+      "type": "health",
+      "victim": "",
+      "agressor": "",
+      "notes": "The IRS was closed on March 15 by the Public Health Officer due to an epidemic of influenza. The quarantine was to be in effect until at least March 20.",
+      "ref": ["CVC-001887"]
+    }, {
+      "date": 1966,
+      "type": "incident",
+      "victim": "",
+      "agressor": "",
+      "notes": "The Anglican Bishop of the Arctic expressed concern that Inuit residents of the Churchill Dormitory were exposed to 'wild parties' held in the single persons’ quarters at the residence. The federal government responded that pupils were well-supervised and no such problem had been encountered.",
+      "ref": ["CVC-001058"]
+    }, {
+      "date": 1967,
+      "type": "incident",
+      "victim": "",
+      "agressor": "",
+      "notes": "There were allegations that children left the IRS every night to go to the town of Churchill.",
+      "ref": ["CVC-000367"]
+    }, {
+      "date": 1970,
+      "type": "health",
+      "victim": "",
+      "agressor": "",
+      "notes": "Students were occasionally sent from Churchill to Winniped by 'Public Health' for medical reasons such as ear surgery. The principal asserted that parents and administrators should be advised immediately when such a situation arose and criticized how the students were handled by Public Health.",
+      "ref": ["CVC-002003"]
+    }]
+  }
+}

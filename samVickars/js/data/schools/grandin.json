@@ -1,0 +1,398 @@
+{
+  "name": "Grandin College",
+  "type": "Residential",
+  "location": {
+    "province": "Northwest Territories",
+    "city": "Fort Smith",
+    "latLng": {
+      "lat": 60.00223889,
+      "lng": -111.8982028
+    }
+  },
+  "narrativeDate": "09-11-01",
+  "startYear": 1960,
+  "endYear": 1985,
+  "data": {
+    "nameVariants": [{
+      "startYear": 1960,
+      "endYear": 1961,
+      "name": "Grandin Home",
+      "note": "",
+      "ref": ["GCU-800001"]
+    }, {
+      "startYear": 1961,
+      "endYear": 1964,
+      "name": "Grandin Home, Grandin Home for Boys",
+      "note": "",
+      "ref": ["GCU-000173", "GCU-000172"]
+    }, {
+      "startYear": 1964,
+      "endYear": 1975,
+      "name": "Grandin Home, Grandin Hall, Grandin College",
+      "note": "",
+      "ref": ["GCU-000011", "GCU-000023", "GCU-000011"]
+    }, {
+      "startYear": 1975,
+      "endYear": 1976,
+      "name": "Grandin Home, (Roman Catholic Residence)",
+      "note": "",
+      "ref": ["SLA-002784"]
+    }, {
+      "startYear": 1976,
+      "endYear": 1985,
+      "name": "Grandin Home",
+      "note": "",
+      "ref": ["FSU-000173"]
+    }],
+    "chronoHistory": [{
+      "date": 1960,
+      "desc": ["A memorandum refers to 'the Roman Catholic Seminary which is to be known as the Grandin Home.'", "The first six students arrived at Grandin Home 30 August.", "Twelve boys in Grades 5 to 8 were the first students admitted to Grandin Home in September.", "A report states that Grandin Home also served as the Oblate Provincial Home and indicates that, in addition to the younger seminary students, Grandin Home also accommodated six older high school students seeking 'a more Christian atmosphere' than that available to them in Yellowknife.", "A memorandum dated 23 November advises the federal department that the Catholic Church was operating the Grandin Home for Boys as a seminary on church property adjacent to the new federal school. The memorandum also states that, where space permitted, students for Grandin were placed on aircraft transporting students to the Fort Smith Hostel."],
+      "ref": ["GCU-000211", "GCU-800001", "GNN-000687", "GCU-800155", "GCU-000172"]
+    }, {
+      "date": 1962,
+      "desc": ["A memorandum states that 'plans for the proposed Roman Catholic College' are well advanced and that an interim building permit has been issued.", "A report written by a subsequent administrator of Grandin indicates that a shift in philosophy circa 1962 away from 'a seminary' towards the intellectual development of students made enrolment of female students at Grandin a possibility."],
+      "ref": ["GCU-000008", "GCU-800229"]
+    }, {
+      "date": 1963,
+      "desc": ["All Grandin students in 1963/64 were enrolled in grades 6-11 at J.B. Tyrrell Federal Day School."],
+      "ref": ["GCU-800169"]
+    }, {
+      "date": 1964,
+      "desc": ["A letter from Bishop Piche states that the new Grandin College will be completed and ready for occupancy in September. The mandate of the new facility is to provide a better living environment in order to foster educational success for students in attendance at J.B. Tyrrell Federal Day School. The long term goal is to provide post-secondary college and vocational courses and, eventually, an undergraduate programme designed primarily for boys. The letter notes that, dependent upon federal financial assistance, the Grandin Home facilities could be made available to accommodate Native high school girls.", "Bishop Piche, founder of Grandin College, made the following statement in June when the corner stone of the new facility was blessed:<BR><em>The work of Grandin College will progress through three stages. The first stage is that of a boarding home where students pursue their studies at the federal school: the J.B. Tyrrell School. They will be assisted in their studies by a teacher, priest or layperson who, at the same time, will monitor their progress in class. They will receive, at the same time, from the Father Director of the College moral and spiritual guidance. The second stage: when the number of graduates permits, we will offer two additional years of secondary education to prepare for university-level studies. The third stage: the expansion of the undertaking should lead to the organization of an academic programme leading to degrees of Bachelor of Arts and Science, which will permit admission to professional studies.</em><", "Several Sisters of Charity (Grey Nuns) from Breynat Hall, the Fort Smith hospital and Provincial House assisted with the renovations required to make the original Grandin building ready to receive female students in September.", "For the school year beginning September 1964, all Grandin students were enrolled in grades 7-12.", "The Commissioner of the NWT and members of the Territorial Council were guests at Grandin on 3 November."],
+      "ref": ["GCU-000011", "GNN-000410-0002", "GNN-000410-0002", "GCU-800179", "GCU-800001"]
+    }, {
+      "date": 1965,
+      "desc": ["The official opening of Grandin College was held 18 June 1965.", "For the school year beginning September 1965, all Grandin students were enrolled in grades 7-12.", "The Grandin Chronicle records the following about changes in staff organisation:<BR><em>At the beginning of this school year there are several changes in the organisation of the house. Last year, the 'staff' of the boys’ residence and that of the girls’ residence were completely separate: supervisors, kitchen, laundry and linen. Essentially this doubled the staff without practical results. We have therefore reorganised the house. Staff who are in charge of students most directly work together, giving more cohesion to the purpose and practical organisation of the house.</em>"],
+      "ref": ["GCU-000054", "GCU-800182-0001", "GNN-000410-0002"]
+    }, {
+      "date": 1966,
+      "desc": ["For the school year beginning September 1966, all Grandin students were enrolled in grades 7-12."],
+      "ref": ["GCU-800024-0002", "GCU-8000024-0005"]
+    }, {
+      "date": 1967,
+      "desc": ["For the school year beginning September 1967, all Grandin students were enrolled in grades 7-12."],
+      "ref": ["GCU-800028"]
+    }, {
+      "date": 1968,
+      "desc": ["For the school year beginning September 1968, all Grandin students were enrolled in grades 8-12.", "Grade 7 students are no longer accepted as residents at Grandin."],
+      "ref": ["GCU-800029", "GNN-000410-0002"]
+    }, {
+      "date": 1969,
+      "desc": ["For the school year beginning September 1969, all Grandin students were enrolled in grades 9-12.", "Fewer students are accepted this year to allow for more individual attention. The girls’ residence is re-arranged to accommodate all students on the second floor. Rooms in the basement formerly used as bedrooms are converted for use as a typing room, two assembly rooms, a television room, and a beauty salon. Two bedrooms are reserved for visitors. A laundry, an ironing room, a kitchenette and a lounge existed already."],
+      "ref": ["GCU-800030", "GNN-000410-0002"]
+    }, {
+      "date": 1970,
+      "desc": ["A letter from the Deputy Commissioner of the NWT dated 20 July 1970 confirms the intention of the territorial government to rent the newest of the Grandin residences from August 1970 to August 1971 for its Teacher Education Programme. The letter includes several details regarding the lease arrangements and terms of an option to purchase the building.", "A letter from Bishop Paul Piche dated 25 July 1970 accepts the territorial government’s offer to lease the newest Grandin residence.", "A letter dated 11 September 1970 from the acting assistant deputy minister of Northern Development to the Commissioner of the NWT requests clarification of rumours the territorial government may purchase Grandin College due to financial and staffing difficulties being experienced by the church management. The letter indicates the federal government would be 'hesitant to agree' to such a takeover. It is mentioned that Grandin is considered an anomaly which cuts across 'the normal patterns of education services in the Territories.'", "A telegram dated 21 September 1970 corrects an error in the letter of 11 September by stating the federal government’s view that Grandin should NOT continue as a residence for secondary pupils drawn from various parts of the Territories.", "A letter from the Director of Education to the Commissioner of the NWT states that an assessment of 'the main administrative gymnasium centre and the new dormitory block' is expected and that a proposal for their use is being prepared.", "A letter confirms that education authorities in the NWT have recommended the purchase of both Grandin buildings to address secondary school requirements at Fort Smith."],
+      "ref": ["GCU-800203", "GCU-800204-0000", "GCU-000164", "GCU-000165", "BTU-001604", "GCU-000167"]
+    }, {
+      "date": 1971,
+      "desc": ["A letter dated 29 March 1971 from the Commissioner of the NWT conveys an offer to purchase 'the two Grandin College buildings and the entire unsubdivided area of Lot 186.'", "An Agreement for Sale dated 01 July 1971 details the sale of Lot 186 and all 'the buildings located thereon' to the Government of the NWT by the Roman Catholic Episcopal Corporation of the Mackenzie. The Roman Catholic Corporation retained the right to 'use and occupy' that portion of the main building used as a museum.", "A newspaper article reports that the remaining building was subsequently used as the boys’ residence for Grandin College and that another building was purchased to serve as the girls’ residence."],
+      "ref": ["GCU-800209", "GCU-000222", "GNN-000702"]
+    }, {
+      "date": 1973,
+      "desc": ["A year-end report expresses deep concern at the indifference to religion exhibited by students and makes recommendations to improve academic and behavioural standards."],
+      "ref": ["GCU-800229"]
+    }, {
+      "date": 1974,
+      "desc": ["A letter from the Regional Superintendent of Education (Indian Affairs) for Alberta indicates that, due to the scheduled closure of Breynat Hall in June 1975, accommodation at Grandin College for several Grade 11 and Grade 12 boys from Fort Chipewyan is being considered for September 1975."],
+      "ref": ["SLA-002784"]
+    }, {
+      "date": 1980,
+      "desc": ["In a newsletter, the administrator of Grandin states that the main purpose of the institution is 'to prepare for the future good leaders, men and women that can be a real asset to their community and the Church wherever they are.'"],
+      "ref": ["GNN-000698"]
+    }, {
+      "date": 1984,
+      "desc": ["An article appearing in Arctic Profiles published by the University of Calgary states that, in conjunction with the retirement of Bishop Paul Piche in June, former students of Grandin College attended a reunion in Fort Smith."],
+      "ref": ["http://pubs.aina.ucalgary.ca/arctic/Arctic42-2-168.pdf"]
+    }, {
+      "date": 1985,
+      "desc": ["A meeting of the Diocesan Council in May 1985 decided that Grandin College would close permanently at the end of the school year."],
+      "ref": ["GCU-800247"]
+    }, {
+      "date": 1986,
+      "desc": ["A letter from the minister of education of the NWT proposes to rent the former boys’ residence for a nominal amount in order to re-open the facility as a residence for senior high school students during the school year 1986/87.", "A letter from Bishop Denis Croteau agrees to rent the Grandin building to the government of the NWT, but stipulates that a board of directors made up of Grandin alumni should operate the facility.", "A letter from the minister of education to Bishop Croteau withdraws the government’s proposal due to time constraints and the high estimated costs required to renovate the building to Fire and Safety Code standards."],
+      "ref": ["GCU-800248", "GCU-800249", "GCU-800251"]
+    }],
+    "notesHistory": [],
+    "management": [{
+      "startYear": 1960,
+      "endYear": 1986,
+      "org": "church",
+      "orgName": "Anglican Church",
+      "type": ["Management", " Staff", " Teaching"],
+      "ref": ["RCN-000724"]
+    }],
+    "enrollment": [{
+      "year": 1960,
+      "number": "20",
+      "notes": ""
+    }, {
+      "year": 1961,
+      "number": "18",
+      "notes": ""
+    }, {
+      "year": 1962,
+      "number": "17",
+      "notes": ""
+    }, {
+      "year": 1963,
+      "number": "22",
+      "notes": ""
+    }, {
+      "year": 1964,
+      "number": "48",
+      "notes": ""
+    }, {
+      "year": 1965,
+      "number": "63",
+      "notes": ""
+    }, {
+      "year": 1966,
+      "number": "85",
+      "notes": ""
+    }, {
+      "year": 1967,
+      "number": "86",
+      "notes": ""
+    }, {
+      "year": 1968,
+      "number": "82",
+      "notes": ""
+    }, {
+      "year": 1969,
+      "number": "65",
+      "notes": ""
+    }, {
+      "year": 1970,
+      "number": "25",
+      "notes": ""
+    }, {
+      "year": 1971,
+      "number": "30",
+      "notes": ""
+    }, {
+      "year": 1972,
+      "number": "24",
+      "notes": ""
+    }, {
+      "year": 1973,
+      "number": "26",
+      "notes": ""
+    }, {
+      "year": 1974,
+      "number": "18",
+      "notes": ""
+    }, {
+      "year": 1975,
+      "number": "22",
+      "notes": ""
+    }, {
+      "year": 1976,
+      "number": "26",
+      "notes": ""
+    }, {
+      "year": 1977,
+      "number": "26",
+      "notes": ""
+    }, {
+      "year": 1978,
+      "number": "30",
+      "notes": ""
+    }, {
+      "year": 1979,
+      "number": "29",
+      "notes": ""
+    }, {
+      "year": 1980,
+      "number": "25",
+      "notes": ""
+    }, {
+      "year": 1981,
+      "number": "24",
+      "notes": ""
+    }, {
+      "year": 1982,
+      "number": "31",
+      "notes": ""
+    }, {
+      "year": 1983,
+      "number": "30",
+      "notes": ""
+    }, {
+      "year": 1984,
+      "number": "29",
+      "notes": ""
+    }],
+    "reserves": ["aklavik", "arcticRedRiver", "calgary", "cambridgeBay", "capeParry", "chard", "colvilleLake", "conklin", "coppermine", "edmonton", "eldorado", "fortChipewyan", "fortFranklin", "fortNorman", "fortRae", "fortResolution", "fortSimpson", "fortSmith", "fotLiard", "foxLake", "goodHopeLake", "hayLakes", "iglooik", "inuvik", "jeanMarieRiver", "kakisa", "lacLaBiche", "mcMurray", "normanWells", "paulaktuk", "pinePoint", "pondInlet", "providence", "snowdrift", "troutRock", "tuktoyaktuk", "yellowknife"],
+    "religiousGroups": [{
+      "group": "Order of Oblates of Mary Immaculate",
+      "ref": ["GNN-000701"]
+    }, {
+      "group": "Sisters of Charity (Grey Nuns) of Montreal",
+      "ref": ["GNN-000410-0002", "GNN-000700"]
+    }],
+    "writtenAgreements": [],
+    "additionalInformation": [{
+      "date": 1961,
+      "type": "report",
+      "victim": "",
+      "agressor": "",
+      "notes": "The Administrator of the Mackenzie states in a Memorandum that student recruitment was handled by the church authorities and that 'no official requests or arrangements were made for recruitment for the Grandin Home.'",
+      "ref": ["GCU-000006"]
+    }, {
+      "date": 1964,
+      "type": "report",
+      "victim": "",
+      "agressor": "",
+      "notes": "An article appearing in Arctic Profiles published by the University of Calgary states that Bishop Paul Piche travelled all over the NWT in the summer of 1964 to recruit Native students for Grandin College.",
+      "ref": ["http://pubs.aina.ucalgary.ca/arctic/Arctic42-2-168.pdf"]
+    }, {
+      "date": 1967,
+      "type": "report",
+      "victim": "",
+      "agressor": "",
+      "notes": "The Lapointe Chronicle records a visit by the assistant director of the college to Fort Simpson in July to meet parents of potential new students. A report written by Bishop Piche states that the male students were 'selected fromamongst candidates at elementary schools recommended by missionaries and teachers. They must themselves write their applications indicating the reasons theywish to follow their studies at the college.'",
+      "ref": ["GNN-000483", "GCU-800194"]
+    }, {
+      "date": 1962,
+      "type": "program",
+      "victim": "",
+      "agressor": "",
+      "notes": "The boys from the Grandin residence were invited to a social evening organised for the older boys and girls of Breynat Hall in early November.<BR> The first Grandin Newsletter includes a description of daily and weekly routines. Students attended Mass daily and studied for two hours each weekday outside school hours. The gym at J.B. Tyrrell Federal Day School was booked after school for basketball twice a week. On weekends, the Grandin students played hockey with boys from Breynat Hall and were always invited to the Sunday evening picture show at Breynat Hall.",
+      "ref": ["GNN-000410-0001", "GCU-800119"]
+    }, {
+      "date": 1962,
+      "type": "policy",
+      "victim": "",
+      "agressor": "",
+      "notes": "A report prepared by the college administrator states that all Grandin students took their classes at the federal day school, but that four of the more advanced students also took Latin classes at the residence.",
+      "ref": ["GCU-800151-0000"]
+    }, {
+      "date": 1963,
+      "type": "report",
+      "victim": "",
+      "agressor": "",
+      "notes": "At the end of the school year, some students stayed in Fort Smith to assist with the construction of the new building; others attended a militia training camp in Calgary.",
+      "ref": ["GCU-800150"]
+    }, {
+      "date": 1964,
+      "type": "report",
+      "victim": "",
+      "agressor": "",
+      "notes": "A newspaper article reports that the Grandin College band practised hard under the direction of administrator Father Pochat and had its debut at Awards Night at J.B. Tyrrell Federal Day School in May 1964. The article also states that the older boys had private rooms and that the younger boys slept dormitory style with no more than four to a room.",
+      "ref": ["IMR-000221"]
+    }, {
+      "date": 1965,
+      "type": "program",
+      "victim": "",
+      "agressor": "",
+      "notes": "The first Grandin yearbook was published. An outline of the year in review (1964/65) records frequent sports activities, dances and field trips. Five boys and a supervisor travelled to Edmonton for an educational tour in April. For one weekend during the 1964/65 school year, Grandin’s fifteen female students were billeted throughout Fort Smith when the girls’ residence was used for a retreat by local men.<BR>A report prepared by the college administrator states that the students’ council met twice each week to plan activities. The report also states that each day began and ended with supervised prayer.",
+      "ref": ["GCU-800001", "GCU-800149"]
+    }, {
+      "date": 1966,
+      "type": "program",
+      "victim": "",
+      "agressor": "",
+      "notes": "The 1966 yearbook records the following activities: Band, Glee Club, cheerleading, girls’ and boys’ basketball, hockey, and cross-country skiing.<BR> An article in the yearbook outlines the daily routine at the girls’ residence. Awakened by the supervisor, the girls begin the day in the hall with exercises and prayers. Following breakfast and chores, the girls leave the residence for school at 8:45. They return to the College for lunch and then back to school until 3:45. They study from 4:30 until supper and then for another hour after supper before gym period, which is followed by a snack, evening prayers and a 'nightly beauty treatment' before bed.<BR> Another article in the yearbook indicates the boys generally followed the same schedule until after school hours. They played sports until suppertime, and after supper played basketball or pool until study time began at 7:00. Study continued until 11:00 with a snack break at 9:30.",
+      "ref": ["GCU-000072"]
+    }, {
+      "date": 1967,
+      "type": "program",
+      "victim": "",
+      "agressor": "",
+      "notes": "Some students participated in the Quebec Winter Games in February in Quebec.",
+      "ref": ["GCU-800003"]
+    }, {
+      "date": 1967,
+      "type": "report",
+      "victim": "",
+      "agressor": "",
+      "notes": "In September, a group of federal dignitaries spent a day at the College.",
+      "ref": ["GCU-800004"]
+    }, {
+      "date": 1968,
+      "type": "program",
+      "victim": "",
+      "agressor": "",
+      "notes": "An Art Club was formed during the 1967/68 school year and a Photography Club was formed in March.<BR> A swimming programme was offered in a portable pool in May and a Book Club and an Electronics Club were formed during the 1968/69 school year.",
+      "ref": ["GCU-800004", "GCU-800126"]
+    }, {
+      "date": 1969,
+      "type": "program",
+      "victim": "",
+      "agressor": "",
+      "notes": "A Newsletter indicates the Students’ Council met weekly to plan the general assemblies of all students which were held in the Recreation Hall of the new residence.<BR>The yearbook states that 'the shack' located just two miles from Bell Rock was well known to every Grandin student.<BR> An Automobile Club was formed during the 1969/70 school year.<BR> A newsletter records that the swimming programme was offered again in July and that several students took part in the Canada Summer Games in Halifax in August.",
+      "ref": ["GCU-800123", "GCU-800126", "GCU-800006", "GCU-800125"]
+    }, {
+      "date": 1970,
+      "type": "program",
+      "victim": "",
+      "agressor": "",
+      "notes": "The swimming programme was offered for a third time in May.",
+      "ref": ["GCU-800006"]
+    }, {
+      "date": 1970,
+      "type": "report",
+      "victim": "",
+      "agressor": "",
+      "notes": "A questionnaire prepared for students in September indicates that routines and regulations were re-examined in light of the leasing of the newest residence to the government of the NWT for the school year 1970/71.",
+      "ref": ["GCU-800206"]
+    }, {
+      "date": 1971,
+      "type": "policy",
+      "victim": "",
+      "agressor": "",
+      "notes": "Staff meetings were held once a week when school was in session, as were meetings of the students’ council.",
+      "ref": ["GCU-800157"]
+    }, {
+      "date": 1971,
+      "type": "program",
+      "victim": "",
+      "agressor": "",
+      "notes": "A letter from Father Croteau to the Commissioner of the NWT speaks highly of the Grandin students who took part in a trip through western Canada in the summer and indicates that there were plans to visit Europe in the summer of 1972.",
+      "ref": ["GCU-000206"]
+    }, {
+      "date": 1973,
+      "type": "report",
+      "victim": "",
+      "agressor": "",
+      "notes": "A new 12-passenger brown Ford van was acquired by the college.",
+      "ref": ["GCU-800128"]
+    }, {
+      "date": 1974,
+      "type": "program",
+      "victim": "",
+      "agressor": "",
+      "notes": "A newsletter indicates that each school year began with students gathering the potato crop.",
+      "ref": ["GCU-800134"]
+    }, {
+      "date": 1980,
+      "type": "incident",
+      "victim": "",
+      "agressor": "",
+      "notes": "The administrator wrote in the November newsletter that 'two or three who refused to go along with the rules' were sent home early in the school year.",
+      "ref": ["GNN-000698"]
+    }, {
+      "date": 1980,
+      "type": "policy",
+      "victim": "",
+      "agressor": "",
+      "notes": "In a letter to parents in June, the administrator includes details of the worsening discipline problems at the girls’ residence and of the strict measures taken to address those problems.",
+      "ref": ["GCU-800147"]
+    }, {
+      "date": 1982,
+      "type": "program",
+      "victim": "",
+      "agressor": "",
+      "notes": "A contribution to a newsletter states that an Easter retreat was held in Edmonton each year for selected students. Other contributions indicate that the students were given town leave on Wednesdays and on weekends. <br> Student-written contributions to the Christmas newsletter indicate that Grandin College owned a cabin, two speedboats and a canoe at Pine Lake; maintained its own ice surface in winter; allowed students in small groups to go hunting on weekends; and did not allow students to attend dances in town.",
+      "ref": ["GCU-800007", "GNN-000700"]
+    }, {
+      "date": 1983,
+      "type": "policy",
+      "victim": "",
+      "agressor": "",
+      "notes": "In a newsletter, the new administrator noted that a complete change of supervisory staff took place in September. After Christmas, he changed the boys’ wake-up time to 7:00 a.m. to bring it into line with the girls’ schedule and to allow for a quarter of an hour’s study before school. He also insisted that the television be turned off during meal times and that students must remain at the table for a minimum of fifteen minutes to talk to each other. A contribution to the newsletter records that Grade 12 students received extra town leave, were allowed to watch television in the staff room, and monitored the study periods of younger students in the absence of the supervisor.",
+      "ref": ["GCU-800008"]
+    }]
+  }
+}

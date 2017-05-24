@@ -1,0 +1,38 @@
+{
+  "name": "Pointe Bleue",
+  "type": "Residential",
+  "location": {
+    "province": "Quebec",
+    "city": "city",
+    "latLng": {
+      "lat": 48.57767222,
+      "-72.231475": 0.000
+    }
+  },
+  "narrativeDate": "09-11-01",
+  "startYear": 1960,
+  "endYear": 1991,
+  "data": {
+    "nameVariants": [],
+    "chronoHistory": [],
+    "notesHistory": [],
+    "management": [],
+    "enrollment": [],
+    "reserves": ["abitibiOntario", "attikameksdelaMauricie", "bersimis", "hurons", "laRomaine", "maliotenam", "manouane", "montagnaisLacSaintJean", "natashquan", "obedjiwan", "odanak", "pointeBleue", "riverDesert", "schefferville", "weymontachieSanmaur"],
+    "religiousGroups": [{
+      "group": "group",
+      "ref": ["number"]
+    }, {
+      "group": "group",
+      "ref": ["number"]
+    }, {
+      "group": "group",
+      "ref": ["number"]
+    }, {
+      "group": "group",
+      "ref": ["number"]
+    }],
+    "writtenAgreements": [],
+    "additionalInformation": []
+  }
+}

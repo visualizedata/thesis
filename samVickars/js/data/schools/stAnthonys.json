@@ -1,0 +1,38 @@
+{
+  "name": "St. Mary's (St. Anthony's)",
+  "type": "Residential",
+  "location": {
+    "province": "Ontario",
+    "city": "Kenora",
+    "latLng": {
+      "lat": 49.74434722,
+      "-94.48271111": 0.000
+    }
+  },
+  "narrativeDate": "09-11-01",
+  "startYear": 1897,
+  "endYear": 1972,
+  "data": {
+    "nameVariants": [],
+    "chronoHistory": [],
+    "notesHistory": [],
+    "management": [],
+    "enrollment": [],
+    "reserves": [""],
+    "religiousGroups": [{
+      "group": "group",
+      "ref": ["number"]
+    }, {
+      "group": "group",
+      "ref": ["number"]
+    }, {
+      "group": "group",
+      "ref": ["number"]
+    }, {
+      "group": "group",
+      "ref": ["number"]
+    }],
+    "writtenAgreements": [],
+    "additionalInformation": []
+  }
+}
