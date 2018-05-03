@@ -17,7 +17,7 @@
     var usePreview = true;
 
     $(document).ready(function() {
-      
+
       // images
       $("div .project").each(function() {
         if ($(this).attr('href') !== undefined) {
@@ -59,25 +59,25 @@
           $(this).prepend("<a id='" + i + "'>");
         }
       });
-      
+
       // check for touch screens
       var hasTouch = window.matchMedia('(pointer: coarse)').matches;
       if (hasTouch) {
         $(".no-touch").hide();
       }
-      
+
       // activate tooltip
       $('[data-toggle="tooltip"]').tooltip();
 
 	    $(window).scroll(function(){
 	  			$( "div#cover:visible" ).css( "display", "inline" ).fadeOut( "slow" );
 	    });
-	    
+
 	    $( "div#cover:visible" ).click(function() {
 	      $(this).css( "display", "inline" ).fadeOut( "slow" );
 	    });
-	    
-	    if( (new Date().getTime() < new Date('May 18, 2017 18:30:00').getTime()))
+
+	    if( (new Date().getTime() < new Date('May 17, 2019 18:30:00').getTime()))
       {
         $( "div#cover" ).css('visibility', 'visible');
       }
@@ -130,13 +130,16 @@
     <div class="bottom-stripe col-md-12">
       <div class="bottom-stripe-inner"></div>
     </div>
-    <div class="font-width-3 col-xs-6">
-      2017
+    <div class="font-width-3 col-xs-4">
+      2018
     </div>
-    <div class="font-width-3 col-xs-6 text-right">
+    <div class="font-width-3 col-xs-4 text-center">
+      <a href="https://visualizedata.github.io/thesis-2017/">2017</a>
+    </div>
+    <div class="font-width-3 col-xs-4 text-right">
       <a href="https://visualizedata.github.io/thesis-2016/">2016</a>
     </div>
-        
+g
     <!--INDEX-->
     <div class="col-sm-11 col-sm-offset-1">
       <ul id="index">
@@ -150,24 +153,18 @@
     <div class="bottom-stripe col-md-12">
       <div class="bottom-stripe-inner"></div>
     </div>
-    <h3 class="col-md-12">Sam Vickars</h3>
+    <h3 class="col-md-12">Michal Bacon</h3>
     <div class="bottom-stripe col-md-12">
       <div class="bottom-stripe-inner"></div>
     </div>
 
-    <a id="sam"></a>
-    <div href="samVickars/index.html" img-src="preview/samVickars.png" class="project col-md-12">
+    <a id="michal"></a>
+    <div href="" img-src="preview/preview.png" class="project col-md-12">
       <p class=" col-md-2">
-        <span class="title">Visualizing Canada's Indian Residential School System</span>
+        <span class="title">_</span>
       </p>
       <p class="col-md-9">
-        Canada's Indian Residential School System was a network of boarding schools, industrial schools, and federal hostels created to remove indigenous children from their homes and families. While many schools originated long before Confederation in 1867, the Indian Residential School System was primarily active following the approval of the Indian Act in 1876 — a group of laws aiming to do away with the Indian tribal system and forcibly enfranchise First Nations peoples -- until the the last federally-operated school closed in 1996.
-        <br/>
-        Overall, there were 130 schools, as recognized by the National Truth and Reconciliation Commission and not including various Metis and Inuit institutions, in which roughly 150,000 native children were placed. They were located throughout every Canadian province except Prince Edward Island, Newfoundland, and New Brunswick. The schools were funded by the Canadian Government and operated by various religious groups.
-        <br/>
-        In recent years and in light of official apologies issued by the Government of Canada, individual provinces and territories, the Vatican, and church groups, information about the schools and their students' welfare has become public knowledge: physical and sexual abuse was common, both between students and involving administrators; malnourishment and poor living conditions were typical; and assimilation, deprivation of cultural traditions, and punishment was the standard. It is estimated that 6000 children died while in attendance.
-        <br/>
-        This project aims to investigate the IRS system visually, beginning with the stories of survivors and transitioning into the narrative of each school, it's student demographics, policies, everyday life, and management. What follows is a selection of survivor stories, as gathered by the National Truth and Reconciliation Commission between 2008 and 2015.
+        _
       </p>
     </div>
 
@@ -176,18 +173,18 @@
     <div class="bottom-stripe col-md-12">
       <div class="bottom-stripe-inner"></div>
     </div>
-    <h3 class="col-md-12">Aseem Agarwal</h3>
+    <h3 class="col-md-12">Max Carradine</h3>
     <div class="bottom-stripe col-md-12 no-touch">
       <div class="bottom-stripe-inner"></div>
     </div>
 
-    <a id="aseem"></a>
-    <div href="http://ec2-34-223-227-182.us-west-2.compute.amazonaws.com:8383/presentation/1.html" img-src="https://github.com/agaase/msdv-thesis/raw/master/visualization/preview.png" class="project col-md-12 no-touch">
+    <a id="max"></a>
+    <div href="" img-src="preview/preview.png" class="project col-md-12 no-touch">
       <p class=" col-md-2">
-        <span class="title">How is Delhi Slowing Down?</span>
+        <span class="title">_</span>
       </p>
       <p class="col-md-9">
-        Congestion on roads in urban cities is a common phenomenon and also regarded sometimes as the hallmark of vibrant business districts. But when it comes to Delhi, the capital city of India, it is a point of major concern with studies forecasting speeds of 5 kmph on all major roads in the next five years. Road density has already reached saturation level and more and more vehicles are added every day on the streets of Delhi. Looking at the severity of the situation, there is less scope for long term planning and what is needed is an exhaustive analysis from multiple perspectives. This project aims to collect and use big data to carry out granular analysis at scale in terms of congestion or excess time faced by different areas and routes. It is both visual and analytical, where the former is carried out using spatial representation that can bring forward unknown relationships. The outcome is a tool that can be used by urban planners and analysts who can combine or filter multiple variables to understand patterns behind congestion across the city.
+        _
       </p>
     </div>
 
@@ -196,38 +193,18 @@
     <div class="bottom-stripe col-md-12">
       <div class="bottom-stripe-inner"></div>
     </div>
-    <h3 class="col-md-12">Nancy Zhao</h3>
+    <h3 class="col-md-12">Ellie Frymire</h3>
     <div class="bottom-stripe col-md-12">
       <div class="bottom-stripe-inner"></div>
     </div>
 
-    <a id="nancy"></a>
-    <div href="https://nancyzhao888.github.io/thesis/work/broadway/" img-src="https://github.com/nancyzhao888/thesis/raw/master/work/broadway/preview.png" class="project col-md-12">
+    <a id="ellie"></a>
+    <div href="" img-src="preview/preview.png" class="project col-md-12">
       <p class=" col-md-2">
-        <span class="title">The International Afterlife of Broadway Musicals</span>
+        <span class="title">_</span>
       </p>
       <p class="col-md-9">
-        Broadway musical theatre is not a ephemeral and New York local phenomenon. It is a powerful brand, and a form of cultural export, which through international touring and international productions, has created a global network of audience. However, while eyes and ears are on the 40 theatres on the Great White Way, the theatre industry has hardly examined this mechanism of international business and Broadway’s cultural impact.
-      </p>
-    </div> 
-
-    <!--PROJECT-->
-
-    <div class="bottom-stripe col-md-12">
-      <div class="bottom-stripe-inner"></div>
-    </div>
-    <h3 class="col-md-12">Sambhav Jain</h3>
-    <div class="bottom-stripe col-md-12">
-      <div class="bottom-stripe-inner"></div>
-    </div>
-
-    <a id="sambhav"></a>
-    <div href="https://jainsambhav91.github.io/thesis/work/finalViz/" img-src="preview/sambhavJain.png" class="project col-md-12">
-      <p class=" col-md-2">
-        <span class="title">Visualizing Law: Understanding the sex offender registry laws and their collateral consequences</span>
-      </p>
-      <p class="col-md-9">
-        This thesis is about the visual exploration of the current sex offender registration and community notification laws in the United States. It is an attempt to understand how examining these laws and their impact on society from an objective lens can debunk myths and create awareness. It tries to explore the collateral consequences that these laws have, specifically the residence restrictions that are imposed on offenders, and raises questions about the effectiveness of their intentions. This work also aims to serve as a tool for lawmakers to visualize what the consequences of their actions might look like, and help them to preempt decisions that may not be in the best interest of society.
+        _
       </p>
     </div>
 
@@ -236,18 +213,38 @@
     <div class="bottom-stripe col-md-12">
       <div class="bottom-stripe-inner"></div>
     </div>
-    <h3 class="col-md-12">Ian Smith</h3>
+    <h3 class="col-md-12">Rik Ghosh</h3>
     <div class="bottom-stripe col-md-12">
       <div class="bottom-stripe-inner"></div>
     </div>
 
-    <a id="ian"></a>
-    <div href="ianSmith/index.html" img-src="preview/ianSmith.png" class="project col-md-12">
+    <a id="rik"></a>
+    <div href="" img-src="preview/preview.png" class="project col-md-12">
+      <p class=" col-md-2">
+        <span class="title">_</span>
+      </p>
+      <p class="col-md-9">
+        _
+      </p>
+    </div>
+
+    <!--PROJECT-->
+
+    <div class="bottom-stripe col-md-12">
+      <div class="bottom-stripe-inner"></div>
+    </div>
+    <h3 class="col-md-12">Steven Hubbard</h3>
+    <div class="bottom-stripe col-md-12">
+      <div class="bottom-stripe-inner"></div>
+    </div>
+
+    <a id="steve"></a>
+    <div href="" img-src="preview/preview.png" class="project col-md-12">
       <p class="col-md-2">
-        <span class="title">Lincmap: Using modern computation and data analysis to provide a more unbiased and scalable research tool for people to plan or choose a career path.</span>
+        <span class="title">_</span>
       </p>
       <p class="col-md-9">
-        This project attempts to provide a data visualization tool for qualitative analysis of career history data at a large scale using automation and dimensionality reduction. Individuals may use it to explore unbiased information regarding career choices to plan or research career paths for themselves, or to confirm or deny commonly held beliefs about which skills or activities complement which careers and vice versa.
+        _
       </p>
     </div>
 
@@ -256,18 +253,18 @@
     <div class="bottom-stripe col-md-12">
       <div class="bottom-stripe-inner"></div>
     </div>
-    <h3 class="col-md-12">PJ Moriarty</h3>
+    <h3 class="col-md-12">Julian Lange</h3>
     <div class="bottom-stripe col-md-12">
       <div class="bottom-stripe-inner"></div>
     </div>
 
-    <a id="pj"></a>
-    <div href="http://moriartp.github.io/projects/wave_9/" img-src="https://raw.githubusercontent.com/moriartp/ms2/master/Images/preview.png" class="project col-md-12">
+    <a id="julian"></a>
+    <div href="" img-src="preview/preview.png" class="project col-md-12">
       <p class=" col-md-2">
-        <span class="title">Wave9: An immersive augmented reality model of the solar system</span>
+        <span class="title">_</span>
       </p>
       <p class="col-md-9">
-        Commonly, numerical values expressed in multiple orders of magnitude are difficult to comprehend, particularly so for audiences that are less mathematically inclined. The deliverable of this project is intended to narrow this gap in comprehension in order to create meaning and make interpretable a true model of the solar system to a general audience. Using the physical landscape of Manhattan as its backdrop, the wave 9 mobile application guides audiences on a walking tour through a physical model of the solar system that begins at Parsons campus in downtown New York and stretches up Fifth Avenue to the Metropolitan Museum of Art, where the model concludes. Along the way, guided by the applications map, audiences encounter various markers which trigger 3D renderings within the mobile app visualizing the various planets of our solar system using augmented reality technology. The three dimensional renderings set within the recognizable landscape of New York city provides audience with a level of comprehension of size, scale, interplanetary relationship, and solar enormity in a clear, intuitive, and accessible way.
+        _
       </p>
     </div>
 
@@ -276,18 +273,18 @@
     <div class="bottom-stripe col-md-12">
       <div class="bottom-stripe-inner"></div>
     </div>
-    <h3 class="col-md-12">Joshua Lee</h3>
+    <h3 class="col-md-12">Kevin Lee</h3>
     <div class="bottom-stripe col-md-12">
       <div class="bottom-stripe-inner"></div>
     </div>
 
-    <a id="joshua"></a>
-    <div href="https://thesis-app-neuralism.c9users.io/index.html" img-src="https://raw.githubusercontent.com/neuralism/thesis-app/master/preview.png" class="project col-md-12">
+    <a id="kevin"></a>
+    <div href="" img-src="preview/preview.png" class="project col-md-12">
       <p class=" col-md-2">
-        <span class="title">Visualizing Player Interactions in Online Games</span>
+        <span class="title">_</span>
       </p>
       <p class="col-md-9">
-        This thesis attempts to explore the activity of players in a Massive Multiplayer Online Role Playing Game (MMORPG) by visualizing the interactions they engage in while playing the game and reveal patterns behind them. What do they do while playing the game? Who do they meet and who do they talk to? Do they spend more time interacting with humans or the virtual environment? What are their usage patterns like and what motivates them to become so invested in these shared virtual environments? Not much is known about the structure and nature of these interactions. Hence, I plan to investigate these interactions through a visualization to better understand the psychology and the patterns behind them. I will be using the shared virtual environment of Aion (an MMORPG released in 2009) as the backdrop for this project. It will be the environment through which these interactions are captured and visualized from. I picked Aion is because it is a highly successful MMORPG that has been around for a long time, and has a large player base. Aion was developed by a Korean gaming company called NCSOFT, and they have gaming servers and offices in Asia, Europe, and North America. I have personally played this game myself in the past and am familiar with the concept and mechanics of the game.
+        _
       </p>
     </div>
 
@@ -296,20 +293,182 @@
     <div class="bottom-stripe col-md-12">
       <div class="bottom-stripe-inner"></div>
     </div>
-    <h3 class="col-md-12">Riley Hoonan</h3>
+    <h3 class="col-md-12">Elena Paunova</h3>
     <div class="bottom-stripe col-md-12">
       <div class="bottom-stripe-inner"></div>
     </div>
 
-    <a id="riley"></a>
-    <div href="http://www.mappingdada.info/" img-src="preview/rileyHoonan.png" class="project col-md-12">
+    <a id="elena"></a>
+    <div href="" img-src="preview/preview.png" class="project col-md-12">
       <p class=" col-md-2">
-        <span class="title">Mapping Dada</span>
+        <span class="title">_</span>
       </p>
       <p class="col-md-9">
-        How do we measure influence? If you allow that a link from one page to another allows us to measure relevance, ala the PageRankU+2122 algorithm, and that proximity (e.g. the number of links from one page to another) gives us a sense of how that relevance diminishes with distance, ‘influence’ is only a function of chronological order. This project is a case study in applying this methodology to the art movement, Dada, using the closed network of wikipedia to provide a consistent dataset. From this dataset (the scraped URLs and basic metadata of pages linking to and from Dada) a map of the conceptual framework, players and geography of Dada is established, contextualizing the art movement within it’s moment in history.
+        _
       </p>
     </div>
+
+    <!--PROJECT-->
+
+    <div class="bottom-stripe col-md-12">
+      <div class="bottom-stripe-inner"></div>
+    </div>
+    <h3 class="col-md-12">Flávio Pessoa Sant'Anna</h3>
+    <div class="bottom-stripe col-md-12">
+      <div class="bottom-stripe-inner"></div>
+    </div>
+
+    <a id="flavio"></a>
+    <div href="" img-src="preview/preview.png" class="project col-md-12">
+      <p class=" col-md-2">
+        <span class="title">_</span>
+      </p>
+      <p class="col-md-9">
+        _
+      </p>
+    </div>
+
+    <!--PROJECT-->
+
+    <div class="bottom-stripe col-md-12">
+      <div class="bottom-stripe-inner"></div>
+    </div>
+    <h3 class="col-md-12">Aucher Serr</h3>
+    <div class="bottom-stripe col-md-12">
+      <div class="bottom-stripe-inner"></div>
+    </div>
+
+    <a id="aucher"></a>
+    <div href="" img-src="preview/preview.png" class="project col-md-12">
+      <p class=" col-md-2">
+        <span class="title">_</span>
+      </p>
+      <p class="col-md-9">
+        _
+      </p>
+    </div>
+
+    <!--PROJECT-->
+
+    <div class="bottom-stripe col-md-12">
+      <div class="bottom-stripe-inner"></div>
+    </div>
+    <h3 class="col-md-12">Yicen Shi</h3>
+    <div class="bottom-stripe col-md-12">
+      <div class="bottom-stripe-inner"></div>
+    </div>
+
+    <a id="yicen"></a>
+    <div href="" img-src="preview/preview.png" class="project col-md-12">
+      <p class=" col-md-2">
+        <span class="title">_</span>
+      </p>
+      <p class="col-md-9">
+        _
+      </p>
+    </div>
+
+    <!--PROJECT-->
+
+    <div class="bottom-stripe col-md-12">
+      <div class="bottom-stripe-inner"></div>
+    </div>
+    <h3 class="col-md-12">George Sieniawski</h3>
+    <div class="bottom-stripe col-md-12">
+      <div class="bottom-stripe-inner"></div>
+    </div>
+
+    <a id="george"></a>
+    <div href="" img-src="preview/preview.png" class="project col-md-12">
+      <p class=" col-md-2">
+        <span class="title">_</span>
+      </p>
+      <p class="col-md-9">
+        _
+      </p>
+    </div>
+
+    <!--PROJECT-->
+
+    <div class="bottom-stripe col-md-12">
+      <div class="bottom-stripe-inner"></div>
+    </div>
+    <h3 class="col-md-12">Joe Steele</h3>
+    <div class="bottom-stripe col-md-12">
+      <div class="bottom-stripe-inner"></div>
+    </div>
+
+    <a id="joe"></a>
+    <div href="" img-src="preview/preview.png" class="project col-md-12">
+      <p class=" col-md-2">
+        <span class="title">_</span>
+      </p>
+      <p class="col-md-9">
+        _
+      </p>
+    </div>
+
+    <!--PROJECT-->
+
+    <div class="bottom-stripe col-md-12">
+      <div class="bottom-stripe-inner"></div>
+    </div>
+    <h3 class="col-md-12">Will Su</h3>
+    <div class="bottom-stripe col-md-12">
+      <div class="bottom-stripe-inner"></div>
+    </div>
+
+    <a id="will"></a>
+    <div href="" img-src="preview/preview.png" class="project col-md-12">
+      <p class=" col-md-2">
+        <span class="title">_</span>
+      </p>
+      <p class="col-md-9">
+        _
+      </p>
+    </div>
+
+    <!--PROJECT-->
+
+    <div class="bottom-stripe col-md-12">
+      <div class="bottom-stripe-inner"></div>
+    </div>
+    <h3 class="col-md-12">Benzamin Yi</h3>
+    <div class="bottom-stripe col-md-12">
+      <div class="bottom-stripe-inner"></div>
+    </div>
+
+    <a id="benz"></a>
+    <div href="" img-src="preview/preview.png" class="project col-md-12">
+      <p class=" col-md-2">
+        <span class="title">_</span>
+      </p>
+      <p class="col-md-9">
+        _
+      </p>
+    </div>
+
+    <!--PROJECT-->
+
+    <div class="bottom-stripe col-md-12">
+      <div class="bottom-stripe-inner"></div>
+    </div>
+    <h3 class="col-md-12">Rye Zupancis</h3>
+    <div class="bottom-stripe col-md-12">
+      <div class="bottom-stripe-inner"></div>
+    </div>
+
+    <a id="rye"></a>
+    <div href="" img-src="preview/preview.png" class="project col-md-12">
+      <p class=" col-md-2">
+        <span class="title">_</span>
+      </p>
+      <p class="col-md-9">
+        _
+      </p>
+    </div>
+
+
     <!--FOOTER-->
 
     <div class="bottom-stripe col-md-12">
@@ -326,17 +485,24 @@
 
         <div class="col-md-3">
 
-          <p><a href="http://www.newschool.edu/parsons/ms-data-visualization/">MS Data Visualization 2017</a></p>
+          <p><a href="http://www.newschool.edu/parsons/ms-data-visualization/">MS Data Visualization 2018</a></p>
 
-          
-          <a href="https://github.com/svickars/thesis">Sam Vickars</a>
-          <br /> <a href="https://github.com/agaase/msdv-thesis">Aseem Agarwal</a>
-          <br /> <a href="https://github.com/nancyzhao888/thesis">Nancy Zhao</a>
-          <br /> <a href="https://github.com/jainsambhav91/thesis">Sambhav Jain</a>
-          <br /> <a href="https://github.com/Ianssmith/thesis">Ian Smith</a>
-          <br /> <a href="https://github.com/moriartp/ms2">PJ Moriarty</a>
-          <br /> <a href="https://github.com/neuralism/thesis">Joshua Lee</a>
-          <br /> <a href="https://github.com/rhoon/thesis">Riley Hoonan</a>
+          <a href="">Michal Bacon</a>
+          <br /> <a href="">Max Carradine</a>
+          <br /> <a href="">Ellie Frymire</a>
+          <br /> <a href="">Rik Ghosh</a>
+          <br /> <a href="">Steven Hubbard</a>
+          <br /> <a href="">Julian Lange</a>
+          <br /> <a href="">Kevin Lee</a>
+          <br /> <a href="">Elena Paunova</a>
+          <br /> <a href="">Flávio Pessoa Sant'Anna</a>
+          <br /> <a href="">Aucher Serr</a>
+          <br /> <a href="">Yicen Shi</a>
+          <br /> <a href="">George Sieniawski</a>
+          <br /> <a href="">Joe Steele</a>
+          <br /> <a href="">Will Su</a>
+          <br /> <a href="">Benzamin Yi</a>
+          <br /> <a href="">Rye Zupancis</a>
           <p></p>
 
         </div>
@@ -344,7 +510,8 @@
 
           <p><a href="http://www.newschool.edu/parsons/">Parsons School of Design</a></p>
           <a href="http://www.newschool.edu/parsons/faculty.aspx?id=4e54-5978-4d7a-4932">Daniel Sauter, Assoc. Prof.</a>
-          <br />Thesis Advisor
+          <br />Christian Swinehart, Adjunct Prof.
+          <br />Thesis Advisors
           <br /> <a href="https://courses.newschool.edu/courses/PGDV5200">PGDV Major Studio 2</a>
           <p></p>
 
@@ -353,7 +520,7 @@
 
           <p><a href="http://www.newschool.edu/parsons/ms-data-visualization/">Program Contact</a></p>
           <a href="http://www.newschool.edu/parsons/faculty.aspx?id=4d6a-5577-4d6a-4d7a">Aaron Hill, Assist. Prof.</a>
-          <br />Program Director, Data Visualization 
+          <br />Program Director, Data Visualization
           <br /> <a href="http://www.newschool.edu/parsons/art-media-technology-school-amt/">Art, Media, and Technology</a>
 
         </div>
