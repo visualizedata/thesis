@@ -69,13 +69,17 @@
       // activate tooltip
       $('[data-toggle="tooltip"]').tooltip();
 
-	    $(window).scroll(function(){
-	  			$( "div#cover:visible" ).css( "display", "inline" ).fadeOut( "slow" );
-	    });
+      if (window.location.href.indexOf('?preview') >= 0)
+        $( "div#cover:visible" ).css( "display", "inline" ).fadeOut( "slow" );
 
-	    $( "div#cover:visible" ).click(function() {
-	      $(this).css( "display", "inline" ).fadeOut( "slow" );
-	    });
+      // TODO
+	    // $(window).scroll(function(){
+	  	// 		$( "div#cover:visible" ).css( "display", "inline" ).fadeOut( "slow" );
+	    // });
+      //
+	    // $( "div#cover:visible" ).click(function() {
+	    //   $(this).css( "display", "inline" ).fadeOut( "slow" );
+	    // });
 
 	    if( (new Date().getTime() < new Date('May 17, 2019 18:30:00').getTime()))
       {
@@ -87,7 +91,7 @@
 
 <body>
   <div id="cover">
-    <img src="web/img/ParsonsFestivalCover.png">
+    <a href="https://www.newschool.edu/parsons/festival/"><img src="web/img/ParsonsFestivalCover.png"></a>
   </div>
   <div class="container">
 
@@ -224,7 +228,9 @@ g
         <span class="title">_</span>
       </p>
       <p class="col-md-9">
-        _
+        While medical research has made significant strides in developing tools for the management of chronic disease, there has not been much official focus on developing methods of prevention. Incidence of chronic disease in America is steadily rising, and while Americans may be living longer, they are not necessarily living as comfortably, with people often dependent on an assortment of life-long drugs and procedures. In opposition to this grim state of affairs are modern, somewhat-radical movements like Biohacking and Wellness, which question potentially problematic habits of society and medicine. Unfortunately, the tone of such movements is indeed radical, with ambiguous research and statistics being thrown around with dogmatic zeal, ultimately creating a great deal of confusion. Such movements, however, are critical—chronic disease is indeed heavily influenced by factors of diet and lifestyle. These are the areas on which medical research should focus and then clearly inform the public.
+
+        This project is concerned primarily with the effect of diet on disease in America. Toward that end, it considers both American food consumption and American food production, as well as trends in two particular chronic diseases well known for being influenced by diet—heart disease and diabetes. Tracking each of these over a span of 50 to 100 years, it consists of a timeline exploring the historical changes in the American food supply and how this has correlated with the rate of disease. The primary consideration is the changing nutrient content of American food as a whole, followed by the changing distribution and diversity of American crops. These highly quantitative figures are punctuated by qualitative information, like important innovations in American agriculture (such as the invention and subsequent ban of DDT) and major American diet trends (such as Atkins, or Low Fat). The project superimposes all of this information to create an honest depiction of food and disease in America today and in the past. Avoiding sensationalist statistics and statements, it does not attempt to overly simplify or reduce the complexities that do indeed exist. Rather, curating multiple previously uncombined sources of data and portraying them clearly and plainly, it invites interested readers to discover relationships between them.
       </p>
     </div>
 
@@ -339,12 +345,12 @@ g
     </div>
 
     <a id="aucher"></a>
-    <div href="" img-src="preview/preview.png" class="project col-md-12">
+    <div href="https://auchers.github.io/data-visualization-thesis/#/" img-src="https://raw.githubusercontent.com/auchers/data-visualization-thesis/master/preview.png" class="project col-md-12">
       <p class=" col-md-2">
-        <span class="title">_</span>
+        <span class="title">Exploring the Potential of Green Roofs in NYC</span>
       </p>
       <p class="col-md-9">
-        _
+        This thesis explores the ways in which green roofs can be used to counteract three major urban ecological challenges in New York City. Taking the city’s existing infrastructural landscape as the starting point, this thesis moves to identify underutilized spaces where green roofs would be most amenable and beneficial from the perspective of (1) stormwater retention, (2) surface temperature regulation, and (3) biodiversity enhancement. Users will then be given opportunities to explore the data themselves and engage with questions regarding the aggregative effects, benefits, and costs of such interventions. Ultimately the goal of this project is to provide creative ways of interacting with the New York City 'building-scape' in order to foster community engagement and informed decision making for residents and policy-makers alike.
       </p>
     </div>
 
@@ -359,12 +365,12 @@ g
     </div>
 
     <a id="yicen"></a>
-    <div href="" img-src="preview/preview.png" class="project col-md-12">
+    <div href="" img-src="https://raw.githubusercontent.com/shiy918/thesis/master/food-safety.png" class="project col-md-12">
       <p class=" col-md-2">
-        <span class="title">_</span>
+        <span class="title">Bacteria Invasion: Is Your Favorite Food Contaminated?</span>
       </p>
       <p class="col-md-9">
-        _
+        Food safety is essential to civilizations. Consumption of bacteria contaminated food could result in various physiological consequences that are even detrimental. Sadly, there have been over 14,500 recall cases authorized in the United States over the past 7 years, and many of which even have global impact on food that are either imported or exported from all over the world. Moreover, documented by Centers for Disease Control and Prevention, bacteria contamination in food have led to several food borne illness outbreaks. Using data documented by Food and Drug Administration, this research project delves deeper into food safety issues, closely analyzing food recall cases that are associated with bacteria contamination in finding patterns of distributions of questionable food sources as well as disposing "big names" for producing and selling these foods.
       </p>
     </div>
 
@@ -379,12 +385,14 @@ g
     </div>
 
     <a id="george"></a>
-    <div href="" img-src="preview/preview.png" class="project col-md-12">
+    <div href="" img-src="https://raw.githubusercontent.com/sieng146/thesis/master/preview.jpg" class="project col-md-12">
       <p class=" col-md-2">
-        <span class="title">_</span>
+        <span class="title">Strength in Numbers: Mapping U.S. Naval Diplomacy, 2012-2018</span>
       </p>
       <p class="col-md-9">
-        _
+        Global seapower competition is intensifying. As China dredges up ≈3,200 acres of territory ex nihilo in the South China Sea and emplaces sea missiles astride the Philippine archipelago, and as Russia disperses its submarines more widely across the Mediterranean as it conducts simulated attack strafing runs against NATO vessels in the Baltic Sea, the Obama and Trump national security teams have faced increasingly intricate naval diplomacy and maritime security challenges in recent years.
+        <br/>
+        With these shifts in mind, this thesis examines the overall patterns in U.S. naval diplomacy worldwide from 2012 to 2018, querying diplomatic tension in the Global Database of Events, Language, and Tone (GDELT) under both the Obama and Trump administrations and comparing them to vessel movements as well as freedom of navigation operations (FONOPS). In addition, this thesis examines the geostrategic impact of Secretary of State Hillary Clinton’s diplomatic pivot to Asia in 2011 and Secretary of Defense Leon Panetta’s decision in 2012 to move 60% of the U.S. fleet to the Pacific, breaking with decades of a roughly even 50%-50% Atlantic-Pacific force posture.
       </p>
     </div>
 
@@ -401,10 +409,10 @@ g
     <a id="joe"></a>
     <div href="" img-src="preview/preview.png" class="project col-md-12">
       <p class=" col-md-2">
-        <span class="title">_</span>
+        <span class="title">Redlining And De Facto Segregation: A Web-based, Geospatial Visualisation</span>
       </p>
       <p class="col-md-9">
-        _
+        There persists in America an embedded network of institutional factors contributing to unequal social outcomes. Before and beyond any specific instances of explicit, personallydirected hate, are historically-defined patterns of disenfranchisement, operating outside the purview of the public sphere. Nowhere is the historic character of such institutions more apparent than in the context of wealth accumulation and distribution. A single arc can be traced from 19th century land endowment to ensuing 20th century credit discrimination, and forward to the perverse contemporary state of de facto segregation. Compounding the issue of discursively challenging institutional structures are broad misconceptions on their character and import. When conversations are allowed to focus around only the most explicit and literal instances, it enables all else to be hand-waved away with only vague dismissals; premises are hidden and rhetoric is elevated. In public discourse, then, value can be added through direct, concise, and easily-interpretable representations of typically oblique content. The particular case of historic redlining is a distinct candidate for such visual representation; the practice itself involved systematically denying both public and private services to neighbourhoods, based on their racial profiles. Given the clear geospatial nature of redlining and the relevant data, an opportunity exists for a graphical argument to be made on its sustained impact.
       </p>
     </div>
 
@@ -439,12 +447,14 @@ g
     </div>
 
     <a id="benz"></a>
-    <div href="" img-src="preview/preview.png" class="project col-md-12">
+    <div href="https://benzyi.github.io/thesis/" img-src="https://camo.githubusercontent.com/058acdbef0e64481c15a8fe2976280122cd4d546/68747470733a2f2f737461746963312e73717561726573706163652e636f6d2f7374617469632f3537663765616164323939346361623261386466353931632f742f3561623164353934353632666137363230643333386235382f313532313630343039353738302f6c6172696f74732e6769663f666f726d61743d3135303077" class="project col-md-12">
       <p class=" col-md-2">
-        <span class="title">_</span>
+        <span class="title">The Los Angeles Riots 1992: A memorial and historical archive of the Los Angeles Riots in 1992 through the lens of those who lost their lives.</span>
       </p>
       <p class="col-md-9">
-        _
+        The Los Angeles Riots of 1992 has a personal story to me that I only realized after doing research many years later. In order to follow through the events that took place while I was quarantined at home in the midst of the chaos, I created this visualization that had an hour-by-hour record of the events that happened from the beginning of the violence to the end of the violence. The only consequence I personally faced was not being able to get the Flamin' Hot Lays I got at my neighborhood market, Jay's Market, but instead had to go to my dad's friend's liquor store. Little did I know that the liquor store stood because my dad among other Koreans living in Los Angeles, acquired rifles and stood guard on the rooftop to deter looters.
+        <br />
+        The lives that were lost in the riots were senseless. The Los Angeles Times gathered data including stories of who each person was and how they lost their lives. A memorial is usually created with the names of the honorable who died defending our country or in a tragic event that marks history. I created this visualization in order to memorialize the events, as well as the names of those who died as a means of symbolizing an ongoing tension of power relationships and race relations that still go unresolved. The sense of injustice is what ingnited the city, while little was done to absolve or resolve any of it. It's easy to forget this event when everything is seemingly normal today, but there still lies a growing tension that should not be ignored. With that, this memorial hopes to remind us that we had to go through this tragedy and that we should do a lot more to assure the prevention of another riot like this.
       </p>
     </div>
 
@@ -459,12 +469,12 @@ g
     </div>
 
     <a id="rye"></a>
-    <div href="" img-src="preview/preview.png" class="project col-md-12">
+    <div href="https://ryezzz.github.io/data_viz_thesis/thesis_versions/presentation1/" img-src="https://user-images.githubusercontent.com/15457713/39583868-1232d002-4ebf-11e8-81d6-3332847ca359.png" class="project col-md-12">
       <p class=" col-md-2">
-        <span class="title">_</span>
+        <span class="title">Vegetation and Socioeconomic Shifts in sub-Saharan Africa</span>
       </p>
       <p class="col-md-9">
-        _
+        Vegetation indices derived from satellite flyover data tend to correlate with GDP, particularly in agrarian economies. This analysis explores the linkages between agricultural policymaking, land usage patterns/vegetation shifts, and economic output in sub-Saharan Africa. By aggregating thousands of sequential satellite measurements taken by Landsat 5, 7, and 8 between 1990 and present-day, this study constructs a normalized difference vegetation index (NDVI) using Google Earth Engine servers. Agricultural classification and geospatial masking are specified by the author.
       </p>
     </div>
 
@@ -489,20 +499,20 @@ g
 
           <a href="">Michal Bacon</a>
           <br /> <a href="">Max Carradine</a>
-          <br /> <a href="">Ellie Frymire</a>
-          <br /> <a href="">Rik Ghosh</a>
-          <br /> <a href="">Steven Hubbard</a>
-          <br /> <a href="">Julian Lange</a>
+          <br /> <a href="https://github.com/efrymire/thesis">Ellie Frymire</a>
+          <br /> <a href="https://github.com/rikghosh/thesis">Rik Ghosh</a>
+          <br /> <a href="https://github.com/hubideal/thesis">Steven Hubbard</a>
+          <br /> <a href="https://github.com/julianhlange/thesis">Julian Lange</a>
           <br /> <a href="">Kevin Lee</a>
           <br /> <a href="">Elena Paunova</a>
-          <br /> <a href="">Flávio Pessoa Sant'Anna</a>
-          <br /> <a href="">Aucher Serr</a>
-          <br /> <a href="">Yicen Shi</a>
-          <br /> <a href="">George Sieniawski</a>
-          <br /> <a href="">Joe Steele</a>
-          <br /> <a href="">Will Su</a>
-          <br /> <a href="">Benzamin Yi</a>
-          <br /> <a href="">Rye Zupancis</a>
+          <br /> <a href="https://github.com/mczoloft/thesis">Flávio Pessoa Sant'Anna</a>
+          <br /> <a href="https://github.com/auchers/data-visualization-thesis">Aucher Serr</a>f
+          <br /> <a href="https://github.com/shiy918/thesis">Yicen Shi</a>
+          <br /> <a href="https://github.com/sieng146/thesis">George Sieniawski</a>
+          <br /> <a href="https://github.com/jsteele2003/msdv_thesis">Joe Steele</a>
+          <br /> <a href="https://github.com/Jiahao01121/master-thesis">Will Su</a>
+          <br /> <a href="https://github.com/benzyi/thesis">Benzamin Yi</a>
+          <br /> <a href="https://github.com/ryezzz/data_viz_thesis">Rye Zupancis</a>
           <p></p>
 
         </div>
