@@ -46,14 +46,14 @@
 
       // index
       $("h3").each(function(i) {
-        if (!$(this).hasClass("no-touch")) {
+        if (!$(this).hasClass("no-touch") && !$(this).hasClass("hide")) {
           $("#index").append("<li><a href='#" + i + "'>" +
             "<span class='glyphicon glyphicon-chevron-down'></span>  &nbsp;" +
             $(this).text() + "</a><li>");
           $(this).prepend("<a id='" + i + "'>");
          }
         else {
-          $("#index").append("<li class='no-touch'><a href='#" + i + "'>" +
+          $("#index").append("<li class='no-touch hide'><a href='#" + i + "'>" +
             "<span class='glyphicon glyphicon-chevron-down'></span>  &nbsp;" +
             $(this).text() + "</a><li>");
           $(this).prepend("<a id='" + i + "'>");
