@@ -141,7 +141,7 @@
                     
                         <a id="nic"></a>
                         <div
-                        github-src="https://github.com/nicstark/thesis-2019"
+                        github-src="https://github.com/nicstark/thesis"
                         video-src="https://github.com/nicstark/thesis/blob/master/public/demo.mp4?raw=true"
                         class="project col-md-12">
                         <p class=" col-md-3">
@@ -255,7 +255,7 @@
 
                         <a id="clare"></a>
                         <div
-                        github-src="https://github.com/visualizedata/thesis-2019/tree/master/clareChurchouse"
+                        github-src="https://github.com/churc/MajorStudio2"
                         video-src="https://github.com/churc/MajorStudio2/blob/master/images/MS2_clare_VLC.m4v?raw=true"
                         class="project col-md-12">
                         <p class=" col-md-3">
@@ -288,7 +288,7 @@
 
                         <a id="kiril"></a>
                         <div
-                            github-src="https://github.com/visualizedata/thesis-2019/tree/master/kirilTraykov"
+                            github-src="https://github.com/kiriltraykov/kiriltraykov.github.io/tree/master/thesis"
                             video-src="https://github.com/kiriltraykov/kiriltraykov.github.io/blob/master/kiril.m4v?raw=true"
                             class="project col-md-12">
                         <p class=" col-md-3">
@@ -341,7 +341,7 @@
 
                         <a id="candice"></a>
                         <div
-                        github-src="https://github.com/visualizedata/thesis-2019/tree/master/candiceJoanMaiChan"
+                        github-src="https://github.com/candicejmchan/candicethesis"
                         video-src="https://github.com/candicejmchan/candicethesis2019/blob/master/demo.mov?raw=true"
                         class="project col-md-12">
                         <p class=" col-md-3">
@@ -377,7 +377,7 @@
 
                         <a id="colleen"></a>
                         <div
-                        github-src="https://github.com/visualizedata/thesis-2019/tree/master/colleenMcCaffrey"
+                        github-src="https://github.com/colmccaffrey/thesis"
                         video-src="https://github.com/colmccaffrey/thesis/blob/master/src/documentation/demo.mov?raw=true"
                         class="project col-md-12">
                         <p class=" col-md-3">
@@ -413,7 +413,7 @@
 
                         <a id="batool"></a>
                         <div
-                        github-src="https://github.com/visualizedata/thesis-2019/tree/master/batoolAkbar"
+                        github-src="https://github.com/bsakbar/thesis"
                         video-src="https://github.com/bsakbar/thesis/blob/master/assets/demo.mov?raw=true"
                         class="project col-md-12">
                         <p class=" col-md-3">
@@ -451,7 +451,7 @@
 
                         <a id="felix"></a>
                         <div
-                        github-src="https://github.com/visualizedata/thesis-2019/tree/master/felixBuchholz"
+                        github-src="https://github.com/felixbuchholz/thesis"
                         video-src="https://raw.githubusercontent.com/felixbuchholz/thesis2019/master/public/assets/demo.mov"
                         class="project col-md-12">
                         <p class=" col-md-3">
@@ -487,7 +487,7 @@
 
                         <a id="mikaela"></a>
                         <div
-                        github-src="https://github.com/visualizedata/thesis-2019/tree/master/mikaelaErgasLenett"
+                        github-src="https://github.com/mikaela-el/thesis"
                         video-src="https://github.com/mikaela-el/thesis/blob/master/demo.mov?raw=true"
                         class="project col-md-12">
                         <p class=" col-md-3">
@@ -544,7 +544,7 @@
 
                         <a id="alonso"></a>
                         <div
-                        github-src="https://github.com/visualizedata/thesis-2019/tree/master/alonsoAlcocerGuemez"
+                        github-src="https://github.com/alonsoag86/msdv-final"
                         video-src="https://github.com/alonsoag86/msdv-final/blob/master/demo.m4v?raw=true"
                         class="project col-md-12">
                         <p class=" col-md-3">
@@ -580,7 +580,7 @@
 
                         <a id="jed"></a>
                         <div
-                        github-src=""
+                        github-src="https://github.com/okhobb/jedrs-thesis"
                         video-src="https://github.com/jed-c/thesis-video/raw/master/demo.m4v"
                         class="project col-md-12">
                         <p class=" col-md-3">
@@ -612,7 +612,7 @@
 
                         <a id="stephanie"></a>
                         <div
-                        github-src="https://github.com/visualizedata/thesis-2019/tree/master/stephanieYung"
+                        github-src="https://github.com/ssyung/thesis"
                         video-src="https://github.com/ssyung/thesis/blob/master/documentation/demo.m4v?raw=true"
                         class="project col-md-12">
                         <p class=" col-md-3">
@@ -654,7 +654,7 @@
 
                         <a id="isabel"></a>
                         <div
-                        github-src="https://github.com/visualizedata/thesis-2019/tree/master/isabelVerkes"
+                        github-src="https://github.com/IsVer/mst/"
                         video-src="https://github.com/ssyung/thesis/blob/master/documentation/demo.m4v?raw=true"
                         class="project col-md-12">
                         <p class=" col-md-3">
@@ -690,7 +690,7 @@
 
                         <a id="suzanna"></a>
                         <div
-                        github-src="https://github.com/visualizedata/thesis-2019/tree/master/suzannaSchmeelk"
+                        github-src="https://github.com/schmeelk/SchmeelkIdentityTheftVizThesis"
                         video-src="https://schmeelk.github.io/SchmeelkIdentityTheftVizThesis/AnatomyOfABreach.mov"
                         class="project col-md-12">
                         <p class=" col-md-3">
@@ -747,7 +747,7 @@
 
                         <a id="andrew"></a>
                         <div                       
-                        github-src="https://github.com/visualizedata/thesis-2019/tree/master/andrewLevinson"
+                        github-src="https://github.com/AndrewLevinson/thesis"
                         video-src="https://raw.githubusercontent.com/AndrewLevinson/thesis/master/src/assets/demo.mov"
                         class="project col-md-12">
                         <p class=" col-md-3">
@@ -783,7 +783,7 @@
 
                         <a id="michael"></a>
                         <div                        
-                        github-src="https://github.com/visualizedata/thesis-2019/tree/master/michaelWolf"
+                        github-src="https://github.com/wolfm2/thesis"
                         video-src="https://wolfm2.github.io/thesis/demo.mp4"
                         class="project col-md-12">
                         <p class=" col-md-3">
@@ -819,7 +819,7 @@
 
                         <a id="grace"></a>
                         <div
-                        github-src="https://github.com/visualizedata/thesis-2019/tree/master/graceMartinez"
+                        github-src="https://github.com/graceiseverywhere/thesis/"
                         video-src="https://github.com/graceiseverywhere/thesis/blob/master/demo.mov?raw=true"
                         class="project col-md-12">
                         <p class=" col-md-3">
@@ -857,7 +857,7 @@
 
                         <a id="aaditi"></a>
                         <div
-                        github-src="https://github.com/visualizedata/thesis-2019/tree/master/aaditiRokade"
+                        github-src="https://github.com/aaditirokade/thesis"
                         video-src="https://github.com/aaditirokade/thesis/blob/master/demo.m4v?raw=true"
                         class="project col-md-12">
                         <p class=" col-md-3">
@@ -893,7 +893,7 @@
 
                         <a id="ryan"></a>
                         <div
-                        github-src="https://github.com/visualizedata/thesis-2019/tree/master/ryanBest"
+                        github-src="https://github.com/ryanabest/ms2-2019/tree/master/thesis"
                         video-src="https://raw.githubusercontent.com/ryanabest/ms2-2019/master/thesis/public/demo.mov"
                         class="project col-md-12">
                         <p class=" col-md-3">
@@ -941,7 +941,7 @@
 
                         <div class="col-md-3">
 
-                        <p><a href="http://www.newschool.edu/parsons/ms-data-visualization/" target="_blank">MS Data Visualization 2020</a></p>
+                        <p><a href="http://www.newschool.edu/parsons/ms-data-visualization/" target="_blank">MS Data Visualization 2019</a></p>
                         <br />
                         <a href="https://github.com/bsakbar/thesis" target="_blank">Batool Akbar</a>
                         <br /> <a href="https://github.com/ryanabest/ms2-2019/tree/master/thesis" target="_blank">Ryan Best</a>
