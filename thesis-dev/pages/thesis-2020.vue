@@ -4,7 +4,7 @@
             <div>
             <div id="cover">
                 <iframe height="100%" width="100%" src="https://visualizedata.github.io/keynotes/"></iframe>
-                <img src="./img/cover.png">
+                <img src="./img/cover-2020.png">
             </div>
             <div class="container">
 
@@ -34,7 +34,7 @@
                                 </div>
                             </el-col>
                             <el-col :span="18" :push="3">
-                                <div class="subtitle font-width-3 kern-decrease-10 col-md-10">
+                                <div class="msdv-subtitle font-width-3 kern-decrease-10 col-md-10">
                                 Thesis Projects and Research
                                 </div>
                             </el-col>
@@ -96,10 +96,15 @@
                 <!--SEARCH-->
 
                 <el-row :gutter="20">
-                    <el-col :span="18" :offset="3">
+                    <el-col :span="18"  :offset="3">
                         <div class="col-md-12 col-md-10 col-md-offset-1">
 
-                                <!--build search function here-->
+                            <!--build search function here-->                    
+                            <el-input
+                                placeholder="Search or enter keyword"
+                                prefix-icon="el-icon-search"
+                                v-model="input">
+                            </el-input>
 
                         </div>
                     </el-col>
@@ -124,7 +129,7 @@
 
                 <el-row :gutter="20">
 
-                    <!--Marisa Asari-->
+                    <!--Marisa Asari (2020)-->
                     <el-col :span="6" :offset="3">
                         <div class="bottom-stripe col-md-12">
                         <div class="bottom-stripe-inner"></div>
@@ -135,28 +140,28 @@
                         </div>
                     
                         <a id="marisa"></a>
-                        <div
-                        github-src="https://github.com/marisaruizasari/thesis"
-                        video-src="https://github.com/marisaruizasari/thesis/raw/master/demo.mp4"
-                        class="project col-md-12">
-                        <p class=" col-md-3">
-                            <span class="title">
-                            Weapons of Mass Injustice
-                            </span>
-                        </p>
-                        <br>
-                        <vue-load-image>
-                            <a href="https://weaponsofmassinjustice.netlify.app/" target="_blank">
-                            <img slot="image-marisa" src="preview-2020/marisa.png"/>
-                            </a>
-                        </vue-load-image>
-                        <p class="col-md-9">
-                            Visualizing the unequal impacts of gun violence and the search for peace in America’s cities...
-                        </p> 
+                        <div class="project col-md-12">
+                            <p class=" col-md-3">
+                                <span class="title">
+                                Weapons of Mass Injustice
+                                </span>
+                            </p>
+                            <br>
+                            <vue-load-image>
+                                <a href="https://weaponsofmassinjustice.netlify.app/" target="_blank">
+                                <img slot="image-marisa" src="preview-2020/marisa.png"/>
+                                </a>
+                            </vue-load-image>
+                            <p class="col-md-9">
+                                Visualizing the unequal impacts of gun violence and the search for peace in America’s cities...
+                            </p>
+                            <br>
+                            <a id="github" href="https://github.com/marisaruizasari/thesis" target="_blank">[GitHub]</a>
+                            <a id="download" href="https://github.com/marisaruizasari/thesis/raw/master/demo.mp4">[Download Video]</a>
                         </div>
                     </el-col>
 
-                    <!--Robin Coenen-->
+                    <!--Robin Coenen (2020)-->
                     <el-col :span="6">
                         <div class="bottom-stripe col-md-12">
                         <div class="bottom-stripe-inner"></div>
@@ -167,28 +172,28 @@
                         </div>
 
                         <a id="robin"></a>
-                        <div
-                        github-src="https://github.com/robincoenen/thesis_production"
-                        video-src="https://github.com/robincoenen/thesis_production/raw/master/demo.mp4"
-                        class="project col-md-12">
-                        <p class=" col-md-3">
-                            <span class="title">
-                            With Compliments to the Secretary General
-                            </span>
-                        </p>
-                        <br>
-                        <vue-load-image>
-                            <a href="https://parsons.nyc/thesis-2020/robinCoenen" target="_blank">
-                            <img slot="image-robin" src="preview-2020/robin.png"/>
-                            </a>
-                        </vue-load-image>
-                        <p class="col-md-9">
-                            Visualizing Maritime Claims at the UN in regard to the Continental Shelf...
-                        </p>
+                        <div class="project col-md-12">
+                            <p class=" col-md-3">
+                                <span class="title">
+                                With Compliments to the Secretary General
+                                </span>
+                            </p>
+                            <br>
+                            <vue-load-image>
+                                <a href="https://parsons.nyc/thesis-2020/robinCoenen" target="_blank">
+                                <img slot="image-robin" src="preview-2020/robin.png"/>
+                                </a>
+                            </vue-load-image>
+                            <p class="col-md-9">
+                                Visualizing Maritime Claims at the UN in regard to the Continental Shelf...
+                            </p>
+                            <br>
+                            <a id="github" href="https://github.com/robincoenen/thesis_production" target="_blank">[GitHub]</a>
+                            <a id="download" href="https://github.com/robincoenen/thesis_production/raw/master/demo.mp4">[Download Video]</a>                        
                         </div>
                     </el-col>
 
-                    <!--Mio Akasako-->
+                    <!--Mio Akasako (2020)-->
                     <el-col :span="6">
                         <div class="bottom-stripe col-md-12">
                         <div class="bottom-stripe-inner"></div>
@@ -199,24 +204,28 @@
                         </div>
 
                         <a id="mio"></a>
-                        <div
-                        github-src="https://github.com/miopio/thesis-play"
-                        video-src="https://github.com/miopio/thesis-play/raw/master/demo.mp4"
-                        class="project col-md-12">
-                        <p class=" col-md-3">
-                            <span class="title">
-                            Women in STEM: A Lesson in Perseverance
-                            </span>
-                        </p>
-                        <br>
-                        <vue-load-image>
-                            <a href="https://miopio.github.io/thesis-play" target="_blank">
-                            <img slot="image-mio" src="preview-2020/mio.png"/>
-                            </a>
-                        </vue-load-image>
-                        <p class="col-md-9">
-                            Exploring different facets of sexual misconduct, harassment, and discrimination in STEM academia...
-                        </p>
+                        <div class="project col-md-12">
+                            <p class=" col-md-3">
+                                <span class="title">
+                                Women in STEM
+                                </span>
+                                <br>
+                                <span class="subtitle">
+                                A Lesson in Perseverance
+                                </span>
+                            </p>
+                            <br>
+                            <vue-load-image>
+                                <a href="https://miopio.github.io/thesis-play" target="_blank">
+                                <img slot="image-mio" src="preview-2020/mio.png"/>
+                                </a>
+                            </vue-load-image>
+                            <p class="col-md-9">
+                                Exploring different facets of sexual misconduct, harassment, and discrimination in STEM academia...
+                            </p>
+                            <br>
+                            <a id="github" href="https://github.com/miopio/thesis-play" target="_blank">[GitHub]</a>
+                            <a id="download" href="https://github.com/miopio/thesis-play/raw/master/demo.mp4">[Download Video]</a>                             
                         </div>
                     </el-col>
 
@@ -226,7 +235,7 @@
 
                 <el-row :gutter="20">
 
-                    <!--Saloni Naishad Shah-->
+                    <!--Saloni Naishad Shah (2020)-->
                     <el-col :span="6" :offset="3">
                         <div class="bottom-stripe col-md-12">
                         <div class="bottom-stripe-inner"></div>
@@ -237,29 +246,29 @@
                         </div>
 
                         <a id="saloni"></a>
-                        <div
-                        github-src="https://github.com/salonieshah/money-or-mitigation"
-                        video-src="https://github.com/salonieshah/money-or-mitigation/raw/master/demo.mp4"
-                        class="project col-md-12">
-                        <p class=" col-md-3">
-                            <span class="title">
-                            Are Forest Money or Mitigation?
-                            </span>
-                        </p>
-                        <br>                                            
-                        <vue-load-image>
-                            <a href="https://parsons.nyc/thesis-2020/saloniNaishadShah" target="_blank">
-                            <img slot="image-saloni" src="preview-2020/saloni.png"/>
-                            </a>
-                        </vue-load-image>
+                        <div class="project col-md-12">
+                            <p class=" col-md-3">
+                                <span class="title">
+                                Are Forest Money or Mitigation?
+                                </span>
+                            </p>
+                            <br>                                            
+                            <vue-load-image>
+                                <a href="https://parsons.nyc/thesis-2020/saloniNaishadShah" target="_blank">
+                                <img slot="image-saloni" src="preview-2020/saloni.png"/>
+                                </a>
+                            </vue-load-image>
 
-                        <p class="col-md-9">
-                            Understanding the impact of carbon cap and trade markets on deforestation and emissions...
-                        </p>
+                            <p class="col-md-9">
+                                Understanding the impact of carbon cap and trade markets on deforestation and emissions...
+                            </p>
+                            <br>
+                            <a id="github" href="https://github.com/salonieshah/money-or-mitigation" target="_blank">[GitHub]</a>
+                            <a id="download" href="https://github.com/salonieshah/money-or-mitigation/raw/master/demo.mp4">[Download Video]</a>                            
                         </div>
                     </el-col>
                     
-                    <!--Michael Desai-->
+                    <!--Michael Desai (2020)-->
                     <el-col :span="6">
                         <div class="bottom-stripe col-md-12">
                         <div class="bottom-stripe-inner"></div>
@@ -270,24 +279,24 @@
                         </div>
 
                         <a id="michael"></a>
-                        <div
-                            github-src="https://github.com/mi-desai/thesis"
-                            video-src="https://github.com/mi-desai/thesis/raw/master/demo.mp4"
-                            class="project col-md-12">
-                        <p class=" col-md-3">
-                            <span class="title">
-                            Visual Value
-                            </span>
-                        </p>
-                        <br>
-                        <vue-load-image>
-                            <a href="https://parsons.nyc/thesis-2020/michaelDesai/" target="_blank">
-                            <img slot="image-michael" src="preview-2020/michael.png"/>
-                            </a>
-                        </vue-load-image>
-                        <p class="col-md-9">
-                            A User Interface for Exploring Income Statements...
-                        </p>
+                        <div class="project col-md-12">
+                            <p class=" col-md-3">
+                                <span class="title">
+                                Visual Value
+                                </span>
+                            </p>
+                            <br>
+                            <vue-load-image>
+                                <a href="https://parsons.nyc/thesis-2020/michaelDesai/" target="_blank">
+                                <img slot="image-michael" src="preview-2020/michael.png"/>
+                                </a>
+                            </vue-load-image>
+                            <p class="col-md-9">
+                                A User Interface for Exploring Income Statements...
+                            </p>
+                            <br>
+                            <a id="github" href="https://github.com/mi-desai/thesis" target="_blank">[GitHub]</a>
+                            <a id="download" href="https://github.com/mi-desai/thesis/raw/master/demo.mp4">[Download Video]</a>                            
                         </div>
                     </el-col>
 
@@ -312,7 +321,7 @@
 
                 <el-row :gutter="20">
 
-                    <!--Dan Ran-->
+                    <!--Dan Ran (2020)-->
                     <el-col :span="6" :offset="3">
                         <div class="bottom-stripe col-md-12">
                         <div class="bottom-stripe-inner"></div>
@@ -323,28 +332,32 @@
                         </div>
 
                         <a id="dan"></a>
-                        <div
-                        github-src="https://github.com/shuvitRan/ShenzhenLivability"
-                        video-src="https://github.com/shuvitRan/ShenzhenLivability/raw/master/demo.mp4"
-                        class="project col-md-12">
-                        <p class=" col-md-3">
-                            <span class="title">
-                            Shenzhen: The Growth and Livability of a Mega-city
-                            </span>
-                        </p>
-                        <br>
-                        <vue-load-image>
-                            <a href="https://shuvitran.github.io/szapp/" target="_blank">
-                            <img slot="image-danR" src="preview-2020/danR.png"/>
-                            </a>
-                        </vue-load-image>
-                        <p class="col-md-9">
-                            Shenzhen, known as China's booming silicon valley today, used to be a small fish town 40 years ago...
-                        </p>
+                        <div class="project col-md-12">
+                            <p class=" col-md-3">
+                                <span class="title">
+                                Shenzhen
+                                </span>
+                                <br>
+                                <span class="subtitle">
+                                The Growth and Livability of a Mega-city
+                                </span>
+                            </p>
+                            <br>
+                            <vue-load-image>
+                                <a href="https://shuvitran.github.io/szapp/" target="_blank">
+                                <img slot="image-danR" src="preview-2020/danR.png"/>
+                                </a>
+                            </vue-load-image>
+                            <p class="col-md-9">
+                                Shenzhen, known as China's booming silicon valley today, used to be a small fish town 40 years ago...
+                            </p>
+                            <br>
+                            <a id="github" href="https://github.com/shuvitRan/ShenzhenLivability" target="_blank">[GitHub]</a>
+                            <a id="download" href="https://github.com/shuvitRan/ShenzhenLivability/raw/master/demo.mp4">[Download Video]</a>                            
                         </div>
                     </el-col>
 
-                    <!--Amanda Anderson-You-->
+                    <!--Amanda Anderson-You (2020)-->
                     <el-col :span="6">
                         <div class="bottom-stripe col-md-12">
                         <div class="bottom-stripe-inner"></div>
@@ -355,28 +368,28 @@
                         </div>
 
                         <a id="amanda"></a>
-                        <div
-                        github-src="https://github.com/amandersonyou/ClimateSleepThesis"
-                        video-src="https://github.com/amandersonyou/ClimateSleepThesis/raw/master/demo.mp4"
-                        class="project col-md-12">
-                        <p class=" col-md-3">
-                            <span class="title">
-                            Climate & Sleep
-                            </span>
-                        </p>
-                        <br>
-                        <vue-load-image>
-                            <a href="https://parsons.nyc/thesis-2020/amandaAnderson/" target="_blank">
-                            <img slot="image-amanda" src="preview-2020/amanda.png"/>
-                            </a>
-                        </vue-load-image>
-                        <p class="col-md-9">
-                            Exploring the relationship between the climate crisis and sleep health...
-                        </p>
+                        <div class="project col-md-12">
+                            <p class=" col-md-3">
+                                <span class="title">
+                                Climate & Sleep
+                                </span>
+                            </p>
+                            <br>
+                            <vue-load-image>
+                                <a href="https://parsons.nyc/thesis-2020/amandaAnderson/" target="_blank">
+                                <img slot="image-amanda" src="preview-2020/amanda.png"/>
+                                </a>
+                            </vue-load-image>
+                            <p class="col-md-9">
+                                Exploring the relationship between the climate crisis and sleep health...
+                            </p>
+                            <br>
+                            <a id="github" href="https://github.com/amandersonyou/ClimateSleepThesis" target="_blank">[GitHub]</a>
+                            <a id="download" href="https://github.com/amandersonyou/ClimateSleepThesis/raw/master/demo.mp4">[Download Video]</a>                          
                         </div>
                     </el-col>
 
-                    <!--Yiran Ni-->
+                    <!--Yiran Ni (2020)-->
                     <el-col :span="6">
                         <div class="bottom-stripe col-md-12">
                         <div class="bottom-stripe-inner"></div>
@@ -387,24 +400,24 @@
                         </div>
 
                         <a id="yiran"></a>
-                        <div
-                        github-src="https://github.com/yiranni/master-thesis"
-                        video-src="https://github.com/yiranni/master-thesis/raw/master/demo.mp4"
-                        class="project col-md-12">
-                        <p class=" col-md-3">
-                            <span class="title">
-                            Global Travel of Zoonotic Diseases.
-                            </span>
-                        </p>
-                        <br>
-                        <vue-load-image>
-                            <a href="https://parsons.nyc/thesis-2020/yiranNi" target="_blank">
-                            <img slot="image-yiran" src="preview-2020/yiran.png"/>
-                            </a>
-                        </vue-load-image>
-                        <p class="col-md-9">
-                            An analysis of how global wildlife trading is related to the zoonotic diseases.
-                        </p>
+                        <div class="project col-md-12">
+                            <p class=" col-md-3">
+                                <span class="title">
+                                Global Travel of Zoonotic Diseases.
+                                </span>
+                            </p>
+                            <br>
+                            <vue-load-image>
+                                <a href="https://parsons.nyc/thesis-2020/yiranNi" target="_blank">
+                                <img slot="image-yiran" src="preview-2020/yiran.png"/>
+                                </a>
+                            </vue-load-image>
+                            <p class="col-md-9">
+                                An analysis of how global wildlife trading is related to the zoonotic diseases...
+                            </p>
+                            <br>
+                            <a id="github" href="https://github.com/yiranni/master-thesis" target="_blank">[GitHub]</a>
+                            <a id="download" href="https://github.com/yiranni/master-thesis/raw/master/demo.mp4">[Download Video]</a>                           
                         </div>
                     </el-col>
 
@@ -414,7 +427,7 @@
 
                 <el-row :gutter="20">
 
-                    <!--Nour Zein-->
+                    <!--Nour Zein (2020)-->
                     <el-col :span="6" :offset="3">
                         <div class="bottom-stripe col-md-12">
                         <div class="bottom-stripe-inner"></div>
@@ -425,28 +438,28 @@
                         </div>
 
                         <a id="nour"></a>
-                        <div
-                        github-src="https://github.com/nourzein/thesis"
-                        video-src="https://github.com/nourzein/thesis/raw/master/demo.mp4"
-                        class="project col-md-12">
-                        <p class=" col-md-3">
-                            <span class="title">
-                            Greening From the Rooftops
-                            </span>
-                        </p>
-                        <br>
-                        <vue-load-image>
-                            <a href="https://green-roof-potential.herokuapp.com/" target="_blank">
-                            <img slot="image-nour" src="preview-2020/nour.png"/>
-                            </a>
-                        </vue-load-image>
-                        <p class="col-md-9">
-                            A User Interface for Mapping New York City's Green Roof Potential...
-                        </p>
+                        <div class="project col-md-12">
+                            <p class=" col-md-3">
+                                <span class="title">
+                                Greening From the Rooftops
+                                </span>
+                            </p>
+                            <br>
+                            <vue-load-image>
+                                <a href="https://green-roof-potential.herokuapp.com/" target="_blank">
+                                <img slot="image-nour" src="preview-2020/nour.png"/>
+                                </a>
+                            </vue-load-image>
+                            <p class="col-md-9">
+                                A User Interface for Mapping New York City's Green Roof Potential...
+                            </p>
+                            <br>
+                            <a id="github" href="https://github.com/nourzein/thesis" target="_blank">[GitHub]</a>
+                            <a id="download" href="https://github.com/nourzein/thesis/raw/master/demo.mp4">[Download Video]</a>                              
                         </div>
                     </el-col>
 
-                    <!--Zui Chen-->
+                    <!--Zui Chen (2020)-->
                     <el-col :span="6">
                         <div class="bottom-stripe col-md-12">
                         <div class="bottom-stripe-inner"></div>
@@ -457,24 +470,24 @@
                         </div>
 
                         <a id="zui"></a>
-                        <div
-                        github-src="https://github.com/azuic/unmasking-masks"
-                        video-src="https://github.com/azuic/unmask-mask/raw/master/demo.mp4"
-                        class="project col-md-12">
-                        <p class=" col-md-3">
-                            <span class="title">
-                            Unmasking Masks
-                            </span>
-                        </p>
-                        <br>
-                        <vue-load-image>
-                            <a href="https://parsons.nyc/thesis-2020/zuiChen" target="_blank">
-                            <img slot="image-zui" src="preview-2020/zui.png"/>
-                            </a>
-                        </vue-load-image>
-                        <p class="col-md-9">
-                            Uncovering global attitudes towards masks. Masks have recently become common objects in our daily life...
-                        </p>
+                        <div class="project col-md-12">
+                            <p class=" col-md-3">
+                                <span class="title">
+                                Unmasking Masks
+                                </span>
+                            </p>
+                            <br>
+                            <vue-load-image>
+                                <a href="https://parsons.nyc/thesis-2020/zuiChen" target="_blank">
+                                <img slot="image-zui" src="preview-2020/zui.png"/>
+                                </a>
+                            </vue-load-image>
+                            <p class="col-md-9">
+                                Uncovering global attitudes towards masks. Masks have recently become common objects in our daily life...
+                            </p>
+                            <br>
+                            <a id="github" href="https://github.com/azuic/unmasking-masks" target="_blank">[GitHub]</a>
+                            <a id="download" href="https://github.com/azuic/unmask-mask/raw/master/demo.mp4">[Download Video]</a>                                
                         </div>
                     </el-col>
 
@@ -499,7 +512,7 @@
 
                 <el-row :gutter="20">
 
-                    <!--Neil Oliver-->
+                    <!--Neil Oliver (2020)-->
                     <el-col :span="6" :offset="3">
                         <div class="bottom-stripe col-md-12">
                         <div class="bottom-stripe-inner"></div>
@@ -510,28 +523,28 @@
                         </div>
 
                         <a id="neil"></a>
-                        <div
-                        github-src="https://github.com/neil-oliver/thesis"
-                        video-src="https://github.com/neil-oliver/thesis/raw/master/demo.mp4"
-                        class="project col-md-12">
-                        <p class=" col-md-3">
-                            <span class="title">
-                            Is Twitter Feeding Bitcoin?
-                            </span>
-                        </p>
-                        <br>
-                        <vue-load-image>
-                            <a href="http://neiloliver.co/influence/" target="_blank">
-                            <img slot="image-neil" src="preview-2020/neil.png"/>
-                            </a>
-                        </vue-load-image>
-                        <p class="col-md-9">
-                            An analysis of Twitter content, user behavior, and correlation to Bitcoin market value...
-                        </p>
+                        <div class="project col-md-12">
+                            <p class=" col-md-3">
+                                <span class="title">
+                                Is Twitter Feeding Bitcoin?
+                                </span>
+                            </p>
+                            <br>
+                            <vue-load-image>
+                                <a href="http://neiloliver.co/influence/" target="_blank">
+                                <img slot="image-neil" src="preview-2020/neil.png"/>
+                                </a>
+                            </vue-load-image>
+                            <p class="col-md-9">
+                                An analysis of Twitter content, user behavior, and correlation to Bitcoin market value...
+                            </p>
+                            <br>
+                            <a id="github" href="https://github.com/neil-oliver/thesis" target="_blank">[GitHub]</a>
+                            <a id="github" href="https://github.com/neil-oliver/thesis/raw/master/demo.mp4">[Download Video]</a>                                
                         </div>
                     </el-col>
 
-                    <!--Lulu Tanenbaum-->
+                    <!--Lulu Tanenbaum (2020)-->
                     <el-col :span="6">
                         <div class="bottom-stripe col-md-12">
                         <div class="bottom-stripe-inner"></div>
@@ -542,28 +555,28 @@
                         </div>
 
                         <a id="lulu"></a>
-                        <div
-                        github-src="https://github.com/lulujordanna/thesis"
-                        video-src="https://github.com/lulujordanna/thesis/raw/master/demo.mp4"
-                        class="project col-md-12">
-                        <p class=" col-md-3">
-                            <span class="title">
-                            Your Brain on Political Media
-                            </span>
-                        </p>
-                        <br>
-                        <vue-load-image>
-                            <a href="https://lulujordanna.github.io/thesis/" target="_blank">
-                            <img slot="image-lulu" src="preview-2020/lulu.png"/>
-                            </a>
-                        </vue-load-image>
-                        <p class="col-md-9">
-                            Voting choices are made on more than just facts – emotion, bias and unconscious thought play an important...
-                        </p>
+                        <div class="project col-md-12">
+                            <p class=" col-md-3">
+                                <span class="title">
+                                Your Brain on Political Media
+                                </span>
+                            </p>
+                            <br>
+                            <vue-load-image>
+                                <a href="https://lulujordanna.github.io/thesis/" target="_blank">
+                                <img slot="image-lulu" src="preview-2020/lulu.png"/>
+                                </a>
+                            </vue-load-image>
+                            <p class="col-md-9">
+                                Voting choices are made on more than just facts – emotion, bias and unconscious thought play an important...
+                            </p>
+                            <br>
+                            <a id="github" href="https://github.com/lulujordanna/thesis" target="_blank">[GitHub]</a>
+                            <a id="download" href="https://github.com/lulujordanna/thesis/raw/master/demo.mp4">[Download Video]</a>                                     
                         </div>
                     </el-col>
 
-                    <!--Antonie Dreyer-->
+                    <!--Antonie Dreyer (2020)-->
                     <el-col :span="6">
                         <div class="bottom-stripe col-md-12">
                         <div class="bottom-stripe-inner"></div>
@@ -574,24 +587,23 @@
                         </div>
 
                         <a id="antonie"></a>
-                        <div
-                        github-src="https://github.com/acdreyer/thesis"
-                        video-src=""
-                        class="project col-md-12">
-                        <p class=" col-md-3">
-                            <span class="title">
-                            From NACA to NASA
-                            </span>
-                        </p>
-                        <br>
-                        <vue-load-image>
-                            <a href="https://parsons.nyc/thesis-2020/antonieDreyer/" target="_blank">
-                            <img slot="image-antonie" src="preview-2020/antonie.png"/>
-                            </a>
-                        </vue-load-image>
-                        <p class="col-md-9">
-                            Visualizing research paper metadata in the field of Aerospace Engineering for more efficient knowledge exploration, research and learning... 
-                        </p>
+                        <div class="project col-md-12">
+                            <p class=" col-md-3">
+                                <span class="title">
+                                From NACA to NASA
+                                </span>
+                            </p>
+                            <br>
+                            <vue-load-image>
+                                <a href="https://parsons.nyc/thesis-2020/antonieDreyer/" target="_blank">
+                                <img slot="image-antonie" src="preview-2020/antonie.png"/>
+                                </a>
+                            </vue-load-image>
+                            <p class="col-md-9">
+                                Visualizing research paper metadata in the field of Aerospace Engineering for more efficient knowledge exploration, research and learning... 
+                            </p>
+                            <br>
+                            <a id="github" href="https://github.com/acdreyer/thesis" target="_blank">[GitHub]</a>                             
                         </div>
                     </el-col>
 
@@ -601,7 +613,7 @@
 
                 <el-row :gutter="20">
 
-                    <!--Janice Yamanaka-Lew-->
+                    <!--Janice Yamanaka-Lew (2020)-->
                     <el-col :span="6" :offset="3">
                         <div class="bottom-stripe col-md-12">
                         <div class="bottom-stripe-inner"></div>
@@ -612,29 +624,28 @@
                         </div>
 
                         <a id="janice"></a>
-                        <div
-                        github-src="https://github.com/jyamanaka/MajorStudio2"
-                        img-src="preview/janice.png"
-                        video-src="https://github.com/jyamanaka/MajorStudio2/raw/master/demo.mp4"
-                        class="project col-md-12">
-                        <p class=" col-md-3">
-                            <span class="title">
-                            Swamp Walk
-                            </span>
-                        </p>
-                        <br>
-                        <vue-load-image>
-                            <a href="https://parsons.nyc/thesis-2020/janiceYamanakaLew/index.html" target="_blank">
-                            <img slot="image-janice" src="preview-2020/janice.png"/>
-                            </a>
-                        </vue-load-image>                        
-                        <p class="col-md-9">
-                            Stepping into the Great Swamp Swamps have always been a source of terror and fascination but are actually valuable ecosystems...
-                        </p>
+                        <div class="project col-md-12">
+                            <p class=" col-md-3">
+                                <span class="title">
+                                Swamp Walk
+                                </span>
+                            </p>
+                            <br>
+                            <vue-load-image>
+                                <a href="https://parsons.nyc/thesis-2020/janiceYamanakaLew/index.html" target="_blank">
+                                <img slot="image-janice" src="preview-2020/janice.png"/>
+                                </a>
+                            </vue-load-image>                        
+                            <p class="col-md-9">
+                                Stepping into the Great Swamp Swamps have always been a source of terror and fascination but are actually valuable ecosystems...
+                            </p>
+                            <br>
+                            <a id="github" href="https://github.com/jyamanaka/MajorStudio2" target="_blank">[GitHub]</a>
+                            <a id="download" href="https://github.com/jyamanaka/MajorStudio2/raw/master/demo.mp4">[Download Video]</a>                             
                         </div>
                     </el-col>
 
-                    <!--Brad MacDonald-->
+                    <!--Brad MacDonald (2020)-->
                     <el-col :span="6">
                         <div class="bottom-stripe col-md-12">
                         <div class="bottom-stripe-inner"></div>
@@ -645,25 +656,24 @@
                         </div>
 
                         <a id="brad"></a>
-                        <div
-                        github-src="https://github.com/daggus/EmojiEpoch/"
-                        img-src="preview/brad.png"
-                        video-src="https://github.com/daggus/EmojiEpoch//raw/master/demo.mp4"
-                        class="project col-md-12">
-                        <p class=" col-md-3">
-                            <span class="title">
-                            The Rona and Me
-                            </span>
-                        </p>
-                        <br>
-                        <vue-load-image>
-                            <a href="https://emoji-epoch.glitch.me/" target="_blank">
-                            <img slot="image-brad" src="preview-2020/brad.png"/>
-                            </a>
-                        </vue-load-image>                            
-                        <p class="col-md-9">
-                            An emoji-focused reflection on my experience with COVID-19 in an era of imposed digital connection...
-                        </p>
+                        <div class="project col-md-12">
+                            <p class=" col-md-3">
+                                <span class="title">
+                                The Rona and Me
+                                </span>
+                            </p>
+                            <br>
+                            <vue-load-image>
+                                <a href="https://emoji-epoch.glitch.me/" target="_blank">
+                                <img slot="image-brad" src="preview-2020/brad.png"/>
+                                </a>
+                            </vue-load-image>                            
+                            <p class="col-md-9">
+                                An emoji-focused reflection on my experience with COVID-19 in an era of imposed digital connection...
+                            </p>
+                            <br>
+                            <a id="github" href="https://github.com/daggus/EmojiEpoch/" target="_blank">[GitHub]</a>
+                            <a id="download" href="https://github.com/daggus/EmojiEpoch//raw/master/demo.mp4">[Download Video]</a>                            
                         </div>
                     </el-col>
 
@@ -688,7 +698,7 @@
 
                 <el-row :gutter="20">
 
-                    <!--John Outwater-->
+                    <!--John Outwater (2020)-->
                     <el-col :span="6" :offset="3">
                         <div class="bottom-stripe col-md-12">
                         <div class="bottom-stripe-inner"></div>
@@ -699,29 +709,28 @@
                         </div>
 
                         <a id="john"></a>
-                        <div                       
-                        github-src="https://github.com/joutwater/jo_berry_code"
-                        img-src="preview/john.png"
-                        video-src="https://github.com/joutwater/jo_berry_code/blob/master/demo.mp4?raw=true"
-                        class="project col-md-12">
-                        <p class=" col-md-3">
-                            <span class="title">
-                            Sensing Blue
-                            </span>
-                        </p>
-                        <br>
-                        <vue-load-image>
-                            <a href="http://parsons.nyc/thesis-2020/johnOutwater/" target="_blank">
-                            <img slot="image-john" src="preview-2020/john.png"/>
-                            </a>
-                        </vue-load-image>                         
-                        <p class="col-md-9">
-                            The role of flavor perception in modern blueberry breeding...
-                        </p>
+                        <div class="project col-md-12">
+                            <p class=" col-md-3">
+                                <span class="title">
+                                Sensing Blue
+                                </span>
+                            </p>
+                            <br>
+                            <vue-load-image>
+                                <a href="http://parsons.nyc/thesis-2020/johnOutwater/" target="_blank">
+                                <img slot="image-john" src="preview-2020/john.png"/>
+                                </a>
+                            </vue-load-image>                         
+                            <p class="col-md-9">
+                                The role of flavor perception in modern blueberry breeding...
+                            </p>
+                            <br>
+                            <a id="github" href="https://github.com/joutwater/jo_berry_code" target="_blank">[GitHub]</a>
+                            <a id="download" href="https://github.com/joutwater/jo_berry_code/blob/master/demo.mp4?raw=true">[Download Video]</a>                               
                         </div>
                     </el-col>
 
-                    <!--Caitlyn Ralph-->
+                    <!--Caitlyn Ralph (2020)-->
                     <el-col :span="6">
                         <div class="bottom-stripe col-md-12">
                         <div class="bottom-stripe-inner"></div>
@@ -732,29 +741,32 @@
                         </div>
 
                         <a id="caitlyn"></a>
-                        <div                        
-                        github-src="https://github.com/caitlynmralph/thesis-app-sandbox"
-                        img-src="preview/caitlyn.png"
-                        video-src="https://github.com/caitlynmralph/thesis-app-sandbox/raw/master/demo.mp4"
-                        class="project col-md-12">
-                        <p class=" col-md-3">
-                            <span class="title">
-                            Gut vs. Data: Mapping Career Arcs with Touring History in British Indie and Alternative Music
-                            </span>
-                        </p>
-                        <br>
-                        <vue-load-image>
-                            <a href="https://caitlynmralph.github.io/thesis-app-sandbox/" target="_blank">
-                            <img slot="image-caitlyn" src="preview-2020/caitlyn.png"/>
-                            </a>
-                        </vue-load-image>                         
-                        <p class="col-md-9">
-                            The aim of this thesis is to map touring histories to British indie and alternative career arcs in a post-streaming world, ultimately creating...
-                        </p>
+                        <div class="project col-md-12">
+                            <p class=" col-md-3">
+                                <span class="title">
+                                Gut vs. Data
+                                </span>
+                                <br>
+                                <span class="subtitle">
+                                Mapping Career Arcs with Touring History in British Indie and Alternative Music
+                                </span>
+                            </p>
+                            <br>
+                            <vue-load-image>
+                                <a href="https://caitlynmralph.github.io/thesis-app-sandbox/" target="_blank">
+                                <img slot="image-caitlyn" src="preview-2020/caitlyn.png"/>
+                                </a>
+                            </vue-load-image>                         
+                            <p class="col-md-9">
+                                The aim of this thesis is to map touring histories to British indie and alternative career arcs in a post-streaming world, ultimately creating...
+                            </p>
+                            <br>
+                            <a id="github" href="https://github.com/caitlynmralph/thesis-app-sandbox" target="_blank">[GitHub]</a>
+                            <a id="download" href="https://github.com/caitlynmralph/thesis-app-sandbox/raw/master/demo.mp4">[Download Video]</a>                                
                         </div>
                     </el-col>
 
-                    <!--Dan Grunebaum-->
+                    <!--Dan Grunebaum (2020)-->
                     <el-col :span="6">
                         <div class="bottom-stripe col-md-12">
                         <div class="bottom-stripe-inner"></div>
@@ -765,25 +777,24 @@
                         </div>
 
                         <a id="daniel"></a>
-                        <div
-                        github-src="https://github.com/dangrunebaum/thesis"
-                        img-src="preview/danG.png"
-                        video-src="https://github.com/dangrunebaum/thesis/raw/master/demo.mp4"
-                        class="project col-md-12">
-                        <p class=" col-md-3">
-                            <span class="title">
-                            Turning Japanese
-                            </span>
-                        </p>
-                        <br>
-                        <vue-load-image>
-                            <a href="http://parsons.nyc/thesis-2020/danGrunebaum/turning-japanese/" target="_blank">
-                            <img slot="image-danG" src="preview-2020/danG.png"/>
-                            </a>
-                        </vue-load-image>                        
-                        <p class="col-md-9">
-                            The Globalization of Japanese Language and Concepts...
-                        </p>
+                        <div class="project col-md-12">
+                            <p class=" col-md-3">
+                                <span class="title">
+                                Turning Japanese
+                                </span>
+                            </p>
+                            <br>
+                            <vue-load-image>
+                                <a href="http://parsons.nyc/thesis-2020/danGrunebaum/turning-japanese/" target="_blank">
+                                <img slot="image-danG" src="preview-2020/danG.png"/>
+                                </a>
+                            </vue-load-image>                        
+                            <p class="col-md-9">
+                                The Globalization of Japanese Language and Concepts...
+                            </p>
+                            <br>
+                            <a id="github" href="https://github.com/dangrunebaum/thesis" target="_blank">[GitHub]</a>
+                            <a id="download" href="https://github.com/dangrunebaum/thesis/raw/master/demo.mp4">[Download Video]</a>                                 
                         </div>
                     </el-col>
 
@@ -793,7 +804,7 @@
 
                 <el-row :gutter="20">
 
-                    <!--Xingwei Huang-->
+                    <!--Xingwei Huang (2020)-->
                     <el-col :span="6" :offset="3">
                         <div class="bottom-stripe col-md-12">
                         <div class="bottom-stripe-inner"></div>
@@ -804,25 +815,24 @@
                         </div>
 
                         <a id="xingwei"></a>
-                        <div
-                        github-src="https://github.com/Xingwei726/MSthesis"
-                        img-src="preview/xingwei.png"
-                        video-src="https://github.com/Xingwei726/MSthesis/raw/master/demo.mp4"
-                        class="project col-md-12">
-                        <p class=" col-md-3">
-                            <span class="title">
-                            A Guilty Pleasure
-                            </span>
-                        </p>
-                        <br>
-                        <vue-load-image>
-                            <a href="https://parsons.nyc/thesis-2020/xingweiHuang/" target="_blank">
-                            <img slot="image-xingwei" src="preview-2020/xingwei.png"/>
-                            </a>
-                        </vue-load-image>                        
-                        <p class="col-md-9">
-                            How Cocoa Production is Driving Deforestation in The Ivory Coast...
-                        </p>
+                        <div class="project col-md-12">
+                            <p class=" col-md-3">
+                                <span class="title">
+                                A Guilty Pleasure
+                                </span>
+                            </p>
+                            <br>
+                            <vue-load-image>
+                                <a href="https://parsons.nyc/thesis-2020/xingweiHuang/" target="_blank">
+                                <img slot="image-xingwei" src="preview-2020/xingwei.png"/>
+                                </a>
+                            </vue-load-image>                        
+                            <p class="col-md-9">
+                                How Cocoa Production is Driving Deforestation in The Ivory Coast...
+                            </p>
+                            <br>
+                            <a id="github" href="https://github.com/Xingwei726/MSthesis" target="_blank">[GitHub]</a>
+                            <a id="download" href="https://github.com/Xingwei726/MSthesis/raw/master/demo.mp4">[Download Video]</a>                               
                         </div>
                     </el-col>
 
@@ -960,6 +970,11 @@ export default {
         link: [
             { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css' }
         ]
+    },
+    data() {
+        return {
+            input: ''
+        }
     }
 }
 </script>

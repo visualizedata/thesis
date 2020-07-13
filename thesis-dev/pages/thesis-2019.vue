@@ -53,7 +53,7 @@
                         <div class="bottom-stripe-inner"></div>
                         </div>
                         <h3 class="col-md-10 col-md-offset-1">
-                        <a href="https://livestream.com/thenewschool/dataviz-keynotes-2020" target="_blank"><i class='fa fa-play-circle' style='font-size:`16px'></i> Watch the Keynote Presentations</a>
+                        <a href="https://youtu.be/KaL8bF-1SSM" target="_blank"><i class='fa fa-play-circle' style='font-size:`16px'></i> Watch the Keynote Presentations</a>
                         </h3>
                     </el-col>
                 </el-row>
