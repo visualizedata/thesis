@@ -11,37 +11,31 @@
                 <!--MENU-->
 
                 <el-row :gutter="20">
-                    <div id="banner">
-                        <div id="site_lockup">
-                            <el-col :span="18" :push="3">
-                                    <h1 class="u_name col-md-12">
-                                    <a href="http://newschool.edu/" target="_blank">
-                                        <span class="font-width-1">T</span><span class="font-width-2">h</span><span class="font-width-1">e</span><span class="font-width-1">&nbsp;</span><span class="font-width-2">N</span><span class="font-width-1">e</span><span class="font-width-3">w</span><span class="font-width-1">&nbsp;</span><span class="font-width-1">S</span><span class="font-width-1">c</span><span class="font-width-2">h</span><span class="font-width-2">o</span><span class="font-width-2">o</span><span class="font-width-3">l</span>
-                                    </a>
-                                    </h1>
-                            </el-col>
-                            <el-col :span="18" :push="3">
+                    <el-col :span="18" :offset="3" :xs="{span: 24, offset: 1}">
+                        <div id="banner">
+                            <div id="site_lockup">
+                                <h1 class="u_name col-md-12">
+                                <a href="http://newschool.edu/" target="_blank">
+                                    <span class="font-width-1">T</span><span class="font-width-2">h</span><span class="font-width-1">e</span><span class="font-width-1">&nbsp;</span><span class="font-width-2">N</span><span class="font-width-1">e</span><span class="font-width-3">w</span><span class="font-width-1">&nbsp;</span><span class="font-width-1">S</span><span class="font-width-1">c</span><span class="font-width-2">h</span><span class="font-width-2">o</span><span class="font-width-2">o</span><span class="font-width-3">l</span>
+                                </a>
+                                </h1>
                                 <div class="bottom-stripe col-md-12">
                                 <div class="bottom-stripe-inner"></div>
                                 </div>
-                            </el-col>
-                            <el-col :span="18" :push="3" :xs="24" :sm="18" :md="12" :lg="8" :xl="8">
                                 <div id="stripe_menu" class="col-md-12">
                                     <div id="inner-menu-stripe" class="bottom-stripe">
                                         <div class="bottom-stripe-inner"></div>
                                     </div>
                                     <h1 class="sitename"><span class="font-width-3 kern-decrease-10"><a href="http://www.newschool.edu/parsons/ms-data-visualization/" target="_blank">Data Visualization</a></span></h1>
                                 </div>
-                            </el-col>
-                            <el-col :span="18" :push="3">
                                 <div class="msdv-subtitle font-width-3 kern-decrease-10 col-md-10">
                                 Thesis Projects and Research
                                 </div>
-                            </el-col>
+                            </div>
                         </div>
-                    </div>
+                    </el-col>
 
-                    <el-col :span="18" :push="3">
+                    <el-col :span="18" :offset="3" :xs="{span: 24, offset: 0}">
                         <div class="grid-content">
                             <div class="content">
                                 <h2 class="col-md-10 col-md-offset-1">
@@ -61,7 +55,7 @@
                 <!--YEAR-->
 
                 <el-row :gutter="20">
-                    <el-col :span="18" :offset="3">
+                    <el-col :span="18" :offset="3" :xs="{span: 24, offset: 0}">
                         <div class="bottom-stripe col-md-12">
                             <div class="bottom-stripe-inner"></div>
                         </div>
@@ -96,7 +90,7 @@
                 <!--SEARCH-->
 
                 <el-row :gutter="20">
-                    <el-col :span="18"  :offset="3">
+                    <el-col :span="18" :offset="3" :xs="{span: 22, offset: 1}">
                         <div class="col-md-12 col-md-10 col-md-offset-1">
 
                             <!--build search function here-->                    
@@ -113,7 +107,7 @@
                 <!--SECTION-->
 
                 <el-row :gutter="20">
-                    <el-col :span="18" :offset="3">
+                    <el-col :span="18" :offset="3" :xs="{span: 24, offset: 0}">
                         <div class="bottom-stripe col-md-12">
                         <div class="bottom-stripe-inner"></div>
                         </div>
@@ -130,7 +124,7 @@
                 <el-row :gutter="20">
 
                     <!--Marisa Asari (2020)-->
-                    <el-col :span="6" :offset="3">
+                    <el-col :span="6" :offset="3" :xs="{span: 24, offset: 0}">
                         <div class="bottom-stripe col-md-12">
                         <div class="bottom-stripe-inner"></div>
                         </div>
@@ -162,7 +156,7 @@
                     </el-col>
 
                     <!--Robin Coenen (2020)-->
-                    <el-col :span="6">
+                    <el-col :span="6" :xs="{span: 24, offset: 0}">
                         <div class="bottom-stripe col-md-12">
                         <div class="bottom-stripe-inner"></div>
                         </div>
@@ -194,7 +188,7 @@
                     </el-col>
 
                     <!--Mio Akasako (2020)-->
-                    <el-col :span="6">
+                    <el-col :span="6" :xs="{span: 24, offset: 0}">
                         <div class="bottom-stripe col-md-12">
                         <div class="bottom-stripe-inner"></div>
                         </div>
@@ -236,7 +230,7 @@
                 <el-row :gutter="20">
 
                     <!--Saloni Naishad Shah (2020)-->
-                    <el-col :span="6" :offset="3">
+                    <el-col :span="6" :offset="3" :xs="{span: 24, offset: 0}">
                         <div class="bottom-stripe col-md-12">
                         <div class="bottom-stripe-inner"></div>
                         </div>
@@ -269,7 +263,7 @@
                     </el-col>
                     
                     <!--Michael Desai (2020)-->
-                    <el-col :span="6">
+                    <el-col :span="6" :xs="{span: 24, offset: 0}">
                         <div class="bottom-stripe col-md-12">
                         <div class="bottom-stripe-inner"></div>
                         </div>
@@ -305,7 +299,7 @@
                 <!--SECTION-->
 
                 <el-row :gutter="20">
-                    <el-col :span="18" :offset="3">
+                    <el-col :span="18" :offset="3" :xs="{span: 24, offset: 0}">
                         <div class="bottom-stripe col-md-12">
                         <div class="bottom-stripe-inner"></div>
                         </div>
@@ -322,7 +316,7 @@
                 <el-row :gutter="20">
 
                     <!--Dan Ran (2020)-->
-                    <el-col :span="6" :offset="3">
+                    <el-col :span="6" :offset="3" :xs="{span: 24, offset: 0}">
                         <div class="bottom-stripe col-md-12">
                         <div class="bottom-stripe-inner"></div>
                         </div>
@@ -358,7 +352,7 @@
                     </el-col>
 
                     <!--Amanda Anderson-You (2020)-->
-                    <el-col :span="6">
+                    <el-col :span="6" :xs="{span: 24, offset: 0}">
                         <div class="bottom-stripe col-md-12">
                         <div class="bottom-stripe-inner"></div>
                         </div>
@@ -390,7 +384,7 @@
                     </el-col>
 
                     <!--Yiran Ni (2020)-->
-                    <el-col :span="6">
+                    <el-col :span="6" :xs="{span: 24, offset: 0}">
                         <div class="bottom-stripe col-md-12">
                         <div class="bottom-stripe-inner"></div>
                         </div>
@@ -428,7 +422,7 @@
                 <el-row :gutter="20">
 
                     <!--Nour Zein (2020)-->
-                    <el-col :span="6" :offset="3">
+                    <el-col :span="6" :offset="3" :xs="{span: 24, offset: 0}">
                         <div class="bottom-stripe col-md-12">
                         <div class="bottom-stripe-inner"></div>
                         </div>
@@ -460,7 +454,7 @@
                     </el-col>
 
                     <!--Zui Chen (2020)-->
-                    <el-col :span="6">
+                    <el-col :span="6" :xs="{span: 24, offset: 0}">
                         <div class="bottom-stripe col-md-12">
                         <div class="bottom-stripe-inner"></div>
                         </div>
@@ -496,7 +490,7 @@
                 <!--SECTION-->
 
                 <el-row :gutter="20">
-                    <el-col :span="18" :offset="3">
+                    <el-col :span="18" :offset="3" :xs="{span: 24, offset: 0}">
                         <div class="bottom-stripe col-md-12">
                         <div class="bottom-stripe-inner"></div>
                         </div>
@@ -513,7 +507,7 @@
                 <el-row :gutter="20">
 
                     <!--Neil Oliver (2020)-->
-                    <el-col :span="6" :offset="3">
+                    <el-col :span="6" :offset="3" :xs="{span: 24, offset: 0}">
                         <div class="bottom-stripe col-md-12">
                         <div class="bottom-stripe-inner"></div>
                         </div>
@@ -545,7 +539,7 @@
                     </el-col>
 
                     <!--Lulu Tanenbaum (2020)-->
-                    <el-col :span="6">
+                    <el-col :span="6" :xs="{span: 24, offset: 0}">
                         <div class="bottom-stripe col-md-12">
                         <div class="bottom-stripe-inner"></div>
                         </div>
@@ -577,7 +571,7 @@
                     </el-col>
 
                     <!--Antonie Dreyer (2020)-->
-                    <el-col :span="6">
+                    <el-col :span="6" :xs="{span: 24, offset: 0}">
                         <div class="bottom-stripe col-md-12">
                         <div class="bottom-stripe-inner"></div>
                         </div>
@@ -614,7 +608,7 @@
                 <el-row :gutter="20">
 
                     <!--Janice Yamanaka-Lew (2020)-->
-                    <el-col :span="6" :offset="3">
+                    <el-col :span="6" :offset="3" :xs="{span: 24, offset: 0}">
                         <div class="bottom-stripe col-md-12">
                         <div class="bottom-stripe-inner"></div>
                         </div>
@@ -646,7 +640,7 @@
                     </el-col>
 
                     <!--Brad MacDonald (2020)-->
-                    <el-col :span="6">
+                    <el-col :span="6" :xs="{span: 24, offset: 0}">
                         <div class="bottom-stripe col-md-12">
                         <div class="bottom-stripe-inner"></div>
                         </div>
@@ -682,7 +676,7 @@
                 <!--SECTION-->
 
                 <el-row :gutter="20">
-                    <el-col :span="18" :offset="3">
+                    <el-col :span="18" :offset="3" :xs="{span: 24, offset: 0}">
                         <div class="bottom-stripe col-md-12">
                         <div class="bottom-stripe-inner"></div>
                         </div>
@@ -699,7 +693,7 @@
                 <el-row :gutter="20">
 
                     <!--John Outwater (2020)-->
-                    <el-col :span="6" :offset="3">
+                    <el-col :span="6" :offset="3" :xs="{span: 24, offset: 0}">
                         <div class="bottom-stripe col-md-12">
                         <div class="bottom-stripe-inner"></div>
                         </div>
@@ -731,7 +725,7 @@
                     </el-col>
 
                     <!--Caitlyn Ralph (2020)-->
-                    <el-col :span="6">
+                    <el-col :span="6" :xs="{span: 24, offset: 0}">
                         <div class="bottom-stripe col-md-12">
                         <div class="bottom-stripe-inner"></div>
                         </div>
@@ -767,7 +761,7 @@
                     </el-col>
 
                     <!--Dan Grunebaum (2020)-->
-                    <el-col :span="6">
+                    <el-col :span="6" :xs="{span: 24, offset: 0}">
                         <div class="bottom-stripe col-md-12">
                         <div class="bottom-stripe-inner"></div>
                         </div>
@@ -805,7 +799,7 @@
                 <el-row :gutter="20">
 
                     <!--Xingwei Huang (2020)-->
-                    <el-col :span="6" :offset="3">
+                    <el-col :span="6" :offset="3" :xs="{span: 24, offset: 0}">
                         <div class="bottom-stripe col-md-12">
                         <div class="bottom-stripe-inner"></div>
                         </div>
@@ -841,7 +835,7 @@
                 <!--FOOTER-->
 
                 <el-row :gutter="20">
-                    <el-col :span="18" :offset="3">
+                    <el-col :span="18" :offset="3" :xs="{span: 24, offset: 0}">
 
                         <div class="bottom-stripe col-md-12">
                         <div class="bottom-stripe-inner"></div>
@@ -860,7 +854,7 @@
                         </div> -->
                 
                     <!--MS Data Visualization 2020-->
-                    <el-col :span="6" :offset="3">
+                    <el-col :span="6" :offset="3" :xs="{span: 24, offset: 0}">
 
                         <div class="col-md-3">
 
@@ -891,7 +885,7 @@
                     </el-col>
 
                     <!--Thesis Advisor-->
-                    <el-col :span="6">
+                    <el-col :span="6" :xs="{span: 24, offset: 0}">
 
                         <div class="col-md-3">
 
@@ -914,7 +908,7 @@
                     </el-col>
 
                     <!--Program Contact-->
-                    <el-col :span="6">
+                    <el-col :span="6" :xs="{span: 24, offset: 0}">
 
                         <div class="col-md-3">
 
@@ -935,7 +929,7 @@
                 </el-row>
 
                 <el-row :gutter="20">
-                    <el-col :span="18" :offset="3">
+                    <el-col :span="18" :offset="3" :xs="{span: 24, offset: 0}">
 
                         <div class="bottom-stripe col-md-12 marginbot-50">
                         <div class="bottom-stripe-inner"></div>
