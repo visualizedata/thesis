@@ -1,0 +1,42 @@
+<div id="app" v-cloak>
+  
+ <div class="container">
+  
+  <el-row class="search-wrapper" :gutter="10">
+    
+    <el-col :lg="12" :md="12" :sm="12" :xs="24">
+      <el-input placeholder="Filter by Name" icon="search" v-model="filter">
+    </el-col>
+      
+    <el-col class="col-space" :lg="6" :md="6" :sm="6" :xs="24"> &nbsp; </el-col>
+     
+    <el-col :lg="6" :md="6" :sm="6" :xs="24">
+      <el-select v-model="sort" placeholder="Sort by">
+        <el-option
+          v-for="item in options"
+          :label="item.label"
+          :value="item.value">
+        </el-option>
+      </el-select>
+    </el-col>
+      
+  </el-row> <!-- search wrapper -->
+    
+  <el-row :gutter="10">
+    <el-col v-for="player in getPlayers" :xs="24" :sm="12" :md="8">
+      <div class="box"> 
+        <div> {{ player.name }} </div>
+        <div class="box__subtitle"> {{ player.sport }} </div>
+        <div class="box__subtitle"> {{ player.views }} views </div>
+      </div>
+    </el-col>
+
+    <el-col v-if="getPlayers.length === 0" :xs="24" :sm="24" :md="24">
+      <div class="box box__empty"> No Match Found</div>
+    </el-col>
+
+  </el-row> <!-- results -->
+    
+ </div> <!-- container -->
+  
+</div> <!-- #app -->

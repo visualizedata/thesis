@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+$material-shadow: 0 1px 3px 0 rgba(0,0,0,.15);
+
+[v-cloak] {
+  display: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #F3F5F7;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.search-wrapper {
+  margin: 10px 0;
+}
+
+.col-space {
+  content: '&nbsp;';
+  @media screen and (max-width: 767px) { display: none; }
+}
+
+.container {
+  max-width: 980px;
+  margin: 20px auto;
+  @media screen and (max-width: 1050px) { 
+    width: 95%; 
+  }
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: $material-shadow;
+  min-height: 150px;
+  border-radius: 5px;
+  background-color: white;
+  margin-bottom: 10px;
+  &__subtitle { 
+    color: lighten(grey, 15%); 
+  }
+  &__empty {
+    background-color: transparent; box-shadow: none 
+  }
+  &:hover { cursor: pointer; }
+}
+
+.el-select {
+  width: 100%;
+}
