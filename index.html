@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Parsons Data Visualization Thesis Projects and Research</title>
+  <!-- import CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/element-ui@1.1.6/lib/theme-default/index.css">
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div id="app" v-cloak>
+  
+  <div class="container">
+
+    <el-row class="msdv-title" :gutter="10">
+      <el-col :span="18" :offset="3" :xs="24" :sm="24" :md="8"></el-col>
+          <div id="banner">
+              <div id="site_lockup">
+                  <h1 class="u_name col-md-12">
+                  <a href="http://newschool.edu/" target="_blank">
+                      <span class="font-width-1">T</span><span class="font-width-2">h</span><span class="font-width-1">e</span><span class="font-width-1">&nbsp;</span><span class="font-width-2">N</span><span class="font-width-1">e</span><span class="font-width-3">w</span><span class="font-width-1">&nbsp;</span><span class="font-width-1">S</span><span class="font-width-1">c</span><span class="font-width-2">h</span><span class="font-width-2">o</span><span class="font-width-2">o</span><span class="font-width-3">l</span>
+                  </a>
+                  </h1>
+                  <div class="bottom-stripe col-md-12">
+                  <div class="bottom-stripe-inner"></div>
+                  </div>
+                  <div id="stripe_menu" class="col-md-12">
+                      <div id="inner-menu-stripe" class="bottom-stripe">
+                          <div class="bottom-stripe-inner"></div>
+                      </div>
+                      <h1 class="sitename"><span class="font-width-3 kern-decrease-10"><a href="http://www.newschool.edu/parsons/ms-data-visualization/" target="_blank">Data Visualization</a></span></h1>
+                  </div>
+                  <div class="msdv-subtitle font-width-3 kern-decrease-10 col-md-10">
+                  Thesis Projects and Research
+                  </div>
+              </div>
+          </div>
+      </el-col>
+
+      <el-col :span="18" :offset="3" :xs="24" :sm="24" :md="8"></el-col>
+        <div class="grid-content">
+            <div class="content">
+                <h2 class="col-md-10 col-md-offset-1">
+                This interdisciplinary graduate program brings together design, statistics, and computer science, developing critical abilities and facility for innovation in work settings in which data increasingly shapes opinion, policy, and decision-making.
+                </h2>
+            </div>
+        </div>
+        <div class="bottom-stripe col-md-12">
+        <div class="bottom-stripe-inner"></div>
+        </div>
+
+      </el-col>
+
+    </el-row> <!-- msdv title -->
+
+    <el-row class="search-wrapper" :gutter="10">
+      
+      <el-col :lg="12" :md="12" :sm="12" :xs="24">
+        <el-input placeholder="Filter by Student, Title or Hashtag" icon="search" v-model="filter">
+      </el-col>
+        
+      <el-col class="col-space" :lg="6" :md="6" :sm="6" :xs="24"> &nbsp; </el-col>
+        
+      <el-col :lg="6" :md="6" :sm="6" :xs="24">
+        <el-select v-model="sort" placeholder="Sort by">
+          <el-option
+            v-for="item in options"
+            :label="item.label"
+            :value="item.value">
+          </el-option>
+        </el-select>
+      </el-col>
+        
+    </el-row> <!-- search wrapper -->
+      
+    <el-row :gutter="10">
+      <el-col v-for="student in getStudents" :xs="24" :sm="24" :md="8">
+        <div class="box"> 
+          <a class="box__name" v-bind:href="student.githublink" target = "_blank"> {{ student.name }} </a>
+          <a class="box__title" v-bind:href="student.projectlink" target = "_blank"> {{ student.title }} </a>
+          <!-- <div class="box__subtitle"> {{ student.subtitle }} </div> -->
+          <div class="box__year"> Class of {{ student.year }} </div>
+
+          <div id="preview">
+            <a class="preoject" v-bind:href="student.projectlink" target = "_blank">
+              <img class="box__preview" v-bind:src="student.previews">
+            </a>
+          </div>
+          
+          <div class="box__info"> {{ student.intro }} </div>
+          
+          <div id="icon">
+            <a class="github" v-bind:href="student.githublink" target = "_blank">
+              <img src="assets/img/GitHub.png" alt="github" class="images">
+            </a>
+            <a class="video">
+              <img src="assets/img/video.png" alt="video" class="images">
+            </a>
+            <a class="download" v-bind:href="student.videolink">
+              <img src="assets/img/download.png" alt="video" class="images"> 
+            </a>
+          </div>
+
+          <div id="hashtag">
+            <div class="box__hashtag1"> {{ student.hashtag_1 }} </div>
+            <div class="box__hashtag2"> {{ student.hashtag_2 }} </div>
+          </div>
+
+        </div>
+      </el-col>
+
+      <el-col v-if="getStudents.length === 0" :xs="24" :sm="24" :md="24">
+        <div class="box box__empty"> No Match Found</div>
+      </el-col>
+
+    </el-row> <!-- results -->
+
+    <el-row class="msdv-footer" :gutter="10">
+      <el-col :span="18" :offset="3" :xs="24" :sm="24" :md="8"></el-col>
+        <div class="bottom-stripe col-md-12">
+        <div class="bottom-stripe-inner"></div>
+        </div>
+
+      <el-col :span="8" :offset="0" :xs="{span: 24, offset: 0}">
+        <div class="col-md-3">
+          <p>Thesis Advisor</p>
+          <a href="http://www.newschool.edu/parsons/faculty.aspx?id=4e54-5978-4d7a-4932" target="_blank">Daniel Sauter, Associate Professor</a>
+          <br />
+          <a href="https://courses.newschool.edu/courses/PGDV5210/" target="_blank">PGDV Major Studio 2</a>
+          <br />
+          <p>Advisors</p>
+          <a href="https://www.newschool.edu/parsons/faculty/aaron-hill/" target="_blank">Aaron Hill, Assistant Professor</a>
+          <br />
+          <a href="https://www.newschool.edu/parsons/faculty/Richard-The/" target="_blank">Richard The, Assistant Professor</a>
+          <br />
+          <a href="https://www.newschool.edu/parsons/faculty/Alec-Barrett/" target="_blank">Alec Barrett, Part-Time Faculty</a>
+        </div>
+      </el-col> <!--thesis advisor-->
+
+      <el-col :span="8" :offset="0" :xs="{span: 24, offset: 0}">
+        <div class="col-md-3">
+          <p><a href="http://www.newschool.edu/parsons/ms-data-visualization/" target="_blank">Program Contact</a></p>
+          <a href="https://www.newschool.edu/parsons/faculty/daniel-sauter/" target="_blank">Daniel Sauter, Associate Professor</a>
+          <br />Program Director, Data Visualization
+          <br /><a href="http://www.newschool.edu/parsons/art-media-technology-school-amt/" target="_blank">Art, Media, and Technology</a>
+          <br /><a href="http://www.newschool.edu/parsons/" target="_blank">Parsons School of Design</a>
+        </div>
+      </el-col> <!--program contact-->
+
+      <el-col :span="8" :offset="0" :xs="{span: 24, offset: 0}">     
+        <div class="col-md-3">
+          <p>The New School</p>
+          <a href="https://www.google.com/maps/place/Johnson+Hall,+66+W+12th+St,+New+York,+NY+10011/@40.7355009,-73.999327,17z/data=!3m1!4b1!4m5!3m4!1s0x89c25997ae31def9:0xe94783d63679d138!8m2!3d40.7355009!4d-73.9971383" target="_blank">
+          66 West 12th Street
+          <br />
+          New York, NY 10011
+          </a>
+        </div>
+      </el-col> <!--school address-->
+
+    </el-row> <!-- msdv footer -->
+
+    <el-row class="copyright" :gutter="10">
+      <el-col :span="18" :offset="3" :xs="24" :sm="24" :md="8"></el-col>
+        <div class="bottom-stripe col-md-12">
+        <div class="bottom-stripe-inner"></div>
+        </div>
+
+      <el-col :span="8" :offset="0" :xs="{span: 24, offset: 0}">
+        <div class="col-md-3">
+          Copyright © 2020 The New School
+        </div>
+      </el-col>
+    </el-row> <!-- copyright -->
+    
+  </div> <!-- container -->
+  
+</div> <!-- #app -->
+
+<!-- import JavaScript -->
+<script src="https://unpkg.com/vue/dist/vue.js"></script>
+<script src="https://unpkg.com/element-ui@1.1.6/lib/index.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
