@@ -50,9 +50,7 @@
         <div class="bottom-stripe col-md-12">
         <div class="bottom-stripe-inner"></div>
         </div>
-        <!-- <h3 class="col-md-10 col-md-offset-1">
-        <a href="https://livestream.com/thenewschool/dataviz-keynotes-2020" target="_blank"><i class='fa fa-play-circle' style='font-size:`16px'></i> Watch the Keynote Presentations</a>
-        </h3> -->
+
       </el-col>
 
     </el-row> <!-- msdv title -->
@@ -60,7 +58,7 @@
     <el-row class="search-wrapper" :gutter="10">
       
       <el-col :lg="12" :md="12" :sm="12" :xs="24">
-        <el-input placeholder="Filter by Student or Project Name" icon="search" v-model="filter">
+        <el-input placeholder="Filter by Student, Title or Hashtag" icon="search" v-model="filter">
       </el-col>
         
       <el-col class="col-space" :lg="6" :md="6" :sm="6" :xs="24"> &nbsp; </el-col>
@@ -84,10 +82,32 @@
           <a class="box__title" v-bind:href="student.projectlink" target = "_blank"> {{ student.title }} </a>
           <!-- <div class="box__subtitle"> {{ student.subtitle }} </div> -->
           <div class="box__year"> Class of {{ student.year }} </div>
-          <img class="box__preview" v-bind:src="student.previews">
+
+          <div id="preview">
+            <a class="preoject" v-bind:href="student.projectlink" target = "_blank">
+              <img class="box__preview" v-bind:src="student.previews">
+            </a>
+          </div>
+          
           <div class="box__info"> {{ student.intro }} </div>
-          <a class="box__video" v-bind:href="student.videolink"> Video </a>
-          <div class="box__hashtag"> {{ student.hashtag }} </div>
+          
+          <div id="icon">
+            <a class="github" v-bind:href="student.githublink" target = "_blank">
+              <img src="../assets/img/GitHub.png" alt="github" class="images">
+            </a>
+            <a class="video">
+              <img src="../assets/img/video.png" alt="video" class="images">
+            </a>
+            <a class="download" v-bind:href="student.videolink">
+              <img src="../assets/img/download.png" alt="video" class="images"> 
+            </a>
+          </div>
+
+          <div id="hashtag">
+            <div class="box__hashtag1"> {{ student.hashtag_1 }} </div>
+            <div class="box__hashtag2"> {{ student.hashtag_2 }} </div>
+          </div>
+
         </div>
       </el-col>
 
