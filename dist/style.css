@@ -370,8 +370,20 @@ iframe {
   height: 100vh;
 }
 
-.download {
-color: white;
+#icon {
+  text-align: center;
+}
+
+.images {
+  width: 8%;
+  height: 8%;
+  padding-right: 5%;
+  padding-left: 5%;
+}
+
+.images:hover {
+  -webkit-filter: opacity(.5);
+  filter: opacity(.5);
 }
 
 
@@ -465,6 +477,15 @@ body {
   padding-bottom: 20px;
   padding-left: 30px;
 }
+.box__github {
+  color: #a6a6a6;
+  font-size: 10pt;
+  padding-top: 0px;
+  padding-right: 30px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  margin-right: 40%;
+}
 .box__video {
   color: #a6a6a6;
   font-size: 10pt;
@@ -473,7 +494,18 @@ body {
   padding-bottom: 20px;
   padding-left: 30px;
 }
-.box__hashtag {
+#hashtag {
+  text-align: center;
+}
+.box__hashtag1 {
+  color: #a6a6a6;
+  font-size: 10pt;
+  padding-top: 0px;
+  padding-right: 30px;
+  padding-bottom: 0px;
+  padding-left: 30px;
+}
+.box__hashtag2 {
   color: #a6a6a6;
   font-size: 10pt;
   padding-top: 0px;
