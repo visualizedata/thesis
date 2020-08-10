@@ -80,6 +80,11 @@
       <el-col :lg="24" :md="24" :sm="24" :xs="24">
         <div class="filter">
           <button type="button" @click=" filter='', doIt()" :class="{ active : filter == '' }">All</button>
+          <button type="button" @click=" filter='#2020', doIt()" :class="{ active : filter == '#2020' }">#2020</button>
+          <button type="button" @click=" filter='#2019', doIt()" :class="{ active : filter == '#2019' }">#2019</button>
+          <button type="button" @click=" filter='#2018', doIt()" :class="{ active : filter == '#2018' }">#2018</button>
+          <button type="button" @click=" filter='#2017', doIt()" :class="{ active : filter == '#2017' }">#2017</button>
+          <button type="button" @click=" filter='#2016', doIt()" :class="{ active : filter == '#2016' }">#2016</button>
           <button type="button" @click=" filter='#agriculture', doIt()" :class="{ active : filter == '#agriculture' }">#agriculture</button>
           <button type="button" @click=" filter='#arts', doIt()" :class="{ active : filter == '#arts' }">#arts</button>
           <button type="button" @click=" filter='#competition', doIt()" :class="{ active : filter == '#competition' }">#competition</button>
@@ -107,18 +112,18 @@
     <el-row :gutter="10">
       <el-col v-for="student in getStudents" :xs="24" :sm="24" :md="8">
         <div class="box"> 
-          <a class="box__name" v-bind:href="student.githublink" target = "_blank"> {{ student.name }} </a>
-          <a class="box__title" v-bind:href="student.projectlink" target = "_blank"> {{ student.title }} </a>
+          <a class="box_name" v-bind:href="student.githublink" target = "_blank"> {{ student.name }} </a>
+          <a class="box_title" v-bind:href="student.projectlink" target = "_blank"> {{ student.title }} </a>
           <!-- <div class="box__subtitle"> {{ student.subtitle }} </div> -->
-          <div class="box__year"> Class of {{ student.year }} </div>
+          <div class="box_year_hashtag"> {{ student.year }} {{ student.hashtag_1 }} {{ student.hashtag_2 }} </div>
 
           <div id="preview">
             <a class="preoject" v-bind:href="student.projectlink" target = "_blank">
-              <img class="box__preview" v-bind:src="student.previews">
+              <img class="box_preview" v-bind:src="student.previews">
             </a>
           </div>
           
-          <div class="box__info"> {{ student.intro }} </div>
+          <div class="box_info"> {{ student.intro }} </div>
           
           <div id="icon">
             <a class="github" v-bind:href="student.githublink" target = "_blank">
@@ -132,16 +137,11 @@
             </a>
           </div>
 
-          <div id="hashtag">
-            <div class="box__hashtag1"> {{ student.hashtag_1 }} </div>
-            <div class="box__hashtag2"> {{ student.hashtag_2 }} </div>
-          </div>
-
         </div>
       </el-col>
 
       <el-col v-if="getStudents.length === 0" :xs="24" :sm="24" :md="24">
-        <div class="box box__empty"> No Match Found</div>
+        <div class="box box_empty"> No Match Found</div>
       </el-col>
 
     </el-row> <!-- results -->
