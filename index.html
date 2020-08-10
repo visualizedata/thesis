@@ -74,6 +74,35 @@
       </el-col>
         
     </el-row> <!-- search wrapper -->
+
+    <el-row class="filter-wrapper" :gutter="10">
+    
+      <el-col :lg="24" :md="24" :sm="24" :xs="24">
+        <div class="filter">
+          <button type="button" @click=" filter='', doIt()" :class="{ active : filter == '' }">All</button>
+          <button type="button" @click=" filter='#agriculture', doIt()" :class="{ active : filter == '#agriculture' }">#agriculture</button>
+          <button type="button" @click=" filter='#arts', doIt()" :class="{ active : filter == '#arts' }">#arts</button>
+          <button type="button" @click=" filter='#competition', doIt()" :class="{ active : filter == '#competition' }">#competition</button>
+          <button type="button" @click=" filter='#culture', doIt()" :class="{ active : filter == '#culture' }">#culture</button>
+          <button type="button" @click=" filter='#data', doIt()" :class="{ active : filter == '#data' }">#data</button>
+          <button type="button" @click=" filter='#food', doIt()" :class="{ active : filter == '#food' }">#food</button>
+          <button type="button" @click=" filter='#health', doIt()" :class="{ active : filter == '#health' }">#health</button>
+          <button type="button" @click=" filter='#landscapes', doIt()" :class="{ active : filter == '#landscapes' }">#landscapes</button>
+          <button type="button" @click=" filter='#language', doIt()" :class="{ active : filter == '#language' }">#language</button>
+          <button type="button" @click=" filter='#leisure', doIt()" :class="{ active : filter == '#leisure' }">#leisure</button>
+          <button type="button" @click=" filter='#livelihood', doIt()" :class="{ active : filter == '#livelihood' }">#livelihood</button>
+          <button type="button" @click=" filter='#media', doIt()" :class="{ active : filter == '#media' }">#media</button>
+          <button type="button" @click=" filter='#pathways', doIt()" :class="{ active : filter == '#pathways' }">#pathways</button>
+          <button type="button" @click=" filter='#play', doIt()" :class="{ active : filter == '#play' }">#play</button>
+          <button type="button" @click=" filter='#policy', doIt()" :class="{ active : filter == '#policy' }">#policy</button>
+          <button type="button" @click=" filter='#politics', doIt()" :class="{ active : filter == '#politics' }">#politics</button>
+          <button type="button" @click=" filter='#society', doIt()" :class="{ active : filter == '#society' }">#society</button>                
+          <button type="button" @click=" filter='#technology', doIt()" :class="{ active : filter == '#technology' }">#technology</button>
+          <button type="button" @click=" filter='#understanding', doIt()" :class="{ active : filter == '#understanding' }">#understanding</button>
+        </div>
+      </el-col>
+  
+    </el-row> <!-- filter wrapper -->
       
     <el-row :gutter="10">
       <el-col v-for="student in getStudents" :xs="24" :sm="24" :md="8">
