@@ -246,7 +246,7 @@ span {
   line-height: 2.46667rem;
   margin-top: -0.2rem;
   padding-left: 95px;
-  color: #E82E21 !important;
+  color: #e82e21 !important;
   margin-left: .2rem;
 }
 
@@ -336,17 +336,6 @@ ul {
   margin-bottom: 50px !important;
 }
 
-button {
-  border: none !important;
-  background-color: white !important;
-}
-
-button:hover,
-.glyphicon:hover {
-  color: #e82e21 !important;
-  transition: all .3s ease-in-out;
-}
-
 #videoPlayer {
 width: 0;
 height: 0;
@@ -404,12 +393,38 @@ Filter by year
 body {
   margin: 0;
   padding: 0;
-  background-color: #F3F5F7;
+  background-color: white;
   font-family: 'Open Sans', sans-serif;
 }
 
 .search-wrapper {
   margin: 10px 0;
+}
+
+.filter-wrapper {
+  margin: 10px 0;
+}
+
+button{
+  background: #f5f5f5;
+  border: none;
+  border-radius: 3px;
+  padding: 10px 20px;
+  margin: 10px;
+  font-weight: bold;
+  outline: none;
+  cursor: pointer;
+  transition: .3s ease
+}
+
+button:hover{
+  background: #666666;
+  color: #fff;
+} 
+
+button.active{
+  background: #e82e21;
+  color: #fff;
 }
 
 .col-space {

@@ -6,7 +6,8 @@ new Vue({
       sort: '',
       options: [
       { label: 'Default (Student Name A-Z)', value: 'none' },
-      { label: 'Most Recent', value: 'year' }],
+      { label: 'Latest ', value: 'latest' },
+      { label: 'Earliest ', value: 'earliest' }],
 
       students: [
       { name: 'Aaditi Rokade', githublink: 'https://github.com/aaditirokade/thesis', title: 'Visualizing the Impact of Climate Change', projectlink: 'https://parsons.nyc/thesis-2019/aaditiRokade/thesisProject/', year: 2019, previews: 'static/preview-2019/aaditi.png', intro: 'This visualization explores the trends in flight cancellations and passenger...', videolink: 'https://github.com/aaditirokade/thesis/blob/master/demo.m4v?raw=true', hashtag_1: '#data', hashtag_2: '#policy' },
@@ -91,9 +92,13 @@ new Vue({
         student.hashtag_2.toLowerCase().includes(this.filter.toLowerCase())
       });
 
-      if (this.sort == 'year') {
+      if (this.sort == 'latest') {
         return students.sort(function (a, b) {
           return b.year - a.year;
+        });
+      } else if (this.sort == 'earliest') {
+        return students.sort(function (a, b) {
+          return a.year-b.year;
         });
       } else {
         return students;
