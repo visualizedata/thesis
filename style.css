@@ -457,7 +457,7 @@ button.active{
   background-color: white;
   margin-bottom: 10px;
 }
-.box__name {
+.box_name {
   color: #000000;
   font-size: 10pt;
   font-weight: bold;
@@ -465,7 +465,7 @@ button.active{
   padding-right: 30px;
   padding-left: 30px;
 }
-.box__title {
+.box_title {
   color: #a6a6a6;
   font-size: 10pt;
   font-style: italic;
@@ -476,7 +476,7 @@ button.active{
 /* .box__subtitle {
   color: #a6a6a6;
 } */
-.box__year {
+.box_year_hashtag {
   color: #a6a6a6;
   font-size: 10pt;
   padding-top: 10px;
@@ -484,7 +484,7 @@ button.active{
   padding-bottom: 20px;
   padding-left: 30px;
 }
-.box__info {
+.box_info {
   color: #a6a6a6;
   font-size: 10pt;
   padding-top: 5px;
@@ -492,27 +492,10 @@ button.active{
   padding-bottom: 20px;
   padding-left: 30px;
 }
-.box__github {
-  color: #a6a6a6;
-  font-size: 10pt;
-  padding-top: 0px;
-  padding-right: 30px;
-  padding-bottom: 20px;
-  padding-left: 30px;
-  margin-right: 40%;
-}
-.box__video {
-  color: #a6a6a6;
-  font-size: 10pt;
-  padding-top: 0px;
-  padding-right: 30px;
-  padding-bottom: 20px;
-  padding-left: 30px;
-}
 #hashtag {
   text-align: center;
 }
-.box__hashtag1 {
+/* .box_hashtag1 {
   color: #a6a6a6;
   font-size: 10pt;
   padding-top: 0px;
@@ -520,15 +503,15 @@ button.active{
   padding-bottom: 0px;
   padding-left: 30px;
 }
-.box__hashtag2 {
+.box_hashtag2 {
   color: #a6a6a6;
   font-size: 10pt;
   padding-top: 0px;
   padding-right: 30px;
   padding-bottom: 20px;
   padding-left: 30px;
-}
-.box__empty {
+} */
+.box_empty {
   background-color: transparent;
   box-shadow: none;
 }
