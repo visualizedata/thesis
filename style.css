@@ -158,14 +158,6 @@ a:hover {
   transition: all .3s ease-in-out;
 }
 
-body,
-p,
-ul,
-input[type=text] {
-  font-family: "neue-regular";
-  font-size: 11pt;
-}
-
 p {
   padding-left: 0 !important;
 }
@@ -430,6 +422,7 @@ button.active{
 .col-space {
   content: '&nbsp;';
 }
+
 @media screen and (max-width: 767px) {
   .col-space {
     display: none;
@@ -440,6 +433,7 @@ button.active{
   max-width: 980px;
   margin: 20px auto;
 }
+
 @media screen and (max-width: 1050px) {
   .container {
     width: 95%;
@@ -457,64 +451,74 @@ button.active{
   background-color: white;
   margin-bottom: 10px;
 }
+
 .box_name {
   color: #000000;
-  font-size: 10pt;
+  font-size: 0.8em;
   font-weight: bold;
   padding-top: 20px;
   padding-right: 30px;
   padding-left: 30px;
 }
+
 .box_title {
   color: #a6a6a6;
-  font-size: 10pt;
+  font-size: 0.8em;
   font-style: italic;
   padding-top: 10px;
   padding-right: 30px;
   padding-left: 30px;
 }
+
 /* .box__subtitle {
   color: #a6a6a6;
 } */
+
 .box_year_hashtag {
   color: #a6a6a6;
-  font-size: 10pt;
+  font-size: 0.8em;
   padding-top: 10px;
   padding-right: 30px;
   padding-bottom: 20px;
   padding-left: 30px;
 }
-.box_info {
-  color: #a6a6a6;
-  font-size: 10pt;
-  padding-top: 5px;
-  padding-right: 30px;
-  padding-bottom: 20px;
-  padding-left: 30px;
-}
+
 #hashtag {
   text-align: center;
 }
-/* .box_hashtag1 {
-  color: #a6a6a6;
-  font-size: 10pt;
-  padding-top: 0px;
-  padding-right: 30px;
-  padding-bottom: 0px;
-  padding-left: 30px;
+
+.box_info {
+  font-size: 0.8em;
+  padding-right: 10%;
+  padding-left: 10%;
 }
-.box_hashtag2 {
-  color: #a6a6a6;
-  font-size: 10pt;
-  padding-top: 0px;
-  padding-right: 30px;
-  padding-bottom: 20px;
-  padding-left: 30px;
-} */
+
+.showmore {
+  font-size: 1.1em;
+  margin-top: 1.5em;
+}
+
+.showmore .more, .showmore.show .dots {
+  display: none
+}
+
+.showmore.show .more {
+  display: inline
+}
+
+.showmore a {
+  cursor: pointer;
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 1em;
+  font-style: italic;
+}
+
 .box_empty {
   background-color: transparent;
   box-shadow: none;
 }
+
 .box:hover {
   cursor: pointer;
 }
