@@ -112,7 +112,7 @@
     <el-row :gutter="10">
       <el-col v-for="student in getStudents" :xs="24" :sm="24" :md="8">
         <div class="box"> 
-          <a class="box_name" v-bind:href="student.githublink" target = "_blank"> {{ student.name }} </a>
+          <a class="box_name" v-bind:href="student.projectlink" target = "_blank"> {{ student.name }} </a>
           <a class="box_title" v-bind:href="student.projectlink" target = "_blank"> {{ student.title }} </a>
           <!-- <div class="box__subtitle"> {{ student.subtitle }} </div> -->
           <div class="box_year_hashtag"> {{ student.year }} {{ student.hashtag_1 }} {{ student.hashtag_2 }} </div>
@@ -123,7 +123,12 @@
             </a>
           </div>
           
-          <div class="box_info"> {{ student.intro }} </div>
+          <div class="box_info">
+            <p class="showmore">{{ student.intro_1 }}
+              <span class="dots">...</span>
+              <span class="more">{{ student.intro_2 }}</span>
+              <a>Show More</a></p>
+          </div>
           
           <div id="icon">
             <a class="github" v-bind:href="student.githublink" target = "_blank">
@@ -212,6 +217,7 @@
 <script src="https://unpkg.com/vue/dist/vue.js"></script>
 <script src="https://unpkg.com/element-ui@1.1.6/lib/index.js"></script>
 <script src="script.js"></script>
+<script src="intro.js"></script>
 
 </body>
 </html>
