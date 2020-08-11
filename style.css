@@ -133,7 +133,6 @@ h2 {
   }
 } */
 
-
 div + .bottom-stripe,
 .project + .project,
 .bottom-stripe + .project
@@ -271,10 +270,6 @@ span {
   color: #000 !important;
 }
 
-/* #stripe_menu {
-  background-color: #fff;
-} */
-
 #stripe_menu ul {
   margin: 0 0 5px 120px;
   list-style: none;
@@ -307,11 +302,6 @@ span {
 ul {
   margin-top: 0.7em !important;
 }
-
-/* ul li {
-  list-style: none;
-  margin-left: -2.7em;
-} */
 
 #inner-menu-stripe {
   margin-top: 1px;
@@ -370,13 +360,10 @@ iframe {
 
 
 /* 
-Search by student or project name
-Filter by year 
+Search, Filter and Hashtag
 */
 
 
-
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
 [v-cloak] {
   display: none;
@@ -386,7 +373,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: white;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "neue-regular";
 }
 
 .search-wrapper {
@@ -399,10 +386,12 @@ body {
 
 button{
   background: #f5f5f5;
+  font-family: "neue-regular";
+  font-size: 0.75em;
   border: none;
-  border-radius: 3px;
-  padding: 10px 20px;
-  margin: 10px;
+  border-radius: 25px;
+  padding: 5px 10px;
+  margin: 5px;
   font-weight: bold;
   outline: none;
   cursor: pointer;
@@ -454,8 +443,7 @@ button.active{
 
 .box_name {
   color: #000000;
-  font-size: 0.8em;
-  font-weight: bold;
+  font-size: 0.7em;
   padding-top: 20px;
   padding-right: 30px;
   padding-left: 30px;
@@ -463,20 +451,16 @@ button.active{
 
 .box_title {
   color: #a6a6a6;
-  font-size: 0.8em;
+  font-size: 0.7em;
   font-style: italic;
   padding-top: 10px;
   padding-right: 30px;
   padding-left: 30px;
 }
 
-/* .box__subtitle {
-  color: #a6a6a6;
-} */
-
 .box_year_hashtag {
   color: #a6a6a6;
-  font-size: 0.8em;
+  font-size: 0.7em;
   padding-top: 10px;
   padding-right: 30px;
   padding-bottom: 20px;
@@ -488,7 +472,8 @@ button.active{
 }
 
 .box_info {
-  font-size: 0.8em;
+  font-size: 0.7em;
+  line-height: 16pt;
   padding-right: 10%;
   padding-left: 10%;
 }
