@@ -511,3 +511,14 @@ button.active{
 .el-select {
   width: 100%;
 }
+
+#footer {
+  font-family: "neue-regular";
+  font-size: 0.8em;
+  line-height: 12pt;
+}
+
+#copyright {
+  font-family: "neue-regular";
+  font-size: 0.75em;
+}
