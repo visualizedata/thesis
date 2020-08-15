@@ -443,27 +443,29 @@ button.active{
 
 .box_name {
   color: #000000;
-  font-size: 0.7em;
+  font-family: "neue-display-ultra" !important;
+  font-size: 0.75em;
   padding-top: 20px;
-  padding-right: 30px;
-  padding-left: 30px;
+  padding-right: 15px;
+  padding-left: 15px;
 }
 
 .box_title {
-  color: #a6a6a6;
-  font-size: 0.7em;
-  font-style: italic;
+  color: #000000;
+  font-family: "neue-regular" !important;
+  font-size: 0.75em;
   padding-top: 10px;
-  padding-right: 30px;
-  padding-left: 30px;
+  padding-bottom: 20px;
+  padding-right: 15px;
+  padding-left: 15px;
 }
 
 .box_year_hashtag {
   color: #a6a6a6;
   font-size: 0.7em;
   padding-top: 10px;
-  padding-right: 30px;
   padding-bottom: 20px;
+  padding-right: 30px;
   padding-left: 30px;
 }
 
@@ -511,6 +513,14 @@ button.active{
 .el-select {
   width: 100%;
 }
+
+
+
+/* 
+Footer
+*/
+
+
 
 #footer {
   font-family: "neue-regular";

@@ -115,7 +115,7 @@
           <a class="box_name" v-bind:href="student.projectlink" target = "_blank"> {{ student.name }} </a>
           <a class="box_title" v-bind:href="student.projectlink" target = "_blank"> {{ student.title }} </a>
           <!-- <div class="box__subtitle"> {{ student.subtitle }} </div> -->
-          <div class="box_year_hashtag"> {{ student.year }} {{ student.hashtag_1 }} {{ student.hashtag_2 }} </div>
+          <!-- <div class="box_year_hashtag"> {{ student.year }} {{ student.hashtag_1 }} {{ student.hashtag_2 }} </div> -->
 
           <div id="preview">
             <a class="preoject" v-bind:href="student.projectlink" target = "_blank">
@@ -150,6 +150,16 @@
       </el-col>
 
     </el-row> <!-- results -->
+
+    <transition name="fade">
+      <div id="pagetop" class="fixed right-0 bottom-0" v-show="scY > 300" @click="toTop">
+        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none"
+             stroke="#4a5568"
+             stroke-width="1" stroke-linecap="square" stroke-linejoin="arcs">
+          <path d="M18 15l-6-6-6 6"/>
+        </svg>
+      </div>
+    </transition>
 
     <el-row class="msdv-footer" :gutter="10">
       <el-col :span="18" :offset="3" :xs="24" :sm="24" :md="8"></el-col>
@@ -214,7 +224,7 @@
 </div> <!-- #app -->
 
 <!-- import JavaScript -->
-<script src="https://unpkg.com/vue/dist/vue.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vue@2.6.11"></script>
 <script src="https://unpkg.com/element-ui@1.1.6/lib/index.js"></script>
 <script src="script.js"></script>
 <script src="intro.js"></script>
