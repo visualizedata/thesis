@@ -80,11 +80,11 @@
       <el-col :lg="24" :md="24" :sm="24" :xs="24">
         <div class="filter">
           <button type="button" @click=" filter='', doIt()" :class="{ active : filter == '' }">All</button>
-          <button type="button" @click=" filter='#2020', doIt()" :class="{ active : filter == '#2020' }">#2020</button>
-          <button type="button" @click=" filter='#2019', doIt()" :class="{ active : filter == '#2019' }">#2019</button>
-          <button type="button" @click=" filter='#2018', doIt()" :class="{ active : filter == '#2018' }">#2018</button>
-          <button type="button" @click=" filter='#2017', doIt()" :class="{ active : filter == '#2017' }">#2017</button>
-          <button type="button" @click=" filter='#2016', doIt()" :class="{ active : filter == '#2016' }">#2016</button>
+          <button type="button" @click=" filter='2020', doIt()" :class="{ active : filter == '2020' }">#2020</button>
+          <button type="button" @click=" filter='2019', doIt()" :class="{ active : filter == '2019' }">#2019</button>
+          <button type="button" @click=" filter='2018', doIt()" :class="{ active : filter == '2018' }">#2018</button>
+          <button type="button" @click=" filter='2017', doIt()" :class="{ active : filter == '2017' }">#2017</button>
+          <button type="button" @click=" filter='2016', doIt()" :class="{ active : filter == '2016' }">#2016</button>
           <button type="button" @click=" filter='#agriculture', doIt()" :class="{ active : filter == '#agriculture' }">#agriculture</button>
           <button type="button" @click=" filter='#arts', doIt()" :class="{ active : filter == '#arts' }">#arts</button>
           <button type="button" @click=" filter='#competition', doIt()" :class="{ active : filter == '#competition' }">#competition</button>
@@ -225,6 +225,7 @@
 
 <!-- import JavaScript -->
 <script src="https://cdn.jsdelivr.net/npm/vue@2.6.11"></script>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 <script src="https://unpkg.com/element-ui@1.1.6/lib/index.js"></script>
 <script src="script.js"></script>
 <script src="intro.js"></script>
