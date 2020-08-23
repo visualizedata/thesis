@@ -460,18 +460,13 @@ button.active{
   padding-left: 15px;
 }
 
-.box_year_hashtag {
+/* .box_year_hashtag {
   color: #a6a6a6;
   font-size: 0.7em;
-  padding-top: 10px;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
   padding-right: 30px;
   padding-left: 30px;
-}
-
-#hashtag {
-  text-align: center;
-}
+} */
 
 .box_info {
   font-size: 0.7em;
