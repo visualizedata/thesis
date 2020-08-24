@@ -235,7 +235,7 @@ span {
 #banner h1.sitename {
   font-size: 2.33333rem;
   line-height: 2.46667rem;
-  margin-top: -0.2rem;
+  margin-top: 0.01rem;
   padding-left: 95px;
   color: #e82e21 !important;
   margin-left: .2rem;
