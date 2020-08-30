@@ -98,40 +98,12 @@ img {
 }
 
 img:hover {
-  cursor: alias;
+  cursor: pointer;
 }
 
 h2 {
   font-family: "neue-regular" !important;
 }
-
-/*Media Queries*/
-
-/* @media only screen and (max-width: 1500px) {
-
-  #start-arrow{
-      display: none
-  }
-  .page{
-      height:auto;
-  }
-
-}
-
-@media only screen and (max-width: 768px) {
-  body {
-      font-size: 80%;
-  }
-  svg text{
-      font-size:50%;
-  }
-  .el-main{
-      padding:5px;
-  }
-  .spinner{
-      width: 100vw;
-  }
-} */
 
 div + .bottom-stripe,
 .project + .project,
@@ -399,12 +371,12 @@ button{
 }
 
 button:hover{
-  background: #666666;
+  background-color: #666666;
   color: #fff;
 } 
 
 button.active{
-  background: #e82e21;
+  background-color: #e82e21;
   color: #fff;
 }
 
@@ -460,14 +432,6 @@ button.active{
   padding-left: 15px;
 }
 
-/* .box_year_hashtag {
-  color: #a6a6a6;
-  font-size: 0.7em;
-  padding-bottom: 10px;
-  padding-right: 30px;
-  padding-left: 30px;
-} */
-
 .box_info {
   font-size: 0.7em;
   line-height: 16pt;
@@ -506,7 +470,34 @@ button.active{
 }
 
 .el-select {
-  width: 100%;
+  width: 100%;  
+}
+
+
+
+/* 
+Override Element UI default styles
+*/
+
+
+
+.el-input__inner {
+  font-family: "neue-regular" !important;
+}
+
+.el-select-dropdown__item.hover {
+  background-color: #666666 !important;
+  color: white;
+}
+
+.el-select-dropdown__item.active {
+  background-color: #e82e21 !important;
+  color: white;
+}
+
+.el-select-dropdown__item.selected {
+  background-color: #e82e21 !important;
+  color: white;
 }
 
 
@@ -526,4 +517,11 @@ Footer
 #copyright {
   font-family: "neue-regular";
   font-size: 0.75em;
+}
+
+@media screen and (max-width: 767px) {
+  #footer {
+    font-size: 1em;
+    line-height: 16pt;
+  }
 }
