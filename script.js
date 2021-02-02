@@ -15,6 +15,10 @@ new Vue({
   },
   mounted() {
     window.addEventListener('scroll', this.handleScroll);
+
+    fetch('./json/project.json')
+      .then(res => res.json())
+      .then(studentList => {this.students = studentList});
   },
   methods: {
     handleScroll: function () {
@@ -53,13 +57,7 @@ new Vue({
         });
       } else {
         return students;
-      }
-      
+      }  
     }
   },
-  mounted() {
-    fetch('./json/project.json')
-      .then(res => res.json())
-      .then(studentList => {this.students = studentList});
-  } 
 });
