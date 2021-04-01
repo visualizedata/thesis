@@ -290,7 +290,7 @@ ul {
   margin-bottom: 50px !important;
 }
 
-#videoPlayer {
+/* #videoPlayer {
 width: 0;
 height: 0;
 }
@@ -311,15 +311,15 @@ visibility: hidden;
 iframe {
   width: 100vw;
   height: 100vh;
-}
+} */
 
-#icon {
+.icons {
   text-align: center;
 }
 
-.images {
-  width: 8%;
-  height: 8%;
+.icon {
+  width: 7%;
+  height: 7%;
   padding-right: 5%;
   padding-left: 5%;
 }
