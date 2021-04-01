@@ -4,7 +4,8 @@
   <meta charset="UTF-8">
   <title>Parsons Data Visualization Thesis Projects and Research</title>
   <!-- import CSS -->
-  <link rel="stylesheet" href="https://unpkg.com/element-ui@1.1.6/lib/theme-default/index.css">
+  <!-- <link rel="stylesheet" href="https://unpkg.com/element-ui@1.1.6/lib/theme-default/index.css"> -->
+  <link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
   <link rel="stylesheet" href="style.css">
 
 </head>
@@ -130,15 +131,15 @@
               <a>Show More</a></p>
           </div>
           
-          <div id="icon">
+          <div class="icons">
             <a class="github" v-bind:href="student.githublink" target = "_blank">
-              <img src="assets/img/GitHub.png" alt="github" class="images">
+              <img class="icon" src="assets/img/GitHub.png" alt="github" width="80" height="80">
             </a>
             <a class="video">
-              <img src="assets/img/video.png" alt="video" class="images">
+              <img class="icon" src="assets/img/video.png" alt="video" width="80" height="80">
             </a>
-            <a class="download" v-bind:href="student.videolink">
-              <img src="assets/img/download.png" alt="video" class="images"> 
+            <a id="download" v-bind:href="student.videolink">
+              <img class="icon" src="assets/img/download.png" alt="video" width="80" height="80"> 
             </a>
           </div>
 
@@ -169,23 +170,35 @@
 
       <el-col :span="8" :offset="0" :xs="24" :sm="24" :md="8">
         <div class="col-md-3" id="footer">
-          <p>Program Contact</p>
+          <p>Thesis Advisor</p>
           <a href="http://www.newschool.edu/parsons/faculty.aspx?id=4e54-5978-4d7a-4932" target="_blank">Daniel Sauter, Associate Professor</a>
           <br />
-          <a href="https://www.newschool.edu/parsons/ms-data-visualization/" target="_blank">Director, Data Visualization (MS)</a>
-        </div>
-      </el-col> <!--thesis advisors-->
-
-      <el-col :span="8" :offset="0" :xs="24" :sm="24" :md="8">
-        <div class="col-md-3" id="footer">
-          <p>Thesis Advisors</p>
-          <a href="http://www.newschool.edu/parsons/faculty/daniel-sauter" target="_blank">Daniel Sauter, Associate Professor</a>
-          <br />
+          <a href="https://courses.newschool.edu/courses/PGDV5210/" target="_blank">PGDV Major Studio 2</a>
+          <!-- <br />
+          <p>Advisors</p>
           <a href="https://www.newschool.edu/parsons/faculty/aaron-hill/" target="_blank">Aaron Hill, Assistant Professor</a>
           <br />
           <a href="https://www.newschool.edu/parsons/faculty/Richard-The/" target="_blank">Richard The, Assistant Professor</a>
           <br />
-          <a href="https://www.newschool.edu/parsons/faculty/christian-swinehart/" target="_blank">Christian Swinehart, Part-Time Faculty</a>
+          <a href="https://www.newschool.edu/parsons/faculty/Alec-Barrett/" target="_blank">Alec Barrett, Part-Time Faculty</a> -->
+        </div>
+      </el-col> <!--thesis advisor-->
+
+      <el-col :span="8" :offset="0" :xs="24" :sm="24" :md="8">
+        <div class="col-md-3" id="footer">
+          <!-- <p><a href="http://www.newschool.edu/parsons/ms-data-visualization/" target="_blank">Program Contact</a></p>
+          <a href="https://www.newschool.edu/parsons/faculty/daniel-sauter/" target="_blank">Daniel Sauter, Associate Professor</a>
+          <br />Program Director, Data Visualization
+          <br />
+          <a href="http://www.newschool.edu/parsons/art-media-technology-school-amt/" target="_blank">Art, Media, and Technology</a>
+          <br />
+          <a href="http://www.newschool.edu/parsons/" target="_blank">Parsons School of Design</a> -->
+          <p>Advisors</p>
+          <a href="https://www.newschool.edu/parsons/faculty/aaron-hill/" target="_blank">Aaron Hill, Assistant Professor</a>
+          <br />
+          <a href="https://www.newschool.edu/parsons/faculty/Richard-The/" target="_blank">Richard The, Assistant Professor</a>
+          <br />
+          <a href="https://www.newschool.edu/parsons/faculty/Alec-Barrett/" target="_blank">Alec Barrett, Part-Time Faculty</a>
         </div>
       </el-col> <!--program contact-->
 
@@ -226,9 +239,11 @@
 </div> <!-- #app -->
 
 <!-- import JavaScript -->
-<script src="https://cdn.jsdelivr.net/npm/vue@2.6.11"></script>
+<!-- <script src="https://cdn.jsdelivr.net/npm/vue@2.6.11"></script> -->
+<script src="https://cdn.jsdelivr.net/npm/vue@2.6.12"></script>
 <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-<script src="https://unpkg.com/element-ui@1.1.6/lib/index.js"></script>
+<!-- <script src="https://unpkg.com/element-ui@1.1.6/lib/index.js"></script> -->
+<script src="https://unpkg.com/element-ui/lib/index.js"></script>
 <script src="script.js"></script>
 <script src="intro.js"></script>
 
