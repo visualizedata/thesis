@@ -1,10 +1,10 @@
-// use preview images if available otherwise iframes directly
+use preview images if available otherwise iframes directly
 var usePreview = true;
 
 $(document).ready(function() {
 
-    // images
-    $("div .project").each(function() {
+    images
+    $("div .box").each(function() {
     if ($(this).attr('video-src') != undefined && $(this).attr('video-src') != '') {
         console.log($(this).attr('video-src'));
         var video = "<table width='100%'><tr><td><button onclick='playVideo(\"" + $(this).attr('video-src') + "\")'><i class='fa fa-play-circle' style='font-size:`16px'></i>&nbsp; PLAY VIDEO</button> <a href=\"" + $(this).attr('github-src') + "\"><img data-toggle='GitHub' title='Source' src=\"web/img/GitHub.png\" style=\"margin-top:12px;width:13px\"> GITHUB</a></td>";

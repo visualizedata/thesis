@@ -28,7 +28,28 @@
 </template>
 
 <script>
-export default {}
+
+import modal from './components/modal.vue';
+
+export default {
+  components: {
+    Modal,
+  },
+  data() {
+    return {
+      isModalVisible: false,
+    };
+  },
+  methods: {
+    showModal() {
+      this.isModalVisible = true;
+    },
+    closeModal() {
+      this.isModalVisible = false;
+    }
+  }
+}
+
 </script>
 
 <style>
