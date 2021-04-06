@@ -83,6 +83,7 @@ new Vue({
 
       scTimer: 0,
       scY: 0,
+      isModalVisible: false,
     };
   },
   mounted() {
@@ -103,6 +104,12 @@ new Vue({
         behavior: "smooth"
       });
     },
+    showModal() {
+        this.isModalVisible = true;
+      },
+    closeModal() {
+        this.isModalVisible = false;
+      },
   },
   computed: {
     getStudents() {

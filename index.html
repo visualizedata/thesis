@@ -3,14 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <title>Parsons Data Visualization Thesis Projects and Research</title>
-  <!-- import CSS -->
-  <!-- <link rel="stylesheet" href="https://unpkg.com/element-ui@1.1.6/lib/theme-default/index.css"> -->
   <link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
   <link rel="stylesheet" href="style.css">
-
 </head>
 <body>
-<!-- partial:index.partial.html -->
 <div id="app" v-cloak>
   
   <div class="container">
@@ -102,7 +98,7 @@
           <button type="button" @click=" filter='play', doIt()" :class="{ active : filter == 'play' }">play</button>
           <button type="button" @click=" filter='policy', doIt()" :class="{ active : filter == 'policy' }">policy</button>
           <button type="button" @click=" filter='politics', doIt()" :class="{ active : filter == 'politics' }">politics</button>
-          <button type="button" @click=" filter='society', doIt()" :class="{ active : filter == 'society' }">society</button>                
+          <button type="button" @click=" filter='society', doIt()" :class="{ active : filter == 'society' }">society</button>
           <button type="button" @click=" filter='technology', doIt()" :class="{ active : filter == 'technology' }">technology</button>
           <button type="button" @click=" filter='understanding', doIt()" :class="{ active : filter == 'understanding' }">understanding</button>
         </div>
@@ -115,11 +111,8 @@
         <div class="box"> 
           <a class="box_name" v-bind:href="student.projectlink" target = "_blank"> {{ student.name }} </a>
           <a class="box_title" v-bind:href="student.projectlink" target = "_blank"> {{ student.title }} </a>
-          <!-- <div class="box__subtitle"> {{ student.subtitle }} </div> -->
-          <!-- <div class="box_year_hashtag"> {{ student.year }} {{ student.hashtag_1 }} {{ student.hashtag_2 }} </div> -->
-
           <div id="preview">
-            <a class="preoject" v-bind:href="student.projectlink" target = "_blank">
+            <a class="project" v-bind:href="student.projectlink" target = "_blank">
               <img class="box_preview" v-bind:src="student.previews">
             </a>
           </div>
@@ -135,8 +128,10 @@
             <a class="github" v-bind:href="student.githublink" target = "_blank">
               <img class="icon" src="assets/img/GitHub.png" alt="github" width="80" height="80">
             </a>
-            <a class="video">
-              <img class="icon" src="assets/img/video.png" alt="video" width="80" height="80">
+            <!-- <a class="video" onclick="playVideo("student.videoLink")" target="_blank"> -->
+            <a class="video" target="_blank" type="button" @click="showModal" id="btn">
+                <img class="icon" src="assets/img/video.png" alt="video" width="80" height="80">
+                <Modal v-show="isModalVisible" @close="closeModal"/>
             </a>
             <a id="download" v-bind:href="student.videolink">
               <img class="icon" src="assets/img/download.png" alt="video" width="80" height="80"> 
@@ -216,6 +211,8 @@
           <a href="http://xingwei.work/" target="_blank">Xingwei Huang, Class of 2020</a>
           <br />
           <a href="https://yujunjiang.com/" target="_blank">Yujun Jiang, Class of 2021</a>
+          <br />
+          <a href="https://sheamolloy.info/" target="_blank">Shea Molloy, Class of 20212</a>
         </div>
       </el-col> <!--school address-->
 
@@ -239,12 +236,11 @@
 </div> <!-- #app -->
 
 <!-- import JavaScript -->
-<!-- <script src="https://cdn.jsdelivr.net/npm/vue@2.6.11"></script> -->
 <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12"></script>
 <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-<!-- <script src="https://unpkg.com/element-ui@1.1.6/lib/index.js"></script> -->
 <script src="https://unpkg.com/element-ui/lib/index.js"></script>
 <script src="script.js"></script>
+<script src="plugins/video.js"></script>
 <script src="intro.js"></script>
 
 </body>
