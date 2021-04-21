@@ -318,8 +318,8 @@ iframe {
 }
 
 .icon {
-  width: 7%;
-  height: 7%;
+  width: 10%;
+  height: auto;
   padding-right: 5%;
   padding-left: 5%;
 }
