@@ -128,12 +128,11 @@
             <a class="github" v-bind:href="student.githublink" target = "_blank">
               <img class="icon" src="assets/img/GitHub.png" alt="github" width="80" height="80">
             </a>
-            <!-- <a class="video" onclick="playVideo("student.videoLink")" target="_blank"> -->
-            <a class="video" target="_blank" type="button" id="btn">
+            <a class="video" v-on:click="playVideo()" target="_blank" src="student.videolink">
                 <img class="icon" src="assets/img/video.png" alt="video" width="80" height="80">
             </a>
             <a id="download" v-bind:href="student.videolink">
-              <img class="icon" src="assets/img/download.png" alt="video" width="80" height="80"> 
+              <img class="icon" src="assets/img/download.png" alt="download" width="80" height="80"> 
             </a>
           </div>
 
@@ -235,6 +234,7 @@
 </div> <!-- #app -->
 
 <!-- import JavaScript -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12"></script>
 <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 <script src="https://unpkg.com/element-ui/lib/index.js"></script>
