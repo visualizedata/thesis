@@ -1,4 +1,4 @@
-use preview images if available otherwise iframes directly
+// use preview images if available otherwise iframes directly
 var usePreview = true;
 
 $(document).ready(function() {
