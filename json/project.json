@@ -60,7 +60,7 @@
             "previews": "static/preview-2020/antonie.png",
             "intro_1": "Visualizing research paper metadata in the field of Aerospace Engineering",
             "intro_2": "for more efficient knowledge exploration, research and learning. The project combines a flattened hierarchical \u201cfront-of-the book\u201d table of contents structure with a network-based \u201cback-of-the book\u201d index connectivity over time.",
-            "videolink": "",
+            "videolink": "https://github.com/acdreyer/thesis/blob/master/demo.mp4",
             "hashtag_1": "#media",
             "hashtag_2": "#society"
         },
@@ -86,7 +86,7 @@
             "previews": "static/preview-2018/aucher.png",
             "intro_1": "This thesis explores the ways in which green roofs can be used to",
             "intro_2": "counteract three major urban ecological challenges in New York City. Taking the city\u2019s existing infrastructural landscape as the starting point, this thesis moves to identify underutilized spaces where green roofs would be most amenable and beneficial from the perspective of (1) stormwater retention, (2) surface temperature regulation, and (3) biodiversity enhancement. Users will then be given opportunities to explore the data themselves and engage with questions regarding the aggregative effects, benefits, and costs of such interventions. Ultimately the goal of this project is to provide creative ways of interacting with the New York City \u2018building-scape\u2019 in order to foster community engagement and informed decision making for residents and policy-makers alike.",
-            "videolink": "",
+            "videolink": "https://github.com/auchers/data-visualization-thesis/blob/master/thesis-preview.gif",
             "hashtag_1": "#landscapes",
             "hashtag_2": "#pathways"
         },
@@ -222,14 +222,14 @@
         },
         {
             "name": "Elena Paunova",
-            "githublink": "",
+            "githublink": "https://universeofatoms.com/",
             "title": "Nice To Meet You",
-            "projectlink": "http://youmeet.me/",
+            "projectlink": "http://beta.youmeet.me/who/similarity/default",
             "year": "#2018",
             "previews": "static/preview-2018/elena.png",
             "intro_1": "Nice to meet you is about measuring ethnic, linguistic, religious, and",
             "intro_2": "cultural heterogeneity in the world. We intuitively understand that what language we are born speaking, what religion we follow and what color we are, predetermine a very significant part of our lives and who we are. The goal is to use this intuition to learn more about different societies via these proxy variables and test if the complexity of each country correlates with its economic outcomes, political system, geographic location, religion, or level of moral freedom. We further employ a clustering algorithm and create a taxonomy that organizes the countries in our world by their shared complexity (heterogeneity vs homogeneity). As a result a new world emerges, one in which our closest neighbors are not the ones sharing our borders but countries located thousands of miles away. The combined analysis and visualization leads us to the conclusion that there is ultimately more that binds us than divides us.",
-            "videolink": "",
+            "videolink": "https://universeofatoms.com/assets/info_design/ntmy/ntmy4.mp4",
             "hashtag_1": "#society",
             "hashtag_2": "#politics"
         },
