@@ -128,14 +128,20 @@
             <a class="github" v-bind:href="student.githublink" target = "_blank">
               <img class="icon" src="assets/img/GitHub.png" alt="github" width="80" height="80">
             </a>
-            <a class="video" v-on:click="playVideo('Demo video:')" target="_blank" src="student.videolink">          
+            <a class="video" role="button" href="#video-box">          
+              <img class="icon" src="assets/img/video.png" alt="video" width="80" height="80">
+
+              <div class="modal" id="video-box">
+                  <a href="#close-box" class="close">x</a> 
+                  <div class="video-player">
+                    <h2>modal test</h2>
+                      <video class="video" ref="video">
+                        <source v-bind:src="student.videolink">
+                      </video>
+                  </div>
+              </div> 
       
-      <!--         <video id="videoPlayer" controls="" autoplay="">
-                <source src="" id="localSource">
-                <source src="" id="videoSource">
-              </video>
- -->
-                <img class="icon" src="assets/img/video.png" alt="video" width="80" height="80">
+
             </a>
             <a id="download" v-bind:href="student.videolink">
               <img class="icon" src="assets/img/download.png" alt="download" width="80" height="80"> 
