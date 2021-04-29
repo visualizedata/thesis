@@ -315,13 +315,14 @@ iframe {
 
 .icons {
   text-align: center;
+  height: auto;
 }
 
 .icon {
-  width: 10%;
+  width: 30px;
   height: auto;
-  padding-right: 5%;
-  padding-left: 5%;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 
 .images:hover {
