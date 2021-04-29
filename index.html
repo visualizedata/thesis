@@ -134,9 +134,9 @@
               <div class="modal" id="video-box">
                   <a href="#close-box" class="close">x</a> 
                   <div class="video-player">
-                      <video controls class="player" v-bind:src="student.videolink" poster="student.previews">
-<!--                           <source v-bind:src="student.videolink">
- -->                      </video>
+                      <video controls class="player" poster="student.previews">
+                          <source v-if="student.videolink" :src="student.videolink">
+                      </video>
                   </div>
               </div> 
       
