@@ -134,11 +134,9 @@
               <div class="modal" id="video-box">
                   <a href="#close-box" class="close">x</a> 
                   <div class="video-player">
-                      <video controls class="player" :src="student.videolink" :key="student.videolink" ref="video">
-                          <source :src="student.videolink">
-                        <!-- <source v-bind:src="student.videolink"> -->
-                        <!-- <source src=http://techslides.com/demos/sample-videos/small.mp4 type=video/mp4>> -->
-                      </video>
+                      <video controls class="player" v-bind:src="student.videolink" poster="student.previews">
+<!--                           <source v-bind:src="student.videolink">
+ -->                      </video>
                   </div>
               </div> 
       
