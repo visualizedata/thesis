@@ -503,8 +503,13 @@ button.active{
 
 }
 
-.video-player {
+video {
   width: 100%;
+  height: auto;
+}
+
+.video-player {
+  width: 80%;
   padding: 1em;
   background: black;
   position: relative;

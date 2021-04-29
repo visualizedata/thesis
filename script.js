@@ -108,9 +108,7 @@ new Vue({
         behavior: "smooth"
       });
     },
-    // playVideo(message) {
-    //   alert(message)
-    // }
+
   },
   computed: {
     getStudents() {
@@ -118,6 +116,7 @@ new Vue({
       var students = this.students.filter(student => {
         return student.name.toLowerCase().includes(this.filter.toLowerCase()) || 
         student.title.toLowerCase().includes(this.filter.toLowerCase()) || 
+        student.videolink || 
         student.year.toLowerCase().includes(this.filter.toLowerCase()) || 
         student.hashtag_1.toLowerCase().includes(this.filter.toLowerCase()) || 
         student.hashtag_2.toLowerCase().includes(this.filter.toLowerCase())
