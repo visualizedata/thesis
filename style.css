@@ -508,7 +508,8 @@ video {
 }
 
 .video-player {
-  width: 80%;
+  /*display: none;*/
+  width: 100%;
   height: auto;
   padding: .5em;
   background: black;
