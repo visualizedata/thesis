@@ -1,4 +1,5 @@
 // import modal from './components/Modal.vue';
+// console.clear()
 
 new Vue({
   el: '#app',
@@ -88,9 +89,10 @@ new Vue({
 
       scTimer: 0,
       scY: 0,
+
     };
   },
-  mounted() {
+  mounted(){
     window.addEventListener('scroll', this.handleScroll);
   },
   methods: {
@@ -108,21 +110,17 @@ new Vue({
         behavior: "smooth"
       });
     },
-    changeVideo(newSrc){
-      this.$data.src = newSrc;
-      //Force video load.
-      var vid = this.$refs.video;
-      vid.load();
-      }
   },
   computed: {
+    videoElement () {
+      return this.$refs.video;
+    }, 
     getStudents() {
-
       var students = this.students.filter(student => {
         return student.name.toLowerCase().includes(this.filter.toLowerCase()) || 
         student.title.toLowerCase().includes(this.filter.toLowerCase()) || 
-        student.videolink || 
-        student.year.toLowerCase().includes(this.filter.toLowerCase()) || 
+        student.year.toLowerCase().includes(this.filter.toLowerCase()) ||
+        student.videolink.includes(this.filter()) ||  
         student.hashtag_1.toLowerCase().includes(this.filter.toLowerCase()) || 
         student.hashtag_2.toLowerCase().includes(this.filter.toLowerCase())
       });
@@ -138,7 +136,6 @@ new Vue({
       } else {
         return students;
       }
-      
     }
   }
 })
