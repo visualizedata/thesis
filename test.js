@@ -1,5 +1,5 @@
-$(function(){
-  $('.video').on('click', function(){
-    $('.video-player').toggleClass('show');
-  });
+// SHOWS ALL VIDEO
+
+$('.video').click(function(){
+      $('.video-player').toggleClass('show');
 });

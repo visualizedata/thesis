@@ -526,6 +526,10 @@ video {
   display: flex;
 }
 
+.active {
+  display: flex;
+}
+
 .close {
   position: absolute;
   left: 2%;
