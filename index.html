@@ -138,7 +138,7 @@
 
               <!-- <div class="modal" id="video-box"> -->
                   <!-- <a href="#close-box" class="close">x</a>  -->
-                  <div class="video-player">
+                  <div class="video-player" v-bind:id="student.name.replace(/\s/g, '')">
                       <video controls v-bind:src="student.videolink">
                       </video>
                   </div>
