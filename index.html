@@ -133,16 +133,16 @@
               <img class="icon" src="assets/img/download.png" alt="download" width="80" height="80"> 
             </a>
 
-            <a class="video" v-bind:href="student.name.replace(/\s/g, '')" v-show="student.videolink !== ''">          
-              <img class="icon" src="assets/img/video.png" alt="video" width="80" height="80">
+            <a class="video" v-bind:id="student.name.replace(/\s/g, '')">          
+              <img class="icon" src="assets/img/video.png" alt="video" width="80" height="80" v-show="student.videolink !== ''">
 
-              <div class="modal" id="video-box">
+              <!-- <div class="modal" id="video-box"> -->
                   <!-- <a href="#close-box" class="close">x</a>  -->
                   <div class="video-player">
                       <video controls v-bind:src="student.videolink">
                       </video>
                   </div>
-              </div> 
+              <!-- </div>  -->
       
 
             </a>
@@ -253,6 +253,7 @@
 <script src="script.js"></script>
 <script src="plugins/video.js"></script>
 <script src="intro.js"></script>
+<script src="test.js"></script>
 
 </body>
 </html>

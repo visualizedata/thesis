@@ -502,18 +502,28 @@ button.active{
   transform-origin: left; 
 }*/
 
+/*.video {
+  display: none;
+}
+*/
+
+
 video {
   width: 100%;
   height: auto;
 }
 
 .video-player {
-  /*display: none;*/
+  display: none;
   width: 100%;
   height: auto;
   padding: .5em;
   background: black;
   position: relative;
+}
+
+.show {
+  display: flex;
 }
 
 .close {
