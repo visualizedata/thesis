@@ -1,5 +1,5 @@
-// $(function(){
-//   $('#videoTogle').on('click', function(){
-//     $('.video-player').toggleClass('show');
-//   });
-// });
+$(function(){
+  $('.video').on('click', function(){
+    $('.video-player').toggleClass('show');
+  });
+});
