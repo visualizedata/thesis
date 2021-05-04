@@ -137,12 +137,11 @@
 
               <img class="icon" src="assets/img/video.png" alt="video" width="80" height="80" v-show="student.videolink !== ''">
 
-<!--               <div class="modal" id="video-box">
-                  <a href="#close-box" class="close">x</a> 
- -->                  <!-- <div class="hidden" style="display:none"> -->
+              <!-- <div class="modal" id="video-box"> -->
+                  <!-- <div class="hidden" style="display:none"> -->
                   <div class="video-player" v-bind:id="student.name.replace(/\s/g, '')">
-                      <video controls v-bind:src="student.videolink">
-                      </video>
+                    <a href="#close-box" class="close" v-bind:id="student.name.replace(/\s/g, '')" >x</a> 
+                      <video controls v-bind:src="student.videolink"></video>
                   </div>
               <!-- </div>  -->
       
@@ -255,7 +254,8 @@
 <script src="script.js"></script>
 <script src="plugins/video.js"></script>
 <script src="intro.js"></script>
-<script src="test.js"></script>
+<!-- <script src="test.js"></script> -->
+
 
 </body>
 </html>

@@ -1,23 +1,14 @@
-// SHOWS ALL VIDEO
-
-$('.video').click(function(){
-      $("div[id=" + $(this).attr("data-related") + "]").toggleClass('show');
-});
-
+// // SHOWS ALL VIDEO
 // $('.video').click(function(){
-//       $(this).next('div').toggle();
+//       $("div[id=" + $(this).attr("data-related") + "]").toggleClass('show');
 // });
 
+// // CLOSE VIDEO BUTTON
+// $('.close').click(function(){
+//       $("div[id=" + $(this).attr("id") + "]").toggleClass('hide');
+// });
 
-
-// FULL SCREEN
-// var elem = document.getElementById("myvideo");
-// if (elem.requestFullscreen) {
-//   elem.requestFullscreen();
-// } else if (elem.mozRequestFullScreen) {
-//   elem.mozRequestFullScreen();
-// } else if (elem.webkitRequestFullscreen) {
-//   elem.webkitRequestFullscreen();
-// } else if (elem.msRequestFullscreen) { 
-//   elem.msRequestFullscreen();
-// }
+// // CLICK TO START/PAUSE
+// const videoPlayer = document.querySelector(".videoPlayer");
+// const video = videoPlayer.querySelector("video");
+// video.pause();
