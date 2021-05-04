@@ -500,8 +500,8 @@ button.active{
 .modal:target {
   transform: scale(1,1);
   transform-origin: left; 
-}*/
-
+}
+*/
 /*.video {
   display: none;
 }
@@ -509,17 +509,22 @@ button.active{
 
 
 video {
-  width: 100%;
+  width: 100vw;
   height: auto;
 }
 
 .video-player {
   display: none;
-  width: 100%;
+  width: 100vw;
+  padding: 5%;
   height: auto;
   padding: .5em;
   background: black;
-  position: relative;
+  transform-origin: right; 
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
 }
 
 .show {
