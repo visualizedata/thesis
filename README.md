@@ -10,8 +10,8 @@ This repository uses Vue.js to aggregate all previous student thesis projects fr
 - 2 Hashtags
 
 #To Edit
-The project vues and data are currently pulling from script.js - it will eventually be pulling from project.json. 
+The project vues and data are currently pulling from script.js - it will eventually be pulling from json/project.json. 
 Additional scripts managing the UI componenets can be found in into.js.
 
 #Data Handling
-The student github and video links are currently conditionally rendered v-if and v-show. The data connected to student projects is handled with v-bind and will eventually be updated to a json object as with the other thesis microsites. 
+The student github and video links are currently conditionally rendered v-if and v-show in index.html. The data connected to student projects is handled with v-bind and will eventually be updated to a json object as with the other thesis microsites. 

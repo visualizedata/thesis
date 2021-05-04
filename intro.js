@@ -18,6 +18,14 @@ $('.close').click(function(){
 
 // CLICK TO PAUSE
 const videoPlayer = document.querySelector(".videoPlayer");
-const video = videoPlayer.querySelector("video");
+const video = videoPlayer.querySelector(".vidPlayer");
+	if (video != null) videoPlayer.querySelector(".vidPlayer");
+
 video.pause();
+
+// ANOTHER SHOW METHOD
+// var videoPlayer = document.querySelector(".videoPlayer");
+// 	if (videoPlayer != null) video.setAttribute('style', 'display:flex;');
+// 		var video = parentElement.querySelector('.vidPlayer');
+// 		show.setAttribute('style', 'display:none;');
 
