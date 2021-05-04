@@ -336,8 +336,6 @@ iframe {
 Search, Filter and Hashtag
 */
 
-
-
 [v-cloak] {
   display: none;
 }
@@ -479,47 +477,29 @@ button.active{
 /* Modal 
 */
 
-/*.modal {
+.videoModal {
   display: none;
   align-items: center;
   justify-content: center;
-  transform: scale(0,1); 
+  background: rgba(0, 0, 0, .5);
+  width: 100%;
+  height: 100%;
   transition: transform 150ms ease-in-out;
   transform-origin: right; 
   position: fixed;
   top: 0;
   left: 0;
-  color: white;
-  background: rgba(0, 0, 0, .5);
-  // box-shadow: 0 0 0 100vmax rgba(0, 0, 0, .25);
-  width: 100%;
-  height: 100%;
   z-index: 2;
 }
-
-.modal:target {
-  transform: scale(1,1);
-  transform-origin: left; 
-}
-*/
-/*.video {
-  display: none;
-}
-*/
 
 .video-player {
   display: none;
   width: 100vw;
   height: auto;
-  padding: 10%;
-  padding: .5em;
   background: black;
   transition: transform 150ms ease-in-out;
   transform-origin: right; 
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 2;
+  z-index: 3;
 }
 
 video {
@@ -552,7 +532,7 @@ video {
   align-items: center;
   justify-content: center;
   text-decoration: none;
-  z-index: 3;
+  z-index: 4;
 }
 
 .close::after {
