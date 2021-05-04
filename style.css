@@ -507,19 +507,14 @@ button.active{
 }
 */
 
-
-video {
-  width: 100vw;
-  height: auto;
-}
-
 .video-player {
   display: none;
   width: 100vw;
-  padding: 10%;
   height: auto;
+  padding: 10%;
   padding: .5em;
   background: black;
+  transition: transform 150ms ease-in-out;
   transform-origin: right; 
   position: fixed;
   top: 0;
@@ -527,8 +522,17 @@ video {
   z-index: 2;
 }
 
+video {
+  width: 100vw;
+  height: auto;
+}
+
 .show {
   display: flex;
+}
+
+.hide {
+  display: none;
 }
 
 .active {
@@ -537,6 +541,7 @@ video {
 
 .close {
   position: absolute;
+  display: none;
   left: 2%;
   top: 2%;
   display: flex;
