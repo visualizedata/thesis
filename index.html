@@ -133,13 +133,13 @@
               <img class="icon" src="assets/img/download.png" alt="download" width="80" height="80"> 
             </a>
 
-            <a class="video" v-bind:id="student.name.replace(/\s/g, '')">          
+            <a class="video" v-bind:data-related="student.name.replace(/\s/g, '')" href="#">          
 
               <img class="icon" src="assets/img/video.png" alt="video" width="80" height="80" v-show="student.videolink !== ''">
 
-              <!-- <div class="modal" id="video-box"> -->
-                  <!-- <a href="#close-box" class="close">x</a>  -->
-                  <!-- <div class="hidden" style="display:none"> -->
+<!--               <div class="modal" id="video-box">
+                  <a href="#close-box" class="close">x</a> 
+ -->                  <!-- <div class="hidden" style="display:none"> -->
                   <div class="video-player" v-bind:id="student.name.replace(/\s/g, '')">
                       <video controls v-bind:src="student.videolink">
                       </video>
