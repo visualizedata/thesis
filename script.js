@@ -1,11 +1,5 @@
-// import modal from './components/Modal.vue';
-// console.clear()
-
 new Vue({
   el: '#app',
-  // components: {
-  //   Modal
-  //   },
   data: function () {
     return {
       filter: '',
@@ -112,15 +106,12 @@ new Vue({
     },
   },
   computed: {
-    videoElement () {
-      return this.$refs.video;
-    }, 
     getStudents() {
       var students = this.students.filter(student => {
         return student.name.toLowerCase().includes(this.filter.toLowerCase()) || 
         student.title.toLowerCase().includes(this.filter.toLowerCase()) || 
         student.year.toLowerCase().includes(this.filter.toLowerCase()) ||
-        student.videolink.includes(this.filter()) ||  
+        student.videolink.includes(this.filter.trim()) ||  
         student.hashtag_1.toLowerCase().includes(this.filter.toLowerCase()) || 
         student.hashtag_2.toLowerCase().includes(this.filter.toLowerCase())
       });
@@ -139,5 +130,3 @@ new Vue({
     }
   }
 })
-
-// .mount('#inline-handler');
