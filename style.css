@@ -315,13 +315,14 @@ iframe {
 
 .icons {
   text-align: center;
+  height: auto;
 }
 
 .icon {
-  width: 10%;
+  width: 30px;
   height: auto;
-  padding-right: 5%;
-  padding-left: 5%;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 
 .images:hover {
@@ -478,42 +479,66 @@ button.active{
 /* Modal 
 */
 
-.modal {
-  display: flex;
+/*.modal {
+  display: none;
   align-items: center;
   justify-content: center;
   transform: scale(0,1); 
   transition: transform 150ms ease-in-out;
   transform-origin: right; 
-  padding: 10%;
   position: fixed;
   top: 0;
   left: 0;
   color: white;
   background: rgba(0, 0, 0, .5);
   // box-shadow: 0 0 0 100vmax rgba(0, 0, 0, .25);
-  width: 80vw;
-  height: 60vw;
+  width: 100%;
+  height: 100%;
   z-index: 2;
 }
 
 .modal:target {
   transform: scale(1,1);
   transform-origin: left; 
+}
+*/
+/*.video {
+  display: none;
+}
+*/
 
+
+video {
+  width: 100vw;
+  height: auto;
 }
 
 .video-player {
-  width: 100%;
-  padding: 1em;
+  display: none;
+  width: 100vw;
+  padding: 10%;
+  height: auto;
+  padding: .5em;
   background: black;
-  position: relative;
+  transform-origin: right; 
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+
+.show {
+  display: flex;
+}
+
+.active {
+  display: flex;
 }
 
 .close {
   position: absolute;
-  left: 5%;
-  top: 5%;
+  left: 2%;
+  top: 2%;
   display: flex;
   width: 2em;
   height: 2em;
