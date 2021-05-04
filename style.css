@@ -516,7 +516,7 @@ video {
 .video-player {
   display: none;
   width: 100vw;
-  padding: 5%;
+  padding: 10%;
   height: auto;
   padding: .5em;
   background: black;
