@@ -170,14 +170,17 @@ span {
 
 .project {
   padding-top: 20px !important;
-  border: 5px solid #fff;
+/*  border: 5px solid #fff;
   transition: all .5s ease-in-out;
+  display: inline-block;
+  height: 100%;
+  width: 100%;*/
 }
 
-.project:hover {
+/*.project:hover {
   border: 5px solid #000;
   transition: all .5s ease-in-out;
-}
+}*/
 
 .bottom-stripe {
   width: 100%;
@@ -412,6 +415,15 @@ button.active{
   border-radius: 5px;
   background-color: white;
   margin-bottom: 10px;
+  border: 5px solid #fff;
+  transition: all .5s ease-in-out;
+}
+
+.box:hover {
+  cursor: pointer;
+  border: 5px solid #000;
+  transition: all .5s ease-in-out;
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.30);
 }
 
 .box_name {
@@ -466,10 +478,6 @@ button.active{
   box-shadow: none;
 }
 
-.box:hover {
-  cursor: pointer;
-}
-
 .el-select {
   width: 100%;  
 }
@@ -507,11 +515,11 @@ video {
   height: auto;
 }
 
-.show {
+.play {
   display: flex;
 }
 
-.hide {
+.pause {
   display: none;
 }
 
