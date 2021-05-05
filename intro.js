@@ -13,12 +13,12 @@ $('.video').click(function(){
 
 // CLOSE VIDEO BUTTON
 $('.close').click(function(){
-      $("div[id=" + $(this).attr("id") + "]").toggleClass('hide');
+      $("div[id=" + $(this).attr("id") + "]").toggleClass('hide').stopVideo();
 });
 
 // CLICK TO PAUSE
 const videoPlayer = document.querySelector(".videoPlayer");
-const video = videoPlayer.querySelector(".vidPlayer");
+const video = videoPlayer.querySelector(".vidPlayer");	
 	if (video != null) videoPlayer.querySelector(".vidPlayer");
 
 video.pause();
