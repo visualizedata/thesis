@@ -126,7 +126,7 @@
           
           <div class="icons">
             <a class="github" v-bind:href="student.githublink" target = "_blank">
-              <img class="icon" src="assets/img/GitHub.png" alt="github" width="80" height="80">
+              <img class="icon" src="assets/img/GitHub.png" alt="github" width="80" height="80" v-show="student.githublink !== ''">
             </a>
 
             <a class="video" v-bind:data-related="student.name.replace(/\s/g, '')" href="#">          
