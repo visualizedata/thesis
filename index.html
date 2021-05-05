@@ -129,15 +129,10 @@
               <img class="icon" src="assets/img/GitHub.png" alt="github" width="80" height="80">
             </a>
 
-            <a id="download" v-bind:href="student.videolink" v-show="student.videolink !== ''">
-              <img class="icon" src="assets/img/download.png" alt="download" width="80" height="80"> 
-            </a>
-
             <a class="video" v-bind:data-related="student.name.replace(/\s/g, '')" href="#">          
 
               <img class="icon" src="assets/img/video.png" alt="video" width="80" height="80" v-show="student.videolink !== ''">
 
-              <!-- <div class="modal" id="video-box"> -->
               <div class="videoModal" v-bind:id="student.name.replace(/\s/g, '')">
                   <div class="video-player" v-bind:id="student.name.replace(/\s/g, '')">
                     <a href="" class="close" v-bind:id="student.name.replace(/\s/g, '')" >x</a> 
