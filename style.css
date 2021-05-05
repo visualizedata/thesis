@@ -172,6 +172,9 @@ span {
   padding-top: 20px !important;
   border: 5px solid #fff;
   transition: all .5s ease-in-out;
+  display: inline-block;
+  height: 100%;
+  width: 100%;
 }
 
 .project:hover {
