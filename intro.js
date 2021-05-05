@@ -8,12 +8,12 @@ document.querySelectorAll(".showmore").forEach(function (p) {
 
 // SHOWS ALL VIDEO
 $('.video').click(function(){
-      $("div[id=" + $(this).attr("data-related") + "]").toggleClass('show');
+      $("div[id=" + $(this).attr("data-related") + "]").toggleClass('play');
 });
 
 // CLOSE VIDEO BUTTON
 $('.close').click(function(){
-      $("div[id=" + $(this).attr("id") + "]").toggleClass('hide').stopVideo();
+      $("div[id=" + $(this).attr("id") + "]").toggleClass('pause').stopVideo();
 });
 
 // CLICK TO PAUSE
