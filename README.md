@@ -22,23 +22,40 @@ The project vues and data are currently pulling from script.js - it will eventua
 
 Project data is stored in the [./data/data.json](./data/data.json) file. It is currently manually pulled into the script.js as an array.
 
-The JSON object contains two arrays: "projects" and "students"
-
-Projects follow this template:
+The students array in script.js follows this template:
 
 ```
 {
     "name": "Student Name",
     "githublink": "<https://github.com/github/repo>",
-    "title": "Project Title",
+    "title": "Project title",
     "projectlink": "<PROJECT LINK>",
     "year": "#YYYY",
     "previews": "<static/preview-YYYY/name.png>",
-    "intro": "Lorem ipsum",
+    "intro1": "Project intro text",
+    "intro2": "Project intro text",
     "videolink": "<https://github.com/videolink/demo.m4v?raw=true>",
     "hashtag_1": "#data",
-    "hashtag_2": "#policy"
+    "hashtag_2": "#technology"
 }
+```
+
+Cleaned data is stoed in json/cleaned (including 2021 projects) and follows this template:
+```
+        {
+            "description": "Project description",
+            "image": "static/preview-YEAR/<STUDENT NAME>.png",
+            "name": "Student Name",
+            "portfolio": "<PORTFOLIO LINK>",
+            "repo": "<PROJECT REPO>",
+            "subtitle": "Project intro text",
+            "tag1": "#data",
+            "tag2": "#technology",
+            "title": "Project title",
+            "url": "<PROJECT LINK>",
+            "video": "<VIDEO LINK>",
+            "year": "#YYYY"
+        },
 ```
 
 ---
