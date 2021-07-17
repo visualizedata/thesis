@@ -15,7 +15,7 @@ The project vues and data are currently pulling from script.js - it will eventua
 - Intro text is currently broken into two parts in data.json and should be pulled in dynamically in future iterations
 - Additional scripts managing the UI componenets can be found in into.js.
 - The student github and video links are currently conditionally rendered v-if and v-show in index.html
-- The data connected to student projects is handled with v-bind 
+- The data connected to student projects is handled with v-bind
 - Json data should eventually be passed in as a json object as with the other thesis microsites.
 
 ### Data
@@ -41,6 +41,7 @@ The students array in script.js follows this template:
 ```
 
 Cleaned data is stoed in json/cleaned (including 2021 projects) and follows this template:
+
 ```
         {
             "description": "Project description",
@@ -49,12 +50,11 @@ Cleaned data is stoed in json/cleaned (including 2021 projects) and follows this
             "portfolio": "<PORTFOLIO LINK>",
             "repo": "<PROJECT REPO>",
             "subtitle": "Project intro text",
-            "tag1": "#data",
-            "tag2": "#technology",
+            "tags": ["#data", "#technology"],
             "title": "Project title",
             "url": "<PROJECT LINK>",
             "video": "<VIDEO LINK>",
-            "year": "#YYYY"
+            "year": YYYY
         },
 ```
 
@@ -66,24 +66,23 @@ Cleaned data is stoed in json/cleaned (including 2021 projects) and follows this
 
    - [Fork a repository, create a local clone of your fork, and configure Git to sync your fork with the original repository](https://help.github.com/articles/fork-a-repo/)
 
-2. In the local clone of your fork, [create a branch for your edits](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging).  
-   `git branch mybranch` creates a branch named _mybranch_  
+2. In the local clone of your fork, [create a branch for your edits](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging).
+   `git branch mybranch` creates a branch named _mybranch_
    `git checkout mybranch` switches to the branch _mybranch_
 
    - Do all your work in this branch.
    - [Push your branch](https://help.github.com/articles/pushing-to-a-remote/) to the forked repo early and often.
    - Never work in the `main` branch!
-   - gh-pages will publish *directly to the live site* (it takes about 5 minutes to update)
+   - gh-pages will publish _directly to the live site_ (it takes about 5 minutes to update)
 
 3. [Pull in changes often from the `upstream main` to keep it synced](https://help.github.com/articles/syncing-a-fork/) so that when you prepare your pull request, merge conflicts will be less likely. Again, never work in the `main` branch!
 
-4. [Merge the fork main into the fork branch](https://stackoverflow.com/a/16957483) and, if applicable, [resolve any merge conflicts](https://help.github.com/articles/resolving-a-merge-conflict-using-the-command-line/).  
+4. [Merge the fork main into the fork branch](https://stackoverflow.com/a/16957483) and, if applicable, [resolve any merge conflicts](https://help.github.com/articles/resolving-a-merge-conflict-using-the-command-line/).
    `git merge <branch>` merges the specified branch into the current branch.
 
 5. When you are ready for your contributions to be considered, open a [Pull Request](https://help.github.com/articles/creating-a-pull-request/) in GitHub. The Pull Request should be for the up-to-date **branch** of your fork. Prior to submitting the Pull Request, make sure you have:
    - Synced the fork main with the latest version of the upstream main (#3).
    - Merged the fork main to the fork branch and resolved any merge conflicts (#4).
-
 
 ### Tips
 
@@ -97,4 +96,32 @@ Sometimes, you mess up and need to go back to a previous commit. [Use `revert`](
 - [GitHub Help: Collaborating on projects using issues and pull requests](https://help.github.com/categories/collaborating-on-projects-using-issues-and-pull-requests/)
 - [GitHub Guides: contributing to open source](https://guides.github.com/activities/contributing-to-open-source/)
 
+# Vue CLI
 
+## Project setup
+
+```
+yarn install
+```
+
+### Compiles and hot-reloads for development
+
+```
+yarn serve
+```
+
+### Compiles and minifies for production
+
+```
+yarn build
+```
+
+### Lints and fixes files
+
+```
+yarn lint
+```
+
+### Customize configuration
+
+See [Configuration Reference](https://cli.vuejs.org/config/).
