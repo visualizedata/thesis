@@ -17,7 +17,6 @@
 </template>
 
 <script>
-import projects from "@/projects.json";
 import Project from "@/components/Project.vue";
 import { HEIGHT_TO_WIDTH, BODY_WIDTH } from "@/constants.js";
 
@@ -26,17 +25,10 @@ export default {
   components: {
     Project,
   },
-  data() {
-    return {
-      projects: null,
-    };
-  },
   props: {
     height: Number,
     width: Number,
-  },
-  mounted() {
-    this.projects = projects.students;
+    projects: Array,
   },
   computed: {
     bodyWidth() {
