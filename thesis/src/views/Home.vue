@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <Header />
-    <Projects :height="height" :width="width" />
+    <Body :height="height" :width="width" />
     <Footer />
   </div>
 </template>
@@ -10,14 +10,14 @@
 // @ is an alias to /src
 import Header from "@/components/Header.vue";
 import Footer from "@/components/Footer.vue";
-import Projects from "@/components/Projects.vue";
+import Body from "@/components/Body.vue";
 
 export default {
   name: "Home",
   components: {
     Header,
     Footer,
-    Projects,
+    Body,
   },
   data() {
     return {

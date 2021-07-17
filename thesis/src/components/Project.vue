@@ -1,9 +1,9 @@
 <template>
-  <div class="project" :style="cellStyle">
+  <el-card class="project" :style="cellStyle">
     {{ name }} {{ title }}
 
     <img :src="image" />
-  </div>
+  </el-card>
 </template>
 
 <script>
