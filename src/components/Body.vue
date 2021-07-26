@@ -1,8 +1,12 @@
 <template>
   <div class="body">
     <el-row>
-      <Filters :filters="filters" :onFilterChange="onFilterChange" />
-      <div>Showing {{ filteredProjects.length }} projects</div>
+      <Filters
+        :filters="filters"
+        :params="params"
+        :onFilterChange="onFilterChange"
+        :nProjects="filteredProjects.length"
+      />
     </el-row>
     <el-row>
       <Projects :height="height" :width="width" :projects="filteredProjects" />
@@ -47,17 +51,31 @@ export default {
         return [];
       }
       const { TAG, YEAR, SEARCH } = this.filters;
-      return this.projects.filter(
-        (d) =>
-          d.year >= YEAR.selected[0] &&
-          d.year <= YEAR.selected[1] &&
-          (!TAG.selected.length ||
-            TAG.selected.some((tag) => d.tags.includes(tag))) &&
-          (!SEARCH.selected ||
-            d.name.indexOf(SEARCH.selected) !== -1 ||
-            d.title.indexOf(SEARCH.selected) !== -1 ||
-            d.description.indexOf(SEARCH.selected) !== -1)
-      );
+      const { SORT } = this.params;
+      const sortParam = SORT.selected;
+      const isSortAsc = SORT.asc;
+      console.log(sortParam, isSortAsc);
+      return this.projects
+        .filter(
+          (d) =>
+            d.year >= YEAR.selected[0] &&
+            d.year <= YEAR.selected[1] &&
+            (!TAG.selected.length ||
+              TAG.selected.some((tag) => d.tags.includes(tag))) &&
+            (!SEARCH.selected ||
+              d.name.indexOf(SEARCH.selected) !== -1 ||
+              d.title.indexOf(SEARCH.selected) !== -1 ||
+              d.description.indexOf(SEARCH.selected) !== -1)
+        )
+        .sort((a, b) => {
+          const val =
+            a[sortParam] > b[sortParam]
+              ? 1
+              : a[sortParam] < b[sortParam]
+              ? -1
+              : 0;
+          return isSortAsc ? val : -1 * val;
+        });
     },
   },
   methods: {
@@ -89,6 +107,25 @@ export default {
           SEARCH: {
             ...this.filters.SEARCH,
             selected,
+          },
+        };
+      }
+      if (id === "SORT") {
+        this.params = {
+          ...this.params,
+          SORT: {
+            ...this.params.SORT,
+            selected,
+            asc: true,
+          },
+        };
+      }
+      if (id === "SORT_DIRECTION") {
+        this.params = {
+          ...this.params,
+          SORT: {
+            ...this.params.SORT,
+            asc: !this.params.SORT.asc,
           },
         };
       }

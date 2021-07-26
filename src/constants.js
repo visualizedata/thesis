@@ -18,11 +18,21 @@ export const FILTERS = {
   },
 };
 
-export const PARAMS = [
-  {
+export const PARAMS = {
+  SORT: {
     id: "SORT",
     type: "SINGLE_SELECT",
-    options: ["Student name", "Year"],
+    options: [
+      {
+        label: "Student name",
+        value: "name",
+      },
+      {
+        label: "Year",
+        value: "year",
+      },
+    ],
+    selected: "Student name",
     asc: true,
   },
-];
+};
