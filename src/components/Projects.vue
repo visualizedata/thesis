@@ -10,15 +10,13 @@
       :repo="project.repo"
       :video="project.video"
       :index="index"
-      :position="getGridPosition(index)"
-      :width="cellWidth"
+      :year="project.year"
     />
   </div>
 </template>
 
 <script>
 import Project from "@/components/Project.vue";
-import { HEIGHT_TO_WIDTH, BODY_WIDTH } from "@/constants.js";
 
 export default {
   name: "Projects",
@@ -30,32 +28,7 @@ export default {
     width: Number,
     projects: Array,
   },
-  computed: {
-    bodyWidth() {
-      return this.width * BODY_WIDTH;
-    },
-    cellWidth() {
-      return this.bodyWidth / this.nCols;
-    },
-    nCols() {
-      const minCellWidth = 350;
-      const maxCellWidth = 400;
-      return Math.max(
-        Math.floor(this.bodyWidth / minCellWidth),
-        Math.ceil(this.bodyWidth / maxCellWidth)
-      );
-    },
-  },
-  methods: {
-    getGridPosition(index) {
-      const { cellWidth, nCols } = this;
-      const height = HEIGHT_TO_WIDTH * cellWidth;
-      return {
-        x: cellWidth * (index % nCols),
-        y: height * Math.floor(index / nCols),
-      };
-    },
-  },
+  computed: {},
 };
 </script>
 
@@ -64,5 +37,32 @@ export default {
   position: relative;
   margin: 0 10%;
   width: 80%;
+  display: grid;
+  column-gap: 20px;
+  row-gap: 20px;
+}
+
+@media (min-width: 400px) {
+  .projects {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (min-width: 800px) {
+  .projects {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1200px) {
+  .projects {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 1600px) {
+  .projects {
+    grid-template-columns: repeat(4, 1fr);
+  }
 }
 </style>

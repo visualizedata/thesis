@@ -556,7 +556,7 @@
       "tags": ["society", "politics"],
       "title": "The Influencers",
       "url": "https://parsons.nyc/thesis-2018/maxCarradine/thesis",
-      "video": "",
+      "video": "https://github.com/visualizedata/thesis/blob/gh-pages/assets/media/MaxCarradine_2018.mp4?raw=true",
       "year": 2018
     },
     {
@@ -660,7 +660,7 @@
       "tags": ["arts", "leisure"],
       "title": "Cambrian Analytica",
       "url": "https://parsons.nyc/thesis-2019/nicStark/MicroSite/",
-      "video": "https://github.com/nicstark/thesis/blob/master/public/demo.mp4",
+      "video": "https://github.com/visualizedata/thesis/blob/gh-pages/assets/media/NicStark_2019.mov?raw=true",
       "year": 2019
     },
     {
@@ -706,13 +706,13 @@
       "description": "How do we measure influence? If you allow that a link from one page to another allows us to measure relevance, ala the PageRankU+2122 algorithm, and that proximity (e.g. the number of links from one page to another) gives us a sense of how that relevance diminishes with distance, \u2018influence\u2019 is only a function of chronological order. This project is a case study in applying this methodology to the art movement, Dada, using the closed network of wikipedia to provide a consistent dataset. From this dataset (the scraped URLs and basic metadata of pages linking to and from Dada) a map of the conceptual framework, players and geography of Dada is established, contextualizing the art movement within it\u2019s moment in history.",
       "image": "preview-2017/riley.png",
       "name": "Riley Hoonan",
-      "portfolio": "http://www.rileyhoonan.com/",
+      "portfolio": "https://rileyhoonan.com/",
       "repo": "https://github.com/rhoon/thesis",
       "subtitle": "How do we measure influence?",
       "tags": ["arts", "leisure"],
       "title": "Mapping Dada",
       "url": "http://www.mappingdada.info/",
-      "video": "",
+      "video": "https://github.com/visualizedata/thesis/blob/gh-pages/assets/media/RileyHoonan_2017.mp4?raw=true",
       "year": 2017
     },
     {
@@ -790,7 +790,7 @@
       "tags": ["society", "politics"],
       "title": "Canada\u2018s Indian Residential School System",
       "url": "https://parsons.nyc/thesis-2017/samVickars/",
-      "video": "",
+      "video": "https://github.com/visualizedata/thesis/blob/gh-pages/assets/media/SamVickars_2017.mp4?raw=true",
       "year": 2017
     },
     {
