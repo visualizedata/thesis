@@ -5,7 +5,11 @@
         :filters="filters"
         :params="params"
         :onFilterChange="onFilterChange"
-        :nProjects="filteredProjects.length"
+        :nProjects="{
+          filtered: filteredProjects.length,
+          all: projects.length,
+        }"
+        :yearData="yearData"
       />
     </el-row>
     <el-row>
@@ -16,6 +20,7 @@
 </template>
 
 <script>
+import { rollup } from "d3-array";
 import projects from "@/projects.json";
 import { FILTERS, PARAMS } from "../constants";
 
@@ -54,7 +59,7 @@ export default {
       const { SORT } = this.params;
       const sortParam = SORT.selected;
       const isSortAsc = SORT.asc;
-      console.log(sortParam, isSortAsc);
+
       return this.projects
         .filter(
           (d) =>
@@ -76,6 +81,34 @@ export default {
               : 0;
           return isSortAsc ? val : -1 * val;
         });
+    },
+    yearData() {
+      if (!this.projects.length) {
+        return {
+          filtered: [],
+          all: [],
+        };
+      }
+      const unfilteredYearData = [
+        ...rollup(
+          this.projects,
+          (values) => values.length,
+          (d) => d.year
+        ),
+      ].sort((a, b) => a[0] - b[0]);
+      const filteredYearMap = rollup(
+        this.filteredProjects,
+        (values) => values.length,
+        (d) => d.year
+      );
+      const filteredYearData = unfilteredYearData.map(([year]) => [
+        year,
+        filteredYearMap.get(year) || 0,
+      ]);
+      return {
+        filtered: filteredYearData,
+        all: unfilteredYearData,
+      };
     },
   },
   methods: {

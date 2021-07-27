@@ -74,7 +74,7 @@ export default {
 }
 
 .project:hover .project-header {
-  height: 40%;
+  height: 35%;
   opacity: 80%;
 }
 
