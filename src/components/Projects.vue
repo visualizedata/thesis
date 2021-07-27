@@ -11,6 +11,7 @@
       :video="project.video"
       :index="index"
       :year="project.year"
+      :tags="project.tags"
     />
   </div>
 </template>

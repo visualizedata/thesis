@@ -82,6 +82,7 @@ export default {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  font-family: "neue-regular";
 }
 
 .sort-button {

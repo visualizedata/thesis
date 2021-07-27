@@ -2,9 +2,37 @@
   <el-card class="project" :body-style="{ padding: '0px' }">
     <img :src="require(`@/assets/images/${image}`)" />
     <div class="project-header">
-      <div>{{ title }}</div>
-      <div>{{ name }}</div>
-      <div>{{ year }}</div>
+      <div class="project-header__title">{{ title }}</div>
+      <div class="project-header__name">
+        {{ name }} <span class="project-header__year">({{ year }})</span>
+      </div>
+      <div class="project-header__hover-row">
+        <div class="project-header__hover-row__icons">
+          <a :href="repo">
+            <img
+              v-if="repo"
+              :src="require('@/assets/images/GitHub.png')"
+              class="link-icon link-github"
+            />
+          </a>
+          <img
+            v-if="video"
+            :src="require('@/assets/images/video.png')"
+            class="link-icon link-video"
+          />
+        </div>
+        <div class="project-header__hover-row__tags">
+          <el-tag
+            class="tag"
+            v-for="tag in tags"
+            :key="tag"
+            type="info"
+            effect="plain"
+            size="small"
+            >{{ tag }}</el-tag
+          >
+        </div>
+      </div>
     </div>
   </el-card>
 </template>
@@ -22,6 +50,7 @@ export default {
     index: Number,
     position: Object,
     year: Number,
+    tags: Array,
   },
   computed: {},
   methods: {},
@@ -41,8 +70,58 @@ export default {
   opacity: 60%;
   background-color: white;
   z-index: 1;
+  transition: height 0.25s, opacity 0.25s;
 }
+
+.project:hover .project-header {
+  height: 40%;
+  opacity: 80%;
+}
+
+.project-header__title {
+  font-family: "neue-regular";
+  font-size: 12px;
+  margin: 4px 0px;
+}
+
+.project-header__name {
+  font-family: "neue-display-wide";
+  font-size: 14px;
+}
+.project-header__year {
+  font-family: "neue-regular";
+  font-size: 14px;
+}
+
 .project img {
   width: 100%;
+  display: block;
+}
+
+.project-header__hover-row {
+  visibility: hidden;
+  display: flex;
+  justify-content: space-between;
+}
+.project-header__hover-row__icons {
+  display: flex;
+}
+
+.project-header:hover .project-header__hover-row {
+  visibility: visible;
+}
+
+img.link-icon {
+  margin: 10px;
+  width: 20px;
+  height: 20px;
+}
+
+.project-header__hover-row__tags {
+  margin-top: 4px;
+}
+.project-header__hover-row__tags .tag {
+  font-family: "neue-regular";
+  margin: 2px;
 }
 </style>
