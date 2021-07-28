@@ -10,7 +10,9 @@
   "dependencies": {
     "core-js": "^3.6.5",
     "d3-array": "^3.0.1",
+    "d3-brush": "^3.0.0",
     "d3-scale": "^4.0.0",
+    "d3-selection": "^3.0.0",
     "element-plus": "^1.0.2-beta.55",
     "vue": "^3.0.0",
     "vue-router": "^4.0.0-0"

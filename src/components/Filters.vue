@@ -26,41 +26,11 @@
           @change="(text) => onFilterChange('SEARCH', text)"
         />
       </div>
-      <div class="filter year-filter">
-        <div class="label">Filter by year</div>
-        <svg :height="`${filterHeight}px`" width="200px">
-          <g class="year-bars-all">
-            <rect
-              v-for="bar in yearData.all"
-              :key="`all_${bar[0]}`"
-              :x="xScale(bar[0])"
-              :y="filterHeight - yScale(bar[1])"
-              :height="yScale(bar[1])"
-              :width="xScale.bandwidth()"
-            />
-          </g>
-          <g class="year-bars-filtered">
-            <rect
-              v-for="bar in yearData.filtered"
-              :key="`all_${bar[0]}`"
-              :x="xScale(bar[0])"
-              :y="filterHeight - yScale(bar[1])"
-              :height="yScale(bar[1])"
-              :width="xScale.bandwidth()"
-            />
-          </g>
-          <g class="year-labels">
-            <text
-              v-for="text in yearData.all"
-              :key="text[0]"
-              :x="xScale(text[0]) + xScale.bandwidth() / 2"
-              :y="filterHeight - 3"
-            >
-              {{ text[0] }}
-            </text>
-          </g>
-        </svg>
-      </div>
+      <BarFilter
+        :yearData="yearData"
+        :filterHeight="filterHeight"
+        :onYearChange="(selection) => onFilterChange('YEAR', selection)"
+      />
       <div class="filter sort-param">
         <div class="label">Sort</div>
         <div class="sort-param-content">
@@ -94,12 +64,14 @@
 </template>
 
 <script>
-import { scaleLinear, scaleBand } from "d3-scale";
-import { max } from "d3-array";
 const FILTER_HEIGHT = 40;
+import BarFilter from "./BarFilter.vue";
 
 export default {
   name: "Filters",
+  components: {
+    BarFilter,
+  },
   props: {
     filters: Object,
     params: Object,
@@ -127,18 +99,6 @@ export default {
         return "el-icon-sort-down";
       }
       return "el-icon-sort-up";
-    },
-    xScale() {
-      return scaleBand()
-        .domain(this.yearData.all.map((d) => d[0]))
-        .range([0, 200])
-        .paddingOuter(0.2)
-        .paddingInner(0.1);
-    },
-    yScale() {
-      return scaleLinear()
-        .domain([0, max(this.yearData.all, (d) => d[1])])
-        .range([0, this.filterHeight]);
     },
   },
 };
@@ -193,18 +153,5 @@ export default {
 
 .project-count {
   font-size: 12px;
-}
-
-.year-bars-all rect {
-  fill: gray;
-}
-.year-bars-filtered rect {
-  fill: black;
-  transition: all 0.5s;
-}
-.year-labels text {
-  fill: white;
-  font-size: 9px;
-  text-anchor: middle;
 }
 </style>

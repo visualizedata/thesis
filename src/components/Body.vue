@@ -101,6 +101,7 @@ export default {
         (values) => values.length,
         (d) => d.year
       );
+      // left join on unfiltered so every year has an entry, even if count is 0
       const filteredYearData = unfilteredYearData.map(([year]) => [
         year,
         filteredYearMap.get(year) || 0,
@@ -127,10 +128,7 @@ export default {
           ...this.filters,
           YEAR: {
             ...this.filters.YEAR,
-            selected: [
-              Math.min(selected, this.filters.YEAR.options[0]),
-              Math.max(selected, this.filters.YEAR.options[1]),
-            ],
+            selected,
           },
         };
       }
