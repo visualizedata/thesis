@@ -107,7 +107,7 @@ export default {
 <style scoped>
 .filters {
   width: 80%;
-  margin: 20px 10%;
+  margin: 0px 10% 20px 10%;
   font-family: "neue-regular";
 }
 .filters .el-row {

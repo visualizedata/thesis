@@ -20,7 +20,7 @@
 </template>
 
 <script>
-import { rollup } from "d3-array";
+import { rollup, ascending, descending } from "d3-array";
 import projects from "@/projects.json";
 import { FILTERS, PARAMS } from "../constants";
 
@@ -47,7 +47,10 @@ export default {
     };
   },
   mounted() {
-    this.projects = projects.students;
+    this.projects = projects.students.map((d) => ({
+      ...d,
+      searchTarget: [d.name, d.title, d.description].join(" ").toLowerCase(),
+    }));
     this.populateFilters();
   },
   computed: {
@@ -59,6 +62,7 @@ export default {
       const { SORT } = this.params;
       const sortParam = SORT.selected;
       const isSortAsc = SORT.asc;
+      const searchTerm = SEARCH.selected.toLowerCase();
 
       return this.projects
         .filter(
@@ -67,20 +71,13 @@ export default {
             d.year <= YEAR.selected[1] &&
             (!TAG.selected.length ||
               TAG.selected.some((tag) => d.tags.includes(tag))) &&
-            (!SEARCH.selected ||
-              d.name.indexOf(SEARCH.selected) !== -1 ||
-              d.title.indexOf(SEARCH.selected) !== -1 ||
-              d.description.indexOf(SEARCH.selected) !== -1)
+            (!searchTerm || d.searchTarget.indexOf(searchTerm) !== -1)
         )
-        .sort((a, b) => {
-          const val =
-            a[sortParam] > b[sortParam]
-              ? 1
-              : a[sortParam] < b[sortParam]
-              ? -1
-              : 0;
-          return isSortAsc ? val : -1 * val;
-        });
+        .sort((a, b) =>
+          isSortAsc
+            ? ascending(a[sortParam], b[sortParam])
+            : descending(a[sortParam], b[sortParam])
+        );
     },
     yearData() {
       if (!this.projects.length) {
