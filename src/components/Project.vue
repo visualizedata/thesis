@@ -1,6 +1,6 @@
 <template>
   <el-card class="project" :body-style="{ padding: '0px' }">
-    <img :src="require(`@/assets/images/${image}`)" />
+    <img :src="require('@/assets/images/parsons_placeholder.png')" />
     <div class="project-header">
       <div class="project-header__title">{{ title }}</div>
       <div class="project-header__name">
@@ -51,6 +51,25 @@ export default {
     position: Object,
     year: Number,
     tags: Array,
+  },
+  data() {
+    return {
+      observer: null,
+    };
+  },
+  mounted() {
+    const { image, $el } = this;
+
+    this.observer = new IntersectionObserver(([entry]) => {
+      const img = $el.querySelector("img");
+
+      if (entry.isIntersecting) {
+        console.log(entry, img);
+        img.src = require(`@/assets/images/${image}`);
+        this.observer.disconnect();
+      }
+    });
+    this.observer.observe($el);
   },
   computed: {},
   methods: {},

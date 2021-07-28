@@ -24,6 +24,11 @@
   color: #42b983;
 }
 
+.el-select-dropdown__item {
+  font-family: "neue-regular";
+  font-size: 12px;
+}
+
 @font-face {
   font-family: "neue-regular";
   src: url("./assets/fonts/Neue-Regular.eot?#iefix") format("embedded-opentype"),
