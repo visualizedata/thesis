@@ -1,6 +1,18 @@
 <template>
   <div class="filters">
     <el-row>
+      <!-- SEARCH FILTER -->
+      <div class="filter search-filter">
+        <div class="label">Filter on text</div>
+        <el-input
+          placeholder="Type name, title, or description"
+          clearable
+          v-model="filterSearch.selected"
+          @change="(text) => onFilterChange('SEARCH', text)"
+        />
+      </div>
+
+      <!-- TAG FILTER -->
       <div class="filter tag-filter">
         <div class="label">Filter by tag</div>
         <el-select
@@ -17,20 +29,8 @@
           />
         </el-select>
       </div>
-      <div class="filter search-filter">
-        <div class="label">Filter on text</div>
-        <el-input
-          placeholder="Search name, title, or description"
-          clearable
-          v-model="filterSearch.selected"
-          @change="(text) => onFilterChange('SEARCH', text)"
-        />
-      </div>
-      <BarFilter
-        :yearData="yearData"
-        :filterHeight="filterHeight"
-        :onYearChange="(selection) => onFilterChange('YEAR', selection)"
-      />
+
+      <!-- PARAM SORT -->
       <div class="filter sort-param">
         <div class="label">Sort</div>
         <div class="sort-param-content">
@@ -46,14 +46,31 @@
             >
             </el-option>
           </el-select>
-          <el-button
-            class="sort-button"
-            type="text"
-            :icon="sortIcon"
-            @click="() => onFilterChange('SORT_DIRECTION', null)"
-          ></el-button>
+          <el-tooltip
+            :content="
+              paramSort.asc
+                ? 'click to sort descending'
+                : 'click to sort ascending'
+            "
+            placement="bottom"
+            effect="light"
+          >
+            <el-button
+              class="sort-button"
+              type="text"
+              :icon="sortIcon"
+              @click="() => onFilterChange('SORT_DIRECTION', null)"
+            ></el-button>
+          </el-tooltip>
         </div>
       </div>
+
+      <!-- YEAR FILTER -->
+      <BarFilter
+        :yearData="yearData"
+        :filterHeight="filterHeight"
+        :onYearChange="(selection) => onFilterChange('YEAR', selection)"
+      />
     </el-row>
     <el-row>
       <div class="filter project-count">
@@ -108,7 +125,6 @@ export default {
 .filters {
   width: 80%;
   margin: 0px 10% 20px 10%;
-
   font-family: "neue-regular";
 }
 .filters .el-row {
@@ -158,27 +174,6 @@ export default {
 .project-count {
   font-size: 12px;
   margin-bottom: 10px;
-}
-
-::placeholder {
-  /* Chrome/Opera/Safari */
-  font-family: "neue-regular" !important;
-}
-::-webkit-input-placeholder {
-  /* Chrome/Opera/Safari */
-  font-family: "neue-regular" !important;
-}
-::-moz-placeholder {
-  /* Firefox 19+ */
-  font-family: "neue-regular";
-}
-:-ms-input-placeholder {
-  /* IE 10+ */
-  font-family: "neue-regular";
-}
-:-moz-placeholder {
-  /* Firefox 18- */
-  font-family: "neue-regular";
 }
 
 @media (max-width: 399px) {

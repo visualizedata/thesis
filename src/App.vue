@@ -114,4 +114,39 @@
   font-weight: normal;
   font-style: normal;
 }
+
+::placeholder {
+  /* Chrome/Opera/Safari */
+  font-family: "neue-regular";
+  font-size: 12px;
+}
+::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  font-family: "neue-regular";
+  font-size: 12px;
+}
+::-moz-placeholder {
+  /* Firefox 19+ */
+  font-family: "neue-regular";
+  font-size: 12px;
+}
+:-ms-input-placeholder {
+  /* IE 10+ */
+  font-family: "neue-regular";
+  font-size: 12px;
+}
+:-moz-placeholder {
+  /* Firefox 18- */
+  font-family: "neue-regular";
+  font-size: 12px;
+}
+
+.el-popper {
+  font-family: "neue-regular";
+  font-size: 12px;
+}
+.el-input__inner {
+  font-family: "neue-regular";
+  font-size: 12px;
+}
 </style>

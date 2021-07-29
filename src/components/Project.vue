@@ -1,10 +1,40 @@
 <template>
-  <el-card class="project" :body-style="{ padding: '0px' }">
+  <el-card
+    :class="{
+      project: true,
+      'project--is-open': isOpen,
+    }"
+    :body-style="{ padding: '0px' }"
+    @mouseleave="() => toggleIsOpen(false)"
+  >
     <img :src="require('@/assets/images/parsons_placeholder.png')" />
     <div class="project-header">
-      <div class="project-header__title">{{ title }}</div>
-      <div class="project-header__name">
+      <i
+        :class="{
+          'project-header__toggle': true,
+          'el-icon-remove-outline': isOpen,
+          'el-icon-circle-plus-outline': !isOpen,
+        }"
+        @click="() => toggleIsOpen()"
+      ></i>
+      <div
+        :class="{
+          'project-header__title': true,
+          'project-header__title--size': title.length > 50,
+        }"
+      >
+        {{ title }}
+      </div>
+      <div
+        :class="{
+          'project-header__name': true,
+          'project-header__name--size': name.length > 20,
+        }"
+      >
         {{ name }} <span class="project-header__year">({{ year }})</span>
+      </div>
+      <div class="project-header__description-row">
+        <div class="project-header__description">{{ description }}</div>
       </div>
       <div class="project-header__hover-row">
         <div class="project-header__hover-row__icons">
@@ -59,6 +89,7 @@ export default {
   data() {
     return {
       observer: null,
+      isOpen: false,
     };
   },
   mounted() {
@@ -74,8 +105,11 @@ export default {
     });
     this.observer.observe($el);
   },
-  computed: {},
-  methods: {},
+  methods: {
+    toggleIsOpen(next) {
+      this.isOpen = next !== undefined ? next : !this.isOpen;
+    },
+  },
 };
 </script>
 
@@ -85,7 +119,7 @@ export default {
 }
 .project-header {
   width: calc(100% - 20px);
-  height: 20%;
+  height: 40px;
   position: absolute;
   bottom: 0px;
   padding: 10px;
@@ -94,21 +128,54 @@ export default {
   transition: height 0.25s, background-color 0.25s;
 }
 
-.project:hover .project-header {
-  height: 35%;
+.project:not(.project--is-open):hover .project-header {
+  height: 74px;
   background-color: rgba(255, 255, 255, 0.8);
+}
+.project--is-open .project-header {
+  height: calc(100% - 20px);
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.project-header__toggle {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  cursor: pointer;
+  visibility: hidden;
+  opacity: 0.4;
+  transition: transform 0.1s;
+  font-size: 18px;
+}
+.project:hover .project-header__toggle {
+  visibility: visible;
+}
+.project-header__toggle:hover {
+  transform: scale(1.1);
 }
 
 .project-header__title {
   font-family: "neue-regular";
-  font-size: 12px;
   margin: 4px 0px;
+  font-size: 0.8em;
+  white-space: nowrap;
+}
+.project-header__title--size {
+  font-size: 0.7em;
 }
 
 .project-header__name {
   font-family: "neue-display-wide";
-  font-size: 14px;
+  font-size: 1em;
+  white-space: nowrap;
 }
+.project-header__name--size {
+  font-size: 0.85em;
+}
+.project--is-open .project-header .project-header__name {
+  border-bottom: 1px solid #ddd;
+}
+
 .project-header__year {
   font-family: "neue-regular";
   font-size: 14px;
@@ -131,12 +198,35 @@ export default {
 .project:hover .project-header .project-header__hover-row {
   visibility: visible;
 }
+.project--is-open .project-header .project-header__hover-row {
+  visibility: visible;
+  border-top: 1px solid #ddd;
+}
+
+.project-header__description-row {
+  font-family: "neue-regular";
+  overflow: scroll;
+  height: 0px;
+  font-size: 13px;
+  text-align: left;
+}
+.project--is-open .project-header .project-header__description-row {
+  height: calc(100% - 76px);
+}
+.project-header__description {
+  margin: 10px;
+  padding: 10px;
+}
 
 img.link-icon {
   margin: 10px;
   width: 20px;
   height: 20px;
   cursor: pointer;
+  transition: transform 0.1s;
+}
+img.link-icon:hover {
+  transform: scale(1.1);
 }
 
 .project-header__hover-row__tags {
@@ -151,6 +241,6 @@ img.link-icon {
   cursor: pointer;
 }
 .el-tag:hover {
-  filter: brightness(1.15);
+  filter: brightness(1.1);
 }
 </style>
