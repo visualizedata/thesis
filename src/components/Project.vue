@@ -8,7 +8,7 @@
       </div>
       <div class="project-header__hover-row">
         <div class="project-header__hover-row__icons">
-          <a :href="repo">
+          <a :href="repo" target="_blank">
             <img
               v-if="repo"
               :src="require('@/assets/images/GitHub.png')"
@@ -19,6 +19,7 @@
             v-if="video"
             :src="require('@/assets/images/video.png')"
             class="link-icon link-video"
+            @click="() => setVideoStudent(video)"
           />
         </div>
         <div class="project-header__hover-row__tags">
@@ -29,6 +30,7 @@
             type="info"
             effect="plain"
             size="small"
+            @click="() => onFilterChange('TAG_TOGGLE', tag)"
             >{{ tag }}</el-tag
           >
         </div>
@@ -51,6 +53,8 @@ export default {
     position: Object,
     year: Number,
     tags: Array,
+    onFilterChange: Function,
+    setVideoStudent: Function,
   },
   data() {
     return {
@@ -64,7 +68,6 @@ export default {
       const img = $el.querySelector("img");
 
       if (entry.isIntersecting) {
-        console.log(entry, img);
         img.src = require(`@/assets/images/${image}`);
         this.observer.disconnect();
       }
@@ -86,15 +89,14 @@ export default {
   position: absolute;
   bottom: 0px;
   padding: 10px;
-  opacity: 60%;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.7);
   z-index: 1;
-  transition: height 0.25s, opacity 0.25s;
+  transition: height 0.25s, background-color 0.25s;
 }
 
 .project:hover .project-header {
   height: 35%;
-  opacity: 80%;
+  background-color: rgba(255, 255, 255, 0.8);
 }
 
 .project-header__title {
@@ -126,7 +128,7 @@ export default {
   display: flex;
 }
 
-.project-header:hover .project-header__hover-row {
+.project:hover .project-header .project-header__hover-row {
   visibility: visible;
 }
 
@@ -134,6 +136,7 @@ img.link-icon {
   margin: 10px;
   width: 20px;
   height: 20px;
+  cursor: pointer;
 }
 
 .project-header__hover-row__tags {
@@ -142,5 +145,12 @@ img.link-icon {
 .project-header__hover-row__tags .tag {
   font-family: "neue-regular";
   margin: 2px;
+}
+
+.el-tag {
+  cursor: pointer;
+}
+.el-tag:hover {
+  filter: brightness(1.15);
 }
 </style>

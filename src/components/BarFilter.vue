@@ -1,7 +1,7 @@
 <template>
   <div class="filter year-filter">
     <div class="label">Filter by year</div>
-    <svg :height="`${filterHeight}px`" width="200px">
+    <svg :height="`${filterHeight}px`" :width="`${width}px`">
       <g class="year-bars-all">
         <rect
           v-for="bar in yearData.all"
@@ -44,6 +44,11 @@ import { max, bisectCenter } from "d3-array";
 import { brushX } from "d3-brush";
 export default {
   name: "BarFilter",
+  data() {
+    return {
+      width: 250,
+    };
+  },
   props: {
     yearData: Object,
     filterHeight: Number,
@@ -53,7 +58,7 @@ export default {
     xScale() {
       return scaleBand()
         .domain(this.yearData.all.map((d) => d[0]))
-        .range([0, 200])
+        .range([0, this.width])
         .paddingInner(0.1);
     },
     yScale() {
