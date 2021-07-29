@@ -13,7 +13,12 @@
       />
     </el-row>
     <el-row>
-      <Projects :height="height" :width="width" :projects="filteredProjects" />
+      <Projects
+        :height="height"
+        :width="width"
+        :projects="filteredProjects"
+        :onFilterChange="onFilterChange"
+      />
     </el-row>
     <SidePanel />
   </div>
@@ -117,6 +122,15 @@ export default {
           TAG: {
             ...this.filters.TAG,
             selected,
+          },
+        };
+      }
+      if (id === "TAG_TOGGLE") {
+        this.filters = {
+          ...this.filters,
+          TAG: {
+            ...this.filters.TAG,
+            selected: [...new Set([...this.filters.TAG.selected, selected])],
           },
         };
       }

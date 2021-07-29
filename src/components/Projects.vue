@@ -12,7 +12,17 @@
       :index="index"
       :year="project.year"
       :tags="project.tags"
+      :onFilterChange="onFilterChange"
+      :setVideoStudent="setVideoStudent"
     />
+    <div class="video-container" v-if="videoStudent">
+      <div class="video-close" @click="() => setVideoStudent(null)">
+        &#10005;
+      </div>
+      <video controls autoplay>
+        <source :src="videoStudent" type="video/mp4" />
+      </video>
+    </div>
   </div>
 </template>
 
@@ -24,28 +34,40 @@ export default {
   components: {
     Project,
   },
+  data() {
+    return {
+      videoStudent: null,
+    };
+  },
   props: {
     height: Number,
     width: Number,
     projects: Array,
+    onFilterChange: Function,
   },
-  computed: {},
+  methods: {
+    setVideoStudent(student) {
+      this.videoStudent = student;
+    },
+  },
 };
 </script>
 
 <style scoped>
 .projects {
   position: relative;
-  margin: 0 10%;
-  width: 80%;
   display: grid;
   column-gap: 20px;
   row-gap: 20px;
+  margin: 0;
+  width: 100%;
 }
 
 @media (min-width: 400px) {
   .projects {
     grid-template-columns: 1fr;
+    margin: 0 10%;
+    width: 80%;
   }
 }
 
@@ -65,5 +87,35 @@ export default {
   .projects {
     grid-template-columns: repeat(4, 1fr);
   }
+}
+
+.video-container {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 3;
+}
+video {
+  width: 100%;
+  height: 100%;
+}
+.video-close {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  display: flex;
+  width: 2em;
+  height: 2em;
+  background: white;
+  border: 1px solid gray;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  z-index: 4;
+  cursor: pointer;
+  font-size: 20px;
 }
 </style>

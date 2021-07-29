@@ -108,6 +108,7 @@ export default {
 .filters {
   width: 80%;
   margin: 0px 10% 20px 10%;
+
   font-family: "neue-regular";
 }
 .filters .el-row {
@@ -131,27 +132,65 @@ export default {
 }
 
 .search-filter {
-  width: 260px;
+  width: 250px;
 }
 .search-filter input {
   width: 100%;
 }
 
 .tag-filter {
-  min-width: 300px;
+  min-width: 250px;
 }
 .tag-filter .el-select {
   width: 100%;
 }
 
 .sort-param {
-  width: 160px;
+  width: 250px;
 }
 .sort-param-content {
   display: flex;
 }
+.sort-param-content .el-select {
+  width: 100%;
+}
 
 .project-count {
   font-size: 12px;
+  margin-bottom: 10px;
+}
+
+::placeholder {
+  /* Chrome/Opera/Safari */
+  font-family: "neue-regular" !important;
+}
+::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  font-family: "neue-regular" !important;
+}
+::-moz-placeholder {
+  /* Firefox 19+ */
+  font-family: "neue-regular";
+}
+:-ms-input-placeholder {
+  /* IE 10+ */
+  font-family: "neue-regular";
+}
+:-moz-placeholder {
+  /* Firefox 18- */
+  font-family: "neue-regular";
+}
+
+@media (max-width: 399px) {
+  .filters {
+    width: 100%;
+    margin: 0px;
+  }
+
+  .search-filter,
+  .tag-filter,
+  .sort-param {
+    width: 100%;
+  }
 }
 </style>

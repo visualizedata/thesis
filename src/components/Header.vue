@@ -72,6 +72,8 @@ export default {
   font-size: 2.5em;
   color: #e82e21;
   text-decoration: none;
+  display: flex;
+  text-align: left;
 }
 
 .title-thesis {
@@ -90,5 +92,29 @@ export default {
   text-align: left;
   padding: 25px 0px;
   border-bottom: 3px solid black;
+}
+
+@media (max-width: 399px) {
+  .header {
+    margin: 10px 0;
+  }
+
+  .title-dv {
+    font-size: 1.5em;
+    margin-top: 5px;
+  }
+
+  .title-thesis {
+    line-height: 1em;
+  }
+
+  .section-border-top {
+    width: 0;
+  }
+
+  .body-description {
+    font-size: 1em;
+    padding: 15px 0px;
+  }
 }
 </style>
