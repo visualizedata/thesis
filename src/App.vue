@@ -115,6 +115,16 @@
   font-style: normal;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+  transition: color 0.25s;
+}
+a:hover {
+  text-decoration: none;
+  color: #e82e21;
+}
+
 ::placeholder {
   /* Chrome/Opera/Safari */
   font-family: "neue-regular";
