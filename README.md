@@ -8,6 +8,12 @@ Please be mindful of keeping your project links active. Please submit a pull req
 
 ---
 
+### WIP/wishlist
+
+- [ ] add filter query to URL via router
+- [ ] performance improvements (e.g. remove unused fonts, lazy load components)
+- [ ] look into ways to reduce bundle size?
+
 ### Data
 
 Project data is stored in `@/src/projects.json`. It is imported into the `Body` component.
