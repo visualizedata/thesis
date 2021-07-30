@@ -12,6 +12,7 @@
       :index="index"
       :year="project.year"
       :tags="project.tags"
+      :url="project.url"
       :onFilterChange="onFilterChange"
       :setVideoStudent="setVideoStudent"
     />

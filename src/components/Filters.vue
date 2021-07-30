@@ -47,11 +47,7 @@
             </el-option>
           </el-select>
           <el-tooltip
-            :content="
-              paramSort.asc
-                ? 'click to sort descending'
-                : 'click to sort ascending'
-            "
+            :content="sortTooltipContent"
             placement="bottom"
             effect="light"
           >
@@ -102,6 +98,17 @@ export default {
     };
   },
   computed: {
+    sortTooltipContent() {
+      if (this.paramSort.selected === "name") {
+        return this.paramSort.asc ? "click to sort Z-A" : "click to sort A-Z";
+      }
+      if (this.paramSort.selected === "year") {
+        return this.paramSort.asc
+          ? "click to sort newest first"
+          : "click to sort oldest first";
+      }
+      return "";
+    },
     filterTag() {
       return this.filters.TAG;
     },

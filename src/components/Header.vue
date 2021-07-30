@@ -58,13 +58,7 @@ export default {
 .title-tns {
   font-family: "neue-display-random";
   font-size: 1.5em;
-  color: black;
-  text-decoration: none;
   line-height: 1em;
-  transition: color 0.25s;
-}
-.title-tns:hover {
-  color: #e82e21;
 }
 
 .title-dv {

@@ -74,7 +74,8 @@ export default {
     select(this.$refs.yearBrush).call(this.brush);
   },
   methods: {
-    brushed({ selection, sourceEvent }) {
+    brushed({ selection, sourceEvent, ...rest }) {
+      console.log(rest);
       if (!sourceEvent) {
         return;
       }

@@ -1,43 +1,29 @@
 <template>
-  <el-card
-    :class="{
-      project: true,
-      'project--is-open': isOpen,
-    }"
-    :body-style="{ padding: '0px' }"
-    @mouseleave="() => toggleIsOpen(false)"
-  >
+  <el-card class="project" :body-style="{ padding: '0px' }">
     <img :src="require('@/assets/images/parsons_placeholder.png')" />
     <div class="project-header">
-      <i
-        :class="{
-          'project-header__toggle': true,
-          'el-icon-remove-outline': isOpen,
-          'el-icon-circle-plus-outline': !isOpen,
-        }"
-        @click="() => toggleIsOpen()"
-      ></i>
-      <div
-        :class="{
-          'project-header__title': true,
-          'project-header__title--size': title.length > 50,
-        }"
+      <a :href="url" target="_blank"
+        ><div
+          :class="{
+            'project-header__title': true,
+            'project-header__title--size': title.length > 50,
+          }"
+        >
+          {{ title }}
+        </div>
+        <div
+          :class="{
+            'project-header__name': true,
+            'project-header__name--size': name.length > 20,
+          }"
+        >
+          {{ name }} <span class="project-header__year">({{ year }})</span>
+        </div></a
       >
-        {{ title }}
-      </div>
       <div
-        :class="{
-          'project-header__name': true,
-          'project-header__name--size': name.length > 20,
-        }"
+        class="project-header__hover-section__row project-header__hover-section"
       >
-        {{ name }} <span class="project-header__year">({{ year }})</span>
-      </div>
-      <div class="project-header__description-row">
-        <div class="project-header__description">{{ description }}</div>
-      </div>
-      <div class="project-header__hover-row">
-        <div class="project-header__hover-row__icons">
+        <div class="project-header__hover-section__icons">
           <a :href="repo" target="_blank">
             <img
               v-if="repo"
@@ -52,7 +38,7 @@
             @click="() => setVideoStudent(video)"
           />
         </div>
-        <div class="project-header__hover-row__tags">
+        <div class="project-header__hover-section__tags">
           <el-tag
             class="tag"
             v-for="tag in tags"
@@ -64,6 +50,11 @@
             >{{ tag }}</el-tag
           >
         </div>
+      </div>
+      <div
+        class="project-header__description-container project-header__hover-section"
+      >
+        <div class="project-header__description">{{ description }}</div>
       </div>
     </div>
   </el-card>
@@ -83,13 +74,13 @@ export default {
     position: Object,
     year: Number,
     tags: Array,
+    url: String,
     onFilterChange: Function,
     setVideoStudent: Function,
   },
   data() {
     return {
       observer: null,
-      isOpen: false,
     };
   },
   mounted() {
@@ -104,11 +95,6 @@ export default {
       }
     });
     this.observer.observe($el);
-  },
-  methods: {
-    toggleIsOpen(next) {
-      this.isOpen = next !== undefined ? next : !this.isOpen;
-    },
   },
 };
 </script>
@@ -128,13 +114,9 @@ export default {
   transition: height 0.25s, background-color 0.25s;
 }
 
-.project:not(.project--is-open):hover .project-header {
-  height: 74px;
-  background-color: rgba(255, 255, 255, 0.8);
-}
-.project--is-open .project-header {
+.project:hover .project-header {
   height: calc(100% - 20px);
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(255, 255, 255, 0.9);
 }
 
 .project-header__toggle {
@@ -172,9 +154,6 @@ export default {
 .project-header__name--size {
   font-size: 0.85em;
 }
-.project--is-open .project-header .project-header__name {
-  border-bottom: 1px solid #ddd;
-}
 
 .project-header__year {
   font-family: "neue-regular";
@@ -186,36 +165,31 @@ export default {
   display: block;
 }
 
-.project-header__hover-row {
-  visibility: hidden;
+.project-header__hover-section {
+  opacity: 0;
+  transition: opacity 0.25s;
+}
+.project:hover .project-header .project-header__hover-section {
+  opacity: 1;
+}
+
+.project-header__hover-section__row {
   display: flex;
   justify-content: space-between;
 }
-.project-header__hover-row__icons {
+.project-header__hover-section__icons {
   display: flex;
 }
 
-.project:hover .project-header .project-header__hover-row {
-  visibility: visible;
-}
-.project--is-open .project-header .project-header__hover-row {
-  visibility: visible;
-  border-top: 1px solid #ddd;
-}
-
-.project-header__description-row {
-  font-family: "neue-regular";
+.project-header__description-container {
   overflow: scroll;
-  height: 0px;
-  font-size: 13px;
-  text-align: left;
-}
-.project--is-open .project-header .project-header__description-row {
-  height: calc(100% - 76px);
+  max-height: 90px;
+  margin: 5px;
 }
 .project-header__description {
-  margin: 10px;
-  padding: 10px;
+  height: 100%;
+  font-size: 13px;
+  text-align: left;
 }
 
 img.link-icon {
@@ -229,10 +203,10 @@ img.link-icon:hover {
   transform: scale(1.1);
 }
 
-.project-header__hover-row__tags {
+.project-header__hover-section__tags {
   margin-top: 4px;
 }
-.project-header__hover-row__tags .tag {
+.project-header__hover-section__tags .tag {
   font-family: "neue-regular";
   margin: 2px;
 }
