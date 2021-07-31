@@ -13,6 +13,8 @@ Please be mindful of keeping your project links active. Please submit a pull req
 - [ ] add filter query to URL via router
 - [ ] performance improvements (e.g. remove unused fonts, lazy load components)
 - [ ] look into ways to reduce bundle size?
+- [ ] dependabot alert - upgrade vue-cli to remove `glob-parent` vulnerability
+- [ ] a11y audit
 
 ### Data
 
