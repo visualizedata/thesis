@@ -110,6 +110,16 @@ export default {
   justify-content: space-around;
 }
 
+@media (max-width: 399px) {
+  .footer-content-row {
+    flex-direction: column;
+  }
+
+  .footer-title {
+    margin-top: 10px;
+  }
+}
+
 .footer-title {
   font-family: "neue-display";
   margin-bottom: 5px;
