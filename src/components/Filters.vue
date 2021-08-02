@@ -66,6 +66,7 @@
         :yearData="yearData"
         :filterHeight="filterHeight"
         :onYearChange="(selection) => onFilterChange('YEAR', selection)"
+        :selectedYear="filterYear.selected"
       />
     </el-row>
     <el-row>
@@ -114,6 +115,9 @@ export default {
     },
     filterSearch() {
       return this.filters.SEARCH;
+    },
+    filterYear() {
+      return this.filters.YEAR;
     },
     paramSort() {
       return this.params.SORT;

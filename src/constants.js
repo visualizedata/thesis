@@ -32,7 +32,7 @@ export const PARAMS = {
         value: "year",
       },
     ],
-    selected: "name",
-    asc: true,
+    selected: "year",
+    asc: false,
   },
 };

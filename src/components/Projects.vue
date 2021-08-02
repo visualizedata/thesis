@@ -97,6 +97,7 @@ export default {
   top: 0px;
   left: 0px;
   z-index: 3;
+  background-color: black;
 }
 video {
   width: 100%;
@@ -104,7 +105,7 @@ video {
 }
 .video-close {
   position: absolute;
-  left: 10px;
+  right: 10px;
   top: 10px;
   display: flex;
   width: 2em;
