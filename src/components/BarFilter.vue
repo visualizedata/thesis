@@ -53,6 +53,7 @@ export default {
     yearData: Object,
     filterHeight: Number,
     onYearChange: Function,
+    selectedYear: Array,
   },
   computed: {
     xScale() {
@@ -74,14 +75,13 @@ export default {
     select(this.$refs.yearBrush).call(this.brush);
   },
   methods: {
-    brushed({ selection, sourceEvent, ...rest }) {
-      console.log(rest);
+    brushed({ selection, sourceEvent }) {
       if (!sourceEvent) {
         return;
       }
       const domain = this.xScale.domain();
+      const fullRange = [...domain.map(this.xScale), this.xScale.range()[1]];
       if (selection && selection.length) {
-        const fullRange = [...domain.map(this.xScale), this.xScale.range()[1]];
         const newSelection = [
           domain[bisectCenter(fullRange, selection[0])],
           domain[bisectCenter(fullRange, selection[1]) - 1], // correct for index
@@ -91,7 +91,23 @@ export default {
           this.brush.move,
           [newSelection[0], newSelection[1] + 1].map(this.xScale) // correct for brush stopping at left of bar
         );
+      } else if (
+        this.selectedYear[0] === domain[0] ||
+        this.selectedYear[1] === domain[1]
+      ) {
+        // if selection is full domain (ie no filter applied), click selects one bar
+        const target = sourceEvent.layerX - this.xScale.bandwidth() / 2; // target bar's horizontal center
+        const newSelection = [
+          domain[bisectCenter(fullRange, target)],
+          domain[bisectCenter(fullRange, target)],
+        ];
+        this.onYearChange(newSelection);
+        select(this.$refs.yearBrush).call(
+          this.brush.move,
+          [newSelection[0], newSelection[1] + 1].map(this.xScale) // correct for brush stopping at left of bar
+        );
       } else {
+        // otherwise, reset to full domain
         this.onYearChange([domain[0], domain[domain.length - 1]]);
       }
     },

@@ -1,27 +1,15 @@
 <template>
   <div class="footer">
     <el-row class="footer-content-row">
-      <div>
-        <div class="footer-title">Advisors</div>
+      <div v-for="list in lists" :key="list.key">
+        <div class="footer-title">{{ list.key }}</div>
         <div
           class="footer-entry"
-          v-for="advisor in advisors"
-          :key="advisor.name"
+          v-for="value in list.values"
+          :key="value.name"
         >
-          <a :href="advisor.url" target="_blank">
-            {{ advisor.name }}
-          </a>
-        </div>
-      </div>
-      <div>
-        <div class="footer-title">Contributors</div>
-        <div
-          class="footer-entry"
-          v-for="student in students"
-          :key="student.name"
-        >
-          <a :href="student.url" target="_blank">
-            {{ student.name }}
+          <a :href="value.url" target="_blank">
+            {{ value.name }}
           </a>
         </div>
       </div>
@@ -37,40 +25,67 @@ export default {
   name: "Footer",
   data() {
     return {
-      advisors: [
+      lists: [
         {
-          name: "Daniel Sauter, Program Director",
-          url: "https://www.newschool.edu/parsons/faculty/daniel-sauter/",
+          key: "More information",
+          values: [
+            {
+              name: "MS Data Visualization",
+              url: "http://www.newschool.edu/parsons/ms-data-visualization/",
+            },
+            {
+              name: "School of Art, Media, and Technology",
+              url:
+                "http://www.newschool.edu/parsons/art-media-technology-school-amt/",
+            },
+            {
+              name: "Parsons School of Design",
+              url: "https://www.newschool.edu/parsons/",
+            },
+            { name: "The New School", url: "https://www.newschool.edu" },
+          ],
         },
         {
-          name: "Aaron Hill, Assistant Professor",
-          url: "https://www.newschool.edu/parsons/faculty/aaron-hill/",
+          key: "Advisors",
+          values: [
+            {
+              name: "Daniel Sauter, Program Director",
+              url: "https://www.newschool.edu/parsons/faculty/daniel-sauter/",
+            },
+            {
+              name: "Aaron Hill, Assistant Professor",
+              url: "https://www.newschool.edu/parsons/faculty/aaron-hill/",
+            },
+            {
+              name: "Richard The, Assistant Professor",
+              url: "https://www.newschool.edu/parsons/faculty/Richard-The/",
+            },
+            {
+              name: "Alec Barrett, Part-Time Faculty",
+              url: null,
+            },
+          ],
         },
         {
-          name: "Richard The, Assistant Professor",
-          url: "https://www.newschool.edu/parsons/faculty/Richard-The/",
-        },
-        {
-          name: "Alec Barrett, Part-Time Faculty",
-          url: null,
-        },
-      ],
-      students: [
-        {
-          name: "Zui Chen, Class of 2020",
-          url: "https://www.zui-c.com/",
-        },
-        {
-          name: "Xingwei Huang, Class of 2020",
-          url: "http://xingwei.work/",
-        },
-        {
-          name: "Yujun Jiang, Class of 2021",
-          url: "https://yujunjiang.com/",
-        },
-        {
-          name: "Shea Molloy, Class of 2021",
-          url: "https://sheamolloy.info/",
+          key: "Contributors",
+          values: [
+            {
+              name: "Zui Chen, Class of 2020",
+              url: "https://www.zui-c.com/",
+            },
+            {
+              name: "Xingwei Huang, Class of 2020",
+              url: "http://xingwei.work/",
+            },
+            {
+              name: "Yujun Jiang, Class of 2021",
+              url: "https://yujunjiang.com/",
+            },
+            {
+              name: "Shea Molloy, Class of 2021",
+              url: "https://sheamolloy.info/",
+            },
+          ],
         },
       ],
     };
@@ -97,5 +112,6 @@ export default {
 
 .footer-title {
   font-family: "neue-display";
+  margin-bottom: 5px;
 }
 </style>

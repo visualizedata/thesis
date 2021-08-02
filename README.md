@@ -15,6 +15,7 @@ Please be mindful of keeping your project links active. Please submit a pull req
 - [ ] look into ways to reduce bundle size?
 - [ ] dependabot alert - upgrade vue-cli to remove `glob-parent` vulnerability
 - [ ] a11y audit
+- [ ] make filters a sticky header on scroll?
 
 ### Data
 
