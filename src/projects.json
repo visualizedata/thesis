@@ -75,7 +75,7 @@
       "tags": ["data", "policy"],
       "title": "How is Delhi Slowing Down?",
       "url": "http://parsons.nyc/thesis-2017/aseemAgarwal/",
-      "video": "",
+      "video": "https://github.com/visualizedata/thesis/blob/gh-pages/assets/media/AseemAgarwal_2017.mp4?raw=true",
       "year": 2017
     },
     {
@@ -127,7 +127,7 @@
       "tags": ["society", "politics"],
       "title": "The Los Angeles Riots 1992",
       "url": "https://parsons.nyc/thesis-2018/benzaminYi",
-      "video": "",
+      "video": "https://github.com/visualizedata/thesis/blob/gh-pages/assets/media/BenzaminYi_2018.mp4?raw=true",
       "year": 2018
     },
     {
@@ -231,7 +231,7 @@
       "tags": ["society", "politics"],
       "title": "Nice To Meet You",
       "url": "http://beta.youmeet.me/who/similarity/default",
-      "video": "https://universeofatoms.com/assets/info_design/ntmy/ntmy4.mp4",
+      "video": "https://github.com/visualizedata/thesis/blob/gh-pages/assets/media/ElenaPaunova_2018.mp4?raw=true",
       "year": 2018
     },
     {
@@ -283,7 +283,7 @@
       "tags": ["language", "understanding"],
       "title": "CS Education and Computational Trends",
       "url": "https://parsons.nyc/thesis-2018/flavioPessoa/thesis",
-      "video": "",
+      "video": "https://github.com/visualizedata/thesis/blob/gh-pages/assets/media/FlavioPessoa_2018.mp4?raw=true",
       "year": 2018
     },
     {
@@ -296,7 +296,7 @@
       "tags": ["data", "policy"],
       "title": "The Group Attachment Based Intervention",
       "url": "https://parsons.nyc/thesis-2016/gabiSteele/",
-      "video": "",
+      "video": "https://github.com/visualizedata/thesis/blob/gh-pages/assets/media/GabiSteele_2016.mp4?raw=true",
       "year": 2016
     },
     {
@@ -309,8 +309,8 @@
       "tags": ["landscapes", "pathways"],
       "title": "Strength in Numbers",
       "url": "https://parsons.nyc/thesis-2018/georgeSieniawski/public/",
-      "video": "https://github.com/visualizedata/thesis-2018/blob/master/georgeSieniawski/public/Suez_Canal_Transit.mp4",
-      "year": 2018
+      "video": "https://github.com/visualizedata/thesis/blob/gh-pages/assets/media/GeorgeSieniawski_2018.mp4?raw=true",
+      "year": 2018 
     },
     {
       "description": "Catering to America\u2019s material overflow, the self-storage industry has exploded into a booming $36 billion dollar market. Nearly 1 out of 10 American households currently rent a self storage unit and it\u2019s continually growing. Visualizing survey data, this project examines how customers participate in this industry, revealing how self-storage is a window into America\u2019s relationship to consumption.",
@@ -361,7 +361,7 @@
       "tags": ["data", "technology"],
       "title": "Glimpse",
       "url": "http://parsons.nyc/thesis-2016/jacobRomer/",
-      "video": "",
+      "video": "https://github.com/visualizedata/thesis/blob/gh-pages/assets/media/JacobRomer_2016.mp4?raw=true",
       "year": 2016
     },
     {
@@ -374,7 +374,7 @@
       "tags": ["health", "livelihood"],
       "title": "Taxonomic Bias",
       "url": "https://parsons.nyc/thesis-2016/jaimeTanner/project.html",
-      "video": "",
+      "video": "https://github.com/visualizedata/thesis/blob/gh-pages/assets/media/JaimeTanner_2016.mp4?raw=true",
       "year": 2016
     },
     {
@@ -465,7 +465,7 @@
       "tags": ["competition", "play"],
       "title": "On and Beyond the Edge",
       "url": "https://parsons.nyc/thesis-2018/julianLange",
-      "video": "",
+      "video": "https://github.com/visualizedata/thesis/blob/gh-pages/assets/media/JulianLange_2018.mp4?raw=true",
       "year": 2018
     },
     {
@@ -478,7 +478,7 @@
       "tags": ["society", "politics"],
       "title": "Leadership Gender Gap",
       "url": "https://parsons.nyc/thesis-2016/justineKeller/",
-      "video": "",
+      "video": "https://github.com/visualizedata/thesis/blob/gh-pages/assets/media/JustineKeller_2016.mp4?raw=true",
       "year": 2016
     },
     {
@@ -699,7 +699,7 @@
       "tags": ["food", "agriculture"],
       "title": "A Century of American Food",
       "url": "https://parsons.nyc/thesis-2018/rikGhosh",
-      "video": "",
+      "video": "https://github.com/visualizedata/thesis/blob/gh-pages/assets/media/RikGhosh_2018.mp4?raw=true",
       "year": 2018
     },
     {
@@ -829,7 +829,7 @@
       "tags": ["language", "understanding"],
       "title": "Patterns of Professional Identity in STEM",
       "url": "https://parsons.nyc/thesis-2018/stevenHubbard/",
-      "video": "",
+      "video": "https://github.com/visualizedata/thesis/blob/gh-pages/assets/media/StevenHubbard_2018.mp4?raw=true",
       "year": 2018
     },
     {
@@ -881,7 +881,7 @@
       "tags": ["food", "culture"],
       "title": "Bacteria Invasion",
       "url": "https://parsons.nyc/thesis-2018/yicenShi/visualizations",
-      "video": "",
+      "video": "https://github.com/visualizedata/thesis/blob/gh-pages/assets/media/YicenShi_2018.mp4?raw=true",
       "year": 2018
     },
     {
