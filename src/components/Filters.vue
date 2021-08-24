@@ -3,7 +3,7 @@
     <el-row>
       <!-- SEARCH FILTER -->
       <div class="filter search-filter">
-        <div class="label">Filter on text</div>
+        <div class="label">Search projects</div>
         <el-input
           placeholder="Type name, title, or description"
           clearable
