@@ -11,6 +11,8 @@ Please be mindful of keeping your project links active. Please submit a pull req
 ### WIP/wishlist
 
 - [ ] add filter query to URL via router
+- [ ] add share feature based on filter query via router
+- [ ] add project preview 
 - [ ] performance improvements (e.g. remove unused fonts, lazy load components)
 - [ ] look into ways to reduce bundle size?
 - [ ] dependabot alert - upgrade vue-cli to remove `glob-parent` vulnerability
