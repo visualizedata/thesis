@@ -84,13 +84,19 @@ export default {
     };
   },
   mounted() {
-    const { image, $el } = this;
+    const { image, $el, tags } = this;
 
     this.observer = new IntersectionObserver(([entry]) => {
       const img = $el.querySelector("img");
 
       if (entry.isIntersecting) {
-        img.src = require(`@/assets/images/${image}`);
+        if (tags[0] === "smithsonian" || tags[0] === "met"){
+            img.src = image;
+
+        }else{
+            img.src = require(`@/assets/images/${image}`);
+        }
+        
         this.observer.disconnect();
       }
     });
