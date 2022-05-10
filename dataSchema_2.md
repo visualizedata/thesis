@@ -1,6 +1,7 @@
 # Updates
 ## Data Schema
 
+for data.json
 
 ```jsonc
 {
@@ -25,6 +26,24 @@
 }
 
 ```
+
+for metadata.json
+
+```json
+
+{
+
+    "msdv_url": "http://www.newschool.edu/parsons/ms-data-visualization/",
+    "msdv_archive_url": "https://parsons.nyc/",
+
+    "amt_url": "http://www.newschool.edu/parsons/art-media-technology-school-amt/",
+    "parsons_url": "https://www.newschool.edu/parsons/",
+    "newschool_url": "https://www.newschool.edu/"
+    
+}
+
+```
+
 
 
 ## Collecting Progress
@@ -62,7 +81,8 @@ Following is a checklist of all the data files to be processed. Some files needs
 
 
 
-## Next Step
+
+# Next Step
 
 	
 * What's the value of `image_url` -- aka the path of the image assets? currently there are two scenarios:
@@ -72,4 +92,6 @@ Following is a checklist of all the data files to be processed. Some files needs
  
 * Process `undp` data
 
-* Manual adjustments and merge files 
+* Manual adjustments 
+
+* Any changes on metadata.json
