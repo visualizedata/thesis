@@ -62,7 +62,17 @@ Following is a checklist of all the data files to be processed. Some files needs
   - [ ] need to collect `student_url`
 
 
-### MS1 Data
+### Partnerships
+
+- Smithsonian Institute Partnership 2021 https://github.com/visualizedata/smithsonian-2020`
+- SI 2020 https://github.com/visualizedata/smithsonian-2020
+- The Met Museum 2019 https://github.com/visualizedata/met-museum-2019
+- UNDP Renewable Energy 2018 https://github.com/visualizedata/undp-renewable-energy
+- UNDP Inequality Trends 2017 https://github.com/visualizedata/undp-inequality-trends
+- UNDP Inequality 2016 https://github.com/visualizedata/undp-inequality
+- UNDP Gender Gap 2015 https://github.com/visualizedata/undp
+
+#### Collection
 
 - [ ] undp 2015 [currently working on](https://parsons.nyc/undp/)
 
@@ -78,8 +88,6 @@ Following is a checklist of all the data files to be processed. Some files needs
 - [x] smithsonian [ms1-2021](https://github.com/JessieJessJe/archive-data/blob/main/ms1_2021.json)
   - [ ] modify name: Baihan Lin, Gisli Gudjonsson
   - [ ] 1 typo: `decription`
-
-
 
 
 # Next Step
