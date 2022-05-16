@@ -1,66 +1,105 @@
-## Example
+# Updates
+## Data Schema
 
-### thesis object
-
-```json
-      {
-            "description": "Voting choices are made on more than just facts \u2013 emotion, bias and unconscious thought play an important role in one\u2019s decision-making process. But what effect does advertising have? This thesis visualizes American voters\u2019 unconscious response to political advertising & media.",
-            "image": "preview-2020/lulu.png",
-            "name": "Lulu Tanenbaum",
-            "portfolio": "http://lulutanenbaum.com/",
-            "repo": "https://github.com/visualizedata/thesis-2020/tree/master/luluTannenbaum",
-            "subtitle": "Voting choices are made on more than just facts...",
-            "tags": [
-              "media",
-              "society"
-            ],
-            "title": "Your Brain on Political Media",
-            "url": "http://lulutanenbaum.com/portfolio/thesis/",
-            "video": "https://vimeo.com/422526930",
-            "year": 2020
-      },
-```
-
-
-### original ms1 object (2019 Met)
-
-```json
-      {
-            "title": "New Media Art",
-            "title_full": "Has The Met adopted New Media Art?",
-            "description": "The Met is a pivotal example of a legacy museum. The collection is vast and encompasses some of the most fundamental pieces of art and artifacts. However, the negative connotations of legacy can suggest traditional standards or practices, which might not suggest the new nuances of contemporary art. This led to my questioning for this quantitative data visualization; has The Met adopted new media art? What types of new media art do they collect? What is the makeup of this collection?",
-            "url": "http://lulutanenbaum.com/portfolio/met-new-media/",
-            "author": "Lulu Tanenbaum",
-            "image": "quant1 - Lulu Tanenbaum.jpg"
-      },
-```
-
-### new ms1 object
-will hasve the same structure(property names) as thesis data.json
-
-property values are either pulled from the `original ms1 obj` or `thesis obj`
-
-as demonstrated below – [ name ] means property value pulled from `ms1 obj`
-
-```javascript
-      const imgURLPrefix = "github.com/visualizedata/met-museum-2019/blob/master/data/images/"
-      const year = 2019
-```
+for data.json
 
 ```jsonc
-      {
-            "description": ["description"] 
-            "image": imgURLPrefix + ["image"]  
-            "name": ["author"] //from ms1 author
-            "portfolio": "http://lulutanenbaum.com/"  //from thesis
-            "repo": "https://github.com/visualizedata/thesis-2020/tree/master/luluTannenbaum"  //from thesis
-            "subtitle": ["title_full"] 
-            "tags": ["met"], //option 1: add institution name to the existing "tags" property
-            "title": ["title"],
-            "url": ["url"],
-            "video": N/A,
-            "year": year, 
-            "project": "met", //option 2: store institution name to a new property "project"
-                            //and all thesis projects will have the value "thesis"
-      }
+{
+      "author": array[1],
+      
+      "title": string,
+      "subtitle": string, 		
+      "description": string,
+
+      "student_url": string, 			
+      "project_url": string,       
+      "project_repo": string, 
+      
+      "category": array[1],  //"thesis" or "ms1"     
+      "tags": array, //for "ms1" category, tag can be "smithsonian", "met", or "undp"
+      
+      "year": int,
+      
+      "image": array,      
+      "image_url": array,     
+      "video": string,
+}
+
 ```
+
+for metadata.json
+
+```json
+
+{
+
+    "msdv_url": "http://www.newschool.edu/parsons/ms-data-visualization/",
+    "msdv_archive_url": "https://parsons.nyc/",
+
+    "amt_url": "http://www.newschool.edu/parsons/art-media-technology-school-amt/",
+    "parsons_url": "https://www.newschool.edu/parsons/",
+    "newschool_url": "https://www.newschool.edu/"
+    
+}
+
+```
+
+
+
+## Collecting Progress
+
+Following is a checklist of all the data files to be processed. Some files needs to be manually adjust. So the instructions are also included here.
+
+
+
+### Thesis Data
+
+[updated thesis json](https://github.com/JessieJessJe/archive-data/blob/main/thesis_all.json)
+
+- [x] before 2022
+- [x] 2022
+  
+  - [ ] need to collect `student_url`
+
+
+### Partnerships
+
+- Smithsonian Institute Partnership 2021 https://github.com/visualizedata/smithsonian-2020`
+- SI 2020 https://github.com/visualizedata/smithsonian-2020
+- The Met Museum 2019 https://github.com/visualizedata/met-museum-2019
+- UNDP Renewable Energy 2018 https://github.com/visualizedata/undp-renewable-energy
+- UNDP Inequality Trends 2017 https://github.com/visualizedata/undp-inequality-trends
+- UNDP Inequality 2016 https://github.com/visualizedata/undp-inequality
+- UNDP Gender Gap 2015 https://github.com/visualizedata/undp
+
+#### Collection
+
+- [ ] undp 2015 [currently working on](https://parsons.nyc/undp/)
+
+- [ ] undp 2016 `repo?`
+
+- [ ] undp 2017 `repo?`
+- [x] met [ms1-2018](https://github.com/JessieJessJe/archive-data/blob/main/ms1_2018.json)
+- [x] met [ms1-2019](https://github.com/JessieJessJe/archive-data/blob/main/ms1_2019.json)
+  - [ ] modify name: Antonie C. Dreyer
+  - [ ] missing: Xingyang Cai
+- [x] smithsonian [ms1-2020](https://github.com/JessieJessJe/archive-data/blob/main/ms1_2020.json)
+  - [ ] modify name: Soonk Paik
+- [x] smithsonian [ms1-2021](https://github.com/JessieJessJe/archive-data/blob/main/ms1_2021.json)
+  - [ ] modify name: Baihan Lin, Gisli Gudjonsson
+  - [ ] 1 typo: `decription`
+
+
+# Next Step
+
+	
+* What's the value of `image_url` -- aka the path of the image assets? currently there are two scenarios:
+
+  * preview.png from each author's repo (absolute path)
+  * directly hosted from repo (relative path)
+ 
+* Process `undp` data
+
+* Manual adjustments 
+
+* Any changes on metadata.json
