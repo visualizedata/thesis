@@ -21,7 +21,8 @@
         &#10005;
       </div>
       <video controls autoplay>
-        <source :src="require(`@/assets/media/${videoStudent}`)" type="video/mp4" />
+        <!-- <source :src="videoStudent" type="video/mp4" /> -->
+         <source :src="requireVideoUrl(videoStudent)" type="video/mp4" />
       </video>
     </div>
   </div>
@@ -50,7 +51,16 @@ export default {
     setVideoStudent(student) {
       this.videoStudent = student;
     },
+    
+    requireVideoUrl(){
+     if (this.videoStudent !== null){
+        return this.videoStudent.includes('http') ? this.videoStudent : require(`@/assets/media/${this.videoStudent}`)
+     }
+      
+     else return ""
+    }
   },
+
 };
 </script>
 
