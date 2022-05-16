@@ -21,10 +21,15 @@
         &#10005;
       </div>
       <video controls autoplay>
+<<<<<<< HEAD
         <!-- previously: videoStudent is absolute path, so <source :src="videoStudent" type="video/mp4" /> -->
         <!-- if videos are hosted locally, we need src="require(`@/assets/media/${videoStudent}`)"  -->
         <!-- Temporary: use requireVideoUrl() to return a video url depending on the scenarios above -->
          <source :src="requireVideoUrl()" type="video/mp4" />
+=======
+        <!-- <source :src="videoStudent" type="video/mp4" /> -->
+         <source :src="requireVideoUrl(videoStudent)" type="video/mp4" />
+>>>>>>> f6a07e12ff5b9a6978179d192058865012c20c58
       </video>
     </div>
   </div>
