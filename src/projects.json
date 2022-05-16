@@ -7,7 +7,10 @@
       "portfolio": "https://aaditirokade.github.io/index.html",
       "repo": "https://github.com/aaditirokade/thesis",
       "subtitle": "This visualization explores the trends in flight cancellations",
-      "tags": ["data", "policy"],
+      "tags": [
+        "data",
+        "policy"
+      ],
       "title": "Visualizing the Impact of Climate Change",
       "url": "https://parsons.nyc/thesis-2019/aaditiRokade/thesisProject/",
       "video": "https://github.com/aaditirokade/thesis/blob/master/demo.m4v?raw=true",
@@ -20,7 +23,10 @@
       "portfolio": "https://github.com/alonsoag86",
       "repo": "https://github.com/alonsoag86/msdv-final",
       "subtitle": "The following visual essay explores the behavior of the U.S. media",
-      "tags": ["media", "society"],
+      "tags": [
+        "media",
+        "society"
+      ],
       "title": "2016: A \u201cYear\u201d in News",
       "url": "https://parsons.nyc/thesis-2019/alonsoAlcocerGuemez/",
       "video": "https://github.com/alonsoag86/msdv-final/blob/master/demo.m4v?raw=true",
@@ -33,7 +39,10 @@
       "portfolio": "https://www.amandersonyou.com/",
       "repo": "https://github.com/amandersonyou/ClimateSleepThesis",
       "subtitle": "Exploring the relationship between the climate crisis and sleep health",
-      "tags": ["health", "livelihood"],
+      "tags": [
+        "health",
+        "livelihood"
+      ],
       "title": "Climate & Sleep",
       "url": "https://parsons.nyc/thesis-2020/amandaAnderson/",
       "video": "https://github.com/amandersonyou/ClimateSleepThesis/raw/master/demo.mp4?raw=true",
@@ -46,7 +55,10 @@
       "portfolio": "https://andrewlevinson.me/",
       "repo": "https://github.com/AndrewLevinson/thesis",
       "subtitle": "Freshwater has been described as the oil of the 21st century.",
-      "tags": ["data", "policy"],
+      "tags": [
+        "data",
+        "policy"
+      ],
       "title": "The United States Water Crisis",
       "url": "https://thewatercrisis.us/",
       "video": "https://raw.githubusercontent.com/AndrewLevinson/thesis/master/src/assets/demo.mov?raw=true",
@@ -59,7 +71,10 @@
       "portfolio": "https://github.com/acdreyer",
       "repo": "https://github.com/acdreyer/thesis",
       "subtitle": "Visualizing research paper metadata in the field of Aerospace Engineering",
-      "tags": ["media", "society"],
+      "tags": [
+        "media",
+        "society"
+      ],
       "title": "From NACA to NASA",
       "url": "https://parsons.nyc/thesis-2020/antonieDreyer/",
       "video": "https://github.com/acdreyer/thesis/blob/master/demo.mp4?raw=true",
@@ -72,7 +87,10 @@
       "portfolio": "https://github.com/agaase",
       "repo": "https://github.com/agaase/msdv-thesis",
       "subtitle": "Congestion on roads in urban cities.",
-      "tags": ["data", "policy"],
+      "tags": [
+        "data",
+        "policy"
+      ],
       "title": "How is Delhi Slowing Down?",
       "url": "http://parsons.nyc/thesis-2017/aseemAgarwal/",
       "video": "https://github.com/visualizedata/thesis/blob/main/assets/media/AseemAgarwal_2017.mp4?raw=true",
@@ -85,7 +103,10 @@
       "portfolio": "https://www.aucherserr.com/",
       "repo": "https://github.com/auchers/data-visualization-thesis",
       "subtitle": "This thesis explores the ways in which green roofs can be used.",
-      "tags": ["landscapes", "pathways"],
+      "tags": [
+        "landscapes",
+        "pathways"
+      ],
       "title": "Exploring the Potential of Green Roofs",
       "url": "https://auchers.github.io/data-visualization-thesis/#/",
       "video": "https://github.com/auchers/data-visualization-thesis/blob/master/thesis-preview.gif",
@@ -98,10 +119,13 @@
       "portfolio": "http://b.parsons.edu/~compagnb/",
       "repo": "https://github.com/compagnb/thesis",
       "subtitle": "How our bodies interpret data is the result of our brain processing.",
-      "tags": ["data", "technology"],
+      "tags": [
+        "data",
+        "technology"
+      ],
       "title": "Feeling.it",
       "url": "https://parsons.nyc/thesis-2016/barbaraCompagnoni/",
-      "video": "https://github.com/visualizedata/thesis/blob/main/assets/media/BarbaraCompagnoni_2016.mp4?raw=tru",
+      "video": "https://github.com/visualizedata/thesis/blob/main/assets/media/BarbaraCompagnoni_2016.mp4?raw=true",
       "year": 2016
     },
     {
@@ -111,7 +135,10 @@
       "portfolio": "https://bsakbar.github.io/home-page/",
       "repo": "https://github.com/bsakbar/thesis",
       "subtitle": "Blood is a fascinating component of the human body.",
-      "tags": ["health", "livelihood"],
+      "tags": [
+        "health",
+        "livelihood"
+      ],
       "title": "Understand Your Blood, Your Data",
       "url": "https://parsons.nyc/thesis-2019/batoolAkbar/web/home.html",
       "video": "https://github.com/bsakbar/thesis/blob/master/assets/demo.mov?raw=true",
@@ -124,7 +151,10 @@
       "portfolio": "https://github.com/benzyi",
       "repo": "https://github.com/benzyi/thesis",
       "subtitle": "The Los Angeles Riots of 1992 has a personal story to me.",
-      "tags": ["society", "politics"],
+      "tags": [
+        "society",
+        "politics"
+      ],
       "title": "The Los Angeles Riots 1992",
       "url": "https://parsons.nyc/thesis-2018/benzaminYi",
       "video": "https://github.com/visualizedata/thesis/blob/main/assets/media/BenzaminYi_2018.mp4?raw=true",
@@ -137,7 +167,10 @@
       "portfolio": "https://www.bradmack.com/data-visualization",
       "repo": "https://github.com/daggus/EmojiEpoch/",
       "subtitle": "An emoji-focused reflection on my experience with COVID-19.",
-      "tags": ["media", "society"],
+      "tags": [
+        "media",
+        "society"
+      ],
       "title": "The Rona and Me",
       "url": "https://emoji-epoch.glitch.me/",
       "video": "https://github.com/daggus/EmojiEpoch//raw/master/demo.mp4?raw=true",
@@ -150,7 +183,10 @@
       "portfolio": "http://caitlynmralph.github.io/",
       "repo": "https://github.com/caitlynmralph/thesis-app-sandbox",
       "subtitle": "Mapping touring histories to British indie and alternative career arcs.",
-      "tags": ["food", "culture"],
+      "tags": [
+        "food",
+        "culture"
+      ],
       "title": "Gut vs. Data",
       "url": "https://caitlynmralph.github.io/thesis-app-sandbox/",
       "video": "https://github.com/caitlynmralph/thesis-app-sandbox/raw/master/demo.mp4?raw=true",
@@ -163,7 +199,10 @@
       "portfolio": "https://github.com/candicejmchan/",
       "repo": "https://github.com/candicejmchan/candicethesis",
       "subtitle": "The branding and commercialization of opioids has created one of the greatest commercial successes and public health tragedies in the United States.",
-      "tags": ["health", "livelihood"],
+      "tags": [
+        "health",
+        "livelihood"
+      ],
       "title": "Opioids",
       "url": "https://candicejmchan.github.io/candicethesis2019/#/",
       "video": "https://github.com/candicejmchan/candicethesis2019/blob/master/demo.mov?raw=true",
@@ -176,7 +215,10 @@
       "portfolio": "https://www.clarechurchouse.com/",
       "repo": "https://github.com/churc/MajorStudio2",
       "subtitle": "Art museums are institutions that collect, curate, and exhibit works of art for the public.",
-      "tags": ["arts", "leisure"],
+      "tags": [
+        "arts",
+        "leisure"
+      ],
       "title": "Do museums reflect who we are?",
       "url": "https://parsons.nyc/thesis-2019/clareChurchouse/",
       "video": "https://github.com/churc/MajorStudio2/blob/master/images/MS2_clare_VLC.m4v?raw=true",
@@ -189,7 +231,10 @@
       "portfolio": "https://github.com/colmccaffrey/",
       "repo": "https://github.com/colmccaffrey/thesis",
       "subtitle": "A hybrid approach of structured and unstructured learning.",
-      "tags": ["health", "livelihood"],
+      "tags": [
+        "health",
+        "livelihood"
+      ],
       "title": "The Sum of Us",
       "url": "https://parsons.nyc/thesis-2019/colleenMcCaffrey/src/",
       "video": "https://github.com/colmccaffrey/thesis/blob/master/src/documentation/demo.mov?raw=true",
@@ -202,7 +247,10 @@
       "portfolio": "https://dangrunebaum.github.io/portfolio/",
       "repo": "https://github.com/dangrunebaum/thesis",
       "subtitle": "The Globalization of Japanese Language and Concepts.",
-      "tags": ["food", "culture"],
+      "tags": [
+        "food",
+        "culture"
+      ],
       "title": "Turning Japanese",
       "url": "http://parsons.nyc/thesis-2020/danGrunebaum/turning-japanese/",
       "video": "https://github.com/dangrunebaum/thesis/raw/master/demo.mp4?raw=true",
@@ -214,8 +262,11 @@
       "name": "Dan Ran",
       "portfolio": "https://randandesign.com/#/",
       "repo": "https://github.com/shuvitRan/ShenzhenLivability",
-      "subtitle": "Shenzhen, known as China’s booming silicon valley today, used to be a small fish town 40 years ago.",
-      "tags": ["health", "livelihood"],
+      "subtitle": "Shenzhen, known as China\u2019s booming silicon valley today, used to be a small fish town 40 years ago.",
+      "tags": [
+        "health",
+        "livelihood"
+      ],
       "title": "Shenzhen",
       "url": "https://shuvitran.github.io/szapp/",
       "video": "https://github.com/shuvitRan/ShenzhenLivability/raw/master/demo.mp4?raw=true",
@@ -228,7 +279,10 @@
       "portfolio": "https://universeofatoms.com/",
       "repo": "http://beta.youmeet.me/who/similarity/default",
       "subtitle": "Nice to meet you is about measuring ethnic, linguistic, religious, and cultural heterogeneity in the world.",
-      "tags": ["society", "politics"],
+      "tags": [
+        "society",
+        "politics"
+      ],
       "title": "Nice To Meet You",
       "url": "http://beta.youmeet.me/who/similarity/default",
       "video": "https://github.com/visualizedata/thesis/blob/main/assets/media/ElenaPaunova_2018.mp4?raw=true",
@@ -241,7 +295,10 @@
       "portfolio": "https://github.com/efrymire",
       "repo": "https://github.com/efrymire/thesis",
       "subtitle": "Following the wake of several women coming forward against Harvey Weinstein...",
-      "tags": ["language", "understanding"],
+      "tags": [
+        "language",
+        "understanding"
+      ],
       "title": "An Exploration of the Movement #metoo",
       "url": "https://parsons.nyc/thesis-2018/ellieFrymire",
       "video": "https://github.com/visualizedata/thesis/blob/main/assets/media/EllieFrymire_2018.mp4?raw=true",
@@ -254,7 +311,10 @@
       "portfolio": "http://3milychu.github.io/",
       "repo": "https://github.com/3milychu/thesis",
       "subtitle": "Notes on Perspective experiments with making visually tangible and beautiful the thoughts and feelings that occured during a musical performance.",
-      "tags": ["arts", "leisure"],
+      "tags": [
+        "arts",
+        "leisure"
+      ],
       "title": "Notes on Perspective",
       "url": "https://parsons.nyc/thesis-2019/emilyChu/",
       "video": "https://github.com/3milychu/thesis/blob/master/demo.mp4?raw=true",
@@ -267,7 +327,10 @@
       "portfolio": "http://felixbuchholz.com/",
       "repo": "https://github.com/felixbuchholz/thesis",
       "subtitle": "In a climate of polarization, a peculiar idea might have the potential to reach across political frontiers...",
-      "tags": ["health", "livelihood"],
+      "tags": [
+        "health",
+        "livelihood"
+      ],
       "title": "Universal Income Guarantees",
       "url": "https://felixbuchholz.github.io/thesis2019/",
       "video": "https://raw.githubusercontent.com/felixbuchholz/thesis2019/master/public/assets/demo.mov?raw=true",
@@ -276,11 +339,14 @@
     {
       "description": "Teaching children how to code is a common goal in education in the US. Initiatives by the public and private sectors \u2013 such as code.org and CSforAll \u2013 are trying to address this with extensive funding and recommendations for courses and syllabi. But the long-term objectives of such initiatives are not clear. Will they create better citzens and more informed students? Or are they focused on a more productive workforce? These different agendas need to be aligned with concrete paths for the children and also juxtaposed with their professional and lived experience. Based on CSTA K 12 Computer Science Standards, and Github repositories as proxies for applied computer science, this visualization shows gaps and opportunities on both sides.",
       "image": "preview-2018/flavio.png",
-      "name": "Flávio Pessoa",
+      "name": "Fl\u00e1vio Pessoa",
       "portfolio": "https://flaviopessoa.com.br/",
       "repo": "https://github.com/pessoaflavio/thesis",
       "subtitle": "The relationship between computer science education and computational trends in Github.",
-      "tags": ["language", "understanding"],
+      "tags": [
+        "language",
+        "understanding"
+      ],
       "title": "CS Education and Computational Trends",
       "url": "https://parsons.nyc/thesis-2018/flavioPessoa/thesis",
       "video": "https://github.com/visualizedata/thesis/blob/main/assets/media/FlavioPessoa_2018.mp4?raw=true",
@@ -292,8 +358,11 @@
       "name": "Gabriella Steele",
       "portfolio": "https://github.com/gabisteele",
       "repo": "https://github.com/gabisteele/thesis",
-      "subtitle": "This project was fueled by the notion that the majority of data shared within the Social Science community—specifically the field of Child Attachment—is done so using static forms of communication.",
-      "tags": ["data", "policy"],
+      "subtitle": "This project was fueled by the notion that the majority of data shared within the Social Science community\u2014specifically the field of Child Attachment\u2014is done so using static forms of communication.",
+      "tags": [
+        "data",
+        "policy"
+      ],
       "title": "The Group Attachment Based Intervention",
       "url": "https://parsons.nyc/thesis-2016/gabiSteele/",
       "video": "https://github.com/visualizedata/thesis/blob/main/assets/media/GabiSteele_2016.mp4?raw=true",
@@ -306,11 +375,14 @@
       "portfolio": "https://github.com/visualizedata/thesis-2018/tree/master/georgeSieniawski",
       "repo": "https://github.com/visualizedata/thesis-2018/tree/master/georgeSieniawski",
       "subtitle": "Global seapower competition is intensifying.",
-      "tags": ["landscapes", "pathways"],
+      "tags": [
+        "landscapes",
+        "pathways"
+      ],
       "title": "Strength in Numbers",
       "url": "https://parsons.nyc/thesis-2018/georgeSieniawski/public/",
       "video": "https://github.com/visualizedata/thesis/blob/main/assets/media/GeorgeSieniawski_2018.mp4?raw=true",
-      "year": 2018 
+      "year": 2018
     },
     {
       "description": "Catering to America\u2019s material overflow, the self-storage industry has exploded into a booming $36 billion dollar market. Nearly 1 out of 10 American households currently rent a self storage unit and it\u2019s continually growing. Visualizing survey data, this project examines how customers participate in this industry, revealing how self-storage is a window into America\u2019s relationship to consumption.",
@@ -319,7 +391,10 @@
       "portfolio": "https://github.com/graceiseverywhere",
       "repo": "https://github.com/graceiseverywhere/thesis/",
       "subtitle": "",
-      "tags": ["data", "policy"],
+      "tags": [
+        "data",
+        "policy"
+      ],
       "title": "Self-Storage Nation",
       "url": "https://parsons.nyc/thesis-2019/graceMartinez/",
       "video": "https://github.com/graceiseverywhere/thesis/blob/master/demo.mov?raw=true",
@@ -331,8 +406,11 @@
       "name": "Ian Smith",
       "portfolio": "http://codesmithlab.com/",
       "repo": "https://github.com/Ianssmith/thesis",
-      "subtitle": "Catering to America’s material overflow, the self-storage industry has exploded into a booming $36 billion dollar market.",
-      "tags": ["language", "understanding"],
+      "subtitle": "Catering to America\u2019s material overflow, the self-storage industry has exploded into a booming $36 billion dollar market.",
+      "tags": [
+        "language",
+        "understanding"
+      ],
       "title": "Lincmap",
       "url": "http://parsons.nyc/thesis-2017/ianSmith/",
       "video": "https://vimeo.com/218038907",
@@ -345,7 +423,10 @@
       "portfolio": "",
       "repo": "https://github.com/IsVer/mst/",
       "subtitle": "This project provides a data visualization tool for qualitative analysis of career history data at a large scale using automation and dimensionality reduction.",
-      "tags": ["media", "society"],
+      "tags": [
+        "media",
+        "society"
+      ],
       "title": "Passive Activism",
       "url": "https://parsons.nyc/thesis-2019/isabelVerkes/",
       "video": "https://github.com/IsVer/mst/blob/cc863da387b53f4608aa7b51e24b3d0d4d9c0db7/demo.mov?raw=true",
@@ -358,7 +439,10 @@
       "portfolio": "https://glimpse.fyi/",
       "repo": "https://github.com/jacobmbr/glimpse",
       "subtitle": "Glimpse is a Chrome extension that reveals the network of entities that watch you on the web.",
-      "tags": ["data", "technology"],
+      "tags": [
+        "data",
+        "technology"
+      ],
       "title": "Glimpse",
       "url": "http://parsons.nyc/thesis-2016/jacobRomer/",
       "video": "https://github.com/visualizedata/thesis/blob/main/assets/media/JacobRomer_2016.mp4?raw=true",
@@ -371,7 +455,10 @@
       "portfolio": "http://www.jaimetanner.com/",
       "repo": "https://github.com/tannerjaime/thesis",
       "subtitle": "World species are declining at relatively high rates.",
-      "tags": ["health", "livelihood"],
+      "tags": [
+        "health",
+        "livelihood"
+      ],
       "title": "Taxonomic Bias",
       "url": "https://parsons.nyc/thesis-2016/jaimeTanner/project.html",
       "video": "https://github.com/visualizedata/thesis/blob/main/assets/media/JaimeTanner_2016.mp4?raw=true",
@@ -384,7 +471,10 @@
       "portfolio": "https://github.com/jyamanaka",
       "repo": "https://github.com/jyamanaka/MajorStudio2",
       "subtitle": "Stepping into the Great Swamp Swamps have always been a source of terror and fascination but are actually valuable ecosystems.",
-      "tags": ["media", "society"],
+      "tags": [
+        "media",
+        "society"
+      ],
       "title": "Swamp Walk",
       "url": "https://parsons.nyc/thesis-2020/janiceYamanakaLew/index.html",
       "video": "https://github.com/jyamanaka/MajorStudio2/raw/master/demo.mp4?raw=true",
@@ -397,7 +487,10 @@
       "portfolio": "https://github.com/okhobb/",
       "repo": "https://github.com/okhobb/jedrs-thesis",
       "subtitle": "The American Archive of Public Broadcasting is a collaboration between PBS flagship station WGBH in Boston and the Library of Congress. ",
-      "tags": ["media", "society"],
+      "tags": [
+        "media",
+        "society"
+      ],
       "title": "Visually Exploring the American Archive",
       "url": "http://jedcrocker.com/thesis/#/",
       "video": "https://github.com/jed-c/thesis-video/raw/master/demo.m4v?raw=true",
@@ -409,8 +502,11 @@
       "name": "Joe Steele",
       "portfolio": "https://github.com/jsteele2003",
       "repo": "https://github.com/jsteele2003/msdv_thesis",
-      "subtitle": "In the 1930‘s, the Home Owner’s Loan Corporation was conceived with the singular purpose of providing federal support on mortgage underwriting risk.",
-      "tags": ["landscapes", "pathways"],
+      "subtitle": "In the 1930\u2018s, the Home Owner\u2019s Loan Corporation was conceived with the singular purpose of providing federal support on mortgage underwriting risk.",
+      "tags": [
+        "landscapes",
+        "pathways"
+      ],
       "title": "Moving the Line",
       "url": "https://parsons.nyc/thesis-2018/joeSteele/redlining/dist",
       "video": "",
@@ -423,7 +519,10 @@
       "portfolio": "http://www.johnoutwater.com/",
       "repo": "https://github.com/joutwater/jo_berry_code",
       "subtitle": "Modern blueberry breeding.",
-      "tags": ["food", "culture"],
+      "tags": [
+        "food",
+        "culture"
+      ],
       "title": "Sensing Blue",
       "url": "http://parsons.nyc/thesis-2020/johnOutwater/",
       "video": "https://github.com/joutwater/jo_berry_code/blob/master/demo.mp4?raw=true",
@@ -436,7 +535,10 @@
       "portfolio": "http://www.floatingmedia.com/",
       "repo": "https://github.com/jthirkield/thesis",
       "subtitle": "Written in the early 1300s, The Divine Comedy stands at the threshold of the Medieval and the Renaissance ages.",
-      "tags": ["arts", "leisure"],
+      "tags": [
+        "arts",
+        "leisure"
+      ],
       "title": "Visualizing Poetic Space",
       "url": "https://parsons.nyc/thesis-2016/jonThirkield/",
       "video": "https://github.com/jthirkield/thesis/blob/master/screenpics/DanteInfernoScreenRecording.mov?raw=true",
@@ -449,7 +551,10 @@
       "portfolio": "http://joshualee.sg/",
       "repo": "https://github.com/neuralism/thesis-app",
       "subtitle": "This thesis attempts to explore the activity of players in a Massive Multiplayer Online Role Playing Game (MMORPG)...",
-      "tags": ["competition", "play"],
+      "tags": [
+        "competition",
+        "play"
+      ],
       "title": "Player Interactions in Online Games",
       "url": "https://parsons.nyc/thesis-2017/joshuaLee/",
       "video": "https://github.com/neuralism/thesis-app/blob/master/client/video/visualization.mp4?raw=true",
@@ -461,8 +566,11 @@
       "name": "Julian Lange",
       "portfolio": "https://www.julianhlange.com/",
       "repo": "https://github.com/julianhlange/thesis",
-      "subtitle": "Olympic Games and World Championships showcase the world’s best athletes.",
-      "tags": ["competition", "play"],
+      "subtitle": "Olympic Games and World Championships showcase the world\u2019s best athletes.",
+      "tags": [
+        "competition",
+        "play"
+      ],
       "title": "On and Beyond the Edge",
       "url": "https://parsons.nyc/thesis-2018/julianLange",
       "video": "https://github.com/visualizedata/thesis/blob/main/assets/media/JulianLange_2018.mp4?raw=true",
@@ -475,7 +583,10 @@
       "portfolio": "https://www.justinekeller.com/",
       "repo": "https://github.com/Justinerk2/MajorStudio2",
       "subtitle": "While 92% of girls believe anyone can acquire the skills of leadership, only 21% believe they currently have most of the key qualities required to be a good leader...",
-      "tags": ["society", "politics"],
+      "tags": [
+        "society",
+        "politics"
+      ],
       "title": "Leadership Gender Gap",
       "url": "https://parsons.nyc/thesis-2016/justineKeller/",
       "video": "https://github.com/visualizedata/thesis/blob/main/assets/media/JustineKeller_2016.mp4?raw=true",
@@ -488,10 +599,13 @@
       "portfolio": "https://github.com/noalarms/MSDV-Thesis",
       "repo": "https://github.com/noalarms/noalarms.github.io",
       "subtitle": "A look at product placement in popular movies, the brands being marketed to you...",
-      "tags": ["competition", "play"],
+      "tags": [
+        "competition",
+        "play"
+      ],
       "title": "What Movies Are Selling You",
       "url": "https://parsons.nyc/thesis-2018/kevinLee",
-      "video": "https://github.com/noalarms/noalarms.github.io/blob/master/clips/im-poster.mp4?raw=true",
+      "video": "https://github.com/visualizedata/thesis/blob/main/assets/media/KevinLee_2018.mp4?raw=true",
       "year": 2018
     },
     {
@@ -501,7 +615,10 @@
       "portfolio": "https://github.com/kiriltraykov",
       "repo": "https://github.com/kiriltraykov/kiriltraykov.github.io/tree/master/thesis",
       "subtitle": "Tennis is unique from other sports...",
-      "tags": ["arts", "leisure"],
+      "tags": [
+        "arts",
+        "leisure"
+      ],
       "title": "Travel in Women\u2019s Professional Tennis",
       "url": "https://parsons.nyc/thesis-2019/kirilTraykov/",
       "video": "https://github.com/kiriltraykov/kiriltraykov.github.io/blob/master/kiril.m4v?raw=true",
@@ -514,7 +631,10 @@
       "portfolio": "https://github.com/llapp/",
       "repo": "https://github.com/llapp/majorstudio2",
       "subtitle": "Although Canada has no official measure of poverty, food insecurity (the financial and/or physical inability to access adequate food) is present in homes across the country.",
-      "tags": ["health", "livelihood"],
+      "tags": [
+        "health",
+        "livelihood"
+      ],
       "title": "Patterns of Vulnerability",
       "url": "https://parsons.nyc/thesis-2016/linneaLapp/",
       "video": "https://github.com/llapp/majorstudio2/blob/master/documentation/interactivity.mov?raw=true",
@@ -527,7 +647,10 @@
       "portfolio": "http://lulutanenbaum.com/",
       "repo": "https://github.com/visualizedata/thesis-2020/tree/master/luluTannenbaum",
       "subtitle": "Voting choices are made on more than just facts...",
-      "tags": ["media", "society"],
+      "tags": [
+        "media",
+        "society"
+      ],
       "title": "Your Brain on Political Media",
       "url": "http://lulutanenbaum.com/portfolio/thesis/",
       "video": "https://vimeo.com/422526930",
@@ -540,7 +663,10 @@
       "portfolio": "https://www.marisaasari.com/",
       "repo": "https://github.com/marisaruizasari/thesis",
       "subtitle": "Visualizing the unequal impacts of gun violence.",
-      "tags": ["data", "policy"],
+      "tags": [
+        "data",
+        "policy"
+      ],
       "title": "Weapons of Mass Injustice",
       "url": "https://weaponsofmassinjustice.netlify.app/",
       "video": "https://github.com/marisaruizasari/thesis/raw/master/demo.mp4?raw=true",
@@ -553,7 +679,10 @@
       "portfolio": "https://mbcarradine.github.io/",
       "repo": "https://github.com/mbcarradine/mbcarradine.github.io/tree/master/thesis",
       "subtitle": "Every two years we witness an unconscionable amount of money being spent in an election cycle...",
-      "tags": ["society", "politics"],
+      "tags": [
+        "society",
+        "politics"
+      ],
       "title": "The Influencers",
       "url": "https://parsons.nyc/thesis-2018/maxCarradine/thesis",
       "video": "https://github.com/visualizedata/thesis/blob/main/assets/media/MaxCarradine_2018.mp4?raw=true",
@@ -566,7 +695,10 @@
       "portfolio": "http://michaeldesai.com/",
       "repo": "https://github.com/mi-desai/thesis",
       "subtitle": "2019 Income Statements",
-      "tags": ["data", "policy"],
+      "tags": [
+        "data",
+        "policy"
+      ],
       "title": "Visual Value",
       "url": "https://parsons.nyc/thesis-2020/michaelDesai/",
       "video": "https://github.com/mi-desai/thesis/raw/master/demo.mp4?raw=true",
@@ -579,7 +711,10 @@
       "portfolio": "http://michaelwolf.info/",
       "repo": "https://github.com/wolfm2/thesis",
       "subtitle": "The Sahel region in northern Africa is a place where the member countries are joined by conflict and depravations.",
-      "tags": ["data", "policy"],
+      "tags": [
+        "data",
+        "policy"
+      ],
       "title": "How Fragile is the Sahel?",
       "url": "https://parsons.nyc/thesis-2019/michaelWolf/",
       "video": "https://wolfm2.github.io/thesis/demo.mp4?raw=true",
@@ -592,7 +727,10 @@
       "portfolio": "https://github.com/mibacon",
       "repo": "https://github.com/visualizedata/socialdilemmas",
       "subtitle": "In game theory, social dilemmas are situations where the interests of the individual stand in direct opposition to the interests of the many.",
-      "tags": ["competition", "play"],
+      "tags": [
+        "competition",
+        "play"
+      ],
       "title": "Escaping Social Dilemmas",
       "url": "https://parsons.nyc/thesis-2018/michalBacon",
       "video": "https://github.com/visualizedata/michal-bacon-thesis/tree/master/video",
@@ -605,7 +743,10 @@
       "portfolio": "https://github.com/mikaela-el",
       "repo": "https://github.com/mikaela-el/thesis",
       "subtitle": "Throughout history, both the Supreme Court and lower levels of government have played essential roles in determining the extent to which women can legally access contraception and abortion.",
-      "tags": ["health", "livelihood"],
+      "tags": [
+        "health",
+        "livelihood"
+      ],
       "title": "From the Supreme Court to the States",
       "url": "https://parsons.nyc/thesis-2019/mikaelaErgasLenett/",
       "video": "https://github.com/mikaela-el/thesis/blob/master/demo.mov?raw=true",
@@ -618,7 +759,10 @@
       "portfolio": "https://mioakasako.com/",
       "repo": "https://github.com/miopio/thesis-play",
       "subtitle": "Exploring different facets of sexual misconduct, harassment, and discrimination in STEM academia...",
-      "tags": ["data", "policy"],
+      "tags": [
+        "data",
+        "policy"
+      ],
       "title": "Women in STEM",
       "url": "https://miopio.github.io/thesis-play",
       "video": "https://github.com/miopio/thesis-play/raw/master/demo.mp4?raw=true",
@@ -631,7 +775,10 @@
       "portfolio": "https://github.com/nancyzhao888",
       "repo": "https://github.com/nancyzhao888/thesis",
       "subtitle": "Broadway musical theatre is not a ephemeral and New York local phenomenon.",
-      "tags": ["arts", "leisure"],
+      "tags": [
+        "arts",
+        "leisure"
+      ],
       "title": "The Afterlife of Broadway Musicals",
       "url": "http://parsons.nyc/thesis-2017/nancyZhao/",
       "video": "https://nancyzhao888.github.io/thesis/work/broadway/video/presentation.mp4?raw=true",
@@ -644,7 +791,10 @@
       "portfolio": "https://neil-oliver.github.io/WebAdvanced_Spring2020_olivn897/portfolio/",
       "repo": "https://github.com/neil-oliver/thesis",
       "subtitle": "An analysis of Twitter content.",
-      "tags": ["media", "society"],
+      "tags": [
+        "media",
+        "society"
+      ],
       "title": "Is Twitter Feeding Bitcoin?",
       "url": "http://neiloliver.co/influence/",
       "video": "https://github.com/neil-oliver/thesis/raw/master/demo.mp4?raw=true",
@@ -656,8 +806,11 @@
       "name": "Nic Stark",
       "portfolio": "https://nicstark.com/",
       "repo": "https://github.com/nicstark/thesis",
-      "subtitle": "Cambrian Analytica is a speculative design project that aims to answer the question: “What would it take for people to care about their personal data?”",
-      "tags": ["arts", "leisure"],
+      "subtitle": "Cambrian Analytica is a speculative design project that aims to answer the question: \u201cWhat would it take for people to care about their personal data?\u201d",
+      "tags": [
+        "arts",
+        "leisure"
+      ],
       "title": "Cambrian Analytica",
       "url": "https://parsons.nyc/thesis-2019/nicStark/MicroSite/",
       "video": "https://github.com/visualizedata/thesis/blob/main/assets/media/NicStark_2019.mov?raw=true",
@@ -669,8 +822,11 @@
       "name": "Nour Zein",
       "portfolio": "https://nourzein.me/",
       "repo": "https://github.com/nourzein/thesis",
-      "subtitle": "New York City‘s Green Roof Potential.",
-      "tags": ["health", "livelihood"],
+      "subtitle": "New York City\u2018s Green Roof Potential.",
+      "tags": [
+        "health",
+        "livelihood"
+      ],
       "title": "Greening From the Rooftops",
       "url": "https://green-roof-potential.herokuapp.com/",
       "video": "https://github.com/nourzein/thesis/raw/master/demo.mp4?raw=true",
@@ -683,7 +839,10 @@
       "portfolio": "https://github.com/moriartp",
       "repo": "https://github.com/moriartp/ms2",
       "subtitle": "Commonly, numerical values expressed in multiple orders of magnitude are difficult to comprehend, particularly so for audiences that are less mathematically inclined...",
-      "tags": ["landscapes", "pathways"],
+      "tags": [
+        "landscapes",
+        "pathways"
+      ],
       "title": "Wave9",
       "url": "https://parsons.nyc/thesis-2017/pjMoriarty/index.html",
       "video": "https://github.com/visualizedata/thesis/blob/main/assets/media/PJMoriarty_2017.mp4?raw=true",
@@ -696,7 +855,10 @@
       "portfolio": "https://rikghosh.com/",
       "repo": "https://github.com/rikghosh/thesis",
       "subtitle": "Americans are thought to be fond of following fad diets, paradigms of eating often based on novel, ever-changing nutrition research.",
-      "tags": ["food", "agriculture"],
+      "tags": [
+        "food",
+        "agriculture"
+      ],
       "title": "A Century of American Food",
       "url": "https://parsons.nyc/thesis-2018/rikGhosh",
       "video": "https://github.com/visualizedata/thesis/blob/main/assets/media/RikGhosh_2018.mp4?raw=true",
@@ -709,7 +871,10 @@
       "portfolio": "https://rileyhoonan.com/",
       "repo": "https://github.com/rhoon/thesis",
       "subtitle": "How do we measure influence?",
-      "tags": ["arts", "leisure"],
+      "tags": [
+        "arts",
+        "leisure"
+      ],
       "title": "Mapping Dada",
       "url": "http://www.mappingdada.info/",
       "video": "https://github.com/visualizedata/thesis/blob/main/assets/media/RileyHoonan_2017.mp4?raw=true",
@@ -722,7 +887,10 @@
       "portfolio": "http://robincoenen.de/",
       "repo": "https://github.com/robincoenen/thesis_production",
       "subtitle": "Visualizing Maritime Claims at the UN.",
-      "tags": ["data", "policy"],
+      "tags": [
+        "data",
+        "policy"
+      ],
       "title": "With Compliments to the Secretary General",
       "url": "https://parsons.nyc/thesis-2020/robinCoenen",
       "video": "https://github.com/robincoenen/thesis_production/raw/master/demo.mp4?raw=true",
@@ -735,7 +903,10 @@
       "portfolio": "https://ryanabest.com/",
       "repo": "https://github.com/ryanabest/ms2-2019/tree/master/thesis",
       "subtitle": "This visualization explores redlining and discriminatory federal New Deal policies.",
-      "tags": ["data", "policy"],
+      "tags": [
+        "data",
+        "policy"
+      ],
       "title": "Drawing Discrimination",
       "url": "https://parsons.nyc/thesis-2019/ryanBest/",
       "video": "https://raw.githubusercontent.com/ryanabest/ms2-2019/master/thesis/public/demo.mov?raw=true",
@@ -748,7 +919,10 @@
       "portfolio": "https://www.pikacreative.com/",
       "repo": "https://github.com/ryezzz/Sub-Saharan-Africa-NDVI-Analysis",
       "subtitle": "Vegetation indices derived from satellite flyover data.",
-      "tags": ["food", "agriculture"],
+      "tags": [
+        "food",
+        "agriculture"
+      ],
       "title": "Vegetation and Socioeconomic Shifts",
       "url": "https://parsons.nyc/thesis-2018/ryeZupancis",
       "video": "https://github.com/visualizedata/thesis/blob/main/assets/media/RyeZupancis_2018.mp4?raw=true",
@@ -761,7 +935,10 @@
       "portfolio": "https://github.com/salonieshah",
       "repo": "https://github.com/salonieshah/money-or-mitigation",
       "subtitle": "Carbon cap and trade markets on deforestation and emissions.",
-      "tags": ["data", "policy"],
+      "tags": [
+        "data",
+        "policy"
+      ],
       "title": "Are Forest Money or Mitigation?",
       "url": "https://parsons.nyc/thesis-2020/saloniNaishadShah",
       "video": "https://github.com/salonieshah/money-or-mitigation/raw/master/demo.mp4?raw=true",
@@ -774,7 +951,10 @@
       "portfolio": "https://www.sambhav-jain.com/",
       "repo": "https://github.com/jainsambhav91/thesis",
       "subtitle": "A visual exploration of the current sex offender registration.",
-      "tags": ["data", "policy"],
+      "tags": [
+        "data",
+        "policy"
+      ],
       "title": "Visualizing Law",
       "url": "http://parsons.nyc/thesis-2017/sambhavJain/",
       "video": "https://github.com/jainsambhav91/thesis/blob/master/work/finalViz/viz2-final2.mp4?raw=true",
@@ -786,8 +966,11 @@
       "name": "Sam Vickars",
       "portfolio": "https://samvickars.com/",
       "repo": "https://github.com/svickars/thesis",
-      "subtitle": "Canada‘s Indian Residential School System was a network of boarding schools, industrial schools, and federal hostels created to remove indigenous children from their homes and families.",
-      "tags": ["society", "politics"],
+      "subtitle": "Canada\u2018s Indian Residential School System was a network of boarding schools, industrial schools, and federal hostels created to remove indigenous children from their homes and families.",
+      "tags": [
+        "society",
+        "politics"
+      ],
       "title": "Canada\u2018s Indian Residential School System",
       "url": "https://parsons.nyc/thesis-2017/samVickars/",
       "video": "https://github.com/visualizedata/thesis/blob/main/assets/media/SamVickars_2017.mp4?raw=true",
@@ -800,7 +983,10 @@
       "portfolio": "https://www.simonebetito.com/",
       "repo": "https://github.com/simone-betito/msdv-thesis-SB",
       "subtitle": "Museums are bastions of culture, they hold artifacts from all over the world.",
-      "tags": ["health", "livelihood"],
+      "tags": [
+        "health",
+        "livelihood"
+      ],
       "title": "Repatriation",
       "url": "https://parsons.nyc/thesis-2019/simoneRachelleBetito/",
       "video": "https://github.com/simone-betito/msdv-thesis-SB/blob/master/demo.mov?raw=true",
@@ -813,7 +999,10 @@
       "portfolio": "https://github.com/ssyung",
       "repo": "https://github.com/ssyung/thesis",
       "subtitle": "Oral history is a method of historical inquiry rooted in dialogue between an interviewer and an interviewee",
-      "tags": ["media", "society"],
+      "tags": [
+        "media",
+        "society"
+      ],
       "title": "All the Queens Voices",
       "url": "https://ssyung.github.io/thesis/",
       "video": "https://github.com/ssyung/thesis/blob/master/documentation/demo.m4v?raw=true",
@@ -826,7 +1015,10 @@
       "portfolio": "https://github.com/hubideal",
       "repo": "https://github.com/hubideal/hubideal.github.io/tree/master/thesisHubbard",
       "subtitle": "Students perform better in the classroom when their teachers are proficient in the subject they teach...",
-      "tags": ["language", "understanding"],
+      "tags": [
+        "language",
+        "understanding"
+      ],
       "title": "Patterns of Professional Identity in STEM",
       "url": "https://parsons.nyc/thesis-2018/stevenHubbard/",
       "video": "https://github.com/visualizedata/thesis/blob/main/assets/media/StevenHubbard_2018.mp4?raw=true",
@@ -839,7 +1031,10 @@
       "portfolio": "https://github.com/schmeelk",
       "repo": "https://github.com/schmeelk/SchmeelkIdentityTheftVizThesis",
       "subtitle": "This thesis examines identity theft through the lens of medical record data breaches.",
-      "tags": ["media", "society"],
+      "tags": [
+        "media",
+        "society"
+      ],
       "title": "Identity Theft",
       "url": "https://parsons.nyc/thesis-2019/suzannaSchmeelk/identitytheft.html#slide=1",
       "video": "https://schmeelk.github.io/SchmeelkIdentityTheftVizThesis/AnatomyOfABreach.mov",
@@ -852,7 +1047,10 @@
       "portfolio": "https://willsu.io/",
       "repo": "https://github.com/Jiahao01121/refugee-flow",
       "subtitle": "To date, there were an unprecedented 65.6 million forcibly displaced people worldwide...",
-      "tags": ["landscapes", "pathways"],
+      "tags": [
+        "landscapes",
+        "pathways"
+      ],
       "title": "Refugee-Flow",
       "url": "http://refugeeflow.world/landing",
       "video": "https://github.com/Jiahao01121/refugee-flow/blob/master/preview.gif",
@@ -865,7 +1063,10 @@
       "portfolio": "",
       "repo": "https://github.com/Xingwei726/MSthesis",
       "subtitle": "Cocoa Production is Driving Deforestation.",
-      "tags": ["food", "culture"],
+      "tags": [
+        "food",
+        "culture"
+      ],
       "title": "A Guilty Pleasure",
       "url": "https://parsons.nyc/thesis-2020/xingweiHuang/",
       "video": "https://github.com/Xingwei726/MSthesis/raw/master/demo.mp4",
@@ -878,7 +1079,10 @@
       "portfolio": "https://shiy918.myportfolio.com/",
       "repo": "https://github.com/shiy918/thesis",
       "subtitle": "Food safety is essential to civilizations.",
-      "tags": ["food", "culture"],
+      "tags": [
+        "food",
+        "culture"
+      ],
       "title": "Bacteria Invasion",
       "url": "https://parsons.nyc/thesis-2018/yicenShi/visualizations",
       "video": "https://github.com/visualizedata/thesis/blob/main/assets/media/YicenShi_2018.mp4?raw=true",
@@ -891,7 +1095,10 @@
       "portfolio": "https://www.yiranni.me/",
       "repo": "https://github.com/yiranni/master-thesis",
       "subtitle": "how global wildlife trading is related to the zoonotic diseases.",
-      "tags": ["health", "livelihood"],
+      "tags": [
+        "health",
+        "livelihood"
+      ],
       "title": "Global Travel of Zoonotic Diseases",
       "url": "https://parsons.nyc/thesis-2020/yiranNi",
       "video": "https://github.com/yiranni/master-thesis/raw/master/demo.mp4",
@@ -904,7 +1111,10 @@
       "portfolio": "https://www.zui-c.com/",
       "repo": "https://github.com/azuic/unmasking-masks",
       "subtitle": "Uncovering global attitudes towards masks.",
-      "tags": ["health", "livelihood"],
+      "tags": [
+        "health",
+        "livelihood"
+      ],
       "title": "Unmasking Masks",
       "url": "https://parsons.nyc/thesis-2020/zuiChen",
       "video": "https://github.com/azuic/unmask-mask/raw/master/demo.mp4",
@@ -917,7 +1127,10 @@
       "portfolio": "https://github.com/leeallennyc",
       "repo": "https://github.com/leeallennyc/thesis",
       "subtitle": "Mapping AI Patent Landscapes",
-      "tags": ["technology", "policy"],
+      "tags": [
+        "technology",
+        "policy"
+      ],
       "title": "Signals From the Future",
       "url": "https://leeallennyc.github.io/signalsfromthefuture",
       "video": "https://github.com/leeallennyc/thesis/blob/main/demo.mp4?raw=true",
@@ -930,7 +1143,10 @@
       "portfolio": "https://github.com/tongtongluu/bubbleTea-DataVis-Thesis",
       "repo": "https://github.com/tongtongluu/bubbleTea-DataVis-Thesis",
       "subtitle": "How Asian Are You? Boba is Not Just a Drink, but a Means to Identity Yourself",
-      "tags": ["food", "culture"],
+      "tags": [
+        "food",
+        "culture"
+      ],
       "title": "Spill the Boba Tea",
       "url": "https://tongtongluu.github.io/Bobavue/",
       "video": "https://github.com/tongtongluu/bubbleTea-DataVis-Thesis/blob/main/demo.mp4?raw=true",
@@ -943,7 +1159,10 @@
       "portfolio": "https://github.com/shmanzar/thesis",
       "repo": "https://github.com/shmanzar/thesis",
       "subtitle": "New York City's Restaurants During the Pandemic",
-      "tags": ["food", "culture"],
+      "tags": [
+        "food",
+        "culture"
+      ],
       "title": "86'ed",
       "url": "https://shmanzar.github.io/86ed/",
       "video": "https://github.com/shmanzar/thesis/blob/main/demo.mp4?raw=true",
@@ -956,7 +1175,10 @@
       "portfolio": "https://www.isabelstoddart.com/",
       "repo": "https://github.com/isabelstoddart/msdv-thesis",
       "subtitle": "The Matilda Effect and the Repercussions of Lost Women in History",
-      "tags": ["technology", "society"],
+      "tags": [
+        "technology",
+        "society"
+      ],
       "title": "Where Did All The Great Women Go?",
       "url": "https://isabelstoddart.github.io/matilda-effect/",
       "video": "https://github.com/isabelstoddart/msdv-thesis/blob/main/demo.mp4?raw=true",
@@ -969,7 +1191,10 @@
       "portfolio": "https://ripleycleghorn.github.io/portfolio/",
       "repo": "https://github.com/ripleycleghorn/thesis",
       "subtitle": "The Need to Reconsider Negative Emissions Technologies",
-      "tags": ["landscapes", "policy"],
+      "tags": [
+        "landscapes",
+        "policy"
+      ],
       "title": "Scaling Down to Zero:",
       "url": "https://ripleycleghorn.github.io/thesis/project-code/",
       "video": "https://github.com/ripleycleghorn/thesis/blob/main/demo.mp4?raw=true",
@@ -982,7 +1207,10 @@
       "portfolio": "https://github.com/Dalbed349/Thesis",
       "repo": "https://github.com/Dalbed349/AlabamaWater",
       "subtitle": "Visualizing Water Quality Testing in the River Basins of Alabama",
-      "tags": ["policy", "health"],
+      "tags": [
+        "policy",
+        "health"
+      ],
       "title": "20 Years of Water",
       "url": "https://dalbed349.github.io/20YearsOfWater/",
       "video": "https://github.com/Dalbed349/AlabamaWater/blob/main/demo.mp4?raw=true",
@@ -995,7 +1223,10 @@
       "portfolio": "https://github.com/amina-brown/thesis",
       "repo": "https://github.com/amina-brown/thesis",
       "subtitle": "An Exploration of Forest Kindergartens and Nature-Based Learning",
-      "tags": ["landscapes", "society"],
+      "tags": [
+        "landscapes",
+        "society"
+      ],
       "title": "Nature + Nurture",
       "url": "https://amina-brown.github.io/nature-nurture/",
       "video": "https://github.com/amina-brown/thesis/blob/main/demo.mp4?raw=true",
@@ -1008,7 +1239,10 @@
       "portfolio": "https://zhibang.design",
       "repo": "https://github.com/gitacoco/thesis-project",
       "subtitle": "A Framework for Museums to Expand the Stories of Displayed Specimens",
-      "tags": ["society", "arts"],
+      "tags": [
+        "society",
+        "arts"
+      ],
       "title": "Connected Specimens",
       "url": "https://gitacoco.github.io/connected_species/",
       "video": "https://github.com/gitacoco/thesis-project/blob/main/demo.mp4?raw=true",
@@ -1021,7 +1255,10 @@
       "portfolio": "https://github.com/madhat5/MSDV_2021-Thesis",
       "repo": "https://github.com/madhat5/MSDV_2021-Thesis",
       "subtitle": "Are climbers getting stronger or are there more strong climbers?",
-      "tags": ["competition", "health"],
+      "tags": [
+        "competition",
+        "health"
+      ],
       "title": "What is Strength in Climbing?",
       "url": "https://madhat5.github.io/project-repo/",
       "video": "https://github.com/madhat5/MSDV_2021-Thesis/blob/master/demo.mp4?raw=true",
@@ -1034,7 +1271,10 @@
       "portfolio": "http://www.soonkpaik.com",
       "repo": "https://github.com/jotnajoa/Majorstudio2",
       "subtitle": "A Quantitative Analysis of Hip Hop Lyrics",
-      "tags": ["culture", "language"],
+      "tags": [
+        "culture",
+        "language"
+      ],
       "title": "Word up: How many words do you need for hip hop songs?",
       "url": "https://jotnajoa.github.io/wordup/",
       "video": "https://github.com/jotnajoa/Majorstudio2/blob/main/demo.mp4?raw=true",
@@ -1047,7 +1287,10 @@
       "portfolio": "https://github.com/jamestroxel/thesis",
       "repo": "https://github.com/jamestroxel/Karpov-Korchnoi",
       "subtitle": "Visualizing Chess, Patterns and Paranoia",
-      "tags": ["competition", "play"],
+      "tags": [
+        "competition",
+        "play"
+      ],
       "title": "Karpov | Korchnoi",
       "url": "https://jamestroxel.github.io/karpovkorchnoi/#/prologue",
       "video": "https://github.com/jamestroxel/Karpov-Korchnoi/blob/main/demo.mp4?raw=true",
@@ -1060,7 +1303,10 @@
       "portfolio": "https://yujunjiang.com",
       "repo": "https://github.com/yujunmjiang/gaming-industry-tracker",
       "subtitle": "How COVID-19 Has Changed the Video Game Industry",
-      "tags": ["media", "arts"],
+      "tags": [
+        "media",
+        "arts"
+      ],
       "title": "A Different Game",
       "url": "https://yujunmjiang.github.io/a-different-game/",
       "video": "https://github.com/yujunmjiang/gaming-industry-tracker/blob/main/demo.mp4?raw=true",
@@ -1073,7 +1319,10 @@
       "portfolio": "https://github.com/douglocke/mfc",
       "repo": "https://github.com/douglocke/mfc",
       "subtitle": "A Visual Exploration of the United States Presidential Inaugural Addresses (1789-2021)",
-      "tags": ["politics", "language"],
+      "tags": [
+        "politics",
+        "language"
+      ],
       "title": "My Fellow Citizens",
       "url": "https://douglocke.github.io/myfellowcitizens/",
       "video": "https://github.com/douglocke/mfc/blob/master/demo.mp4?raw=true",
@@ -1086,7 +1335,10 @@
       "portfolio": "https://github.com/InhyeLee-Data/thesis-2021",
       "repo": "https://github.com/InhyeLee-Data/thesis-2021",
       "subtitle": "A Spatial and Data-based Approach to Exploring the Literary Text",
-      "tags": ["language", "arts"],
+      "tags": [
+        "language",
+        "arts"
+      ],
       "title": "Mapping the Literary Geography of Sonagi",
       "url": "https://inhyelee-data.github.io/sonagi/",
       "video": "https://github.com/InhyeLee-Data/thesis-2021/blob/main/demo.mp4?raw=true",
@@ -1099,7 +1351,10 @@
       "portfolio": "https://github.com/justinkraus/thesis",
       "repo": "https://github.com/justinkraus/thesis",
       "subtitle": "Written English is Becoming More Readable, Why is Reading Comprehension Falling?",
-      "tags": ["language", "society"],
+      "tags": [
+        "language",
+        "society"
+      ],
       "title": "TL;DR",
       "url": "https://justinkraus.github.io/tldr/",
       "video": "https://github.com/justinkraus/thesis/blob/main/demo.mp4?raw=true",
@@ -1112,7 +1367,10 @@
       "portfolio": "http://tiffanyfrance.com/",
       "repo": "https://github.com/tiffanyfrance/thesis",
       "subtitle": "Generating Book Cover Art Using Emotion Detected Labels in Classical Literature",
-      "tags": ["arts", "language"],
+      "tags": [
+        "arts",
+        "language"
+      ],
       "title": "Literary Book Bindings",
       "url": "https://tiffanyfrance.com/ml-books",
       "video": "https://github.com/tiffanyfrance/thesis/blob/main/demo.mp4?raw=true",
