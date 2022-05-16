@@ -1,6 +1,198 @@
 {
   "students": [
     {
+      "description": "Over a century before the mis-marketing of OxyContin dominated news outlets, the nation faced its first widespread opioid epidemic. The emergence, exploitation, and eruption of both epidemics follow the same arcs in history, yet the de-escalation of the 19th century epidemic has faded into distant memory and recovery from the most recent has yet to be seen. During the first epidemic, pharmaceutical companies and federal regulations laid the groundwork for the stigmatization of opioid addiction that created an isolating environment for those struggling with opioid dependence today. Accessible recovery in conjunction with de-stigmatizing what was left by the earlier epidemic is needed to prevent future devastation and build a system that can prevent history from repeating itself once again. Alleviating future escalation of the modern opioid crisis requires understanding the onset of the first opioid epidemic, sympathizing with the physiology of addiction, and making proven treatments such as MAT, or Medication-Assisted Treatment, widely available. In Crisis, Again visualizes each of these factors necessary for the nation\u2019s recovery and tells the story of opioid\u2019s overwhelming grip on the United States since its inception.",
+      "name": "Molly Cook",
+      "repo": "https://github.com/m0llyc00k/Thesis-2022",
+      "subtitle": "Understanding the Endurance of Opioids & Combatting the Modern American Epidemic",
+      "title": "In Crisis, Again",
+      "url": "https://m0llyc00k.github.io/Thesis-2022",
+      "year": 2022,
+      "image": "preview-2022/Cook.png",
+      "video": "MollyCook_2022.mp4",
+      "tags": [
+        "health",
+        "community"
+      ],
+      "portfolio": "https://github.com/m0llyc00k/Thesis-2022"
+    },
+    {
+      "description": "Garment lifecycles begin with raw materials and end in a landfill. The process is lengthy and often hidden from consumers. Excess waste and pollution from the fashion industry contributes over 4% of annual global greenhouse gas emissions. Due to fast fashion increasing in popularity, garments are being created to be disposable. As rate of production increases, the length of time a garment is in use decreases. Sustainable fashion minimizes the negative impact and harm on the environment. If the industry maintains linear production, greenhouse gasses are expected to increase by 50% within the decade. It is crucial to understand and redesign this lifecycle toward a circular economy to minimize waste production. This project shows where clothing comes from by examining the production methods in the fast fashion industry and its effect on the environment.",
+      "name": "Juliet Craig",
+      "repo": "https://github.com/jcraig13/thesis",
+      "subtitle": "Visualizing Garment Lifecycles and its Effects on the Environment",
+      "title": "Hanging by a Thread",
+      "url": "https://jcraig13.github.io/thesis",
+      "year": 2022,
+      "image": "preview-2022/Craig.png",
+      "video": "JulietCraig_2022.mp4",
+      "tags": [
+        "art",
+        "fashion"
+      ],
+      "portfolio": "https://github.com/jcraig13/thesis"
+    },
+    {
+      "description": "All around the world, countries are witnessing the different effects of climate change. The island nation of Tuvalu, which is home to around 11,000 people, has witnessed sea levels rise by about 0.5 centimeters every year since 1993. The Maldives, a well-known bucket list getaway, is the lowest-lying nation in the world. Therefore, sea-level rise caused by global climate change is an existential threat to the island nation. Finally, Iceland, a cold island nation in the Atlantic ocean actually has the opposite problem. Land in Iceland is rising at a pace of as much as 1.4 inches per year in certain areas as a result of climate change, according to a new study. Like the rest of the world, these countries have much to gain from a better, more sustainable, and climate-friendly world. A main combatant in the fight is sustainable development, which has increased emphasis and interest, both from investors and the public, in sustainable and responsible investments. This study attempts to answer questions about the current state of sustainable development on a global scale. The study, therefore, aims to inform the reader as to how their country\u2019s standing in sustainable development lies.",
+      "name": "G\u00edsli Gudj\u00f3nsson",
+      "repo": "https://github.com/gisligudjons/thesis",
+      "subtitle": "Investing in Sustainable Futures",
+      "title": "Symbolic Acts for Action",
+      "url": "https://gisligudjons.github.io/thesisproject",
+      "year": 2022,
+      "image": "preview-2022/Gudj\u00f3nsson.png",
+      "video": "G\u00edsliGudj\u00f3nsson_2022.mp4",
+      "tags": [
+        "climate",
+        "environment"
+      ],
+      "portfolio": "https://github.com/gisligudjons/thesis"
+    },
+    {
+      "description": "NYC honorary street names, or co-names enacted by the City Council, can be found above or below the primary street-name signs throughout the five boroughs of NYC. Over the 30 years enactment of this practice documented officially, communities, local activists, and politicians have petitioned more than 2500 honorary street names, to honor people or organizations of special significance to a particular community or neighborhood. Simultaneously, co-names can be seen as an approach to remap the city in a local sense, interweaving its past, present, and future. However, for considerations of legal and bureaucratic costs, honorary street names have never been accessible to the public either through an analog city map or a digital database. How are communities in NYC preserving their heritage through commemorative street naming? And How have co-names entangled with the cultural/political atmosphere? This project surveys the NYC honorary street names, by applying both quantitative and qualitative analysis and data visualization. The source data are collected and parsed from the City Council\u2019s legislation files, and further aggregated with GIS information and text analysis. As a result, this project transforms the practice of honorary street names into a more accessible format and creates a generated city landscape of memory.",
+      "name": "Jiahui(Jessie) Han",
+      "repo": "https://github.com/JessieJessJe/thesis",
+      "subtitle": "Understanding the Patterns of NYC Honorary Street Naming History",
+      "title": "Memories Around the Corner",
+      "url": "https://jessiejessje.github.io/nyc-conaming/",
+      "year": 2022,
+      "image": "preview-2022/Han.png",
+      "video": "Jiahui(Jessie)Han_2022.mp4",
+      "tags": [
+        "climate",
+        "environment"
+      ],
+      "portfolio": "https://jessiehanjiahui.com/"
+    },
+    {
+      "description": "Winemakers are some of the most seasoned climate scientists in the world. Agricultural techniques required for harvesting grapes accumulated over centuries, coupled with precise knowledge of environmental patterns surrounding their vineyards, provide them with unrivaled expertise and meticulous methods to optimize wine production. As the most essential ingredient for wine production, climate determines the type and the quality of the wine that can be produced on a particular terrain. Recent extreme weather events have shown that grapes are extremely sensitive to sudden changes in temperature and other climatic fluctuations. Such shifts raise tough questions for the industry whilst disrupting centuries of cultural norms and agricultural practices in winemaking. While the topic of climate change in the wine industry attracts much media and academic attention and generates important discussions within the industry, most of the existing evidence is either geographically localized, confined to a specific grape variety, or difficult to grasp for wine aficionados. The Ripe for Disruption project provides a \u201cglocal\u201d glimpse into the wine industry, by using geovisualization tools to help readers better grasp which wine regions are already highly exposed to global warming. A closer look at extreme weather events that recently impacted the \u201cOld World\u201d and the \u201cNew World\u201d is provided to contextualize these macro-level shifts, before finally, exploring different opportunities and adaptive changes the wine industry might go through as a result.",
+      "name": "Yann Kerblat",
+      "repo": "https://github.com/ykerblat/thesis",
+      "subtitle": "Climate Change and the Future of the Wine Industry",
+      "title": "Ripe for Disruption",
+      "url": "https://ykerblat.github.io/thesis",
+      "year": 2022,
+      "image": "preview-2022/Kerblat.png",
+      "video": "YannKerblat_2022.mp4",
+      "tags": [
+        "climate",
+        "environment"
+      ],
+      "portfolio": "https://github.com/ykerblat/thesis"
+    },
+    {
+      "description": "Is Food Making You Sick? is exploring the relationship between diet and health in 184 countries through the analysis and visualization of extensive data on nutritional factors and diseases. The project aims to study and visualize these relationships by juxtaposing 47 nutrients and 84 health conditions, allowing users to explore and analyze them. Is Food Making You Sick? will answer questions such as do countries that have a high fat diet, also struggle with heart disease? Are countries in which people are consuming high amounts of sugar also overburdened with diabetes? and many others. By exploring the patterns between food consumption and health outcomes, users could better inform their dietary choices and be empowered by high quality, research data rather than speculative data that often float around the Internet. Exposing the data visually could also spark discussion amongst researchers about less researched correlations, setting the stage for testing hypotheses and performing additional studies.",
+      "name": "Yoana Kosturska",
+      "repo": "https://github.com/ykmsdv/thesis",
+      "subtitle": "Exploring the Relationship Between Nutrition and Health",
+      "title": "Is Food Making You Sick?",
+      "url": "https://ykmsdv.github.io/thesis/",
+      "year": 2022,
+      "image": "preview-2022/Kosturska.png",
+      "video": "YoanaKosturska_2022.mp4",
+      "tags": [
+        "health",
+        "community"
+      ],
+      "portfolio": "https://github.com/ykmsdv/thesis"
+    },
+    {
+      "description": "Which brain regions light up at which moments when seeing images or listening to music? And inversely what does the brain imagine seeing or hearing given certain types of neural responses? These questions have intrigued people for centuries and motivated neuroscientists and philosophers to study the relationship between mind and body in various senses: seeing, hearing, touching, and smelling. Despite all these efforts, the functions of different components in the brain remain mostly a mystery. In Brain Experience, data visualization enables users to experience how human brains perform complicated tasks that appear easy to us. The mechanisms and processes beneath it, surprisingly, are highly complex and involve many organic elements. The project can help the users unravel these beautiful mysteries. We create an educational experience that guides the readers to comprehend the neural processes of the brain performing cognitive tasks such as seeing images or listening to music, and learn about what neuroscientists study. The project first introduces the foundations of the perception process of the brains with visual storytelling and then visualizes the dynamic process of how different brain regions interact to perform these cognitive tasks. Through this journey, readers can better understand how the human brains process information in an organized, systematic and hierarchical way. They will perceive the underlying neural mechanisms behind seemingly daily tasks, arrive at the research frontiers of cognitive and computational neuroscience, and revisit their philosophical stances of life about how our consciousness and thinking processes are formed.",
+      "name": "Baihan Lin",
+      "repo": "https://github.com/doerlbh/neuroviz",
+      "subtitle": "A Journey into the Inner Self of your Perception",
+      "title": "Brain Experience",
+      "url": "https://howbrain.work/",
+      "year": 2022,
+      "image": "preview-2022/Lin.png",
+      "video": "BaihanLin_2022.mp4",
+      "tags": [
+        "health",
+        "community"
+      ],
+      "portfolio": "https://www.baihan.org/"
+    },
+    {
+      "description": "With the increasing wealth of Generation Z and the rapid diversification of entertainment, the blind box industry has made a big splash in the financial market. A blind box is a package with mystery contents that customers purchase from a particular brand. Under the leadership of some blind box companies and social media accounts, blind boxes have achieved huge market success in China in recent years. When toys become the hobby of \u2018adults\u2019, they bring cultural and business opportunities and challenges that should not be underestimated. Blind boxes, it may be inferred, have met customers' psychology of curiosity, pursuit of beauty, nostalgic mood, and need for companionship. What is blind box, and why did it go viral? presents the history of how the blind box market developed since it was introduced to China and explores the psychological reasons why people are so addicted to it. This data visualization project focuses on how the blind box market became popular, the huge potential behind it, and why people are so addicted to blind boxes, as well as the psychological research behind it. Viewers of this project can get to know the famous IPs, the comparison with art toys, and filter out the economic growth and potential financial market year by year with both text narration and visual presentations.",
+      "name": "Wenqin Lu",
+      "repo": "https://github.com/kanodesu/Thesis",
+      "subtitle": " ",
+      "title": "What is Blind Box, and Why did it go Viral?",
+      "url": "https://kanodesu.github.io/Thesis/app/",
+      "year": 2022,
+      "image": "preview-2022/Lu.png",
+      "video": "WenqinLu_2022.mp4",
+      "tags": [
+        "art",
+        "fashion"
+      ],
+      "portfolio": "https://github.com/kanodesu/Thesis"
+    },
+    {
+      "description": "From the Ground Up explores the current landscape of plant data presently available to potential growers with the aim of fostering participation, curiosity, and confidence in applying plant data. The project explores data aggregated from Plants for a Future, USDA, and National Gardening Association to invite users to identify plant cultivation needs and practical uses that fit their needs. The visualizations focus on representing use cases most relevant to urban farming in New York City, prioritizing data for plants that grow successfully in temperate climate zones. Users can filter data for more than 7,000 plants based on plant needs, plant tolerances, and aggregated consumable uses. The visualizations further connect to other online resources and provide information to enable users\u2019 self-education and encourage in-person connection and continued participation in sustainable food growing practices in their communities and at home. From the Ground Up aims to make plant research more exciting and accessible to larger communities and to implement modern data practices within collective horticultural knowledge.",
+      "name": "Shea Molloy",
+      "repo": "https://github.com/papermashea/thesis",
+      "subtitle": "Exploring Edible and Medicinal Plant Data for Sustainable Systems",
+      "title": "From the Ground Up",
+      "url": "https:///papermashea.github.io/thesis",
+      "year": 2022,
+      "image": "preview-2022/Molloy.png",
+      "video": "SheaMolloy_2022.mp4",
+      "tags": [
+        "climate",
+        "environment"
+      ],
+      "portfolio": "https://github.com/papermashea/thesis"
+    },
+    {
+      "description": "In an art gallery or museum, a viewer is typically engaged in a one-way reading process: they study a piece on their own. The gallery is not built as a participatory environment, but as a space for silent, solo viewing. Beyond the physical design of the gallery, each individual is limited to language as the primary means to communicate their thoughts on a piece of artwork. We cannot see how others see. And as a result, we may not understand how others connect to (or do not connect to) a given piece of artwork. Could showing how someone gazes at art connect us closer to that piece? Could doing so bring us closer to that person, and their perspective in that moment? How We Gaze is a project that visualizes how individuals study art through the use of eye-tracking and web-based data visualization. Within its interface, individuals are invited to view pieces of artwork, and see their gaze visualized alongside others\u2019 in real-time. In visualizing how we look at art, How We Gaze attempts to connect viewers both to a curated set artwork and to the individuals who gazed at it.",
+      "name": "Omar Nema",
+      "repo": "https://github.com/omar-nema/how-we-gaze/",
+      "subtitle": "Visualizing How we Look at Artwork",
+      "title": "How We Gaze",
+      "url": "http://omarnema.com/how-we-gaze/",
+      "year": 2022,
+      "image": "preview-2022/Nema.png",
+      "video": "OmarNema_2022.mp4",
+      "tags": [
+        "art",
+        "fashion"
+      ],
+      "portfolio": "https://omarnema.com/"
+    },
+    {
+      "description": "New York City is by many measures the most culturally and socioeconomically diverse cities in America. Coupled with NYC\u2019s massive population and intercity transit system, these factors put together have created the conditions for a diverse and interesting population of subway riders in NYC. Many people recognize and appreciate this fact, as there are several extremely popular social media accounts that capture the quirks, beautiful moments, and many inadequacies of the city's subway system. While these social media accounts provide a highly subjective and qualitative view of the demographics of the subway system, there have not been many efforts to quantify and visualize these demographics. This is important because these demographics, quirks, and inadequacies of the subway system have their roots in many different factors, including city politics, systemic inequality, and the hyper-capitalistic structure of the city itself. This visualization seeks to present a humanistic perspective of the diversity of the city, from the inside of a subway car. The visualization takes into account actual subway ridership data, neighborhood demographic data, to provide a holistic representation of a ride on the L train, from one side of the city to the other.",
+      "name": "Jeremy Odell",
+      "repo": "https://github.com/jeremy0dell/major-studio-2",
+      "subtitle": "How Data Drives The MTA",
+      "title": "Is This Your Stop? ",
+      "url": "https://jeremy0dell.github.io/is-this-your-stop-mta/",
+      "year": 2022,
+      "image": "preview-2022/Odell.png",
+      "video": "JeremyOdell_2022.mp4",
+      "tags": [
+        "health",
+        "community"
+      ],
+      "portfolio": "https://github.com/jeremy0dell/major-studio-2"
+    },
+    {
+      "description": "Fashion and its History: Does it Repeat Itself? is a visualization that illustrates the popularity of different fashion styles and seeks to identify patterns in trend history. Information exchange in the contemporary world is constant and new fashion trends or patterns emerge and are influenced by a variety of sources. Fashion change over time cannot be explained by a particular theory, catalyst or cycle. Forecasting future trends is a complex process as drivers of change in fashion culture are vast and patterns in the fashion cycle are difficult to discern. This data visualization explores the popularity of past trends and aims to identify a pattern in a subset of styles that have been recycled throughout the years. Data from the archives of Vogue, a globally celebrated and recognized fashion magazine, is collected over roughly 140 years for a subset of 20 iconic styles. The data visualization synthesizes the number of times a particular style appears in a Vogue magazine edit during a decade and illustrates the popularity of a style during that time period. Research of fashion history and theory as well as social, cultural and technological factors throughout this thesis builds on the visualization\u2019s trend analysis with the hope of better understanding what drives changes in fashion culture. Research and visual analysis of trend patterns for this thesis is conducted with the goal of helping users better understand the fashion landscape and identify indicators that may be useful in the prediction of future fashion trends or recycled styles.",
+      "name": "Kasey Zhuravlev",
+      "repo": "https://github.com/zhurk746/MAJOR_STUDIO_2/tree/main/fashion-project",
+      "subtitle": "Does it Repeat Itself?",
+      "title": "Fashion and its History",
+      "url": "https://zhurk746.github.io/MAJOR_STUDIO_2/",
+      "year": 2022,
+      "image": "preview-2022/Zhuravlev.png",
+      "video": "KaseyZhuravlev_2022.mp4",
+      "tags": [
+        "art",
+        "fashion"
+      ],
+      "portfolio": "https://zhibang.design"
+    },
+    {
       "description": "This visualization explores the trends in flight cancellations and passenger complaints for some major airline carriers operating in the civil aviation sector of India\u2019s transportation for \u201cyear\u201ds 2014-18. These trends are visualizaed based on temperature and rainfall trends(2014-2018) and upcoming holidays(2019). Being a tropical country, India experiences prominent seasons that inflence air travel, specifically, the flight experience.",
       "image": "preview-2019/aaditi.png",
       "name": "Aaditi Rokade",
@@ -93,7 +285,7 @@
       ],
       "title": "How is Delhi Slowing Down?",
       "url": "http://parsons.nyc/thesis-2017/aseemAgarwal/",
-      "video": "https://github.com/visualizedata/thesis/blob/main/assets/media/AseemAgarwal_2017.mp4?raw=true",
+      "video": "AseemAgarwal_2017.mp4",
       "year": 2017
     },
     {
@@ -125,7 +317,7 @@
       ],
       "title": "Feeling.it",
       "url": "https://parsons.nyc/thesis-2016/barbaraCompagnoni/",
-      "video": "https://github.com/visualizedata/thesis/blob/main/assets/media/BarbaraCompagnoni_2016.mp4?raw=true",
+      "video": "BarbaraCompagnoni_2016.mp4",
       "year": 2016
     },
     {
@@ -157,7 +349,7 @@
       ],
       "title": "The Los Angeles Riots 1992",
       "url": "https://parsons.nyc/thesis-2018/benzaminYi",
-      "video": "https://github.com/visualizedata/thesis/blob/main/assets/media/BenzaminYi_2018.mp4?raw=true",
+      "video": "BenzaminYi_2018.mp4",
       "year": 2018
     },
     {
@@ -285,7 +477,7 @@
       ],
       "title": "Nice To Meet You",
       "url": "http://beta.youmeet.me/who/similarity/default",
-      "video": "https://github.com/visualizedata/thesis/blob/main/assets/media/ElenaPaunova_2018.mp4?raw=true",
+      "video": "ElenaPaunova_2018.mp4",
       "year": 2018
     },
     {
@@ -301,7 +493,7 @@
       ],
       "title": "An Exploration of the Movement #metoo",
       "url": "https://parsons.nyc/thesis-2018/ellieFrymire",
-      "video": "https://github.com/visualizedata/thesis/blob/main/assets/media/EllieFrymire_2018.mp4?raw=true",
+      "video": "EllieFrymire_2018.mp4",
       "year": 2018
     },
     {
@@ -381,7 +573,7 @@
       ],
       "title": "Strength in Numbers",
       "url": "https://parsons.nyc/thesis-2018/georgeSieniawski/public/",
-      "video": "https://github.com/visualizedata/thesis/blob/main/assets/media/GeorgeSieniawski_2018.mp4?raw=true",
+      "video": "GeorgeSieniawski_2018.mp4",
       "year": 2018
     },
     {
@@ -445,7 +637,7 @@
       ],
       "title": "Glimpse",
       "url": "http://parsons.nyc/thesis-2016/jacobRomer/",
-      "video": "https://github.com/visualizedata/thesis/blob/main/assets/media/JacobRomer_2016.mp4?raw=true",
+      "video": "JacobRomer_2016.mp4",
       "year": 2016
     },
     {
@@ -461,7 +653,7 @@
       ],
       "title": "Taxonomic Bias",
       "url": "https://parsons.nyc/thesis-2016/jaimeTanner/project.html",
-      "video": "https://github.com/visualizedata/thesis/blob/main/assets/media/JaimeTanner_2016.mp4?raw=true",
+      "video": "JaimeTanner_2016.mp4",
       "year": 2016
     },
     {
@@ -573,7 +765,7 @@
       ],
       "title": "On and Beyond the Edge",
       "url": "https://parsons.nyc/thesis-2018/julianLange",
-      "video": "https://github.com/visualizedata/thesis/blob/main/assets/media/JulianLange_2018.mp4?raw=true",
+      "video": "JulianLange_2018.mp4",
       "year": 2018
     },
     {
@@ -589,7 +781,7 @@
       ],
       "title": "Leadership Gender Gap",
       "url": "https://parsons.nyc/thesis-2016/justineKeller/",
-      "video": "https://github.com/visualizedata/thesis/blob/main/assets/media/JustineKeller_2016.mp4?raw=true",
+      "video": "JustineKeller_2016.mp4",
       "year": 2016
     },
     {
@@ -605,7 +797,7 @@
       ],
       "title": "What Movies Are Selling You",
       "url": "https://parsons.nyc/thesis-2018/kevinLee",
-      "video": "https://github.com/visualizedata/thesis/blob/main/assets/media/KevinLee_2018.mp4?raw=true",
+      "video": "KevinLee_2018.mp4",
       "year": 2018
     },
     {
@@ -685,7 +877,7 @@
       ],
       "title": "The Influencers",
       "url": "https://parsons.nyc/thesis-2018/maxCarradine/thesis",
-      "video": "https://github.com/visualizedata/thesis/blob/main/assets/media/MaxCarradine_2018.mp4?raw=true",
+      "video": "MaxCarradine_2018.mp4",
       "year": 2018
     },
     {
@@ -813,7 +1005,7 @@
       ],
       "title": "Cambrian Analytica",
       "url": "https://parsons.nyc/thesis-2019/nicStark/MicroSite/",
-      "video": "https://github.com/visualizedata/thesis/blob/main/assets/media/NicStark_2019.mov?raw=true",
+      "video": "NicStark_2019.mp4",
       "year": 2019
     },
     {
@@ -845,7 +1037,7 @@
       ],
       "title": "Wave9",
       "url": "https://parsons.nyc/thesis-2017/pjMoriarty/index.html",
-      "video": "https://github.com/visualizedata/thesis/blob/main/assets/media/PJMoriarty_2017.mp4?raw=true",
+      "video": "PJMoriarty_2017.mp4",
       "year": 2017
     },
     {
@@ -861,7 +1053,7 @@
       ],
       "title": "A Century of American Food",
       "url": "https://parsons.nyc/thesis-2018/rikGhosh",
-      "video": "https://github.com/visualizedata/thesis/blob/main/assets/media/RikGhosh_2018.mp4?raw=true",
+      "video": "RikGhosh_2018.mp4",
       "year": 2018
     },
     {
@@ -877,7 +1069,7 @@
       ],
       "title": "Mapping Dada",
       "url": "http://www.mappingdada.info/",
-      "video": "https://github.com/visualizedata/thesis/blob/main/assets/media/RileyHoonan_2017.mp4?raw=true",
+      "video": "RileyHoonan_2017.mp4",
       "year": 2017
     },
     {
@@ -925,7 +1117,7 @@
       ],
       "title": "Vegetation and Socioeconomic Shifts",
       "url": "https://parsons.nyc/thesis-2018/ryeZupancis",
-      "video": "https://github.com/visualizedata/thesis/blob/main/assets/media/RyeZupancis_2018.mp4?raw=true",
+      "video": "RyeZupancis_2018.mp4",
       "year": 2018
     },
     {
@@ -973,7 +1165,7 @@
       ],
       "title": "Canada\u2018s Indian Residential School System",
       "url": "https://parsons.nyc/thesis-2017/samVickars/",
-      "video": "https://github.com/visualizedata/thesis/blob/main/assets/media/SamVickars_2017.mp4?raw=true",
+      "video": "SamVickars_2017.mp4",
       "year": 2017
     },
     {
@@ -1021,7 +1213,7 @@
       ],
       "title": "Patterns of Professional Identity in STEM",
       "url": "https://parsons.nyc/thesis-2018/stevenHubbard/",
-      "video": "https://github.com/visualizedata/thesis/blob/main/assets/media/StevenHubbard_2018.mp4?raw=true",
+      "video": "StevenHubbard_2018.mp4",
       "year": 2018
     },
     {
@@ -1085,7 +1277,7 @@
       ],
       "title": "Bacteria Invasion",
       "url": "https://parsons.nyc/thesis-2018/yicenShi/visualizations",
-      "video": "https://github.com/visualizedata/thesis/blob/main/assets/media/YicenShi_2018.mp4?raw=true",
+      "video": "YicenShi_2018.mp4",
       "year": 2018
     },
     {

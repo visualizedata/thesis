@@ -21,7 +21,7 @@
         &#10005;
       </div>
       <video controls autoplay>
-        <source :src="videoStudent" type="video/mp4" />
+        <source :src="require(`@/assets/media/${videoStudent}`)" type="video/mp4" />
       </video>
     </div>
   </div>
