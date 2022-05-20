@@ -90,7 +90,7 @@ export default {
       const img = $el.querySelector("img");
 
       if (entry.isIntersecting) {
-        img.src = require(`@/assets/images/${image}`);
+        img.src = require(`@/assets/images/${image}`);        
         this.observer.disconnect();
       }
     });
