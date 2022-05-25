@@ -70,12 +70,8 @@ export default {
           key: "Contributors",
           values: [
             {
-              name: "Zui Chen, Class of 2020",
-              url: "https://www.zui-c.com/",
-            },
-            {
-              name: "Xingwei Huang, Class of 2020",
-              url: "http://xingwei.work/",
+              name: "Jiahui Han, Class of 2022",
+              url: "https://jessiehanjiahui.com/",
             },
             {
               name: "Yujun Jiang, Class of 2021",
@@ -84,6 +80,15 @@ export default {
             {
               name: "Shea Molloy, Class of 2021",
               url: "https://sheamolloy.info/",
+            },
+
+            {
+              name: "Zui Chen, Class of 2020",
+              url: "https://www.zui-c.com/",
+            },
+            {
+              name: "Xingwei Huang, Class of 2020",
+              url: "http://xingwei.work/",
             },
           ],
         },
