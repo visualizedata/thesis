@@ -21,9 +21,7 @@
         &#10005;
       </div>
       <video controls autoplay>
-        <!-- previously: videoStudent is absolute path, so <source :src="videoStudent" type="video/mp4" /> -->
-        <!-- if videos are hosted locally, we need src="require(`@/assets/media/${videoStudent}`)"  -->
-        <!-- Temporary: use requireVideoUrl() to return a video url depending on the scenarios above -->
+        <!-- use requireVideoUrl() to return a video url depending on different scenarios -->
          <source :src="requireVideoUrl()" type="video/mp4" />
       </video>
     </div>
@@ -56,7 +54,8 @@ export default {
     
     requireVideoUrl(){
      if (this.videoStudent !== null){
-        return this.videoStudent.includes('http') ? this.videoStudent : require(`@/assets/media/${this.videoStudent}`)
+        return this.videoStudent.includes('http') ? this.videoStudent 
+               : `https://media.githubusercontent.com/media/visualizedata/thesis/main/media/${this.videoStudent}`
      }
       
      else return ""
